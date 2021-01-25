@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: "shortcut icon", type: 'image/png', href: "/images/logo.png"}],
   ],
-  base: '/wiki/',
+  base: '/',
   themeConfig: {
     logo: '/images/logo.png',
     nav: [
