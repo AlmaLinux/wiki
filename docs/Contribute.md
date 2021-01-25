@@ -14,4 +14,10 @@ on [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 ## Improve the documentation
 
-TBD
+There are two options to submit a documentation update pull-request:
+
+* Follow the "Edit this page" link on a wiki page to open the GitHub
+  embedded Markdown editor, edit the page and submit your changes for review.
+* Fork the [repository](https://github.com/AlmaLinux/wiki), edit or create
+  a page, commit your changes and create a pull-request as described in the
+  GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
