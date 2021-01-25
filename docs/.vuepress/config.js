@@ -14,6 +14,12 @@ module.exports = {
     ],
     sidebar: [
       '/',
+      {
+        title: 'Release notes',
+        children: [
+          '/release-notes/8.3-beta'
+        ]
+      },
       '/Contribute'
     ],
     // AlmaLinux organization on GitHub
