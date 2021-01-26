@@ -20,6 +20,7 @@ module.exports = {
           '/release-notes/8.3-beta'
         ]
       },
+      '/FAQ',
       '/Contribute'
     ],
     // AlmaLinux organization on GitHub
