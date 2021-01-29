@@ -16,3 +16,9 @@ it is built by the creators of the established
 * [blog.almalinux.org](https://blog.almalinux.org) - blog
 * [bugs.almalinux.org](https://bugs.almalinux.org) - bug tracker
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
+
+
+## License
+
+This Wiki content is licensed under a [Creative Commons Attribution-ShareAlike
+4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
