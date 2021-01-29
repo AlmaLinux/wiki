@@ -29,6 +29,8 @@ module.exports = {
     docsRepo: 'AlmaLinux/wiki',
     docsDir: 'docs',
     docsBranch: 'master',
-    editLinks: true
+    // editing works only for users with the repository write-access so we
+    // disabled it to avoid confusion
+    editLinks: false
   }
 }
