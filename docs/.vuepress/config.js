@@ -20,6 +20,12 @@ module.exports = {
           '/release-notes/8.3-beta'
         ]
       },
+      {
+        title: 'Development',
+        children: [
+          '/development/Packaging'
+        ]
+      },
       '/FAQ',
       '/Contribute'
     ],
