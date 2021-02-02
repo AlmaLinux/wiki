@@ -7,16 +7,16 @@ title: 'Contribute'
 ## Help with reporting bugs and making fixes
 
 To make AlmaLinux successful, we need the close involvement of the community
-members. We use our own bug tracking system to find, track, and fix bugs and
-ask AlmaLinux users to help us by filling in bug-reports. You can track and
+members. We use our bug tracking system to find, track, and fix bugs. We
+encourage AlmaLinux users to help us by filling in bug-reports. You can track and
 discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 
 ## Improve the documentation
 
 It makes no sense to talk about the importance of documentation, it is like
-an investment in the future. It can take time and en energy but it is very
-important to create a full and comprehensive documentation together.
+an investment in the future. It can take time and energy, but it is 
+essential to create full and comprehensive documentation together.
 
 If you want to participate, do the following:
 
@@ -25,7 +25,7 @@ If you want to participate, do the following:
 3. Commit your changes.
 4. Create a pull-request as described in the GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-The Wiki is powered by [VuePress](https://vuepress.vuejs.org/) so it's pretty
+The Wiki is powered by [VuePress](https://vuepress.vuejs.org/), so it's pretty
 easy to run it locally (run all commands from the project's root):
 
 1. Install necessary dependencies:
