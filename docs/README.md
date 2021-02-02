@@ -16,6 +16,7 @@ it is built by the creators of the established
 * [blog.almalinux.org](https://blog.almalinux.org) - blog
 * [bugs.almalinux.org](https://bugs.almalinux.org) - bug tracker
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
+* [repo.almalinux.org](https://repo.almalinux.org/) - public repo
 
 
 ## License
