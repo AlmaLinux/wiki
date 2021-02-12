@@ -26,6 +26,7 @@ module.exports = {
           '/development/Packaging'
         ]
       },
+      '/Mirrors',
       '/FAQ',
       '/Contribute'
     ],
