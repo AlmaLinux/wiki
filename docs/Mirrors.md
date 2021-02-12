@@ -8,18 +8,20 @@ infrastructure, and we are very grateful to people and organizations that
 help us with this. The current list of public mirrors can be found on the
 [mirrors.almalinux.org](https://mirrors.almalinux.org/) website.
 
-You can create a public AlmaLinux mirror in 3 easy steps:
+You can create a public AlmaLinux mirror in 4 easy steps:
 
-1. Synchronize with the official AlmaLinux mirror via rsync:  
+1. Make sure that you have enough free space: 150Gb is the absolute minimum
+   but we recommend reserving at least 250Gb.
+2. Synchronize with the official AlmaLinux mirror via rsync:  
    ```shell
    /usr/bin/rsync -avSHP --delete rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
    ```
-2. Create a cron task to sync it periodically (we recommend updating the
+3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```
    0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c /usr/bin/rsync -avSHP --delete rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
    ```
-3. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
+4. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
    repository and create a pull request that will add a YAML file describing
    your mirror to the `mirrors.d` directory.
    You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
