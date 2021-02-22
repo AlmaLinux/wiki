@@ -18,6 +18,7 @@ it is built by the creators of the established
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
 * [repo.almalinux.org](https://repo.almalinux.org/) - public repo
 * [hub.docker.com/u/almalinux](https://hub.docker.com/u/almalinux) - AlmaLinux Docker Hub organization
+* [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
 
 
 ## License
