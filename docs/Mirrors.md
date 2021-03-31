@@ -19,7 +19,7 @@ You can create a public AlmaLinux mirror in 4 easy steps:
 3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```
-   0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c /usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
+   0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
 4. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
    repository and create a pull request that will add a YAML file describing
