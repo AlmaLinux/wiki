@@ -24,7 +24,7 @@ Fedora-like distribution but who do not want to or cannot pay for a RHEL
 license.
 
 
-# Why is it called _AlmaLinux_?
+### Why is it called _AlmaLinux_?
 
 Alma means soul in Spanish and other Latin languages. A vital part
 of Linux is the passionate, diverse developer community either helping
