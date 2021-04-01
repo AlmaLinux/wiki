@@ -11,15 +11,9 @@ AlmaLinux is a 1:1 binary compatible fork of RHEL.
 
 ### Can I do X, Y, or Z with AlmaLinux?
 
-If currently possible in either RHEL or CentOS, the answer is yes. 
-Unless RHEL dramatically shifts development direction, our response 
+If currently possible in either RHEL or CentOS, the answer is yes.
+Unless RHEL dramatically shifts development direction, our response
 will continue to be yes.
-
-
-### When will it be released?
-
-We are currently aiming for a beta release at the end of January or the
-beginning of February.
 
 
 ### Intended user
@@ -29,13 +23,14 @@ objectives. Individuals and organizations that require an enterprise-grade,
 Fedora-like distribution but who do not want to or cannot pay for a RHEL
 license.
 
+
 # Why is it called _AlmaLinux_?
 
 Alma means soul in Spanish and other Latin languages. A vital part
-of Linux is the passionate, diverse developer community either helping 
+of Linux is the passionate, diverse developer community either helping
 support the work of Linux and other essential activities that advance Linux.
 This community is the soul of Linux, and Linux distribution users are indebted
-to the Linux community's efforts. We chose the name AlmaLinux in homage to the 
+to the Linux community's efforts. We chose the name AlmaLinux in homage to the
 Linux community.
 
 
