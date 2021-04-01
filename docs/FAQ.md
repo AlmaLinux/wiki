@@ -74,5 +74,4 @@ reason, you can rapidly migrate any number of servers with just one command.
 
 CloudLinux is committed to supporting AlmaLinux until 2029, including stable
 and thoroughly tested updates and security patches. Read more about CloudLinux
-support in the [CloudLinux announcement]
-(https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux).
+support in the [CloudLinux announcement](https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux).
