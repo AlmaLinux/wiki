@@ -1,6 +1,6 @@
 {
-  "name": "wiki",
-  "version": "0.1",
+  "name": "wiki.almalinux.org",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
