@@ -14,7 +14,9 @@
 * [Freenode IRC](https://webchat.freenode.net/#almalinux) - IRC real time chat
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
 * [repo.almalinux.org](https://repo.almalinux.org/) - public repo
-* [hub.docker.com/u/almalinux](https://hub.docker.com/u/almalinux) - AlmaLinux Docker Hub organization
+* Container images:
+  * [quay.io/organization/almalinux](https://quay.io/organization/almalinux) - AlmaLinux Quay.io organization
+  * [hub.docker.com/u/almalinux](https://hub.docker.com/u/almalinux) - AlmaLinux Docker Hub organization
 * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
 
 
