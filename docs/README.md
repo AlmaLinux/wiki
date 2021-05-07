@@ -18,6 +18,7 @@
   * [quay.io/organization/almalinux](https://quay.io/organization/almalinux) - AlmaLinux Quay.io organization
   * [hub.docker.com/u/almalinux](https://hub.docker.com/u/almalinux) - AlmaLinux Docker Hub organization
 * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
+* [aws.amazon.com/marketplace/pp/B094C8ZZ8J](https://aws.amazon.com/marketplace/pp/B094C8ZZ8J) - AlmaLinux OS 8 AWS AMI
 
 
 ## License
