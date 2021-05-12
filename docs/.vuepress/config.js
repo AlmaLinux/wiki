@@ -15,6 +15,12 @@ module.exports = {
     sidebar: [
       '/',
       {
+        title: 'Cloud',
+        children: [
+          '/cloud/AWS'
+        ]
+      },
+      {
         title: 'Release notes',
         children: [
           '/release-notes/8.3-beta',
