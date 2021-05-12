@@ -1,5 +1,5 @@
 ---
-title: 'IRC Channels'
+title: 'Community Platforms'
 ---
 
 # AlmaLinux IRC Channels
@@ -20,3 +20,9 @@ Please observe the AlmaLinux [Code of Conduct](coc.md) and respect your fellow u
 | #almalinux-security | Security-specific discussion and support |
 | #almalinux-social | Off-topic banter |
 | #almalinux-storage | (SIG) Storage-specific discussion (GlusterFS, etc.)
+
+# Mattermost
+
+AlmaLinux operates a Mattermost instance at https://chat.almalinux.org.
+
+This instance is open to the public; contributors are highly encouraged to sign up!
