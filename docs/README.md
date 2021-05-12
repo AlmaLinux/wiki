@@ -11,6 +11,7 @@
 * [almalinux.org](https://almalinux.org/) - official web site
 * [blog.almalinux.org](https://blog.almalinux.org) - blog
 * [bugs.almalinux.org](https://bugs.almalinux.org) - bug tracker
+* [chat.almalinux.org](https://chat.almalinux.org) - Mattermost Chat
 * [Freenode IRC](https://webchat.freenode.net/#almalinux) - IRC real time chat
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
 * [repo.almalinux.org](https://repo.almalinux.org/) - public repo
