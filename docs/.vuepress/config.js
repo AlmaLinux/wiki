@@ -9,7 +9,7 @@ module.exports = {
     logo: '/images/logo.png',
     nav: [
       { text: 'Home', link: 'https://almalinux.org/' },
-      { text: 'Blog', link: 'https://blog.almalinux.org/' },
+      { text: 'Chat', link: 'https://chat.almalinux.org/' },
       { text: 'Bugs', link: 'https://bugs.almalinux.org/' }
     ],
     sidebar: [
@@ -37,7 +37,7 @@ module.exports = {
       },
       '/Mirrors',
       '/FAQ',
-      '/Contribute'
+      '/Contributing to the Wiki'
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',
