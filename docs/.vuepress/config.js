@@ -37,7 +37,7 @@ module.exports = {
       },
       '/Mirrors',
       '/FAQ',
-      '/Contributing to the Wiki'
+      '/Contribute'
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',
