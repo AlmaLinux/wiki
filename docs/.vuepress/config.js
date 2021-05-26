@@ -26,7 +26,8 @@ module.exports = {
           '/release-notes/8.3-beta',
           '/release-notes/8.3-rc',
           '/release-notes/8.3',
-          '/release-notes/8.4-beta'
+          '/release-notes/8.4-beta',
+          '/release-notes/8.4'
         ]
       },
       {
