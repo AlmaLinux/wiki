@@ -16,8 +16,8 @@
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
 * [repo.almalinux.org](https://repo.almalinux.org/) - public repo
 * Container images:
-  * [quay.io/organization/almalinux](https://quay.io/organization/almalinux) - AlmaLinux Quay.io organization
-  * [hub.docker.com/u/almalinux](https://hub.docker.com/u/almalinux) - AlmaLinux Docker Hub organization
+  * [hub.docker.com/_/almalinux](https://hub.docker.com/_/almalinux) - AlmaLinux official images on Docker Hub
+  * [quay.io/repository/almalinux/almalinux](https://quay.io/repository/almalinux/almalinux) - AlmaLinux official images on Quay.io
 * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
 * [aws.amazon.com/marketplace/pp/B094C8ZZ8J](https://aws.amazon.com/marketplace/pp/B094C8ZZ8J) - AlmaLinux OS 8 AWS AMI
 
