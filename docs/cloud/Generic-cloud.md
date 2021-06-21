@@ -6,9 +6,8 @@ title: 'Generic Cloud (cloud-init)'
 The Generic Cloud image is a general purpose virtual machine image that
 contains the [cloud-init](https://cloud-init.io/) package. During boot,
 cloud-init will take configuration options from cloud metadata and
-initialize a system accordingly to it. This may include network
-configuration, user's SSH key pair injection, attaching store devices,
-and so on.
+initialize a system accordingly. This may include network
+configuration, user's SSH key pair installation, attaching storage devices, etc.
 
 
 ## Download and verification
@@ -33,7 +32,7 @@ below because you already have the key stored in the
 $ curl -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux -o RPM-GPG-KEY-AlmaLinux
 ```
 
-print the key fingerprint:
+Print the key fingerprint:
 
 ```
 $ gpg --with-subkey-fingerprints RPM-GPG-KEY-AlmaLinux
@@ -44,13 +43,13 @@ uid           AlmaLinux <packager@almalinux.org>
 sub   rsa3072 2021-01-12 [S] [expires: 2024-01-12]
 ```
 
-the fingerprint is `5E9B8F5617B5066CE92057C3488FCF7C3ABB34F8`. If you see a
+The fingerprint is `5E9B8F5617B5066CE92057C3488FCF7C3ABB34F8`. If you see a
 different fingerprint, it means you downloaded a compromised file. Please,
 [let us know](mailto:security@almalinux.org) a mirror from which you
 downloaded the file, remove the file and retry the download from another
 mirror.
 
-next you need to import the key:
+Next you need to import the key:
 
 ```
 $ gpg --import RPM-GPG-KEY-AlmaLinux
@@ -69,7 +68,7 @@ $ curl -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/CHECKSUM -o
 $ curl -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/CHECKSUM.asc -o CHECKSUM.asc
 ```
 
-verify the checksum file signature:
+Verify the checksum file signature:
 
 ```
 $ gpg --verify CHECKSUM.asc CHECKSUM
@@ -82,7 +81,7 @@ Primary key fingerprint: 5E9B 8F56 17B5 066C E920  57C3 488F CF7C 3ABB 34F8
      Subkey fingerprint: E53C F5EF 91CE B0AD 1812  ECB8 51D6 647E C21A D6EA
 ```
 
-make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"`
+Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"`
 message in the output.
 
 Download the latest image version:
@@ -99,5 +98,5 @@ $ sha256sum -c CHECKSUM 2>&1 | grep OK
 AlmaLinux-8-GenericCloud-latest.x86_64.qcow2: OK
 ```
 
-if output is different, you should download the image again. Trying another
+If the output is different, you should download the image again. Trying another
 mirror may be a good idea.
