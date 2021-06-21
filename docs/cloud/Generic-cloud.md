@@ -65,8 +65,8 @@ gpg:               imported: 1
 Download checksum file and its signature first:
 
 ```
-$ curl -s http://mirrors.zamriy.info/almalinux/8/cloud/x86_64/images/CHECKSUM -o CHECKSUM
-$ curl -s http://mirrors.zamriy.info/almalinux/8/cloud/x86_64/images/CHECKSUM.asc -o CHECKSUM.asc
+$ curl -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/CHECKSUM -o CHECKSUM
+$ curl -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/CHECKSUM.asc -o CHECKSUM.asc
 ```
 
 verify the checksum file signature:
