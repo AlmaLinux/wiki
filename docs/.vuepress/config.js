@@ -28,7 +28,8 @@ module.exports = {
       {
         title: 'Cloud',
         children: [
-          '/cloud/AWS'
+          '/cloud/AWS',
+          '/cloud/Generic-cloud'
         ]
       },
       {
