@@ -10,8 +10,8 @@ help us with this. The current list of public mirrors can be found on the
 
 You can create a public AlmaLinux mirror in 4 easy steps:
 
-1. Make sure that you have enough free space: 150Gb is the absolute minimum
-   but we recommend reserving at least 250Gb.
+1. Make sure that you have enough free space: 300Gb is the absolute minimum
+   but we recommend reserving at least 500Gb.
 2. Synchronize with the official AlmaLinux mirror via rsync:  
    ```shell
    /usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
