@@ -21,6 +21,8 @@
 * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
 * [aws.amazon.com/marketplace/pp/B094C8ZZ8J](https://aws.amazon.com/marketplace/pp/B094C8ZZ8J) - AlmaLinux OS 8 AWS AMI
 
+## Transparency Statement
+We strive to be transparent & community owned, here is our [progress toward that goal](Transparency.md)
 
 ## License
 
