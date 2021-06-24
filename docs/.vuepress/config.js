@@ -36,7 +36,8 @@ module.exports = {
         title: 'Special interest groups',
         path: '/sigs/',
         children: [
-          '/sigs/Core'
+          '/sigs/Core',
+          '/sigs/Cloud'
         ]
       },
       {
