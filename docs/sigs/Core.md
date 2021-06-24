@@ -14,7 +14,7 @@ chat channel for communication.
 ## Deliverables
 
 * The AlmaLinux OS distribution.
-* The mirrors infrastructure: [almaLinux/mirrors](https://github.com/almaLinux/mirrors).
+* The mirrors infrastructure: [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors).
 * The migration script: [AlmaLinux/almalinux-deploy](https://github.com/AlmaLinux/almalinux-deploy/).
 * Bug reports processing: [bugs.almalinux.org](https://bugs.almalinux.org/).
 
