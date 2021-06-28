@@ -47,7 +47,7 @@ The pre-built AlmaLinux OS images are listed below:
 * Technical writers for working on documentation.
 * DevOps engineers for setting up and maintaing the related infrastructure.
 
-If you can help, please join us at [Core SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcore) 
+If you can help, please join us at [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) 
 
 
 ## SIG members
