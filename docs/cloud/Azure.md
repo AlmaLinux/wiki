@@ -16,4 +16,4 @@ are no fees for traffic related to OS updates.
 - Figure out the best way to make sure that DNF will select the mirror from 
   the same region in Azure as the server from which DNF is running
 
-If you can help, please join us at [chat.almalinux.org/almalinux/channels/sigcloud](https://chat.almalinux.org/almalinux/channels/sigcloud) 
+If you can help, please join us at [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) 
