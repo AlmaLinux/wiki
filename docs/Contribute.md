@@ -38,3 +38,9 @@ easy to run it locally (run all commands from the project's root):
    ```
 3. Your local Wiki instance should be up and running on
    [http://localhost:8080/](http://localhost:8080/).
+
+
+## Help with Azure mirrors deployment
+
+We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic.
+More info [here](/cloud/Azure).
