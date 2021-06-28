@@ -50,7 +50,7 @@ The pre-built AlmaLinux OS images are listed below:
 
 ## SIG members
 
-* Bala Raman - Works on container images and related tooling.
+* [Bala Raman](mailto:srbala@gmail.com) - Works on container images and related tooling.
   * Chat login: [srbala](https://chat.almalinux.org/almalinux/messages/@srbala)
   * GitHub profile: [srbala](https://github.com/srbala)
 * [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Qemu/Libvirt support.
