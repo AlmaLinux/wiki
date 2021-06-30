@@ -13,7 +13,7 @@ title: "EL8 Distro Comparison"
 |Commercial support                          | 3rd party                | Oracle, 3rd parties                            | No. Maybe 3rd Party                         | 3rd party         | 3rd party         |
 |Livepatching service                        | KernelCare               | Oracle Ksplice, KernelCare Available           | KernelCare Available*<br/>(planned, once stable)                      | Not available     | KernelCare, Kpatch |
 |FIPS compliance                             | Planned Q1, 2022         | Yes                                            | Planned                                     | Not available     | FIPS 140-2        |
-|ARM support                                 | Beta                     | Yes                                            | Yes                                        | Yes               | Yes               |
+|ARM support                                 | Yes                      | Yes                                            | Yes                                        | Yes               | Yes               |
 |PowerPC support                             | Planned Q3, 2021         | Yes                                            | No                                          | Yes               | Yes               |
 |SecureBoot                                  | Yes                      | Yes                                            | No                                          | Yes               | Yes               |
 |Owned By:                                   | AlmaLinux OS Foundation  | Oracle Inc                                     | Rocky Enterprise Software Foundation        | Red Hat Inc       | Red Hat Inc       |
