@@ -12,7 +12,7 @@ title: "EL8 Distro Comparison"
 |Lifecycle                                   | 10 Years                 | 10 Years                                       | 10 Years                                    | 5-6 Years         | EOL on 2021-12-31 |
 |Commercial support                          | 3rd party                | Oracle, 3rd parties                            | No. Maybe 3rd Party                         | 3rd party         | 3rd party         |
 |Livepatching service                        | KernelCare               | Oracle Ksplice, KernelCare Available           | KernelCare Available*<br/>(planned, once stable)                      | Not available     | KernelCare, Kpatch |
-|FIPS compliance                             | Planned Q1, 2022         | Yes                                            | Planned                                     | Not available     | FIPS 140-2        |
+|FIPS compliance                             | Planned Q1, 2022         | Yes                                            | Planned                                     | Not available     | Not available        |
 |ARM support                                 | Yes                      | Yes                                            | Yes                                        | Yes               | Yes               |
 |PowerPC support                             | Planned Q3, 2021         | Yes                                            | No                                          | Yes               | Yes               |
 |SecureBoot                                  | Yes                      | Yes                                            | No                                          | Yes               | Yes               |
