@@ -7,7 +7,7 @@ title: "EL8 Distro Comparison"
 |Production Version                          | Since March 2021         | Since 2006                                     | Since June 2021                          | Since 2019        | Since 2004        |
 |Strives 1:1 binary RHEL binary compatibility| Yes                      | Almost*<br/>(some divergance in glibc, openssl and other components)                      | Yes                                         | Compatible within the limits of the [ACG][acg] | Yes               |
 |Regular updates delay                       | About 1 business day     | About 1 business day                           | Unknown                                     | Upstream of RHEL  | About 1 business day |
-|Minor version release delay                 | 1 Week                   | 1 week                                         | Unknown                                      | N/A               | Going to EOL      |
+|Last minor version release delay            | 8 days                   | 8 days                                         | 34 days                                     | N/A               | 16 days           |
 |Errata                                      | Yes                      | Yes                                            | No                                          | No                | No                |
 |Lifecycle                                   | 10 Years                 | 10 Years                                       | 10 Years                                    | 5 Years           | 5 year            |
 |Commercial support                          | 3rd party                | Oracle, 3rd parties                            | No. Maybe 3rd Party                         | 3rd party         | 3rd party         |
