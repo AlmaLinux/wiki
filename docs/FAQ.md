@@ -75,3 +75,11 @@ reason, you can rapidly migrate any number of servers with just one command.
 CloudLinux is committed to supporting AlmaLinux until 2029, including stable
 and thoroughly tested updates and security patches. Read more about CloudLinux
 support in the [CloudLinux announcement](https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux).
+
+### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
+
+Since AlmaLinux is a 1:1 binary compatible fork of RHEL, it should have the
+same bugs as the current release of RHEL.  AlmaLinux recommends following an
+"upstream first" approach to fix these bugs by submitting them to [CentOS
+Stream](https://centos.org/centos-stream/).  This is the contribution path to
+get the bug fix into RHEL, which will in turn be rebuilt into AlmaLinux.

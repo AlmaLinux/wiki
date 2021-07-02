@@ -17,18 +17,20 @@ module.exports = {
       {
         title: 'Release Notes',
         children: [
-          '/release-notes/8.3-beta',
-          '/release-notes/8.3-rc',
-          '/release-notes/8.3',
-          '/release-notes/8.4-beta',
+          '/release-notes/8.4-arm',
+          '/release-notes/8.4',
           '/release-notes/8.4-beta-arm',
-          '/release-notes/8.4'
+          '/release-notes/8.4-beta',
+          '/release-notes/8.3',
+          '/release-notes/8.3-rc',
+          '/release-notes/8.3-beta'
         ]
       },
       {
         title: 'Cloud',
         children: [
           '/cloud/AWS',
+          '/cloud/Azure',
           '/cloud/Generic-cloud'
         ]
       },
