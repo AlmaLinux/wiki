@@ -1,10 +1,10 @@
 # We strive to be transparent.
 
-The AlmaLinux OS Foundation is 501(c)6 non-profit organization. It was setup by CloudLinux to create an an independent organization that will own all assets related to AlmaLinux OS.
+The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It was setup by CloudLinux to create an an independent organization that will be owned and governed by the community and own all assets related to AlmaLinux OS.
 
 As of Jun 23, 2021 the foundation has a six directors board.
-- Simon Phipps - former president of the Open Source Initiative
-- Igor Seletskiy, CEO of CloudLinux
+- [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - former president of the Open Source Initiative
+- [Igor Seletskiy](), CEO of CloudLinux
 - Eugene Zamriy, Release Engineering @ CloudLinux
 - Jack Aboutboul, Community Leader @ AlmaLinux, employed by CloudLinux
 - Jesse Asklund, WebPros

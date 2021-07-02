@@ -1,6 +1,6 @@
 module.exports = {
   title: 'AlmaLinux Wiki',
-  description: 'The AlmaLinux project documentation',
+  description: 'AlmaLinux OS Documentation',
   head: [
     ['link', { rel: "shortcut icon", type: 'image/png', href: "/images/logo.png"}],
   ],
@@ -15,7 +15,7 @@ module.exports = {
     sidebar: [
       '/',
       {
-        title: 'Release notes',
+        title: 'Release Notes',
         children: [
           '/release-notes/8.4-arm',
           '/release-notes/8.4',
