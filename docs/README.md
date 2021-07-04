@@ -3,26 +3,30 @@
 
 ## About
 
-[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is a 1:1 binary comptible with RHEL® 8 and it was founded by the team behind the well-established [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos).
+[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary comptible with RHEL®.  The [AlmaLinux OS Foundation](/foundation) was established as a 501(c)(6) non-profit to steward ownership and governance of the project and it's founding grant was provided by the team behind [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos) and several other sponsors (listed on the website) have joined this effort as well.
 
 
-## Web resources
-
-* [almalinux.org](https://almalinux.org/) - official web site
-* [blog.almalinux.org](https://blog.almalinux.org) - blog
-* [bugs.almalinux.org](https://bugs.almalinux.org) - bug tracker
-* [chat.almalinux.org](https://chat.almalinux.org) - Mattermost Chat
-* [Freenode IRC](https://webchat.freenode.net/#almalinux) - IRC real time chat
-* [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit community
-* [repo.almalinux.org](https://repo.almalinux.org/) - public repo
-* Container images:
+## Quick Links & Resources
+* [almalinux.org](https://almalinux.org/) - Official Web Site
+* [blog.almalinux.org](https://blog.almalinux.org) - Blog
+* [forums.almalinux.org](https://forums.almalinux.org) - Forums
+* [bugs.almalinux.org](https://bugs.almalinux.org) - Bug Tracker
+* [chat.almalinux.org](https://chat.almalinux.org) - Mattermost Community Chat
+* [Libera Chat IRC](https://web.libera.chat/#almalinux) - IRC Real Time Chat
+* [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit Community
+* [repo.almalinux.org](https://repo.almalinux.org/) - Public Package Repository
+* Cloud Images (and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD
+  * [AlmaLinux Cloud Images](https://github.com/AlmaLinux/cloud-images)
+  * Expanded documentation on [AWS](cloud/aws)
+  * Expanded documentation on [Generic Cloud/Cloud-Init](cloud/generic-cloud) 
+* Container Images:
   * [hub.docker.com/_/almalinux](https://hub.docker.com/_/almalinux) - AlmaLinux official images on Docker Hub
   * [quay.io/repository/almalinux/almalinux](https://quay.io/repository/almalinux/almalinux) - AlmaLinux official images on Quay.io
-* [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
-* [aws.amazon.com/marketplace/pp/B094C8ZZ8J](https://aws.amazon.com/marketplace/pp/B094C8ZZ8J) - AlmaLinux OS 8 AWS AMI
+* Vagrant Boxes: 
+  * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
 
 ## Transparency Statement
-* We strive to be transparent & community owned, here is our [progress toward that goal](Transparency.md).
+* We strive to be community owned and transparent, here is our [progress toward that goal](Transparency.md).
 * Minutes from the [meetings of the board of directors](minutes/BoardMinutes.md)
 
 ## License
