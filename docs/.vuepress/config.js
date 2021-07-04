@@ -51,6 +51,7 @@ module.exports = {
       '/Mirrors',
       '/FAQ',
       '/Comparison',
+      '/Howto',
       '/Contribute'
     ],
     // AlmaLinux organization on GitHub

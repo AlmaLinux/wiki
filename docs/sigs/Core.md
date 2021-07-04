@@ -35,6 +35,8 @@ chat channel for communication.
 * Python, PostgreSQL developers for working on our monitoring/build systems
   and other projects.
 
+If you can help, please join us at [Core SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcore) 
+
 
 ## SIG members
 

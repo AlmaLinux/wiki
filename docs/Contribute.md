@@ -44,3 +44,8 @@ easy to run it locally (run all commands from the project's root):
 
 We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic.
 More info [here](/cloud/Azure).
+
+## More ways to help for DevOps & Programmers
+- Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
+- Help with our [cloud infrastructure maintenance](/sigs/Cloud.html#help-wanted)
+
