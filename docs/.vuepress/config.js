@@ -31,7 +31,8 @@ module.exports = {
         children: [
           '/cloud/AWS',
           '/cloud/Azure',
-          '/cloud/Generic-cloud'
+          '/cloud/Generic-cloud',
+          '/cloud/Generic-cloud-on-local'
         ]
       },
       {
