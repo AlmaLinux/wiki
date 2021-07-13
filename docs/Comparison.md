@@ -10,7 +10,7 @@ title: "EL8 Distro Comparison"
 |Last minor version release delay            | 8 days                   | 8 days                                         | 34 days                                     | N/A               | 16 days           |
 |Errata                                      | Yes                      | Yes                                            | No                                          | No                | No                |
 |Lifecycle                                   | 10 Years                 | 10 Years                                       | 10 Years                                    | 5-6 Years         | EOL on 2021-12-31 |
-|Commercial support                          | 3rd party                | Oracle, 3rd parties                            | No. Maybe 3rd Party                         | 3rd party         | 3rd party         |
+|Commercial support                          | 3rd party                | Oracle, 3rd parties                            | 3rd Party                                   | 3rd party         | 3rd party         |
 |Livepatching service                        | KernelCare               | Oracle Ksplice, KernelCare Available           | KernelCare Available\*<br/>(planned, once stable)                      | Not available     | KernelCare, Kpatch |
 |FIPS compliance                             | Planned Q1, 2022         | Yes                                            | Planned                                     | Not available     | Not available        |
 |ARM support                                 | Yes                      | Yes                                            | Yes                                        | Yes               | Yes               |
