@@ -40,7 +40,8 @@ module.exports = {
         path: '/sigs/',
         children: [
           '/sigs/Core',
-          '/sigs/Cloud'
+          '/sigs/Cloud',
+          '/sigs/LiveMedia',
         ]
       },
       {
