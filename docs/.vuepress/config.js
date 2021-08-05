@@ -15,13 +15,6 @@ module.exports = {
     sidebar: [
       '/',
       {
-        title: 'AlmaLinux OS Foundation',
-        children: [
-            '/AlmaLinux OS Foundation/Board of Directors',
-            '/AlmaLinux OS Foundation/Meeting Minutes',
-        ]
-      },
-      {
         title: 'Release Notes',
         children: [
           '/release-notes/8.4-arm',
@@ -47,7 +40,8 @@ module.exports = {
         path: '/sigs/',
         children: [
           '/sigs/Core',
-          '/sigs/Cloud'
+          '/sigs/Cloud',
+          '/sigs/LiveMedia',
         ]
       },
       {
