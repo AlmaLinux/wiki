@@ -46,11 +46,11 @@ module.exports = {
       },
       { 
         title: 'Repositories',
-        path: '/repo/',
+        path: '/repos/',
         children:[
-           '/repo/AlmaLinux',
-           '/repo/CentOS',
-           '/repo/Extras',
+           '/repos/AlmaLinux',
+           '/repos/CentOS',
+           '/repos/Extras',
         ]
       },
       {
