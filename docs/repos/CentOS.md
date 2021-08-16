@@ -1,7 +1,7 @@
 ---
-title: 'CentOS Repositories'
+title: 'CentOS SIGs Repositories'
 ---
-# CentOS Repositories
+# CentOS SIGs Repositories
 
 Special Interest Groups (SIG) are smaller groups within the CentOS community that focus on a small set of issues, in order to either create awareness or to focus on development along 
 a specific topic. Some part of these excellent results you can now use in AlmaLinux.
