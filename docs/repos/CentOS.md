@@ -10,7 +10,7 @@ CentOS Special Interest Groups (SIGs) are smaller groups within the CentOS commu
 The [Cloud SIG](https://wiki.centos.org/SpecialInterestGroup/Cloud) focuses on issues around running Cloud Infrastructure / Hypervisor 
 for on-premise clouds as well as supports other SIGs and projects looking to consume some of the shared resources around on-premise cloud infra.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | OpenStack Train | # dnf install centos-release-openstack-train |
 | OpenStack Ussuri | # dnf install centos-release-openstack-ussuri |
@@ -21,7 +21,7 @@ for on-premise clouds as well as supports other SIGs and projects looking to con
 The [Config Management SIG](https://wiki.centos.org/SpecialInterestGroup/ConfigManagementSIG) aims to bridge the gap between Config Management tools 
 Power users and traditional users by producing and release RPM packages of several Configuration Management and Orchestration tools.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | Ansible 2.9 | # dnf install centos-release-ansible-29 |
 
@@ -29,7 +29,7 @@ Power users and traditional users by producing and release RPM packages of sever
 
 The [Messaging SIG](https://wiki.centos.org/SpecialInterestGroup/Messaging) provides a unique source for messaging-related packages.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | Qpid Proton 0.30 | # dnf install centos-release-qpid-proton |
 | Rabbit 3.8 | # dnf install centos-release-rabbitmq-38 |
@@ -38,7 +38,7 @@ The [Messaging SIG](https://wiki.centos.org/SpecialInterestGroup/Messaging) prov
 
 The [Network Functions Virtualization SIG](https://wiki.centos.org/SpecialInterestGroup/NFV) provides a stack that will serve as a platform for the deployment and testing of virtual network functions.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | HAProxy 2.2 | # dnf install centos-release-nfv-extras | 
 | Openvswitch 2.13 <br> OVN 20.12.0 | # dnf install centos-release-nfv-openvswitch |
@@ -47,7 +47,7 @@ The [Network Functions Virtualization SIG](https://wiki.centos.org/SpecialIntere
 
 The [Ops Tools SIG](https://wiki.centos.org/SpecialInterestGroup/OpsTools) provides logging, monitoring and other operational tools for operators, system administrators, devops and developers doing infrastructure engineering on content based on CentOS Linux and related distributions.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | collectd 5.x | # dnf install centos-release-opstools |
 
@@ -55,7 +55,7 @@ The [Ops Tools SIG](https://wiki.centos.org/SpecialInterestGroup/OpsTools) provi
 
 The [Storage SIG](https://wiki.centos.org/SpecialInterestGroup/Storage) focuses on deploying CentOS/AlmaLinux as a storage node.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | Ceph 14 Nautilus | # dnf install centos-release-ceph-nautilus |
 | Ceph 15 Octopus | # dnf install centos-release-ceph-octopus |
@@ -75,6 +75,6 @@ The [Storage SIG](https://wiki.centos.org/SpecialInterestGroup/Storage) focuses 
 
 The [Virtualization SIG](https://wiki.centos.org/SpecialInterestGroup/Virtualization) aims to deliver a user consumable full stack for virtualization technologies. This includes delivery, deployment, management, update and patch application (for full lifecycle management) of the baseline platform when deployed in sync with a technology curated by the Virt-SIG.
 
-| Package | How to Install |
+| Package | How to Enable |
 | --- | --- |
 | Kata Containers 2.0 <br> Libguestfs 1.44 <br> Libvirt 7.0 <br> QEMU-KVM 5.2  | # dnf install centos-release-advanced-virtualization |
