@@ -15,6 +15,24 @@ module.exports = {
     sidebar: [
       '/',
       {
+        title: 'AlmaLinux OS Foundation',
+        children: [      
+            '/foundation/meeting-minutes',  
+        {   
+            title: 'Board of Directors',
+            path: '/foundation/board/',
+            children: [
+                '/foundation/board/SimonPhipps',
+                '/foundation/board/IgorSeletskiy',
+                '/foundation/board/EugeneZamriy',
+                '/foundation/board/JackAboutboul',
+                '/foundation/board/JesseAsklund',
+                '/foundation/board/BennyVasquez',
+            ]
+           },
+        ]
+     },       
+     {
         title: 'Release Notes',
         children: [
           '/release-notes/8.4-arm',
@@ -42,6 +60,10 @@ module.exports = {
           '/sigs/Core',
           '/sigs/Cloud',
           '/sigs/LiveMedia',
+          '/sigs/Containers',
+          '/sigs/Security',
+          '/sigs/Documentation',
+          '/sigs/Virtualization',  
         ]
       },
       { 
@@ -59,6 +81,7 @@ module.exports = {
           '/development/Packaging'
         ]
       },
+      '/Code-of-Conduct',
       '/Mirrors',
       '/FAQ',
       '/Comparison',
