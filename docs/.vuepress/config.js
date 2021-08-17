@@ -44,6 +44,15 @@ module.exports = {
           '/sigs/LiveMedia',
         ]
       },
+      { 
+        title: 'Repositories',
+        path: '/repos/',
+        children:[
+           '/repos/AlmaLinux',
+           '/repos/CentOS',
+           '/repos/Extras',
+        ]
+      },
       {
         title: 'Development',
         children: [
