@@ -35,6 +35,7 @@ module.exports = {
           '/cloud/Generic-cloud-on-local'
         ]
       },
+      '/LiveUSB',
       {
         title: 'Special interest groups',
         path: '/sigs/',
