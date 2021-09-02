@@ -6,7 +6,7 @@ title: "Live Media SIG"
 The Live Media Team is reponsible for AlmaLinux OS Live Media.
 
 The Live Media SIG uses the [SIG/LiveMedia](https://chat.almalinux.org/almalinux/channels/siglivemedia)
-chat channel for communication.
+chat channel for communication. Live Media [kickstart files](https://github.com/AlmaLinux/sig-livemedia/) are available at GitHub.
 
 
 ## Deliverables
