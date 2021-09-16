@@ -32,7 +32,8 @@ module.exports = {
           '/cloud/AWS',
           '/cloud/Azure',
           '/cloud/Generic-cloud',
-          '/cloud/Generic-cloud-on-local'
+          '/cloud/Generic-cloud-on-local',
+          '/cloud/OpenNebula'
         ]
       },
       '/LiveMedia',
