@@ -14,8 +14,11 @@ configuration, user's SSH key pair installation, attaching storage devices, etc.
 
 The AlmaLinux OS Generic Cloud image is available from our
 [mirrors](https://mirrors.almalinux.org/) and from the main AlmaLinux OS
-repository [repo.almalinux.org/almalinux/8/cloud/x86_64/images/](https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/)
-(an aarch64 version is coming soon).
+repositories:
+
+[x86_64](https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/)
+
+[arm64/aarch64](https://repo.almalinux.org/almalinux/8/cloud/aarch64/images)
 
 
 ### Import the AlmaLinux OS PGP public key
