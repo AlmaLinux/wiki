@@ -36,6 +36,12 @@ module.exports = {
           '/cloud/OpenNebula'
         ]
       },
+      {
+        title: 'Containers',
+        children: [
+          'containers/docker-images'
+        ]
+      },
       '/LiveMedia',
       {
         title: 'Special interest groups',
