@@ -1,4 +1,4 @@
-#The AlmaLinux OS Foundation
+# The AlmaLinux OS Foundation
 
 The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It was setup by Igor Seletskiy using resources from CloudLinux to create an an independent organization that will be owned and governed by the community. It owns all assets related to AlmaLinux OS.
 
