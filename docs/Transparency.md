@@ -9,18 +9,20 @@ The AlmaLinux OS Foundation is governed by a set of [Bylaws](https://almalinux.o
 
 The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. 
 
-As of Jun 23, 2021 the foundation has a six directors board.
+As of September 13, 2021 the foundation has a five directors board.
 - [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - former president of the Open Source Initiative
-- [Igor Seletskiy](), CEO of CloudLinux
 - Eugene Zamriy, Release Engineering @ CloudLinux
 - Jack Aboutboul, Community Leader @ AlmaLinux, employed by CloudLinux
 - Jesse Asklund, VP of Customer Experience @ WebPros
 - benny Vasquez, Mgr of DevRel and Community @ Progress Software
 
+Regular guest attendees
+- Igor Seletskiy, CEO of CloudLinux
+
 ## The plans for the board
 
 - The board is has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Relase](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
-- Igor Seletskiy will step down from the board around that time. (ETA early August to September of 2021)
+- Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him. 
 - The board will be expanded to up to 13 directors (as new members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
 
 ## Assets and build environment
@@ -44,10 +46,10 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 
 # Minutes of AlmaLinux OS Foundation Board Meetings
 
-The board meets monthly. At each meeting, the board approves the proposed meeting minutes from the previous month's meeting. Once approved they'll be added to this list. 
+The Board of Directors meets monthly. At each meeting, the board approves the proposed meeting minutes from the previous month's meeting. Once approved they'll be added to this list. 
 
-- Oct 11, 2021 Board Meeting #6 Scheduled
-- Sep 13, 2021 Board Meeting #5, Minutes pending
+- Oct 11, 2021 Board Meeting #6, minutes pending
+- Sep 13, 2021 [Board Meeting #5 Minutes](https://drive.google.com/file/d/1x5k1wUv9UtkNvXu-JBbVb9JFNPyo67vm/view?usp=sharing)
 - Aug 16, 2021 [Board Meeting #4 Minutes](https://drive.google.com/file/d/1TAXkQg2kh8Hj-yyF0Hyx1CIJsOg3QCtp/view?usp=sharing)
 - Jul 19, 2021 [Board Meeting #3 Minutes](https://drive.google.com/file/d/1YfpQMs2YRiozcMyGvHjeP1Nr2cp3hD9u/view?usp=sharing)
 - Jun 14, 2021 [Board Meeting #2 Minutes](https://drive.google.com/file/d/1hwcgIacCug0TESfohIB-mEiYs69BCLfv/view?usp=sharing)
