@@ -26,8 +26,9 @@
   * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
 
 ## Transparency Statement
-* We strive to be community owned and transparent, here is our [progress toward that goal](Transparency.md).
-* Minutes from the [meetings of the board of directors](minutes/BoardMinutes.md)
+
+* We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
+* Minutes from the [meetings of the board of directors](Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
 
 ## License
 

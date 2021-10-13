@@ -71,7 +71,8 @@ module.exports = {
       '/FAQ',
       '/Comparison',
       '/Howto',
-      '/Contribute'
+      '/Contribute',
+	  '/Transparency'
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',
