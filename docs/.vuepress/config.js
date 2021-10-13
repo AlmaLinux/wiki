@@ -17,6 +17,7 @@ module.exports = {
       {
         title: 'Release Notes',
         children: [
+          '/release-notes/8.5-beta',
           '/release-notes/8.4-arm',
           '/release-notes/8.4',
           '/release-notes/8.4-beta-arm',
