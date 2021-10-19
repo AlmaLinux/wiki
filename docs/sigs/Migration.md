@@ -8,7 +8,7 @@ The Migration team is responsible for migration from RHEL8 derivatives to AlmaLi
 
 Migration from CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS, Rocky, Oracle is also in the Migration Team's duties.
 
-The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/channels/sigmigration) chat channel for communication.
+The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/channels/migration) chat channel for communication.
 
 # Deliverables
 
@@ -23,7 +23,7 @@ The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/
 * Developing scripts for populating unsupported kernel modules and pci ids lists
 * Feedback and bug reports
 
-If you can help, please join us at [Migration SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigmigration).
+If you can help, please join us at [Migration SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/migration).
 
 # SIG members
 
