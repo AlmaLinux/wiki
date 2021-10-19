@@ -4,9 +4,7 @@ title: "About ELevate project"
 
 # About the project
 
-The ELevate project is about the migration from RHEL 7 derivatives to RHEL 8 derivatives. The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from CentOS are used to perform the upgrade. 
-
-Please be aware this is not the forked project, there will be a pull request to the [original repository](https://github.com/oamg/leapp-repository) as soon as everything is ready.
+The ELevate project is an initiative to support migrations between major version of RHEL-derivatives. The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from CentOS are used to perform the upgrade. All changes are headed upstream as well.
 
 # Available migration paths 
 
