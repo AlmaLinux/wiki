@@ -51,6 +51,7 @@ module.exports = {
           '/sigs/Core',
           '/sigs/Cloud',
           '/sigs/LiveMedia',
+          '/sigs/Migration',
         ]
       },
       { 
@@ -69,6 +70,13 @@ module.exports = {
         ]
       },
       '/Mirrors',
+      {
+        title: 'ELevate Project',
+        path: '/elevate/',
+        children: [
+          '/elevate/ELevate-quickstart-guide',
+        ]
+      },
       '/FAQ',
       '/Comparison',
       '/Howto',
