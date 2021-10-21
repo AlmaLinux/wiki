@@ -33,3 +33,5 @@ You can create a public AlmaLinux mirror in 4 easy steps:
    After reviewing the pull request your mirror will be published at the
    [mirrors.almalinux.org](https://mirrors.almalinux.org/) page and will
    be added to the mirrorlists that dnf package manager works with.
+5. All mirror hosts are eligible for membership to the AlmaLinux OS Foundation. Make sure you submit your [https://almalinux.org/foundation/members/](application for membership)!
+   
