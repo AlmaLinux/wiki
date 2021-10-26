@@ -4,9 +4,11 @@ title: "ELevate Quickstart Guide"
 
 # ELevate Quickstart Guide
 
-**ELevate project is at an early stage of development and not suitable for production at the moment. Please use this guide for testing purposes only**
+::: warning
+Before beginnning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
+:::
 
-This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS Stream, Oracle, and Rocky. 
+This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS Stream, Oracle, and Rocky Linux. 
 
 You need CentOS 7 system installed to use this guide.
 
