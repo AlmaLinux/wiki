@@ -5,7 +5,9 @@ You can use the Generic Cloud image for testing, developing and repackaging purp
 
 You need at least the `20210215` on AlmaLinux and `20210426` version on the other distro's `osinfo-db` package for the AlmaLinux Guest OS support.
 
-**Note:** `20210621` and newer recommended for latest improvements.
+:::tip
+`20210621` and newer recommended for latest improvements.
+:::
 
 Check the list of supported guest OSes:
 
@@ -71,7 +73,9 @@ The [NoCloud](https://cloudinit.readthedocs.io/en/latest/topics/datasources/nocl
 
 The accounts on the cloud image locked by default. You can set a password with the [Set Password](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#set-passwords), add your ssh public key with [Authorized Keys](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#authorized-keys). In this example, we will set a password for the default `almalinux` user.
 
-**Note:** Check cloud-init modules [list](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#) for further customization options. 
+:::tip
+Check cloud-init modules [list](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#) for further customization options. 
+:::
 
 `user-data:`
 ```yaml

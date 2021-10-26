@@ -35,14 +35,21 @@ You need CentOS 7 system installed to use this guide.
     sudo yum install -y leapp-upgrade leapp-data-almalinux
  ```
 
-* Start a preupgrade check. It will fail as the default CentOS 7 doesn't meet all requirements for migration. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
+* Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
+
+:::warning
+Preupgrade check will fail as the default CentOS 7 doesn't meet all requirements for migration.
+:::
+
  ```
     sudo leapp preupgrade
  ```
 
-   This summary report will help you get a picture of whether it is possible to continue the upgrade.
+This summary report will help you get a picture of whether it is possible to continue the upgrade.
 
-   In certain configurations, Leapp generates */var/log/leapp/answerfile* with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
+:::tip
+In certain configurations, Leapp generates */var/log/leapp/answerfile* with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
+:::
 
 * The following fixes from *the /var/log/leapp/leapp-report.txt* file are mandatory, but you can also review the rest of them if needed.
 ```

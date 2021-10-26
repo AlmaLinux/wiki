@@ -3,7 +3,11 @@ title: 'AWS'
 ---
 # AlmaLinux OS Amazon Web Services AMIs
 
-AlmaLinux OS offers Amazon Machine Images in a number of formats and regions for consumption on AWS. All AlmaLinux OS AMIs are completely free of charge regardless of the deployment channel. To learn more about AWS AMIs please see the [AWS EC2 Documentation on AMIs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html). There are currently 2 deployment channels available: [Marketplace](#aws-marketplace) and [Community](#community-amis).
+AlmaLinux OS offers Amazon Machine Images in a number of formats and regions for consumption on AWS. All AlmaLinux OS AMIs are completely free of charge regardless of the deployment channel. 
+
+:::tip
+To learn more about AWS AMIs please see the [AWS EC2 Documentation on AMIs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html). There are currently 2 deployment channels available: [Marketplace](#aws-marketplace) and [Community](#community-amis).
+:::
 
 ## Contributing
 You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also dicuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
