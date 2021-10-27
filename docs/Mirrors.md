@@ -8,10 +8,10 @@ infrastructure, and we are very grateful to people and organizations that
 help us with this. The current list of public mirrors can be found on the
 [mirrors.almalinux.org](https://mirrors.almalinux.org/) website.
 
-You can create a public AlmaLinux mirror in 4 easy steps:
+You can create a public AlmaLinux mirror in 5 easy steps:
 
-1. Make sure that you have enough free space: 300Gb is the absolute minimum
-   but we recommend reserving at least 500Gb.
+1. Make sure that you have enough free space: 300GB is the absolute minimum
+   but we recommend reserving at least 500GB.
 2. Synchronize with the official AlmaLinux mirror via rsync:  
    ```shell
    /usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
@@ -21,7 +21,14 @@ You can create a public AlmaLinux mirror in 4 easy steps:
    ```
    0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
-4. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
+4. Ensure the accuracy of GeoIP city, longitude, and latitude data for your mirror IP(s) with MaxMind at 
+   [https://www.maxmind.com/en/geoip-demo](https://www.maxmind.com/en/geoip-demo). 
+   Submit a [correction request](https://support.maxmind.com/geoip-data-correction-request/) with accurate city data 
+   if the information is incorrect.
+
+   Our mirrorlist URL tries to serve the best mirror to a client based on GeoIP data
+   so having accurate GeoIP data ensures the best possible experience for users.
+5. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
    repository and create a pull request that will add a YAML file describing
    your mirror to the `mirrors.d` directory.
    You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
@@ -33,5 +40,5 @@ You can create a public AlmaLinux mirror in 4 easy steps:
    After reviewing the pull request your mirror will be published at the
    [mirrors.almalinux.org](https://mirrors.almalinux.org/) page and will
    be added to the mirrorlists that dnf package manager works with.
-5. All mirror hosts are eligible for membership to the AlmaLinux OS Foundation. Make sure you submit your [https://almalinux.org/foundation/members/](application for membership)!
+6. All mirror hosts are eligible for membership to the AlmaLinux OS Foundation. Make sure you submit your [https://almalinux.org/foundation/members/](application for membership)!
    
