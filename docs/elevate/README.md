@@ -27,3 +27,5 @@ The Leapp utility uses several configuration files. The biggest one is the packa
 # How to Contribute 
 
 ELevate is developed and built as a tool for the whole ecosystem, not just AlmaLinux. ELevate supports migrating to/from other distributions and is open for all to contribute to and enhance. You can find more information and FAQ about migration on [almalinux.org/elevate](https://almalinux.org/elevate), [Migration SIG](https://wiki.almalinux.org/sigs/Migration.html) and get any help or contribute on [AlmaLinux Chat on Mattermost](https://chat.almalinux.org).
+
+Also, you can use [Package Evolution Service](https://pes.almalinux.org) and [ELevate Contribution Guide](/elevate/Contribution-guide) if you are interested in contributing to migration.

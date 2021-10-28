@@ -32,6 +32,7 @@ module.exports = {
         children: [
           '/cloud/AWS',
           '/cloud/Azure',
+          '/cloud/Google',
           '/cloud/Generic-cloud',
           '/cloud/Generic-cloud-on-local',
           '/cloud/OpenNebula'
@@ -75,6 +76,7 @@ module.exports = {
         path: '/elevate/',
         children: [
           '/elevate/ELevate-quickstart-guide',
+          '/elevate/Contribution-guide',
         ]
       },
       '/FAQ',
