@@ -76,6 +76,7 @@ module.exports = {
         path: '/elevate/',
         children: [
           '/elevate/ELevate-quickstart-guide',
+          '/elevate/Contribution-guide',
         ]
       },
       '/FAQ',
