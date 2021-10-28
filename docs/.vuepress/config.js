@@ -32,6 +32,7 @@ module.exports = {
         children: [
           '/cloud/AWS',
           '/cloud/Azure',
+          '/cloud/Google',
           '/cloud/Generic-cloud',
           '/cloud/Generic-cloud-on-local',
           '/cloud/OpenNebula'
