@@ -3,7 +3,7 @@
 
 ## About
 
-[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary comptible with RHEL®.  The [AlmaLinux OS Foundation](/foundation) was established as a 501(c)(6) non-profit to steward ownership and governance of the project and it's founding grant was provided by the team behind [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos) and several other sponsors (listed on the website) have joined this effort as well.
+[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary comptible with RHEL®.  The [AlmaLinux OS Foundation](/transparency) was established as a 501(c)(6) non-profit to steward ownership and governance of the project and it's founding grant was provided by the team behind [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos) and several other sponsors (listed on the website) have joined this effort as well.
 
 
 ## Quick Links & Resources
