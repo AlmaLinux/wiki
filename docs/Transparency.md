@@ -56,7 +56,7 @@ The Board of Directors meets monthly. At each meeting, the board approves the pr
 - Jun 14, 2021 [Board Meeting #2 Minutes](https://drive.google.com/file/d/1hwcgIacCug0TESfohIB-mEiYs69BCLfv/view?usp=sharing)
 - May 12, 2021 [Board Meeting #1 Minutes](https://drive.google.com/file/d/1O2oNPu9rXxnu0IjYkdeS3dDfKN4YKVsJ/view?usp=sharing)
 
-##Membership Committee
+## Membership Committee
 
 In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
 
