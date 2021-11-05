@@ -28,6 +28,12 @@ module.exports = {
         ]
       },
       {
+        title: 'Documentation',
+        children: [
+          '/documentation/openscap-guide'
+        ]
+      },
+      {
         title: 'Cloud',
         children: [
           '/cloud/AWS',
