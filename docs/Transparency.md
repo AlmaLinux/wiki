@@ -48,8 +48,9 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 
 The Board of Directors meets monthly. At each meeting, the board approves the proposed meeting minutes from the previous month's meeting. Once approved they'll be added to this list. 
 
-- Nov 8, 2021 Board Meeting #7, [Agenda](https://docs.google.com/document/d/1i1lDY7kEfCh0_QsNHFSFWWZ7KwDBBcKrBs9IUhTw7wQ/edit?usp=sharing)
-- Oct 11, 2021 Board Meeting #6, minutes pending
+- Dec 6th, 2021 Board Meeting #8 [Agenda](https://docs.google.com/document/d/1JET22HKrghPtieUGO467HLEuc0S9AYbiPOtyGNuO71s/edit?usp=sharing)
+- Nov 8, 2021 Board Meeting #7, [Agenda](https://docs.google.com/document/d/1i1lDY7kEfCh0_QsNHFSFWWZ7KwDBBcKrBs9IUhTw7wQ/edit?usp=sharing) (Minutes pending)
+- Oct 11, 2021 [Board Meeting #6 Minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view?usp=sharing)
 - Sep 13, 2021 [Board Meeting #5 Minutes](https://drive.google.com/file/d/1x5k1wUv9UtkNvXu-JBbVb9JFNPyo67vm/view?usp=sharing)
 - Aug 16, 2021 [Board Meeting #4 Minutes](https://drive.google.com/file/d/1TAXkQg2kh8Hj-yyF0Hyx1CIJsOg3QCtp/view?usp=sharing)
 - Jul 19, 2021 [Board Meeting #3 Minutes](https://drive.google.com/file/d/1YfpQMs2YRiozcMyGvHjeP1Nr2cp3hD9u/view?usp=sharing)
