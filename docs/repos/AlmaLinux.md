@@ -13,4 +13,4 @@ Information about the main AlmaLinux repositories and how to install them can be
 | PowerTools | The PowerTools repository contains additional packages for use by developers. This repository is also know as the "CodeReady Builder" repository used on RHEL.| # dnf config-manager --set-enabled powertools |
 | High Availability | The High Availability add-on provides on-demand failover services between nodes within a cluster | # dnf config-manager --set-enabled ha | 
 
-
+AlmaLinux has a [Vault](http://repo.almalinux.org/vault/) repository that provides packages and isos for previous AlmaLinux OS versions. Also, the Vault repository contains 32-bit packages for the latest stable version to build.  Vault and other AlmaLinux repositories are available on [repo.almalinux.org](http://repo.almalinux.org/). 

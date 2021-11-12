@@ -8,6 +8,10 @@ The ELevate project is an initiative to support migrations between major version
 
 # Available migration paths 
 
+:::danger
+The ELevate project supports only CentOS repositories. It doesn't support other external repositories.
+:::
+
 There are several ways to perform upgrade these days. Here is the list to see which migration directions are available:
 
 * CentOS 7 - AlmaLinux 8
