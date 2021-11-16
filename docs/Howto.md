@@ -19,7 +19,6 @@ title: 'Howto Guides'
 
 
 ## Authentication & Security
-- [Jointing Active Directory](https://newsopener.com/cyber-security/how-to-easily-join-an-almalinux-server-to-an-active-directory-domain-with-cockpit/)
 - [Enabling SSH 2FA](https://www.techrepublic.com/article/how-to-enable-ssh-2fa-on-almalinux-for-more-secure-logins/)
 
 # ARM
