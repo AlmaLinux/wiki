@@ -31,7 +31,8 @@ module.exports = {
       {
         title: 'Documentation',
         children: [
-          '/documentation/openscap-guide'
+          '/documentation/openscap-guide',
+          '/documentation/building-packages-guide'
         ]
       },
       {
