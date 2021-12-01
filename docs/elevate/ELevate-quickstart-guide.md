@@ -9,7 +9,7 @@ Before beginnning, we **HIGHLY** recommend that you follow system administration
 :::
 
 :::danger
-The ELevate project supports only CentOS repositories. It doesn't support other external repositories.
+The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](elevate/ELevate-frequent-issues) page for known and frequent issues.
 :::
 
 This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS Stream, Oracle, and Rocky Linux. 
