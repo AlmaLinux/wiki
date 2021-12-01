@@ -8,7 +8,7 @@ infrastructure, and we are very grateful to people and organizations that
 help us with this. The current list of public mirrors can be found on the
 [mirrors.almalinux.org](https://mirrors.almalinux.org/) website.
 
-You can create a public AlmaLinux mirror in 5 easy steps:
+You can create a public AlmaLinux mirror in 6 easy steps:
 
 1. Make sure that you have enough free space: 300GB is the absolute minimum
    but we recommend reserving at least 500GB.
@@ -28,7 +28,15 @@ You can create a public AlmaLinux mirror in 5 easy steps:
 
    Our mirrorlist URL tries to serve the best mirror to a client based on GeoIP data
    so having accurate GeoIP data ensures the best possible experience for users.
-5. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
+5. Join the [mirror-announce](https://lists.almalinux.org/mailman3/lists/mirror-announce.lists.almalinux.org/) mailing list to receive 
+   important mirror-related updates from the AlmaLinux team.
+
+   You may also consider joining the [mirror](https://lists.almalinux.org/mailman3/lists/mirror.lists.almalinux.org/) mailing list for 
+   general discussion/help related to mirrors.
+   
+   We recommend joining the [mirrors channel on Mattermost](https://chat.almalinux.org/almalinux/channels/mirrors) for any questions 
+   as well as updates from our team that impact mirror hosts in a live interactive format.
+6. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
    repository and create a pull request that will add a YAML file describing
    your mirror to the `mirrors.d` directory.
    You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
@@ -43,5 +51,3 @@ You can create a public AlmaLinux mirror in 5 easy steps:
 
 All mirror hosts are eligible for membership to the AlmaLinux OS Foundation.
 Make sure you submit your [application for membership](https://almalinux.org/foundation/members/)!
-
-We recommend joining the [mirrors channel on Mattermost](https://chat.almalinux.org/almalinux/channels/mirrors) for any questions as well as updates from our team that impact mirror hosts.

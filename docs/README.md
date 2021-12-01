@@ -11,6 +11,7 @@
 * [blog.almalinux.org](https://blog.almalinux.org) - Blog
 * [forums.almalinux.org](https://forums.almalinux.org) - Forums
 * [bugs.almalinux.org](https://bugs.almalinux.org) - Bug Tracker
+* [lists.almalinux.org](https://lists.almalinux.org) - Mailing Lists
 * [chat.almalinux.org](https://chat.almalinux.org) - Mattermost Community Chat
 * [Libera Chat IRC](https://web.libera.chat/#almalinux) - IRC Real Time Chat
 * [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit Community
