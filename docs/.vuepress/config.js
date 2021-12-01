@@ -85,6 +85,7 @@ module.exports = {
         children: [
           '/elevate/ELevate-quickstart-guide',
           '/elevate/Contribution-guide',
+          '/elevate/ELevate-frequent-issues'
         ]
       },
       '/FAQ',
