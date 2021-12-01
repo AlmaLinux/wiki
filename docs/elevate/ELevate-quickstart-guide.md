@@ -62,6 +62,7 @@ In certain configurations, Leapp generates */var/log/leapp/answerfile* with true
    sudo leapp answer --section remove_pam_pkcs11_module_check.confirm=True
 ```
 
+Check the [ELevate Frequent Issues](elevate/ELevate-frequent-issues) page for known and frequent issues and guidance steps to solve them.
 
 * Start an upgrade. You'll be offered to reboot the system after this process is completed.
  ```
