@@ -9,7 +9,7 @@ Before beginnning, we **HIGHLY** recommend that you follow system administration
 :::
 
 :::danger
-The ELevate project supports only CentOS repositories. It doesn't support other external repositories.
+The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](elevate/ELevate-frequent-issues) page for known and frequent issues.
 :::
 
 This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS Stream, Oracle, and Rocky Linux. 
@@ -62,6 +62,7 @@ In certain configurations, Leapp generates */var/log/leapp/answerfile* with true
    sudo leapp answer --section remove_pam_pkcs11_module_check.confirm=True
 ```
 
+Check the [ELevate Frequent Issues](elevate/ELevate-frequent-issues) page for known and frequent issues and guidance steps to solve them.
 
 * Start an upgrade. You'll be offered to reboot the system after this process is completed.
  ```
@@ -77,5 +78,5 @@ In certain configurations, Leapp generates */var/log/leapp/answerfile* with true
    cat /etc/redhat-release
    cat /etc/os-release
    rpm -qa | grep centos
-   rpm -qf | grep el7
+   rpm -qa | grep el7
 ```
