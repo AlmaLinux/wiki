@@ -58,6 +58,7 @@ module.exports = {
         path: '/sigs/',
         children: [
           '/sigs/Core',
+          '/sigs/Infrastructure',
           '/sigs/Cloud',
           '/sigs/LiveMedia',
           '/sigs/Migration',
