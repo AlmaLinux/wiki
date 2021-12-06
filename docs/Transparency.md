@@ -46,10 +46,11 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
 
-The Board of Directors meets monthly. At each meeting, the board approves the proposed meeting minutes from the previous month's meeting. Once approved they'll be added to this list. 
+The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Dec 6th, 2021 Board Meeting #8 [Agenda](https://docs.google.com/document/d/1JET22HKrghPtieUGO467HLEuc0S9AYbiPOtyGNuO71s/edit?usp=sharing)
-- Nov 8, 2021 Board Meeting #7, [Agenda](https://docs.google.com/document/d/1i1lDY7kEfCh0_QsNHFSFWWZ7KwDBBcKrBs9IUhTw7wQ/edit?usp=sharing) (Minutes pending)
+- Jan 11, 2022 [Board Meeting #9 Agenda](https://docs.google.com/document/d/1oK-s_drwmkpkgEGKSNp2aIGwa5wECzHBWKaZLT0dUys/edit?usp=sharing)
+- Dec 6, 2021 [Board Meeting #8 Minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view?usp=sharing)
+- Nov 8, 2021 [Board Meeting #7 Minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view?usp=sharing)
 - Oct 11, 2021 [Board Meeting #6 Minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view?usp=sharing)
 - Sep 13, 2021 [Board Meeting #5 Minutes](https://drive.google.com/file/d/1x5k1wUv9UtkNvXu-JBbVb9JFNPyo67vm/view?usp=sharing)
 - Aug 16, 2021 [Board Meeting #4 Minutes](https://drive.google.com/file/d/1TAXkQg2kh8Hj-yyF0Hyx1CIJsOg3QCtp/view?usp=sharing)
