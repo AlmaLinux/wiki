@@ -5,26 +5,40 @@
 
 [AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary comptible with RHEL®.  The [AlmaLinux OS Foundation](Transparency.md) was established as a 501(c)(6) non-profit to steward ownership and governance of the project and it's founding grant was provided by the team behind [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos) and several other sponsors (listed on the website) have joined this effort as well.
 
-
-## Quick Links & Resources
-* [almalinux.org](https://almalinux.org/) - Official Web Site
-* [blog.almalinux.org](https://blog.almalinux.org) - Blog
-* [forums.almalinux.org](https://forums.almalinux.org) - Forums
-* [bugs.almalinux.org](https://bugs.almalinux.org) - Bug Tracker
-* [lists.almalinux.org](https://lists.almalinux.org) - Mailing Lists
-* [chat.almalinux.org](https://chat.almalinux.org) - Mattermost Community Chat
-* [Libera Chat IRC](https://web.libera.chat/#almalinux) - IRC Real Time Chat
-* [reddit.com/r/AlmaLinux](https://www.reddit.com/r/AlmaLinux/) - Reddit Community
-* [repo.almalinux.org](https://repo.almalinux.org/) - Public Package Repository
-* Cloud Images (and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD
-  * [AlmaLinux Cloud Images](https://github.com/AlmaLinux/cloud-images)
-  * Expanded documentation on [AWS](cloud/aws)
-  * Expanded documentation on [Generic Cloud/Cloud-Init](cloud/generic-cloud) 
-* Container Images:
-  * [hub.docker.com/_/almalinux](https://hub.docker.com/_/almalinux) - AlmaLinux official images on Docker Hub
-  * [quay.io/repository/almalinux/almalinux](https://quay.io/repository/almalinux/almalinux) - AlmaLinux official images on Quay.io
-* Vagrant Boxes: 
-  * [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux) - AlmaLinux on Vagrant Cloud
+<div> 
+<p>
+<img src=/images/almalinux-readme.png style="position: absolute; right: 150px; padding:0.9em">
+<b>Quick Links & Resources</b>
+<ul>
+<li><a href="https://almalinux.org/">almalinux.org</a> - Official Web Site</li>
+<li><a href="https://blog.almalinux.org">blog.almalinux.org</a> - Blog</li>
+<li><a href="https://forums.almalinux.org">forums.almalinux.org</a> - Forums</li>
+<li><a href="https://bugs.almalinux.org">bugs.almalinux.org</a> - Bug Tracker</li>
+<li><a href="https://chat.almalinux.org">chat.almalinux.org</a> - Mattermost Community Chat</li>
+<li><a href="https://web.libera.chat/#almalinux">Libera Chat IRC</a> - IRC Real Time Chat</li>
+<li><a href="https://www.reddit.com/r/AlmaLinux/">reddit.com/r/AlmaLinux</a> - Reddit Community</li>
+<li><a href="https://repo.almalinux.org/">repo.almalinux.org</a> - Public Package Repository</li>
+<li>Cloud Images (and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD
+    <ul>
+    <li><a href="https://github.com/AlmaLinux/cloud-images">AlmaLinux Cloud Images</a></li>
+    <li><a href=cloud/aws>Expanded documentation on AWS</a></li>
+    <li><a href=cloud/generic-cloud>Expanded documentation on Generic Cloud/Cloud-Init</a></li>
+    </ul>
+</li>
+<li>Container Images:
+    <ul>
+    <li><a href="https://hub.docker.com/_/almalinux">hub.docker.com/_/almalinux</a> - AlmaLinux official images on Docker Hub</li>
+    <li><a href="https://quay.io/repository/almalinux/almalinux">quay.io/repository/almalinux/almalinux</a> - AlmaLinux official images on Quay.io</li>
+    </ul>
+</li>
+<li>Vagrant Boxes:
+    <ul>
+    <li><a href="https://app.vagrantup.com/almalinux">app.vagrantup.com/almalinux</a> - AlmaLinux on Vagrant Cloud</li>
+    </ul>
+</li>
+</ul>
+</p>
+</div>
 
 ## Transparency Statement
 
