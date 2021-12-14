@@ -16,6 +16,7 @@
 <li><a href="https://blog.almalinux.org">blog.almalinux.org</a> - Blog</li>
 <li><a href="https://forums.almalinux.org">forums.almalinux.org</a> - Forums</li>
 <li><a href="https://bugs.almalinux.org">bugs.almalinux.org</a> - Bug Tracker</li>
+<li><a href="https://lists.almalinux.org">lists.almalinux.org</a> - Mailing Lists</li>
 <li><a href="https://chat.almalinux.org">chat.almalinux.org</a> - Mattermost Community Chat</li>
 <li><a href="https://web.libera.chat/#almalinux">Libera Chat IRC</a> - IRC Real Time Chat</li>
 <li><a href="https://www.reddit.com/r/AlmaLinux/">reddit.com/r/AlmaLinux</a> - Reddit Community</li>
