@@ -31,8 +31,35 @@ module.exports = {
       {
         title: 'Documentation',
         children: [
+           {
+             title: 'Release Notes',
+             path: '/documentation/release-notes',
+             children: [
+               '/documentation/release-notes/8.5',
+               '/documentation/release-notes/8.5-beta',
+               '/documentation/release-notes/8.4-arm',
+               '/documentation/release-notes/8.4',
+               '/documentation/release-notes/8.4-beta-arm',
+               '/documentation/release-notes/8.4-beta',
+               '/documentation/release-notes/8.3',
+               '/documentation/release-notes/8.3-rc',
+               '/documentation/release-notes/8.3-beta'
+             ]
+           },
+           {
+             title: 'ELevate Project',
+             path: '/documentation/elevate/',
+             children: [
+               '/documentation/elevate/ELevate-quickstart-guide',
+               '/documentation/elevate/Contribution-guide',
+               '/documentation/elevate/ELevate-frequent-issues'
+             ]
+           },      
+          '/documentation/LiveMedia',
           '/documentation/openscap-guide',
-          '/documentation/building-packages-guide'
+          '/documentation/building-packages-guide',
+          '/documentation/Packaging',
+          '/documentation/Howto'
         ]
       },
       {

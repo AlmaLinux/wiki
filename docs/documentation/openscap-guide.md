@@ -215,7 +215,7 @@ Result  fail
 
 The HTML report which you can view in a browser looks like as follows: 
 
-![image](/images/openscap_evaluation-report.png =100x)
+![image](/images/openscap_evaluation-report.png)
 
 ### Generating a Full Security Guide
 
