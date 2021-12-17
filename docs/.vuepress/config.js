@@ -60,6 +60,7 @@ module.exports = {
           '/documentation/openscap-guide',
           '/documentation/building-packages-guide',
           '/documentation/Packaging',
+          '/documentation/raspberry-pi',
           '/documentation/Howto'
         ]
       },
