@@ -19,6 +19,7 @@ module.exports = {
         title: 'Release Notes',
         children: [
           '/release-notes/8.5',
+          '/release-notes/8.5-beta-ppc',
           '/release-notes/8.5-beta',
           '/release-notes/8.4-arm',
           '/release-notes/8.4',
@@ -37,6 +38,7 @@ module.exports = {
              path: '/documentation/release-notes',
              children: [
                '/documentation/release-notes/8.5',
+               '/documentation/release-notes/8.5-beta-ppc',
                '/documentation/release-notes/8.5-beta',
                '/documentation/release-notes/8.4-arm',
                '/documentation/release-notes/8.4',
