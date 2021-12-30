@@ -9,6 +9,7 @@ Release Notes contain information about improvements, additions, known issues an
 Please, report any bugs you may see on the [Bug Tracker](https://bugs.almalinux.org/).
 
 * [AlmaLinux 8.5 Release Notes](/documentation/release-notes/8.5)
+* [AlmaLinux 8.5 Beta for PowerPC Release Notes](/documentation/release-notes/8.5-beta-ppc)
 * [AlmaLinux 8.5 Beta Release Notes](/documentation/release-notes/8.5-beta)
 * [AlmaLinux 8.4 for ARM Release Notes](/documentation/release-notes/8.4-arm)
 * [AlmaLinux 8.4 Release Notes](/documentation/release-notes/8.4)
