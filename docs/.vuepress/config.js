@@ -91,6 +91,7 @@ module.exports = {
           '/sigs/Core',
           '/sigs/Infrastructure',
           '/sigs/Cloud',
+          '/sigs/Build-System',
           '/sigs/LiveMedia',
           '/sigs/Migration',
         ]
