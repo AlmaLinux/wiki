@@ -15,5 +15,6 @@ The following SIGs are already established:
 * [Core](/sigs/Core) - The AlmaLinux OS distribution developers and maintainers.
 * [Infrastructure](/sigs/Infrastructure) - The AlmaLinux OS infrastructure team.
 * [Cloud](/sigs/Cloud) - The AlmaLinux OS cloud and container images maintainers.
+* [Build System](/sigs/Build-System) - The AlmaLinux OS build system developers and maintainers.
 * [Live Media](/sigs/LiveMedia) - The AlmaLinux OS Live Media maintainers.
 * [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
