@@ -12,6 +12,7 @@ title: 'Howto Guides'
 - [MongoDB](https://mobilemonitoringsolutions.com/how-to-install-the-nosql-database-server-mongodb-on-linux/)
 - [Caddy](https://neutroncloud.in/docs/how-to-install-caddy-on-almalinux/)
 - [OpenSSL 1.1.1i](https://www.hostnextra.com/kb/how-to-install-openssl-1-1-1i-on-almalinux/)
+- [WordPress with Nginx, PHP 8.1, and MariaDB](https://thishosting.rocks/how-to-install-wordpress-on-almalinux/)
 
 ## Virtualization 
 - [Docker CE](https://techviewleo.com/how-to-install-docker-ce-on-almalinux/)
