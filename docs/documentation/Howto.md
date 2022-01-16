@@ -13,6 +13,7 @@ title: 'Howto Guides'
 - [Caddy](https://neutroncloud.in/docs/how-to-install-caddy-on-almalinux/)
 - [OpenSSL 1.1.1i](https://www.hostnextra.com/kb/how-to-install-openssl-1-1-1i-on-almalinux/)
 - [WordPress with Nginx, PHP 8.1, and MariaDB](https://thishosting.rocks/how-to-install-wordpress-on-almalinux/)
+- [Java](https://linuxstans.com/how-to-install-java-almalinux/)
 
 ## Virtualization 
 - [Docker CE](https://techviewleo.com/how-to-install-docker-ce-on-almalinux/)
