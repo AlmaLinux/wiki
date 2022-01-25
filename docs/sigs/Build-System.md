@@ -33,6 +33,7 @@ SIG Members:
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
 * [Vyacheslav Potoropin](mailto:vpotoropin@cloudlinux.com) - The software developer engineer.
+  * Chat login: [vpotoropin](https://chat.almalinux.org/almalinux/messages/@vpotoropin)
   * GitHub profile: [AvoidMe](https://github.com/AvoidMe)
 * [Aleksandr Kravchenko](mailto:akravchenko@cloudlinux.com) - The software developer engineer.
   * Chat login: [akravchenko](https://chat.almalinux.org/almalinux/messages/@akravchenko)
