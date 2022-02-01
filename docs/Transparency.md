@@ -12,7 +12,7 @@ The goals of a Community-owned operating system needs to include transparency in
 As of September 13, 2021 the foundation has a five directors board.
 - [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - former president of the Open Source Initiative
 - Eugene Zamriy, Release Engineering @ CloudLinux
-- Jack Aboutboul, Community Leader @ AlmaLinux, employed by CloudLinux
+- Jack Aboutboul, Community Leader @ AlmaLinux
 - Jesse Asklund, VP of Customer Experience @ WebPros
 - benny Vasquez, Mgr of DevRel and Community @ Progress Software and [Current Chair of the Board](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
 
