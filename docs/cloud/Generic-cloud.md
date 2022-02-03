@@ -20,6 +20,8 @@ repositories:
 
 [arm64/aarch64](https://repo.almalinux.org/almalinux/8/cloud/aarch64/images)
 
+[ppc64le](http://repo.almalinux.org/almalinux/8/cloud/ppc64le/images/)
+
 
 ### Import the AlmaLinux OS PGP public key
 
