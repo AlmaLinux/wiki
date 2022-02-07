@@ -41,9 +41,6 @@ SIG Members:
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Ruslan Pisarev](mailto:rpisarev@cloudlinux.com) - The software developer engineer.
-  * Chat login: [rpisarev](https://chat.almalinux.org/almalinux/messages/@rpisarev)
-  * GitHub profile: [rpisarev](https://github.com/rpisarev)
 * [Aleksandr Denisov](mailto:adenisov@cloudlinux.com) - The software developer engineer.
   * Chat login: [adenisov](https://chat.almalinux.org/almalinux/messages/@adenisov)
   * GitHub profile: [monkrobot](https://github.com/monkrobot)
