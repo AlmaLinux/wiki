@@ -21,8 +21,7 @@ There are several ways to perform upgrade these days. Here is the list to see wh
 
 # How to migrate
 
-Please, visit the [ELevate Quickstart Guide](/elevate/ELevate-quickstart-guide) to see the update steps.
-
+Please, visit the [ELevate Quickstart Guide](/elevate/ELevate-quickstart-guide) to see the update steps and the Demo.
 
 # Package Evolution Service
 
