@@ -39,6 +39,24 @@ dracut -N -f
 dracut -f --regenerate-all
 ```
 
+## sssd fails after migration
+
+After migration, there may be problems with sssd.
+
+Follow these steps to resolve the issue:
+
+* Delete all files in **/var/lib/sssd/db/**:
+
+```
+rm -f /var/lib/sssd/db/
+```
+
+* Restart sssd service: 
+
+```
+systemctl restart sssd
+```
+
 ## Known issues 
 
 * For now, the ELevate project supports only CentOS repositories. It doesn't support other third-party (external) repositories.
