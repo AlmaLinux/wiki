@@ -48,7 +48,8 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Feb 8, 2022 (moved to bi-monthly) [Board Meeting #9 Agenda](https://docs.google.com/document/d/1oK-s_drwmkpkgEGKSNp2aIGwa5wECzHBWKaZLT0dUys/edit?usp=sharing)
+- Mar 8, 2022 [Board meeting #10 Agenda](https://docs.google.com/document/d/1Hs85u__jLmUUsqR_K_w3rhaxy8iatJ7uTFwXCUHAU7U/edit?usp=sharing)
+- Feb 15, 2022 [Board Meeting #9 Minutes](https://drive.google.com/file/d/1UQZ2hPXEZgn2Ha8sGMGUr7-PRao7R4fb/view?usp=sharing)
 - Dec 6, 2021 [Board Meeting #8 Minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view?usp=sharing)
 - Nov 8, 2021 [Board Meeting #7 Minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view?usp=sharing)
 - Oct 11, 2021 [Board Meeting #6 Minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view?usp=sharing)
@@ -62,7 +63,7 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 
 In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
 
-The Membership Committee meets every other Tuesday for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
+The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
 
 As of Oct 11, 2021 the membership Committee consists of:
 - benny Vasquez, Mgr of DevRel and Community @ Progress Software and [Current Chair of the Board or Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
