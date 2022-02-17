@@ -41,9 +41,43 @@ You can create a public AlmaLinux mirror in 6 easy steps:
    your mirror to the `mirrors.d` directory.
    You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
    as an example. Your mirror does not have to provide all the protocols
-   that our main mirror provides, but either HTTP or HTTPS is required.
+   that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
+   Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.  
+    
+    ```YAML
+    ---
+    name: <domain name of a mirror, e.g. almalinux.mirror.link>
+    cloud_type: <azure|aws. It'll be required if a mirror is located in AWS/Azure cloud>
+    address:
+      http: <http URL to a mirror, e.g. http://almalinux.mirror.link/almalinux>
+      https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux>
+      rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux>
+      ftp: <ftp URL to a mirror, e.g. ftp://almalinux.mirror.link/almalinux>
+    update_frequency: <update frequency of a mirror, e.g. 1h>
+    sponsor: <Name of a mirror's sponsor/holder, e.g. Some company name>
+    sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
+    email: <e-mail of a mirror's sponsor/holder, e.g. admin@some.company.name>
+    geolocation:
+      continent: <name of a continent, e.g. North America; than field is not mandatory>
+      country: <two-letter name of a country, e.g. US>
+      state_province: <name of a province, e.g. New York>
+      city: <name of a city, e.g. New York>
+    private: <true|false. A mirror is available in some local network if the param is true>
+    monopoly: <true|false. The mirrors list contains only this private mirror for a suitable client if param is true>
+    # The list will be required if a mirror is local or cloud.
+    # It contains subnets behind which located a private mirror.
+    # Also, it can be string and contains URL which returns json list with subnets
+    subnets:
+      - <network mask>
+    # That parameter can specify ASN which is maintained by a mirror is located in cloud
+    asn: <ASN number, see https://en.wikipedia.org/wiki/Autonomous_system_(Internet)>
+    # The list will be required if a mirror is located in Azure/AWS cloud
+    cloud_regions:
+      - <cloud_region of Azure/AWS, e.g. australiacentral2>
+    ...
+   ```
 
-   More information about creating a pull request can be found in the
+   You could find more information about creating a pull request in
    [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
    After reviewing the pull request your mirror will be published at the
    [mirrors.almalinux.org](https://mirrors.almalinux.org/) page and will
