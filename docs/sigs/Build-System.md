@@ -8,14 +8,14 @@ The Build System Team is responsible for automating processes of building distri
 
 The Build System SIG uses the [SIG/Build System](https://chat.almalinux.org/almalinux/channels/build-system) chat channel for communication.
 
-Deliverables:
+## Deliverables:
 * [Build System project's documentation and issue tracker](https://github.com/AlmaLinux/build-system)
 * [Build System Web-Server](https://github.com/AlmaLinux/albs-web-server)
 * [Build System Build Node](https://github.com/AlmaLinux/albs-node)
 * [Build System Test System](https://github.com/AlmaLinux/alts)
 * [Build System Frontend](https://github.com/AlmaLinux/albs-frontend)
 
-Help wanted:
+## Help wanted:
 
 * Add OpenStack backend driver support.
 * Improve OpenNebula backend driver support.
@@ -23,7 +23,7 @@ Help wanted:
 * Improve ability to delete a build. 
 * Add support for external test projects.
 
-SIG Members:
+## SIG Members:
 * [Eugene Zamriy](mailto:ezamriy@almalinux.org) - The director of release
   engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the
   company efforts on the AlmaLinux OS development and support.
