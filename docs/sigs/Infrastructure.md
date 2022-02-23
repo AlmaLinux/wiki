@@ -66,3 +66,6 @@ If you can help, please join us at [Infrastructure channel](https://chat.almalin
 * [Cody Robertson](mailto:crobertson@almalinux.org)
   * Chat login: [codyr](https://chat.almalinux.org/almalinux/messages/@codyr)
   * GitHub profile: [codyro](https://github.com/codyro)
+* [Adam Miller](mailto:amiller@almalinux.org)
+  * Chat login: [maxamillion](https://chat.almalinux.org/almalinux/messages/@maxamillion)
+  * GitHub profile: [maxamillion](https://github.com/maxamillion)
