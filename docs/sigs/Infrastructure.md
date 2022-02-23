@@ -49,7 +49,7 @@ If you can help, please join us at [Infrastructure channel](https://chat.almalin
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Architect
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Eugene Zamriy](mailto:ezamriy@almalinux.org) - The director of release
+* [Eugene Zamriy](mailto:ezamriy@almalinux.org) - Director of release
   engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the
   company efforts on the AlmaLinux OS development and support.
   * Chat login: [ezamriy](https://chat.almalinux.org/almalinux/messages/@ezamriy)
