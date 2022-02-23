@@ -63,3 +63,6 @@ If you can help, please join us at [Infrastructure channel](https://chat.almalin
 * [Vasiliy Kleschov](mailto:vkleschov@almalinux.org) - Build System Team Lead
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
+* [Cody Robertson](mailto:crobertson@almalinux.org)
+  * Chat login: [codyr](https://chat.almalinux.org/almalinux/messages/@codyr)
+  * GitHub profile: [codyro](https://github.com/codyro)
