@@ -1,5 +1,5 @@
 ---
-title: "Paspberry Pi"
+title: "Raspberry Pi"
 ---
 
 # Raspberry Pi
