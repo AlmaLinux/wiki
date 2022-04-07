@@ -83,3 +83,12 @@ same bugs as the current release of RHEL.  AlmaLinux recommends following an
 "upstream first" approach to fix these bugs by submitting them to [CentOS
 Stream](https://centos.org/centos-stream/).  This is the contribution path to
 get the bug fix into RHEL, which will in turn be rebuilt into AlmaLinux.
+
+### How can I request a package be added to AlmaLinux?
+
+Since AlmaLinux is a 1:1 binary compatible fork of RHEL, it does not add
+packages to the distribution unless they are added to RHEL.  In general, the
+best place for additional packages is the [Extra Packages for Enterprise Linux
+(EPEL)](https://docs.fedoraproject.org/en-US/epel/) repository.  Any Fedora
+package that is not in RHEL can be
+[requested](https://docs.fedoraproject.org/en-US/epel/epel-package-request/).
