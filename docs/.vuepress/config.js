@@ -37,6 +37,7 @@ module.exports = {
           '/documentation/openscap-guide',
           '/documentation/building-packages-guide',
           '/documentation/raspberry-pi',
+          '/documentation/wsl'
         ]
       },
       {
