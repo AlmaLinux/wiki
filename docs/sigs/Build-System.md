@@ -1,5 +1,5 @@
 ---
-title: 'Buid System SIG'
+title: 'Build System SIG'
 ---
 
 # Build System SIG
