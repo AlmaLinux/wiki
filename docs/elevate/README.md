@@ -15,6 +15,7 @@ The ELevate project supports only CentOS repositories. It doesn't support other 
 There are several ways to perform upgrade these days. Here is the list to see which migration directions are available:
 
 * CentOS 7 - AlmaLinux 8
+* CentOS 7 - EuroLinux 8
 * CentOS 7 - Rocky Linux 8
 * CentOS 7 - Oracle Linux 8
 * CentOS 7 - CentOS Stream 8

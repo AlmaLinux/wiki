@@ -12,7 +12,7 @@ Before beginnning, we **HIGHLY** recommend that you follow system administration
 The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
 :::
 
-This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS Stream, Oracle, and Rocky Linux. 
+This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, EuroLinux, CentOS Stream, Oracle, and Rocky Linux. 
 
 You need CentOS 7 system installed to use this guide.
 
@@ -32,6 +32,7 @@ sudo yum install -y http://repo.almalinux.org/elevate/elevate-release-latest-el7
 * Install leapp packages and migration data for the OS you want to upgrade. Possible options are:
     * leapp-data-almalinux
     * leapp-data-centos
+    * leapp-data-eurolinux
     * leapp-data-oraclelinux
     * leapp-data-rocky
 ```

@@ -6,7 +6,7 @@ title: "Migration SIG"
 
 The Migration team is responsible for migration from RHEL8 derivatives to AlmaLinux OS, including documentation and upgrades.
 
-Migration from CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS, Rocky, Oracle is also in the Migration Team's duties.
+Migration from CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS, EuroLinux, Rocky, Oracle is also in the Migration Team's duties.
 
 The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/channels/migration) chat channel for communication.
 
