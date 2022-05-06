@@ -49,7 +49,8 @@ module.exports = {
           '/cloud/Google',
           '/cloud/Generic-cloud',
           '/cloud/Generic-cloud-on-local',
-          '/cloud/OpenNebula'
+          '/cloud/OpenNebula',
+          '/cloud/OCI'
         ]
       },
       {
