@@ -68,5 +68,4 @@ The Membership Committee meets on the third Tuesday of every month for 30 minute
 As of Oct 11, 2021 the membership Committee consists of:
 - benny Vasquez, Mgr of DevRel and Community @ Progress Software and [Current Chair of the Board or Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
 - Daniel Pearson, COO of KnownHost, and Current Chair of the Membership Committee
-- Matiss Treinis, independent contributor, almalinux.org maintainer
 
