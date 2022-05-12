@@ -30,7 +30,7 @@ So, **BULK UPLOAD** option is only for AlmaLinux developers. It's not available 
 
 ![image](/images/elevate_bulk-result.png)
 
-**DUMP** item allows you to choose what JSON to dump. There are a few more options. Source OS allows you to choose from what system you migrate. Target OS allows you to choose what system you want to migrate to - AlmaLinux, CentOS Stream, Oracle Linux and Rocky Linux. The next option is GitHub organization, where you can choose migration rules for JSON. If you are in any organization that has its own migration rules, you can choose between AlmaLinux's rules and the organization's rules, or  choose all. If you are not in any organization, there are only AlmaLinux rules available. 
+**DUMP** item allows you to choose what JSON to dump. There are a few more options. Source OS allows you to choose from what system you migrate. Target OS allows you to choose what system you want to migrate to - AlmaLinux, EuroLinux, CentOS Stream, Oracle Linux and Rocky Linux. The next option is GitHub organization, where you can choose migration rules for JSON. If you are in any organization that has its own migration rules, you can choose between AlmaLinux's rules and the organization's rules, or  choose all. If you are not in any organization, there are only AlmaLinux rules available. 
 
 ![image](/images/elevate_dump-json.png)
 
@@ -62,7 +62,7 @@ The next step is to choose a `GitHub organization` that displays what organizati
 
 `Source OS` offers you to choose from what operating system you migrate. You also need to enter the system version here.
 
-`Target OS` offers you to choose to what operating system you are migrating. You can choose between AlmaLinux, CentOS Stream, Oracle Linux and Rocky Linux. Again, enter the system version nearby.
+`Target OS` offers you to choose to what operating system you are migrating. You can choose between AlmaLinux, EuroLinux, CentOS Stream, Oracle Linux and Rocky Linux. Again, enter the system version nearby.
 
 :::tip
 If you are adding action and the new rule works for all systems, you need to mark fields `source is generic` and `target is generic`. If the rule works only for chosen systems, don't mark these fields. 
