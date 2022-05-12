@@ -18,6 +18,7 @@ module.exports = {
       {
         title: 'Release Notes',
         children: [
+          '/release-notes/8.6',
           '/release-notes/9.0-beta',
           '/release-notes/8.6-beta',
           '/release-notes/8.5-ppc',
