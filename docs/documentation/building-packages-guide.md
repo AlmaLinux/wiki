@@ -29,12 +29,12 @@ Mock rebuilds RPMs from source RPMs. You have to download source RPMs in advance
 
 Full package name contains `package name`, `version`, `release` and `architecture`. For example, in **zlib-1.2.11-17.el8.src.rpm** `package name` is **zlib**, **1.2.11** is `version`, **17.el8** is `release`, and **src** for `architecture` but it indicates that it's an RPM source package.
 
-## Setup mock
+## Setup mock and rpm-build
 
 * First step is to install EPEL repository to your system:
 
 ```
-sudo dnf install epel-release
+sudo dnf install -y epel-release
 ```
 
 :::tip
@@ -44,7 +44,7 @@ Get more information about [AlmaLinux supports EPEL and other repositories](/rep
 * After EPEL installation is completed, you can install the mock tool:
 
 ```
-sudo dnf install mock
+sudo dnf install -y mock rpm-build
 ```
 
 * Run the following command to be added to the mock group. That is necessary as you are going to use mock to build packages:
@@ -313,7 +313,7 @@ mock -r almalinux-8-i686 --rebuild fullpackagename.src.rpm
 ### Instruction without changes 
 
 In case you need to build a package without any changes, follow mentioned steps:
-* [Install](#setup-mock) `epel-release`, `mock` and `add a user` to the mock group.
+* [Install](#setup-mock) `epel-release`, `mock`, `rpm-build` and `add a user` to the mock group.
 * Download a package you want to rebuild from [repo.almalinux.org](https://repo.almalinux.org/). Use the `wget` command with the URL of the package.
 * Run `mock -r "configname" --rebuild fullpackagename.src.rpm` to build the package.
 
@@ -339,11 +339,11 @@ Another way to build packages is to receive sources and .spec files from [git.al
 * Switch to the almalinux-git-utils directory and run the following commands: 
 
 ```
-python3.8 setup.py build
+python3 setup.py build
 ```
     
 ```
-pip3.8 install .
+pip3 install .
 ```
 
 * Switch to the needed directory and clone a repo with the RPM package project from [git.almalinux.org](https://git.almalinux.org/). After that, you have the SPECS folder with the .spec file for the cloned project.
@@ -357,7 +357,7 @@ alma_get_sources
 * Run these commands to create a workplace directory structure `rpmbuild`.
 
 ```
-dnf install rpmdevtools
+dnf install -y rpmdevtools
 ```
 
 ```
