@@ -41,9 +41,6 @@ The Build System SIG uses the [SIG/Build System](https://chat.almalinux.org/alma
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Aleksandr Denisov](mailto:adenisov@cloudlinux.com) - The software developer engineer.
-  * Chat login: [adenisov](https://chat.almalinux.org/almalinux/messages/@adenisov)
-  * GitHub profile: [monkrobot](https://github.com/monkrobot)
 * [Daniil Anfimov](mailto:danfimov@cloudlinux.com) - The software developer engineer.
   * Chat login: [anfimovdm](https://chat.almalinux.org/almalinux/messages/@anfimovdm)
   * GitHub profile: [anfimovdm](https://github.com/anfimovdm)
