@@ -39,6 +39,7 @@ module.exports = {
         title: 'Documentation',
         children: [    
           '/documentation/openscap-guide',
+          '/documentation/oval-streams',         
           '/documentation/building-packages-guide',
           '/documentation/raspberry-pi',
           '/documentation/wsl'
