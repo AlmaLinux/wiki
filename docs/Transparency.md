@@ -45,13 +45,14 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 | Logo License for the foundation | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed | DONE| 
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
+<!-- To add minutes to this list, export the approved minutes from the meeting folder as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF -->
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
 
-- Jun 14, 2022 [Board meeting #12 Agenda](https://docs.google.com/document/d/1TbwwVN-t4jKPwfwpzcai6k_4P0FO0-kwkcWzC_YdS-s/view?usp=sharing)
-- Apr 19, 2022 [Board meeting #11 Agenda](https://docs.google.com/document/d/1VrvXGJsPruH7QY2gdmHQOEt8UQ_Z6YEiYrroUhg8reE/view?usp=sharing)
-- Mar 8, 2022 [Board meeting #10 Agenda](https://docs.google.com/document/d/1Hs85u__jLmUUsqR_K_w3rhaxy8iatJ7uTFwXCUHAU7U/view?usp=sharing)
+- Jun 14, 2022 [Board meeting #12 Minutes](https://drive.google.com/file/d/1ObYS_7CYsidrRnBUI6rTfR5eOBJQxI6F/view?usp=sharing)
+- Apr 19, 2022 [Board meeting #11 Minutes](https://drive.google.com/file/d/1hm-pB_E5S9ZxG8zHv6yDOpYTr7IgRt5n/view?usp=sharing)
+- Mar 8, 2022 [Board meeting #10 Minutes](https://drive.google.com/file/d/1hSis_UUekbtPOh038tEiNpyqIe72vrOl/view?usp=sharing)
 - Feb 15, 2022 [Board Meeting #9 Minutes](https://drive.google.com/file/d/1UQZ2hPXEZgn2Ha8sGMGUr7-PRao7R4fb/view?usp=sharing)
 - Dec 6, 2021 [Board Meeting #8 Minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view?usp=sharing)
 - Nov 8, 2021 [Board Meeting #7 Minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view?usp=sharing)
