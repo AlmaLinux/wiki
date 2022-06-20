@@ -23,7 +23,7 @@ You can create a public AlmaLinux mirror in 6 easy steps:
    ```
 4. Ensure the accuracy of GeoIP city, longitude, and latitude data for your mirror IP(s) with MaxMind at 
    [https://www.maxmind.com/en/geoip-demo](https://www.maxmind.com/en/geoip-demo). 
-   Submit a [correction request](https://support.maxmind.com/geoip-data-correction-request/) with accurate city data 
+   Submit a [correction request](https://www.maxmind.com/en/geoip-location-correction) with accurate city data 
    if the information is incorrect.
 
    Our mirrorlist URL tries to serve the best mirror to a client based on GeoIP data
