@@ -70,13 +70,15 @@ You can create a public AlmaLinux mirror in 6 easy steps:
     subnets:
       - <network mask>
     # That parameter can specify ASN which is maintained by a mirror is located in cloud
-    # It can be string or list of strings:
+    # It can be number or list of numbers:
     # asn: 40162
     # or
     # asn:
     #   - 41222
     #   - 91213
-    asn: <ASN number, see https://en.wikipedia.org/wiki/Autonomous_system_(Internet)>. 
+    # or
+    # asn: [12345, 98765]
+    asn: <ASN number or list of ASN numbers, see https://en.wikipedia.org/wiki/Autonomous_system_(Internet)>. 
     # The list will be required if a mirror is located in Azure/AWS cloud
     cloud_regions:
       - <cloud_region of Azure/AWS, e.g. australiacentral2>
