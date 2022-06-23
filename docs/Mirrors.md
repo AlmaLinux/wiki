@@ -70,7 +70,7 @@ You can create a public AlmaLinux mirror in 6 easy steps:
     subnets:
       - <network mask>
     # That parameter can specify ASN which is maintained by a mirror is located in cloud
-    # It can be string or list of string:
+    # It can be string or list of strings:
     # asn: 40162
     # or
     # asn:
