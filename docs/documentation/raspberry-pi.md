@@ -12,7 +12,7 @@ title: "Raspberry Pi"
 
 The Raspberry Pi image can be found on [repo.almalinux.org](https://repo.almalinux.org/rpi/). 
 
-Raspberry Pi *Quickstart* and *After Installation* instructions with videos can be found in the [GitHub repository](https://github.com/AlmaLinux/raspberry-pi). There are also steps how to get GNOME working and connect wifi.
+Raspberry Pi *Quickstart* and *After Installation* instructions with videos can be found in the [GitHub repository](https://github.com/AlmaLinux/raspberry-pi). There are also steps how to get GNOME working and connect Wi-Fi.
 
 ## How to contribute
 
