@@ -16,6 +16,7 @@ title: 'Howto Guides'
 - [Java](https://linuxstans.com/how-to-install-java-almalinux/)
 
 ## Virtualization 
+- [vagrant-libvirt plugin](https://docs.euro-linux.com/HowTo/vagrant-with-libvirt/)
 - [Docker CE](https://techviewleo.com/how-to-install-docker-ce-on-almalinux/)
 - [XCP-ng VM Tools](https://techviewleo.com/install-xcp-ng-vm-tools-on-centos-almalinux/)
 

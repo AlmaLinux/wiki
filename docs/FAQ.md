@@ -27,7 +27,7 @@ license.
 ### Why is it called _AlmaLinux_?
 
 Alma means soul in Spanish and other Latin languages. A vital part
-of Linux is the passionate, diverse developer community either helping
+of Linux is the passionate, diverse developer community, either helping
 support the work of Linux and other essential activities that advance Linux.
 This community is the soul of Linux, and Linux distribution users are indebted
 to the Linux community's efforts. We chose the name AlmaLinux in homage to the
