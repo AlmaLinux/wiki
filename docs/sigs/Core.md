@@ -48,7 +48,7 @@ If you can help, please join us at [Core SIG on Mattermost](https://chat.almalin
   company efforts on the AlmaLinux OS development and support.
   * Chat login: [ezamriy](https://chat.almalinux.org/almalinux/messages/@ezamriy)
   * GitHub profile: [ezamriy](https://github.com/ezamriy)
-* [Jack Aboutboul](mailto:jack@almalinux.org>) - The AlmaLinux OS community manager.
+* [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
   * Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
   * GitHub profile: [jaboutboul](https://github.com/jaboutboul)
 * [Sergey Fokin](mailto:sfokin@almalinux.org) - The RPM packager and automation engineer.
