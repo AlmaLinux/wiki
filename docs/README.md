@@ -24,8 +24,8 @@
 <li>Cloud Images (and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD
     <ul>
     <li><a href="https://github.com/AlmaLinux/cloud-images">AlmaLinux Cloud Images</a></li>
-    <li><a href=cloud/aws>Expanded documentation on AWS</a></li>
-    <li><a href=cloud/generic-cloud>Expanded documentation on Generic Cloud/Cloud-Init</a></li>
+    <li><a href=cloud/AWS>Expanded documentation on AWS</a></li>
+    <li><a href=cloud/Generic-cloud>Expanded documentation on Generic Cloud/Cloud-Init</a></li>
     </ul>
 </li>
 <li>Container Images:
