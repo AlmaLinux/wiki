@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://wiki.almalinux.org/</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/LiveMedia</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/repos/</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/Mirrors</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/elevate/</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/FAQ</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/Comparison</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/Howto</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/Contribute</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/gsoc</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/Transparency</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/Generic-cloud</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/9.0</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/LiveMedia</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/containers/docker-images</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Core</loc>
+	<lastmod>2022-07-01T14:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Infrastructure</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Cloud</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Build-System</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Migration</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Core</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Infrastructure</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Cloud</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/sigs/Build-System</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/repos/AlmaLinux</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/repos/CentOS</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/repos/Extras</loc>
+	<lastmod>2022-07-01T14:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/development/Packaging</loc>
+	<lastmod>2022-07-01T14:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/elevate/ELevate-quickstart-guide</loc>
+	<lastmod>2022-07-01T14:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/elevate/Contribution-guide</loc>
+	<lastmod>2022-07-01T14:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/elevate/ELevate-frequent-issues</loc>
+	<lastmod>2022-07-01T14:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/Azure</loc>
+	<lastmod>2022-07-01T14:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/AWS</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/Google</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/Generic-cloud-on-local</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/OpenNebula</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/cloud/OCI</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/documentation/wsl</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.6</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/9.0-beta</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.6-beta</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.5-ppc</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.5</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.5-beta-ppc</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.5-beta</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.4-arm</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.4</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.4-beta-arm</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.4-beta</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.3</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.3-rc</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/release-notes/8.3-beta</loc>
+	<lastmod>2022-07-01T14:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/documentation/openscap-guide</loc>
+	<lastmod>2022-07-01T14:31:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/documentation/oval-streams</loc>
+	<lastmod>2022-07-01T14:31:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/documentation/building-packages-guide</loc>
+	<lastmod>2022-07-01T14:31:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wiki.almalinux.org/documentation/raspberry-pi</loc>
+	<lastmod>2022-07-01T14:31:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
