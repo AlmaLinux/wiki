@@ -12,15 +12,22 @@ There are a few AlmaLinux Live Media Options:
 
 * GNOME Mini: contains a core GNOME environment with Firefox browser
 * GNOME: contains a full GNOME environment with popular workstation applications like LibreOffice, Thunderbird and so on.
- ![image](https://user-images.githubusercontent.com/1273137/126913694-e0f4ad15-e405-4764-a24c-8c63f5d5799c.png)
+
+ ![image](/images/live-media-9-gnome.png)
+
 * KDE: contains KDE desktop environment with Firefox browser, Konqueror browser, and applications like LibreOffice, Thunderbird, etc.
- ![image](https://user-images.githubusercontent.com/1273137/129279587-faacf763-01ca-4cf2-bb2b-a1458f4028db.png)
+
+ ![image](/images/live-media-9-kde.png)
+
 * XFCE: contains XFCE desktop environment with Firefox browser, Thunderbird, LibreOffice, and more applications. 
- ![image](https://user-images.githubusercontent.com/1273137/129016230-1921cc3b-f949-421e-a31a-18336507a632.png)
+
+ ![image](/images/live-media-9-xfce.png)
   
 ## How to download and write images
 
-The first step is to [download an AlmaLinux image](https://repo.almalinux.org/almalinux/8/live/x86_64/).
+The first step is to download an AlmaLinux image:
+* [AlmaLinux 8 Live Images](https://repo.almalinux.org/almalinux/8/live/x86_64/)
+* [AlmaLinux 9 Live Images](https://repo.almalinux.org/almalinux/9/live/x86_64/)
 
 Then it all depends on what OS you use. 
 
@@ -49,9 +56,13 @@ After you found out the location of your target USB, navigate to the location of
 `status=progress`: display a progress bar while writing the image to the USB stick such as /dev/sdb. 
 That’s all! You now have ready Live AlmaLinux on a USB stick.
 
+:::warning
+This example is for AlmaLinux 8. Don't forget to replace **8** version with **9** to work with AlmaLinux 9 image.
+:::
+
 **Windows:**
 
-For Window OS there is a helpful free and open-source application - [Rufus](https://rufus.ie/). 
+For Windows OS there is a helpful free and open-source application - [Rufus](https://rufus.ie/). 
 
 Open the application, choose your target USB, ISO you need to burn, press start - and Live OS is ready to run. 
 
