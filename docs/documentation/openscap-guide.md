@@ -5,7 +5,7 @@ AlmaLinux OpensSCAP Guide
 # AlmaLinux OpenSCAP Guide
 
 :::warning
-This guide was developed for AlmaLinux 8 OS. We do not recommend using it on AlmaLinux 9 OS as it may have some other steps or details in running OpenSCAP.
+This guide was developed for AlmaLinux 8 OS. Running OpenSCAP for AlmaLinux 9 OS may work differently.
 :::
 
 ## About OpenSCAP
