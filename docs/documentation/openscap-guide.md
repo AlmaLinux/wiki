@@ -4,6 +4,10 @@ AlmaLinux OpensSCAP Guide
 
 # AlmaLinux OpenSCAP Guide
 
+:::warning
+This guide was developed for AlmaLinux 8 OS. We do not recommend using it on AlmaLinux 9 OS as it may have some other steps or details in running OpenSCAP.
+:::
+
 ## About OpenSCAP
 
 SCAP - The Security Content Automation Protocol - is an automated method that uses standards to enable vulnerability management, measurement, and policy compliance evaluation of systems. SCAP is a U.S. standard maintained by the National Institute of Standards and Technology.
@@ -61,10 +65,11 @@ The `oscap -V` command displays information such as the specifications which the
 As an example of an output you will see this: 
 
 ```
-OpenSCAP command line tool (oscap) 1.3.4
-Copyright 2009--2020 Red Hat Inc., Durham, North Carolina.
+OpenSCAP command line tool (oscap) 1.3.6
+Copyright 2009--2021 Red Hat Inc., Durham, North Carolina.
 
 ==== Supported specifications ====
+SCAP Version: 1.3
 XCCDF Version: 1.2
 OVAL Version: 5.11.1
 CPE Version: 2.3
@@ -82,29 +87,28 @@ Schema files: /usr/share/openscap/schemas
 Default CPE files: /usr/share/openscap/cpe
 
 ==== Inbuilt CPE names ====
-Red Hat Enterprise Linux - cpe:/o:redhat:enterprise_linux
+Red Hat Enterprise Linux - cpe:/o:redhat:enterprise_linux:-
 ...
-Oracle Linux 8 - cpe:/o:oracle:linux:8
+Community Enterprise Operating System 8 - cpe:/o:centos:centos:8
 AlmaLinux 8 - cpe:/o:almalinux:almalinux:8
-Community Enterprise Operating System 5 - cpe:/o:centos:centos:5
-
 ...
+Fedora 35 - cpe:/o:fedoraproject:fedora:35
 
 ==== Supported OVAL objects and associated OpenSCAP probes ====
 OVAL family   OVAL object                  OpenSCAP probe              
 ----------    ----------                   ----------                  
 independent   environmentvariable          probe_environmentvariable
 independent   environmentvariable58        probe_environmentvariable58
-independent   family                       probe_family
-independent   filehash                     probe_filehash
-
+...
+unix          uname                        probe_uname
+unix          xinetd                       probe_xinetd
 ```
 
 ### Displaying Available Profiles
 
 A profile consists of common security suggestions that are related to any AlmaLinux installation. Profiles also have supplementary recommendations for the system to use. So, the `oscap info` command is used to see available profiles are currently supported by the SCAP Security Guide which is a checklist file.
 
-`oscap info "/usr/share/xml/scap/ssg/content/ssg-almalinux8-xccdf.xml"`
+`oscap info /usr/share/xml/scap/ssg/content/ssg-almalinux8-xccdf.xml`
 
 The part in quotes is the full path to the security content file being examined.
 
@@ -113,57 +117,57 @@ As an example of displaying available profiles output you'll see next:
 ```
 Document type: XCCDF Checklist
 Checklist version: 1.1
-Imported: 2021-11-02T18:40:40
+Imported: 2022-05-03T13:52:24
 Status: draft
-Generated: 2021-11-02
+Generated: 2022-05-03
 Resolved: true
 Profiles:
-        Title: ANSSI-BP-028 (enhanced)
-                Id: anssi_bp28_enhanced
-        Title: ANSSI-BP-028 (high)
-                Id: anssi_bp28_high
-        Title: ANSSI-BP-028 (intermediary)
-                Id: anssi_bp28_intermediary
-        Title: ANSSI-BP-028 (minimal)
-                Id: anssi_bp28_minimal
-        Title: CIS AlmaLinux OS 8 Benchmark for Level 2 - Server
-                Id: cis
-        Title: CIS AlmaLinux OS 8 Benchmark for Level 1 - Server
-                Id: cis_server_l1
-        Title: CIS AlmaLinux OS 8 Benchmark for Level 1 - Workstation
-                Id: cis_workstation_l1
-        Title: CIS AlmaLinux OS 8 Benchmark for Level 2 - Workstation
-                Id: cis_workstation_l2
-        Title: Unclassified Information in Non-federal Information Systems and Organizations (NIST 800-171)
-                Id: cui
-        Title: Australian Cyber Security Centre (ACSC) Essential Eight
-                Id: e8
-        Title: Health Insurance Portability and Accountability Act (HIPAA)
-                Id: hipaa
-        Title: Australian Cyber Security Centre (ACSC) ISM Official
-                Id: ism_o
-        Title: Protection Profile for General Purpose Operating Systems
-                Id: ospp
-        Title: PCI-DSS v3.2.1 Control Baseline for AlmaLinux 8
-                Id: pci-dss
-        Title: DISA STIG for AlmaLinux 8
-                Id: stig
-        Title: DISA STIG with GUI for AlmaLinux 8
-                Id: stig_gui
+	Title: ANSSI-BP-028 (enhanced)
+		Id: anssi_bp28_enhanced
+	Title: ANSSI-BP-028 (high)
+		Id: anssi_bp28_high
+	Title: ANSSI-BP-028 (intermediary)
+		Id: anssi_bp28_intermediary
+	Title: ANSSI-BP-028 (minimal)
+		Id: anssi_bp28_minimal
+	Title: CIS AlmaLinux OS 8 Benchmark for Level 2 - Server
+		Id: cis
+	Title: CIS AlmaLinux OS 8 Benchmark for Level 1 - Server
+		Id: cis_server_l1
+	Title: CIS AlmaLinux OS 8 Benchmark for Level 1 - Workstation
+		Id: cis_workstation_l1
+	Title: CIS AlmaLinux OS 8 Benchmark for Level 2 - Workstation
+		Id: cis_workstation_l2
+	Title: Unclassified Information in Non-federal Information Systems and Organizations (NIST 800-171)
+		Id: cui
+	Title: Australian Cyber Security Centre (ACSC) Essential Eight
+		Id: e8
+	Title: Health Insurance Portability and Accountability Act (HIPAA)
+		Id: hipaa
+	Title: Australian Cyber Security Centre (ACSC) ISM Official
+		Id: ism_o
+	Title: Protection Profile for General Purpose Operating Systems
+		Id: ospp
+	Title: PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 8
+		Id: pci-dss
+	Title: DISA STIG for Red Hat Enterprise Linux 8
+		Id: stig
+	Title: DISA STIG with GUI for Red Hat Enterprise Linux 8
+		Id: stig_gui
 Referenced check files:
-        ssg-almalinux8-oval.xml
-                system: http://oval.mitre.org/XMLSchema/oval-definitions-5
-        ssg-almalinux8-ocil.xml
-                system: http://scap.nist.gov/schema/ocil/2
-        https://security.almalinux.org/oval/org.almalinux.alsa-8.xml
-                system: http://oval.mitre.org/XMLSchema/oval-definitions-5
+	ssg-almalinux8-oval.xml
+		system: http://oval.mitre.org/XMLSchema/oval-definitions-5
+	ssg-almalinux8-ocil.xml
+		system: http://scap.nist.gov/schema/ocil/2
+	https://security.almalinux.org/oval/org.almalinux.alsa-8.xml
+		system: http://oval.mitre.org/XMLSchema/oval-definitions-5
 ```
 
 We'd like to mention, that the profiles in the example list may not be the same with your system. 
 
 The `--profile` option is useful to get information about a specific profile.
 
-`oscap info --profile hipaa "/usr/share/xml/scap/ssg/content/ssg-almalinux8-xccdf.xml"`
+`oscap info --profile hipaa /usr/share/xml/scap/ssg/content/ssg-almalinux8-xccdf.xml`
 
 There's an output example:
 
@@ -231,6 +235,51 @@ You can view the HTML report in a browser. Here is an example:
 ![image](/images/openscap_security-guide-1.png)
 ![image](/images/openscap_security-guide-2.png)
 
+### OVAL Scan
+
+#### About OVAL
+
+The OVAL definition file is used to scan the system in order to verify if applicable errata have been installed.
+To see the information about supported AlmaLinux OS versions and their public OVAL streams, please, visit the [AlmaLinux OVAL streams](https://wiki.almalinux.org/documentation/oval-streams.html) wiki page.
+
+There are two types of OVAL files: *org.almalinux.alsa-8.xml* and *org.almalinux.alsa-8.xml.bz2*, which contains the same information but archived.
+
+#### Performing a scan
+
+The first thing to run the OVAL scan is to download a file from an AlmaLinux OVAL stream using the browser or the `wget` command.
+
+:::tip
+Don't forget to extract the OVAL file if you downloaded the compressed file:
+```
+bzip2 -d org.almalinux.alsa-8.xml.bz2
+```
+:::
+
+* The the following command to perform an audit scan of the AlmaLinux:
+```
+oscap oval eval --results /tmp/alsa-results-oval.xml \
+--report ~/report/alsa-report-oval.html org.almalinux.alsa-8.xml
+```
+Here is an example output you can see:
+```
+Definition oval:org.almalinux.alsa:def:20224887: false
+Definition oval:org.almalinux.alsa:def:20224872: true
+Definition oval:org.almalinux.alsa:def:20224855: false
+...
+Definition oval:org.almalinux.alsa:def:20224769: false
+...
+Evaluation done.
+```
+If the patch has been applied to the system - the output shows the *true* flag. If not - you see the *false* flag.
+
+* Run the following command to generate the HTML report to view in a browser:
+```
+oscap oval generate report /tmp/alsa-results-oval.xml \ 
+~/report/alsa-report-oval.html
+```
+Here is the exapmle of the HTML report:
+![image](/images/openscap-oval-report.png)
+
 ## SCAP Workbench 
 
 One more way to scan a local or a remote system is SCAP Workbench. The SCAP Workbench utility also allows generating reports based on scan evaluations.
@@ -263,6 +312,7 @@ This option allows choosing the security profile by clicking this menu. You can 
 Here is the list of available profiles that can be used to evaluate the system: 
 
 * ANSSI-BP-028 (enhanced)
+* ANSSI-BP-028 (high)
 * ANSSI-BP-028 (intermediary)
 * ANSSI-BP-028 (minimal)
 * CIS AlmaLinux 8 Benchmark for Level 2 - Server
@@ -272,9 +322,11 @@ Here is the list of available profiles that can be used to evaluate the system:
 * Unclassified Information in Non-federal Information Systems and Organizations (NIST 800-171)
 * Australian Cyber Security Centre (ACSC) Essential Eight
 * Health Insurance Portability and Accountability Act (HIPAA)
+* Australian Cyber Security Centre (ACSC) ISM Official
 * Protection Profile for General Purpose Operating Systems
-* PCI-DSS v3.2.1 Control Baseline for AlmaLinux 8
-* DISA STIG for AlmaLinux 8
+* PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 8
+* DISA STIG for Red Hat Enterpise Linux 8
+* DISA STIG with GUI for Red Hat Enterpise Linux 8
 
 ***Target***
 Here you can select the system you want to be evaluated - a local or a remote one.
@@ -290,17 +342,17 @@ If you check this box, SCAP Workbench will attempt to correct system settings th
 
 After the profile is chosen, press the SCAN button. You will see how the process is going on the status bar. 
 
-![image](/images/openscap_workbench-scanning.png)
+![image](/images/openscap-workbench-scanning.png)
 
 
 After the scanning is finished, you'll have a diagnostics window.
 
-![image](/images/openscap_workbench-messages.png)
+![image](/images/openscap-workbench-message.png)
 
 
 You can *Save Results* as  XCCDF Result file, ARF, or HTML Report, in case you need them. If you press the *Show Report* button, it'll be displayed in a browser: 
 
-![image](/images/openscap_workbench-report.png)
+![image](/images/openscap-workbench-report.png)
 
 ### Applying Security Policy during Installation 
 
