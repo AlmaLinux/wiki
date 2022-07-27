@@ -3,7 +3,15 @@ title: 'Election 2022'
 ---
 # AlmaLinux Board of Directors Election 2022
 
+AlmaLinux OS Foundation is starting the election of the Board of Directors. We have 3 open positions to fill.
+The election will start on September 4th, 2022.
 
+At this stage we are looking for nominees for the Board of Director position. To be nominated you have to:
+* Be a member for at least 3 month by Sep 4th, 2022
+* Nominated by AlmaLinux member in good standing
+* To nominate someone email name & contact information of nominee to election2022@almalinux.org
+
+Please, check FAQ section for more information.
 
 
 ## FAQ
