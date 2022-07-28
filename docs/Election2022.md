@@ -23,6 +23,9 @@ Please, check FAQ section for more information.
   * Any member in good standing, approved by the membership committee not less than 3 months before the election
   * Note: only members in good standing may nominate a potential board member, and each nominee must have a supporting nominee
 
+* My company is a member sponsor, can it nominate any company employee?
+  * Yes, sponsors can nominate any company employee, but if the employee is terminated, or company sponsorship laps, the person will be required to step down from the role.
+
 * Can I nominate myself?
   * No, you must be nominated by a supporting member in good standing
 
