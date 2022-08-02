@@ -49,19 +49,20 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-
-- Jun 14, 2022 [Board meeting #12 Minutes](https://drive.google.com/file/d/1ObYS_7CYsidrRnBUI6rTfR5eOBJQxI6F/view?usp=sharing)
-- Apr 19, 2022 [Board meeting #11 Minutes](https://drive.google.com/file/d/1hm-pB_E5S9ZxG8zHv6yDOpYTr7IgRt5n/view?usp=sharing)
-- Mar 8, 2022 [Board meeting #10 Minutes](https://drive.google.com/file/d/1hSis_UUekbtPOh038tEiNpyqIe72vrOl/view?usp=sharing)
-- Feb 15, 2022 [Board Meeting #9 Minutes](https://drive.google.com/file/d/1UQZ2hPXEZgn2Ha8sGMGUr7-PRao7R4fb/view?usp=sharing)
-- Dec 6, 2021 [Board Meeting #8 Minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view?usp=sharing)
-- Nov 8, 2021 [Board Meeting #7 Minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view?usp=sharing)
-- Oct 11, 2021 [Board Meeting #6 Minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view?usp=sharing)
-- Sep 13, 2021 [Board Meeting #5 Minutes](https://drive.google.com/file/d/1x5k1wUv9UtkNvXu-JBbVb9JFNPyo67vm/view?usp=sharing)
-- Aug 16, 2021 [Board Meeting #4 Minutes](https://drive.google.com/file/d/1TAXkQg2kh8Hj-yyF0Hyx1CIJsOg3QCtp/view?usp=sharing)
-- Jul 19, 2021 [Board Meeting #3 Minutes](https://drive.google.com/file/d/1YfpQMs2YRiozcMyGvHjeP1Nr2cp3hD9u/view?usp=sharing)
-- Jun 14, 2021 [Board Meeting #2 Minutes](https://drive.google.com/file/d/1hwcgIacCug0TESfohIB-mEiYs69BCLfv/view?usp=sharing)
-- May 12, 2021 [Board Meeting #1 Minutes](https://drive.google.com/file/d/1O2oNPu9rXxnu0IjYkdeS3dDfKN4YKVsJ/view?usp=sharing)
+- Aug 11, 2022 [Board meeting #14 agenda](https://docs.google.com/document/d/1XoicMYELZs-hPsFbyKwGHz082sNpa6AwNVInvzYRlVA/edit?usp=sharing)
+- Jul 12, 2022 [Board meeting #13 minutes](https://drive.google.com/file/d/1rptJ_BJrxuh5HThLs088satKg7Y6TtUM/view?usp=sharing)
+- Jun 14, 2022 [Board meeting #12 minutes](https://drive.google.com/file/d/1ObYS_7CYsidrRnBUI6rTfR5eOBJQxI6F/view?usp=sharing)
+- Apr 19, 2022 [Board meeting #11 minutes](https://drive.google.com/file/d/1hm-pB_E5S9ZxG8zHv6yDOpYTr7IgRt5n/view?usp=sharing)
+- Mar 8, 2022 [Board meeting #10 minutes](https://drive.google.com/file/d/1hSis_UUekbtPOh038tEiNpyqIe72vrOl/view?usp=sharing)
+- Feb 15, 2022 [Board meeting #9 minutes](https://drive.google.com/file/d/1UQZ2hPXEZgn2Ha8sGMGUr7-PRao7R4fb/view?usp=sharing)
+- Dec 6, 2021 [Board meeting #8 minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view?usp=sharing)
+- Nov 8, 2021 [Board meeting #7 minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view?usp=sharing)
+- Oct 11, 2021 [Board meeting #6 minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view?usp=sharing)
+- Sep 13, 2021 [Board meeting #5 minutes](https://drive.google.com/file/d/1x5k1wUv9UtkNvXu-JBbVb9JFNPyo67vm/view?usp=sharing)
+- Aug 16, 2021 [Board meeting #4 minutes](https://drive.google.com/file/d/1TAXkQg2kh8Hj-yyF0Hyx1CIJsOg3QCtp/view?usp=sharing)
+- Jul 19, 2021 [Board meeting #3 minutes](https://drive.google.com/file/d/1YfpQMs2YRiozcMyGvHjeP1Nr2cp3hD9u/view?usp=sharing)
+- Jun 14, 2021 [Board meeting #2 minutes](https://drive.google.com/file/d/1hwcgIacCug0TESfohIB-mEiYs69BCLfv/view?usp=sharing)
+- May 12, 2021 [Board meeting #1 minutes](https://drive.google.com/file/d/1O2oNPu9rXxnu0IjYkdeS3dDfKN4YKVsJ/view?usp=sharing)
 
 ## Membership Committee
 
