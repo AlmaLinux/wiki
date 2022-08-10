@@ -1,5 +1,6 @@
 ---
 title: "Infrastructure SIG"
+permalink: /sigs/Infrastructure
 ---
 # Infrastructure SIG
 

@@ -1,5 +1,6 @@
 ---
 title: ELevate Frequent Issues
+permalink: /elevate/ELevate-frequent-issues
 ---
 
 # ELevate Frequent Issues

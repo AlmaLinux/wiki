@@ -1,5 +1,6 @@
 ---
 title: 'AlmaLinux Repositories'
+permalink: /repos/AlmaLinux
 ---
 # AlmaLinux Repositories
 

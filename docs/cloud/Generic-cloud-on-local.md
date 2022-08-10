@@ -1,3 +1,7 @@
+---
+title: 'Use Generic Cloud (cloud-init) image on local'
+permalink: /cloud/Generic-cloud-on-local
+---
 # Use Generic Cloud (cloud-init) image on local 
 You can use the Generic Cloud image for testing, developing and repackaging purposes on your local machine or server.
 

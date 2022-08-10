@@ -1,5 +1,6 @@
 ---
 title: "Live Media SIG"
+permalink: /sigs/LiveMedia
 ---
 # Live Media SIG
 

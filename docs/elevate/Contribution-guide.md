@@ -1,3 +1,8 @@
+---
+title: "ELevate Contribution Guide"
+permalink: /elevate/Contribution-guide
+---
+
 # ELevate Contribution Guide
 
 :::warning

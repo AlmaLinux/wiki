@@ -1,5 +1,6 @@
 ---
 title: "AlmaLinux OS OVAL streams"
+permalink: /documentation/oval-streams
 ---
 
 # AlmaLinux OS OVAL streams

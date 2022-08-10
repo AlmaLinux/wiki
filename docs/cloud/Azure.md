@@ -1,5 +1,6 @@
 ---
 title: 'Azure'
+permalink: /cloud/Azure
 ---
 # AlmaLinux OS in Azure Cloud
 

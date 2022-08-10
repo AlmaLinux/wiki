@@ -1,5 +1,6 @@
 ---
 title: 'AWS'
+permalink: /cloud/AWS
 ---
 # AlmaLinux OS Amazon Web Services AMIs
 

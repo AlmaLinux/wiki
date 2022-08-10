@@ -1,5 +1,6 @@
 ---
 title: 'Oracle Cloud Infrastructure'
+permalink: /cloud/OCI
 ---
 # AlmaLinux OS in Oracle Cloud Infrastructure
 

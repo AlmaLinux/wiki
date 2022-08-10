@@ -1,5 +1,6 @@
 ---
 title: 'Extra Repositories'
+permalink: /repos/Extras
 ---
 # Extra Repositories
 

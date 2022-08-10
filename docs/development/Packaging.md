@@ -1,5 +1,6 @@
 ---
 title: 'Packaging'
+permalink: /development/Packaging
 ---
 # AlmaLinux packaging guideline
 

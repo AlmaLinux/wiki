@@ -1,5 +1,6 @@
 ---
 title: "Cloud SIG"
+permalink: /sigs/Cloud
 ---
 # Cloud SIG
 

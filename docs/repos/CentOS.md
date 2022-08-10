@@ -1,5 +1,6 @@
 ---
 title: 'CentOS SIGs Repositories'
+permalink: /repos/CentOS
 ---
 # CentOS SIGs Repositories
 

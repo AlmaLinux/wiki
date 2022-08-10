@@ -1,5 +1,6 @@
 ---
 title: "AlmaLinux WSL"
+permalink: /documentation/wsl
 ---
 
 # Windows Subsystem for Linux 

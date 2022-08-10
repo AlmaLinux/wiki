@@ -1,5 +1,6 @@
 ---
 title: "Core SIG"
+permalink: /sigs/Core
 ---
 # Core SIG
 

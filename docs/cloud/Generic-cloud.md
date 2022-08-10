@@ -1,5 +1,6 @@
 ---
 title: 'Generic Cloud (cloud-init)'
+permalink: /cloud/Generic-cloud
 ---
 # AlmaLinux OS Generic Cloud (cloud-init) image
 

@@ -1,5 +1,6 @@
 ---
 title: 'Mirrors'
+permalink: /Mirrors
 ---
 # How to create a public mirror for AlmaLinux
 

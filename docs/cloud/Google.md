@@ -1,5 +1,6 @@
 ---
 title: 'Google Cloud'
+permalink: /cloud/Google
 ---
 # AlmaLinux OS Google Cloud Platform
 AlmaLinux OS Images for Google Cloud are availble via the [Google Cloud Marketplace](https://console.cloud.google.com/marketplace/product/almalinux-cloud/almalinux-8?project=imgtest-312721) as well as via the `gcloud` CLI.

@@ -1,5 +1,6 @@
 ---
 title: Building Packages Guide
+permalink: /documentation/building-packages-guide
 ---
 
 # Building packages for AlmaLinux

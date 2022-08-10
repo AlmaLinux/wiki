@@ -1,5 +1,6 @@
 ---
 title: 'Howto Guides'
+permalink: /Howto
 ---
 # AlmaLinux Howto Guides
 

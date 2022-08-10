@@ -1,5 +1,6 @@
 ---
 title: 'FAQ'
+permalink: /FAQ
 ---
 # Frequently asked questions
 

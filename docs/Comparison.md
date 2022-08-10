@@ -1,5 +1,6 @@
 ---
 title: "EL8 Distro Comparison"
+permalink: /Comparison
 ---
 
 | Benchmarking against RHEL                  | AlmaLinux                | Oracle Linux                                   | Rocky Linux                                 | CentOS Stream     | CentOS Linux      |

@@ -1,5 +1,6 @@
 ---
 title: 'Contribute'
+permalink: /Contribute
 ---
 # Contributing to the AlmaLinux project
 

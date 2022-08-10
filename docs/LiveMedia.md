@@ -1,5 +1,6 @@
 ---
 title: "Live Media"
+permalink: /LiveMedia
 ---
 # Live Media
 

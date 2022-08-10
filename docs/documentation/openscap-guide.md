@@ -1,5 +1,6 @@
 ---
-AlmaLinux OpensSCAP Guide
+title: 'AlmaLinux OpensSCAP Guide'
+permalink: /documentation/openscap-guide
 ---
 
 # AlmaLinux OpenSCAP Guide

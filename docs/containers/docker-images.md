@@ -1,5 +1,6 @@
 ---
-Docker Images
+title: 'AlmaLinux OS Docker Images'
+permalink: /containers/docker-images
 --- 
 
 # AlmaLinux OS Docker Images

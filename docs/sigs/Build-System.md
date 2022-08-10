@@ -1,5 +1,6 @@
 ---
 title: 'Build System SIG'
+permalink: /sigs/Build-System
 ---
 
 # Build System SIG

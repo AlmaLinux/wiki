@@ -1,5 +1,6 @@
 ---
 title: "ELevate Quickstart Guide"
+permalink: /elevate/ELevate-quickstart-guide
 ---
 
 # ELevate Quickstart Guide

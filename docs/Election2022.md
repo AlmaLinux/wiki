@@ -1,5 +1,6 @@
 ---
 title: 'Election 2022'
+permalink: /Election2022
 ---
 # AlmaLinux Board of Directors Election 2022
 

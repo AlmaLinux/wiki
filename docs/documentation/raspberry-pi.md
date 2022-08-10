@@ -1,5 +1,6 @@
 ---
 title: "Raspberry Pi"
+permalink: /documentation/raspberry-pi
 ---
 
 # Raspberry Pi

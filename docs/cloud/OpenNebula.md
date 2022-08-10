@@ -1,5 +1,6 @@
 ---
 title: 'OpenNebula'
+permalink: /cloud/OpenNebula
 ---
 # AlmaLinux OS OpenNebula image
 

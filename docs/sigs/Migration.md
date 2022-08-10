@@ -1,5 +1,6 @@
 ---
 title: "Migration SIG"
+permalink: /sigs/Migration
 ---
 
 # Migration SIG
