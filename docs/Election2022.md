@@ -13,6 +13,12 @@ At this stage we are looking for nominees for the Board of Director position. To
 
 Please, check FAQ section for more information.
 
+# Nominees as of Aug 11, 2022
+* Jack Aboutboul - current Director and Community Leader at AlmaLinux. _Nominated by: Jonathan W._
+* Simon Phipps - current Director @ AlmaLinux, former president of the Open Source Initiative. _Nominated by: Igor S._
+
+
+
 
 ## FAQ
 * When does election start?
