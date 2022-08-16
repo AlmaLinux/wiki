@@ -40,7 +40,7 @@ _Nominated by: CodeNotary_
   * E-Mail name & contact information of nominee to election2022@almalinux.org
 
 * Who can vote?
-  * Any Platinum, Gold, Silver, Contributor, Alumnus, Mirror member in good standing, approved by the membership committee on or before August 23rd 
+  * Any Platinum, Gold, Silver, Contributor, User, Alumnus, or Mirror member in good standing, approved by the membership committee on or before August 23rd 
 
 * How can I vote?
   * You will get a link to the voting page in your e-mail on the day voting starts.
