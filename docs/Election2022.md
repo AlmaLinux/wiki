@@ -18,6 +18,7 @@ Please, check FAQ section for more information.
 * [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - current Director @ AlmaLinux, former president of the Open Source Initiative. _Nominated by: Igor S._
 * [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor _Nominated by: CodeNotary_
 * [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Jonathan Wright_
+* [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by Jack Aboutboul_
 
 
 
