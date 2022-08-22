@@ -20,6 +20,7 @@ Please, check FAQ section for more information.
 * [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Jonathan Wright_
 * [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by Jack Aboutboul_
 * [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - current Director at AlmaLinux and CXO and WebPros _Nominated by benny Vasquez_
+* [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - CTO at Hawk Host Inc _Nominated by Daniel Pearson_
 
 
 
