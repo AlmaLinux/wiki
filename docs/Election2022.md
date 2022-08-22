@@ -19,6 +19,7 @@ Please, check FAQ section for more information.
 * [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor _Nominated by: CodeNotary_
 * [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Jonathan Wright_
 * [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by Jack Aboutboul_
+* [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - current Director at AlmaLinux and CXO and WebPros _Nominated by benny Vasquez_
 
 
 
