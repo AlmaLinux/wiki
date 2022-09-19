@@ -3,6 +3,21 @@ title: 'Election 2022'
 ---
 # AlmaLinux Board of Directors Election 2022
 
+# Aug 19, 2022 - Election Results
+Community Director: 
+* [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - current Director and Community Leader at AlmaLinux.
+
+
+Board Members:
+* [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - current Director @ AlmaLinux, former president of the Open Source Initiative.
+* [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor 
+* [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor 
+* [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation 
+* [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - current Director at AlmaLinux and CXO and WebPros 
+* [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - CTO at Hawk Host Inc
+
+# History
+
 AlmaLinux OS Foundation is starting the election of the Board of Directors. We have 7 open positions to fill.
 The election will start on September 4th, 2022.
 
