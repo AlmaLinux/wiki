@@ -42,7 +42,8 @@ module.exports = {
           '/documentation/oval-streams',         
           '/documentation/building-packages-guide',
           '/documentation/raspberry-pi',
-          '/documentation/wsl'
+          '/documentation/wsl',
+          '/documentation/errata'
         ]
       },
       {

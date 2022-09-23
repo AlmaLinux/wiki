@@ -3,6 +3,21 @@ title: 'Election 2022'
 ---
 # AlmaLinux Board of Directors Election 2022
 
+# Aug 19, 2022 - Election Results
+Community Director: 
+* [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - current Director and Community Leader at AlmaLinux.
+
+
+Board Members:
+* [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - current Director @ AlmaLinux, former president of the Open Source Initiative.
+* [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor 
+* [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor 
+* [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation 
+* [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - current Director at AlmaLinux and CXO and WebPros 
+* [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - CTO at Hawk Host Inc
+
+# History
+
 AlmaLinux OS Foundation is starting the election of the Board of Directors. We have 7 open positions to fill.
 The election will start on September 4th, 2022.
 
@@ -14,9 +29,13 @@ At this stage we are looking for nominees for the Board of Director position. To
 Please, check FAQ section for more information.
 
 # Nominees as of Aug 11, 2022
-* Jack Aboutboul - current Director and Community Leader at AlmaLinux. _Nominated by: Jonathan W._
-* Simon Phipps - current Director @ AlmaLinux, former president of the Open Source Initiative. _Nominated by: Igor S._
-
+* [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - current Director and Community Leader at AlmaLinux. _Nominated by: Jonathan W._
+* [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - current Director @ AlmaLinux, former president of the Open Source Initiative. _Nominated by: Igor S._
+* [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor _Nominated by: CodeNotary_
+* [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Jonathan Wright_
+* [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by Jack Aboutboul_
+* [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - current Director at AlmaLinux and CXO and WebPros _Nominated by benny Vasquez_
+* [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - CTO at Hawk Host Inc _Nominated by Daniel Pearson_
 
 
 
@@ -39,7 +58,7 @@ Please, check FAQ section for more information.
   * E-Mail name & contact information of nominee to election2022@almalinux.org
 
 * Who can vote?
-  * Any Platinum, Gold, Silver, Contributor, Alumnus, Mirror member in good standing, approved by the membership committee on or before August 23rd 
+  * Any Platinum, Gold, Silver, Contributor, User, Alumnus, or Mirror member in good standing, approved by the membership committee on or before August 23rd 
 
 * How can I vote?
   * You will get a link to the voting page in your e-mail on the day voting starts.
