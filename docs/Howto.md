@@ -4,6 +4,10 @@ title: 'Howto Guides'
 # AlmaLinux Howto Guides
 
 ## Installation Guides
+- [ionCube Loader](https://cloud7.news/how-tos/how-to-install-ioncube-loader-in-almalinux/) 
+- [Varnish](https://cloud7.news/how-tos/how-to-install-varnish-on-almalinux/) 
+- [Nginx](https://cloud7.news/how-tos/how-to-install-nginx-on-almalinux-rocky-linux-centos-rhel/)
+- [cPanel](https://cloud7.news/how-tos/how-to-install-cpanel/)
 - [Foreman](https://www.how2shout.com/linux/how-to-install-foreman-on-rocky-or-almalinux-8/)  
 - [phpMyAdmin](https://wiki.crowncloud.net/?How_to_Install_phpMyAdmin_on_AlmaLinux_8)
 - [Apache Web Server](https://www.linode.com/docs/guides/install-and-use-apache-on-almalinux/)
@@ -20,7 +24,6 @@ title: 'Howto Guides'
 - [Docker CE](https://techviewleo.com/how-to-install-docker-ce-on-almalinux/)
 - [XCP-ng VM Tools](https://techviewleo.com/install-xcp-ng-vm-tools-on-centos-almalinux/)
 
-
 ## Authentication & Security
 - [Enabling SSH 2FA](https://www.techrepublic.com/article/how-to-enable-ssh-2fa-on-almalinux-for-more-secure-logins/)
 
@@ -30,4 +33,3 @@ title: 'Howto Guides'
 
 ## Other
 - [Creating a mirror](https://gnulinux.ro/blog-page-8312-how-to-create-a-public-official-mirror-for-almalinux-in-three-steps)
-
