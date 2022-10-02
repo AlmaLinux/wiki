@@ -1,23 +1,24 @@
 # The AlmaLinux OS Foundation
 
-The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It was setup by Igor Seletskiy using resources from CloudLinux to create an an independent organization that will be owned and governed by the community. It owns all assets related to AlmaLinux OS.
-
-The AlmaLinux OS Foundation is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 
-
+The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all assets related to AlmaLinux OS. It is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 
 
 ## We strive to be transparent.
 
 The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. 
 
-As of September 13, 2021 the foundation has a five directors board.
+As of September 20, 2022, the foundation has a seven board directors.
+- [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
+- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director and Community Leader at AlmaLinux
 - [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - former president of the Open Source Initiative
-- Eugene Zamriy, Release Engineering @ CloudLinux
-- Jack Aboutboul, Community Leader @ AlmaLinux
-- Jesse Asklund, VP of Customer Experience @ WebPros
-- benny Vasquez, Mgr of DevRel and Community @ Progress Software and [Current Chair of the Board](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
+- [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
+- [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee, and is new to the AlmaLinux OS Foundation board
+- [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor, and is new to the AlmaLinux OS Foundation board
+- [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - Cody is the CTO at Hawk Host, Inc., and is new to the board of the AlmaLinux OS Foundation
 
-Regular guest attendees
-- Igor Seletskiy, CEO of CloudLinux
+## First board elections
+
+- Sept 20, 2022 - [First AlmaLinux Board Election Announces 7 New Seats](https://almalinux.org/blog/first-almalinux-board-election-announces-7-new-seats/)
+- Aug 9, 2022 - [First AlmaLinux Community Election Coming Soon!](https://almalinux.org/blog/first-almalinux-os-foundation-election/)
 
 ## The plans for the board
 
