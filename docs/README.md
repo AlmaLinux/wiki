@@ -3,7 +3,7 @@
 
 ## About
 
-[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL®.  The [AlmaLinux OS Foundation](Transparency.md) was established as a 501(c)(6) non-profit to steward ownership and governance of the project and its founding grant was provided by the team behind [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos) and several other sponsors (listed on the website) have joined this effort as well.
+[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL®.  The [AlmaLinux OS Foundation](Transparency.md) was established as a 501(c)(6) non-profit to steward ownership and governance of the project. Current membership includes Platinum members [Codenotary](https://codenotary.com/) and [CloudLinux](https://www.cloudlinux.com/), Gold member [Sine Nomine Associates (SNA)](https://www.sinenomine.net/), and Silver members [AMD](https://www.amd.com/en), [BlackHOST](https://black.host/), and [KnownHost](https://www.knownhost.com/).
 
 <div>
 <div>
