@@ -8,7 +8,6 @@ title: "ELevate Testing Guide"
 Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
-
 This guide contains steps on how to upgrade:
 * CentOS 7 to AlmaLinux 8, EuroLinux 8, CentOS Stream 8, Oracle 8, and Rocky Linux 8. 
 * AlmaLinux 8 to AlmaLinux 9
@@ -21,8 +20,7 @@ sudo yum update -y
 sudo reboot
 ```
 
-
-* Download the `elevate-testing.repo` file from the project testing repo.
+* Download the `elevate-testing.repo` file with the project testing repo.
 ```
 sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
 ```
@@ -87,6 +85,8 @@ cat /etc/redhat-release
 cat /etc/os-release
 rpm -qa | grep el7 # for 7 to 8 migration
 rpm -qa | grep el8 # for 8 to 9 migration
+cat /var/log/leapp/leapp-report.txt
+cat /var/log/leapp/leapp-upgrade.log
 ```
 
 :::tip
