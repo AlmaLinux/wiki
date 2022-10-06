@@ -98,6 +98,7 @@ module.exports = {
         path: '/elevate/',
         children: [
           '/elevate/ELevate-quickstart-guide',
+          '/elevate/ELevate-testing-guide',
           '/elevate/Contribution-guide',
           '/elevate/ELevate-frequent-issues'
         ]
