@@ -3,7 +3,7 @@ title: 'Election 2022'
 ---
 # AlmaLinux Board of Directors Election 2022
 
-# Aug 19, 2022 - Election Results
+# Sept 19, 2022 - Election Results
 Community Director: 
 * [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - current Director and Community Leader at AlmaLinux.
 
