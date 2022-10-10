@@ -1,11 +1,11 @@
 ---
-AlmaLinux OpensSCAP Guide
+AlmaLinux OpenSCAP Guide
 ---
 
-# AlmaLinux OpenSCAP Guide
+# AlmaLinux 8 OpenSCAP Guide 
 
 :::warning
-This guide was developed for AlmaLinux 8 OS. Running OpenSCAP for AlmaLinux 9 OS may work differently.
+This guide was developed for AlmaLinux 8 OS. Running OpenSCAP for AlmaLinux 9 OS may work differently, please, refer to [AlmaLinux 9 OpenSCAP Guide](/documetation/openscap-guide-for-9).
 :::
 
 ## About OpenSCAP
@@ -33,7 +33,7 @@ After installion, all SCAP security policies are located in the */usr/share/xml/
 
 ## About the `oscap` Command
 
-The `oscap` command is a utility that helps evaluate the system, check compliance, and to perform various functions like showing information and generating reports. 
+The `oscap` command is a utility that helps evaluate the system, check compliance, and perform various functions like showing information and generating reports. 
 
 This utility has many options, but uses the following general structure:
 
@@ -54,7 +54,7 @@ Module types that are supported by the oscap command are mentioned in the list:
 | generate | For an OVAL XML results file, generate converts the specified file into an HTML report. <br>For an XCCDF file, generate outputs a full security guide for a specified profile. |
 | validate | Validates an OVAL or XCCDF file against an XML schema to check for errors.|
 
-These modules such as as info, oval, xccdf are effective for scanning the system.
+These modules such as info, oval, xccdf are effective for scanning the system.
 Also, keep in mind, that sometimes the `oscap` command performs different operations depending on the module type. Pay attention to the eval and generate module types.
 
 Now, let's take a look at some more detailed examples with the oscap command.
@@ -106,7 +106,7 @@ unix          xinetd                       probe_xinetd
 
 ### Displaying Available Profiles
 
-A profile consists of common security suggestions that are related to any AlmaLinux installation. Profiles also have supplementary recommendations for the system to use. So, the `oscap info` command is used to see available profiles are currently supported by the SCAP Security Guide which is a checklist file.
+A profile consists of common security suggestions that are related to any AlmaLinux installation. Profiles also have supplementary recommendations for the system to use. So, the `oscap info` command is used to see available profiles that are currently supported by the SCAP Security Guide which is a checklist file.
 
 `oscap info /usr/share/xml/scap/ssg/content/ssg-almalinux8-xccdf.xml`
 
@@ -242,7 +242,7 @@ You can view the HTML report in a browser. Here is an example:
 The OVAL definition file is used to scan the system in order to verify if applicable errata have been installed.
 To see the information about supported AlmaLinux OS versions and their public OVAL streams, please, visit the [AlmaLinux OVAL streams](https://wiki.almalinux.org/documentation/oval-streams.html) wiki page.
 
-There are two types of OVAL files: *org.almalinux.alsa-8.xml* and *org.almalinux.alsa-8.xml.bz2*, which contains the same information but archived.
+There are two types of OVAL files: *org.almalinux.alsa-8.xml* and *org.almalinux.alsa-8.xml.bz2*, which contain the same information but archived.
 
 #### Performing a scan
 
@@ -255,7 +255,7 @@ bzip2 -d org.almalinux.alsa-8.xml.bz2
 ```
 :::
 
-* The the following command to perform an audit scan of the AlmaLinux:
+* The following command to perform an audit scan of the AlmaLinux:
 ```
 oscap oval eval --results /tmp/alsa-results-oval.xml \
 --report ~/report/alsa-report-oval.html org.almalinux.alsa-8.xml
@@ -277,7 +277,7 @@ If the patch has been applied to the system - the output shows the *true* flag. 
 oscap oval generate report /tmp/alsa-results-oval.xml \ 
 ~/report/alsa-report-oval.html
 ```
-Here is the exapmle of the HTML report:
+Here is the example of the HTML report:
 ![image](/images/openscap-oval-report.png)
 
 ## SCAP Workbench 
@@ -325,8 +325,8 @@ Here is the list of available profiles that can be used to evaluate the system:
 * Australian Cyber Security Centre (ACSC) ISM Official
 * Protection Profile for General Purpose Operating Systems
 * PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 8
-* DISA STIG for Red Hat Enterpise Linux 8
-* DISA STIG with GUI for Red Hat Enterpise Linux 8
+* DISA STIG for Red Hat Enterprise Linux 8
+* DISA STIG with GUI for Red Hat Enterprise Linux 8
 
 ***Target***
 Here you can select the system you want to be evaluated - a local or a remote one.
@@ -335,7 +335,7 @@ Here you can select the system you want to be evaluated - a local or a remote on
 This field shows you a list of security rules that security policy applies to.
 
 ***Fetch remote resources***
-You need to check this box in case you want the scanner to download a remote OVAL content defined in an XML file.
+You need to check this box in case you want the scanner to download remote OVAL content defined in an XML file.
 
 ***Remediate***
 If you check this box, SCAP Workbench will attempt to correct system settings that would fail to match the state defined by the policy.
