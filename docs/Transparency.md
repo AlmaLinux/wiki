@@ -50,7 +50,8 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Oct 11, 2022 [Board meeting #16 agenda](https://docs.google.com/document/d/1sCDfWVAvsx4v-KxMWjleQxBqkLZHdt_66pegDiOIskg/edit?usp=sharing)
+- Nov 8, 2022 [Board meeting #17 agenda](https://docs.google.com/document/d/1vR74UCgvhQB8reVYYF4bGWcMPhrscie_eEHvq-auyAo/edit?usp=sharing)
+- Oct 11, 2022 [Board meeting #16 minutes](https://drive.google.com/file/d/1uTh_VK4qIHFSVA1gJjJRhC4JXB1paGgC/view?usp=sharing)
 - Sept 13, 2022 [Board meeting #15 minutes](https://drive.google.com/file/d/1KkqLjPie2EqMpL-wcfnAF0NG730vy-ci/view?usp=sharing)
 - Aug 11, 2022 [Board meeting #14 minutes](https://drive.google.com/file/d/1jCi_qP-1WISzze2_cvyK7SSEdGvhoYDo/view?usp=sharing)
 - Jul 12, 2022 [Board meeting #13 minutes](https://drive.google.com/file/d/1rptJ_BJrxuh5HThLs088satKg7Y6TtUM/view?usp=sharing)
@@ -74,6 +75,6 @@ In September of 2021, the Board of Directors [opened up membership applications]
 The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
 
 As of Oct 11, 2021 the membership Committee consists of:
-- benny Vasquez, Mgr of DevRel and Community @ Progress Software and [Current Chair of the Board or Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
+- benny Vasquez, Open Source Security Program Manager @ Microsoft and [Current Chair of the Board of Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
 - Daniel Pearson, COO of KnownHost, and Current Chair of the Membership Committee
 - Stephen Smoogen, Red Hat Software, EPEL Chair Emeritus
