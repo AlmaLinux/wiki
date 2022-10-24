@@ -21,6 +21,7 @@ module.exports = {
         children: [
           '/release-notes/9.0',
           '/release-notes/8.6',
+          '/release-notes/8.7-beta',
           '/release-notes/9.0-beta',
           '/release-notes/8.6-beta',
           '/release-notes/8.5-ppc',
