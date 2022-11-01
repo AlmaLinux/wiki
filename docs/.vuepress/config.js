@@ -21,6 +21,7 @@ module.exports = {
         children: [
           '/release-notes/9.0',
           '/release-notes/8.6',
+          '/release-notes/9.1-beta',
           '/release-notes/8.7-beta',
           '/release-notes/9.0-beta',
           '/release-notes/8.6-beta',
@@ -39,10 +40,10 @@ module.exports = {
       },
       {
         title: 'Documentation',
-        children: [    
+        children: [
           '/documentation/openscap-guide',
           '/documentation/openscap-guide-for-9',
-          '/documentation/oval-streams',         
+          '/documentation/oval-streams',
           '/documentation/building-packages-guide',
           '/documentation/raspberry-pi',
           '/documentation/wsl',
@@ -80,7 +81,7 @@ module.exports = {
           '/sigs/Migration',
         ]
       },
-      { 
+      {
         title: 'Repositories',
         path: '/repos/',
         children:[
