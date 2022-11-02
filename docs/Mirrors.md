@@ -19,7 +19,7 @@ You can create a public AlmaLinux mirror in 6 easy steps:
 3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```
-   0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
+   0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
 4. Ensure the accuracy of GeoIP city, longitude, and latitude data for your mirror IP(s) with MaxMind at 
    [https://www.maxmind.com/en/geoip-demo](https://www.maxmind.com/en/geoip-demo). 
