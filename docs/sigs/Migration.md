@@ -16,6 +16,7 @@ The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/
   Consider this is not a separated forked project. There will be a pull request to the [original repository](https://github.com/oamg/leapp-repository) as soon as everything is ready.
 * Static data files for Leapp utility: [AlmaLinux/leapp-data](https://github.com/AlmaLinux/leapp-data)
 * Package Evolution Service: [pes.almalinux.org](https://pes.almalinux.org)
+* AutoELevate: [EuroLinux/autoelevate](https://github.com/EuroLinux/autoelevate)
 
 # Help wanted
 
