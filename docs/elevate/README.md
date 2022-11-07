@@ -6,6 +6,10 @@ title: "About ELevate project"
 
 The ELevate project is an initiative to support migrations between major version of RHEL-derivatives. The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from CentOS are used to perform the upgrade. All changes are headed upstream as well.
 
+:::danger
+The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
+:::
+
 # Available migration paths 
 
 There are several ways to perform upgrade these days. Here is the list to see which migration directions are available:

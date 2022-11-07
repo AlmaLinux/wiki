@@ -59,6 +59,7 @@ systemctl restart sssd
 
 ## Known issues 
 
+* For now, the ELevate project supports only CentOS repositories. It doesn't support other third-party (external) repositories.
 * Some old Enterprise Linux 7 packages can remain after the upgrade.
 
 AlmaLinux Team is working hard to get a solution for these issues. Any contribution is valuable and helps us out. If you want to help and contribute, see [how to contribute](/elevate/#how-to-contribute) information. 

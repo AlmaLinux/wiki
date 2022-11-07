@@ -8,6 +8,10 @@ title: "ELevate Quickstart Guide"
 Before beginnning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
+:::danger
+The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
+:::
+
 This guide contains steps on how to upgrade an Enterprise Linux 7 to RHEL8 derivatives such as AlmaLinux, EuroLinux, CentOS Stream, Oracle, and Rocky Linux. 
 
 The steps can be automated with the [https://github.com/EuroLinux/autoelevate](AutoELevate project).
