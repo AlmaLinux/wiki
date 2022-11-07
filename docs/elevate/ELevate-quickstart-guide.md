@@ -8,15 +8,13 @@ title: "ELevate Quickstart Guide"
 Before beginnning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
-:::danger
-The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
-:::
+This guide contains steps on how to upgrade an Enterprise Linux 7 to RHEL8 derivatives such as AlmaLinux, EuroLinux, CentOS Stream, Oracle, and Rocky Linux. 
 
-This guide contains steps on how to upgrade CentOS 7 to RHEL8 derivatives such as AlmaLinux, EuroLinux, CentOS Stream, Oracle, and Rocky Linux. 
+The steps can be automated with the [https://github.com/EuroLinux/autoelevate](AutoELevate project).
 
-You need CentOS 7 system installed to use this guide.
+The project covers certain edge cases and allows you to migrate between more than just CentOS 7. It's a preferred way of upgrading.
 
-* Fully updated system is required to accomplish the upgrade. So, install the latest CentOS updates first, and reboot.
+* Fully updated system is required to accomplish the upgrade. So, install the latest updates first, and reboot.
 ```
 sudo yum update -y
 sudo reboot
@@ -42,7 +40,7 @@ sudo yum install -y leapp-upgrade leapp-data-almalinux
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
 :::warning
-Preupgrade check will fail as the default CentOS 7 doesn't meet all requirements for migration.
+Preupgrade check will fail as the default Enterprise Linux 7 doesn't meet all requirements for migration.
 :::
 
 ```
