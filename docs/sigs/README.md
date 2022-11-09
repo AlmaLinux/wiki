@@ -18,3 +18,4 @@ The following SIGs are already established:
 * [Build System](/sigs/Build-System) - The AlmaLinux OS build system developers and maintainers.
 * [Live Media](/sigs/LiveMedia) - The AlmaLinux OS Live Media maintainers.
 * [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
+* [Marketing](sigs/Marketing) - The AlmaLinux OS Marketing team.
