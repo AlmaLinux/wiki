@@ -44,9 +44,9 @@ echo "Grabbing CentOS 7 GPG keys..."
 curl "https://vault.centos.org/RPM-GPG-KEY-CentOS-7" > "/etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7" && \
 
 echo "Making sure CentOS Extras repo is available..."
-cat > "/etc/yum.repos.d/autoelevate-centos-extras.repo" <<-'EOF'
-[autoelevate-centos-7-extras]
-name=AutoELevate - CentOS 7 Extras
+cat > "/etc/yum.repos.d/elevate-centos-extras.repo" <<-'EOF'
+[elevate-centos-7-extras]
+name=elevate - CentOS 7 Extras
 baseurl=http://mirror.centos.org/centos/7/extras/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
@@ -60,10 +60,10 @@ if [ $(which rhn_check) ]; then
   echo "This system has rhn_check installed. Checking for consumed subscriptions..."
   rhn_check
   if [ $? -ne 0 ] ; then
-    echo "This system is not registered. Adding CentOS 7 Base repo for AutoELevate..."
-    cat > "/etc/yum.repos.d/autoelevate-centos-base.repo" <<-'EOF'
-[autoelevate-centos-7-base]
-name=AutoELevate - CentOS 7 Base
+    echo "This system is not registered. Adding CentOS 7 Base repo for elevate..."
+    cat > "/etc/yum.repos.d/elevate-centos-base.repo" <<-'EOF'
+[elevate-centos-7-base]
+name=elevate - CentOS 7 Base
 baseurl=http://mirror.centos.org/centos/7/os/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
