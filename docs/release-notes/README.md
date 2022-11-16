@@ -10,8 +10,8 @@ These are AlmaLinux Release Notes listed with Release Version, General Availabil
 
 | Release | Codename | General Availability Date | Kernel |
 |---|---|---|---|
-| [9.0](/release-notes/9.0) | Emerald Puma | 26 May 2022 | 5.14.0-70.13.1 |
 | [9.1](/release-notes/9.1) | Lime Lynx | 16 November 2022 | 5.14.0-162.6.1 |
+| [9.0](/release-notes/9.0) | Emerald Puma | 26 May 2022 | 5.14.0-70.13.1 |
 
 ### AlmaLinux 8
 
