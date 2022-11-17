@@ -4,6 +4,25 @@ title: 'Contribute'
 # Contributing to the AlmaLinux project
 
 
+## Volunteer Technical Community Coordinator for ELevate Project
+
+We are looking for a volunteer Technical Community Coordinator to figure out what the community needs & wants from the AlmaLinux ELevate project. One of your primary responsibilities is to provide direction to the AlmaLinux OS engineers to help decide "what is next for the ELevate Project". As a Technical Community Coordinator, you'll engage with the community and schedule meetings with the AlmaLinux OS team.
+
+Duties and Responsibilities
+- Coordinate community and AlmaLinux ELevate team
+- Consult and help users with ELevate Project
+- Check all possible bug sources (bugs.almalinux.org, forum, GitHub) and escalate to the ELevate team if the bug requires coding
+- Provide direction to the AlmaLinux ELevate team according to the feedback from the community and volunteers
+- Schedule meetings with the community and AlmaLinux ELevate team
+- Use social media to understand the community's needs
+
+Requirements and Qualifications
+- Advanced English speaking and writing skills
+- Experience with AlmaLinux OS
+- Experience as a community planner or organizer
+- Management and organizational skills
+- High communication skills
+
 ## Help with reporting bugs and making fixes
 
 To make AlmaLinux successful, we need the close involvement of the community
@@ -39,11 +58,6 @@ easy to run it locally (run all commands from the project's root):
 3. Your local Wiki instance should be up and running on
    [http://localhost:8080/](http://localhost:8080/).
 
-
-## Help with Azure mirrors deployment
-
-We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic.
-More info [here](/cloud/Azure).
 
 ## More ways to help for DevOps & Programmers
 - Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
