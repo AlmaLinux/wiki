@@ -8,7 +8,7 @@ title: 'Contribute'
 
 We are looking for a volunteer Technical Community Coordinator to figure out what the community needs & wants from the AlmaLinux ELevate project. One of your primary responsibilities is to provide direction to the AlmaLinux OS engineers to help decide "what is next for the ELevate Project". As a Technical Community Coordinator, you'll engage with the community and schedule meetings with the AlmaLinux OS team.
 
-Duties and Responsibilities
+**Duties and Responsibilities**
 - Coordinate community and AlmaLinux ELevate team
 - Consult and help users with ELevate Project
 - Check all possible bug sources (bugs.almalinux.org, forum, GitHub) and escalate to the ELevate team if the bug requires coding
@@ -16,7 +16,7 @@ Duties and Responsibilities
 - Schedule meetings with the community and AlmaLinux ELevate team
 - Use social media to understand the community's needs
 
-Requirements and Qualifications
+**Requirements and Qualifications**
 - Advanced English speaking and writing skills
 - Experience with AlmaLinux OS
 - Experience as a community planner or organizer
