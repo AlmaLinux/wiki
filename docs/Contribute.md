@@ -23,6 +23,8 @@ We are looking for a volunteer Technical Community Coordinator to figure out wha
 - Management and organizational skills
 - High communication skills
 
+We look forward to receiving your application via email: [volunteer@almalinux.org](mailto:volunteer@almalinux.org).
+
 ## Help with reporting bugs and making fixes
 
 To make AlmaLinux successful, we need the close involvement of the community
