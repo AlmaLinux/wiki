@@ -22,6 +22,8 @@ repositories:
 
 [ppc64le](http://repo.almalinux.org/almalinux/8/cloud/ppc64le/images/)
 
+[s390x](https://repo.almalinux.org/almalinux/8/cloud/s390x/images/)
+
 
 ### Import the AlmaLinux OS PGP public key
 
