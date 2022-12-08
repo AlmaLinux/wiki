@@ -49,11 +49,11 @@ If you can help, please join us at [Infrastructure channel](https://chat.almalin
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Architect
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Eugene Zamriy](mailto:ezamriy@almalinux.org) - Director of release
+* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release
   engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the
   company efforts on the AlmaLinux OS development and support.
-  * Chat login: [ezamriy](https://chat.almalinux.org/almalinux/messages/@ezamriy)
-  * GitHub profile: [ezamriy](https://github.com/ezamriy)
+  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
+  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)

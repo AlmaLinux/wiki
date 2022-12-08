@@ -28,19 +28,16 @@ If you can help, please join us at [Migration SIG on Mattermost](https://chat.al
 # SIG members
 
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service developer.
-    * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-    * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-
-* [Eugene Zamriy](mailto:ezamriy@almalinux.org) - The director of release
+   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
+   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
+* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release
   engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the
   company efforts on the AlmaLinux OS development and support.
-  * Chat login: [ezamriy](https://chat.almalinux.org/almalinux/messages/@ezamriy)
-  * GitHub profile: [ezamriy](https://github.com/ezamriy)
-
+  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
+  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-
 * [Kamil Aronowski](mailto:ka@euro-linux.com) - [EuroLinux](https://euro-linux.com) DevOps Engineer
   * Chat login: [aronowski](https://chat.almalinux.org/almalinux/messages/@aronowski)
   * GitHub profile: [aronowski](https://github.com/aronowski)

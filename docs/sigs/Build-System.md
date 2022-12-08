@@ -24,11 +24,11 @@ The Build System SIG uses the [SIG/Build System](https://chat.almalinux.org/alma
 * Add support for external test projects.
 
 ## SIG Members:
-* [Eugene Zamriy](mailto:ezamriy@almalinux.org) - The director of release
+* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release
   engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the
   company efforts on the AlmaLinux OS development and support.
-  * Chat login: [ezamriy](https://chat.almalinux.org/almalinux/messages/@ezamriy)
-  * GitHub profile: [ezamriy](https://github.com/ezamriy)
+  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
+  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Vasily Kleschov](mailto:vkleschov@cloudlinux.com) - Build System Team Lead.
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
