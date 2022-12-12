@@ -31,9 +31,12 @@ Container image tag for Minimal ( UBI - alternative): `almalinux/8-minimal`
 
 Links to repositories:
 
-[quay.io/repository/almalinux/8-minimal](https://quay.io/repository/almalinuxorg/8-minimal?tab=tags)
-
-[hub.docker.com/r/almalinux/8-minimal](https://hub.docker.com/r/almalinux/8-minimal)
+| AlmaLinux Version  | Platforum | Link |
+| ------------- | ------------- | ----- |
+| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-minimal](https://hub.docker.com/r/almalinux/8-minimal) |
+| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-minimal](https://hub.docker.com/r/almalinux/9-minimal) |
+| 8  | Quay.io  | [quay.io/repository/almalinux/8-minimal](https://quay.io/repository/almalinuxorg/8-minimal?tab=tags) |
+| 9  | Quay.io  | [quay.io/repository/almalinux/9-minimal](https://quay.io/repository/almalinuxorg/9-minimal?tab=tags) |
 
 
 ### AlmaLinux: Base
@@ -44,9 +47,12 @@ Container image tag: `almalinux/8-base`
 
 Links to repositories:
 
-[quay.io/repository/almalinux](https://quay.io/repository/almalinuxorg/8-base?tab=tags)
-
-[hub.docker.com/r/almalinux/8-base](https://hub.docker.com/r/almalinux/8-base)
+| AlmaLinux Version  | Platforum | Link |
+| ------------- | ------------- | ----- |
+| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-base](https://hub.docker.com/r/almalinux/8-base) |
+| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-base](https://hub.docker.com/r/almalinux/9-base) |
+| 8  | Quay.io  | [quay.io/repository/almalinux/8-base](https://quay.io/repository/almalinuxorg/8-base?tab=tags) |
+| 9  | Quay.io  | [quay.io/repository/almalinux/9-base](https://quay.io/repository/almalinuxorg/9-base?tab=tags) |
 
 
 ### AlmaLinux: Init 
@@ -57,9 +63,12 @@ Container image tag: `almalinux/8-init`
 
 Links to repositories:
 
-[quay.io/repository/almalinux/8-init](https://quay.io/repository/almalinuxorg/8-init?tab=tags)
-
-[hub.docker.com/r/almalinux/8-init](https://hub.docker.com/r/almalinux/8-init)
+| AlmaLinux Version  | Platforum | Link |
+| ------------- | ------------- | ----- |
+| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-init](https://hub.docker.com/r/almalinux/8-init) |
+| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-init](https://hub.docker.com/r/almalinux/9-init) |
+| 8  | Quay.io  | [quay.io/repository/almalinux/8-init](https://quay.io/repository/almalinuxorg/8-init?tab=tags) |
+| 9  | Quay.io  | [quay.io/repository/almalinux/9-init](https://quay.io/repository/almalinuxorg/9-init?tab=tags) |
 
 
 ### AlmaLinux: Micro
@@ -70,9 +79,12 @@ Container image tag: `almalinux/8-micro`
 
 Links to repositories:
 
-[quay.io/repository/almalinux/8-micro](https://quay.io/repository/almalinuxorg/8-micro?tab=tags)
-
-[hub.docker.com/r/almalinux/8-micro](https://hub.docker.com/r/almalinux/8-micro)
+| AlmaLinux Version  | Platforum | Link |
+| ------------- | ------------- | ----- |
+| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-micro](https://hub.docker.com/r/almalinux/8-micro) |
+| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-micro](https://hub.docker.com/r/almalinux/9-micro) |
+| 8  | Quay.io  | [quay.io/repository/almalinux/8-micro](https://quay.io/repository/almalinuxorg/8-micro?tab=tags) |
+| 9  | Quay.io  | [quay.io/repository/almalinux/9-micro](https://quay.io/repository/almalinuxorg/9-micro?tab=tags) |
 
 
 If you want to contribute or need any help, join us at [Container Sig at Mattermost](https://chat.almalinux.org/almalinux/channels/sigvirtcontainer).
