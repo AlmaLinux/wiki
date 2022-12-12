@@ -31,7 +31,7 @@ Container image tag for Minimal ( UBI - alternative): `almalinux/8-minimal`
 
 Links to repositories:
 
-[quay.io/repository/almalinux/8-minimal](https://quay.io/repository/almalinux/8-minimal?tab=tags)
+[quay.io/repository/almalinux/8-minimal](https://quay.io/repository/almalinuxorg/8-minimal?tab=tags)
 
 [hub.docker.com/r/almalinux/8-minimal](https://hub.docker.com/r/almalinux/8-minimal)
 
@@ -44,7 +44,7 @@ Container image tag: `almalinux/8-base`
 
 Links to repositories:
 
-[quay.io/repository/almalinux](https://quay.io/repository/almalinux/8-base?tab=tags)
+[quay.io/repository/almalinux](https://quay.io/repository/almalinuxorg/8-base?tab=tags)
 
 [hub.docker.com/r/almalinux/8-base](https://hub.docker.com/r/almalinux/8-base)
 
@@ -57,7 +57,7 @@ Container image tag: `almalinux/8-init`
 
 Links to repositories:
 
-[quay.io/repository/almalinux/8-init](https://quay.io/repository/almalinux/8-init?tab=tags)
+[quay.io/repository/almalinux/8-init](https://quay.io/repository/almalinuxorg/8-init?tab=tags)
 
 [hub.docker.com/r/almalinux/8-init](https://hub.docker.com/r/almalinux/8-init)
 
@@ -70,7 +70,7 @@ Container image tag: `almalinux/8-micro`
 
 Links to repositories:
 
-[quay.io/repository/almalinux/8-micro](https://quay.io/repository/almalinux/8-micro?tab=tags)
+[quay.io/repository/almalinux/8-micro](https://quay.io/repository/almalinuxorg/8-micro?tab=tags)
 
 [hub.docker.com/r/almalinux/8-micro](https://hub.docker.com/r/almalinux/8-micro)
 
