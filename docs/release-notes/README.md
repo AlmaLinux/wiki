@@ -8,12 +8,16 @@ These are AlmaLinux Release Notes listed with Release Version, General Availabil
 
 ### AlmaLinux 9
 
+Version 9 will have active support until 31 May 2027, and security support until 31 May 2032. 
+
 | Release | Codename | General Availability Date | Kernel |
 |---|---|---|---|
 | [9.1](/release-notes/9.1) | Lime Lynx | 16 November 2022 | 5.14.0-162.6.1 |
 | [9.0](/release-notes/9.0) | Emerald Puma | 26 May 2022 | 5.14.0-70.13.1 |
 
 ### AlmaLinux 8
+
+Version 8 will have active support until 01 May 2024, and security support until 01 Mar 2029.
 
 | Release | Codename | General Availability Date | Kernel |
 |---|---|---|---|
