@@ -43,14 +43,14 @@ module.exports = {
       {
         title: 'Documentation',
         children: [
+          '/documentation/migration-guide',
           '/documentation/openscap-guide',
           '/documentation/openscap-guide-for-9',
           '/documentation/oval-streams',
           '/documentation/building-packages-guide',
           '/documentation/raspberry-pi',
           '/documentation/wsl',
-          '/documentation/errata',
-          '/documentation/migration-guide'
+          '/documentation/errata'
         ]
       },
       {
