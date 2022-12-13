@@ -26,6 +26,11 @@ It's recommended to have a backup or snapshot of your system. There'll be a rest
 
 Follow these steps to convert your EL8 or EL9 system to AlmaLinux using CLI: 
 
+* Run the following command to update your operating system if needed:
+```
+sudo dnf update -y
+```
+
 * Run the following command to download [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script:
 ```
 curl -O https://raw.githubusercontent.com/AlmaLinux/almalinux-deploy/master/almalinux-deploy.sh
@@ -56,18 +61,6 @@ sudo reboot
 There are a few additional moments when you are converting your CentOS System.
 CentOS 8.4 or 8.5 is required to convert to AlmaLinux. If your CentOS version is lower, it is recommended to update it to 8.5 before converting to AlmaLinux. Though, it's not necessary if your CentOS version is at least CentOS 8.4. 
 
-* Run the following command to update your operating system if needed:
-```
-sudo dnf update -y
-```
-* Reboot the system after the updating:
-```
-sudo reboot
-```
-* Run the following command to download [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script:
-```
-curl -O https://raw.githubusercontent.com/AlmaLinux/almalinux-deploy/master/almalinux-deploy.sh
-```
 * As of January 31, 2022, the CentOS 8 mirror lists are offline. To successfully perform `dnf update -y` you need to update your `dnf` config files to point to a valid mirror. You can use the following `sed` commands for convenience to restore dnf to a functional state that will let you update to 8.5 and subsequently AlmaLinux.
 ```
 sudo sed -i -e '/mirrorlist=http:\/\/mirrorlist.centos.org\/?release=$releasever&arch=$basearch&repo=/ s/^#*/#/' -e '/baseurl=http:\/\/mirror.centos.org\/$contentdir\/$releasever\// s/^#*/#/' -e '/^\[baseos\]/a baseurl=https://mirror.rackspace.com/centos-vault/8.5.2111/BaseOS/$basearch/os' /etc/yum.repos.d/CentOS-Linux-BaseOS.repo
@@ -80,10 +73,33 @@ sudo sed -i -e '/mirrorlist=http:\/\/mirrorlist.centos.org\/?release=$releasever
 sudo sed -i -e '/mirrorlist=http:\/\/mirrorlist.centos.org\/?release=$releasever&arch=$basearch&repo=/ s/^#*/#/' -e '/baseurl=http:\/\/mirror.centos.org\/$contentdir\/$releasever\// s/^#*/#/' -e '/^\[plus\]/a baseurl=https://mirror.rackspace.com/centos-vault/8.5.2111/centosplus/$basearch/os' /etc/yum.repos.d/CentOS-Linux-Plus.repo
 sudo sed -i -e '/mirrorlist=http:\/\/mirrorlist.centos.org\/?release=$releasever&arch=$basearch&repo=/ s/^#*/#/' -e '/baseurl=http:\/\/mirror.centos.org\/$contentdir\/$releasever\// s/^#*/#/' -e '/^\[powertools\]/a baseurl=https://mirror.rackspace.com/centos-vault/8.5.2111/PowerTools/$basearch/os' /etc/yum.repos.d/CentOS-Linux-PowerTools.repo
 ```
-You can use the `-f` flag to handle this for you when running the [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script:
+:::tip
+Alternatively, you can use the `-f` flag to handle this for you when running the [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script:
 ```
 sudo bash almalinux-deploy.sh -f
 ```
+:::
+
+* Run the following command to update your operating system:
+```
+sudo dnf update -y
+```
+
+* Reboot the system after the updating:
+```
+sudo reboot
+```
+
+* Run the following command to download [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script:
+```
+curl -O https://raw.githubusercontent.com/AlmaLinux/almalinux-deploy/master/almalinux-deploy.sh
+```
+
+* Run the script:
+```
+sudo bash almalinux-deploy.sh
+```
+
 * Ensure that your system was successfully converted:
     * check the release file
     ```
