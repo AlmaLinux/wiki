@@ -270,7 +270,7 @@ Definition oval:org.almalinux.alsa:def:20224769: false
 ...
 Evaluation done.
 ```
-If the patch has been applied to the system - the output shows the *true* flag. If not - you see the *false* flag.
+A result of *false* means that the patch has been applied. A result of *true* means that the system is vulnerable and the patch is yet to be applied.
 
 * Run the following command to generate the HTML report to view in a browser:
 ```
