@@ -96,7 +96,8 @@ module.exports = {
       {
         title: 'Development',
         children: [
-          '/development/Packaging'
+          '/development/Packaging',
+          '/development/Modified-packages'
         ]
       },
       '/Mirrors',
