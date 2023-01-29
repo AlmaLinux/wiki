@@ -7,7 +7,7 @@
 
 <div>
 <div>
-<img src=/images/almalinux-readme.png style="float: right; margin-right: 80px; margin-top: 30px;">
+<img src=/docs/.vuepress/public/images/almalinux-readme.png style="float: right; margin-right: 80px; margin-top: 30px;">
 </div>
 <div>
 <b>Quick Links & Resources</b>
