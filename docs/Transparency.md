@@ -4,16 +4,16 @@ The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all as
 
 ## We strive to be transparent.
 
-The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. 
+The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
 
 As of September 20, 2022, the foundation has a seven board directors.
 - [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
 - [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director and Community Leader at AlmaLinux
-- [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - former president of the Open Source Initiative
+- [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
-- [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee, and is new to the AlmaLinux OS Foundation board
-- [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor, and is new to the AlmaLinux OS Foundation board
-- [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - Cody is the CTO at Hawk Host, Inc., and is new to the board of the AlmaLinux OS Foundation
+- [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
+- [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
+- [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - Cody is a current Director at AlmaLinux and is the CTO at Hawk Host, Inc.
 
 ## First board elections
 
@@ -48,9 +48,10 @@ Some assets that were either transfered from CloudLinux, or yet to be transferre
 ## Minutes of AlmaLinux OS Foundation Board Meetings
 <!-- To add minutes to this list, export the approved minutes from the meeting folder as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF -->
 
-The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
+The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- Jan 10, 2023 [Board meeting #18 agenda](https://docs.google.com/document/d/1SXl8CMGTKMifa9EfLXo_tFfuA_2M3p3U62VFBIhECR4/edit?usp=sharing)
+- Feb 14, 2023 [Board meeting #19 agenda](https://docs.google.com/document/d/1bNRsOhZAK57S342HMlVjjUHK-eiASXMsfiIPsUWeB0A/edit?usp=sharing)
+- Jan 10, 2023 [Board meeting #18 minutes](https://drive.google.com/file/d/1F4pJrldgJ8ysY64Y_9yDxd2BuNp-MKfs/view?usp=share_link)
 - Dec 13, 2022 [Board meeting #17 minutes](https://drive.google.com/file/d/18qyOYEgX-0kVrCGXzaVhdUqUKTwPzrud/view?usp=sharing)
 - Oct 11, 2022 [Board meeting #16 minutes](https://drive.google.com/file/d/1uTh_VK4qIHFSVA1gJjJRhC4JXB1paGgC/view?usp=sharing)
 - Sept 13, 2022 [Board meeting #15 minutes](https://drive.google.com/file/d/1KkqLjPie2EqMpL-wcfnAF0NG730vy-ci/view?usp=sharing)
