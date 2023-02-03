@@ -197,7 +197,7 @@ Repository successfully enabled.
 $ sudo dnf install cas
 ```
 
-###### Expected output:
+##### Expected output:
 ```
 [almalinux_user@demohost ~]$ sudo dnf install cas
 Copr repo for codenotary x86_64 owned by andrewlukoshko                                       891  B/s | 1.2 kB     00:01    
