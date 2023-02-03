@@ -62,7 +62,7 @@ For *Windows* check a dedicated section, below.
 #### Example on *Mac OS X*
 
 :::tip
-The output as shown for *Mac OS X* is identical on Linux. An alternative install method for *Linux* is described below.
+The output as shown for *Mac OS X* is identical on [*Linux*](#official-cas-installation-method-linux®-mac-os-x). An alternative install method for *Linux* is described below.
 
 **Warning:** the directory you wish to install to needs to exist before running install command. This is relevant if you're not installing to a system directory like `/usr/local/bin` but to a custom path, like in the example.
 :::
@@ -257,7 +257,7 @@ There are a few ways to authenticate the package:
 
 
  :::tip
- Note: The `cas` program is a command line tool with a unified interface across all three platforms (*Linux, Mac OS X, Windows*); Therefore, the commands shown in the section below can be used on all supported platforms.
+ Note: The `cas` program is a command line tool with a unified interface across all three platforms (*Linux®, Mac OS X, Windows*); Therefore, the commands shown in the section below can be used on all supported platforms.
  :::
 
 &nbsp;
@@ -311,7 +311,7 @@ SUM=$(sha256sum $PKG_FILE)
 HASH=${SUM%%\ *rpm}
 ```
 
-#### Authentication using the CAS tool
+#### Authentication using the *CAS* tool
 Use the calculated hash as value for parameter `--hash` in the `cas` tool invocation:
 ```
 cas authenticate --signerID=cloud-infra@almalinux.org --hash $HASH
@@ -349,7 +349,7 @@ More info about working with the build-system page:
     [AlmaLinux Build System User Guide | the build feedscreen](https://https://github.com/AlmaLinux/build-system/wiki/AlmaLinux-Build-System-User-Guide#the-build-feed-screen)
 :::
     
-#### 3. Click the `ⓘ Details` on the selected entry (here: top one) you will get the build Summary: 
+#### 3. Click the `ⓘ Details` on the selected entry (here: top one) you will get the build summary: 
 
 ![image](/images/sbom-guide-bs-details.png)
 
@@ -381,8 +381,37 @@ Call the `cas` tool providing the copied `rpm-package-hash` as `--hash` paramete
 cas authenticate --signerID=cloud-infra@almalinux.org --hash ed061fab17b8f269d5fd421a14d0ec81ce5dc357a3ebffe33b5bd2a75e9dd704
 ```
 ##### Example output:
-![image](/images/sbom-guide-cas-example.png)
-
+```
+[almalinux_user@demohost ~]$ cas authenticate --signerID=cloud-infra@almalinux.org --hash ed061fab17b8f269d5fd421a14d0ec81ce5dc357a3ebffe33b5bd2a75e9dd704
+CAS saved locally the trusted public key
+CAS automatically trusted the signature found on current connection
+UID:		1674560717775452939
+Kind:		file
+Name:		kernel-5.14.0-162.12.1.el9_1.src.rpm
+Hash:		ed061fab17b8f269d5fd421a14d0ec81ce5dc357a3ebffe33b5bd2a75e9dd704
+Size:		137 MB
+Timestamp:	2023-01-24 11:45:17.775452939 +0000 UTC
+ContentType:	application/x-rpm
+Metadata:	build_arch="i686"
+		epoch="None"
+		release="162.12.1.el9_1"
+		sourcerpm="None"
+		arch="noarch"
+		build_host="x64-builder02.almalinux.org"
+		git_ref="changed/a9/kernel-5.14.0-162.12.1.el9_1.alma"
+		alma_commit_sbom_hash="ef90a8252e33e09860be86482f5c8c9d932392e360a828ee8e0a58cdbc451804"
+		git_url="https://git.almalinux.org/rpms/kernel.git"
+		version="5.14.0"
+		source_type="git"
+		build_id="5657"
+		built_by="eabdullin1 \u003c55892454+eabdullin1@users.noreply.github.com\u003e"
+		git_commit="dec6aca7a2b4f5a5b59e6b10efde21e47fda9827"
+		name="kernel"
+		sbom_api="0.2"
+SignerID:	Y2xvdWQtaW5mcmFAYWxtYWxpbnV4Lm9yZw==
+Apikey revoked:	no
+Status:		TRUSTED
+```
 ___
 
 &nbsp;
