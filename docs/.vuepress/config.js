@@ -50,7 +50,8 @@ module.exports = {
           '/documentation/building-packages-guide',
           '/documentation/raspberry-pi',
           '/documentation/wsl',
-          '/documentation/errata'
+          '/documentation/errata',
+          '/documentation/sbom-guide'
         ]
       },
       {
