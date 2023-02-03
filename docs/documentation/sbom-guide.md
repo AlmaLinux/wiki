@@ -197,7 +197,7 @@ Repository successfully enabled.
 $ sudo dnf install cas
 ```
 
-##### Expected output:
+###### Expected output:
 ```
 [almalinux_user@demohost ~]$ sudo dnf install cas
 Copr repo for codenotary x86_64 owned by andrewlukoshko                                       891  B/s | 1.2 kB     00:01    
@@ -293,7 +293,7 @@ cas authenticate --signerID=cloud-infra@almalinux.org kernel-5.14.0-162.12.1.el9
 ![image](/images/sbom-guide-live-example-auth-by-binary-file.gif)
 
 
- **CONGRATULATIONS!** You have just ++authenticated++ a package with the `cas` CLI tool!
+ **CONGRATULATIONS!** You have just **authenticated** a package with the `cas` CLI tool!
  
 &nbsp;
  
@@ -323,7 +323,7 @@ The whole process as described above should look like:
 
 ![image](/images/sbom-guide-live-example-auth-rpm-hash.gif)
 
-  **CONGRATULATIONS!** You have just ++authenticated++ a package with the `cas` CLI tool!
+  **CONGRATULATIONS!** You have just **authenticated** a package with the `cas` CLI tool!
 
 &nbsp;
 
