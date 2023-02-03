@@ -2,11 +2,11 @@
 title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 ---
 
-###### Last updated: 2023-02-03 14:30
+###### Last updated: 2023-02-03
 
 &nbsp;
 
-# AlmaLinux SBOM User Guide (FOSDEM 2023)
+# AlmaLinux SBOM User Guide 
 
 &nbsp;
 
