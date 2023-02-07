@@ -51,7 +51,7 @@ In the [README.md](https://github.com/codenotary/cas/blob/master/README.md) you 
 
 ### Installation 
 
-#### Official *CAS* installation method (*Linux®*, *macOS X*)
+#### Official *CAS* installation method (*Linux®*, *macOS*)
 
 ```
 bash <(curl https://getcas.codenotary.io -L)
@@ -59,10 +59,10 @@ bash <(curl https://getcas.codenotary.io -L)
 
 For *Windows* check a dedicated section, below.
 
-#### Example on *macOS X*
+#### Example on *macOS*
 
 :::tip
-The output as shown for *macOS X* is identical on [*Linux*](#official-cas-installation-method-linux®-mac-os-x). An alternative install method for *Linux* is described below.
+The output as shown for *macOS* is identical on [*Linux*](#official-cas-installation-method-linux®-macos). An alternative install method for *Linux* is described below.
 
 **Warning:** the directory you wish to install to needs to exist before running install command. This is relevant if you're not installing to a system directory like `/usr/local/bin` but to a custom path, like in the example.
 :::
@@ -257,7 +257,7 @@ There are a few ways to authenticate the package:
 
 
  :::tip
- Note: The `cas` program is a command line tool with a unified interface across all three platforms (*Linux®, macOS X, Windows*); Therefore, the commands shown in the section below can be used on all supported platforms.
+ Note: The `cas` program is a command line tool with a unified interface across all three platforms (*Linux®, macOS, Windows*); Therefore, the commands shown in the section below can be used on all supported platforms.
  :::
 
 &nbsp;
@@ -421,6 +421,6 @@ ___
 
 Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. 
 
-mac, OS X are trademarks of Apple Inc., registered in the U.S. and other countries.
+mac, OS are trademarks of Apple Inc., registered in the U.S. and other countries.
 
 Windows is a registered trademark of Microsoft Corporation in the United States and other countries.
