@@ -58,8 +58,8 @@ The process in general looks like this:
   :::tip
   Note: Most RPMs are rebuilt directly from the sources. The rebranding is required when any of the text/visual displays says Red Hat or RHN license manager enforcements.
   :::
-* [Build](https://build.almalinux.org/) packages with notarization (SBOM) 
-* [Test](https://github.com/AlmaLinux/alts) & fix issues
+* [Build](https://build.almalinux.org/) packages with notarization (SBOM). 
+* [Test](https://github.com/AlmaLinux/alts) & fix issues.
 * Release!
 
 
