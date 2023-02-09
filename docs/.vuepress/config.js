@@ -43,6 +43,7 @@ module.exports = {
       {
         title: 'Documentation',
         children: [
+          '/documentation/installation-guide',
           '/documentation/migration-guide',
           '/documentation/openscap-guide',
           '/documentation/openscap-guide-for-9',
