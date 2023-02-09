@@ -51,7 +51,8 @@ module.exports = {
           '/documentation/raspberry-pi',
           '/documentation/wsl',
           '/documentation/errata',
-          '/documentation/sbom-guide'
+          '/documentation/sbom-guide',
+          '/documentation/installation-guide'
         ]
       },
       {
