@@ -46,22 +46,20 @@ governing board. AlmaLinux will always be free and open-source. The community ca
 
 AlmaLinux OS is a community-owned and driven, stable, and secure Linux distribution. AlmaLinux is an opportunity for us to channel our expertise in RHEL into a Linux distribution that serves the broader community. AlmaLinux targets a wide range of users, including enterprise customers, small businesses, and individual users. Community members are on the governing board for the AlmaLinux project and are involved in critical decisions. Finally, AlmaLinux will always be free and open source. The community can pick up and continue to develop AlmaLinux at any time.
 
-AlmaLinux supports all four architectures x86_64, aarch64, ppc64le, and s390x, providing full parity with RHEL. We provide a wide range of installation choices: ISOs, cloud and container images, Live Media, WSL, and Raspberry Pi. 
+AlmaLinux supports all four architectures x86_64, aarch64, ppc64le, and s390x, providing full parity with RHEL. We provide a wide range of installation choices: ISOs, Сloud and Сontainer images, Live Media, WSL, and Raspberry Pi. 
 
-AlmaLinux provides a commitment to security updates and bug fixes for a period of at least 10 years. Moreover, AlmaLinux provides Errata, public OVAL streams, OpenSCAP and SCAP Workbench packages, including the availability of the official CIS Benchmark for AlmaLinux. AlmaLinux has SBOM integrated into the pipeline and allows using the CAS CLI tool to check the chain of trust. 
+AlmaLinux provides a commitment to security updates and bug fixes for a period of at least 10 years. Moreover, AlmaLinux provides [Errata](/documentation/errata.md), [public OVAL streams](/documentation/oval-streams.md), [OpenSCAP](/documentation/openscap-guide.md) and SCAP Workbench packages, including the availability of the official [CIS Benchmark for AlmaLinux](https://www.cisecurity.org/benchmark/almalinuxos_linux). AlmaLinux has [SBOM](/documentation/sbom-guide.md) integrated into the pipeline and allows using the CAS CLI tool to check the chain of trust.
 
 
 ### Where does AlmaLinux get package sources and how AlmaLinux is built?
 The process in general looks like this:
-* Take sources from CentOS git.
-* Rebranding: at this point `.alma` postfix to the end of the modified packages "Release" field to distinguish our packages from upstream ones, especially if a machine was converted to AlmaLinux.
+* Take sources from CentOS git as Red Hat uses CentOS git to release their packages sources.
+* Rebrand: at this point `.alma` postfix to the end of the modified packages "Release" field to distinguish our packages from upstream ones. You can also check the [Modified packages](/development/Modified-packages.md) page for more details.
   :::tip
   Note: Most RPMs are rebuilt directly from the sources. The rebranding is required when any of the text/visual displays says Red Hat or RHN license manager enforcements.
   :::
-* Remove upstream-specific dependencies (e.g. subscription manager)
-* Make local modifications as required by the architecture. Check this [blog post](https://almalinux.org/blog/how-we-built-almalinux-86-for-s390x/) for an example of added value 
-* [Build](https://github.com/AlmaLinux/build-system) packages with notarization ([SBOM](/documentation/sbom-guide.md)). Update sources of the AlmaLinux git
-* [Test & fix issues](https://github.com/AlmaLinux/alts)
+* [Build](https://build.almalinux.org/) packages with notarization (SBOM) 
+* [Test](https://github.com/AlmaLinux/alts) & fix issues
 * Release!
 
 
@@ -76,6 +74,12 @@ You can read more details and find guide steps on the [Migration](/documentation
 As stated, AlmaLinux will be a 1:1 binary compatible fork of RHEL, which means that your applications and services will remain interoperable. For that reason, you can rapidly migrate any number of servers using the [migration tool](https://github.com/AlmaLinux/almalinux-deploy).
 
 
+### How do I migrate from CentOS 7 to AlmaLinux 8?
+
+AlmaLinux has developed the ELevate project as an initiative to support migrations between a major version of RHEL-derivatives. It uses the [Leapp utility](https://leapp.readthedocs.io/) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from CentOS are used to perform the upgrade. 
+Check the [ELevate page](/elevate/README.md) for the list of the available migration directions and for the [Quickstart Guide](/elevate/ELevate-quickstart-guide.md).
+
+
 ### How long will AlmaLinux be supported?
 
 The [AlmaLinux OS Foundation](https://wiki.almalinux.org/Transparency.html) owns all assets related to AlmaLinux OS. It is 501(c)(6) non-profit organization and is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 
@@ -84,6 +88,7 @@ The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stabl
 |---|---|
 |AlmaLinux 8.x | 2029 |
 |AlmaLinux 9.x | 2032 |
+
 
 ### How to Report Bug
 
@@ -103,6 +108,7 @@ best place for additional packages is the [Extra Packages for Enterprise Linux
 (EPEL)](https://docs.fedoraproject.org/en-US/epel/) repository.  Any Fedora
 package that is not in RHEL can be
 [requested](https://docs.fedoraproject.org/en-US/epel/epel-package-request/).
+
 
 #### Trademark notices
 
