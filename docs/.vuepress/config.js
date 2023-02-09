@@ -43,6 +43,7 @@ module.exports = {
       {
         title: 'Documentation',
         children: [
+          '/documentation/installation-guide',
           '/documentation/migration-guide',
           '/documentation/openscap-guide',
           '/documentation/openscap-guide-for-9',
@@ -51,8 +52,7 @@ module.exports = {
           '/documentation/raspberry-pi',
           '/documentation/wsl',
           '/documentation/errata',
-          '/documentation/sbom-guide',
-          '/documentation/installation-guide'
+          '/documentation/sbom-guide'
         ]
       },
       {
