@@ -1,12 +1,14 @@
 ---
 title: 'FAQ'
 ---
+###### last updated: 2023-02-09
+
 # Frequently asked questions
 
 
 ### What is AlmaLinux?
 
-AlmaLinux is a 1:1 binary compatible fork of RHEL.
+AlmaLinux OS is a community-owned and driven, stable and secure *Linux®* distribution that is a 1:1 binary compatible fork of *RHEL*.
 
 
 ### Can I do X, Y, or Z with AlmaLinux?
@@ -36,53 +38,62 @@ Linux community.
 
 ### How is the community protected from future development roadmap changes?
 
-We involve the community right through the process, including in the
-governing board. AlmaLinux will always be free and open-source. The community
-can select the project at any time.
+The AlmaLinux Foundation is committed to supporting the community and promoting transparency in all things. The AlmaLinux Foundation involves the community right through the process, including in the
+governing board. AlmaLinux will always be free and open-source. The community can select the project at any time.
 
 
-### Why use CloudLinux's CentOS alternative?
+### Why use AlmaLinux?
 
-Our core product, the CloudLinux OS, is a RHEL fork that has been in place
-for over ten years. More than 4,000 companies, including Dell, Liquid Web,
-and 1&1, rely on the CloudLinux OS across more than 200,000 product
-installations. CloudLinux has proven experience in creating and maintaining
-a RHEL fork and have done so starting with RHEL release 5, right through to
-release 8. AlmaLinux is an opportunity for us to channel our expertise in
-RHEL into a Linux distribution that serves the broader community.
-Furthermore, we include the Linux community right from the inception
-of AlmaLinux. Moving forward, community members will be on the governing
-board for the AlmaLinux project and involved in critical decisions. Finally,
-AlmaLinux will always be free and open source. The community can pick up
-and continue to develop AlmaLinux at any time.
+AlmaLinux OS is a community-owned and driven, stable, and secure Linux distribution. AlmaLinux is an opportunity for us to channel our expertise in RHEL into a Linux distribution that serves the broader community. AlmaLinux targets a wide range of users, including enterprise customers, small businesses, and individual users. Community members are on the governing board for the AlmaLinux project and are involved in critical decisions. Finally, AlmaLinux will always be free and open source. The community can pick up and continue to develop AlmaLinux at any time.
+
+AlmaLinux supports all four architectures x86_64, aarch64, ppc64le, and s390x, providing full parity with RHEL. We provide a wide range of installation choices: ISOs, cloud and container images, Live Media, WSL, and Raspberry Pi. 
+
+AlmaLinux provides a commitment to security updates and bug fixes for a period of at least 10 years. Moreover, AlmaLinux provides Errata, public OVAL streams, OpenSCAP and SCAP Workbench packages, including the availability of the official CIS Benchmark for AlmaLinux. AlmaLinux has SBOM integrated into the pipeline and allows using the CAS CLI tool to check the chain of trust. 
+
+
+### Where does AlmaLinux get package sources and how AlmaLinux is built?
+The process in general looks like this:
+* Take sources from CentOS git.
+* Rebranding: at this point `.alma` postfix to the end of the modified packages "Release" field to distinguish our packages from upstream ones, especially if a machine was converted to AlmaLinux.
+  :::tip
+  Note: Most RPMs are rebuilt directly from the sources. The rebranding is required when any of the text/visual displays says Red Hat or RHN license manager enforcements.
+  :::
+* Remove upstream-specific dependencies (e.g. subscription manager)
+* Make local modifications as required by the architecture. Check this [blog post](https://almalinux.org/blog/how-we-built-almalinux-86-for-s390x/) for an example of added value 
+* [Build](https://github.com/AlmaLinux/build-system) packages with notarization ([SBOM](/documentation/sbom-guide.md)). Update sources of the AlmaLinux git
+* [Test & fix issues](https://github.com/AlmaLinux/alts)
+* Release!
 
 
 ### How do I migrate a single host from CentOS to AlmaLinux?
 
-We will provide a single command to swap repositories and keys once the beta
-version is released.
+AlmaLinux developed a [migration tool](https://github.com/AlmaLinux/almalinux-deploy) to make it simple to migrate to AlmaLinux from other Linux distributions including CentOS and CentOS Stream. 
+You can read more details and find guide steps on the [Migration](/documentation/migration-guide.md) wiki page. 
 
 
 ### How do I migrate an entire fleet of servers from CentOS to AlmaLinux?
 
-As stated, AlmaLinux will be a 1:1 binary compatible fork of RHEL, which
-means that your applications and services will remain interoperable. For that
-reason, you can rapidly migrate any number of servers with just one command.
+As stated, AlmaLinux will be a 1:1 binary compatible fork of RHEL, which means that your applications and services will remain interoperable. For that reason, you can rapidly migrate any number of servers using the [migration tool](https://github.com/AlmaLinux/almalinux-deploy).
 
 
-### How long will CloudLinux support AlmaLinux?
+### How long will AlmaLinux be supported?
 
-CloudLinux is committed to supporting AlmaLinux until 2029, including stable
-and thoroughly tested updates and security patches. Read more about CloudLinux
-support in the [CloudLinux announcement](https://blog.cloudlinux.com/announcing-open-sourced-community-driven-rhel-fork-by-cloudlinux).
+The [AlmaLinux OS Foundation](https://wiki.almalinux.org/Transparency.html) owns all assets related to AlmaLinux OS. It is 501(c)(6) non-profit organization and is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 
+The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stable and thoroughly tested updates and security patches until: 
+| Release | End-of-Life |
+|---|---|
+|AlmaLinux 8.x | 2029 |
+|AlmaLinux 9.x | 2032 |
 
-### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
+### How to Report Bug
 
-Since AlmaLinux is a 1:1 binary compatible fork of RHEL, it should have the
-same bugs as the current release of RHEL.  AlmaLinux recommends following an
-"upstream first" approach to fix these bugs by submitting them to [CentOS
-Stream](https://centos.org/centos-stream/).  This is the contribution path to
-get the bug fix into RHEL, which will in turn be rebuilt into AlmaLinux.
+#### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
+
+Since AlmaLinux is a 1:1 binary compatible fork of RHEL, it should have the same bugs as the current release of RHEL.  AlmaLinux recommends following an "upstream first" approach to fix these bugs by submitting them to [CentOS Stream](https://centos.org/centos-stream/).  This is the contribution path to get the bug fix into RHEL, which will in turn be rebuilt into AlmaLinux.
+
+#### Bug Tracker 
+
+You can file AlmaLinux specific bugs on the [bugs.almalinux.org](https://bugs.almalinux.org) providing all the necessary information about an issue and reproducing steps.
 
 ### How can I request a package be added to AlmaLinux?
 
@@ -92,3 +103,9 @@ best place for additional packages is the [Extra Packages for Enterprise Linux
 (EPEL)](https://docs.fedoraproject.org/en-US/epel/) repository.  Any Fedora
 package that is not in RHEL can be
 [requested](https://docs.fedoraproject.org/en-US/epel/epel-package-request/).
+
+#### Trademark notices
+
+Red Hat, Red Hat Enterprise Linux are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries.
+    
+Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. 
