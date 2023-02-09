@@ -292,7 +292,7 @@ AlmaLinux also provides Live Media images with different desktop environment opt
 * XFCE
 * MATE
    
-Using Live Media You can try AlmaLinux OS before installing. You can find more information on the [Live Media](/Live-Media.md) wiki page.
+Using Live Media You can try AlmaLinux OS before installing. You can find more information on the [Live Media](/LiveMedia.md) wiki page.
 
 #### Trademark notices
 
