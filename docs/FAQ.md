@@ -35,11 +35,11 @@ AlmaLinux puts out new releases--fast. We typically release with a day or two of
 
 Our governance is under a 501(c)(6) non-profit organization to faciliate our objectives of being open, transparent and participatory. Community members who apply for membership in the foundation (for free) and are able to vote on the governing board of the AlmaLinux project and on critical decisions. There is no "ownership," and no controlling shareholders or interests. The foundation is by the members, for the members. All board meeting minutes are published and shared, including financial positions.
 
-What architectures and platforms do you support?
+### What architectures and platforms do you support?
 
 AlmaLinux currently supports four architectures x86_64, aarch64, ppc64le, and s390x, providing full parity with upstream. In addition, we provide a wide range of other images and repositories: traditional ISOs, cloud and container images, live media, WSL - Windows Subsystem for Linux, and Raspberry Pi. 
 
-# Is AlmaLinux secure?
+### Is AlmaLinux secure?
 
 AlmaLinux provides a commitment to security updates and bug fixes for a period of at least 10 years. Moreover, AlmaLinux provides [Errata](/documentation/errata.md), [public OVAL streams](/documentation/oval-streams.md), [OpenSCAP](/documentation/openscap-guide.md) and SCAP Workbench packages, including the availability of the official [CIS Benchmark for AlmaLinux](https://www.cisecurity.org/benchmark/almalinuxos_linux). AlmaLinux has [SBOM](/documentation/sbom-guide.md) integrated into our build pipeline, facilitating software supply chain security.
 
