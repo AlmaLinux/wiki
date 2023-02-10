@@ -54,7 +54,7 @@ AlmaLinux provides a commitment to security updates and bug fixes for a period o
 ### Where does AlmaLinux get package sources and how AlmaLinux is built?
 The process in general looks like this:
 * Take sources from CentOS git as Red Hat uses CentOS git to release their packages sources.
-* Rebrand: at this point `.alma` postfix to the end of the modified packages "Release" field to distinguish our packages from upstream ones. You can also check the [Modified packages](/development/Modified-packages.md) page for more details.
+* Rebrand: at this point, the `.alma` postfix is added to the end of the modified packages "Release" field to distinguish our packages from upstream ones. You can also check the [Modified packages](/development/Modified-packages.md) page for more details.
   :::tip
   Note: Most RPMs are rebuilt directly from the sources. The rebranding is required when any of the text/visual displays says Red Hat or RHN license manager enforcements.
   :::
