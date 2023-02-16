@@ -22,7 +22,7 @@
 <li><a href="https://web.libera.chat/#almalinux">Libera Chat IRC</a> - IRC Real Time Chat</li>
 <li><a href="https://www.reddit.com/r/AlmaLinux/">reddit.com/r/AlmaLinux</a> - Reddit Community</li>
 <li><a href="https://repo.almalinux.org/">repo.almalinux.org</a> - Public Package Repository</li>
-<li><a href="https://status.almalinux.org/">status.almalinux.org</a> - Public Status Page/li>
+<li><a href="https://status.almalinux.org/">status.almalinux.org</a> - Public Status Page</li>
 <li>Cloud Images (and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD
     <ul>
     <li><a href="https://github.com/AlmaLinux/cloud-images">AlmaLinux Cloud Images</a></li>
