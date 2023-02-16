@@ -13,7 +13,7 @@ As of September 20, 2022, the foundation has a seven board directors.
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
 - [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
-- [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - Cody is a current Director at AlmaLinux and is the CTO at Hawk Host, Inc.
+- [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - Cody is a current Director at AlmaLinux and is the CTO at Hawk Host, Inc, a current AlmaLinux Silver Sponsor.
 
 ## First board elections
 
