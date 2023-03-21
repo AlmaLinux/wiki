@@ -4,7 +4,7 @@ title: "About ELevate project"
 
 # About the project
 
-The ELevate project is an initiative to support migrations between major version of RHEL-derivatives. The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from CentOS are used to perform the upgrade. All changes are headed upstream as well.
+The ELevate project is an initiative to support migrations between major versions of RHEL-derivatives. The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from non-RHEL operating systems are used to perform the upgrade. 
 
 # Available migration paths 
 
@@ -14,11 +14,10 @@ The ELevate project supports only CentOS repositories. It doesn't support other 
 
 There are several ways to perform upgrade these days. Here is the list to see which migration directions are available:
 
-* CentOS 7 - AlmaLinux 8
-* CentOS 7 - EuroLinux 8
-* CentOS 7 - Rocky Linux 8
-* CentOS 7 - Oracle Linux 8
-* CentOS 7 - CentOS Stream 8
+![image](/images/ELevate-scheme.png)
+
+\* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
+\** - migration to Oracle Linux 9 is available with the Oracle Leapp utility and will not be supported by ELevate project.
 
 # How to migrate
 

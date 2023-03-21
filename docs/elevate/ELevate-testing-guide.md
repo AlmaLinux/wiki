@@ -8,11 +8,14 @@ title: "ELevate Testing Guide"
 Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
-This guide contains steps on how to upgrade:
-* CentOS 7 to AlmaLinux 8, EuroLinux 8, CentOS Stream 8, Oracle 8, and Rocky Linux 8. 
-* AlmaLinux 8 to AlmaLinux 9
+Currently, the following migration directions are available:
 
-You need CentOS 7 or AlmaLinux 8 system installed to use this guide.
+![image](/images/ELevate-scheme.png)
+
+\* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
+\** - migration to Oracle Linux 9 is available with the Oracle Leapp utility and will not be supported by ELevate project.
+
+You need CentOS 7, AlmaLinux 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
 
 * Fully updated system is required to accomplish the upgrade. So, install the latest system updates first, and reboot.
 ```
@@ -31,15 +34,13 @@ sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
 ```
 
 * Install leapp packages and migration data for the OS you want to upgrade.  
-Possible options for 7 to 8 migration are:
+Possible options for migration are:
     * leapp-data-almalinux
     * leapp-data-centos
     * leapp-data-eurolinux
     * leapp-data-oraclelinux
     * leapp-data-rocky
 
-  Possible options for 8 to 9 migration are:
-    * leapp-data-almalinux
 ```
 sudo yum install -y leapp-upgrade leapp-data-almalinux
 ```
