@@ -9,7 +9,7 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 :::
 
 :::danger
-The ELevate project supports only CentOS repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
+The ELevate project only supports official operating systems repositories. It doesn’t support external repositories like EPEL. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
 :::
 
 This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
@@ -49,7 +49,7 @@ sudo yum install -y leapp-upgrade leapp-data-almalinux
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
 :::warning
-Preupgrade check will fail as the default CentOS 7 doesn't meet all requirements for migration.
+Preupgrade check will fail as the default install doesn't meet all requirements for migration.
 :::
 
 ```
