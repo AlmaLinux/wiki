@@ -9,7 +9,7 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 :::
 
 :::danger
-The ELevate project only supports official operating systems repositories. It doesn't support other external repositories. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
+The ELevate project only supports official operating systems repositories. It doesn’t support external repositories like EPEL. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
 :::
 
 This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
