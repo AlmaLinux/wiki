@@ -14,7 +14,7 @@ The ELevate project only supports official operating systems repositories. It do
 
 There are several ways to perform upgrade these days. Here is the list to see which migration directions are available:
 
-![image](/images/ELevate-scheme.png)
+![image](/images/ELevate-scheme.svg)
 
 \* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
 \** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
