@@ -22,7 +22,7 @@ As of September 20, 2022, the foundation has a seven board directors.
 
 ## The plans for the board
 
-- The board is has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Relase](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
+- The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Relase](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
 - Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him. 
 - The board will be expanded to up to 13 directors (as new members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
 
@@ -32,7 +32,7 @@ The complete build environment is yet to be fully open-sourced, but it will be i
 All the code we release is under GPL3 or MIT license.
 All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
-Some assets that were either transfered from CloudLinux, or yet to be transferred to AlmaLinux
+Some assets were either transfered from CloudLinux, or have yet to be transferred to AlmaLinux.
 
 | asset | What needs to be done | Status |
 |:--- |:--- |:--- |
@@ -78,7 +78,7 @@ In September of 2021, the Board of Directors [opened up membership applications]
 
 The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
 
-As of Oct 11, 2021 the membership Committee consists of:
+As of Oct 11, 2021 the Membership Committee consists of:
 - benny Vasquez, Open Source Security Program Manager @ Microsoft and [Current Chair of the Board of Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
 - Daniel Pearson, COO of KnownHost, and Current Chair of the Membership Committee
 - Stephen Smoogen, Red Hat Software, EPEL Chair Emeritus

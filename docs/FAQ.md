@@ -8,7 +8,7 @@ title: 'FAQ'
 
 ### What is AlmaLinux?
 
-AlmaLinux OS is a community-owned and driven, stable and secure *Linux®* distribution that is a 1:1 binary compatible with of *RHEL*.
+AlmaLinux OS is a community-owned and driven, stable and secure *Linux®* distribution that is 1:1 binary compatible with *RHEL*.
 
 
 ### Can I do X, Y, or Z with AlmaLinux?
@@ -37,7 +37,7 @@ Our governance is under a 501(c)(6) non-profit organization to faciliate our obj
 
 ### What architectures and platforms do you support?
 
-AlmaLinux currently supports four architectures x86_64, aarch64, ppc64le, and s390x, providing full parity with upstream. In addition, we provide a wide range of other images and repositories: traditional ISOs, cloud and container images, live media, WSL - Windows Subsystem for Linux, and Raspberry Pi. 
+AlmaLinux currently supports four architectures - x86_64, aarch64, ppc64le, and s390x - providing full parity with upstream. In addition, we provide a wide range of other images and repositories: traditional ISOs, cloud and container images, live media, WSL - Windows Subsystem for Linux, and Raspberry Pi. 
 
 ### Is AlmaLinux secure?
 
@@ -48,7 +48,7 @@ AlmaLinux provides a commitment to security updates and bug fixes for a period o
 
 The process in general looks like this:
 * We clone the upstream sources from the CentOS git repositories. These are the same source that Red Hat uses to build their packages.
-* De-branding: any trademarks are replaced, at this point, the `.alma` postfix is added to the end of the modified packages' "Release" field to distinguish our packages from upstream ones. You can also check the [Modified packages](/development/Modified-packages.md) page for more details.
+* De-branding: any trademarks are replaced at this point, and the `.alma` postfix is added to the end of the modified packages' "Release" field to distinguish our packages from upstream ones. You can also check the [Modified packages](/development/Modified-packages.md) page for more details.
   :::tip
   Note: Most RPMs are rebuilt directly from the sources. The rebranding is required when any of the text/visual displays says Red Hat or RHN license manager enforcements.
   :::
@@ -82,7 +82,7 @@ The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stabl
 |AlmaLinux 9.x | 2032 |
 
 
-### How to Report Bug
+### How to Report Bugs
 
 #### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
 
@@ -94,7 +94,7 @@ You can file AlmaLinux specific bugs on the [bugs.almalinux.org](https://bugs.al
 
 ### How can I request a package be added to AlmaLinux?
 
-Since AlmaLinux is a 1:1 binary compatible with RHEL, it does not add
+Since AlmaLinux is 1:1 binary compatible with RHEL, it does not add
 packages to the distribution unless they are added to RHEL.  In general, the
 best place for additional packages is the [Extra Packages for Enterprise Linux
 (EPEL)](https://docs.fedoraproject.org/en-US/epel/) repository.  Any Fedora
