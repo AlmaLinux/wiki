@@ -18,8 +18,7 @@ You can create a public AlmaLinux mirror in a few easy steps:
    We maintain an up-to-date version
    of `rsync` in the AlmaLinux backports repository.  To use this repository on EL8 and EL9 distros:
    - ```
-     curl http://repo.almalinux.org/backports/almalinux-backports-rsync.repo
-     --output /etc/yum.repos.d/almalinux-backports-rsync.repo
+     curl http://repo.almalinux.org/backports/almalinux-backports-rsync.repo --output /etc/yum.repos.d/almalinux-backports-rsync.repo
      yum -y update rsync
      ```
    - You can verify that you have the expected version of `rsync` and `xxhash` support as follows:
