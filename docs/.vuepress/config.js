@@ -99,7 +99,8 @@ module.exports = {
         title: 'Development',
         children: [
           '/development/Packaging',
-          '/development/Modified-packages'
+          '/development/Modified-packages',
+          '/development/openQA'
         ]
       },
       '/Mirrors',
