@@ -19,3 +19,8 @@ The following SIGs are already established:
 * [Live Media](/sigs/LiveMedia) - The AlmaLinux OS Live Media maintainers.
 * [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
 * [Marketing](/sigs/Marketing) - The AlmaLinux OS Marketing team.
+
+
+# Additional Resources
+
+* [Process For Creating New SIG](sigs/ProcessForCreatingNewSIG) - AlmaLinux Foundation SIG Lifecycle Guidelines.
