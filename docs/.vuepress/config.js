@@ -84,6 +84,7 @@ module.exports = {
           '/sigs/Build-System',
           '/sigs/LiveMedia',
           '/sigs/Migration',
+	  '/sigs/ProcessForCreatingNewSIG',
         ]
       },
       {
