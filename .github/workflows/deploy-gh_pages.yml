@@ -6,6 +6,7 @@ on:
       - master
 jobs:
   build-and-deploy:
+    if: github.repository == 'AlmaLinux/wiki'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
