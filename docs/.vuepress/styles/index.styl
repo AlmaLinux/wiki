@@ -1,58 +1,64 @@
 body
-  font-family -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important
+  font-family $bodyFontFamily
 
 h1
-  font-size 1.8rem
+  font-size $h1FontSize
 
 h2
-  font-size 1.5rem
+  font-size $h2FontSize
 
 table thead th
-  background-color #304b5e
-  color #ffffff
-  font-weight 600
+  background-color $theadBgColor
+  color $theadFontColor
+  font-weight $theadFontWeight
+
+tr:nth-child(2n)
+  background-color $tipBgColor
 
 .navbar
-  background-color #082336 !important
+  background-color $navbarBgColor
 
 .navbar .site-name
-  color #ffffff !important
-  font-size 1.4rem !important
-  font-weight 600 !important
+  color $navbarFontColor
+  font-size $navbarFontSize
+  font-weight $navbarFontWeight
 
 .navbar .links
-  background-color #082336 !important
-  font-family montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,oxygen-sans,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol !important
+  background-color $navbarBgColor
+  font-family $navbarFontFamily
 
 .nav-links a
-  color #ffffff !important
-  font-size 15px !important
-  font-weight 600 !important
+  color $navbarFontColor
+  font-size $navbarLinksFontSize
+  font-weight $navbarLinksFontWeight
 
 .nav-links a:hover
-  color #0069DA !important
+  color $navbarLinksHoverColor
 
 .sidebar .nav-links
-  background-color #082336
+  background-color $navbarBgColor
 
 .sidebar-heading
-  font-size 1em !important
-  font-weight 600 !important
+  font-size $sidebarFontSize
+  font-weight $sidebarFontWeight
 
 .sidebar
   & > .sidebar-links
     & > li > a.sidebar-link
-      font-size 1em !important
-      font-weight 600 !important
+      font-size $sidebarFontSize
+      font-weight $sidebarFontWeight
 
 .custom-block.warning
-    background-color #FFF2C4
-    border-color #e1ad00
+    background-color $warningBgColor
+    border-color $warningBorderColor
 
 .custom-block.warning .custom-block-title
-    color: #e1ad00
+    color: $warningTitleColor
 
-.custom-block.tip {
-    background-color #f3f5f7
-    border-color #68bc11
-}
+.custom-block.tip
+    background-color $tipBgColor
+    border-color $tipBorderColor
+
+.custom-block.danger
+    background-color $dangerBgColor
+    border-color $dangerBorderColor
