@@ -103,8 +103,6 @@ c. Identifying areas for improvement and implementing changes to enhance the SIG
 
 In the event a SIG becomes inactive, no longer serves its intended purpose, or does not align with the community's objectives, outline a process for decommissioning the SIG. This may include:
 
-a. Notifying the AlmaLinux Foundation Board of the intention to decommission the SIG.
-
+a. Notifying the AlmaLinux OS Foundation Board of the intention to decommission the SIG.
 b. Ensuring that all relevant documentation, resources, and knowledge are preserved and transferred to appropriate parties within the community.
-
 c. Formally announcing the decommissioning of the SIG and providing a rationale for the decision.
