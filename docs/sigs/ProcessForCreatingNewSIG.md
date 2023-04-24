@@ -43,14 +43,11 @@ If the proposal requires modifications or additional information, the AlmaLinux 
 
 ### 4. Approval and Announcement
 
-Once the proposal has been reviewed and deemed acceptable, the AlmaLinux Foundation Board will formally approve the creation of the new SIG. The approval will be announced through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
+Once the proposal has been reviewed and deemed acceptable, the AlmaLinux OS Foundation Board will formally approve the creation of the new SIG. The approval will be announced through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
 
 a. The title and objectives of the new SIG.
-
 b. The names of the SIG Chair and initial members.
-
-c. A link to the SIG's dedicated webpage or communication platform.
-
+c. A link to the SIG's primary point of communication or wiki entry (if applicable).
 d. An invitation for interested community members to join the SIG.
 
 
