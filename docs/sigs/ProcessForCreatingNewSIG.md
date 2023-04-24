@@ -65,10 +65,8 @@ d. Assign tasks to SIG members, as applicable.
 
 To maintain transparency and ensure progress towards the SIG's objectives, the SIG Chair will be responsible for:
 
-a. Providing regular status updates to the AlmaLinux Foundation Board.
-
+a. Providing regular status updates to the AlmaLinux OS Foundation Board.
 b. Ensuring that SIG activities adhere to the AlmaLinux project's guidelines and policies.
-
 c. Coordinating the SIG's communication and collaboration with other SIGs and the broader AlmaLinux community.
 
 
