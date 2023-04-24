@@ -23,4 +23,4 @@ The following SIGs are already established:
 
 # Additional Resources
 
-* [Process For Creating New SIG](sigs/ProcessForCreatingNewSIG) - AlmaLinux Foundation SIG Lifecycle Guidelines.
+* [Process For Creating New SIG](sigs/ProcessForCreatingNewSIG) - AlmaLinux OS Foundation SIG Lifecycle Guidelines.
