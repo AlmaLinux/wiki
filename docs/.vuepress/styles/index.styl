@@ -1,0 +1,64 @@
+body
+  font-family $bodyFontFamily
+
+h1
+  font-size $h1FontSize
+
+h2
+  font-size $h2FontSize
+
+table thead th
+  background-color $theadBgColor
+  color $theadFontColor
+  font-weight $theadFontWeight
+
+tr:nth-child(2n)
+  background-color $tipBgColor
+
+.navbar
+  background-color $navbarBgColor
+
+.navbar .site-name
+  color $navbarFontColor
+  font-size $navbarFontSize
+  font-weight $navbarFontWeight
+
+.navbar .links
+  background-color $navbarBgColor
+  font-family $navbarFontFamily
+
+.nav-links a
+  color $navbarFontColor
+  font-size $navbarLinksFontSize
+  font-weight $navbarLinksFontWeight
+
+.nav-links a:hover
+  color $navbarLinksHoverColor
+
+.sidebar .nav-links
+  background-color $navbarBgColor
+
+.sidebar-heading
+  font-size $sidebarFontSize
+  font-weight $sidebarFontWeight
+
+.sidebar
+  & > .sidebar-links
+    & > li > a.sidebar-link
+      font-size $sidebarFontSize
+      font-weight $sidebarFontWeight
+
+.custom-block.warning
+    background-color $warningBgColor
+    border-color $warningBorderColor
+
+.custom-block.warning .custom-block-title
+    color: $warningTitleColor
+
+.custom-block.tip
+    background-color $tipBgColor
+    border-color $tipBorderColor
+
+.custom-block.danger
+    background-color $dangerBgColor
+    border-color $dangerBorderColor
