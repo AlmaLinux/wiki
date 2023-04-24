@@ -5,7 +5,7 @@
 
 ## Abstract
 
-> This document outlines the process and additional considerations for creating a new Special Interest Group (SIG) within the AlmaLinux community, fostering collaboration, innovation, and growth. This process aims to facilitate successful SIG creation and integration within the AlmaLinux ecosystem. SIGs are essential for bringing together individuals and organizations with common interests to work on specific projects, develop new features, or address particular issues within the AlmaLinux project. Incorporating insights from Fedora and CentOS, such as mentorship and collaboration with existing SIGs, periodic evaluation for continuous improvement, and guidelines for SIG decommissioning, this process is designed to help individuals and organizations contribute effectively to the continued success of the AlmaLinux project and shape its future.
+> This document outlines the process and additional considerations for creating a new Special Interest Group (SIG) within the AlmaLinux OS community, fostering collaboration, innovation, and growth. This process aims to facilitate successful SIG creation and integration within the AlmaLinux ecosystem. SIGs are essential for bringing together individuals and organizations with common interests to work on specific projects, develop new features, or address particular issues within the AlmaLinux project. Incorporating insights from Fedora and CentOS, such as mentorship and collaboration with existing SIGs, periodic evaluation for continuous improvement, and guidelines for SIG decommissioning, this process is designed to help individuals and organizations contribute effectively to the continued success of the AlmaLinux project and shape its future.
 
 
 ## Scope
