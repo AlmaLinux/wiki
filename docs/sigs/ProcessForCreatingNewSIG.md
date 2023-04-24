@@ -31,11 +31,8 @@ f. Any known required resources, such as infrastructure or funding.
 ### 2. Proposal Review
 
 Upon receiving a proposal, the AlmaLinux OS Foundation Board will review the submission to ensure it aligns with the project's goals and values. The review process includes:
-
 a. Assessing the proposal's relevance to the AlmaLinux ecosystem.
-
 b. Evaluating the clarity and feasibility of the SIG's objectives and activities.
-
 c. Reviewing the qualifications of the proposed SIG Chair and initial members.
 
 
