@@ -38,7 +38,7 @@ c. Reviewing the qualifications of the proposed SIG Chair and initial members.
 
 ### 3. Feedback and Revision
 
-If the proposal requires modifications or additional information, the AlmaLinux Foundation Board will provide feedback to the proposer. The proposer will then have the opportunity to revise and resubmit the proposal, addressing the feedback provided.
+If the proposal requires modifications or additional information, the AlmaLinux OS Foundation Board will provide feedback to the proposers. The group of proposers will then have the opportunity to revise and resubmit the proposal, addressing the feedback provided.
 
 
 ### 4. Approval and Announcement
