@@ -18,7 +18,7 @@ This process is applicable to any individual or organization within the AlmaLinu
 
 ### 1. Proposal Submission
 
-To initiate the process of creating a new SIG, a proposal must be submitted to the AlmaLinux Foundation Board. The proposal should include:
+To initiate the process of creating a new SIG, a proposal must be submitted to the AlmaLinux OS Foundation Board. The proposal should include:
 
 a. A clear and concise title for the SIG.
 
