@@ -56,10 +56,9 @@ d. An invitation for interested community members to join the SIG.
 Following the announcement, the new SIG will:
 
 a. Establish a dedicated communication channel (e.g., mailing list, chat room, or forum) for members to collaborate and discuss SIG-related matters.
-
 b. Create a public repository (if applicable) for storing and managing project resources and documentation.
-
-c. Develop a roadmap and assign tasks to SIG members.
+c. Develop a roadmap and publish its goals in a publicly trackable way.
+d. Assign tasks to SIG members, as applicable.
 
 
 ### 6. Reporting and Accountability
