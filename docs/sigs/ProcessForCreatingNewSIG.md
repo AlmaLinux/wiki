@@ -81,9 +81,7 @@ c. Coordinating the SIG's communication and collaboration with other SIGs and th
 To improve the integration of new SIGs within the AlmaLinux community, consider establishing a mentorship program where existing SIGs can offer guidance and assistance to newly-formed SIGs. This collaboration may include:
 
 a. Sharing best practices and lessons learned from previous projects and initiatives.
-
 b. Providing technical or organizational support in areas where the new SIG may lack expertise.
-
 c. Facilitating joint projects or activities that can benefit both SIGs and foster collaboration within the community.
 
 
