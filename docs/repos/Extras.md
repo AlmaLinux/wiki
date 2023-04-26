@@ -14,7 +14,7 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 
 ## The ELRepo Project
 
-[The ELRepo Project](http://elrepo.org) focuses on hardware related packages to enhance your experience with Enterprise Linux. This includes filesystem drivers, graphics drivers, network drivers, sound drivers, webcam and video drivers. Newer kernels, kernel-ml and kernel-lt, are also available.
+[The ELRepo Project](http://elrepo.org) focuses on hardware related packages to enhance your experience with Enterprise Linux. This includes filesystem drivers, graphics drivers, network drivers, sound drivers, webcam and video drivers. Newer kernels, `kernel-ml` and `kernel-lt`, are also available.
 
 | Repository | How to Enable |
 | --- | --- |
