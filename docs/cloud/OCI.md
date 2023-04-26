@@ -18,13 +18,13 @@ The official AlmaLinux OS images are available on [Oracle Cloud Marketplace](htt
 <table align="center">
     <tr>
         <td align="center">AlmaLinux OS 8</td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=125544666&adf.tfId=adhtf">x86_64</a></td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=125567282&adf.tfId=adhtf">AArch64</a></td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125544666">x86_64</a></td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125567282">AArch64</a></td>
     </tr>
     <tr>
         <td align="center">AlmaLinux OS 9</td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=127985411&adf.tfId=adhtf">x86_64</a></td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=127985893&adf.tfId=adhtf">AArch64</a></td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/127985411">x86_64</a></td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/127985893">AArch64</a></td>
     </tr>
 </table>
 

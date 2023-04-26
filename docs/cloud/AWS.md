@@ -15,18 +15,18 @@ You can find more information about how these, and other cloud images are built 
 ## AWS Marketplace
 The AWS Marketplace is a curated digital catalog used to find, deploy and manage software offerings. All AWS Marketplace products undergo thorough review and vetting by the AWS team to ensure security and quality.
 
-The AlmaLinux OS Foundation's [official AlmaLinux OS images](https://aws.amazon.com/marketplace/seller-profile?id=529d1014-352c-4bed-8b63-6120e4bd3342&ref=dtl_B094C8ZZ8J) are available via the AWS Marketplace at the links provided:
+The AlmaLinux OS Foundation's [official AlmaLinux OS images](https://aws.amazon.com/marketplace/seller-profile?id=529d1014-352c-4bed-8b63-6120e4bd3342) are available via the AWS Marketplace at the links provided:
 
 <table align="center">
     <tr>
         <td align="center">AlmaLinux OS 8</td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-mku4y3g4sjrye?sr=0-1&ref_=beagle&applicationId=AWSMPContessa">x86_64</a></td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-zgsymdwitnxmm?sr=0-4&ref_=beagle&applicationId=AWSMPContessa">arm64</a></td>
+        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-mku4y3g4sjrye">x86_64</a></td>
+        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-zgsymdwitnxmm">arm64</a></td>
     </tr>
     <tr>
         <td align="center">AlmaLinux OS 9</td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-ykmb6re2rcouy?sr=0-2&ref_=beagle&applicationId=AWSMPContessa">x86_64</a></td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-pvttztrj2uzjk?sr=0-3&ref_=beagle&applicationId=AWSMPContessa">arm64</a></td>
+        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-ykmb6re2rcouy">x86_64</a></td>
+        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-pvttztrj2uzjk">arm64</a></td>
     </tr>
 </table>
 
