@@ -12,7 +12,21 @@ All apps and services on the marketplace are offered by approved, registered, an
 
 ## Where to get the image and guidance steps
 
-The official AlmaLinux OS 8 images is available for the [x86_64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125544666) and [AArch64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125567282) architecures on [Oracle Cloud Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/partners/125035508).
+The official AlmaLinux OS images are available on [Oracle Cloud Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/partners/125035508) at the links provided:
+
+
+<table align="center">
+    <tr>
+        <td align="center">AlmaLinux OS 8</td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=125544666&adf.tfId=adhtf">x86_64</a></td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=125567282&adf.tfId=adhtf">AArch64</a></td>
+    </tr>
+    <tr>
+        <td align="center">AlmaLinux OS 9</td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=127985411&adf.tfId=adhtf">x86_64</a></td>
+        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=127985893&adf.tfId=adhtf">AArch64</a></td>
+    </tr>
+</table>
 
 ### Oracle Cloud Infrastructure Console
 In the **Image and shape** section, choose the image and shape. For instance: in the Image section, click Change image. Then, select Partner images as an Image source from the list.
