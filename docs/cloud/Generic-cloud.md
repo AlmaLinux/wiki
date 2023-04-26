@@ -43,18 +43,18 @@ public key first.
 If you are using an AlmaLinux OS-powered system, you may skip the command
 below because you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux` file.
  Run the following command instead to import the key:
-```
+```shell
 gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
 ```
 :::
 
-```
+```shell
 $ curl -O -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux
 ```
 
 Print the key fingerprint:
 
-```
+```shell
 $ gpg --with-subkey-fingerprints RPM-GPG-KEY-AlmaLinux
 gpg: WARNING: no command supplied.  Trying to guess what you mean ...
 pub   rsa4096 2021-01-12 [C] [expires: 2024-01-12]
@@ -71,7 +71,7 @@ mirror.
 
 Next you need to import the key:
 
-```
+```shell
 $ gpg --import RPM-GPG-KEY-AlmaLinux
 gpg: key 488FCF7C3ABB34F8: public key "AlmaLinux <packager@almalinux.org>" imported
 gpg: Total number processed: 1
@@ -82,14 +82,14 @@ gpg:               imported: 1
 
 Download checksum file and its signature first:
 
-```
+```shell
 $ curl -O -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/CHECKSUM
 $ curl -O -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/CHECKSUM.asc
 ```
 
 Verify the checksum file signature:
 
-```
+```shell
 $ gpg --verify CHECKSUM.asc CHECKSUM
 gpg: Signature made Sat 12 Nov 00:13:38 CET
 gpg:                using RSA key E53CF5EF91CEB0AD1812ECB851D6647EC21AD6EA
@@ -105,13 +105,13 @@ message in the output.
 
 Download the latest image version:
 
-```
+```shell
 $ curl -O -s https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/AlmaLinux-8-GenericCloud-latest.x86_64.qcow2
 ```
 
 and verify its checksum:
 
-```
+```shell
 $ sha256sum -c CHECKSUM 2>&1 | grep OK
 AlmaLinux-8-GenericCloud-latest.x86_64.qcow2: OK
 ```
@@ -130,18 +130,18 @@ public key first.
 If you are using an AlmaLinux OS-powered system, you may skip the command
 below because you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9` file.
  Run the following command instead to import the key:
-```
+```shell
 gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
 ```
 :::
 
-```
+```shell
 $ curl -O -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-9
 ```
 
 Print the key fingerprint:
 
-```
+```shell
 $ gpg --with-subkey-fingerprints RPM-GPG-KEY-AlmaLinux-9
 pub   rsa4096 2022-01-18 [SC]
       BF18AC2876178908D6E71267D36CB86CB86B3716
@@ -157,7 +157,7 @@ mirror.
 
 Next you need to import the key:
 
-```
+```shell
 $ gpg --import RPM-GPG-KEY-AlmaLinux-9
 gpg: key D36CB86CB86B3716: public key "AlmaLinux <packager@almalinux.org>" imported
 gpg: Total number processed: 1
@@ -168,14 +168,14 @@ gpg:               imported: 1
 
 Download checksum file and its signature first:
 
-```
+```shell
 $ curl -O -s https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/CHECKSUM
 $ curl -O -s https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/CHECKSUM.asc
 ```
 
 Verify the checksum file signature:
 
-```
+```shell
 $ gpg --verify CHECKSUM.asc CHECKSUM
 gpg: Signature made Fri 18 Nov 2022 04:19:01 AM CET
 gpg:                using RSA key BF18AC2876178908D6E71267D36CB86CB86B3716
@@ -190,13 +190,13 @@ message in the output.
 
 Download the latest image version:
 
-```
+```shell
 $ curl -O -s https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/AlmaLinux-9-GenericCloud-latest.x86_64.qcow2
 ```
 
 and verify its checksum:
 
-```
+```shell
 $ sha256sum -c CHECKSUM 2>&1 | grep OK
 AlmaLinux-9-GenericCloud-latest.x86_64.qcow2: OK
 ```

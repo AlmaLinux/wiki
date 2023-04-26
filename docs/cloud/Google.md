@@ -9,4 +9,6 @@ AlmaLinux OS Images for Google Cloud are available via the [Google Cloud Marketp
 
 For `cloud` AlmaLinux OS images are available in the almalinux-cloud project. To list AlmaLinux images, use the following gcloud command:
 
-`gcloud compute images list --project almalinux-cloud --no-standard-images`
+```shell
+gcloud compute images list --project almalinux-cloud --no-standard-images
+```

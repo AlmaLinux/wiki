@@ -3,7 +3,7 @@ title: 'Azure'
 ---
 # AlmaLinux OS in Azure Cloud
 
-AlmaLinux offers images for Azure across all Azure regions via the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux). Images are deployable via the marketplace, portal and CLI and for both Gen1 and Gen2 machines. The images are completely free of charge regardless of the deployment channel. 
+AlmaLinux offers images for Azure across all Azure regions via the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux). Images are deployable via the marketplace, portal and CLI and for both Gen1 and Gen2 machines. The images are completely free of charge regardless of the deployment channel.
 
 The AlmaLinux team and community would like to thank Microsoft Azure for their sponsorship of AlmaLinux which helped make this, and other initiatives possible.
 
@@ -33,4 +33,12 @@ The Azure Marketplace makes new images available more slowly than the Community 
 When deploying a new Virtual Machine instance in the Azure portal, Select Image -> See All Images, and in the marketplace pop search for AlmaLinux.
 
 ## Azure CLI
-You can easily deploy images using the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest). You can list all available images by running ` az vm image list --all --publisher almalinux`. You can then deploy by running `az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux:8_4:8.4.20210729`. For a full range of options that are customizable from the CLI please check the [Azure CLI Reference Docs](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest).
+You can easily deploy images using the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest). You can list all available images by running:
+```shell
+az vm image list --all --publisher almalinux
+```
+You can then deploy by running:
+```shell
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux:8_4:8.4.20210729
+```
+For a full range of options that are customizable from the CLI please check the [Azure CLI Reference Docs](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest).
