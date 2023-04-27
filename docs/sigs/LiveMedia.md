@@ -3,7 +3,7 @@ title: "Live Media SIG"
 ---
 # Live Media SIG
 
-The Live Media Team is reponsible for AlmaLinux OS Live Media.
+The Live Media Team is responsible for AlmaLinux OS Live Media.
 
 The Live Media SIG uses the [SIG/LiveMedia](https://chat.almalinux.org/almalinux/channels/siglivemedia)
 chat channel for communication.
@@ -27,9 +27,9 @@ If you can help, please join us at [Live Media SIG on Mattermost](https://chat.a
 
 ## SIG members
 
-* [Bala Raman](mailto:srbala@gmail.com) - Works on Live Media build scripts and configuration files.
-  * Chat login: [srbala](https://chat.almalinux.org/almalinux/messages/@srbala)
-  * GitHub profile: [srbala](https://github.com/srbala)
+* [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Live Media build scripts and automation.
+  * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
+  * GitHub profile: [LKHN](https://github.com/LKHN)
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)

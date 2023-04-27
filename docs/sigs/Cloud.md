@@ -49,16 +49,13 @@ The pre-built AlmaLinux OS images are listed below:
   for security vulnerabilities.
 * Design and automate test scenarios.
 * Technical writers for working on documentation.
-* DevOps engineers for setting up and maintaing the related infrastructure.
+* DevOps engineers for setting up and maintaining the related infrastructure.
 
 If you can help, please join us at [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) 
 
 
 ## SIG members
 
-* [Bala Raman](mailto:srbala@gmail.com) - Works on container images and related tooling.
-  * Chat login: [srbala](https://chat.almalinux.org/almalinux/messages/@srbala)
-  * GitHub profile: [srbala](https://github.com/srbala)
 * [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Qemu/Libvirt support.
   * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
   * GitHub profile: [LKHN](https://github.com/LKHN)
