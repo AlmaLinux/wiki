@@ -49,7 +49,7 @@ module.exports = {
           '/documentation/openscap-guide',
           '/documentation/openscap-guide-for-9',
           '/documentation/oval-streams',
-          '/documentation/building-packages-guide',
+          '/documentation/package-building-guide',
           '/documentation/raspberry-pi',
           '/documentation/wsl',
           '/documentation/errata',
