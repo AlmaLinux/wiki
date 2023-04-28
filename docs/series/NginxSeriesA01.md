@@ -1,5 +1,5 @@
 # AlmaLinux Nginx Series ❙ Article 01
-#### Getting Started with Nginx: ++A Beginner's Guide++ 
+#### Getting Started with Nginx: <u>A Beginner's Guide</u>
 
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | -------- |
@@ -71,7 +71,7 @@ sudo firewall-cmd --reload
 
 - **Install Nginx**: Install Nginx using one of the three variants: default package repository, Appstream module, or Nginx repository.
 
-   ++Compatibility Matrix++
+   <u>Compatibility Matrix</u>
    | Install Variant | 8.7 | 9.1|
    |---------------- | ----|----|
    | I. AppStream non-module  |  ❗[^1] |  ✅ |
@@ -104,7 +104,7 @@ sudo firewall-cmd --list-services
  lynx http://localhost/ 
  ```
  
- :::info
+ ::: tip
  `lynx` is a text-based web browser for use on cursor-addressable character (cell) terminals. 
  :::
  
@@ -146,18 +146,18 @@ sudo firewall-cmd --list-services
 
    For version-specific examples, please refer to the corresponding sub-pages:
    
-   - Getting Started with Nginx ❯ **[AlmaLinux OS 8.x Installation Examples]     
-   - Getting Started with Nginx ❯ **[AlmaLinux OS 9.x Installation Examples](https://hackmd.io/@almalinux**/r1oe9mLf2)**
+   - Getting Started with Nginx ❯ **[AlmaLinux OS 8.x Installation Examples](NginxSeriesA01R8.html)**
+   - Getting Started with Nginx ❯ **[AlmaLinux OS 9.x Installation Examples](NginxSeriesA01R9.html)**
    
 
 
 ## 📚 Further reading and Next Steps
 After successfully setting up Nginx, you can configure it to better suit your requirements and enhance its security features. Check out these in-depth resources to learn more:
 
-- Getting Started with Nginx ❯ **[ Default Configuration Guide] 
-- Getting Started with Nginx ❯ **[How to Secure Your Nginx - Part 1]
-- Getting Started with Firewalld ❯ **[A Beginner's Guide (Cheat-sheet)]
-- AlmaLinux System Series ❙ Application Streams ❯ **[Getting Started with AppStream modules]
+- Getting Started with Nginx ❯ [ Default Configuration Guide](NginxSeriesA02.html)
+- Getting Started with Nginx ❯ [How to Secure Your Nginx - Part 1]
+- Getting Started with Firewalld ❯ [A Beginner's Guide (Cheat-sheet)]
+- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with AppStream modules]
 
 ----    
    

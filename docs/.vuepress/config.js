@@ -21,6 +21,7 @@ module.exports = {
 	title: 'Installation',
 	sidebarDepth: 2,
 	children: [
+		     '/documentation/installation-guide',
                      { 
 			title: 'Live Media',
 			path: '/LiveMedia',
@@ -58,11 +59,29 @@ module.exports = {
 		  
 	]
       },
-    {
+      {
+	 title: 'Migration',
+	 path: '/migration',
+	 children: [
+		   {
+			title: 'ELevate Project',
+			path: '/elevate/',
+			children: [
+			  '/elevate/ELevate-quickstart-guide',
+			  '/elevate/ELevate-testing-guide',
+			  '/elevate/Contribution-guide',
+			  '/elevate/ELevate-frequent-issues'
+			  ]
+		    },
+		    '/documentation/migration-guide',
+	    ]
+     },
+     {
 	 title: 'Technical',
 	 path: '/technical',
 	 children: [
 		      '/Comparison',
+		      '/documentation/errata',
 		 {
 			title: 'Release Notes',
 			path: '/release-notes/',
@@ -89,9 +108,8 @@ module.exports = {
 			  '/release-notes/8.3-rc',
 			  '/release-notes/8.3-beta'
 			]
-		      },
-
-		      {
+		   },
+		   {
 			title: 'Special interest groups',
 			path: '/sigs/',
 			children: [
@@ -103,59 +121,56 @@ module.exports = {
 			  '/sigs/Migration',
 			  '/sigs/ProcessForCreatingNewSIG',
 			]
-		      },
+	           },
 
-		 {
+		   {
 			title: 'Development',
 			path: '/development/',
 			children: [
+			  '/documentation/building-packages-guide',
 			  '/development/Packaging',
 			  '/development/Modified-packages',
 			  '/development/openQA'
 			]
-		      },
-		      {
-			title: 'ELevate Project',
-			path: '/elevate/',
-			children: [
-			  '/elevate/ELevate-quickstart-guide',
-			  '/elevate/ELevate-testing-guide',
-			  '/elevate/Contribution-guide',
-			  '/elevate/ELevate-frequent-issues'
-			]
-		      },
-	 ]
-      },
+		   },
+   	 ]
+        },
 
         {
         title: 'Documentation',
 	path: '/documentation',
         children: [ 
 		      '/FAQ',
-		      '/Howto',
 		      {
-		 	title: 'Guides',
+		 	title: 'General Guides',
 			path: '/documentation/guides',
 			children: [
 			  '/documentation/installation-guide',
-			  '/documentation/migration-guide',
-			  '/documentation/openscap-guide',
-			  '/documentation/openscap-guide-for-9',
-			  '/documentation/oval-streams',
-			  '/documentation/building-packages-guide',
 			  '/documentation/raspberry-pi',
 			  '/documentation/wsl',
-			  '/documentation/errata',
-			  '/documentation/sbom-guide'
 			]
 		      },
 		      {
+		 	title: 'Security Guides',
+			path: '/documentation/guides',
+			children: [
+			  '/documentation/openscap-guide',
+			  '/documentation/openscap-guide-for-9',
+			  '/documentation/oval-streams',
+			  '/documentation/sbom-guide'
+			]
+		      },
+{
 			  title: 'Howto Series',
 			  path: '/series/',
 			  children: [
-			    '/series/NginxSeriesA01'
+			    '/series/NginxSeriesA01',
+			    '/series/NginxSeriesA01R8',
+			    '/series/NginxSeriesA01R9',
+			    '/series/NginxSeriesA02'
 			 ]     	
 		      },
+		      '/Howto',
 		  ]
       },
 
