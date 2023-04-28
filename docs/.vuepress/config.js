@@ -107,6 +107,7 @@ module.exports = {
 
 		 {
 			title: 'Development',
+			path: '/development/',
 			children: [
 			  '/development/Packaging',
 			  '/development/Modified-packages',
