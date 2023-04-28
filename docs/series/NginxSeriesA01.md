@@ -146,7 +146,7 @@ sudo firewall-cmd --list-services
 
    For version-specific examples, please refer to the corresponding sub-pages:
    
-   - Getting Started with Nginx ❯ **[AlmaLinux OS 8.x Installation Examples](https://hackmd.io/@almalinux/ByRCf18Mh)**     
+   - Getting Started with Nginx ❯ **[AlmaLinux OS 8.x Installation Examples]     
    - Getting Started with Nginx ❯ **[AlmaLinux OS 9.x Installation Examples](https://hackmd.io/@almalinux**/r1oe9mLf2)**
    
 
@@ -154,10 +154,10 @@ sudo firewall-cmd --list-services
 ## 📚 Further reading and Next Steps
 After successfully setting up Nginx, you can configure it to better suit your requirements and enhance its security features. Check out these in-depth resources to learn more:
 
-- Getting Started with Nginx ❯ **[ Default Configuration Guide](https://hackmd.io/@almalinux/rydHoLbRo)** 
-- Getting Started with Nginx ❯ **[How to Secure Your Nginx - Part 1](https://hackmd.io/@almalinux/HJjNRUW0i)**
-- Getting Started with Firewalld ❯ **[A Beginner's Guide (Cheat-sheet)](https://hackmd.io/@almalinux/H1H_Xl8G2)**
-- AlmaLinux System Series ❙ Application Streams ❯ **[Getting Started with AppStream modules](https://hackmd.io/@almalinux/SyMhps8Mn)**
+- Getting Started with Nginx ❯ **[ Default Configuration Guide] 
+- Getting Started with Nginx ❯ **[How to Secure Your Nginx - Part 1]
+- Getting Started with Firewalld ❯ **[A Beginner's Guide (Cheat-sheet)]
+- AlmaLinux System Series ❙ Application Streams ❯ **[Getting Started with AppStream modules]
 
 ----    
    
