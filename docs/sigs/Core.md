@@ -5,7 +5,7 @@ title: "Core SIG"
 
 The Core team is responsible for the AlmaLinux OS distribution itself. This
 includes, but is not limited to building new distribution versions,
-delivering updates, core tooling development, and maintainance.
+delivering updates, core tooling development, and maintenance.
 
 The Core SIG uses the [SIG/Core](https://chat.almalinux.org/almalinux/channels/sigcore)
 chat channel for communication.
@@ -24,8 +24,6 @@ chat channel for communication.
 * Technical writers for working on announcements, security bulletins, wiki
   articles and so on.
 * RPM packagers/maintainers.
-* We need [ppc64le](https://en.wikipedia.org/wiki/Ppc64) hardware for adding
-  the new architecture support.
 * Bug reports processing: collecting information, reproducing, escalating to
   developers, communicating upstream, etc.
 * Design and automate test scenarios: Ansible, [Bats](https://github.com/bats-core/bats-core),
@@ -51,8 +49,9 @@ If you can help, please join us at [Core SIG on Mattermost](https://chat.almalin
 * [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
   * Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
   * GitHub profile: [jaboutboul](https://github.com/jaboutboul)
-* [Sergey Fokin](mailto:sfokin@almalinux.org) - The RPM packager and automation engineer.
-  * GitHub profile: [titan-dn](https://github.com/titan-dn)
+* [Eduard Abdullin](mailto:eabdullin@almalinux.org) - The RPM packager and automation engineer.
+  * Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
+  * GitHub profile: [eabdullin1](https://github.com/eabdullin1)
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)

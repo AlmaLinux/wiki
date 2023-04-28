@@ -6,6 +6,14 @@ title: "Migration SIG"
 
 The Migration team is responsible for migration from RHEL8 derivatives to AlmaLinux OS, including documentation and upgrades.
 
+What OSes can be converted:
+* CentOS 8
+* CentOS Stream 8, 9
+* Oracle Linux 8, 9
+* RHEL 8, 9
+* Rocky Linux 8, 9
+* Virtuozzo Linux (VZLinux) 8, 9
+
 Migration from CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS, EuroLinux, Rocky, Oracle is also in the Migration Team's duties.
 
 The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/channels/migration) chat channel for communication.
@@ -13,7 +21,7 @@ The Migration SIG uses the [SIG/Migration](https://chat.almalinux.org/almalinux/
 # Deliverables
 
 * AlmaLinux Leapp patches at: [AlmaLinux/leapp-repository](https://github.com/AlmaLinux/leapp-repository/tree/almalinux).
-  Consider this is not a separated forked project. There will be a pull request to the [original repository](https://github.com/oamg/leapp-repository) as soon as everything is ready.
+  Consider this is not a separated forked project.
 * Static data files for Leapp utility: [AlmaLinux/leapp-data](https://github.com/AlmaLinux/leapp-data)
 * Package Evolution Service: [pes.almalinux.org](https://pes.almalinux.org)
 

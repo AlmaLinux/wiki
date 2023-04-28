@@ -7,7 +7,7 @@ title: "AlmaLinux Migration Guide"
 This guide describes how to convert your operating system to AlmaLinux using the [AlmaLinux Migration tool](https://github.com/AlmaLinux/almalinux-deploy).
 
 What OSes can be converted:
-* CentOS 8, 9
+* CentOS 8
 * CentOS Stream 8, 9
 * Oracle Linux 8, 9
 * RHEL 8, 9
