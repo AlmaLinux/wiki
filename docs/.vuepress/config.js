@@ -21,7 +21,7 @@ module.exports = {
         title: 'Installation',
         sidebarDepth: 2,
         children: [
-		      '/documentation/installation-guide',
+         '/documentation/installation-guide',
           { 
             title: 'Live Media',
             path: '/LiveMedia',
@@ -39,25 +39,24 @@ module.exports = {
               '/cloud/OpenNebula',
               '/cloud/OCI'
             ]
-		      },
-		      {
+          },
+          {
             title: 'Containers',
             path: '/containers',
             children: [
               'containers/docker-images'
             ]
-		      },
-		      {
+          },
+          {
             title: 'Repositories',
             path: '/repos/',
             children:[
-               '/repos/AlmaLinux',
-               '/repos/CentOS',
-               '/repos/Extras',
+              '/repos/AlmaLinux',
+              '/repos/CentOS',
+              '/repos/Extras',
             ]
-		      },
-		  
-	      ]
+           },
+         ]
       },
       {
          title: 'Migration',
@@ -108,8 +107,8 @@ module.exports = {
               '/release-notes/8.3-rc',
               '/release-notes/8.3-beta'
             ]
-		      },
-		      {
+          },
+          {
               title: 'Special interest groups',
               path: '/sigs/',
               children: [
@@ -131,24 +130,24 @@ module.exports = {
                 '/development/Modified-packages',
                 '/development/openQA'
              ]
-		       },
-   	      ]
+         },
+        ]
       },
       {
-            title: 'Documentation',
-          	path: '/documentation',
+           title: 'Documentation',
+           path: '/documentation',
             children: [ 
-		          '/FAQ',
-		          {
-		 	          title: 'General Guides',
+            '/FAQ',
+            {
+              title: 'General Guides',
                 path: '/documentation/guides',
                 children: [
                   '/documentation/installation-guide',
                   '/documentation/raspberry-pi',
                   '/documentation/wsl',
                 ]
-		          },
-		          {
+            },
+            {
                 title: 'Security Guides',
                 path: '/documentation/guides',
                 children: [
@@ -166,10 +165,10 @@ module.exports = {
                   '/series/NginxSeriesA01R8',
                   '/series/NginxSeriesA01R9',
                   '/series/NginxSeriesA02'
-              ]     	
-		        },
-		        '/Howto',
-		        ]
+              ]
+          },
+          '/Howto',
+          ]
       },
       {
         title: 'The Foundation',
