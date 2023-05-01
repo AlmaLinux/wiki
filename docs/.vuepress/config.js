@@ -17,6 +17,54 @@ module.exports = {
     sidebar: [
       '/',
       '/Contribute', 
+             {
+                title: 'Development',
+                path: '/development/',
+                children: [
+                  '/documentation/building-packages-guide',
+                  '/development/Packaging',
+                ]
+             },
+       {
+           title: 'Documentation',
+           path: '/documentation',
+            children: [
+            '/FAQ',
+            {
+              title: 'General Guides',
+                path: '/documentation/guides',
+                children: [
+                  '/documentation/installation-guide',
+                  '/documentation/raspberry-pi',
+                  '/documentation/wsl',
+                ]
+            },
+            {
+                title: 'Howto Series',
+                path: '/series/',
+                children: [
+                  '/series/NginxSeriesA01',
+                  '/series/NginxSeriesA01R8',
+                  '/series/NginxSeriesA01R9',
+                  '/series/NginxSeriesA02'
+                ]
+            },
+            {
+                title: 'Security Guides',
+                path: '/documentation/guides',
+                children: [
+                  '/documentation/openscap-guide',
+                  '/documentation/openscap-guide-for-9',
+                  '/documentation/oval-streams',
+                  '/documentation/sbom-guide'
+                ]
+            },
+            {
+                title: 'Some External Howtos',
+                path: '/Howto',
+            }
+          ]
+      },
       {
         title: 'Installation',
         sidebarDepth: 2,
@@ -39,15 +87,15 @@ module.exports = {
               '/cloud/OpenNebula',
               '/cloud/OCI'
             ]
-          },
-          {
+        },
+        {
             title: 'Containers',
             path: '/containers',
             children: [
               'containers/docker-images'
             ]
-          },
-          {
+        },
+        {
             title: 'Repositories',
             path: '/repos/',
             children:[
@@ -62,6 +110,7 @@ module.exports = {
          title: 'Migration',
          path: '/migration',
          children: [
+           '/documentation/migration-guide',
            {
               title: 'ELevate Project',
               path: '/elevate/',
@@ -72,113 +121,67 @@ module.exports = {
                 '/elevate/ELevate-frequent-issues'
               ]
            },
-           '/documentation/migration-guide',
          ]
       },
       {
-         title: 'Technical',
-         path: '/technical',
-         children: [
-                '/Comparison',
-                '/documentation/errata',
-           {
-            title: 'Release Notes',
-            path: '/release-notes/',
-            children: [
-              '/release-notes/9.1',
-              '/release-notes/8.7',
-              '/release-notes/9.2-beta',
-              '/release-notes/8.8-beta',
-              '/release-notes/9.0',
-              '/release-notes/8.6',
-              '/release-notes/9.1-beta',
-              '/release-notes/8.7-beta',
-              '/release-notes/9.0-beta',
-              '/release-notes/8.6-beta',
-              '/release-notes/8.5-ppc',
-              '/release-notes/8.5',
-              '/release-notes/8.5-beta-ppc',
-              '/release-notes/8.5-beta',
-              '/release-notes/8.4-arm',
-              '/release-notes/8.4',
-              '/release-notes/8.4-beta-arm',
-              '/release-notes/8.4-beta',
-              '/release-notes/8.3',
-              '/release-notes/8.3-rc',
-              '/release-notes/8.3-beta'
-            ]
-          },
-          {
-              title: 'Special interest groups',
-              path: '/sigs/',
-              children: [
-                '/sigs/Core',
-                '/sigs/Infrastructure',
-                '/sigs/Cloud',
-                '/sigs/Build-System',
-                '/sigs/LiveMedia',
-                '/sigs/Migration',
-                '/sigs/ProcessForCreatingNewSIG',
-             ]
-           },
-           {
-              title: 'Development',
-              path: '/development/',
-              children: [
-                '/documentation/building-packages-guide',
-                '/development/Packaging',
-                '/development/Modified-packages',
-                '/development/openQA'
-             ]
-         },
-        ]
-      },
-      {
-           title: 'Documentation',
-           path: '/documentation',
-            children: [ 
-            '/FAQ',
-            {
-              title: 'General Guides',
-                path: '/documentation/guides',
+          title: 'Technical',
+          path: '/technical',
+          children: [
+            '/documentation/errata',
+             '/development/Modified-packages',
+             '/Comparison',
+             '/development/openQA',
+             {
+                title: 'Release Notes',
+                path: '/release-notes/',
                 children: [
-                  '/documentation/installation-guide',
-                  '/documentation/raspberry-pi',
-                  '/documentation/wsl',
+                  '/release-notes/9.1',
+                  '/release-notes/8.7',
+                  '/release-notes/9.2-beta',
+                  '/release-notes/8.8-beta',
+                  '/release-notes/9.0',
+                  '/release-notes/8.6',
+                  '/release-notes/9.1-beta',
+                  '/release-notes/8.7-beta',
+                  '/release-notes/9.0-beta',
+                  '/release-notes/8.6-beta',
+                  '/release-notes/8.5-ppc',
+                  '/release-notes/8.5',
+                  '/release-notes/8.5-beta-ppc',
+                  '/release-notes/8.5-beta',
+                  '/release-notes/8.4-arm',
+                  '/release-notes/8.4',
+                  '/release-notes/8.4-beta-arm',
+                  '/release-notes/8.4-beta',
+                  '/release-notes/8.3',
+                  '/release-notes/8.3-rc',
+                  '/release-notes/8.3-beta'
                 ]
-            },
-            {
-                title: 'Security Guides',
-                path: '/documentation/guides',
-                children: [
-                  '/documentation/openscap-guide',
-                  '/documentation/openscap-guide-for-9',
-                  '/documentation/oval-streams',
-                  '/documentation/sbom-guide'
-                ]
-            },
-            {
-                title: 'Howto Series',
-                path: '/series/',
-                children: [
-                  '/series/NginxSeriesA01',
-                  '/series/NginxSeriesA01R8',
-                  '/series/NginxSeriesA01R9',
-                  '/series/NginxSeriesA02'
-              ]
-          },
-          '/Howto',
-          ]
+             },
+         ]
       },
       {
         title: 'The Foundation',
         path: '/foundation',
         children: [
-          '/gsoc',
           '/Election2022',
+          '/gsoc',
           '/Transparency',
-        ]
-      },
+           {
+                title: 'Special interest groups',
+                path: '/sigs/',
+                children: [
+                  '/sigs/Core',
+                  '/sigs/Infrastructure',
+                  '/sigs/Cloud',
+                  '/sigs/Build-System',
+                  '/sigs/LiveMedia',
+                  '/sigs/Migration',
+                  '/sigs/ProcessForCreatingNewSIG',
+                ]
+            },
+         ]
+       },
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',
