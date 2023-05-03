@@ -15,7 +15,7 @@ title: "EL8 Distro Comparison"
 |FIPS compliance                             | Planned                  | Yes                                            | Planned                                     | Not available     | Not available     |
 |ARM support                                 | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
 |IBM PowerPC support                         | Yes                      | No                                             | No                                          | Yes               | Yes               |
-|IBM Z support                               | Yes                      | No                                             | No                                          | No                | No                |
+|IBM Z (s390x) support                               | Yes                      | No                                             | No                                          | No                | No                |
 |SecureBoot                                  | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
 |Owned By:                                   | AlmaLinux OS Foundation  | Oracle Inc                                     | Rocky Enterprise Software Foundation        | Red Hat Inc       | Red Hat Inc       |
 |Owned by org type:                          | Non-Profit 501(c)6       | For Profit C-Corp                              | For Profit, Public Benefit Corp             | For Profit C-Corp | For Profit C-Corp |
