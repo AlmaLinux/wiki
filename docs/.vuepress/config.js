@@ -109,7 +109,7 @@ module.exports = {
           },
           '/Mirrors',
           {
-            title: 'Cloud',
+            title: 'Cloud Images',
             path : '/cloud',
             children: [
               '/cloud/AWS',
