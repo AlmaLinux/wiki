@@ -85,21 +85,7 @@ b. Providing technical or organizational support in areas where the new SIG may 
 c. Facilitating joint projects or activities that can benefit both SIGs and foster collaboration within the community.
 
 
-### A.2. Evaluation and Continuous Improvement
-
-To ensure that SIGs continue to provide value and effectively contribute to the AlmaLinux ecosystem, introduce a periodic evaluation process. This process may involve:
-
-a. Reviewing the progress and achievements of each SIG against their stated objectives and timelines.
-
-b. Gathering feedback from SIG members and the broader AlmaLinux community on the performance and impact of the SIG.
-
-c. Identifying areas for improvement and implementing changes to enhance the SIG's effectiveness and alignment with the community's goals.
-
-
-### 
-
-
-### A.3. SIG Decommissioning
+### A.2. SIG Decommissioning
 
 In the event a SIG becomes inactive, no longer serves its intended purpose, or does not align with the community's objectives, outline a process for decommissioning the SIG. This may include:
 
