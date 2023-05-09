@@ -172,9 +172,8 @@ module.exports = {
                   '/sigs/Core',
                   '/sigs/Infrastructure',
                   '/sigs/LiveMedia',
-                  '/sigs/Migration',
                   '/sigs/Marketing',
-                  '/sigs/ProcessForCreatingNewSIG',
+                  '/sigs/Migration',
                 ]
             },
          ]
