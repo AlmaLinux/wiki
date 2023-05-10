@@ -100,7 +100,6 @@ module.exports = {
       },
       {
         title: 'Installation',
-        sidebarDepth: 2,
         children: [
          '/documentation/installation-guide',
           { 
