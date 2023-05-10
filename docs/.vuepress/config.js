@@ -51,12 +51,6 @@ module.exports = {
                 title: 'Howto Series',
                 path: '/series/',
                 children: [
-                  '/series/NginxSeriesA01',
-                  '/series/NginxSeriesA01R8',
-                  '/series/NginxSeriesA01R9',
-                  '/series/NginxSeriesA02',
-                  '/series/NginxSeriesA03P1',
-                  '/series/SystemSeriesA01',
                 ]
             },
             {
