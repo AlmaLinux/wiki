@@ -1,7 +1,7 @@
 ---
-title: 'Howto Guides'
+title: 'External Howtos'
 ---
-# AlmaLinux Howto Guides
+# AlmaLinux Howto Guides (external)
 
 ## Installation Guides
 - [ionCube Loader](https://cloud7.news/how-tos/how-to-install-ioncube-loader-in-almalinux/) 
