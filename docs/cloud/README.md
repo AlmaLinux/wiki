@@ -1,1 +1,1 @@
-# Cloud Page
+# Cloud Images Page
