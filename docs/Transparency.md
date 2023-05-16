@@ -50,7 +50,9 @@ Some assets were either transfered from CloudLinux, or have yet to be transferre
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- Apr 12, 2023 [Board meeting #21 agenda](https://docs.google.com/document/d/1zWtSB6so9Q6H-z34AX70wgEa0r5UYIVl0GPJyLPfwd8/edit?usp=sharing)
+- June 14, 2023 [Board meeting #22 agenda](https://docs.google.com/document/d/1E1CTruoI-mGlSQ4Udb-ME4NKvtmSnK2sB1nC94a-APM/edit?usp=sharing)
+- May 10, 2023 [Board meeting #21 minutes](https://drive.google.com/file/d/17ZykiqjnYcr6OTs-pCuBP2oUc4wKQYye/view?usp=sharing)
+- Apr 12, 2023 (cancelled due to lack of quroum - some matters voted on via email, confirmed in the May meeting)
 - Mar 8, 2023 [Board meeting #20 minutes](https://drive.google.com/file/d/1nOwQd2WoXaywu64ZS60qwvyd0lPda1eB/view?usp=share_link)
 - Feb 14, 2023 [Board meeting #19 minutes](https://drive.google.com/file/d/1U7o8E1Y4ozS9smrD4vczLKkGSH76RK1E/view?usp=share_link)
 - Jan 10, 2023 [Board meeting #18 minutes](https://drive.google.com/file/d/1F4pJrldgJ8ysY64Y_9yDxd2BuNp-MKfs/view?usp=share_link)
