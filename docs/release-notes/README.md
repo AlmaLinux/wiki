@@ -22,6 +22,7 @@ Version 8 will have active support until 01 May 2024, and security support until
 
 | Release | Codename | General Availability Date | Kernel |
 |---|---|---|---|
+| [8.8](/release-notes/8.8) | Sapphire Caracal | 17 May 2023 | 4.18.0-477.10.1 |
 | [8.7](/release-notes/8.7) | Stone Smilodon | 10 November 2022 | 4.18.0-425.3.1 |
 | [8.6](/release-notes/8.6) | Sky Tiger | 12 May 2022|4.18.0-372.9.1 |
 | [8.5](/release-notes/8.5) | Arctic Sphynx | 12 November 2021|4.18.0-348 |
