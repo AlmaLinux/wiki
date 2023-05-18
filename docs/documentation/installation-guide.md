@@ -138,7 +138,7 @@ Insert your target USB and locate it. There are different ways to do it, but her
 
 * `lsblk` - this command gives you all the available block storage devices, including the USB block storage devices.
 
-* `sudo blkid` - this command gives you the same information as `lsblk`, but you have to rub it as root. 
+* `sudo blkid` - this command gives you the same information as `lsblk`, but you have to run it as root. 
 
 You need to look for /dev/sda or /dev/sdb or /dev/sdc, which is your target USB.
 
