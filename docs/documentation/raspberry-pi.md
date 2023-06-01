@@ -97,7 +97,7 @@ Add the following two lines at the bottom of `user-data` instead (example is dif
 
 ```diff
 +runcmd:
-+  - nmcli dev connect wifi "Wi-Fi_SSID" password "Wi-Fi_PreSharedKey"
++  - nmcli dev wifi connect "Wi-Fi_SSID" password "Wi-Fi_PreSharedKey"
 ```
 
 ## How to contribute
