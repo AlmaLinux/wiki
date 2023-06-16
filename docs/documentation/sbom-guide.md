@@ -16,7 +16,7 @@ title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 
 *SBOM (Software Bill of Materials)* is a list of all open-source and third-party components used in a codebase, along with their licensing information, version numbers, and any known vulnerabilities. 
 
-[AlmaLinux Build System](https://https://github.com/AlmaLinux/build-system) has implemented *SBOM* into its pipeline for security purposes, such as tracing the build process, ensuring that only trusted sources are used, and reducing the risk of data corruption. 
+[AlmaLinux Build System](https://github.com/AlmaLinux/build-system) has implemented *SBOM* into its pipeline for security purposes, such as tracing the build process, ensuring that only trusted sources are used, and reducing the risk of data corruption.
 
 ### About *CAS*
 
