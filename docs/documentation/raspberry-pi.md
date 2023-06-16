@@ -8,7 +8,6 @@ title: "Raspberry Pi"
 
 [The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux. The AlmaLinux OS releases have been tested on both the RPi3 and RPi4.
 
-
 ## Installation steps
 
 ### Download image
@@ -43,7 +42,7 @@ At the time of our testing, these commands were used to fetch the images:
 
 **In order to verify a downloaded image you need to:**
 
-* Import the AlmaLinux OS PGP public key first: 
+* Import the AlmaLinux OS PGP public key first:
    ```shell
    $ curl -O -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux
    ```
@@ -98,7 +97,7 @@ At the time of our testing, these commands were used to fetch the images:
   AlmaLinux-8-RaspberryPi-latest.aarch64.raw.xz: OK
   ```
   :::warning  
-  If the output is different, you should download the image again. 
+  If the output is different, you should download the image again.
   :::
 
 ### Verify AlmaLinux 9 images
@@ -153,7 +152,7 @@ At the time of our testing, these commands were used to fetch the images:
   gpg:          There is no indication that the signature belongs to the owner.
   Primary key fingerprint: BF18 AC28 7617 8908 D6E7  1267 D36C B86C B86B 3716
   ```
-  :::tip 
+  :::tip
   Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"` message in the output.
   :::
 
@@ -163,7 +162,7 @@ At the time of our testing, these commands were used to fetch the images:
   AlmaLinux-9-RaspberryPi-latest.aarch64.raw.xz: OK
   ```
   :::warning
-  If the output is different, you should download the image again. 
+  If the output is different, you should download the image again.
   :::
 ### Burn Raspberry Pi image
 
@@ -171,14 +170,14 @@ The next step is to burn the image to an SD card using
 - [RPi Image](https://www.raspberrypi.com/documentation/computers/getting-started.html#using-raspberry-pi-imager)
 - [Fedora Media Writer](https://github.com/FedoraQt/MediaWriter/releases/)
 - [balenaEtcher](https://www.balena.io/etcher/)
-- `dd` 
-...  or a tool of your choice. 
+- `dd`
+...  or a tool of your choice.
 
 When it's done insert the SD Card into your Raspberry Pi and boot.
 
-### Getting started 
+### Getting started
 
-When you boot your Rasberry Pi use you can login with the `root` user and `almalinux` password. Proceed with resizing your root filesystem by running `rootfs-expand`. 
+When you boot your Rasberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default. Proceed with resizing your root filesystem by running `sudo rootfs-expand`.
 
 ### Connecting to Wi-Fi
 * Check whether wifi is enabled:
@@ -187,7 +186,7 @@ When you boot your Rasberry Pi use you can login with the `root` user and `almal
   ```
 You should see the command responding with *enabled*.
 
-* Next, check the list of local Wi-Fi networks next to you to find one you want to connect: 
+* Next, check the list of local Wi-Fi networks next to you to find one you want to connect:
   ```shell
   $ nmcli dev wifi list
   ```
@@ -196,7 +195,7 @@ You should see the command responding with *enabled*.
   $ nmcli --ask dev wifi connect <network-ssid>
   ```
   :::tip
-  The --ask option will ask you to enter the password. 
+  The --ask option will ask you to enter the password.
   :::
 * Your wlan0 interface should now be active and pull an IP via DHCP. You can verify this via `nmcli con show` to check the physical layer connection and then `ip a` to see if you've gotten an IP.
 
@@ -232,21 +231,107 @@ If you got an AlmaLinux Raspberry Pi GNOME image, please, ignore this section, a
 
 The Raspberry Pi demo video can be found in the [GitHub repository](https://github.com/AlmaLinux/raspberry-pi#bonus-round-2-getting-gnome-working).
 
+## Configuration using cloud-init
+
+AlmaLinux Raspberry Pi image now supports [cloud-init](https://cloudinit.readthedocs.io/en/latest/) to perform early initialization.
+This page describes some typical examples to setup AlmaLinux Raspberry Pi image. See [the cloud-init official documentation](https://cloudinit.readthedocs.io/en/latest/index.html) for further information.
+
+To configure early initialization, modify `user-data` file in FAT boot volume named `CIDATA` (the same location where `config.txt` exists). Please note that cloud-init usually only works at very first boot so modification on `user-data` file must be done before inserting SD card and power on your Raspberry Pi.
+
+
+### Add SSH public key to default user
+
+The default user is `almalinux`. Add your SSH public key to enable to login to your Raspberry Pi.
+
+```diff
+     ssh_authorized_keys:
+       # Put here your ssh public keys
+       #- ssh-ed25519 AAAAC3Nz...
++      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQ...
+```
+
+
+### Change default user's password
+
+Specify hashed password like this. Use `mkpasswd -m sha-512` command to generate a hashed password.
+
+```diff
+   - name: almalinux
+     groups: [ adm, systemd-journal ]
+     sudo: [ "ALL=(ALL) NOPASSWD:ALL" ]
+     lock_passwd: false
++    passwd: "$6$hjdBm161zuYLfb9.$jkJkq5pQDkFvWPeJhnon9xHIX93SgLTNLsyQcddWJLcQGcM8qHkxDztbwt1DzTP6dmlQ3J.AA6h4JeGaVg.pS1"
+     ssh_authorized_keys:
+       # Put here your ssh public keys
+       #- ssh-ed25519 AAAAC3Nz...
+```
+###  Enable SSH password authentication
+
+Change `ssh_pwauth` to `true` to allow SSH password authentication. This does not enable password login for `root` user.
+
+```diff
+-ssh_pwauth: false
++ssh_pwauth: true
+```
+
+### Network configuration: wired network with a static IPv4 address
+
+Put `network-config` file in the same location as `user-data`. The following example assigns a static IPv4 address to `eth0` interface.
+
+```yaml
+version: 2
+
+ethernets:
+  eth0:
+    dhcp4: false
+    optional: true
+    addresses:
+      - 192.168.1.99/24
+    gateway4: 192.168.1.1
+    nameservers:
+      addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+```
+
+### Network configuration: Wi-Fi with a dynamic IP address
+
+Generally, the following `network-config` configuration enables to connect to Wi-Fi however this is not supported in AlmaLinux.
+
+```yaml
+version: 2
+
+wifis:
+  wlan0:
+    dhcp4: true
+    optional: true
+    access-points:
+      "Wi-Fi_SSID":
+        password: "Wi-Fi_PreSharedKey"
+```
+
+Add the following two lines at the bottom of `user-data` instead (example is diff style).
+
+```diff
++runcmd:
++  - nmcli dev wifi connect "Wi-Fi_SSID" password "Wi-Fi_PreSharedKey"
+```
+
 ### Frequent Issues
 
-If you installed a GUI, and your screen has a black border around it, follow the steps below to fix this: 
+If you installed a GUI, and your screen has a black border around it, follow the steps below to fix this:
 
 * Run the command below in the terminal:
-  ```
+  ```shell
   sudo nano /boot/config.txt
   ```
-* Add a new line to the file: 
-  ```
+* Add a new line to the file:
+  ```shell
   disable_overscan=1
   ```
 * Type Ctrl+x on your keyboard to exit nano, and a little message at the bottom or the terminal will say, “save modified buffer?’. Type y for ‘yes’.
 * Reboot your system:
-  ```
+  ```shell
   sudo reboot
   ```
 
@@ -270,7 +355,7 @@ If you installed a GUI, and your screen has a black border around it, follow the
 [    0.000000] On node 0, zone DMA: 16384 pages in unavailable ranges
 [    0.000000] percpu: Embedded 29 pages/cpu s78440 r8192 d32152 u118784
 [    0.000000] pcpu-alloc: s78440 r8192 d32152 u118784 alloc=29*4096
-[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3
 [    0.000000] Detected VIPT I-cache on CPU0
 [    0.000000] CPU features: detected: ARM erratum 843419
 [    0.000000] CPU features: detected: ARM erratum 845719
@@ -433,7 +518,7 @@ If you installed a GUI, and your screen has a black border around it, follow the
 [    2.411731] Multiprocessor Interrupt Enhancement - disabled
 [    2.411816] OTG VER PARAM: 0, OTG VER FLAG: 0
 [    2.412104] Shared Tx FIFO mode
-[    2.414884] 
+[    2.414884]
 [    2.414935] WARN::dwc_otg_hcd_init:1072: FIQ DMA bounce buffers: virt = ffffffc009861000 dma = 0x00000000f8090000 len=9024
 [    2.415160] FIQ FSM acceleration enabled for :
 [    2.415160] Non-periodic Split Transactions
@@ -441,7 +526,7 @@ If you installed a GUI, and your screen has a black border around it, follow the
 [    2.415160] High-Speed Isochronous Endpoints
 [    2.415160] Interrupt/Control Split Transaction hack enabled
 [    2.415302] dwc_otg: Microframe scheduler enabled
-[    2.415572] 
+[    2.415572]
 [    2.415596] WARN::hcd_init_fiq:496: MPHI regs_base at ffffffc0096e5000
 [    2.416411] dwc_otg 3f980000.usb: DWC OTG Controller
 [    2.417055] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
@@ -507,7 +592,7 @@ If you installed a GUI, and your screen has a black border around it, follow the
 [    2.836719] mmc0: new high speed SDHC card at address 4567
 [    2.837390] uart-pl011 3f201000.serial: no DMA platform data
 [    2.842736] Waiting 1 sec before mounting root device...
-[    2.848391] mmcblk0: mmc0:4567 QEMU! 8.00 GiB 
+[    2.848391] mmcblk0: mmc0:4567 QEMU! 8.00 GiB
 [    2.881023]  mmcblk0: p1 p2
 [    2.885646] mmcblk0: mmc0:4567 QEMU! 8.00 GiB
 [    3.002060] usb 1-1: New USB device found, idVendor=0409, idProduct=55aa, bcdDevice= 1.01
@@ -995,11 +1080,10 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDtC0X1uAbqUFgbFAl3c9Zc56WaUVUdj7+S6rzdz8V2
 
 ```
 :::  
-  
+
 ## How to contribute
 
 You can send all the bugs you may see on [bugs.almalinux.org](https://bugs.almalinux.org ).
 You might also want to check the AlmaLinux OS [Raspberry Pi repository](https://github.com/AlmaLinux/raspberry-pi) on GitHub.
 
 Join the [Community Chat](https://chat.almalinux.org/) if you want to help and contribute or get any assistance.
-
