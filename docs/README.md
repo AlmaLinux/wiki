@@ -33,7 +33,7 @@
 <li>Container Images:
     <ul>
     <li><a href="https://hub.docker.com/_/almalinux">hub.docker.com/_/almalinux</a> - AlmaLinux official images on Docker Hub</li>
-    <li><a href="https://quay.io/repository/almalinux/almalinux">quay.io/repository/almalinux/almalinux</a> - AlmaLinux official images on Quay.io</li>
+    <li><a href="https://quay.io/almalinuxorg">quay.io/almalinuxorg</a> - AlmaLinux official images on Quay</li>
     </ul>
 </li>
 <li>Vagrant Boxes:
@@ -54,4 +54,3 @@
 
 This Wiki content is licensed under a [Creative Commons Attribution-ShareAlike
 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
