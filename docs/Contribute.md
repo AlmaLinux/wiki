@@ -3,6 +3,13 @@ title: 'Contribute'
 ---
 # Contributing to the AlmaLinux project
 
+## Help with reporting bugs and making fixes
+
+Since AlmaLinux is a 1:1 binary compatible with RHEL, it should have the same bugs as the current release of RHEL. AlmaLinux, as a downstream of RHEL, recommends following an "upstream first" approach in order to help not just the AlmaLinux but the whole EL community:
+* Try to reproduce the steps and check whether the bug is present in CentOS Stream or has been already fixed.
+* If present, it means that the bug is upstream. Please, submit the bug to [CentOS Stream bugzilla](https://wiki.centos.org/ReportBugs) providing all the necessary information about an issue and reproducing steps. This is the contribution path to get the bug fix into RHEL, which will, in turn, be rebuilt into AlmaLinux.
+* If you are able to help investigate and fix the bug, please collaborate with CentOS Stream, as this is the best an AlmaLinux Community Member can do. Check the [CentOS Contributor's Guide](https://docs.centos.org/en-US/stream-contrib/) for more details.
+* If the bug is AlmaLinux-specific, please open a bug on [AlmaLinux Bug Tracker](https://bugs.almalinux.org/) providing all the necessary information about an issue and reproducing steps. 
 
 ## Volunteer Technical Community Coordinator for ELevate Project
 
@@ -24,14 +31,6 @@ We are looking for a volunteer Technical Community Coordinator to figure out wha
 - High communication skills
 
 If you are willing to help, email us at [volunteer@almalinux.org](mailto:volunteer@almalinux.org).
-
-## Help with reporting bugs and making fixes
-
-To make AlmaLinux successful, we need the close involvement of the community
-members. We use our bug tracking system to find, track, and fix bugs. We
-encourage AlmaLinux users to help us by filling in bug-reports. You can track and
-discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
-
 
 ## Improve the documentation
 
