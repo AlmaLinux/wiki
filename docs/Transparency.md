@@ -82,6 +82,5 @@ In September of 2021, the Board of Directors [opened up membership applications]
 The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
 
 As of Oct 11, 2021 the Membership Committee consists of:
-- benny Vasquez, Open Source Security Program Manager @ Microsoft and [Current Chair of the Board of Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
 - Daniel Pearson, COO of KnownHost, and Current Chair of the Membership Committee
-- Stephen Smoogen, Red Hat Software, EPEL Chair Emeritus
+- benny Vasquez, [Current Chair of the Board of Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)
