@@ -64,7 +64,7 @@ You can read more details and find guide steps on the [Migration](/documentation
 
 ### How do I migrate an entire fleet of servers from CentOS to AlmaLinux?
 
-As stated, AlmaLinux is ABI compatible with RHEL, which means that your applications and services should be completely interoperable. For that reason, you can rapidly migrate any number of servers using the [migration tool](https://github.com/AlmaLinux/almalinux-deploy).
+Yes.  AlmaLinux is ABI compatible with RHEL, which means that your applications and services should be completely interoperable. For that reason, you can rapidly migrate any number of servers using the [migration tool](https://github.com/AlmaLinux/almalinux-deploy).
 
 ### How do I migrate from CentOS 7 to AlmaLinux 8?
 
