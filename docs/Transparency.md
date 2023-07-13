@@ -13,7 +13,6 @@ As of September 20, 2022, the foundation has a seven board directors.
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
 - [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
-- [Cody Robertson](https://www.linkedin.com/in/cody-robertson-3b334575/) - Cody is a current Director at AlmaLinux and is the CTO at Hawk Host, Inc, a current AlmaLinux Silver Sponsor.
 
 ## First board elections
 
@@ -50,24 +49,25 @@ Some assets were either transfered from CloudLinux, or have yet to be transferre
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- July 12, 232 [Board meeting #23 agenda](https://docs.google.com/document/d/1qopFQH44WVykDpTTUwZAtb28DegGAKDXB5N2gT-WG6U/edit)
-- June 22, 2023 [Board meeting #22 minutes](https://drive.google.com/file/d/1FZhhMaLgrTd7fN50pGyZPdKEb9UJ6HF-/view)
+- Aug 09, 2023 [Board meeting #24 agenda](https://docs.google.com/document/d/1woi5FGsuCnBFeIbMWrr2148NnyYoPV_B8D5cRDOUDKo/)
+- Jul 12, 2032 [Board meeting #23 minutes](https://drive.google.com/file/d/13q6udmzAEqHIoPf2cQJ-QJrYosaFWd_m/view)
+- Jun 22, 2023 [Board meeting #22 minutes](https://drive.google.com/file/d/1FZhhMaLgrTd7fN50pGyZPdKEb9UJ6HF-/view)
 - May 10, 2023 [Board meeting #21 minutes](https://drive.google.com/file/d/17ZykiqjnYcr6OTs-pCuBP2oUc4wKQYye/view)
-- Apr 12, 2023 (cancelled due to lack of quroum - some matters voted on via email, confirmed in the May meeting)
-- Mar 8, 2023 [Board meeting #20 minutes](https://drive.google.com/file/d/1nOwQd2WoXaywu64ZS60qwvyd0lPda1eB/view)
+- Apr 12, 2023 (cancelled due to lack of quorum - some matters voted on via email, confirmed in the May meeting)
+- Mar 08, 2023 [Board meeting #20 minutes](https://drive.google.com/file/d/1nOwQd2WoXaywu64ZS60qwvyd0lPda1eB/view)
 - Feb 14, 2023 [Board meeting #19 minutes](https://drive.google.com/file/d/1U7o8E1Y4ozS9smrD4vczLKkGSH76RK1E/view)
 - Jan 10, 2023 [Board meeting #18 minutes](https://drive.google.com/file/d/1F4pJrldgJ8ysY64Y_9yDxd2BuNp-MKfs/view)
 - Dec 13, 2022 [Board meeting #17 minutes](https://drive.google.com/file/d/18qyOYEgX-0kVrCGXzaVhdUqUKTwPzrud/view)
 - Oct 11, 2022 [Board meeting #16 minutes](https://drive.google.com/file/d/1uTh_VK4qIHFSVA1gJjJRhC4JXB1paGgC/view)
-- Sept 13, 2022 [Board meeting #15 minutes](https://drive.google.com/file/d/1KkqLjPie2EqMpL-wcfnAF0NG730vy-ci/view)
+- Sep 13, 2022 [Board meeting #15 minutes](https://drive.google.com/file/d/1KkqLjPie2EqMpL-wcfnAF0NG730vy-ci/view)
 - Aug 11, 2022 [Board meeting #14 minutes](https://drive.google.com/file/d/1jCi_qP-1WISzze2_cvyK7SSEdGvhoYDo/view)
 - Jul 12, 2022 [Board meeting #13 minutes](https://drive.google.com/file/d/1rptJ_BJrxuh5HThLs088satKg7Y6TtUM/view)
 - Jun 14, 2022 [Board meeting #12 minutes](https://drive.google.com/file/d/1ObYS_7CYsidrRnBUI6rTfR5eOBJQxI6F/view)
 - Apr 19, 2022 [Board meeting #11 minutes](https://drive.google.com/file/d/1hm-pB_E5S9ZxG8zHv6yDOpYTr7IgRt5n/view)
-- Mar 8, 2022 [Board meeting #10 minutes](https://drive.google.com/file/d/1hSis_UUekbtPOh038tEiNpyqIe72vrOl/view)
+- Mar 08, 2022 [Board meeting #10 minutes](https://drive.google.com/file/d/1hSis_UUekbtPOh038tEiNpyqIe72vrOl/view)
 - Feb 15, 2022 [Board meeting #9 minutes](https://drive.google.com/file/d/1UQZ2hPXEZgn2Ha8sGMGUr7-PRao7R4fb/view)
-- Dec 6, 2021 [Board meeting #8 minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view)
-- Nov 8, 2021 [Board meeting #7 minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view)
+- Dec 06, 2021 [Board meeting #8 minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view)
+- Nov 08, 2021 [Board meeting #7 minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view)
 - Oct 11, 2021 [Board meeting #6 minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view)
 - Sep 13, 2021 [Board meeting #5 minutes](https://drive.google.com/file/d/1x5k1wUv9UtkNvXu-JBbVb9JFNPyo67vm/view)
 - Aug 16, 2021 [Board meeting #4 minutes](https://drive.google.com/file/d/1TAXkQg2kh8Hj-yyF0Hyx1CIJsOg3QCtp/view)
