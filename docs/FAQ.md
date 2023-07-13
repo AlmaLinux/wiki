@@ -17,7 +17,7 @@ Sure! AlmaLinux OS, much like RHEL and CentOS Stream is a general purpose operat
 
 Unless RHEL dramatically shifts development direction (again), our response will continue to be yes. 
 
-In July 2023 we changed directions from a 1:1 binary clone of RHEL to an ABI compatible version of RHEL. You can read more about that on our [blog](https://almalinux.org/blog/impact-of-rhel-changes/).
+In July 2023 we changed directions from a 1:1 binary downstream rebuild of RHEL to a goal of ABI compatibility. You can read more about that on our [blog](https://almalinux.org/blog/impact-of-rhel-changes/).
 
 ### Where did the name "AlmaLinux" come from?
 
