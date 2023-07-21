@@ -77,7 +77,7 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 
 ## Membership Committee
 
-In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
+In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
 
 The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
 
