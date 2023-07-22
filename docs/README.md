@@ -19,7 +19,8 @@
 <li><a href="https://build.almalinux.org/">build.almalinux.org</a> - Build System</li>
 <li><a href="https://lists.almalinux.org">lists.almalinux.org</a> - Mailing Lists</li>
 <li><a href="https://chat.almalinux.org">chat.almalinux.org</a> - Mattermost Community Chat</li>
-<li><a href="https://web.libera.chat/#almalinux">Libera Chat IRC</a> - IRC Real Time Chat</li>
+<li><a href="https://web.libera.chat/#almalinux">Libera Chat IRC</a> - IRC Real Time Chat <i>(Bridged to chat.almalinux.org)</i></li>
+<li><a href="https://almalinux.org/discord">Discord</a> - Discord <i>(Bridged to chat.almalinux.org)</i></li>
 <li><a href="https://www.reddit.com/r/AlmaLinux/">reddit.com/r/AlmaLinux</a> - Reddit Community</li>
 <li><a href="https://repo.almalinux.org/">repo.almalinux.org</a> - Public Package Repository</li>
 <li><a href="https://status.almalinux.org/">status.almalinux.org</a> - Public Status Page</li>
