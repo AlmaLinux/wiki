@@ -86,6 +86,7 @@ module.exports = {
                               '/series/system/SystemSeriesA03R9',
                               '/series/system/SystemSeriesA04',
                               '/series/system/SystemSeriesA05',
+                              '/documentation/epel-and-rpmfusion'
                       ]
                   }
               ]
