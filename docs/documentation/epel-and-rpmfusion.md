@@ -42,4 +42,4 @@ Enter the command below.
 ```bash
 $ sudo dnf --setopt=localpkg_gpgcheck=1 install  https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-$(rpm -E %rhel).noarch.rpm
 ```
-If the installation fails, this may mean that the keys do not match. If this occurs, retry step 2.3 to see if you have the correct GPG keys. 
+If the installation fails, this may mean that the GPG keys imported earlier do not match the signiture of the RPM Fusion repositories. If this occurs, retry step 2.3 to see if you have the correct GPG keys. 
