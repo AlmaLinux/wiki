@@ -4,6 +4,7 @@ title: 'Howto Guides'
 # AlmaLinux Howto Guides
 
 ## Installation Guides
+- [EPEL and RPM Fusion](/docs/documentation/epel-and-rpmfusion.md)
 - [ionCube Loader](https://cloud7.news/how-tos/how-to-install-ioncube-loader-in-almalinux/) 
 - [Varnish](https://cloud7.news/how-tos/how-to-install-varnish-on-almalinux/) 
 - [Nginx](https://orcacore.com/install-nginx-web-server-almalinux-9/)

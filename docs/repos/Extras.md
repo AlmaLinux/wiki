@@ -10,7 +10,11 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 
 | Repository | How to Enable |
 | --- | --- |
-| EPEL | # dnf install epel-release |
+| EPEL | See the [EPEL Quickstart Guide](https://docs.fedoraproject.org/en-US/epel/#_quickstart) |
+
+:::tip
+During the installation process, you might get a prompt to install a GPG key. Compare the key to the "Primary key fingerprint" (see ["Verify the downloaded ISO image checksum:"](../documentation/installation-guide.md#iso-verification)) and if the fingerprints match, type "y" to continue.
+:::
 
 ## The ELRepo Project
 
@@ -19,3 +23,10 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 | Repository | How to Enable |
 | --- | --- |
 | ELRepo | # dnf install elrepo-release |
+
+## RPM Fusion
+[RPM Fusion](https://rpmfusion.org/) provides software that RHEL and other Enterprise Linux distributions do not want to ship (like software codecs).
+
+| Repository | How to Enable |
+| --- | --- |
+| ELRepo | See _[Installing EPEL and RPM Fusion](../documentation/epel-and-rpmfusion.md)_ |
