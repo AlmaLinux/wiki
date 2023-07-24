@@ -101,6 +101,7 @@ wget https://git.almalinux.org/rpms/shim/raw/branch/a8_new_sb/SOURCES/almalinuxs
 sudo mokutil --import almalinuxsecurebootca0.cer
 import password: password
 import password again: password
+```
 
 * Reboot the machine.
 
