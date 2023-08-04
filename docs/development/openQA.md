@@ -126,4 +126,4 @@ Each job is assigned to a group based on its respective architecture. *Updates* 
 
 ## Contribute and Get Help
 
-If you feel like getting involved or for questions and discussions, please, join us the in the [Mattermost Chat](https://chat.almalinux.org/almalinux/channels/town-square) and check the [openQA repositroties](#AlmaLinux-openQA-repositories). 
+If you feel like getting involved or for questions and discussions, please, join us the in the [Mattermost Chat](https://chat.almalinux.org/almalinux/channels/town-square) and check the [openQA repositories](#AlmaLinux-openQA-repositories). 
