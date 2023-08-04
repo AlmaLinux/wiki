@@ -262,7 +262,7 @@ patching file deflate.c
 ...
 patching file deflate.c
 patching file test/infcover.c
-+ echo 'Patch #6 (zlib-1.2.11-IBM-Z-hw-accelerated-deflate-fix.patch):'
++ echo 'Patch #6 (zlib-1.2.11-IBM-Z-hw-accelrated-deflate-fix.patch):'
 + /usr/bin/patch --no-backup-if-mismatch -p1 --fuzz=0
 ...
 gcc -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inflate.o inflate.c
