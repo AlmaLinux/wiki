@@ -165,7 +165,7 @@ Open the application, choose your target USB, and ISO you need to burn, and pres
 
 #### macOS
 
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open banlenaEtcher, choose the image and the USB, and press Flash.
+The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, and press Flash.
     
 You can also use `dd` form CLI:
     
