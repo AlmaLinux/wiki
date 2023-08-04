@@ -4,7 +4,7 @@ title: 'openQA'
 
 | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
 |--------------------|---------------------- |
-| Last modifed date  | 4/12/2023             | 
+| Last modified date | 4/12/2023             | 
 
 
 ## About openQA in the AlmaLinux Project
