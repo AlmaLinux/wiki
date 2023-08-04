@@ -35,7 +35,7 @@ Some assets were either transfered from CloudLinux, or have yet to be transferre
 
 | asset | What needs to be done | Status |
 |:--- |:--- |:--- |
-| almalinux.org domain | Assign the rights to AlmaLinux, in theory, we can leave the control over it at CloudLinux IT falks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021 |
+| almalinux.org domain | Assign the rights to AlmaLinux, in theory, we can leave the control over it at CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021 |
 | AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation | DONE, Sublicense ID number 20210506-0001 |
 | social media accounts | Reassign them to AlmaLinux OS Foundation. Need to create a full list |  DONE |
 | github almalinux account | Already open-sourced, nothing needs to be done | DONE |
