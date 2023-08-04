@@ -21,7 +21,7 @@ As of September 20, 2022, the foundation has a seven board directors.
 
 ## The plans for the board
 
-- The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Relase](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
+- The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Release](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
 - Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him. 
 - The board will be expanded to up to 13 directors (as new members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
 
