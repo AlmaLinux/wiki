@@ -31,7 +31,7 @@ The complete build environment is yet to be fully open-sourced, but it will be i
 All the code we release is under GPL3 or MIT license.
 All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
-Some assets were either transfered from CloudLinux, or have yet to be transferred to AlmaLinux.
+Some assets were either transferred from CloudLinux, or have yet to be transferred to AlmaLinux.
 
 | asset | What needs to be done | Status |
 |:--- |:--- |:--- |
