@@ -29,7 +29,7 @@ title: 'Howto Guides'
 
 # ARM
 - [ESXI ARM support](https://williamlam.com/2021/07/almalinux-os-8-4-on-esxi-arm.html)
-- [Raspberri Pi](https://github.com/AlmaLinux/raspberry-pi/)
+- [Raspberry Pi](https://github.com/AlmaLinux/raspberry-pi/)
 
 ## Other
 - [Creating a mirror](https://gnulinux.ro/blog-page-8312-how-to-create-a-public-official-mirror-for-almalinux-in-three-steps)
