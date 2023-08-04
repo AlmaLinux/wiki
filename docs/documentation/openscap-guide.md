@@ -41,7 +41,7 @@ This utility has many options, but uses the following general structure:
 
 Module types that are supported by the oscap command are mentioned in the list:
 
-| Module type | Descpiption | 
+| Module type | Description | 
 | -------- | -------- | 
 | cpe | Uses a Common Platform Enumeration (CPE) file to perform operations. |
 | cve | Uses a Common Vulnerabilities and Exposures (CVE) file to perform operations. |
