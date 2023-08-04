@@ -21,7 +21,7 @@ As of September 20, 2022, the foundation has a seven board directors.
 
 ## The plans for the board
 
-- The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Relase](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
+- The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Release](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
 - Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him. 
 - The board will be expanded to up to 13 directors (as new members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
 
@@ -31,11 +31,11 @@ The complete build environment is yet to be fully open-sourced, but it will be i
 All the code we release is under GPL3 or MIT license.
 All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
-Some assets were either transfered from CloudLinux, or have yet to be transferred to AlmaLinux.
+Some assets were either transferred from CloudLinux, or have yet to be transferred to AlmaLinux.
 
 | asset | What needs to be done | Status |
 |:--- |:--- |:--- |
-| almalinux.org domain | Assign the rights to AlmaLinux, in theory, we can leave the control over it at CloudLinux IT falks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021 |
+| almalinux.org domain | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021 |
 | AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation | DONE, Sublicense ID number 20210506-0001 |
 | social media accounts | Reassign them to AlmaLinux OS Foundation. Need to create a full list |  DONE |
 | github almalinux account | Already open-sourced, nothing needs to be done | DONE |
@@ -77,7 +77,7 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 
 ## Membership Committee
 
-In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
+In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
 
 The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
 

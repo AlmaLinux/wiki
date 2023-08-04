@@ -43,7 +43,7 @@ Finally, to be able to inspect a desired package for *SBOM* information, you nee
 
 ### Software Prerequisites
 
-To just query the *SBOM* records (versus creating them) one needs only to install the above mentioned `cas` tool. *The CAS* organization provides it in form of source and binary package(s) via their [gitub](https://github.com/codenotary/cas) and official web service
+To just query the *SBOM* records (versus creating them) one needs only to install the above mentioned `cas` tool. *The CAS* organization provides it in form of source and binary package(s) via their [github](https://github.com/codenotary/cas) and official web service
 
 In the [README.md](https://github.com/codenotary/cas/blob/master/README.md) you can find a cross-platform installation method, presented below.
 
@@ -416,7 +416,7 @@ ___
 
 &nbsp;
 
-## Trademark noticies
+## Trademark notices
 
 
 Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. 

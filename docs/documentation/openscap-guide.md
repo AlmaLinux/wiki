@@ -29,7 +29,7 @@ SCAP packages are available in the AlmaLinux 8 AppStream repository. Use the dnf
 
 `sudo dnf install openscap openscap-utils scap-security-guide`
 
-After installion, all SCAP security policies are located in the */usr/share/xml/scap/ssg/content/* directory. 
+After installation, all SCAP security policies are located in the */usr/share/xml/scap/ssg/content/* directory. 
 
 ## About the `oscap` Command
 
@@ -41,7 +41,7 @@ This utility has many options, but uses the following general structure:
 
 Module types that are supported by the oscap command are mentioned in the list:
 
-| Module type | Descpiption | 
+| Module type | Description | 
 | -------- | -------- | 
 | cpe | Uses a Common Platform Enumeration (CPE) file to perform operations. |
 | cve | Uses a Common Vulnerabilities and Exposures (CVE) file to perform operations. |
