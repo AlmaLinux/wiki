@@ -68,6 +68,6 @@ Open the application, choose your target USB, ISO you need to burn, press start 
 
 **MacOS:**
 
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open banlenaEtcher, choose the image and the USB, press Flash. 
+The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, press Flash. 
 
 More details and information about AlmaLinux Live Media can be found on [Live Media SIG](https://wiki.almalinux.org/sigs/LiveMedia.html).
