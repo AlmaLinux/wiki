@@ -246,8 +246,8 @@ Finish: Outputting list of installed packages
 Start: rpmbuild zlib-1.2.11-17.el8.src.rpm
 ...
 patching file contrib/minizip/unzip.c
-Patch #2 (zlib-1.2.11-IBM-Z-hw-accelerated-deflate-s390x.patch):
-+ echo 'Patch #2 (zlib-1.2.11-IBM-Z-hw-accelerated-deflate-s390x.patch):'
+Patch #2 (zlib-1.2.11-IBM-Z-hw-accelrated-deflate-s390x.patch):
++ echo 'Patch #2 (zlib-1.2.11-IBM-Z-hw-accelrated-deflate-s390x.patch):'
 + /usr/bin/patch --no-backup-if-mismatch -p1 --fuzz=0
 patching file Makefile.in
 patching file configure
