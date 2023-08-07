@@ -16,7 +16,7 @@ module.exports = {
     ],
     sidebar: [
       '/',
-      '/Contribute',
+         '/Contribute',
      {
         title: 'Development',
         path: '/development/',
@@ -29,23 +29,23 @@ module.exports = {
         title: 'Documentation',
         path: '/documentation',
         children: [
-            '/documentation/errata',
-            '/development/Modified-packages',
-            '/Comparison',
+             {
+                title: 'Bulletin Board',
+                path: '/Bulletin-board',
+                children: [
+                    '/documentation/errata',
+                    '/development/Modified-packages',
+                ]
+             },
+             '/Comparison',
             '/FAQ',
-            '/development/openQA',
+            {
+                title: 'openQA Guide',
+                path: '/development/openQA',
+            },
             {
                 title: 'Some External Howtos',
                 path: '/Howto',
-            },
-            {
-              title: 'General Guides',
-                path: '/documentation/guides',
-                children: [
-                  '/documentation/installation-guide',
-                  '/documentation/wsl',
-                  '/documentation/raspberry-pi',
-                ]
             },
             {
                 title: 'Howto Series',
@@ -96,11 +96,13 @@ module.exports = {
         title: 'Installation',
         children: [
          '/documentation/installation-guide',
-          { 
+          {
             title: 'Live Media',
             path: '/LiveMedia',
           },
-          '/Mirrors',
+                  '/documentation/wsl',
+                  '/documentation/raspberry-pi',
+           '/Mirrors',
           {
             title: 'Cloud Images',
             path : '/cloud',
