@@ -11,6 +11,10 @@ If you are interested in contributing, and learning more details about the techn
 
 Also, you might be interested with [ELevate Project Contribution Guide](/elevate/Contribution-guide.html).
 
+## Contributing to Cloud Images
+You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
+
+
 ## Specific Areas We Need Help With 
 
 ### 1. Volunteer Technical Community Coordinator for ELevate Project
@@ -79,3 +83,6 @@ More info [here](/cloud/Azure).
 - Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
 - Help with our [cloud infrastructure maintenance](/sigs/Cloud.html#help-wanted)
 
+
+## Need assistance? We are here to help!
+If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. You can contact our AlmaLinux Evangelist & PM, Pawel. He's available as [pawel @ Mattermost chat](https://chat.almalinux.org/almalinux/messages/@pawel) or via email at [PSUchanecki@almalinux.org](mailto:psuchanecki@almalinux.org).
