@@ -56,5 +56,5 @@ there are
    4. "beta_suffix" can take two values: `-beta` and empty string `""`. Please check repository [pungi-almalinux](https://git.almalinux.org/almalinux/pungi-almalinux) that it contains branch with same version and same beta suffix.
    5. "fingerprint_1", "fingerprint_2" are fingerprints of a key which was used for signing RPM packages. So, there are `B7BB94F0C9BA6CAA` and `D36CB86CB86B3716` for AlmaLinux 9. And there are `51D6647EC21AD6EA` and `488FCF7C3ABB34F8` for AlmaLinux 8.
    6. "git_auth_token" and "git_auth_username" are your auth creds from `git.almalinux.org`. You can generate a token [here](https://git.almalinux.org/user/settings/applications)
-4. The building takes a 1-2 hours
+4. The building takes 1-2 hours
 5. Please, report all issues in this section of the instruction to https://github.com/AlmaLinux/pungi-scripts-public/issues
