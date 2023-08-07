@@ -1,5 +1,5 @@
 ---
-title: 'External Howtos'
+title: 'Howtos'
 ---
 # AlmaLinux Howto Guides (external)
 
