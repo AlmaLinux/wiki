@@ -1,5 +1,5 @@
 ---
-title: "AlmaLinux Errata"
+title: "Security Errata"
 ---
 
 # AlmaLinux Errata

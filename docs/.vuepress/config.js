@@ -15,8 +15,19 @@ module.exports = {
       { text: 'Bugs', link: 'https://bugs.almalinux.org/' }
     ],
     sidebar: [
-      '/',
-         '/Contribute',
+     {
+        title: 'About',
+        path: '/',
+     },
+     {
+        title: 'AlmaLinux Delta',
+        path: '/AlmaLinuxDelta',
+        children: [
+          '/documentation/errata',
+          '/development/Modified-packages',
+        ]
+     },
+     '/Contribute',
      {
         title: 'Development',
         path: '/development/',
@@ -29,15 +40,7 @@ module.exports = {
         title: 'Documentation',
         path: '/documentation',
         children: [
-             {
-                title: 'Bulletin Board',
-                path: '/Bulletin-board',
-                children: [
-                    '/documentation/errata',
-                    '/development/Modified-packages',
-                ]
-             },
-             '/Comparison',
+            '/Comparison',
             '/FAQ',
             {
                 title: 'openQA Guide',

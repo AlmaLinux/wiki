@@ -1,5 +1,5 @@
 ---
-title: "AlmaLinux Modified packages"
+title: "Modified packages"
 ---
 
 This table lists AlmaLinux packages with modified sources.
