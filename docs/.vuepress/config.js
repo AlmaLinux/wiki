@@ -30,7 +30,6 @@ module.exports = {
      '/Contribute',
      {
         title: 'Development',
-        path: '/development/',
         children: [
           '/documentation/building-packages-guide',
           '/development/Packaging',
@@ -38,7 +37,6 @@ module.exports = {
      },
      {
         title: 'Documentation',
-        path: '/documentation',
         children: [
             '/Comparison',
             '/FAQ',
@@ -139,7 +137,6 @@ module.exports = {
       },
       {
          title: 'Migration',
-         path: '/migration',
          children: [
            '/documentation/migration-guide',
            {
