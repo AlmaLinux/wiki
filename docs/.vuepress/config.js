@@ -138,7 +138,6 @@ module.exports = {
       {
          title: 'Migration',
          children: [
-           '/documentation/migration-guide',
            {
               title: 'ELevate Project',
               path: '/elevate/',
@@ -149,16 +148,18 @@ module.exports = {
                 '/elevate/ELevate-quickstart-guide',
               ]
            },
+           {
+              title: "Migration Guide",
+              path: '/documentation/migration-guide',
+              children: [ ]
+           }
          ]
       },
       {
         title: 'The Foundation',
         path: '/foundation',
         children: [
-          '/Election2022',
-          '/gsoc',
-          '/Transparency',
-           {
+          {
                 title: 'Special interest groups',
                 path: '/sigs/',
                 children: [
@@ -170,9 +171,12 @@ module.exports = {
                   '/sigs/Marketing',
                   '/sigs/Migration',
                 ]
-            },
-         ]
-       },
+          },
+          '/Election2022',
+          '/gsoc',
+          '/Transparency',
+       ]
+     },
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',

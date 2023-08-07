@@ -3,6 +3,13 @@ title: 'Contribute'
 ---
 # Contributing to the AlmaLinux project
 
+## How to Contribute
+
+Please, file your [bugs](https://github.com/AlmaLinux/almalinux-deploy/issues) and join us for discussions on [GitHub](https://github.com/AlmaLinux/almalinux-deploy/discussions) and on [AlmaLinux Chat on Mattermost](https://chat.almalinux.org/).
+
+If you are interested in contributing, and learning more details about the technology stack of the tool and tests, please, visit the [repository](https://github.com/AlmaLinux/almalinux-deploy).
+
+# Specific Areas 
 
 ## 1. Volunteer Technical Community Coordinator for ELevate Project
 
