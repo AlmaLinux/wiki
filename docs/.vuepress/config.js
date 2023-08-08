@@ -20,8 +20,8 @@ module.exports = {
         path: '/',
      },
      {
-        title: 'Bugs & Security Fixes',
-        path: '/AlmaLinuxDelta',
+        title: 'Changelog & Errata',
+        path: '/ChangelogErrata',
         children: [
           '/development/Modified-packages',
           '/documentation/errata',

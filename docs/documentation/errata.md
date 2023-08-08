@@ -4,7 +4,7 @@ title: "Security Errata"
 
 # AlmaLinux Errata
 
-## About Errata
+### About Errata
 
 Errata are package updates like some enhancements and features, bug fixes and security patches. These updates can be found at [errata.almalinux.org](https://errata.almalinux.org/) as a list of errata advisories.
 
