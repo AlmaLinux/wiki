@@ -18,7 +18,7 @@ That Ansible scenario prepare your machine to building a distribution
 1. Install Docker CE and prepare docker containers to build the distributions inside them
 2. Setup systemd timer to sync a local mirror of packages. They will be used for building
 
-## Do the following step to prepare your machine
+## Do the following steps to prepare your machine
 
 1. Clone GitHub repository [pungi-node-public](https://github.com/AlmaLinux/pungi-node-public) 
 2. Prepare Python virtual environment if you don't have installed Ansible
