@@ -20,12 +20,44 @@ module.exports = {
         path: '/',
      },
      {
-        title: 'AlmaLinux Delta',
+        title: 'Bugs & Security Fixes',
         path: '/AlmaLinuxDelta',
         children: [
           '/development/Modified-packages',
           '/documentation/errata',
-          {
+       ]
+     },
+     {
+          title: 'Contribute',
+          children: [
+            '/Contribute',
+            '/Mirrors',
+        ]
+     },
+     {
+        title: 'Development',
+        children: [
+          '/documentation/building-packages-guide',
+          '/development/Packaging',
+        ]
+     },
+     {
+        title: 'Documentation',
+        children: [
+            '/Comparison',
+            '/FAQ',
+            '/Howto',
+            {
+                title: 'openQA Guide',
+                path: '/development/openQA',
+            },
+            {
+                title: 'Howto Series',
+                path: '/series/',
+                children: [
+                ]
+            },
+            {
                 title: 'Release Notes',
                 path: '/release-notes/',
                 children: [
@@ -52,33 +84,7 @@ module.exports = {
                   '/release-notes/8.3-beta'
                 ]
           },
-        ]
-     },
-     '/Contribute',
-     {
-        title: 'Development',
-        children: [
-          '/documentation/building-packages-guide',
-          '/development/Packaging',
-        ]
-     },
-     {
-        title: 'Documentation',
-        children: [
-            '/Comparison',
-            '/FAQ',
-            '/Howto',
-            {
-                title: 'openQA Guide',
-                path: '/development/openQA',
-            },
-            {
-                title: 'Howto Series',
-                path: '/series/',
-                children: [
-                ]
-            },
-           {
+          {
                 title: 'Security Guides',
                 path: '/documentation/guides',
                 children: [
@@ -94,13 +100,12 @@ module.exports = {
         title: 'Installation',
         children: [
          '/documentation/installation-guide',
+         '/documentation/wsl',
           {
             title: 'Live Media',
             path: '/LiveMedia',
           },
-                  '/documentation/wsl',
-                  '/documentation/raspberry-pi',
-           '/Mirrors',
+          '/documentation/raspberry-pi',
           {
             title: 'Cloud Images',
             path : '/cloud',

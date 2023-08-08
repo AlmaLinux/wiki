@@ -1,5 +1,5 @@
 ---
-title: 'Contribute'
+title: 'Help AlmaLinux OS'
 ---
 # Contributing to the AlmaLinux project
 
