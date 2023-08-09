@@ -20,14 +20,6 @@ module.exports = {
         path: '/',
      },
      {
-        title: 'Changelog & Errata',
-        path: '/ChangelogErrata',
-        children: [
-          '/development/Modified-packages',
-          '/documentation/errata',
-       ]
-     },
-     {
           title: 'Contribute',
           children: [
             '/Contribute',
@@ -38,6 +30,7 @@ module.exports = {
         title: 'Development',
         children: [
           '/documentation/building-packages-guide',
+          '/development/Modified-packages',
           '/development/Packaging',
         ]
      },
@@ -91,7 +84,8 @@ module.exports = {
                   '/documentation/openscap-guide',
                   '/documentation/openscap-guide-for-9',
                   '/documentation/oval-streams',
-                  '/documentation/sbom-guide'
+                  '/documentation/sbom-guide',
+                  '/documentation/errata',
                 ]
             },
          ]
@@ -155,11 +149,10 @@ module.exports = {
       },
       {
         title: 'The Foundation',
-        path: '/foundation',
         children: [
+         '/Transparency',
          '/Election2022',
           '/gsoc',
-          '/Transparency',
           {
                 title: 'Special interest groups',
                 path: '/sigs/',

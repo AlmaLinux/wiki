@@ -1,8 +1,8 @@
-# The AlmaLinux OS Foundation
+# AlmaLinux OS Foundation
 
 The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all assets related to AlmaLinux OS. It is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 
 
-## We strive to be transparent.
+## We strive to be transparent
 
 The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
 

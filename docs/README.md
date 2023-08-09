@@ -2,6 +2,12 @@
 
 [AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL®.  The [AlmaLinux OS Foundation](Transparency.md) was established as a 501(c)(6) non-profit to steward ownership and governance of the project. Current membership includes Platinum members [Codenotary](https://codenotary.com/) and [CloudLinux](https://www.cloudlinux.com/), Gold members [KnownHost](https://www.knownhost.com), [Sine Nomine Associates (SNA)](https://www.sinenomine.net/), and Silver members [AMD](https://www.amd.com/en), [BlackHOST](https://black.host/), and [Hawk Host Inc.](https://www.hawkhost.com/).
 
+### AlmaLinux Wiki Site Map
+<div>
+<img src=/images/almalinux-sitemap.png style="float: right; margin-right: 80px; margin-top: 30px;">
+</div>
+
+
 <div>
 <div>
 <img src=/images/almalinux-readme.png style="float: right; margin-right: 80px; margin-top: 30px;">
@@ -42,4 +48,13 @@
 </div>
 </div>
 
+### Transparency Statement
+
+* We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
+* Minutes from the [meetings of the board of directors](Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
+
+
+### License
+This Wiki content is licensed under a [Creative Commons Attribution-ShareAlike
+4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
