@@ -81,6 +81,7 @@ module.exports = {
                 title: 'Security Guides',
                 path: '/documentation/guides',
                 children: [
+                  'https://almalinux.org/security/',
                   '/documentation/openscap-guide',
                   '/documentation/openscap-guide-for-9',
                   '/documentation/oval-streams',
