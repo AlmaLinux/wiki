@@ -1,2 +1,0 @@
-# The AlmaLinux OS Foundation
-
