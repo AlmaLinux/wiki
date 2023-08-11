@@ -31,7 +31,7 @@ Container image tag for Minimal ( UBI - alternative): `almalinux/8-minimal`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platforum | Link |
+| AlmaLinux Version  | Platform | Link |
 | ------------- | ------------- | ----- |
 | 8  | Docker Hub | [hub.docker.com/r/almalinux/8-minimal](https://hub.docker.com/r/almalinux/8-minimal) |
 | 9  | Docker Hub | [hub.docker.com/r/almalinux/9-minimal](https://hub.docker.com/r/almalinux/9-minimal) |
@@ -47,7 +47,7 @@ Container image tag: `almalinux/8-base`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platforum | Link |
+| AlmaLinux Version  | Platform | Link |
 | ------------- | ------------- | ----- |
 | 8  | Docker Hub | [hub.docker.com/r/almalinux/8-base](https://hub.docker.com/r/almalinux/8-base) |
 | 9  | Docker Hub | [hub.docker.com/r/almalinux/9-base](https://hub.docker.com/r/almalinux/9-base) |
@@ -63,7 +63,7 @@ Container image tag: `almalinux/8-init`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platforum | Link |
+| AlmaLinux Version  | Platform | Link |
 | ------------- | ------------- | ----- |
 | 8  | Docker Hub | [hub.docker.com/r/almalinux/8-init](https://hub.docker.com/r/almalinux/8-init) |
 | 9  | Docker Hub | [hub.docker.com/r/almalinux/9-init](https://hub.docker.com/r/almalinux/9-init) |
@@ -79,7 +79,7 @@ Container image tag: `almalinux/8-micro`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platforum | Link |
+| AlmaLinux Version  | Platform | Link |
 | ------------- | ------------- | ----- |
 | 8  | Docker Hub | [hub.docker.com/r/almalinux/8-micro](https://hub.docker.com/r/almalinux/8-micro) |
 | 9  | Docker Hub | [hub.docker.com/r/almalinux/9-micro](https://hub.docker.com/r/almalinux/9-micro) |

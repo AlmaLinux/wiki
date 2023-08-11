@@ -19,5 +19,5 @@ will become `sos-3.9.1-6.el8.alma` after debranding. This will help us
 distinguish our packages from upstream ones, especially if a machine was
 converted to AlmaLinux.
 
-All modified package sources should be uploaded to a corresponding project
-in the AlmaLinux GitHub [organization](https://github.com/AlmaLinux).
+All modified package sources should be uploaded to a corresponding repository
+in the AlmaLinux Git [git.almalinux.org](https://git.almalinux.org/explore/repos) into branches for modified sources - `a8` and `a9`. 

@@ -2,6 +2,12 @@
 title: "Modified packages"
 ---
 
+# AlmaLinux Modified packages
+
+All AlmaLinux OS packages, including modified ones, can be found on [git.almalinux.org](https://git.almalinux.org/explore/repos). There are several branches in each package repository:
+* c8/c9 branches for original sources
+* a8/a9 branches for modified sources 
+
 This table lists AlmaLinux packages with modified sources.
 
 | Package | AlmaLinux 8 | AlmaLinux 9 | Commentary |

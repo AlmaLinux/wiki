@@ -21,7 +21,7 @@ chat channel for communication.
   [AlmaLinux/lxc-ci](https://github.com/AlmaLinux/lxc-ci).
 * The container RootFS build tool:
   [AlmaLinux/ks2rootfs](https://github.com/AlmaLinux/ks2rootfs).
-* OpenNebula addons repositories: 
+* OpenNebula addons repositories:
   [x86_64](https://repo.almalinux.org/almalinux/8/extras/x86_64/os/Packages/almalinux-release-opennebula-addons-1-1.el8.noarch.rpm) and [aarch64](https://repo.almalinux.org/almalinux/8/extras/aarch64/os/Packages/almalinux-release-opennebula-addons-1-1.el8.noarch.rpm)
 
 
@@ -37,7 +37,7 @@ The pre-built AlmaLinux OS images are listed below:
 | OpenNebula                 | [wiki.almalinux.org/cloud/OpenNebula.html](https://wiki.almalinux.org/cloud/OpenNebula.html) |
 | Google Cloud               | [cloud.google.com/compute/docs/images#almalinux](https://cloud.google.com/compute/docs/images#almalinux) |
 | LXC/LXD                    | [images.linuxcontainers.org](https://images.linuxcontainers.org) |
-| Quay.io                    | [quay.io/repository/almalinux/almalinux](https://quay.io/repository/almalinux/almalinux) |
+| Quay                       | [quay.io/almalinuxorg](https://quay.io/almalinuxorg) |
 | Vagrant boxes              | [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux/) |
 
 
@@ -51,7 +51,7 @@ The pre-built AlmaLinux OS images are listed below:
 * Technical writers for working on documentation.
 * DevOps engineers for setting up and maintaining the related infrastructure.
 
-If you can help, please join us at [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) 
+If you can help, please join us at [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud)
 
 
 ## SIG members

@@ -138,7 +138,7 @@ Insert your target USB and locate it. There are different ways to do it, but her
 
 * `lsblk` - this command gives you all the available block storage devices, including the USB block storage devices.
 
-* `sudo blkid` - this command gives you the same information as `lsblk`, but you have to rub it as root. 
+* `sudo blkid` - this command gives you the same information as `lsblk`, but you have to run it as root. 
 
 You need to look for /dev/sda or /dev/sdb or /dev/sdc, which is your target USB.
 
@@ -165,7 +165,7 @@ Open the application, choose your target USB, and ISO you need to burn, and pres
 
 #### macOS
 
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open banlenaEtcher, choose the image and the USB, and press Flash.
+The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, and press Flash.
     
 You can also use `dd` form CLI:
     
@@ -225,7 +225,7 @@ Now you have AlmaLinux ready on a USB stick.
     * *Software Selection* - this section contains two fields:
         * *Base Environment* - this field will be defined automatically according to the ISO type you are using for the installation.
         * *Additional Software for the Selected Environment* - you can choose additional software to be installed. The list of available additional software depends on the chosen variant in the *Base Environment* field.
-    ![image](/images/installation-guide-sofware-selection.gif)
+    ![image](/images/installation-guide-software-selection.gif)
     **When you've finished with the changes, click on the `Done` button.**
     * **SYSTEM** - this section allows you to customize the hardware of the system to you your needs like creating drive partitions, enabling Encryption, KDUMP, specifying the Network and choosing a security profile:
     * *Installation destination* - you will see available disks for the system installation as *Local Standard Disks*. You can click on the disk you need. If your system has only one disk, it'll be automatically chosen. By default, *Storage Configuration* will be marked as *Automatic*. 

@@ -20,20 +20,24 @@ This process is applicable to any individual or organization within the AlmaLinu
 
 To initiate the process of creating a new SIG, a proposal must be submitted to the AlmaLinux OS Foundation Board. The proposal should include:
 
-a. A clear and concise title for the SIG.
-b. An overview of the SIG's objectives and goals.
-c. A list of initial members, including at least one SIG Chair.
-d. A detailed description of the SIG's intended activities and projects.
-e. A proposed timeline for achieving the SIG's initial objectives.
-f. Any known required resources, such as infrastructure or funding.
+<ol type="a">
+  <li>A clear and concise title for the SIG.</li>
+  <li>An overview of the SIG's objectives and goals.</li>
+  <li>A list of initial members, including at least one SIG Chair.</li>
+  <li>A detailed description of the SIG's intended activities and projects.</li>
+  <li>A proposed timeline for achieving the SIG's initial objectives.</li>
+  <li>Any known required resources, such as infrastructure or funding.</li>
+</ol>
 
 
 ### 2. Proposal Review
 
 Upon receiving a proposal, the AlmaLinux OS Foundation Board will review the submission to ensure it aligns with the project's goals and values. The review process includes:
-a. Assessing the proposal's relevance to the AlmaLinux ecosystem.
-b. Evaluating the clarity and feasibility of the SIG's objectives and activities.
-c. Reviewing the qualifications of the proposed SIG Chair and initial members.
+<ol type="a">
+  <li>Assessing the proposal's relevance to the AlmaLinux ecosystem.</li>
+  <li>Evaluating the clarity and feasibility of the SIG's objectives and activities.</li>
+  <li>Reviewing the qualifications of the proposed SIG Chair and initial members.</li>
+</ol>
 
 
 ### 3. Feedback and Revision
@@ -44,31 +48,33 @@ If the proposal requires modifications or additional information, the AlmaLinux 
 ### 4. Approval and Announcement
 
 Once the proposal has been reviewed and deemed acceptable, the AlmaLinux OS Foundation Board will formally approve the creation of the new SIG. The approval will be announced through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
-
-a. The title and objectives of the new SIG.
-b. The names of the SIG Chair and initial members.
-c. A link to the SIG's primary point of communication or wiki entry (if applicable).
-d. An invitation for interested community members to join the SIG.
+<ol type="a">
+  <li>The title and objectives of the new SIG.</li>
+  <li>The names of the SIG Chair and initial members.</li>
+  <li>A link to the SIG's primary point of communication or wiki entry (if applicable).</li>
+  <li>An invitation for interested community members to join the SIG.</li>
+</ol>
 
 
 ### 5. SIG Formation
 
 Following the announcement, the new SIG will:
-
-a. Establish a dedicated communication channel (e.g., mailing list, chat room, or forum) for members to collaborate and discuss SIG-related matters.
-b. Create a public repository (if applicable) for storing and managing project resources and documentation.
-c. Develop a roadmap and publish its goals in a publicly trackable way.
-d. Assign tasks to SIG members, as applicable.
+<ol type="a">
+  <li>Establish a dedicated communication channel (e.g., mailing list, chat room, or forum) for members to collaborate and discuss SIG-related matters.</li>
+  <li>Create a public repository (if applicable) for storing and managing project resources and documentation.</li>
+  <li>Develop a roadmap and publish its goals in a publicly trackable way.</li>
+  <li>Assign tasks to SIG members, as applicable.</li>
+</ol>
 
 
 ### 6. Reporting and Accountability
 
 To maintain transparency and ensure progress towards the SIG's objectives, the SIG Chair will be responsible for:
-
-a. Providing regular status updates to the AlmaLinux OS Foundation Board.
-b. Ensuring that SIG activities adhere to the AlmaLinux project's guidelines and policies.
-c. Coordinating the SIG's communication and collaboration with other SIGs and the broader AlmaLinux community.
-
+<ol type="a">
+  <li>Providing regular status updates to the AlmaLinux OS Foundation Board.</li>
+  <li>Ensuring that SIG activities adhere to the AlmaLinux project's guidelines and policies.</li>
+  <li>Coordinating the SIG's communication and collaboration with other SIGs and the broader AlmaLinux community</li>
+</ol>
 
 ## 
 
@@ -79,16 +85,18 @@ c. Coordinating the SIG's communication and collaboration with other SIGs and th
 ### A.1. Mentorship and Collaboration with Existing SIGs
 
 To improve the integration of new SIGs within the AlmaLinux community, consider establishing a mentorship program where existing SIGs can offer guidance and assistance to newly-formed SIGs. This collaboration may include:
-
-a. Sharing best practices and lessons learned from previous projects and initiatives.
-b. Providing technical or organizational support in areas where the new SIG may lack expertise.
-c. Facilitating joint projects or activities that can benefit both SIGs and foster collaboration within the community.
+<ol type="a">
+  <li>Sharing best practices and lessons learned from previous projects and initiatives.</li>
+  <li>Providing technical or organizational support in areas where the new SIG may lack expertise.</li>
+  <li>Facilitating joint projects or activities that can benefit both SIGs and foster collaboration within the community.</li>
+</ol>
 
 
 ### A.2. SIG Decommissioning
 
 In the event a SIG becomes inactive, no longer serves its intended purpose, or does not align with the community's objectives, outline a process for decommissioning the SIG. This may include:
-
-a. Notifying the AlmaLinux OS Foundation Board of the intention to decommission the SIG.
-b. Ensuring that all relevant documentation, resources, and knowledge are preserved and transferred to appropriate parties within the community.
-c. Formally announcing the decommissioning of the SIG and providing a rationale for the decision.
+<ol type="a">
+  <li>Notifying the AlmaLinux OS Foundation Board of the intention to decommission the SIG.</li>
+  <li>Ensuring that all relevant documentation, resources, and knowledge are preserved and transferred to appropriate parties within the community.</li>
+  <li>Formally announcing the decommissioning of the SIG and providing a rationale for the decision.</li>
+</ol>
