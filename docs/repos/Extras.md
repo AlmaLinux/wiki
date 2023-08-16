@@ -13,7 +13,7 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 | EPEL | # dnf install epel-release |
 
 :::tip
-Most EPEL packages require packages from PowerTools/CRB repository as dependencies. Run the suitable following command to enable the PowerTools/CRB repository:
+Most EPEL packages require packages from PowerTools/CRB repository as dependencies. Run the suitable command to enable the PowerTools/CRB repository:
 
 **AlmaLinux OS 8**
 
