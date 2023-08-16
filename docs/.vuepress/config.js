@@ -68,6 +68,8 @@ module.exports = {
                 title: 'Release Notes',
                 path: '/release-notes/',
                 children: [
+                  '/release-notes/9.2',
+                  '/release-notes/8.8',
                   '/release-notes/9.1',
                   '/release-notes/8.7',
                   '/release-notes/9.2-beta',
