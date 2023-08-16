@@ -12,6 +12,21 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 | --- | --- |
 | EPEL | # dnf install epel-release |
 
+:::tip
+Most EPEL packages require packages from PowerTools/CRB repository as dependencies. Run the suitable following command to enable the PowerTools/CRB repository:
+
+**AlmaLinux OS 8**
+
+```
+dnf config-manager --set-enabled powertools
+```
+
+**AlmaLinux OS 9**
+```
+dnf config-manager --set-enabled crb
+```
+:::
+
 ## The ELRepo Project
 
 [The ELRepo Project](http://elrepo.org) focuses on hardware related packages to enhance your experience with Enterprise Linux. This includes filesystem drivers, graphics drivers, network drivers, sound drivers, webcam and video drivers. Newer kernels, `kernel-ml` and `kernel-lt`, are also available.
