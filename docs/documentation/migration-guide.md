@@ -1,5 +1,5 @@
 ---
-title: "AlmaLinux Migration Guide"
+title: "Migration Guide"
 ---
 
 # AlmaLinux Migration Guide 
@@ -111,8 +111,4 @@ sudo bash almalinux-deploy.sh
    $ sudo grubby --info DEFAULT | grep AlmaLinux
    title="AlmaLinux (4.18.0-425.3.1.el8.x86_64) 8.7 (Stone Smilodon)"
    ```
-## How to Contribute
 
-Please, file your [bugs](https://github.com/AlmaLinux/almalinux-deploy/issues) and join us for discussions on [GitHub](https://github.com/AlmaLinux/almalinux-deploy/discussions) and on [AlmaLinux Chat on Mattermost](https://chat.almalinux.org/).
-
-If you are interested in contributing, and learning more details about the technology stack of the tool and tests, please, visit the [repository](https://github.com/AlmaLinux/almalinux-deploy).

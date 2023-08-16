@@ -1,10 +1,23 @@
 ---
-title: 'Contribute'
+title: 'Help AlmaLinux OS'
 ---
 # Contributing to the AlmaLinux project
 
+## How to Contribute
 
-## Volunteer Technical Community Coordinator for ELevate Project
+Please, file your [bugs](https://github.com/AlmaLinux/almalinux-deploy/issues) and join us for discussions on [GitHub](https://github.com/AlmaLinux/almalinux-deploy/discussions) and on [AlmaLinux Chat on Mattermost](https://chat.almalinux.org/).
+
+If you are interested in contributing, and learning more details about the technology stack of the tool and tests, please, visit the [repository](https://github.com/AlmaLinux/almalinux-deploy).
+
+Also, you might be interested with [ELevate Project Contribution Guide](/elevate/Contribution-guide.html).
+
+## Contributing to Cloud Images
+You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
+
+
+## Specific Areas We Need Help With 
+
+### 1. Volunteer Technical Community Coordinator for ELevate Project
 
 We are looking for a volunteer Technical Community Coordinator to figure out what the community needs & wants from the AlmaLinux ELevate project. One of your primary responsibilities is to provide direction to the AlmaLinux OS engineers to help decide "what is next for the ELevate Project". As a Technical Community Coordinator, you'll engage with the community and schedule meetings with the AlmaLinux OS team.
 
@@ -25,7 +38,7 @@ We are looking for a volunteer Technical Community Coordinator to figure out wha
 
 If you are willing to help, email us at [volunteer@almalinux.org](mailto:volunteer@almalinux.org).
 
-## Help with reporting bugs and making fixes
+### 2. Help with reporting bugs and making fixes
 
 To make AlmaLinux successful, we need the close involvement of the community
 members. We use our bug tracking system to find, track, and fix bugs. We
@@ -33,7 +46,7 @@ encourage AlmaLinux users to help us by filling in bug-reports. You can track an
 discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 
-## Improve the documentation
+### 3. Improve the documentation
 
 It makes no sense to talk about the importance of documentation, it is like
 an investment in the future. It can take time and energy, but it is 
@@ -61,12 +74,15 @@ easy to run it locally (run all commands from the project's root):
    [http://localhost:8080/](http://localhost:8080/).
 
 
-## Help with Azure mirrors deployment
+### 4. Help with Azure mirrors deployment
 
 We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic.
 More info [here](/cloud/Azure).
 
-## More ways to help for DevOps & Programmers
+### 5. More ways to help for DevOps & Programmers
 - Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
 - Help with our [cloud infrastructure maintenance](/sigs/Cloud.html#help-wanted)
 
+
+## Need assistance? We are here to help!
+If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. You can contact our AlmaLinux Evangelist & PM, Pawel. He's available as [pawel @ Mattermost chat](https://chat.almalinux.org/almalinux/messages/@pawel) or via email at [PSUchanecki@almalinux.org](mailto:psuchanecki@almalinux.org).

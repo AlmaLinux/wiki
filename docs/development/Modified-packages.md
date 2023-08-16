@@ -1,5 +1,5 @@
 ---
-title: "AlmaLinux Modified packages"
+title: "Modified packages"
 ---
 
 # AlmaLinux Modified packages
