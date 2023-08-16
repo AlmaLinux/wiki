@@ -36,7 +36,7 @@ We also have a variety of folks who help us with PR, social media, and website m
 
 We currently have a number of social media accounts that are managed by the SIG members.
 
-* [Mastodon (on fosstodon.org)](https://fosstodon.org/@almalinux) - password in Bitwarden
+* [Mastodon (on fosstodon.org)](https://fosstodon.org/@almalinux) - password in Vaultwarden
 * [Twitter (x)](https://twitter.com/almalinux) - password in Bitwarden
 * [Facebook](https://www.facebook.com/AlmaLinux/) - still tracking down admin rights
 * [LinkedIn](https://www.linkedin.com/company/almalinuxos/) - benny and Jack have 'owner' rights
