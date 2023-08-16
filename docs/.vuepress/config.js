@@ -36,6 +36,7 @@ module.exports = {
                 '/sigs/LiveMedia',
                 '/sigs/Marketing',
                 '/sigs/Migration',
+				'/sigs/ProcessForCreatingNewSIG.html'
               ]
         },
      },
