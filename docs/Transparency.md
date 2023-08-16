@@ -23,33 +23,33 @@ As of September 20, 2022, the foundation has a seven board directors.
 
 - The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Release](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
 - Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him. 
-- The board will be expanded to up to 13 directors (as new members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
+- The board will be expanded to up to 13 directors (as new Platinum members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
 
 ## Assets and build environment
-The complete build environment is yet to be fully open-sourced, but it will be in Q3 of 2021, as we get rid of some key tie-ins into CloudLinux infrastructure. We are planning to use AWS, Azure, GCE & Equinix Metal and others for our build/test environments.
 
 All the code we release is under GPL3 or MIT license.
 All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
-Some assets were either transferred from CloudLinux, or have yet to be transferred to AlmaLinux.
+Some assets were initially owned by CloudLinux, Inc, but were transferred from CloudLinux to the AlmaLinux OS Foundation.
 
 | asset | What needs to be done | Status |
 |:--- |:--- |:--- |
 | almalinux.org domain | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021 |
 | AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation | DONE, Sublicense ID number 20210506-0001 |
-| social media accounts | Reassign them to AlmaLinux OS Foundation. Need to create a full list |  DONE |
+| social media accounts | Reassign them to AlmaLinux OS Foundation. | [In Progress](/Marketing.html#social-media-accounts) |
 | github almalinux account | Already open-sourced, nothing needs to be done | DONE |
-| Build/Test system | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3 | In Progress |
-| RPM signing keys | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it | Q3: Need to come up with rules for holding keys 
-| EV certificate for Secure Boot | Currently, we use the same EV certificate for both CloudLinux and AlmaLinux shim bootloaders. It is registered to CloudLinux Inc. If we want to have a separate bootloader/certificate for AlmaLinux, we need to buy another EV key, put it into a bare metal server, build a new shim, get it reviewed by Red Hat, and signed by Microsoft again. |  Q3: Need to buy new EV cert and register it |
-| Logo License for the foundation | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed | DONE| 
+| Build/Test system | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3 | [DONE](https://github.com/AlmaLinux/build-system) |
+| RPM signing keys | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it | Q3 2023: Need to come up with rules for holding keys 
+| EV certificate for Secure Boot | We've been on an AlmaLinux owned cert since 8.8/9.2 |  DONE |
+| Logo License for the foundation | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed | DONE - all assets in the Google drive | 
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
 <!-- To add minutes to this list, export the approved minutes from the meeting folder as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF -->
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- Aug 09, 2023 [Board meeting #24 agenda](https://docs.google.com/document/d/1woi5FGsuCnBFeIbMWrr2148NnyYoPV_B8D5cRDOUDKo/)
+- Sep 13, 2023 [Board meeting #25 agenda](https://docs.google.com/document/d/1Q5TBi3Mno7V_maSi5oSnMt1tRHTbDZdOkPLCVO-HRas/edit)
+- Aug 09, 2023 [Board meeting #24 minutes](https://drive.google.com/file/d/1aCoa7jZeBE5F1m3rXdORxJ80Ry6eCYGi/view)
 - Jul 12, 2032 [Board meeting #23 minutes](https://drive.google.com/file/d/13q6udmzAEqHIoPf2cQJ-QJrYosaFWd_m/view)
 - Jun 22, 2023 [Board meeting #22 minutes](https://drive.google.com/file/d/1FZhhMaLgrTd7fN50pGyZPdKEb9UJ6HF-/view)
 - May 10, 2023 [Board meeting #21 minutes](https://drive.google.com/file/d/17ZykiqjnYcr6OTs-pCuBP2oUc4wKQYye/view)

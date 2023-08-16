@@ -25,6 +25,20 @@ module.exports = {
             '/Contribute',
             '/Mirrors',
         ]
+        {
+              title: 'Special interest groups (SIGs)',
+              path: '/sigs/',
+              children: [
+                '/sigs/Build-System',
+                '/sigs/Cloud',
+                '/sigs/Core',
+                '/sigs/Infrastructure',
+                '/sigs/LiveMedia',
+                '/sigs/Marketing',
+                '/sigs/Migration',
+				'/sigs/ProcessForCreatingNewSIG.html'
+              ]
+        },
      },
      {
         title: 'Development',
@@ -152,20 +166,7 @@ module.exports = {
         children: [
          '/Transparency',
          '/Election2022',
-          '/gsoc',
-          {
-                title: 'Special interest groups',
-                path: '/sigs/',
-                children: [
-                  '/sigs/Build-System',
-                  '/sigs/Cloud',
-                  '/sigs/Core',
-                  '/sigs/Infrastructure',
-                  '/sigs/LiveMedia',
-                  '/sigs/Marketing',
-                  '/sigs/Migration',
-                ]
-          },
+         '/gsoc',
         ]
      },
     ],
