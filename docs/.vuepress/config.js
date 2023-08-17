@@ -24,8 +24,7 @@ module.exports = {
           children: [
             '/Contribute',
             '/Mirrors',
-        ]
-        {
+            {
               title: 'Special interest groups (SIGs)',
               path: '/sigs/',
               children: [
@@ -36,9 +35,10 @@ module.exports = {
                 '/sigs/LiveMedia',
                 '/sigs/Marketing',
                 '/sigs/Migration',
-				'/sigs/ProcessForCreatingNewSIG.html'
+				        '/sigs/ProcessForCreatingNewSIG'
               ]
-        },
+           },
+          ]
      },
      {
         title: 'Development',
