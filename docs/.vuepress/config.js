@@ -35,7 +35,7 @@ module.exports = {
                 '/sigs/LiveMedia',
                 '/sigs/Marketing',
                 '/sigs/Migration',
-				        '/sigs/ProcessForCreatingNewSIG'
+				'/sigs/ProcessForCreatingNewSIG'
               ]
            },
           ]
@@ -143,6 +143,7 @@ module.exports = {
               '/repos/AlmaLinux',
               '/repos/CentOS',
               '/repos/Extras',
+              '/repos/Synergy',
             ]
            },
          ]
