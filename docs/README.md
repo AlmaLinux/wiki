@@ -4,7 +4,7 @@
 
 <div>
  <div>
-  <img src=/images/almalinux-readme.png style="float: right; margin-right: 80px; margin-top: 30px;">
+  <img src=/images/hero.png style="float: right; margin-right: 80px; margin-top: 30px;">
  </div>
 <div>
  <h2>Quick Links & Resources</h2>
