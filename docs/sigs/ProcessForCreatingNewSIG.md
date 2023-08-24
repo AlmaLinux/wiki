@@ -2,29 +2,25 @@
 # The Process for Creating a New SIG* in the AlmaLinux Community 
 *Special Interest Group
 
+SIGs are the lifeblood for a healthy open source community, especially around an operating system. Joining a SIG is the first step that many newcomers to a community take, and standardizing the process around creating a SIG is important because it ensures that newcomers are met with similar information no matter which group they chose to start with. 
 
-## Abstract
+This document outlines the process and additional considerations for creating a new Special Interest Group (SIG) within the AlmaLinux OS community, fostering collaboration, innovation, and growth. This process aims to facilitate successful SIG creation and integration within the AlmaLinux ecosystem. SIGs are essential for bringing together individuals and organizations with common interests to work on specific projects, develop new features, or address particular issues within the AlmaLinux project. Incorporating insights from Fedora and CentOS, such as mentorship and collaboration with existing SIGs, periodic evaluation for continuous improvement, and guidelines for SIG decommissioning, this process is designed to help individuals and organizations contribute effectively to the continued success of the AlmaLinux project and shape its future.
 
-> This document outlines the process and additional considerations for creating a new Special Interest Group (SIG) within the AlmaLinux OS community, fostering collaboration, innovation, and growth. This process aims to facilitate successful SIG creation and integration within the AlmaLinux ecosystem. SIGs are essential for bringing together individuals and organizations with common interests to work on specific projects, develop new features, or address particular issues within the AlmaLinux project. Incorporating insights from Fedora and CentOS, such as mentorship and collaboration with existing SIGs, periodic evaluation for continuous improvement, and guidelines for SIG decommissioning, this process is designed to help individuals and organizations contribute effectively to the continued success of the AlmaLinux project and shape its future.
+### 0. Gauge interest
 
+If you have an idea and want to see if there is interest in that idea, the first step is to gather a group of folks together that might want to work on that thing. You can do that by asking in the [chat](https://chat.almalinux.org), sending an email to the [users mailing list](https://lists.almalinux.org/mailman3/lists/users.lists.almalinux.org/), and posting on the [forums](https://almalinux.discourse.group/). 
 
-## Scope
+Once you have gathered a group (we recommend no fewer than 3, but that isn't true for every effort), it's time to start getting things lined up!
 
-This process is applicable to any individual or organization within the AlmaLinux community who wishes to establish a new SIG.
+### 1. Write a proposal for the board
 
-
-## Procedure
-
-
-### 1. Proposal Submission
-
-To initiate the process of creating a new SIG, a proposal must be submitted to the AlmaLinux OS Foundation Board. The proposal should include:
+To create a new SIG, a proposal must be submitted to and approved by the AlmaLinux OS Foundation Board. The proposal should include:
 
 <ol type="a">
   <li>A clear and concise title for the SIG.</li>
   <li>An overview of the SIG's objectives and goals.</li>
-  <li>A list of initial members, including at least one SIG Chair.</li>
-  <li>A detailed description of the SIG's intended activities and projects.</li>
+  <li>A list of initial members, including at least one SIG leader.</li>
+  <li>A description of the SIG's intended activities and projects.</li>
   <li>A proposed timeline for achieving the SIG's initial objectives.</li>
   <li>Any known required resources, such as infrastructure or funding.</li>
 </ol>
@@ -75,8 +71,6 @@ To maintain transparency and ensure progress towards the SIG's objectives, the S
   <li>Ensuring that SIG activities adhere to the AlmaLinux project's guidelines and policies.</li>
   <li>Coordinating the SIG's communication and collaboration with other SIGs and the broader AlmaLinux community</li>
 </ol>
-
-## 
 
 
 ## Additional Considerations
