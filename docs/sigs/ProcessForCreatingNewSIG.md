@@ -14,10 +14,12 @@ Once you have gathered a group (we recommend no fewer than 3, but that isn't tru
 
 ### 1. Write a proposal for the board
 
-To create a new SIG, a proposal must be submitted to and approved by the AlmaLinux OS Foundation Board. The proposal should include:
+To create a new SIG, a proposal must be submitted to and approved by the AlmaLinux OS Foundation Board. To create the proposal, clone this repo, make a copy of the [template](https://wiki.almalinux.org/sigs/sigproposaltemplate.html) file, title it for your SIG, and start filling things in! Once you are satisfied with the content of your proposal, submit a pull request to the wiki, and tag @bennyvasquez. She'll take a look and let you know if there are any concerns. 
+
+If none, she'll let you know the date of the board meeting at which your SIG proposal will be discussed! Members of the board or the community might comment and ask questions or provide feedback on your pull request ahead of the board meeting, so make sure to answer those questions as well as you can. At a minimum, your proposal should include:
 
 <ol type="a">
-  <li>A clear and concise title for the SIG.</li>
+  <li>A clear and concise name for the SIG.</li>
   <li>An overview of the SIG's objectives and goals.</li>
   <li>A list of initial members, including at least one SIG leader.</li>
   <li>A description of the SIG's intended activities and projects.</li>
@@ -25,47 +27,40 @@ To create a new SIG, a proposal must be submitted to and approved by the AlmaLin
   <li>Any known required resources, such as infrastructure or funding.</li>
 </ol>
 
+[template](https://wiki.almalinux.org/sigs/sigproposaltemplate.html)
+
 
 ### 2. Proposal Review
 
-Upon receiving a proposal, the AlmaLinux OS Foundation Board will review the submission to ensure it aligns with the project's goals and values. The review process includes:
+The job of the AlmaLinux OS Foundation Board in this process is to review the submission to ensure it aligns with the project's goals and values. The review process includes:
+
 <ol type="a">
   <li>Assessing the proposal's relevance to the AlmaLinux ecosystem.</li>
   <li>Evaluating the clarity and feasibility of the SIG's objectives and activities.</li>
-  <li>Reviewing the qualifications of the proposed SIG Chair and initial members.</li>
+  <li>Provide any insight or guidance that might be beneficial for the SIG.</li>
 </ol>
 
 
 ### 3. Feedback and Revision
 
-If the proposal requires modifications or additional information, the AlmaLinux OS Foundation Board will provide feedback to the proposers. The group of proposers will then have the opportunity to revise and resubmit the proposal, addressing the feedback provided.
+Though we hope to have provided all of the feedback ahead of time, if the board has additional thoughts about the proposal and requires modifications or additional information at the scheduled board meeting, the feedback will be provided to the proposers. The group of proposers will then have the opportunity to revise and resubmit the proposal, addressing the feedback provided.
 
 
 ### 4. Approval and Announcement
 
-Once the proposal has been reviewed and deemed acceptable, the AlmaLinux OS Foundation Board will formally approve the creation of the new SIG. The approval will be announced through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
+Once the proposal has been reviewed and deemed acceptable, the board will formally approve the creation of the new SIG, and the pull request will be merged into the wiki. The approval will be announced by the marketing SIG through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
+
 <ol type="a">
   <li>The title and objectives of the new SIG.</li>
-  <li>The names of the SIG Chair and initial members.</li>
-  <li>A link to the SIG's primary point of communication or wiki entry (if applicable).</li>
+  <li>A link to the SIG's wiki page.</li>
   <li>An invitation for interested community members to join the SIG.</li>
 </ol>
 
 
-### 5. SIG Formation
-
-Following the announcement, the new SIG will:
-<ol type="a">
-  <li>Establish a dedicated communication channel (e.g., mailing list, chat room, or forum) for members to collaborate and discuss SIG-related matters.</li>
-  <li>Create a public repository (if applicable) for storing and managing project resources and documentation.</li>
-  <li>Develop a roadmap and publish its goals in a publicly trackable way.</li>
-  <li>Assign tasks to SIG members, as applicable.</li>
-</ol>
-
-
-### 6. Reporting and Accountability
+### 5. Reporting and Accountability
 
 To maintain transparency and ensure progress towards the SIG's objectives, the SIG Chair will be responsible for:
+
 <ol type="a">
   <li>Providing regular status updates to the AlmaLinux OS Foundation Board.</li>
   <li>Ensuring that SIG activities adhere to the AlmaLinux project's guidelines and policies.</li>
@@ -88,9 +83,10 @@ To improve the integration of new SIGs within the AlmaLinux community, consider 
 
 ### A.2. SIG Decommissioning
 
-In the event a SIG becomes inactive, no longer serves its intended purpose, or does not align with the community's objectives, outline a process for decommissioning the SIG. This may include:
+In the event a SIG becomes inactive, no longer serves its intended purpose, or does not align with the community's objectives, the SIG may mark itself (or be marked) as inactive, or may be decommissioned. This may include:
+
 <ol type="a">
-  <li>Notifying the AlmaLinux OS Foundation Board of the intention to decommission the SIG.</li>
+  <li>Notifying the board and the community of the intention to decommission the SIG.</li>
   <li>Ensuring that all relevant documentation, resources, and knowledge are preserved and transferred to appropriate parties within the community.</li>
-  <li>Formally announcing the decommissioning of the SIG and providing a rationale for the decision.</li>
+  <li>Formally announcing the decommissioning of the SIG, updating the wiki page to reflect the decision and ideally providing a rationale for the decision.</li>
 </ol>
