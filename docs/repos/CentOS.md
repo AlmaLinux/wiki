@@ -63,7 +63,8 @@ The [Storage SIG](https://wiki.centos.org/SpecialInterestGroup/Storage) focuses 
 | Ceph 14 Nautilus | # dnf install centos-release-ceph-nautilus | - |
 | Ceph 15 Octopus | # dnf install centos-release-ceph-octopus | - |
 | Ceph 16 Pacific | # dnf install centos-release-ceph-pacific | # dnf install centos-release-ceph-pacific |
-| Ceph 17 Quincy | # dnf install centos-release-ceph-quincy | # dnf install centos-release-ceph-quincy |
+| Ceph 17 Quincy | # dnf install centos-release-ceph-quincy | - |
+| Ceph 18 Reef | # dnf install centos-release-ceph-reef | - |
 | GlusterFS 6 | # dnf install centos-release-gluster6 | - |
 | GlusterFS 7 | # dnf install centos-release-gluster7 | - |
 | GlusterFS 8 | # dnf install centos-release-gluster8 | - |
