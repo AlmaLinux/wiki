@@ -55,3 +55,6 @@ If you can help, please join us at [Core SIG on Mattermost](https://chat.almalin
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
+* [Simon John](mailto:sjohn@almalinux.org) - Security Standards Architect
+  * Chat login: [sej7278](https://chat.almalinux.org/almalinux/messages/@sej7278)
+  * GitHub profile: [sej7278](https://github.com/sej7278)
