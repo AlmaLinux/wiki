@@ -1,4 +1,4 @@
-# A04 ❯ Snapd Installation 
+# A04 ❯ Snapd Installation Guide
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
