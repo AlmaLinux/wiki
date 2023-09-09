@@ -35,7 +35,7 @@ module.exports = {
                 '/sigs/LiveMedia',
                 '/sigs/Marketing',
                 '/sigs/Migration',
-				'/sigs/ProcessForCreatingNewSIG'
+                '/sigs/ProcessForCreatingNewSIG'
               ]
            },
           ]
@@ -63,7 +63,32 @@ module.exports = {
                 title: 'Howto Series',
                 path: '/series/',
                 children: [
-                ]
+                  {
+                      title: "Nginx Series",
+                      path: '/series/nginx/',
+                      children: [
+                              '/series/nginx/NginxSeriesA01',
+                              '/series/nginx/NginxSeriesA02R8',
+                              '/series/nginx/NginxSeriesA02R91',
+                              '/series/nginx/NginxSeriesA02R92',
+                              '/series/nginx/NginxSeriesA03',
+                              '/series/nginx/NginxSeriesA04P1',
+                      ]
+                  },
+                  {
+                      title: "System Series",
+                      path: '/series/system/',
+                      children: [
+                              '/series/system/SystemSeriesA01',
+                              '/series/system/FirewalldSeriesA01',
+                              '/series/system/SystemSeriesA03',
+                              '/series/system/SystemSeriesA03R8',
+                              '/series/system/SystemSeriesA03R9',
+                              '/series/system/SystemSeriesA04',
+                              '/series/system/SystemSeriesA05',
+                      ]
+                  }
+              ]
             },
             {
                 title: 'Release Notes',
