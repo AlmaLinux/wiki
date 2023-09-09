@@ -145,25 +145,24 @@ sudo firewall-cmd --list-services
  sudo systemctl enable nginx 
  ```
 
-
 ## 📖 Release-Specific Installation
 
 <u>AlmaLinux version-specific examples:</u>
    
-   - Getting Started with Nginx ❯ **[AlmaLinux OS 8.x Installation Examples](NginxSeriesA01R8.html)**
-   - Getting Started with Nginx ❯ **[AlmaLinux OS 9.x Installation Examples](NginxSeriesA01R9.html)**
-   
+   - AlmaLinux Nginx Series ❯ [AlmaLinux OS 8.x Installation Examples](NginxSeriesA02R8)
+   - AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation Examples](NginxSeriesA02R91)
+   - AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation Examples](NginxSeriesA02R92)
 
 
 ## 📚 Further reading and Next Steps
 
 <u>In-depth Resources:</u>
 
-- AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA02)
-- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA03P1)
+- AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA03)
+- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1)
 
 
 <u>Related Resources:</u>
 - AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
-- AlmaLinux System Series ❯ [Application Streams](../system/../system/SystemSeriesA01)
+- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
 

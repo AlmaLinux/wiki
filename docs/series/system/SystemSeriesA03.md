@@ -60,6 +60,13 @@ WIP
 
 ## 📚 Further Reading and Next Steps
 
+    
+<u>In-depth Resources:</u>
+    
+- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](SystemSeriesA03R8)
+- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](SystemSeriesA03R9)
+
 <u>Related Resources:</u>
+
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
 - AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)

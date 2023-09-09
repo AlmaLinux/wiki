@@ -591,9 +591,10 @@ nginx version: nginx/1.23.3
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01)
 
 <u>In-depth Resources:</u>
-- Getting Started with Nginx ❯ [AlmaLinux OS 9.x Installation](NginxSeriesA01R9)
-- Getting Started with Nginx ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA01R92)
-- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA03P1)
+- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation](NginxSeriesA02R91)
+- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA02R92)
+- AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA03)
+- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1)
 
 <u>Related Resources:</u>
 - AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
