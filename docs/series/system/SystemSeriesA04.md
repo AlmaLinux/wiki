@@ -9,9 +9,7 @@
 
 ## 🌟 Introduction
 
-AlmaLinux OS :penguin: is 1:1 binary compatible with RHEL® and pre-Stream CentOS, so we install snapd the same way as it does on RHEL. :arrows_counterclockwise:
-
-The snap packages for AlmaLinux can be found in the Extra Packages for Enterprise Linux 2 (EPEL) repository. :package:
+The snap packages for AlmaLinux can be found in the Extra Packages for Enterprise Linux (EPEL) repository. :package:
 
 ## Enable EPEL repo :minidisc:
 If you haven’t done it yet, enable the EPEL repository for your AlmaLinux system:
