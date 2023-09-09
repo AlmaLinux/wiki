@@ -343,5 +343,5 @@ mysql-proxy     6446/udp                # MySQL Proxy
 - Firewalld Series ❯ [Advanced Configuration Guide](#) 🚧 -- Work In Progress (5/15) -- HELP NEEDED: psuchanecki@almalinux.org
 
 <u>Related Resources:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
-- AlmaLinux System Series ❯ [Application Streams](SystemSeriesA01)
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
+- AlmaLinux System Series ❯ [Application Streams](SystemSeriesA01.md)

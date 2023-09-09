@@ -588,17 +588,17 @@ nginx version: nginx/1.23.3
 ## 📚 Further reading and Next Steps
 
 <u>Get Back:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01)
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01.md)
 
 <u>In-depth Resources:</u>
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation](NginxSeriesA02R91)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA02R92)
-- AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA03)
-- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1)
+- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation](NginxSeriesA02R91.md)
+- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA02R92.md)
+- AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA03.md)
+- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1.md)
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
-- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01.md)
+- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01.md)
 
 
 
