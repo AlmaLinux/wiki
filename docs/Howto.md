@@ -19,12 +19,17 @@ title: 'Howtos'
 - [WordPress with Nginx, PHP 8.1, and MariaDB](https://thishosting.rocks/how-to-install-wordpress-on-almalinux/)
 - [Java](https://linuxstans.com/how-to-install-java-almalinux/)
 
+## Remote Desktop
+- [Remote Desktop Access with VNC](https://www.answertopia.com/almalinux/almalinux-remote-desktop-access-with-vnc/)
+- [Displaying Applications Remotely (X11 Forwarding)](https://www.answertopia.com/almalinux/displaying-almalinux-applications-remotely-x11-forwarding/)
+
 ## Virtualization 
 - [vagrant-libvirt plugin](https://docs.euro-linux.com/HowTo/vagrant-with-libvirt/)
 - [Docker CE](https://techviewleo.com/how-to-install-docker-ce-on-almalinux/)
 - [XCP-ng VM Tools](https://techviewleo.com/install-xcp-ng-vm-tools-on-centos-almalinux/)
 
 ## Authentication & Security
+- [Configuring SSH Key-based Authentication](https://www.answertopia.com/almalinux/configuring-ssh-key-based-authentication-on-almalinux/)
 - [Enabling SSH 2FA](https://www.techrepublic.com/article/how-to-enable-ssh-2fa-on-almalinux-for-more-secure-logins/)
 
 # ARM
