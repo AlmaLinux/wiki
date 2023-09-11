@@ -32,6 +32,12 @@ title: 'Howtos'
 - [Configuring SSH Key-based Authentication](https://www.answertopia.com/almalinux/configuring-ssh-key-based-authentication-on-almalinux/)
 - [Enabling SSH 2FA](https://www.techrepublic.com/article/how-to-enable-ssh-2fa-on-almalinux-for-more-secure-logins/)
 
+## Networking
+- [Network Configuration with NetworkManager](https://www.answertopia.com/almalinux/almalinux-network-management/)
+- [Firewall Configuration with firewalld](https://www.answertopia.com/almalinux/almalinux-firewall-configuration-with-firewalld/)
+- [NFS File Sharing](https://www.answertopia.com/almalinux/using-nfs-on-almalinux-to-share-files-with-remote-systems/)
+- [SAMBA File Sharing](https://www.answertopia.com/almalinux/sharing-files-between-almalinux-and-windows-with-samba/)
+
 # ARM
 - [ESXI ARM support](https://williamlam.com/2021/07/almalinux-os-8-4-on-esxi-arm.html)
 - [Raspberry Pi](https://github.com/AlmaLinux/raspberry-pi/)
