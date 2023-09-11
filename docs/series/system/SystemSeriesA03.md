@@ -12,8 +12,8 @@
 
 This guide provides instructions how to install NVIDIA's graphics driver for AlmaLinux in to variants:
 
-- **Binary Driver** [**8.x**](SystemSeriesA03R8) | [**9.x**](SystemSeriesA03R9) 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
-- **Compiling From Source** [**8.x**](SystemSeriesA03R8) | [**9.x**](SystemSeriesA03R9) ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
+- **Binary Driver** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
+- **Compiling From Source** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
 
 ## 🧠 Fundamental Concepts
 
@@ -63,10 +63,10 @@ WIP
     
 <u>In-depth Resources:</u>
     
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](SystemSeriesA03R8)
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](SystemSeriesA03R9)
+- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](SystemSeriesA03R8.md)
+- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](SystemSeriesA03R9.md)
 
 <u>Related Resources:</u>
 
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02)
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md)

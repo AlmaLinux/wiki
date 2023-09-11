@@ -127,14 +127,14 @@ sudo reboot
 
 <u>Get Back:</u>
 
-- AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](SystemSeriesA03)   
+- AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](SystemSeriesA03.md)   
 
 <u>In-depth Resources:</u>
     
-- AlmaLinux System Series ❯ [NVIDIA: Installation on 8.x](SystemSeriesA03R8)
+- AlmaLinux System Series ❯ [NVIDIA: Installation on 8.x](SystemSeriesA03R8.md)
 
 <u>Related Resources:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02)
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA0.md)
 
 
