@@ -163,6 +163,6 @@ sudo firewall-cmd --list-services
 
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01.md)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02.md)
 - AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01.md)
 

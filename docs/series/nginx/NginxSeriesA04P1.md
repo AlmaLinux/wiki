@@ -346,6 +346,6 @@ sudo setenforce 1
 <u>In-depth Resources:</u>
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02)
 - AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
 

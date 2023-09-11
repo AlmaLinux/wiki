@@ -268,9 +268,9 @@ Using `PROFILE=SYSTEM` can be useful when you want to rely on the system-wide ci
 
 <u>In-depth Resources:</u>
 
-- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1)
+- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1.md)
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02)
 - AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
  

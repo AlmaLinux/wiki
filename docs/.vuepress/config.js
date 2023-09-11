@@ -80,7 +80,7 @@ module.exports = {
                       path: '/series/system/',
                       children: [
                               '/series/system/SystemSeriesA01',
-                              '/series/system/FirewalldSeriesA01',
+                              '/series/system/SystemSeriesA02',
                               '/series/system/SystemSeriesA03',
                               '/series/system/SystemSeriesA03R8',
                               '/series/system/SystemSeriesA03R9',

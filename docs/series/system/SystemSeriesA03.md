@@ -12,8 +12,8 @@
 
 This guide provides instructions how to install NVIDIA's graphics driver for AlmaLinux in to variants:
 
-- **Binary Driver** [**8.x**](#) | [**9.x**]() 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
-- **Compiling From Source** [**8.x**]() | [**9.x**]() ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
+- **Binary Driver** [**8.x**](SystemSeriesA03R8) | [**9.x**](SystemSeriesA03R9) 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
+- **Compiling From Source** [**8.x**](SystemSeriesA03R8) | [**9.x**](SystemSeriesA03R9) ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
 
 ## 🧠 Fundamental Concepts
 
@@ -69,4 +69,4 @@ WIP
 <u>Related Resources:</u>
 
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02)

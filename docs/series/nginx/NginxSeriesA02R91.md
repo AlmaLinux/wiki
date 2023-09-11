@@ -236,5 +236,5 @@ nginx version: nginx/1.23.4
 - AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1.md)
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01.md)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02.md)
 - AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01.md)

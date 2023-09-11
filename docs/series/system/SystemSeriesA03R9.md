@@ -135,6 +135,6 @@ sudo reboot
 
 <u>Related Resources:</u>
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02)
 
 
