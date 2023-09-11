@@ -72,13 +72,15 @@ sudo firewall-cmd --reload
 - **Install Nginx**: Install Nginx using one of the three variants: default package repository, Appstream module, or Nginx repository.
 
    <u>Compatibility Matrix</u>
-   | Install Variant | 8.7 | 9.1|
-   |---------------- | ----|----|
-   | I. AppStream non-module  |  ❗¹ |  ✅ |
-   | II. AppStream module |  ✅ |  ❌ |
-   | III. Mainline repo  |  ✅ |  ✅ | 
+   | Install Variant | 8.7 | 9.1| 9.2 |
+   |--------------------|-----|----|-----|
+   | I. AppStream non-module  |  ❗¹ |  ✅ |  ❗² |
+   | II. AppStream module     |  ✅  |  ❌ |  ✅  | 
+   | III. Mainline repo       |  ✅  |  ✅ |  ✅  | 
     
   ¹ On 8.7, this will actually install the AppStream module.
+  <br>
+  ² Default version is outdated; AppStream module is recommended.
 
 
 
