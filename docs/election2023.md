@@ -16,7 +16,7 @@ At this stage we are looking for nominees for the Board of Director position. To
 * Be an AlmaLinux OS Foundation member for at least 3 months by Dec 1st, 2023
 * Be nominated by an AlmaLinux OS Foundation member in good standing
 
-To nominate someone email name & contact information of nominee to election2022@almalinux.org
+To nominate someone email name & contact information of nominee to election2023@almalinux.org
 
 Please, check FAQ section for more information.
 
@@ -38,7 +38,7 @@ Last updated --
   * Note: only members in good standing may nominate a potential board member, and each nominee must have a supporting member (you cannot nominate yourself).
 
 * How can I nominate someone?
-  * E-Mail name & contact information of nominee to election2022@almalinux.org
+  * E-Mail name & contact information of nominee to election2023@almalinux.org
 
 * My company is a member sponsor, can it nominate any company employee?
   * Yes, sponsors can nominate any company employee, but if the employee is terminated, or company sponsorship laps, the person may be asked to step down from the role.
