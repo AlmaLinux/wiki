@@ -169,6 +169,7 @@ module.exports = {
         children: [
          '/Transparency',
          '/Election2022',
+         '/election2023',
          '/gsoc',
         ]
      },
