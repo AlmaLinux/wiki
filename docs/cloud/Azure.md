@@ -24,7 +24,7 @@ The Azure Marketplace is a curated digital catalog used to find, deploy and mana
 
 The official images can be found below:
 
-* [x86_64/AMD64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-hpc?tab=Overview)
+* [x86_64/AMD64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-x86_64?tab=Overview)
 * [AArch64/ARM64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-arm?tab=Overview)
 * [HPC](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-hpc?tab=Overview)
 
