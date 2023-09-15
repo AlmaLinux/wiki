@@ -22,7 +22,11 @@ To use an image in a program, you will need to send an [ImageReference](https://
 ## Azure Marketplace
 The Azure Marketplace is a curated digital catalog used to find, deploy and manage software offerings. All Azure Marketplace products undergo thorough review and vetting by the Azure team to ensure security and quality. Additionally, the AlmaLinux image has gone through significant automated testing with Microsoft's test suite to ensure compatibility across a wide range of Azure compute resources.
 
-The [official AlmaLinux OS 8 image](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux) is available via the Azure Marketplace at the link provided.
+The official images can be found below:
+
+* [x86_64/AMD64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-hpc?tab=Overview)
+* [AArch64/ARM64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-arm?tab=Overview)
+* [HPC](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.almalinux-hpc?tab=Overview)
 
 The Azure Marketplace makes new images available more slowly than the Community Gallery.  It also requires each subscription using AlmaLinux for the first time to accept a EULA before successfully creating any VM with the offering.
 
