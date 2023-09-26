@@ -7,17 +7,17 @@ title: 'FAQ'
 
 ### What is AlmaLinux?
 
-AlmaLinux OS is a community-owned and driven, stable and secure *Linux®* distribution that is ABI compatible with *RHEL*.
+AlmaLinux OS is a community-owned and driven, stable and secure *Linux®* distribution that is binary compatible with *RHEL*.
 
 ### Can I do X, Y, or Z with AlmaLinux?
 
 Sure! AlmaLinux OS, much like RHEL and CentOS Stream is a general purpose operating system. If it works with upstream (RHEL) then it should work exactly the same on AlmaLinux. We are not 1:1 with CentOS Stream, as Stream may at points track ahead of our releases. 
 
-### Will you always be ABI compatible with RHEL?
+### Will you always be binary compatible with RHEL?
 
 Unless RHEL dramatically shifts development direction (again), our response will continue to be yes. 
 
-In July 2023 we changed directions from a 1:1 binary downstream rebuild of RHEL to a goal of ABI compatibility. You can read more about that on our [blog](https://almalinux.org/blog/impact-of-rhel-changes/).
+In July 2023 we changed directions from a 1:1 binary downstream rebuild of RHEL to a goal of binary compatibility. You can read more about that on our [blog](https://almalinux.org/blog/impact-of-rhel-changes/).
 
 ### Where did the name "AlmaLinux" come from?
 
@@ -64,7 +64,7 @@ You can read more details and find guide steps on the [Migration](/documentation
 
 ### How do I migrate an entire fleet of servers from CentOS to AlmaLinux?
 
-Yes.  AlmaLinux is ABI compatible with RHEL, which means that your applications and services should be completely interoperable. For that reason, you can rapidly migrate any number of servers using the [migration tool](https://github.com/AlmaLinux/almalinux-deploy).
+Yes.  AlmaLinux is binary compatible with RHEL, which means that your applications and services should be completely interoperable. For that reason, you can rapidly migrate any number of servers using the [migration tool](https://github.com/AlmaLinux/almalinux-deploy).
 
 ### How do I migrate from CentOS 7 to AlmaLinux 8?
 
@@ -85,7 +85,7 @@ The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stabl
 
 #### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
 
-Since AlmaLinux is ABI compatible with RHEL, most of the bugs users might encounter would be part of of RHEL. When a bug is encountered, it should be confirmed in CentOS Stream or (if possible) RHEL. If bugs are confirmed to be part of the upstream, AlmaLinux recommends following an "upstream first" approach to fix these bugs by submitting them to [CentOS Stream](https://centos.org/centos-stream/).  This is the contribution path to get the bug fix into RHEL, which will in turn be rebuilt into AlmaLinux.
+Since AlmaLinux is binary compatible with RHEL, most of the bugs users might encounter would be part of of RHEL. When a bug is encountered, it should be confirmed in CentOS Stream or (if possible) RHEL. If bugs are confirmed to be part of the upstream, AlmaLinux recommends following an "upstream first" approach to fix these bugs by submitting them to [CentOS Stream](https://centos.org/centos-stream/).  This is the contribution path to get the bug fix into RHEL, which will in turn be rebuilt into AlmaLinux.
 
 #### Bug Tracker 
 
