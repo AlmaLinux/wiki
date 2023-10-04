@@ -47,7 +47,7 @@ That Ansible scenario prepare your machine to building a distribution
 2. Go to subdirectory `build_scripts` in the cloned repo
 3. Run building a distribution by command
 ```
-python3 jenkins.py --working-root-directory <working_root_directory> --arch <arch> --product-name AlmaLinux  --distribution-major-version <major_version>  --distribution-minor-version <minor_version> --beta-suffix <beta_suffix> --sigkeys-fingerprints <fingerprint_1> <fingerprint_2> --git-auth-token <git_auth_token> --git-auth-username <git_auth_username>
+python3.9 jenkins.py --working-root-directory <working_root_directory> --arch <arch> --product-name AlmaLinux  --distribution-major-version <major_version>  --distribution-minor-version <minor_version> --beta-suffix <beta_suffix> --sigkeys-fingerprints <fingerprint_1> <fingerprint_2> --git-auth-token <git_auth_token> --git-auth-username <git_auth_username>
 ```
 there are
    1. "working_root_directory" is value of parameter `work_directory_path` from the previous section

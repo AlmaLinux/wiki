@@ -46,6 +46,7 @@ module.exports = {
           '/documentation/building-packages-guide',
           '/development/Modified-packages',
           '/development/Packaging',
+          '/development/Build-AL-distribution',
         ]
      },
      {
