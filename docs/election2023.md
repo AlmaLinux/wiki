@@ -25,11 +25,11 @@ Please, check FAQ section for more information.
 Last updated --
 
 # Election Committee
-* [Abdullah As-Sadeed](https://github.com/Abdullah-As-Sadeed)
-* Jing Luo
+* ![image](/images/elections2023/Abdullah_As-Sadeed-small.png) [Abdullah As-Sadeed](https://github.com/Abdullah-As-Sadeed)
+* ![image](/images/elections2023/JING_LUO.png) Jing Luo
 * Radhesh Goel
-* [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/)
-* [Igor Seletskiy](https://www.linkedin.com/in/iseletsk/)
+* ![image](/images/elections2023/Benny-small.jpg) [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/)
+* ![image](/images/elections2023/igor-small.jpg) [Igor Seletskiy](https://www.linkedin.com/in/iseletsk/)
 
 ## FAQ
 
