@@ -44,11 +44,12 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 | Logo License for the foundation | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed | DONE - all assets in the Google drive | 
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
-<!-- To add minutes to this list, export the approved minutes from the meeting folder as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF -->
+<!-- To add minutes to this list, export the approved minutes from the meeting as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF here -->
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- Oct   , 2023 [Board meeting #26 agenda](https://docs.google.com/document/d/1vYokazlL5IKtKb_uUszwWYXWP6VLzb49lsTsOMdKASM/edit?usp=sharing)
+- Nov 08, 2023 [Board meeting #27 agenda](https://docs.google.com/document/d/14h7iUTy3k_0UEehAV4LF_sAw_e4XDraB3p0z1hPDI_w/)
+- Oct 18, 2023 [Board meeting #26 minutes](https://drive.google.com/file/d/1tcAdwSuxb36LkBbY0pF0XDMlp02lLmTS/view?usp=drive_link)
 - Sep 13, 2023 [Board meeting #25 minutes](https://drive.google.com/file/d/11whNmCaARxwlYhni_htvejf10NJNBCWJ/view)
 - Aug 09, 2023 [Board meeting #24 minutes](https://drive.google.com/file/d/1aCoa7jZeBE5F1m3rXdORxJ80Ry6eCYGi/view)
 - Jul 12, 2032 [Board meeting #23 minutes](https://drive.google.com/file/d/13q6udmzAEqHIoPf2cQJ-QJrYosaFWd_m/view)
