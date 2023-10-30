@@ -21,8 +21,9 @@ To nominate someone email name & contact information of nominee to elections@alm
 Please, check FAQ section for more information.
 
 # Nominees 
+* ![image](/images/elections2023/AlexIribarren-small.jpg) [Alex Iribarren](https://www.linkedin.com/in/iribarren/) - Alex has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates.
 
-Last updated --
+Last updated Oct 30, 2023
 
 # Election Committee
 * ![image](/images/elections2023/Abdullah_As-Sadeed-small.png) [Abdullah As-Sadeed](https://github.com/Abdullah-As-Sadeed)
