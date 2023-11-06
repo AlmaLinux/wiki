@@ -4,7 +4,7 @@ title: "Special interest groups"
 
 # Special interest groups
 
-Special interest groups (SIGs) are teams within the AlmaLinux OS community that are focused on specific topics. Each SIG has its own channel on our [Mattermost](https://mattermost.com/) chat server [chat.almalinux.org](https://chat.almalinux.org/).
+Special interest groups (SIGs) are teams within the AlmaLinux OS community that are focused on specific topics. Each SIG has its own channel on our [Mattermost](https://mattermost.com/) chat server [chat.almalinux.org](https://chat.almalinux.org/), but may communicate and work in different ways. Each SIG's details are found in the pages below. 
 
 The following SIGs are already established:
 

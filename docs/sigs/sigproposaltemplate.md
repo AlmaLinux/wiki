@@ -15,15 +15,7 @@ We use $platform for communication. [ this should either be a link to the SIG ch
 
 **Where and when we meet**
 
-Meetings are... [ this should be a general day/time/cadence, and indicate how one might join this meeting if they'd like ]
-
-### SIG members
-
-
-* [name](either email address or mattermost chat link) - Committee lead
-* [name](either email address or mattermost chat link) - member
-
-( you can also include additional information about other folks that help your SIG or are involved in some way here )
+Meetings are... [ this should be a general day/time/cadence, and indicate how one might join this meeting if they'd like, or use "We do not currently hold regular meetings, but work asynchronously in mattermost to accomplish our goals." ]
 
 ## Activities, projects, and deliverables
 
@@ -34,6 +26,13 @@ Meetings are... [ this should be a general day/time/cadence, and indicate how on
 Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, here are a few things that need help soon, and a place where you can find more information.
 
 [ either a list of things or a link to a project/task tracker should go here ]
+
+## SIG members
+
+* [name](either email address or mattermost chat link) - Committee lead
+* [name](either email address or mattermost chat link) - member
+
+(you can also include additional information about other folks that help your SIG or are involved in some way here)
 
 ## Additional information for SIG application approval
 

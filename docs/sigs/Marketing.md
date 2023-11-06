@@ -15,18 +15,7 @@ We use the [~Marketing](https://chat.almalinux.org/almalinux/channels/marketing)
 
 **Where/how we meet**
 
-Meetings are every other Friday on Google Meet at 3pm UTC. Join the Marketing channel on [chat.almalinux.org](https://chat.almalinux.org/almalinux/channels/marketing) and ask benny for the meeting invite! Our meeting notes are kept in [Google drive](https://docs.google.com/document/d/1OK8mQSU-EucCT-VdFVOd87BECmVSXIKXkG7uhLubs9o/edit#heading=h.9ynhotw081jk).
-
-### SIG members
-
-These members share responsibilities between and among each other.
-
-* [benny Vasquez](mailto:benny@almalinux.org) - SIG leader
-* [Jack Aboutboul](mailto:jack@almalinux.org) - Member
-* [Jonathan Wright](mailto:jonathan@almalinux.org) - Member 
-* [Cody Robertson](mailto:crobertson@almalinux.org) - Member 
-
-We also have a variety of folks who help us with PR, social media, and website maintenance through submissions to chat or just PRs to the [website repo](https://github.com/AlmaLinux/almalinux.org).
+Meetings are every other Thursday on Google Meet at 9pm UTC. Join the Marketing channel on [chat.almalinux.org](https://chat.almalinux.org/almalinux/channels/marketing) and ask benny for the meeting invite! Our meeting notes are kept in [Google drive](https://docs.google.com/document/d/1OK8mQSU-EucCT-VdFVOd87BECmVSXIKXkG7uhLubs9o/edit#heading=h.9ynhotw081jk).
 
 ## Activities, projects, and deliverables
 
@@ -48,12 +37,24 @@ Other efforts that we manage:
 
 Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, here are a few things that need help soon, and a place where you can find more information.
 
-* Event staffers -- help us expand the number of events we can join by helping us staff events local to you!
+* Mastodon automation - we use Sprout Social for scheduling ahead of tiem right now, but it doens't work with mastodon! 
+* Event management and staffing -- help us expand the number of events we can join by helping us staff events local to you!
 * Content writers -- especially for the blog and social media
 * Website maintainers -- our Hugo migration is complete, but we need to clean it up
 * Graphic designers -- we have sticker ideas, but they aren't nearly as pretty as they could be!
 
 We have tons of ideas and bugs on the [website repo](https://github.com/AlmaLinux/almalinux.org) and on [GitHub Projects](https://github.com/orgs/AlmaLinux/projects/5/views/1).
+
+## SIG members
+
+These members share responsibilities between and among each other.
+
+* [benny Vasquez](mailto:benny@almalinux.org) - SIG leader
+* [Jack Aboutboul](mailto:jack@almalinux.org) - Member
+* [Jonathan Wright](mailto:jonathan@almalinux.org) - Member 
+* [Cody Robertson](mailto:crobertson@almalinux.org) - Member 
+
+We also have a variety of folks who help us with PR, social media, and website maintenance through submissions to chat or just PRs to the [website repo](https://github.com/AlmaLinux/almalinux.org).
 
 ## Social Media Accounts
 
@@ -74,5 +75,3 @@ These accounts are only in place to keep the name owned by us, and to point folk
 
 * [Youtube](https://www.youtube.com/@almalinux6891) - benny and Jack have 'owner' rights
 * [BlueSky](bsky.app/almalinux) - password in Vaultwarden
-
-
