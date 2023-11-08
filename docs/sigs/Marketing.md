@@ -37,7 +37,7 @@ Other efforts that we manage:
 
 Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, here are a few things that need help soon, and a place where you can find more information.
 
-* Mastodon automation - we use Sprout Social for scheduling ahead of tiem right now, but it doens't work with mastodon! 
+* Mastodon automation - we use Sprout Social for scheduling ahead of time right now, but it doesn't work with mastodon! 
 * Event management and staffing -- help us expand the number of events we can join by helping us staff events local to you!
 * Content writers -- especially for the blog and social media
 * Website maintainers -- our Hugo migration is complete, but we need to clean it up
