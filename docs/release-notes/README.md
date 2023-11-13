@@ -12,6 +12,7 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 | Release | Codename | General Availability Date | Kernel |
 |---|---|---|---|
+| [9.3](/release-notes/9.3)| Shamrock Pampas Cat | 13 November 2023 | 5.14.0-362.8.1 | 
 | [9.2](/release-notes/9.2) | Turquoise Kodkod | 10 May 2023 | 5.14.0-284.11.1 |
 | [9.1](/release-notes/9.1) | Lime Lynx | 16 November 2022 | 5.14.0-162.6.1 |
 | [9.0](/release-notes/9.0) | Emerald Puma | 26 May 2022 | 5.14.0-70.13.1 |
