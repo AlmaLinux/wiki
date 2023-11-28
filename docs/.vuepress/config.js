@@ -161,6 +161,7 @@ module.exports = {
               path: '/elevate/',
               children: [
                 '/elevate/Contribution-guide',
+                '/elevate/ELevating-CentOS7-to-AlmaLinux-9',
                 '/elevate/ELevate-frequent-issues',
                 '/elevate/ELevate-testing-guide',
                 '/elevate/ELevate-quickstart-guide',
