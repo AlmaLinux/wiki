@@ -14,6 +14,8 @@ The ELevate project only supports official operating systems repositories. It do
 
 This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
 
+Please note that the ELevate project is designed to perform one-step migrations. If you wish to perform a two-steps migration from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
+
 Currently, the following migration directions are available:
 
 ![image](/images/ELevate-scheme.svg)
