@@ -9,7 +9,8 @@ The ELevate project is an initiative to support migrations between major version
 # Available migration paths 
 
 :::danger
-The ELevate project only supports official operating systems repositories. It doesn’t support external repositories like EPEL. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
+At present, the ELevate project only supports official operating systems repositories. As for external repositories, EPEL support for CentOS 7 to EL8 derivatives is currently in testing and so, the [ELevate Testing Guide](/elevate/ELevate-testing-guide) should be followed. 
+For known and frequent issues, please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page.
 :::
 
 There are several ways to perform upgrade these days. Here is the list to see which migration directions are available:

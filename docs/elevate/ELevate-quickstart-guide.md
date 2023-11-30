@@ -9,7 +9,8 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 :::
 
 :::danger
-The ELevate project only supports official operating systems repositories. It doesn’t support external repositories like EPEL. Please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues.
+At present, the ELevate project only supports official operating systems repositories. As for external repositories, EPEL support for CentOS 7 to EL8 derivatives is currently in testing and so, the [ELevate Testing Guide](/elevate/ELevate-testing-guide) should be followed. 
+For known and frequent issues, please, check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page.
 :::
 
 This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
