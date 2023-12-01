@@ -21,7 +21,7 @@ To nominate someone email name & contact information of nominee to elections@alm
 Please, check FAQ section for more information.
 
 # Nominees 
-* ![image](/images/elections2023/AlexIribarren-small.jpg) [Alex Iribarren](https://www.linkedin.com/in/iribarren/) - Alex has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates.
+* ![image](/images/elections2023/AlexIribarren-small.jpg) [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - Alejandro has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates.
 * ![Image](/images/elections2023/JunYoshida-small.jpg) [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is an Executive Officer of CyberTrust Japan and a member of the AlmaLinux community. He has been a strong advocate for AlmaLinux in Japan.
 
 Last updated Oct 31, 2023
