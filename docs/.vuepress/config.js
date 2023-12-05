@@ -62,6 +62,7 @@ module.exports = {
                 title: 'Howto Series',
                 path: '/series/',
                 children: [
+                  '/series/building-almalinux-iso-locally',
                 ]
             },
             {
