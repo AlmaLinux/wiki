@@ -5,9 +5,9 @@ title: 'Election 2023'
 
 # 2023 - Election Results
 
-Board Members:
-[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)
-[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)
+New Board Members:
+- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)
+- [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)
 
 ## Votes cast
 
