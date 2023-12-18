@@ -9,18 +9,18 @@ Board Members:
 [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)
 [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)
 
+## Votes cast
 
-
-Member & Mirrors 351 / 200
+Contributor and Mirror members, 200 voters out of 351 possible
 |[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|171|
 |[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|122|
-Platinum 2 / 1
+Platinum members, 1 voter, out of 2 possible
 |[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|0|
 |[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|1|
-Gold 3 / 2
+Gold members, 2 voters out of 3 possible
 |[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|1|
 |[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|1|
-Silver 11/7
+Silver members, 7 voters out of 11 possible
 |[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|7|
 |[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|3|
 

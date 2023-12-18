@@ -13,6 +13,8 @@ As of September 20, 2022, the foundation has a seven board directors.
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
 - [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
+- [Alex Iribarren](https://www.linkedin.com/in/iribarren/) 
+- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)
 
 ## First board elections
 
@@ -48,7 +50,8 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- Dec 13, 2023 [Board meeting #28 agenda](https://docs.google.com/document/d/1BFQplUUuxReYsQdKt3279ls6FwmsnzLoMuVjsEDa9cs)
+- Jan  , 2024 [Board meeting #29 agenda](https://docs.google.com/document/d/15KWe01ctwfew2LGt7mWgu9kuS1cqNgCBLl70a9gN0Ag/edit)
+- Dec 13, 2023 [Board meeting #28 minutes](https://drive.google.com/file/d/1s-AyjmpykKkoO8h0khlIVj6Rqw8x2hEy/view)
 - Nov 08, 2023 [Board meeting #27 minutes](https://drive.google.com/file/d/1mrl35cc1ASpqqvmHxzdxFfMJKja5574H/view)
 - Oct 18, 2023 [Board meeting #26 minutes](https://drive.google.com/file/d/1tcAdwSuxb36LkBbY0pF0XDMlp02lLmTS/view)
 - Sep 13, 2023 [Board meeting #25 minutes](https://drive.google.com/file/d/11whNmCaARxwlYhni_htvejf10NJNBCWJ/view)
