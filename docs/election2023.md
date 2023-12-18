@@ -11,18 +11,20 @@ Board Members:
 
 ## Votes cast
 
-Contributor and Mirror members, 200 voters out of 351 possible
-[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 171
-[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 122
-Platinum members, 1 voter, out of 2 possible
-[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 0
-[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 1
-Gold members, 2 voters out of 3 possible
-[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 1
-[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 1
-Silver members, 7 voters out of 11 possible
-[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 7
-[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 3
+### Contributor and Mirror members, 200 voters out of 351 possible
+- [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 171
+- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 122
+
+### Platinum members, 1 voter, out of 2 possible
+- [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 0
+- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 1
+### Gold members, 2 voters out of 3 possible
+- [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 1
+- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 1
+
+### Silver members, 7 voters out of 11 possible
+- [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - 7
+- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - 3
 
 # Process
 
