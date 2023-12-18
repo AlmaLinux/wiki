@@ -5,7 +5,24 @@ title: 'Election 2023'
 
 # 2023 - Election Results
 
-To be announced after the election concludes
+Board Members:
+[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)
+[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)
+
+
+
+Member & Mirrors 351 / 200
+|[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|171|
+|[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|122|
+Platinum 2 / 1
+|[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|0|
+|[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|1|
+Gold 3 / 2
+|[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|1|
+|[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|1|
+Silver 11/7
+|[Alejandro Iribarren](https://www.linkedin.com/in/iribarren/)|7|
+|[Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/)|3|
 
 # Process
 
@@ -21,8 +38,8 @@ To nominate someone email name & contact information of nominee to elections@alm
 Please, check FAQ section for more information.
 
 # Nominees 
-* ![image](/images/elections2023/AlexIribarren-small.jpg) [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - Alejandro has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates.
-* ![Image](/images/elections2023/JunYoshida-small.jpg) [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is an Executive Officer of CyberTrust Japan and a member of the AlmaLinux community. He has been a strong advocate for AlmaLinux in Japan.
+* ![image](/images/elections2023/AlexIribarren-small.jpg) [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - Alejandro has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates. _nominated by Ben Morris_
+* ![Image](/images/elections2023/JunYoshida-small.jpg) [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is an Executive Officer of CyberTrust Japan and a member of the AlmaLinux community. He has been a strong advocate for AlmaLinux in Japan. _nominated by Koichiro Iwao_
 
 Last updated Dec 1, 2023
 
