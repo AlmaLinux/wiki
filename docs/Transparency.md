@@ -17,7 +17,7 @@ As of December 17, 2023, the foundation has a 9 board directors.
 - [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is a current Director at AlmaLinux, and is the driving force behind MIRACLE LINUX
 
 Non-voting invited experts to the board
-- [David Snead](https://www.linkedin.com/in/davidsnead) - David is the current 
+- [David Snead](https://www.linkedin.com/in/davidsnead) - David is the current Legal Counsel at WebPros and acts in a general advisory role for the AlmaLinux OS Foundation board
 
 ## First board elections
 
