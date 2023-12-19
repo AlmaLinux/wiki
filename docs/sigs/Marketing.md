@@ -3,7 +3,7 @@ title: "Marketing SIG"
 ---
 # Marketing SIG
 
-The Marketing team is responsible for AlmaLinux marketing efforts.
+The Marketing team is responsible for AlmaLinux marketing and outreach efforts. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise linux distribution to find us.
 
 ## How to Join
 
@@ -57,11 +57,19 @@ These members share responsibilities between and among each other.
 
 We also have a variety of folks who help us with PR, social media, and website maintenance through submissions to chat or just PRs to the [website repo](https://github.com/AlmaLinux/almalinux.org).
 
-## Social Media Accounts
+# Marketing accounts
+
+Here is where we track the different accounts that marketing uses, and who has admin rights for them.
+
+### Various marketing-adjacent accounts
+
+* [Canva](https://canva.com) - we have a free Pro teams account - benny has admin/owner rights
+
+### Social Media Accounts
 
 We currently have a number of social media accounts that are managed by the SIG members. 
 
-### Active accounts
+#### Active accounts
 
 These accounts are actively monitored, updated, and managed by the SIG on a regular basis. 
 
@@ -70,7 +78,7 @@ These accounts are actively monitored, updated, and managed by the SIG on a regu
 * [Facebook](https://www.facebook.com/AlmaLinux/) - password in Vaultwarden
 * [LinkedIn](https://www.linkedin.com/company/almalinuxos/) - benny and Jack have 'owner' rights
 
-### Inactive (placeholder) accounts
+#### Inactive (placeholder) accounts
 
 These accounts are only in place to keep the name owned by us, and to point folks to our active accounts.
 

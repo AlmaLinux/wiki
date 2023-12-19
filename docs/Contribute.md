@@ -17,28 +17,9 @@ You can find more information about how these, and other cloud images are built 
 
 ## Specific Areas We Need Help With 
 
-### 1. Volunteer Technical Community Coordinator for ELevate Project
+Each SIG has their own specific focus areas that are looking for help, but here are some more general ones!
 
-We are looking for a volunteer Technical Community Coordinator to figure out what the community needs & wants from the AlmaLinux ELevate project. One of your primary responsibilities is to provide direction to the AlmaLinux OS engineers to help decide "what is next for the ELevate Project". As a Technical Community Coordinator, you'll engage with the community and schedule meetings with the AlmaLinux OS team.
-
-**Duties and Responsibilities**
-- Coordinate community and AlmaLinux ELevate team
-- Consult and help users with ELevate Project
-- Check all possible bug sources (bugs.almalinux.org, forum, GitHub) and escalate to the ELevate team if the bug requires coding
-- Provide direction to the AlmaLinux ELevate team according to the feedback from the community and volunteers
-- Schedule meetings with the community and AlmaLinux ELevate team
-- Use social media to understand the community's needs
-
-**Requirements and Qualifications**
-- Advanced English speaking and writing skills
-- Experience with AlmaLinux OS
-- Experience as a community planner or organizer
-- Management and organizational skills
-- High communication skills
-
-If you are willing to help, email us at [volunteer@almalinux.org](mailto:volunteer@almalinux.org).
-
-### 2. Help with reporting bugs and making fixes
+### 1.  Help with reporting bugs and making fixes
 
 To make AlmaLinux successful, we need the close involvement of the community
 members. We use our bug tracking system to find, track, and fix bugs. We
@@ -46,7 +27,7 @@ encourage AlmaLinux users to help us by filling in bug-reports. You can track an
 discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 
-### 3. Improve the documentation
+### 2. Improve the documentation
 
 It makes no sense to talk about the importance of documentation, it is like
 an investment in the future. It can take time and energy, but it is 
@@ -76,13 +57,14 @@ easy to run it locally (run all commands from the project's root):
 
 ### 4. Help with Azure mirrors deployment
 
-We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic.
-More info [here](/cloud/Azure).
+We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic. More info [here](/cloud/Azure).
 
 ### 5. More ways to help for DevOps & Programmers
+
 - Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
 - Help with our [cloud infrastructure maintenance](/sigs/Cloud.html#help-wanted)
 
 
 ## Need assistance? We are here to help!
+
 If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. You can contact our AlmaLinux Evangelist & PM, Pawel. He's available as [pawel @ Mattermost chat](https://chat.almalinux.org/almalinux/messages/@pawel) or via email at [PSUchanecki@almalinux.org](mailto:psuchanecki@almalinux.org).
