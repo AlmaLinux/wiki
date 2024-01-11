@@ -29,7 +29,7 @@ Explore the articles in the System series:
 - [A04](system/SystemSeriesA04.md) ❯ Snapd Installation Guide
 - [A05](system/SystemSeriesA05.md) ❯ Multimedia Codecs Installation Guide
 
-Dive into our Howto series and unlock the full potential of AlmaLinux. Happy learning! 🎓🐧
+Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hacking! 🐧💻🚀
 
 ----
 
