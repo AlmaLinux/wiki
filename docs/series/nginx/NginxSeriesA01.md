@@ -46,7 +46,7 @@ There are three ways of installing Nginx on AlmaLinux 8.x and 9.x:
   -- Allows installation of a specific version for compatibility reasons
  - **F5 Networks repository** 
  -- Involves defining a new repository data for your system
- -- Installs a latest RPM package from external main-line repository
+ -- Installs the latest RPM package from external main-line repository
  -- Allows always running the latest version of Nginx
 
 

@@ -44,7 +44,7 @@ Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hac
 
 **NVIDIA** is a registered trademark of NVIDIA Corporation in the U.S. and other countries.
 
-**Red Hat** is registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries.
+**Red Hat** is a registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries.
 
 **Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
 

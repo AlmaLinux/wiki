@@ -23,13 +23,13 @@ DKMS is a system utility that allows you to automatically build kernel modules.
 
 ### ELRepo Kernel
 
-ELRepo is a community repository for Enterprise Linux distributions (e.g., RHEL, CentOS, AlmaLinux). It focuses on hardware-related packages to enhance your Linux experience. This is repo provides a kernel (packages) which tracks mainline kernel very closely. In result, this kernel is updated frequently and sometimes it leads to temporary incompatiblity with NVIDIA driver sources.
+ELRepo is a community repository for Enterprise Linux distributions (e.g., RHEL, CentOS, AlmaLinux). It focuses on hardware-related packages to enhance your Linux experience. This repo provides a kernel (packages) which tracks mainline kernel very closely. In result, this kernel is updated frequently and sometimes it leads to temporary incompatiblity with NVIDIA driver sources.
 
 ### NVIDIA Drivers Source
 Install the NVIDIA graphics driver using the DKMS (Dynamic Kernel Module Support). Needs switching the kernel to ELRepo kernel version.
 
 ### NVIDIA Precompiled/Binary Drivers
-NVIDIA compiles and tests this driver each precise kernel version. Installing it locks your kernel upgrade with (driver). It is the recommended way according to NVIDIA.
+NVIDIA compiles and tests this driver for each precise kernel version. Installing it locks your kernel upgrade (with driver). It is the recommended way according to NVIDIA.
 
 
 ## 📖 Release-Specific Installation

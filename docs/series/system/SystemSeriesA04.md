@@ -60,5 +60,5 @@ Congratulations, snapd is now installed and fully operational! :tada:
 
 ### Optional: for Desktop Users :desktop_computer:
 
-If you’re using a desktop environment, consider installing the Snap Store app (https://forum.snapcraft.io/t/installing-the-snap-store-app/10077) :shopping_bags:
+If you’re using a desktop environment, consider installing the Snap Store app (https://forum.snapcraft.io/t/installing-the-snap-store-app/10077) 🛍️  
 
