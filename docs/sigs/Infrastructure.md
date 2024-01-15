@@ -3,14 +3,21 @@ title: "Infrastructure SIG"
 ---
 # Infrastructure SIG
 
-The infrastructure team is responsible for maintaining the servers and services that keep AlmaLinux online and
-accessible to end users.
+The infrastructure team is responsible for maintaining the servers and services that keep AlmaLinux online and accessible to end users.
 
-The Infrastructure SIG uses the [Infrastructure](https://chat.almalinux.org/almalinux/channels/infrastructure)
-chat channel and the [Infrastructure mailing list](https://lists.almalinux.org/mailman3/lists/infra.lists.almalinux.org/) for communication.
+## How to Join
 
+Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple. 
 
-## Deliverables
+**Where we chat**
+
+The Infrastructure SIG uses the [Infrastructure](https://chat.almalinux.org/almalinux/channels/infrastructure) chat channel and the [Infrastructure mailing list](https://lists.almalinux.org/mailman3/lists/infra.lists.almalinux.org/) for communication.
+
+**Where and when we meet**
+
+We don't currently hold regular meetings, but work asynchronously in mattermost to accomplish our goals. 
+
+## Activities, projects, and deliverables
 
 * Mirror infrastructure: [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors)
 * Official mirrors:
@@ -33,13 +40,12 @@ chat channel and the [Infrastructure mailing list](https://lists.almalinux.org/m
   * [Bug Reports](https://bugs.almalinux.org)
 
 
-## Help wanted
+### Help wanted
 
 * Building Ansible playbooks for maintaining internal infrastructure.
-* TBD
+* much, much more.
 
-If you can help, please join us at [Infrastructure channel](https://chat.almalinux.org/almalinux/channels/infrastructure) 
-
+If you would like to help, please join us at [Infrastructure channel](https://chat.almalinux.org/almalinux/channels/infrastructure) 
 
 ## SIG members
 
@@ -49,9 +55,7 @@ If you can help, please join us at [Infrastructure channel](https://chat.almalin
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Architect
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release
-  engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the
-  company efforts on the AlmaLinux OS development and support.
+* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
   * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
   * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer

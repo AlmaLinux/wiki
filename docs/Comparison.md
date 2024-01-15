@@ -1,11 +1,11 @@
 ---
-title: "EL8 Distro Comparison"
+title: "EL Distro Comparison"
 ---
 
 | Benchmarking against RHEL                  | AlmaLinux                | Oracle Linux                                   | Rocky Linux                                 | CentOS Stream     | CentOS Linux      |
 | -------------------------------------------|--------------------------|------------------------------------------------|-------------------------------------------- |-------------------|-------------------|
 |Production Version                          | Since March 2021         | Since 2006                                     | Since June 2021                             | Since 2019        | Since 2004        |
-|Strives 1:1 binary RHEL binary compatibility| Yes                      | Yes                                            | Yes                          | Compatible within the limits of the [ACG][acg] | Yes |
+|RHEL compatibility| [Binary Compatible](https://almalinux.org/blog/future-of-almalinux/)           | [ABI Compatible?](https://www.oracle.com/news/announcement/blog/keep-linux-open-and-free-2023-07-10/)                                            | Binary compatible                          | Compatible within the limits of the [ACG][acg] | Binary Compatible |
 |Regular updates delay                       | About 1 business day     | About 1 business day                           | About 1 business day                        | Upstream of RHEL  | About 1 business day |
 |Last minor version release delay            | [1 day][alma8.7]         | [7 days][oracle8.7]                            | [5 days][rocky8.7]                          | N/A               | N/A               |
 |Errata                                      | Yes                      | Yes                                            | Yes                                         | No                | No                |
@@ -14,8 +14,8 @@ title: "EL8 Distro Comparison"
 |Livepatching service                        | KernelCare               | Oracle Ksplice, KernelCare Available           | KernelCare Available                        | Not available     | KernelCare, Kpatch |
 |FIPS compliance                             | Planned                  | Yes                                            | Planned                                     | Not available     | Not available     |
 |ARM support                                 | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
-|IBM PowerPC support                         | Yes                      | No                                             | No                                          | Yes               | Yes               |
-|IBM Z (s390x) support                               | Yes                      | No                                             | No                                          | No                | No                |
+|IBM PowerPC support                         | Yes                      | No                                             | Yes (versions ≥ 9)                          | Yes               | Yes               |
+|IBM Z (s390x) support                       | Yes                      | No                                             | Yes (versions ≥ 9)                          | No                | No                |
 |SecureBoot                                  | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
 |Owned By:                                   | AlmaLinux OS Foundation  | Oracle Inc                                     | Rocky Enterprise Software Foundation        | Red Hat Inc       | Red Hat Inc       |
 |Owned by org type:                          | Non-Profit 501(c)6       | For Profit C-Corp                              | For Profit, Public Benefit Corp             | For Profit C-Corp | For Profit C-Corp |
