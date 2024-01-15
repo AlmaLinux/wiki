@@ -3,7 +3,13 @@ title: 'Help AlmaLinux OS'
 ---
 # Contributing to the AlmaLinux project
 
-## How to Contribute
+## Help with reporting bugs and making fixes
+
+Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly identical bugs as the current release of RHEL. AlmaLinux recommends following an "upstream first" approach in order to help not just the AlmaLinux but the whole EL community:
+* Try to reproduce the steps and check whether the bug is present in CentOS Stream or has been already fixed.
+* If present, it means that the bug is upstream. Please, submit the bug to [CentOS Stream bugzilla](https://wiki.centos.org/ReportBugs) providing all the necessary information about an issue and reproducing steps. This is the contribution path to get the bug fix into the upstream, which will, in turn, be built into AlmaLinux.
+* If you are able to help investigate and fix the bug, please collaborate with CentOS Stream, as this is the best an AlmaLinux Community Member can do. Check the [CentOS Contributor's Guide](https://docs.centos.org/en-US/stream-contrib/) for more details.
+* If the bug is AlmaLinux-specific, please open a bug on [AlmaLinux Bug Tracker](https://bugs.almalinux.org/) providing all the necessary information about an issue and reproducing steps. 
 
 Please, file your [bugs](https://github.com/AlmaLinux/almalinux-deploy/issues) and join us for discussions on [GitHub](https://github.com/AlmaLinux/almalinux-deploy/discussions) and on [AlmaLinux Chat on Mattermost](https://chat.almalinux.org/).
 
@@ -11,27 +17,17 @@ If you are interested in contributing, and learning more details about the techn
 
 Also, you might be interested with [ELevate Project Contribution Guide](/elevate/Contribution-guide.html).
 
-## Contributing to Cloud Images
-You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
-
-
 ## Specific Areas We Need Help With 
 
 Each SIG has their own specific focus areas that are looking for help, but here are some more general ones!
 
 ### 1.  Help with reporting bugs and making fixes
 
-To make AlmaLinux successful, we need the close involvement of the community
-members. We use our bug tracking system to find, track, and fix bugs. We
-encourage AlmaLinux users to help us by filling in bug-reports. You can track and
-discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
-
+To make AlmaLinux successful, we need the close involvement of the community members. We use our bug tracking system to find, track, and fix bugs. We encourage AlmaLinux users to help us by filling in bug-reports. You can track and discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 ### 2. Improve the documentation
 
-It makes no sense to talk about the importance of documentation, it is like
-an investment in the future. It can take time and energy, but it is 
-essential to create full and comprehensive documentation together.
+The importance of documentation cannot be understated, as it is like an investment in the future. It can take time and energy, but it is essential to create full and comprehensive documentation together.
 
 If you want to participate, do the following:
 
