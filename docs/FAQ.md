@@ -90,10 +90,7 @@ Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly t
 
 #### Bug Tracker 
 
-To make AlmaLinux successful, we need the close involvement of the community
-members. We use our bug tracking system to find, track, and fix bugs. We
-encourage AlmaLinux users to help us by filling in bug-reports. You can track and
-discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
+To make AlmaLinux successful, we need the close involvement of the community members. We use our bug tracking system to find, track, and fix bugs. We encourage AlmaLinux users to help us by filling in bug-reports. You can track and discuss all bugs on [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 ### How can I request a package be added to AlmaLinux?
 
