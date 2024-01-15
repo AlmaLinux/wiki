@@ -140,6 +140,7 @@ module.exports = {
         title: 'Installation',
         children: [
          '/documentation/installation-guide',
+         '/documentation/after-installation-guide',
          '/documentation/wsl',
           {
             title: 'Live Media',
