@@ -86,7 +86,7 @@ The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stabl
 
 #### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
 
-Since AlmaLinux is a 1:1 binary compatible with RHEL, it should have the same bugs as the current release of RHEL.  AlmaLinux recommends following an "upstream first" approach to fix these bugs by submitting them to [CentOS Stream](https://wiki.centos.org/ReportBugs). For more information, please, see the  [Contribute page](/contribute.html#help-with-reporting-bugs-and-making-fixes).
+Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly the same bugs as the current release of RHEL.  AlmaLinux recommends following an "upstream first" approach to fix these bugs by testing against CentOS Stream, and submitting them to [CentOS Stream](https://wiki.centos.org/ReportBugs). For more information, please, see the  [Contribute page](/contribute.html#help-with-reporting-bugs-and-making-fixes).
 
 #### Bug Tracker 
 
