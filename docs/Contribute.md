@@ -7,7 +7,7 @@ title: 'Contribute'
 
 Since AlmaLinux is a 1:1 binary compatible with RHEL, it should have the same bugs as the current release of RHEL. AlmaLinux, as a downstream of RHEL, recommends following an "upstream first" approach in order to help not just the AlmaLinux but the whole EL community:
 * Try to reproduce the steps and check whether the bug is present in CentOS Stream or has been already fixed.
-* If present, it means that the bug is upstream. Please, submit the bug to [CentOS Stream bugzilla](https://wiki.centos.org/ReportBugs) providing all the necessary information about an issue and reproducing steps. This is the contribution path to get the bug fix into RHEL, which will, in turn, be rebuilt into AlmaLinux.
+* If present, it means that the bug is upstream. Please, submit the bug to [CentOS Stream bugzilla](https://wiki.centos.org/ReportBugs) providing all the necessary information about an issue and reproducing steps. This is the contribution path to get the bug fix into the upstream, which will, in turn, be built into AlmaLinux.
 * If you are able to help investigate and fix the bug, please collaborate with CentOS Stream, as this is the best an AlmaLinux Community Member can do. Check the [CentOS Contributor's Guide](https://docs.centos.org/en-US/stream-contrib/) for more details.
 * If the bug is AlmaLinux-specific, please open a bug on [AlmaLinux Bug Tracker](https://bugs.almalinux.org/) providing all the necessary information about an issue and reproducing steps. 
 
