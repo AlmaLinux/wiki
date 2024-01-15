@@ -82,7 +82,7 @@ dnf repolist
 Then, enable a specific repository. Most AlmaLinux repositories can be enabled with the `dnf config-manager --set enabled` command. 
 But note, that CentOS SIGs, Extra (EPEL and ELRepo) and AlmaLinux Synergy repositories are enabled with the `dnf install` command.
 
-You can check the [Repositories](/repos/README.md) page to check all the supported repositories and a particular command on how to enable each of them. 
+You can check the [Repositories](/repos/) page to check all the supported repositories and a particular command on how to enable each of them. 
 
 After needed repositories have been enabled, verify the changes: 
 ```
@@ -104,8 +104,8 @@ Depending on your hardware installed, you might need to install NVIDIA or AMD dr
 ### NVIDIA
 
 You can get NVIDIA drivers in different ways: 
-* [Install binary driver](/series/system/SystemSeriesA03.md)
-* [Compile driver source](/series/system/SystemSeriesA03.md)
+* [Install binary driver](/series/system/SystemSeriesA03)
+* [Compile driver source](/series/system/SystemSeriesA03)
 * Get them using RPM Fusion:
     * Enable the RPM Fusion repository by running the command: 
 
@@ -166,7 +166,7 @@ To configure firewall settings on AlmaLinux, you can use the built-in firewall m
   ```
 * Use the `firewall-cmd` command to define rules and zones for your firewall.
 
-[Read more](/series/system/SystemSeriesA02.md) about the tool's usage.
+[Read more](/series/system/SystemSeriesA02) about the tool's usage.
 
 ## Desktop Environment
 
@@ -227,7 +227,7 @@ To install Pantheon for AlmaLinux 9:
   sudo dnf groupinstall "Pantheon Desktop"
   ```
 
-To have an AlmaLinux system with GNOME-Mini or MATE desktop environments we recommend installing AlmaLinux OS from the corresponding [Live Media image](/LiveMedia.md).
+To have an AlmaLinux system with GNOME-Mini or MATE desktop environments we recommend installing AlmaLinux OS from the corresponding [Live Media image](/LiveMedia).
 
 
 ## Reboot
@@ -240,4 +240,4 @@ reboot
 
 ## Live Media options
 
-If you are not sure whether AlmaLinux fits your needs, you can try it before installing it. AlmaLinux has various Live Media options for this purpose. You can get the download links from the [website](https://almalinux.org/get-almalinux/#Live_Media) and usage guides on the [Live Media](/LiveMedia.md) page.
+If you are not sure whether AlmaLinux fits your needs, you can try it before installing it. AlmaLinux has various Live Media options for this purpose. You can get the download links from the [website](https://almalinux.org/get-almalinux/#Live_Media) and usage guides on the [Live Media](/LiveMedia) page.
