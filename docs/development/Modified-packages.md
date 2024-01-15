@@ -1,6 +1,12 @@
 ---
-title: "AlmaLinux Modified packages"
+title: "Modified packages"
 ---
+
+# AlmaLinux Modified packages
+
+All AlmaLinux OS packages, including modified ones, can be found on [git.almalinux.org](https://git.almalinux.org/explore/repos). There are several branches in each package repository:
+* c8/c9 branches for original sources
+* a8/a9 branches for modified sources 
 
 This table lists AlmaLinux packages with modified sources.
 
@@ -14,7 +20,6 @@ This table lists AlmaLinux packages with modified sources.
 | clufter | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/clufter/commit/d9bf103ec6660b0374080dd25463ae4d7d010706) | Doesn't require modification |- This change helps build clufter with a new version of pacemaker |
 | crash | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/crash/commit/b4a0b91d49f3232f877adf6288735e131cd3662a) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/crash/commit/45800a12458cbf0cc378e78855f50b707a6fad30)  |- Debrand for AlmaLinux|
 | dnf | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/dnf/commit/619df95b9edbc8571c73ff34202daae0b2627e0c) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/dnf/commit/7ad9001b8e9035d1bda6c151dd739873a6227e01) |- Debrand for AlmaLinux |
-| eth-tools | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/eth-tools/commit/6dcd14c7ee226a96929b5403a331c62570fd72ee) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/eth-tools/commit/b36f64560bcf6e005d0265d17dfdc1976921a49c) |- Apply AlmaLinux support patch
 | firefox | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/firefox/commit/14135a8233d8eab1acad34e9d89ff90b311c55a7) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/firefox/commit/b077702a832e59b3d2aa19bd97f6e37588d482ee) |- Debrand for AlmaLinux
 | fwupd | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/fwupd/commit/657b8ce0193b0801f42b729b4edd4c5a67ea3acc) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/fwupd/commit/d2a18c3e2ee419b300e34682f5ea6355247d5991) |- Use AlmaLinux secure boot cert
 | fwupdate | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/fwupdate/commit/1329d57b09e56b4e03003546de3acebbbb8f8c04) | Doesn't require modification|- Use AlmaLinux secure boot cert |
@@ -22,7 +27,6 @@ This table lists AlmaLinux packages with modified sources.
 | gnome-settings-daemon | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/gnome-settings-daemon/commit/ea6b7152659f432f1cf526525bafb14ce1d78ddb) | Doesn't require modification|- Disable subman plugin |
 | golang-github-cpuguy83-go-md2man | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/golang-github-cpuguy83-go-md2man/commit/c588b8c65a51dfbc8b2506ffd525ab63ecffba27) |Doesn't require modification |- Fix compilation error |
 | grub2 |<b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/grub2/commit/33d2c41b51cb5f249b35e4a0d63c1d14bf45f4d4) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/grub2/commit/c5253d0d2e694a98261ba5133ea9f79106f76d8f) |- Use AlmaLinux secure boot cert<br>- Debrand for AlmaLinux |
-| gstreamer1-plugins-bad-free |Doesn't require modification  | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/gstreamer1-plugins-bad-free/commit/4c5ae9f3c7f43997b4ff6c0dc5fdf9bb2ae344c9) |- Added wayland-protocols-devel to BuildRequires to fix build |
 | hplip | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/hplip/commit/4b2a9aa41df8d259e7c59e573344f748d7af390c) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/hplip/commit/3d3e591d57b2762c47885e4cf3f6980cb371ebff) |- Add AlmaLinux support<br>- Fix permission for custom created gpg dir<br>- Change gpg server to pgp.mit.edu |
 | initial-setup | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/initial-setup/commit/afd963bfb2093779ccaadd636847a71bee4f8e49)  | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/initial-setup/commit/e6f8b66291c747e0bd3131d799ac1ca9380f8616) |- AlmaLinux debrand patch |
 | kernel | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/kernel/commit/273ff5a1639b7aa4281b9d12df0844833e4b174e) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/kernel/commit/b3893ae5fe5b195d08796fdeb7c8299af14ed5a5) |- Use AlmaLinux secure boot cert<br>- Debrand for AlmaLinux |
@@ -32,11 +36,11 @@ This table lists AlmaLinux packages with modified sources.
 | libreoffice | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/libreoffice/commit/7f7be42a96379ce83a9b2bbf1cfa5a03eef61d98)| <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/libreoffice/commit/41ecbcbca3e91c0503d325d613df02a81b4f773f) |- Debrand for AlmaLinux |
 | libreport | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/libreport/commit/a3b5337005f0f2e7d8a1ac29471b2303e3808469) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/libreport/commit/edd1819ae51218681b8f7867b362061d7ab1c6b5) |- Debrand for AlmaLinux |
 | mongo-tools | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/mongo-tools/commit/fc4e50154e1d56ee3478d2966fd6fa76c8d6b370) | Doesn't require modification|- Use golang instead of go-toolset-1.10-golang BR |
-| nginx | <b>Git commit:</b><br>8:<li>[a8-stream-1.14](https://git.almalinux.org/rpms/nginx/commit/a2a7289a0c043020a2dbf2cc518f4b7b1642eb10)</li><li>[a8-stream-1.16](https://git.almalinux.org/rpms/nginx/commit/11fd354236f99d6518fa71b73904d869ebc20bdd)</li><li>[a8-stream-1.18](https://git.almalinux.org/rpms/nginx/commit/c2226342dbc12a52a6ebdf706b2f89403b45c34e)</li><li>[a8-stream-1.20](https://git.almalinux.org/rpms/nginx/commit/abb001e0947d0c865bfeaa52fd0f8b88a793cec9)</li> | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/nginx/commit/866617d21031f21e60aeb6827feb8437c605b2fd) |- Debrand for AlmaLinux |
+| nginx | <b>Git commit:</b><br>8:<li>[a8-stream-1.14](https://git.almalinux.org/rpms/nginx/commit/a2a7289a0c043020a2dbf2cc518f4b7b1642eb10)</li><li>[a8-stream-1.16](https://git.almalinux.org/rpms/nginx/commit/11fd354236f99d6518fa71b73904d869ebc20bdd)</li><li>[a8-stream-1.18](https://git.almalinux.org/rpms/nginx/commit/c2226342dbc12a52a6ebdf706b2f89403b45c34e)</li><li>[a8-stream-1.20](https://git.almalinux.org/rpms/nginx/commit/abb001e0947d0c865bfeaa52fd0f8b88a793cec9)</li><li>[a8-stream-1.22](https://git.almalinux.org/rpms/nginx/commit/270d35d08b1496dc53a1bee8efe070efa9d8c9ee)</li> | <b>Git commit:</b><br>9:<li>[9](https://git.almalinux.org/rpms/nginx/commit/866617d21031f21e60aeb6827feb8437c605b2fd)</li><li>[a9-stream-1.22](https://git.almalinux.org/rpms/nginx/commit/d5f7b095ca134f51b9649ea60bea4c95d495ae1a)</li> |- Debrand for AlmaLinux |
 | opa-ff | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/opa-ff/commit/349cff1caea18466ccdbb7839dc8a18b557ae092) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/opa-ff/commit/c5a7fc55b8f368b2af08bf09b7fda73f40e02f3a) |- Add AlmaLinux detection |
 | opa-fm | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/opa-fm/commit/706e0dec03e10398b7b22b2c44c89dd00901f62f) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/opa-fm/commit/c18f918c3f9f5198d7774c8d9bf4849de1a80619) |- Add AlmaLinux detection |
 | openscap | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/openscap/commit/2a29d3a5f26394755c10d6bde2444532f8b0440c) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/openscap/commit/731a227034cf6626b3c653cba5aa1d5e2621babd) |- Add AlmaLinux definitions | 
-| osbuild | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/osbuild/commit/7b66e9611a33b6d7a53402b15c8f4e7e69a54f1b) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/osbuild/commit/3912a5767bdf2506d108d5b40b08e8a44cbcd3f2)|- Add AlmaLinux runners |
+| osbuild | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/osbuild/commit/7b66e9611a33b6d7a53402b15c8f4e7e69a54f1b) |  <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/osbuild/commit/d120349a2f3310d5fb08dca153777ed9923acee3) |- Add AlmaLinux runners |
 | osbuild-composer | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/osbuild-composer/commit/871d52df46c868cef087583d04fb0705e45423eb) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/osbuild-composer/commit/2ecdc50c9c9280dafdc7a9d546dc48a0492feb6a) |- Add AlmaLinux support patch |
 | pcs | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/pcs/commit/1066fd3ebc6c09a42f80706d59f2d49d54d2080f) | Doesn't require modification |- Debrand logo |
 | perl-AnyEvent | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/perl-AnyEvent/commit/7df8a744d97fbb6b31ace8f6bef17177bae18d37) | Doesn't require modification |- Use patch for fix ssltest|
@@ -61,3 +65,6 @@ List of modified packages that don't require debranding after AlmaLinux 8.7 and 
 | --- | --- | --- | ---- |
 | WALinuxAgent | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/WALinuxAgent/commit/19bfe138ed9a46302727997cfccfbd8fc0acbac9) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/WALinuxAgent/commit/961450f8ce1c628e83b718a5794a44f12e7a3150) | - Add AlmaLinux support patch |
 | chrony | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/chrony/commit/4d3e2ca2654b08b8d17790cabb368ea7d2566977) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/chrony/commit/8ef8f9012bb746dbcef83f2891d1c6b3ebc73c9e) |- Use CloudLinux/RHEL NTP pool instead of AlmaLinux|
+| eth-tools | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/eth-tools/commit/6dcd14c7ee226a96929b5403a331c62570fd72ee) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/eth-tools/commit/b36f64560bcf6e005d0265d17dfdc1976921a49c) |- Apply AlmaLinux support patch |
+| gstreamer1-plugins-bad-free |Doesn't require modification  | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/gstreamer1-plugins-bad-free/commit/4c5ae9f3c7f43997b4ff6c0dc5fdf9bb2ae344c9) |- Added wayland-protocols-devel to BuildRequires to fix build |
+

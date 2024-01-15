@@ -7,9 +7,6 @@ AlmaLinux offers images for Azure across all Azure regions via the [Azure Market
 
 The AlmaLinux team and community would like to thank Microsoft Azure for their sponsorship of AlmaLinux which helped make this, and other initiatives possible.
 
-## Contributing
-You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
-
 ## Azure Community Gallery
 
 Azure Community Galleries allow anyone to publicly share virtual machine images. The AlmaLinux Foundation uploads images to the gallery `almalinux-56b45196-f8a2-4e53-858a-bc4d0ebca440`. Microsoft [provides examples](https://docs.microsoft.com/en-us/azure/virtual-machines/vm-generalized-image-version?#create-a-vm-from-a-community-gallery-image) of using community gallery images via `az` CLI, the portal, and REST.

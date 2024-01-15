@@ -1,3 +1,4 @@
+
 module.exports = {
   title: 'AlmaLinux Wiki',
   description: 'AlmaLinux OS Documentation',
@@ -14,114 +15,195 @@ module.exports = {
       { text: 'Bugs', link: 'https://bugs.almalinux.org/' }
     ],
     sidebar: [
-      '/',
-      {
-        title: 'Release Notes',
-        path: '/release-notes/',
-        children: [
-          '/release-notes/9.1',
-          '/release-notes/8.7',
-          '/release-notes/8.8-beta',
-          '/release-notes/9.0',
-          '/release-notes/8.6',
-          '/release-notes/9.1-beta',
-          '/release-notes/8.7-beta',
-          '/release-notes/9.0-beta',
-          '/release-notes/8.6-beta',
-          '/release-notes/8.5-ppc',
-          '/release-notes/8.5',
-          '/release-notes/8.5-beta-ppc',
-          '/release-notes/8.5-beta',
-          '/release-notes/8.4-arm',
-          '/release-notes/8.4',
-          '/release-notes/8.4-beta-arm',
-          '/release-notes/8.4-beta',
-          '/release-notes/8.3',
-          '/release-notes/8.3-rc',
-          '/release-notes/8.3-beta'
-        ]
-      },
-      {
-        title: 'Documentation',
-        children: [
-          '/documentation/installation-guide',
-          '/documentation/migration-guide',
-          '/documentation/openscap-guide',
-          '/documentation/openscap-guide-for-9',
-          '/documentation/oval-streams',
-          '/documentation/package-building-guide',
-          '/documentation/raspberry-pi',
-          '/documentation/wsl',
-          '/documentation/errata',
-          '/documentation/sbom-guide'
-        ]
-      },
-      {
-        title: 'Cloud',
-        children: [
-          '/cloud/AWS',
-          '/cloud/Azure',
-          '/cloud/Google',
-          '/cloud/Generic-cloud',
-          '/cloud/Generic-cloud-on-local',
-          '/cloud/OpenNebula',
-          '/cloud/OCI'
-        ]
-      },
-      {
-        title: 'Containers',
-        children: [
-          'containers/docker-images'
-        ]
-      },
-      '/LiveMedia',
-      {
-        title: 'Special interest groups',
-        path: '/sigs/',
-        children: [
-          '/sigs/Core',
-          '/sigs/Infrastructure',
-          '/sigs/Cloud',
-          '/sigs/Build-System',
-          '/sigs/LiveMedia',
-          '/sigs/Migration',
-        ]
-      },
-      {
-        title: 'Repositories',
-        path: '/repos/',
-        children:[
-           '/repos/AlmaLinux',
-           '/repos/CentOS',
-           '/repos/Extras',
-        ]
-      },
-      {
+     {
+        title: 'About',
+        path: '/',
+     },
+     {
+          title: 'Contribute',
+          children: [
+            '/Contribute',
+            '/Mirrors',
+            {
+              title: 'Special interest groups (SIGs)',
+              path: '/sigs/',
+              children: [
+                '/sigs/Build-System',
+                '/sigs/Cloud',
+                '/sigs/Core',
+                '/sigs/Infrastructure',
+                '/sigs/LiveMedia',
+                '/sigs/Marketing',
+                '/sigs/Migration',
+                '/sigs/ProcessForCreatingNewSIG'
+              ]
+           },
+          ]
+     },
+     {
         title: 'Development',
         children: [
-          '/development/Packaging',
+          '/documentation/package-building-guide',
+          '/development/building-almalinux-iso-locally',
           '/development/Modified-packages',
-          '/development/openQA'
+          '/development/Packaging',
         ]
-      },
-      '/Mirrors',
-      {
-        title: 'ELevate Project',
-        path: '/elevate/',
+     },
+     {
+        title: 'Documentation',
         children: [
-          '/elevate/ELevate-quickstart-guide',
-          '/elevate/ELevate-testing-guide',
-          '/elevate/Contribution-guide',
-          '/elevate/ELevate-frequent-issues'
-        ]
+            '/Comparison',
+            '/FAQ',
+            '/Howto',
+            {
+                title: 'openQA Guide',
+                path: '/development/openQA',
+            },
+            {
+                title: 'Howto Series',
+                path: '/series/',
+                children: [
+                  {
+                      title: "Nginx Series",
+                      path: '/series/nginx/',
+                      children: [
+                              '/series/nginx/NginxSeriesA01',
+                              '/series/nginx/NginxSeriesA02R8',
+                              '/series/nginx/NginxSeriesA02R91',
+                              '/series/nginx/NginxSeriesA02R92',
+                              '/series/nginx/NginxSeriesA03',
+                              '/series/nginx/NginxSeriesA04P1',
+                      ]
+                  },
+                  {
+                      title: "System Series",
+                      path: '/series/system/',
+                      children: [
+                              '/series/system/SystemSeriesA01',
+                              '/series/system/SystemSeriesA02',
+                              '/series/system/SystemSeriesA03',
+                              '/series/system/SystemSeriesA03R8',
+                              '/series/system/SystemSeriesA03R9',
+                              '/series/system/SystemSeriesA04',
+                              '/series/system/SystemSeriesA05',
+                      ]
+                  }
+              ]
+            },
+            {
+                title: 'Release Notes',
+                path: '/release-notes/',
+                children: [
+                  '/release-notes/9.3',
+                  '/release-notes/8.9',
+                  '/release-notes/9.2',
+                  '/release-notes/8.8',
+                  '/release-notes/9.3-beta',
+                  '/release-notes/8.9-beta',
+                  '/release-notes/9.1',
+                  '/release-notes/8.7',
+                  '/release-notes/9.2-beta',
+                  '/release-notes/8.8-beta',
+                  '/release-notes/9.0',
+                  '/release-notes/8.6',
+                  '/release-notes/9.1-beta',
+                  '/release-notes/8.7-beta',
+                  '/release-notes/9.0-beta',
+                  '/release-notes/8.6-beta',
+                  '/release-notes/8.5-ppc',
+                  '/release-notes/8.5',
+                  '/release-notes/8.5-beta-ppc',
+                  '/release-notes/8.5-beta',
+                  '/release-notes/8.4-arm',
+                  '/release-notes/8.4',
+                  '/release-notes/8.4-beta-arm',
+                  '/release-notes/8.4-beta',
+                  '/release-notes/8.3',
+                  '/release-notes/8.3-rc',
+                  '/release-notes/8.3-beta'
+                ]
+          },
+          {
+                title: 'Security Guides',
+                path: '/documentation/guides',
+                children: [
+                  '/documentation/openscap-guide',
+                  '/documentation/openscap-guide-for-9',
+                  '/documentation/oval-streams',
+                  '/documentation/sbom-guide',
+                  '/documentation/errata',
+                ]
+            },
+         ]
       },
-      '/FAQ',
-      '/Comparison',
-      '/Howto',
-      '/Contribute',
-      '/gsoc',
-      '/Election2022',
-	  '/Transparency'
+      {
+        title: 'Installation',
+        children: [
+         '/documentation/installation-guide',
+         '/documentation/wsl',
+          {
+            title: 'Live Media',
+            path: '/LiveMedia',
+          },
+          '/documentation/raspberry-pi',
+          {
+            title: 'Cloud Images',
+            path : '/cloud',
+            children: [
+              '/cloud/AWS',
+              '/cloud/Azure',
+              '/cloud/Generic-cloud',
+              '/cloud/Generic-cloud-on-local',
+              '/cloud/Google',
+              '/cloud/OCI',
+              '/cloud/OpenNebula',
+            ]
+        },
+        {
+            title: 'Containers',
+            path: '/containers',
+            children: [
+              'containers/docker-images'
+            ]
+        },
+        {
+            title: 'Repositories',
+            path: '/repos/',
+            children:[
+              '/repos/AlmaLinux',
+              '/repos/CentOS',
+              '/repos/Extras',
+              '/repos/Synergy',
+            ]
+           },
+         ]
+      },
+      {
+         title: 'Migration',
+         children: [
+           '/documentation/migration-guide',
+           {
+              title: 'ELevate Project',
+              path: '/elevate/',
+              children: [
+                '/elevate/ELevate-quickstart-guide',
+                '/elevate/ELevating-CentOS7-to-AlmaLinux-9',
+                '/elevate/ELevate-testing-guide',
+                '/elevate/ELevate-frequent-issues',
+                '/elevate/Contribution-guide',
+              ]
+           },
+         ]
+      },
+      {
+        title: 'The Foundation',
+        children: [
+         '/Transparency',
+         '/Election2022',
+         '/election2023',
+         '/gsoc',
+        ]
+     },
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',

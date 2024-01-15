@@ -42,5 +42,3 @@ oci compute instance launch --image-id
 ```
 For a full range of options that are customizable from the CLI please check the [OCI CLI Reference Docs](https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/index.html).
 
-## How to Contribute
-You can find more information about how these and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
