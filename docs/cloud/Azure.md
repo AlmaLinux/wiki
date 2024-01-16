@@ -39,7 +39,27 @@ You can easily deploy images using the [Azure CLI](https://docs.microsoft.com/en
 az vm image list --all --publisher almalinux
 ```
 You can then deploy by running:
+
+### AlmaLinux OS 8 x86_64
 ```shell
-az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux:8_4:8.4.20210729
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux-x86_64:8-gen1:latest
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux-x86_64:8-gen2:latest
 ```
-For a full range of options that are customizable from the CLI please check the [Azure CLI Reference Docs](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest).
+
+### AlmaLinux OS 9 x86_64
+```shell
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux-x86_64:9-gen1:latest
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux-x86_64:9-gen2:latest
+```
+
+### AlmaLinux OS 8 AArch64
+```shell
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux-arm:8-arm-gen2:latest
+```
+
+### AlmaLinux OS 9 AArch64
+```shell
+az vm create -n MyVm -g MyResourceGroup --image almalinux:almalinux-arm:9-arm-gen2:latest
+```
+
+For a full range of options that are customizable from the CLI please check the [Azure CLI Reference Docs](https://learn.microsoft.com/en-us/cli/azure/).
