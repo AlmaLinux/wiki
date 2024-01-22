@@ -42,7 +42,7 @@ The pre-built AlmaLinux OS images are listed below:
 | Generic Cloud (cloud-init) | [wiki.almalinux.org/cloud/Generic-cloud.html](https://wiki.almalinux.org/cloud/Generic-cloud.html) |
 | OpenNebula                 | [wiki.almalinux.org/cloud/OpenNebula.html](https://wiki.almalinux.org/cloud/OpenNebula.html) |
 | Google Cloud               | [cloud.google.com/compute/docs/images#almalinux](https://cloud.google.com/compute/docs/images#almalinux) |
-| LXC/LXD                    | [images.linuxcontainers.org](https://images.linuxcontainers.org) |
+| LXC/Incus                  | [images.linuxcontainers.org](https://images.linuxcontainers.org) |
 | Quay                       | [quay.io/almalinuxorg](https://quay.io/almalinuxorg) |
 | Vagrant boxes              | [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux/) |
 
