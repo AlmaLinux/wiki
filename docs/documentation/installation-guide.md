@@ -167,7 +167,7 @@ Open the application, choose your target USB, and ISO you need to burn, and pres
 
 The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, and press Flash.
     
-You can also use `dd` form CLI:
+You can also use `dd` from the CLI:
     
 ```
 sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/diskXXX status=progress
