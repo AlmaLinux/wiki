@@ -9,8 +9,26 @@ title: "AlmaLinux WSL"
 Windows Subsystem for Linux (WSL) is designed as integration between Windows and Linux. You can now run the AlmaLinux terminal environment on a Windows machine. It doesn't require a dual-boot or a VM. 
 
 #### Supported versions:
+
+You can get an image from the Microsoft Store: 
 * [AlmaLinux OS 8](https://apps.microsoft.com/store/detail/almalinux-8-wsl/9NMD96XJJ19F)
 * [AlmaLinux OS 9](https://apps.microsoft.com/store/detail/almalinux-9/9P5RWLM70SN9)
+
+or using the direct links:
+
+<table align="center">
+    <tr>
+        <td align="center">AlmaLinux 8</td>
+        <td align="center"><a href="https://wsl.almalinux.org/8/AlmaLinuxOS-8_latest_x64.appx">Intel/AMD (x86_64)</a></td>
+        <td align="center"><a href="https://wsl.almalinux.org/8/AlmaLinuxOS-8_latest_ARM64.appx">ARM64 (AArch64)</a></td>
+    </tr>
+    <tr>
+        <td align="center">AlmaLinux 9</td>
+        <td align="center"><a href="https://wsl.almalinux.org/9/AlmaLinuxOS-9_latest_x64.appx">Intel/AMD (x86_64)</a></td>
+        <td align="center"><a href="https://wsl.almalinux.org/9/AlmaLinuxOS-9_latest_ARM64.appx">ARM64 (AArch64)</a></td>
+    </tr>
+</table>
+
 
 ## Installation steps
 
