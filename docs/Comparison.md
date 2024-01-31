@@ -12,7 +12,7 @@ title: "EL Distro Comparison"
 |Lifecycle                                   | 10 Years                 | 10 Years                                       | 10 Years                                    | 5-6 Years         | EOL on 2021-12-31 |
 |Commercial support                          | 3rd party                | Oracle, 3rd parties                            | 3rd Party                                   | 3rd party         | 3rd party         |
 |Livepatching service                        | KernelCare               | Oracle Ksplice, KernelCare Available           | KernelCare Available                        | Not available     | KernelCare, Kpatch |
-|FIPS compliance                             | Planned                  | Yes                                            | Planned                                     | Not available     | Not available     |
+|FIPS compliance                             | Yes                      | Yes                                            | Planned                                     | Not available     | Not available     |
 |ARM support                                 | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
 |IBM PowerPC support                         | Yes                      | No                                             | Yes (versions ≥ 9)                          | Yes               | Yes               |
 |IBM Z (s390x) support                       | Yes                      | No                                             | Yes (versions ≥ 9)                          | No                | No                |
