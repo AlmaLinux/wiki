@@ -76,7 +76,7 @@ Use updated version of `rsync` with `xxhash` support.
     sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
     email: <e-mail of a mirror's sponsor/holder, e.g. admin@some.company.name>
     geolocation:
-      continent: <name of a continent, e.g. North America; than field is not mandatory>
+      continent: <name of a continent, e.g. North America; this field is not mandatory>
       country: <two-letter name of a country, e.g. US>
       state_province: <name of a province, e.g. New York>
       city: <name of a city, e.g. New York>
