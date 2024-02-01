@@ -27,7 +27,7 @@ Use updated version of `rsync` with `xxhash` support.
      xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
      ```
 :::
-2. Synchronize with the official AlmaLinux mirror via `rsync`:  
+2. Synchronize with the official AlmaLinux mirror via `rsync`:
    ```shell
    /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
    ```
@@ -60,7 +60,7 @@ Use updated version of `rsync` with `xxhash` support.
    You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
    as an example. Your mirror does not have to provide all the protocols
    that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
-   Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.  
+   Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.
 
     ```YAML
     ---
