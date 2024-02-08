@@ -189,6 +189,7 @@ module.exports = {
               children: [
                 '/elevate/ELevate-quickstart-guide',
                 '/elevate/ELevating-CentOS7-to-AlmaLinux-9',
+                '/elevate/ELevate-offline-guide',
                 '/elevate/ELevate-testing-guide',
                 '/elevate/ELevate-NG-testing-guide',
                 '/elevate/ELevate-frequent-issues',
