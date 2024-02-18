@@ -181,7 +181,18 @@ One of the possible customizations to your AlmaLinux system is having a Desktop 
 Some AlmaLinux images already have GNOME and GNOME-Mini desktop environments installed. 
 
 To install GNOME, KDE, and XFCE desktop environments:
-* First, enable EPEL and PowerTools/CRB repositories.
+* First, enable EPEL and PowerTools/CRB repositories, by running the following commands:
+
+  **For AlmaLinux 8:**
+  ```
+  sudo dnf config-manager --set-enabled powertools
+  sudo dnf install epel-release
+  ```
+  **For AlmaLinux 9:**
+  ``` 
+  sudo dnf config-manager --set-enabled crb
+  sudo dnf install epel-release
+  ```
 * List available available package groups:
   ```
   sudo dnf group list
