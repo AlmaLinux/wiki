@@ -207,6 +207,7 @@ module.exports = {
          '/gsoc',
         ]
      },
+    '/Help-and-Support',
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',
