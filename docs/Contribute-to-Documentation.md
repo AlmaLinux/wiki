@@ -84,7 +84,8 @@ When editing an existing page or writing a new one, we recommend you follow this
         * Body: describing all the instructions.
         * Version specific directions: Remember that AlmaLinux currently more than one supported major version. If the directions differ for each release, consider dividing your instructions for each supported version into separate sections.
         * Known caveats: If there are any known or popular issues, write them as a separate section.
-* If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
+We encourage images in guides, but please follow the below guidelines
+     * If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
     * The image name should be clear to understand and match the topic subject it's related to. 
     * The image should not violate any trademarks or copyrights and should be relevant to the content. 
     * The image should not contain any personal information for security reasons.
