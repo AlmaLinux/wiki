@@ -65,7 +65,7 @@ When editing an existing page or writing a new one, we recommend you follow this
   title: ' '
   ---
   ```
-* If applicable, fill out the form below and place it as a table at the top of the page right after the title.
+* If applicable (for example, when creating a new guide), fill out the form below and place it as a table at the top of the page right after the title.
     | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
     |--------------------|---------------------- |
     | Last modified date | YYYY-MM-DD            | 
