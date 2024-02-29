@@ -79,7 +79,7 @@ When editing an existing page or writing a new one, we recommend you follow this
 
 * Write the content of the page using [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Some HTML elements are also allowed.
     * It's recommended to use clear and simple language.
-    * It's preferable to divide the content into the sections including the basic ones:
+    * It's preferable to divide the content into sections, including these basic ones:
         * Introduction, stating what the page is about.
         * Body, describing all the instructions.
         * Remember that AlmaLinux currently has 2 major versions. If the information varies and differs for each release, consider dividing your instructions into separate sections.
