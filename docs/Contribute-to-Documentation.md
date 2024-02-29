@@ -80,10 +80,10 @@ When editing an existing page or writing a new one, we recommend you follow this
 * Write the content of the page using [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Some HTML elements are also allowed.
     * It's recommended to use clear and simple language.
     * It's preferable to divide the content into sections, including these basic ones:
-        * Introduction, stating what the page is about.
-        * Body, describing all the instructions.
-        * Remember that AlmaLinux currently has 2 major versions. If the information varies and differs for each release, consider dividing your instructions into separate sections.
-        * If there are any known/popular issues, write them as a separate section.
+        * Introduction: stating what the page is about.
+        * Body: describing all the instructions.
+        * Version specific directions: Remember that AlmaLinux currently more than one supported major version. If the directions differ for each release, consider dividing your instructions for each supported version into separate sections.
+        * Known caveats: If there are any known or popular issues, write them as a separate section.
 * If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
     * The image name should be clear to understand and match the topic subject it's related to. 
     * The image should not violate any trademarks or copyrights and should be relevant to the content. 
