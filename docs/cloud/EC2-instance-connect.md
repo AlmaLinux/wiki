@@ -13,14 +13,32 @@ title: 'EC2 Instance Connect'
 If you want to connect to an AlmaLinux OS instance using EC2 Instance Connect, please, follow the steps below.
 
 ::: tip
-EC2 Instance Connect packages are pre-installed in AlmaLinux OS starting versions `8.9.YYYYMMDD` and `9.3.YYYYMMDD` However, for older versions of AlmaLinux OS AMIs, you will need to install the packages manually: 
+EC2 Instance Connect packages are pre-installed in AlmaLinux OS starting versions `8.9.20240303` and `9.3.20240303` However, for older versions of AlmaLinux OS AMIs, you will need to install the packages manually: 
 Install EC2 Instance Connect RPM packages:
-
-```sh
-dnf -y install \
-	https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect.rpm \
-	https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect-selinux.noarch.rpm
-```
+* **AlmaLinux OS 9 x86_64** 
+  ```sh
+  dnf -y install \
+      https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect.rpm \
+      https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect-selinux.noarch.rpm
+  ```
+* **AlmaLinux OS 9 AArch64** 
+  ```sh
+  dnf -y install \
+      https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_arm64/ec2-instance-connect.rpm \
+      https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect-selinux.noarch.rpm
+  ```
+* **AlmaLinux OS 8 x86_64** 
+  ```sh
+  dnf -y install \
+    https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect.rhel8.rpm \
+    https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect-selinux.noarch.rpm
+  ```
+* **AlmaLinux OS 8 AArch64** 
+  ```sh
+  dnf -y install \
+    https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_arm64/ec2-instance-connect.rhel8.rpm \
+    https://amazon-ec2-instance-connect-us-west-2.s3.us-west-2.amazonaws.com/latest/linux_amd64/ec2-instance-connect-selinux.noarch.rpm
+  ```
 :::
 
 ## Enabling EC2 Instance Connect
@@ -205,7 +223,7 @@ Replace these variables with your own:
 - `$SSH_PUB_KEY_PATH`: Path of public pair of SSH key, for example, `~/.ssh/my_ssh_key.pub`
 
 ::: tip
-See the [Amazon AWS page](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2-instance-connect/send-ssh-public-key.html) for more command line options.
+See the [AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2-instance-connect/send-ssh-public-key.html) for more command line options.
 :::
 
 ### Use AWS CLI to connect
@@ -218,5 +236,5 @@ Replace these variables with your own:
 - `$INSTANCE_ID`: ID of Instance, for example, `i-1234567890abcdef0`
 
 ::: tip
-See the [Amazon AWS page](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2-instance-connect/ssh.html) for more command line options.
+See the [AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2-instance-connect/ssh.html) for more command line options.
 :::
