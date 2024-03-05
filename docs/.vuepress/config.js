@@ -151,8 +151,14 @@ module.exports = {
             title: 'Cloud Images',
             path : '/cloud',
             children: [
-              '/cloud/AWS',
-              '/cloud/Azure',
+              {
+                title: 'AWS',
+                path : '/cloud',
+                children: [
+                  '/cloud/AWS',
+                  '/cloud/EC2-instance-connect',
+                ],
+              },
               '/cloud/Generic-cloud',
               '/cloud/Generic-cloud-on-local',
               '/cloud/Google',
@@ -164,7 +170,7 @@ module.exports = {
             title: 'Containers',
             path: '/containers',
             children: [
-              'containers/docker-images'
+              '/containers/docker-images'
             ]
         },
         {
