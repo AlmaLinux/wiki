@@ -2,7 +2,7 @@
 title: 'Help and Support'
 ---
 
-###### last modified: 2024-02-28
+###### last modified: 2024-03-05
 
 
 # Get Community Help and Support
@@ -15,22 +15,22 @@ There are various spaces, forums and chats for discussions so that you can reach
 Please, note, that typically signing up is required to join AlmaLinux discussion spaces.
 :::
 
-### Chats
+### Community Chats
 
-AlmaLinux Chats allows users to communicate on various channels, each with its specific topics like Packaging, Cloud, and Documentation. If you have a question or need help, post a question in the [*General*](https://chat.almalinux.org/almalinux/channels/town-square) channel or in the relevant channel for assistance.
+Community chats allow users to communicate in various channels, each with specific topics like Packaging, Cloud, and Documentation, etc. If you have a question or need help, post a question in the [*General*](https://chat.almalinux.org/almalinux/channels/town-square) channel or in the relevant channel for assistance.
 
 * [Mattermost Community Chat](https://chat.almalinux.org/)
 * [IRC Real Time Chat](https://web.libera.chat/#almalinux)
 
 ### Forums 
 
-AlmaLinux OS also provides forums for sharing information and assistance inside the Community. Subforum based on categories for the convenience of locating a relevant one.
+AlmaLinux OS also provides public forums for free information sharing and assistance from other AlmaLinux members. Additional Subforum categories foster conversations around a specific aspect of AlmaLinux.
 
 * [AlmaLinux Forums](https://forums.almalinux.org/) 
 
 ### Mailing Lists
 
-You can receive information, announcements, news letters, and updates over email by subscribing to the [AlmaLinux Mailing Lists](http://lists.almalinux.org/).
+You can receive information, announcements, news letters, and updates over email by subscribing to the [AlmaLinux Mailing Lists](https://lists.almalinux.org/).
 
 ### Social Media
 
@@ -70,10 +70,6 @@ Note, that it's preferable and recommended to use `bash` syntax.
 #### paste.almalinux.org
 
 We suggest you use the [https://paste.almalinux.org/](https://paste.almalinux.org/) service for sharing your outputs. 
-
-:::warning
-Please, note, that outputs shared via [https://paste.almalinux.org/](https://paste.almalinux.org/) expire 1 hour to 1 week.
-:::
 
 * Navigate to [https://paste.almalinux.org/](https://paste.almalinux.org/)
 * Select `bash` syntax.
