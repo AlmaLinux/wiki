@@ -2,7 +2,7 @@
 title: 'Documentation'
 ---
 
-###### last updated: 2024-02-26
+###### last updated: 2024-03-19
 
 # Contribute to AlmaLinux Documentation
 
@@ -20,25 +20,72 @@ You are also welcome to discuss the content and share your feedback and thoughts
 
 ### Setting up the environment
 
-1. Fork the Wiki [repository](https://github.com/AlmaLinux/wiki).
-2. Create a new branch.
-3. Edit or create a page.
-4. Commit your changes.
-5. Create a pull-request to the master branch as described in the GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+The Wiki is powered by [VuePress](https://vuepress.vuejs.org/).
 
-The Wiki is powered by [VuePress](https://vuepress.vuejs.org/), so it's pretty
-easy to run it locally (run all commands from the project's root):
+The general process to contribute to the wiki includes these steps:
+* Fork the Wiki [repository](https://github.com/AlmaLinux/wiki).
+* Clone your forked repository and navigate to its directory.
+* Create a new branch.
+* Edit or create a page.
+* Check your changes on the local wiki - see the steps below.
+* Commit your changes.
+* Create a pull-request to the master branch as described in the GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-1. Install necessary dependencies:
+There are two ways to run the wiki locally to check your changes:
+
+**Please, note, most steps are suitable for all three Linux, Windows and macOS systems, but some commands may need some adjustments.**
+
+#### Install yarn 
+
+:::tip
+For Windows and macOS, you may need to install [nodejs](https://nodejs.org/en) first.
+:::
+
+* Install necessary dependencies:
    ```sh
    $ yarn install
    ```
-2. Run a development web-server:
+* Run a development web-server:
    ```sh
    $ yarn docs:dev
    ```
-3. Your local Wiki instance should be up and running on
+* Your local Wiki instance should be up and running on
    [http://localhost:8080/](http://localhost:8080/).
+
+#### Use a container 
+
+You can use a container engine like Podman or Docker to deploy development version of wiki inside a container.
+**Requirements:** Docker or Podman
+* The wiki repository contains the `Containerfile` file that is used to create a container image with development dependencies installed. The command to create the container image requires to set a container name which, for example, is *wiki_dev*:
+  ```sh
+  podman build -t wiki_dev .
+  ```
+  :::warning
+  It's recommended to rebuild the container image if there is a change in **package.json** file to make sure it matches with the deployed version of `vuepress`.
+  You can do it either by removing the current one and building the new one documented above or by creating a new one with a different name without removing the old one.
+  ```sh
+  podman rmi localhost/wiki_dev
+  ```
+  :::
+* Clean up the first stage container image:
+  ```sh
+  podman image prune --filter label=stage=auto-clean-stage1
+  ```
+* Now you can create a container from this image whenever is needed from the image that was built above and mount *docs* to */wiki/docs* inside the container:
+  ```sh
+  podman run --name wiki_dev --rm -i -t -p 8080:8080 -v "$(pwd)"/docs:/wiki/docs:ro,z localhost/wiki_dev
+  ```
+  The options of the command are:
+  * `podman/docker` - container engine
+  * `run` - create a container
+  * `--name wiki_dev` - name a container *wiki_dev*
+  * `--rm` - remove the container once it is stopped
+  * `-i -t` - an interactive terminal session where you can track the deployment process and check the logs. Stop it with `Ctrl+C`.
+  * `-p 8080:8080` - map the port number 8080 inside the container to 8080 on the host
+  * `-v "$(pwd)"/docs:/wiki/docs:ro,z` - mount `docs` in current directory on `/wiki/docs` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
+  * `localhost/wiki_dev` - the name of the container image
+* The wiki instance should be up and running on http://localhost:8080.
+* Don't forget to stop the container when you've finished. 
 
 ## Working with AlmaLinux documentation
 
