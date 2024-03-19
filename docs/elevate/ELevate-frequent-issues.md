@@ -39,6 +39,11 @@ dracut -N -f
 dracut -f --regenerate-all
 ```
 
+## Leapp upgrade error "More space needed on the / filesystem"
+
+If the `leapp upgrade` step fails with the "More space needed on the / filesystem" error, it is necessary to expand the `/var` partition. 
+For this purpose, we kindly ask you to search for a [suitable guide](https://docs.icdc.io/en/compute/faq/extenddisk/).
+
 ## sssd fails after migration
 
 After migration, there may be problems with sssd.
