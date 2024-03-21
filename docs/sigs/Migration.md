@@ -53,6 +53,3 @@ If you can help, please join us at [Migration SIG on Mattermost](https://chat.al
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Kamil Aronowski](mailto:ka@euro-linux.com) - [EuroLinux](https://euro-linux.com) DevOps Engineer
-  * Chat login: [aronowski](https://chat.almalinux.org/almalinux/messages/@aronowski)
-  * GitHub profile: [aronowski](https://github.com/aronowski)
