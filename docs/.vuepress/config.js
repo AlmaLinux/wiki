@@ -152,6 +152,14 @@ module.exports = {
             path : '/cloud',
             children: [
               {
+                title: 'Generic Cloud (Cloud-init)',
+                path: '/cloud',
+                children: [
+                  '/cloud/Generic-cloud',
+                  '/cloud/Generic-cloud-on-local',
+                ]
+              },
+              {
                 title: 'AWS',
                 path : '/cloud',
                 children: [
@@ -159,8 +167,7 @@ module.exports = {
                   '/cloud/EC2-instance-connect',
                 ],
               },
-              '/cloud/Generic-cloud',
-              '/cloud/Generic-cloud-on-local',
+              '/cloud/Azure',
               '/cloud/Google',
               '/cloud/OCI',
               '/cloud/OpenNebula',
