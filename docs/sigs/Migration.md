@@ -47,7 +47,7 @@ If you can help, please join us at [Migration SIG on Mattermost](https://chat.al
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service developer.
    * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
    * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Yuriy Kohut](mailto:ykohut@almalinux.org) - Migration developer.
+* [Yuriy Kohut](mailto:ykohut@almalinux.org) - ELevate Project engineer.
   * Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
   * GitHub profile: [yuravk](https://github.com/yuravk)
 * [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
