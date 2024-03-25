@@ -2,7 +2,7 @@
 title: 'Documentation'
 ---
 
-###### last updated: 2024-03-19
+###### last updated: 2024-03-25
 
 # Contribute to AlmaLinux Documentation
 
@@ -54,14 +54,16 @@ For Windows and macOS, you may need to install [nodejs](https://nodejs.org/en) f
 
 #### Use a container 
 
-You can use a container engine like Podman or Docker to deploy development version of wiki inside a container.
+You can use a container engine like Podman or Docker to deploy a local development version of wiki inside a container.
+
 **Requirements:** Docker or Podman
-* The wiki repository contains the `Containerfile` file that is used to create a container image with development dependencies installed. The command to create the container image requires to set a container name which, for example, is *wiki_dev*:
+
+* The wiki repository contains the `Containerfile` file that is used to create a container image with development dependencies installed. The command to create the container image requires setting a container name which, for example, is *wiki_dev*:
   ```sh
   podman build -t wiki_dev .
   ```
   :::warning
-  It's recommended to rebuild the container image if there is a change in **package.json** file to make sure it matches with the deployed version of `vuepress`.
+  It's recommended to rebuild the container image if there is a change in the **package.json** file to make sure it matches the deployed version of `vuepress`.
   You can do it either by removing the current one and building the new one documented above or by creating a new one with a different name without removing the old one.
   ```sh
   podman rmi localhost/wiki_dev
@@ -82,9 +84,9 @@ You can use a container engine like Podman or Docker to deploy development versi
   * `--rm` - remove the container once it is stopped
   * `-i -t` - an interactive terminal session where you can track the deployment process and check the logs. Stop it with `Ctrl+C`.
   * `-p 8080:8080` - map the port number 8080 inside the container to 8080 on the host
-  * `-v "$(pwd)"/docs:/wiki/docs:ro,z` - mount `docs` in current directory on `/wiki/docs` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
+  * `-v "$(pwd)"/docs:/wiki/docs:ro,z` - mount `docs` in the current directory on `/wiki/docs` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
   * `localhost/wiki_dev` - the name of the container image
-* The wiki instance should be up and running on http://localhost:8080.
+* The wiki instance should be up and running on [http://localhost:8080/](http://localhost:8080/).
 * Don't forget to stop the container when you've finished. 
 
 ## Working with AlmaLinux documentation
