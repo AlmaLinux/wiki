@@ -49,22 +49,22 @@ If you would like to help, please join us at [Infrastructure channel](https://ch
 
 ## SIG members
 
-* [Jonathan Wright](mailto:jonathan@almalinux.org) - Infrastructure Team Lead
+* [Jonathan Wright](mailto:jonathan@almalinux.org) - Infrastructure Team Lead.
   * Chat login: [jonathan](https://chat.almalinux.org/almalinux/messages/@jonathan)
   * GitHub profile: [jonathanspw](https://github.com/jonathanspw)
-* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Architect
+* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Lead Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
 * [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
   * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
   * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
-* [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer
+* [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Elkhan Mammadli](mailto:elkhan@almalinux.org) - AlmaLinux OS Cloud Engineer, Cloud & Virt Team Lead
+* [Elkhan Mammadli](mailto:elkhan@almalinux.org) - AlmaLinux OS Cloud Engineer, Cloud & Virt Team Lead.
   * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
   * GitHub profile: [LKHN](https://github.com/LKHN)
-* [Vasiliy Kleschov](mailto:vkleschov@almalinux.org) - Build System Team Lead
+* [Vasiliy Kleschov](mailto:vkleschov@almalinux.org) - Build System Team Lead.
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
 * [Cody Robertson](mailto:crobertson@almalinux.org)
