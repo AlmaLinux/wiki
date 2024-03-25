@@ -37,6 +37,9 @@ If you can help, please join us at [Live Media SIG on Mattermost](https://chat.a
 * [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Live Media build scripts and automation.
   * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
   * GitHub profile: [LKHN](https://github.com/LKHN)
-* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Architect.
+* [Yuriy Kohut](mailto:ykohut@almalinux.org) - Works on Live Media build scripts and configuration files.
+  * Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
+  * GitHub profile: [yuravk](https://github.com/yuravk)
+* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Lead Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
