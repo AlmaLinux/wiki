@@ -38,7 +38,9 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 * [Markus Hilger](mailto:markus.hilger@megware.com), HPC Engineer, [MEGWARE](http://www.megware.com)
   * Chat login: [@markus.hilger](https://chat.almalinux.org/almalinux/messages/@markus.hilger)
   * GitHub profile: [Obihoernchen](https://github.com/Obihoernchen)
-* [Zacarias Benta](mailto:zacarias@lip.pt) - Engineer, [Laboratory of Instrumentation and Experimental Particle Physics (LIP)](https://ciencias.ulisboa.pt/en/lip)
+* [Zacarias Benta](mailto:zacarias@lip.pt) - IT Engineer, [Laboratory of Instrumentation and Experimental Particle Physics (LIP)](https://ciencias.ulisboa.pt/en/lip)
+  * Chat login: [@zacarias](https://chat.almalinux.org/almalinux/messages/@zacarias)
+  * GitHub profile: [@zbenta](https://github.com/zbenta)
 
 ## Additional information for SIG application approval
 
