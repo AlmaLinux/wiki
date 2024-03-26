@@ -151,10 +151,23 @@ module.exports = {
             title: 'Cloud Images',
             path : '/cloud',
             children: [
-              '/cloud/AWS',
+              {
+                title: 'Generic Cloud (Cloud-init)',
+                path: '/cloud',
+                children: [
+                  '/cloud/Generic-cloud',
+                  '/cloud/Generic-cloud-on-local',
+                ]
+              },
+              {
+                title: 'AWS',
+                path : '/cloud',
+                children: [
+                  '/cloud/AWS',
+                  '/cloud/EC2-instance-connect',
+                ],
+              },
               '/cloud/Azure',
-              '/cloud/Generic-cloud',
-              '/cloud/Generic-cloud-on-local',
               '/cloud/Google',
               '/cloud/OCI',
               '/cloud/OpenNebula',
@@ -164,7 +177,7 @@ module.exports = {
             title: 'Containers',
             path: '/containers',
             children: [
-              'containers/docker-images'
+              '/containers/docker-images'
             ]
         },
         {
@@ -207,6 +220,7 @@ module.exports = {
          '/gsoc',
         ]
      },
+    '/Help-and-Support',
     ],
     // AlmaLinux organization on GitHub
     repo: 'AlmaLinux/',
