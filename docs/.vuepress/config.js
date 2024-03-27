@@ -23,6 +23,7 @@ module.exports = {
           title: 'Contribute',
           children: [
             '/Contribute',
+            '/Contribute-to-Documentation',
             '/Mirrors',
             {
               title: 'Special interest groups (SIGs)',
