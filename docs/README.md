@@ -20,7 +20,7 @@
     <li><a href="https://www.reddit.com/r/AlmaLinux/">reddit.com/r/AlmaLinux</a> - Reddit Community</li>
     <li><a href="https://repo.almalinux.org/">repo.almalinux.org</a> - Public Package Repository</li>
     <li><a href="https://status.almalinux.org/">status.almalinux.org</a> - Public Status Page</li>
-    <li><b>Cloud Images </b>(and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD</li>
+    <li><b>Cloud Images </b>(and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/Incus</li>
     <li><a href="https://github.com/AlmaLinux/cloud-images">AlmaLinux Cloud Images</a></li>
     <li><a href=cloud/AWS>Expanded documentation on AWS</a></li>
     <li><a href=cloud/Generic-cloud>Expanded documentation on Generic Cloud/Cloud-Init</a></li> 
