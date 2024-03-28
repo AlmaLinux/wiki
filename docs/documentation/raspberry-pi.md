@@ -177,7 +177,7 @@ When it's done insert the SD Card into your Raspberry Pi and boot.
 
 ### Getting started
 
-When you boot your Raspberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default. Proceed with resizing your root filesystem by running `sudo rootfs-expand`.
+When you boot your Raspberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default.
 
 ### Connecting to Wi-Fi
 * Check whether wifi is enabled:
