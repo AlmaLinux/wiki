@@ -87,7 +87,7 @@ At the time of our testing, these commands were used to fetch the images:
   Primary key fingerprint: 5E9B 8F56 17B5 066C E920  57C3 488F CF7C 3ABB 34F8
        Subkey fingerprint: E53C F5EF 91CE B0AD 1812  ECB8 51D6 647E C21A D6EA
   ```
-  :::tip  
+  :::tip
   Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"` message in the output.
   :::
 
@@ -96,7 +96,7 @@ At the time of our testing, these commands were used to fetch the images:
   $ sha256sum -c CHECKSUM 2>&1 | grep OK
   AlmaLinux-8-RaspberryPi-latest.aarch64.raw.xz: OK
   ```
-  :::warning  
+  :::warning
   If the output is different, you should download the image again.
   :::
 
@@ -1083,7 +1083,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDtC0X1uAbqUFgbFAl3c9Zc56WaUVUdj7+S6rzdz8V2
 [  241.538302] cloud-init[592]: Cloud-init v. 22.1-9.el9.alma finished at Mon, 20 Mar 2023 00:03:48 +0000. Datasource DataSourceNoCloud [seed=/dev/mmcblk0p1][dsmode=net].  Up 241.33 seconds
 
 ```
-:::  
+:::
 
 ## How to contribute
 
