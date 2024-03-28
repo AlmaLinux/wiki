@@ -166,8 +166,8 @@ At the time of our testing, these commands were used to fetch the images:
   :::
 ### Burn Raspberry Pi image
 
-The next step is to burn the image to an SD card using  
-- [RPi Image](https://www.raspberrypi.com/documentation/computers/getting-started.html#using-raspberry-pi-imager)
+The next step is to burn the image to an SD card using
+- [RPi Imager](https://www.raspberrypi.com/documentation/computers/getting-started.html#using-raspberry-pi-imager)
 - [Fedora Media Writer](https://github.com/FedoraQt/MediaWriter/releases/)
 - [balenaEtcher](https://www.balena.io/etcher/)
 - `dd`
