@@ -175,6 +175,10 @@ The next step is to burn the image to an SD card using
 
 When it's done insert the SD Card into your Raspberry Pi and boot.
 
+  :::tip
+  Do not use OS customization feature built in RPi Imager. AlmaLinux doesn't support the feature and it conflicts with our initialization process such as default user creation. If you want to apply custom configuration, edit `user-data` file as described in [Configuration using cloud-init](#configuration-using-cloud-init) section.
+  :::
+
 ### Getting started
 
 When you boot your Raspberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default.
