@@ -19,7 +19,7 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 ### AlmaLinux 8
 
-Version 8 will have active support until 01 May 2024, and security support until 01 Mar 2029. Release of new 8.x version ends support for the previous version.
+Version 8 will have active support until 31 May 2024, and security support until 31 May 2029. Release of new 8.x version ends support for the previous version.
 
 | Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
