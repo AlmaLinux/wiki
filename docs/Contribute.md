@@ -3,6 +3,16 @@ title: 'Help AlmaLinux OS'
 ---
 # Contributing to the AlmaLinux project
 
+AlmaLinux OS development, infrastructure management, and overall project promotion are organized using our community chat. There are many ways to contribute to AlmaLinux OS - testing, quality assurance, documentation, and more. We'd love to welcome you! Take a look at the list of [SIGs](/sigs/), then join the [AlmaLinux chat on Mattermost](https://chat.almalinux.org), and [introduce yourself](https://chat.almalinux.org/almalinux/channels/introductions) or join one of the topical channels below to find out more!
+
+-   [General chat](https://chat.almalinux.org/almalinux/channels/town-square)
+-   [Development](https://chat.almalinux.org/almalinux/channels/development)
+-   [Infrastructure](https://chat.almalinux.org/almalinux/channels/infrastructure)
+-   [Security](https://chat.almalinux.org/almalinux/channels/security)
+-   [Documentation](https://chat.almalinux.org/almalinux/channels/documentation)
+-   [Marketing](https://chat.almalinux.org/almalinux/channels/marketing)
+-   [Web presence](https://chat.almalinux.org/almalinux/channels/www)
+
 ## Help with reporting bugs and making fixes
 
 Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly identical bugs as the current release of RHEL. AlmaLinux recommends following an "upstream first" approach in order to help not just the AlmaLinux but the whole EL community:
@@ -31,17 +41,19 @@ The importance of documentation cannot be understated, as it is like an investme
 
 If you want to participate, please, follow the [guidelines](Contribute-to-Documentation).
 
-
 ### 4. Help with Azure mirrors deployment
 
 We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic. More info [here](/cloud/Azure).
 
-### 5. More ways to help for DevOps & Programmers
+### 5. Promotion, blog posts, translations, and more!
+
+If you are looking to flex skills not directly involved in development, we are always looking for guest blog posts, help with translations of our website, folks to staff events, and much more! Reach out in the [Marketing](https://chat.almalinux.org/almalinux/channels/marketing) channel for more info!
+
+### 6. More ways to help for DevOps & Programmers
 
 - Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
 - Help with our [cloud infrastructure maintenance](/sigs/Cloud.html#help-wanted)
 
-
 ## Need assistance? We are here to help!
 
-If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. You can contact our AlmaLinux Evangelist & PM, Pawel. He's available as [pawel @ Mattermost chat](https://chat.almalinux.org/almalinux/messages/@pawel) or via email at [PSUchanecki@almalinux.org](mailto:psuchanecki@almalinux.org).
+If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. Join chat or reach out on [our forums](https://almalinux.discourse.group/)! Our community of amazing users of all experience levels are happy to help you puzzle out your problem. 
