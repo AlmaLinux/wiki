@@ -15,9 +15,9 @@ for on-premise clouds as well as supports other SIGs and projects looking to con
 | OpenStack Train | # dnf install centos-release-openstack-train | - |
 | OpenStack Ussuri | # dnf install centos-release-openstack-ussuri | - |
 | OpenStack Victoria | # dnf install centos-release-openstack-victoria | - |
-| OpenStack Yoga | - | # dnf install centos-release-openstack-yoga |
-| OpenStack Client Xena | # dnf install centos-release-openstack-xena | # dnf install centos-release-openstackclient-xena |
 | OpenStack Wallaby | # dnf install centos-release-openstack-wallaby | - |
+| OpenStack Client Xena | # dnf install centos-release-openstack-xena | # dnf install centos-release-openstackclient-xena |
+| OpenStack Yoga | - | # dnf install centos-release-openstack-yoga |
 
 ## Config Management SIG
 
