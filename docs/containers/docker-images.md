@@ -31,13 +31,39 @@ Container image tag for Minimal ( UBI - alternative): `almalinux/8-minimal`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platform | Link |
-| ------------- | ------------- | ----- |
-| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-minimal](https://hub.docker.com/r/almalinux/8-minimal) |
-| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-minimal](https://hub.docker.com/r/almalinux/9-minimal) |
-| 8  | Quay.io  | [quay.io/repository/almalinuxorg/8-minimal](https://quay.io/repository/almalinuxorg/8-minimal?tab=tags) |
-| 9  | Quay.io  | [quay.io/repository/almalinuxorg/9-minimal](https://quay.io/repository/almalinuxorg/9-minimal?tab=tags) |
-
+<table>
+  <tr style="background-color: #304b5e; color: #fff; font-weight: 600;">
+    <th>AlmaLinux version</th>
+    <th>Platform</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <th rowspan="3">8</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/8-minimal">hub.docker.com/r/almalinux/8-minimal</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/8-minimal?tab=tags">quay.io/repository/almalinuxorg/8-minimal</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/8-minimal">hgithub.com/orgs/AlmaLinux/packages/container/package/8-minimal</a></td>
+  </tr>
+  <tr>
+    <th rowspan="3">9</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/9-minimal">hub.docker.com/r/almalinux/9-minimal</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/9-minimal?tab=tags">quay.io/repository/almalinuxorg/9-minimal</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/9-minimal">github.com/orgs/AlmaLinux/packages/container/package/9-minimal</a></td>
+  </tr>
+</table>
 
 ### AlmaLinux: Base
 
@@ -47,13 +73,39 @@ Container image tag: `almalinux/8-base`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platform | Link |
-| ------------- | ------------- | ----- |
-| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-base](https://hub.docker.com/r/almalinux/8-base) |
-| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-base](https://hub.docker.com/r/almalinux/9-base) |
-| 8  | Quay.io  | [quay.io/repository/almalinuxorg/8-base](https://quay.io/repository/almalinuxorg/8-base?tab=tags) |
-| 9  | Quay.io  | [quay.io/repository/almalinuxorg/9-base](https://quay.io/repository/almalinuxorg/9-base?tab=tags) |
-
+<table>
+  <tr style="background-color: #304b5e; color: #fff; font-weight: 600;">
+    <th>AlmaLinux version</th>
+    <th>Platform</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <th rowspan="3">8</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/8-base">hub.docker.com/r/almalinux/8-base</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/8-base?tab=tags">quay.io/repository/almalinuxorg/8-base</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/8-base">github.com/orgs/AlmaLinux/packages/container/package/8-base</a></td>
+  </tr>
+  <tr>
+    <th rowspan="3">9</th>
+    <td>Docker Hub</td>
+    <td><a href="hub.docker.com/r/almalinux/9-base">hub.docker.com/r/almalinux/9-base</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/9-base?tab=tags">quay.io/repository/almalinuxorg/9-base</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/9-base">github.com/orgs/AlmaLinux/packages/container/package/9-base</a></td>
+  </tr>
+</table>
 
 ### AlmaLinux: Init 
 
@@ -63,13 +115,39 @@ Container image tag: `almalinux/8-init`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platform | Link |
-| ------------- | ------------- | ----- |
-| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-init](https://hub.docker.com/r/almalinux/8-init) |
-| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-init](https://hub.docker.com/r/almalinux/9-init) |
-| 8  | Quay.io  | [quay.io/repository/almalinuxorg/8-init](https://quay.io/repository/almalinuxorg/8-init?tab=tags) |
-| 9  | Quay.io  | [quay.io/repository/almalinuxorg/9-init](https://quay.io/repository/almalinuxorg/9-init?tab=tags) |
-
+<table>
+  <tr style="background-color: #304b5e; color: #fff; font-weight: 600;">
+    <th>AlmaLinux version</th>
+    <th>Platform</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <th rowspan="3">8</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/8-init">hub.docker.com/r/almalinux/8-init</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/8-init?tab=tags">quay.io/repository/almalinuxorg/8-init</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/8-init">github.com/orgs/AlmaLinux/packages/container/package/8-init</a></td>
+  </tr>
+  <tr>
+    <th rowspan="3">9</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/9-init">hub.docker.com/r/almalinux/9-init</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/9-init?tab=tags">quay.io/repository/almalinuxorg/9-init</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/9-init">github.com/orgs/AlmaLinux/packages/container/package/9-init</a></td>
+  </tr>
+</table>
 
 ### AlmaLinux: Micro
 
@@ -79,12 +157,39 @@ Container image tag: `almalinux/8-micro`
 
 Links to repositories:
 
-| AlmaLinux Version  | Platform | Link |
-| ------------- | ------------- | ----- |
-| 8  | Docker Hub | [hub.docker.com/r/almalinux/8-micro](https://hub.docker.com/r/almalinux/8-micro) |
-| 9  | Docker Hub | [hub.docker.com/r/almalinux/9-micro](https://hub.docker.com/r/almalinux/9-micro) |
-| 8  | Quay.io  | [quay.io/repository/almalinuxorg/8-micro](https://quay.io/repository/almalinuxorg/8-micro?tab=tags) |
-| 9  | Quay.io  | [quay.io/repository/almalinuxorg/9-micro](https://quay.io/repository/almalinuxorg/9-micro?tab=tags) |
+<table>
+  <tr style="background-color: #304b5e; color: #fff; font-weight: 600;">
+    <th>AlmaLinux version</th>
+    <th>Platform</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <th rowspan="3">8</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/8-micro">hub.docker.com/r/almalinux/8-micro</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/8-micro?tab=tags">quay.io/repository/almalinuxorg/8-micro</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/8-micro">github.com/orgs/AlmaLinux/packages/container/package/8-micro</a></td>
+  </tr>
+  <tr>
+    <th rowspan="3">9</th>
+    <td>Docker Hub</td>
+    <td><a href="https://hub.docker.com/r/almalinux/9-micro">hub.docker.com/r/almalinux/9-micro</a></td>
+  </tr>
+  <tr>
+    <td>Quay.io</td>
+    <td><a href="https://quay.io/repository/almalinuxorg/9-micro?tab=tags">quay.io/repository/almalinuxorg/9-micro</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Packages</td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/9-micro">github.com/orgs/AlmaLinux/packages/container/package/9-micro</a></td>
+  </tr>
+</table>
 
 
 If you want to contribute or need any help, join us at [Container Sig at Mattermost](https://chat.almalinux.org/almalinux/channels/sigvirtcontainer).
