@@ -48,7 +48,7 @@ Links to repositories:
   </tr>
   <tr>
     <td>GitHub Packages</td>
-    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/8-minimal">hgithub.com/orgs/AlmaLinux/packages/container/package/8-minimal</a></td>
+    <td><a href="https://github.com/orgs/AlmaLinux/packages/container/package/8-minimal">github.com/orgs/AlmaLinux/packages/container/package/8-minimal</a></td>
   </tr>
   <tr>
     <th rowspan="3">9</th>
