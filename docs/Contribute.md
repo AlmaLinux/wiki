@@ -3,7 +3,22 @@ title: 'Help AlmaLinux OS'
 ---
 # Contributing to the AlmaLinux project
 
-AlmaLinux OS development, infrastructure management, and overall project promotion are organized using our community chat. There are many ways to contribute to AlmaLinux OS - testing, quality assurance, documentation, and more. We'd love to welcome you! Take a look at the list of [SIGs](/sigs/), then join the [AlmaLinux chat on Mattermost](https://chat.almalinux.org), and [introduce yourself](https://chat.almalinux.org/almalinux/channels/introductions) or join one of the topical channels below to find out more!
+AlmaLinux OS development, infrastructure management, and overall project promotion are organized using our community chat. There are many ways to contribute to AlmaLinux OS - testing, quality assurance, documentation, and more. We'd love to welcome you! To help get you started, here are a few ideas:
+
+How you or your team can contribute their time: 
+- Content Creation: Create engaging content around interesting projects which showcase the use of AlmaLinux
+- ELevate - assist in expanding ELevate capabilities (migrations from additional versions), adding PES data for packages
+- Improve or expand documentation on our wiki
+- Become part of the infrastructure team for AlmaLinux – help maintain AlmaLinux core infrastructure, including build, test & mirror infrastructure
+- Become part of the security team for AlmaLinux - help define security architecture, maintain periodic audits and log reviews, etc.
+- Become part of the AlmaLinux build team - work on rebuilding RHEL packages, and building packages requested by the community. Assist in packing for EPEL.
+- Expert help - help users on our Mailing List, Mattermost chat & Reddit
+- Events staffing - represent AlmaLinux at LUG & Linux / OpenSource conferences - when they are geographically close to your location
+- Help with AlmaLinux branding - Web design, graphical design - almalinux.org website (Hugo!), swag or sticker design
+- Help get AlmaLinux through Common Criteria certification - CIS Benchmark and STIGs 
+- Participate in the development of build platform, mirror platform - or any other part of the infrastructure (Python, JavaScript)
+
+If any of those sound interesting to you, then take a look at the list of [SIGs](/sigs/), join the [AlmaLinux chat on Mattermost](https://chat.almalinux.org), and [introduce yourself](https://chat.almalinux.org/almalinux/channels/introductions) or join one of the topical channels below to find out more!
 
 -   [General chat](https://chat.almalinux.org/almalinux/channels/town-square)
 -   [Development](https://chat.almalinux.org/almalinux/channels/development)
