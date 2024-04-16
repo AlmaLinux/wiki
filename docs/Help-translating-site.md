@@ -19,7 +19,7 @@ After creating an account we need to head to [AlmaLinux Foundation Weblate](http
 
 ![image](/images/weblate-almalinux-foundation.png)
 
-And choose each one of the two and you should be sent to a page similar to the image below.
+Choosing each one of the two should send you to a page similar to the image below.
 
 ![image](/images/weblate-translate-website.png)
 
