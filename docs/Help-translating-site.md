@@ -3,7 +3,7 @@ title: 'Help translating site'
 ---
 # Help translating the site
 
-The [almaLinux.org websites](https://almalinux.org/) localization and translation is managed by [Weblate](https://hosted.weblate.org/engage/almalinux/) and supported by contributors, the translations that get submitted through Weblate are automatically submitted to the [almaLinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request.
+The [almalinux.org website](https://almalinux.org/) localization and translation is managed by [Weblate](https://hosted.weblate.org/engage/almalinux/) and supported by contributors. The translations that get submitted through Weblate are automatically submitted to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request.
 
 Pull requests from Weblate are reviewed by a member of the marketing SIG or another team lead, and merged as appropriate.
 
