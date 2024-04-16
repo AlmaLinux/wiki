@@ -9,7 +9,7 @@ The [almaLinux.org websites](https://almalinux.org/) localization and translatio
 
 ## Create an account
 
-First you need to create a [Weblate](https://hosted.weblate.org/accounts/register/) account, you could use accounts from other service providers or fill in the form shown below to create it.
+First you need to create a [Weblate](https://hosted.weblate.org/accounts/register/) account. You could use accounts from other service providers or fill in the form shown below to create it.
 
 ![image](/images/weblate-create-account.png)
 
