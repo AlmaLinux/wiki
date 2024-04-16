@@ -23,7 +23,7 @@ And choose each one of the two and you should be sent to a page similar to the i
 
 ![image](/images/weblate-translate-website.png)
 
-Then choose the language you want to translate to, for this example I'll choose [Hebrew](https://hosted.weblate.org/translate/almalinux/website-backend/he/?q=state:%3Ctranslated).
+Then choose the language you want to translate to. For this example, I'll choose [Hebrew](https://hosted.weblate.org/translate/almalinux/website-backend/he/?q=state:%3Ctranslated).
 
 ![image](/images/weblate-send-translations.png)
 
