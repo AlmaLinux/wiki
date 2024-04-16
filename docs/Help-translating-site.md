@@ -27,7 +27,7 @@ Then choose the language you want to translate to, for this example I'll choose 
 
 ![image](/images/weblate-send-translations.png)
 
-After translating from English to your chosen language (.e.g Hebrew) press on "Save and continue" and your translation would be sent eventually as a PR to the [almaLinux.org repo](https://github.com/AlmaLinux/almalinux.org) and reviewed by a member of the marketing SIG or another team lead, then merged as appropriate.
+After translating from English to your chosen language (.e.g Hebrew) press on "Save and continue" and your translation will be sent eventually as a PR to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) and reviewed by a member of the marketing SIG or another team lead, then merged as appropriate.
 
 ##  Request new languages 
 
