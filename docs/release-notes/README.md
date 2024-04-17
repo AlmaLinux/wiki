@@ -12,7 +12,7 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 | Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
-| [9.4](release-notes/9.4-beta) | Seafoam Ocelot | 15 Apr 2024 | | 5.14.0-427 | x86_64, aarch64, ppc64le, s390x |
+| [9.4](/release-notes/9.4-beta) | Seafoam Ocelot | 15 Apr 2024 | | 5.14.0-427 | x86_64, aarch64, ppc64le, s390x |
 | [9.3](/release-notes/9.3)| Shamrock Pampas Cat | 26 Oct 2023 | 13 Nov 2023 | 5.14.0-362.8.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.2](/release-notes/9.2) | Turquoise Kodkod | 27 Apr 2023 | 10 May 2023 | 5.14.0-284.11.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.1](/release-notes/9.1) | Lime Lynx | 02 Nov 2022 | 16 Nov 2022 | 5.14.0-162.6.1 | x86_64, aarch64, ppc64le, s390x |
