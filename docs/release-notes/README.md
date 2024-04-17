@@ -24,6 +24,7 @@ Version 8 will have active support until 31 May 2024, and security support until
 
 | Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
+| [8.10](/release-notes/8.10-beta) | Cerulean Leopard | 17 Apr 2024 | | 4.18.0-544 | x86_64, aarch64, ppc64le, s390x |
 | [8.9](/release-notes/8.9) | Midnight Oncilla | 2 Nov 2023 | 21 Nov 2023 | 4.18.0-513.5.1 | x86_64, aarch64, ppc64le, s390x |
 | [8.8](/release-notes/8.8) | Sapphire Caracal | 21 Apr 2023 | 18 May 2023 | 4.18.0-477.10.1 | x86_64, aarch64, ppc64le, s390x |
 | [8.7](/release-notes/8.7) | Stone Smilodon | 25 Oct 2022 | 10 Nov 2022 | 4.18.0-425.3.1 | x86_64, aarch64, ppc64le, s390x |

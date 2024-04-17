@@ -110,6 +110,7 @@ module.exports = {
                   '/release-notes/9.3',
                   '/release-notes/8.9',
                   '/release-notes/9.4-beta',
+                  '/release-notes/8.10-beta',
                   '/release-notes/9.2',
                   '/release-notes/8.8',
                   '/release-notes/9.3-beta',
