@@ -2,6 +2,8 @@
 title: "ELevate Testing Guide"
 ---
 
+###### last updated: 2024-04-18
+
 # ELevate Testing Guide
 
 ::: warning
@@ -15,7 +17,7 @@ Currently, the following migration directions are available:
 \* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
 \** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
-You need CentOS 7, AlmaLinux 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
+Requirements: ou need CentOS 7, AlmaLinux 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
 
 * Fully updated system is required to accomplish the upgrade. So, install the latest system updates first, and reboot.
 ```
@@ -90,12 +92,13 @@ cat /var/log/leapp/leapp-report.txt
 cat /var/log/leapp/leapp-upgrade.log
 ```
 
-:::tip
-Report your feedback to [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from previous OS version. This information will allow us to improve ELevate configuration files.
-:::
-
 ### Demo Video
 
 Check Demo of a CentOS 7.x to AlmaLinux 8.x migration using the software and data provided by the AlmaLinux ELevate Project. 
 
 <iframe width="856" height="482" src="https://www.youtube.com/embed/Vzl9QxG5mvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Get Help 
+
+Report your feedback to [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from previous OS version. This information will allow us to improve ELevate configuration files.
+
