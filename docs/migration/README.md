@@ -14,7 +14,7 @@ AlmaLinux offers two projects for migrating your machine, each designed for spec
 
 The tool supports the following migration paths:
 
-![image](/images/migration.drawio.svg)
+![image](/images/migration.svg)
 
 See the [Migration Guide](/documentation/migration-guide) for the convertion steps.
 
@@ -32,7 +32,7 @@ ELevate supports a number of 3rd party repositories for all supported systems:
 
 The project supports the following migration paths:
 
-![image](/images/ELevate.drawio.svg)
+![image](/images/ELevate.svg)
 
 \* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
 \** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
