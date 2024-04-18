@@ -18,15 +18,15 @@ The tool supports the following migration paths:
 
 ![image](/images/migration.svg)
 
-See the [Migration Guide](/documentation/migration-guide) for the convertion steps.
+See the [Migration Guide](/documentation/migration-guide) for the conversion steps.
 
 ## AlmaLinux ELevate Project
 
 The ELevate project is an initiative to support migrations between major versions of RHEL-derivatives. 
  
-The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) are used to perform in place migrations between CentOS 7 and Enterprise Linux (EL) 8, and between EL8 and EL9 systems.
+The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) are used to perform in-place migrations between CentOS 7 and Enterprise Linux (EL) 8, and between EL8 and EL9 systems.
 
-The [Red Hat Upgrade Tool](https://github.com/upgrades-migrations/redhat-upgrade-tool.git) is used to perform in place migration between CentOS 6 and CentOS 7.
+The [Red Hat Upgrade Tool](https://github.com/upgrades-migrations/redhat-upgrade-tool.git) is used to perform in-place migration between CentOS 6 and CentOS 7.
 
 ELevate supports a number of 3rd party repositories for all supported systems:
 * EPEL
