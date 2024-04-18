@@ -30,7 +30,6 @@ Currently, the following migration directions are available:
 
 \* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
 \** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
-\*** - migration to CentOS 6 is perfromed by the [Red Hat Upgrade Tool](). As so, the ELevate project doesn't cover it, but provides a tested working [guide]().
 
 **Requirements:** You need CentOS 7, AlmaLinux 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
 

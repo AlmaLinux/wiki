@@ -6,7 +6,11 @@ title: "About ELevate project"
 
 # About the project
 
-The ELevate project is an initiative to support migrations between major versions of RHEL-derivatives. The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) to support migration from non-RHEL operating systems are used to perform the upgrade. 
+The ELevate project is an initiative to support migrations between major versions of RHEL-derivatives. 
+
+The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://github.com/AlmaLinux/leapp-repository/commits/almalinux) are used to perform in place migrations between CentOS 7 and Enterprise Linux (EL) 8, and between EL8 and EL9 systems.
+
+The [Red Hat Upgrade Tool](https://github.com/upgrades-migrations/redhat-upgrade-tool.git) is used to perform in place migration between CentOS 6 and CentOS 7.
 
 # Available migration paths 
 
@@ -24,16 +28,15 @@ There are several ways to perform upgrade these days. Here is the list to see wh
 
 \* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
 \** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
-\*** - migration to CentOS 6 is perfromed by the [Red Hat Upgrade Tool](). As so, the ELevate project doesn't cover it, but provides a tested working [guide]().
 
 # How to migrate
 
 There are various guides that cover the update steps depending on a migration type:
-* The [ELevate Quickstart Guide](/elevate/ELevate-quickstart-guide) covers the update steps using Leapp utility with 3rd party repositories support and  provides the Demo video.
+* The [ELevate Quickstart Guide](/elevate/ELevate-quickstart-guide) covers the update steps using Leapp utility version with 3rd party repositories support and  provides the Demo video.
 * The [ELevate CentOS 7 to AlmaLinux 9 Guide](/elevate/ELevating-CentOS7-to-AlmaLinux-9) covers two-stage process to migrate a CentOS 7 machine to AlmaLinux OS 9.
 * The [ELevate CentOS 6 to CentOS 7 Guide](/elevate/ELevating-CentOS6-to-CentOS7) covers steps to be performed to migrate CentOS 6 machine to CentOS 7.
 * The [ELevate Offline Guide](/elevate/ELevate-offline-guide) covers the update steps on air-gapped machines.
-* The [ELevate NG Guide](/elevate/ELevate-NG-testing-guide) covers the update steps using the next Leapp tool version - **0.19.0**.
+* The [ELevate NG Guide](/elevate/ELevate-NG-testing-guide) covers the update steps using the next Leapp tool version - 0.19.0.
 
 # Package Evolution Service
 
