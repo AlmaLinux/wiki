@@ -20,7 +20,10 @@ The process consists of two steps:
 
 ## Requirements 
 * This guide is suitable only for x86_64 architecture. 
-* You need the most recent CentOS 6.10 system installed with enabled Vault repositories to be able to install the upgrade tool. Please, check the **Details** below for guidance on how to enable the CentOS Vault repositories.
+* The most recent version of CentOS 6.10.
+* An enabled Vault repository 
+
+Please, check the **Details** below for guidance on how to enable the CentOS Vault repositories.
   :::details
   To be able to migrate your CentOS 6 machine, you need to get working CentOS 6 repositories. Run the update the repositories file with CentOS 6.10 Vault repositories:
     ```sh
