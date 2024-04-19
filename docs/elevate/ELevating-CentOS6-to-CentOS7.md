@@ -134,7 +134,9 @@ ls -la /etc/yum.repos.d/CentOS-Base.repo.rpmnew
     ```sh
     S.5....T.  c /etc/yum.repos.d/CentOS-Base.repo
     ```
-  * ```
+Run the following command to replace the outdated *.repo* file with the new one:
+
+      ```sh
     mv /etc/yum.repos.d/CentOS-Base.repo.rpmnew /etc/yum.repos.d/CentOS-Base.repo
     ```
 
