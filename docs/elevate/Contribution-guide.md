@@ -129,4 +129,4 @@ Package Evolution Service's top menu allows you to quickly navigate between othe
 
 ## Get Help and Assistance
 
-For more help and assistance, or if you want to discuss anything, you are very welcome on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+For more help and assistance, or if you want to discuss anything, you are very welcome in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
