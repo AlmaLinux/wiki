@@ -35,7 +35,7 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
 
 ### Prerequisites
 
-* As the root access is required to use the following steps, make sure that you are logged in as a root user:
+* As root access is required to use the following steps, make sure that you are logged in as the root user:
   ```sh
   whoami
   ```
