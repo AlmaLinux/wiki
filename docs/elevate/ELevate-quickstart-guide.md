@@ -112,4 +112,4 @@ Check Demo of a CentOS 7.x to AlmaLinux 8.x migration using the software and dat
 
 ## Get Help 
 
-For more help and assistance reach out to us on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
