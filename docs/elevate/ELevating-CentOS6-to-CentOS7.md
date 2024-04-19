@@ -65,7 +65,7 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
 
 ### Migrate the system
 
-* Run preupgrade assistant as a preugrade check of the system. It will generate the report file with possible problems and risks. No rpm packages will be installed at this phase. 
+* Run the pre-upgrade assistant as a pre-ugrade check of the system. It will generate a report file with possible problems and risks for review. No changes will be made at this phase. 
   ```sh
   preupg
   ```
