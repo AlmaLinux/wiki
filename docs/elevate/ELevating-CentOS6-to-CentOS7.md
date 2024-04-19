@@ -127,7 +127,7 @@ Because the *CentOS-Base.repo* file was customized earlier to contain CentOS Vau
 
    ```sh
 ls -la /etc/yum.repos.d/CentOS-Base.repo.rpmnew
-  * ```sh
+  ```sh
     rpm -qV centos-release
     ```  
     ###### Expected output:
