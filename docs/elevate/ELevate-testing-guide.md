@@ -100,5 +100,5 @@ Check Demo of a CentOS 7.x to AlmaLinux 8.x migration using the software and dat
 
 ## Get Help 
 
-Report your feedback to [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from previous OS version. This information will allow us to improve ELevate configuration files.
+Report your feedback to [AlmaLinux ~Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from previous OS versions. This information will allow us to improve ELevate's configuration files.
 
