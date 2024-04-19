@@ -25,7 +25,7 @@ The process consists of two steps:
 
 Please, check the **Details** below for guidance on how to enable the CentOS Vault repositories.
   :::details
-  To be able to migrate your CentOS 6 machine, you need to get working CentOS 6 repositories. Run the update the repositories file with CentOS 6.10 Vault repositories:
+  To migrate your CentOS 6 machine, you need working CentOS 6 repositories. Run the below command replace your CentOS-base repo file with a known-good CentOS 6.10 Vault repository configuration:
     ```sh
     curl https://repo.almalinux.org/elevate/el6/centos6-vault.repo -o /etc/yum.repos.d/CentOS-Base.repo
     ```
