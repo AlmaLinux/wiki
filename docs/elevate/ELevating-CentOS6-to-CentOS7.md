@@ -168,6 +168,4 @@ Here's the list of additional documentation that you might find useful:
 * [CentOS Preupgrade Data](https://git.centos.org/sources/preupgrade-assistant-el6toel7-data/c6/)
 
 #### Trademarks
-Red Hat, Red Hat Enterprise Linux are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries.
-
-The CentOS Marks are trademarks of Red Hat, Inc. (“Red Hat”). 
+Red Hat, Red Hat Enterprise Linux, and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries.
