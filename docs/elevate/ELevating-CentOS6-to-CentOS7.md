@@ -115,7 +115,9 @@ After the second reboot completes and you are presented with the login screen, l
   
 ### Clean up
 
-* Check packages left from the previous OS version, consider removing or updating them manually.
+
+After the migration is complete, there may be leftover packages from the previous OS (even if you used the `--cleanup-post` option). Consider removing or updating them manually.
+
   ```sh
   rpm -qa | grep el6
   ```
