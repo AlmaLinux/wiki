@@ -118,7 +118,7 @@ A new entry in GRUB called `System Upgrade (redhat-upgrade-tool)` will appear. T
   rpm -qa | grep el6
   ```
 * Check if any CentOS 6 repositories are left and disable them.
-* Consider removing the CentOS 6 upgrade repository package:
+Also consider removing the CentOS 6 upgrade repository package, as it is no longer needed and could cause problems in the next steps:
   ```sh
   yum remove elevate-release
   ```
