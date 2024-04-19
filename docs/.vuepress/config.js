@@ -209,6 +209,7 @@ module.exports = {
       },
       {
          title: 'Migration',
+         path: '/migration',
          children: [
            '/documentation/migration-guide',
            {

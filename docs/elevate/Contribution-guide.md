@@ -1,9 +1,14 @@
+---
+title: 'ELevate Contribution Guide'
+---
+
+###### last updated: 2024-04-18
+
 # ELevate Contribution Guide
 
 :::warning
 This guide contains information for the current Package Evolution Service set. There might be some changes soon.
 :::
-
 
 ## About Package Evolution Service
 
@@ -112,10 +117,16 @@ You can also search by package name - you'll see all the results for the package
 `Back to the list` gets you to the `list of actions`, not to the `actions history`.
 :::
 
-## Extra details
+## Extra actions
 
-Also, Package Evolution Service is useful that you can report an [issue](https://github.com/AlmaLinux/pes), visit [AlmaLinux home web-site](https://almalinux.org/) and [AlmaLinux Blog](https://almalinux.org/blog//), report any [bug](https://bugs.almalinux.org/my_view_page.php) and visit [AlmaLinux GitHub](https://github.com/AlmaLinux/). 
+Package Evolution Service's top menu allows you to quickly navigate between other AlmaLinux OS' services to:
+* Report an [issue](https://github.com/AlmaLinux/pes)
+* Visit [AlmaLinux home web-site](https://almalinux.org/) and [AlmaLinux Blog](https://almalinux.org/blog//)
+* Report any [bug](https://bugs.almalinux.org/my_view_page.php)
+* Visit [AlmaLinux GitHub](https://github.com/AlmaLinux/). 
 
 ![image](/images/elevate_homebar.png)
 
-For more help and assistance, or if you want to discuss anything, you are very welcome on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+## Get Help and Assistance
+
+For more help and assistance, or if you want to discuss anything, you are very welcome in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).

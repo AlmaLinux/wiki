@@ -2,6 +2,8 @@
 title: "ELevate Offline Guide"
 ---
 
+###### last updated: 2024-04-18
+
 # ELevate Offline Guide
 
 This guide describes steps to be performed to migrate an air-gapped machine that has no connection to the Internet but has network access to a private mirror. The process involves at least two hosts:
@@ -293,3 +295,7 @@ Once you've edited the **leapp_upgrade_repositories.repo** file to match your lo
    cat /var/log/leapp/leapp-report.txt
    cat /var/log/leapp/leapp-upgrade.log
    ```
+
+## Get Help 
+
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).

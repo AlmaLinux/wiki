@@ -2,6 +2,8 @@
 title: "ELevating CentOS 7 to AlmaLinux 9"
 ---
 
+###### last updated: 2024-04-18
+
 # ELevating CentOS 7 to AlmaLinux 9
 
 As the Leapp tool is designed to perform one-step migrations, in order to migrate your CentOS 7 machine to AlmaLinux 9 you need to split the migration process:
@@ -203,3 +205,7 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
    cat /var/log/leapp/leapp-report.txt
    cat /var/log/leapp/leapp-upgrade.log
    ```
+
+## Get Help 
+
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).

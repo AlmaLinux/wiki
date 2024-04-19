@@ -2,6 +2,8 @@
 title: "ELevate NG Testing Guide"
 ---
 
+###### last updated: 2024-04-18
+
 ::: warning
 Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
@@ -203,3 +205,7 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
   sudo cat /var/log/leapp/leapp-report.txt
   sudo cat /var/log/leapp/leapp-upgrade.log
   ```
+
+## Get Help 
+
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
