@@ -114,5 +114,5 @@ sudo bash almalinux-deploy.sh
 
 ## Get Help 
 
-For more help and assistance reach out to us on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
 
