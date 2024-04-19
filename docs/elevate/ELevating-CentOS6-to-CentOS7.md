@@ -121,7 +121,11 @@ After the migration is complete, there may be leftover packages from the previou
   ```sh
   rpm -qa | grep el6
   ```
-* Check if any CentOS 6 repositories are left and disable them.
+You should also check your current repo list, and disable any lingering CentOS 6 repositories.
+
+sh
+yum repolist --verbose
+
 Also consider removing the CentOS 6 upgrade repository package, as it is no longer needed and could cause problems in the next steps:
   ```sh
   yum remove elevate-release
