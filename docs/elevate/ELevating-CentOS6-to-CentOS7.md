@@ -96,7 +96,9 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
     :exclamation: Consider this option carefully, and remember to have a system backup. 
 
 * When the upgrade process is over, reboot the system.
-* A new entry in GRUB called `System Upgrade (redhat-upgrade-tool)` will appear. The system will be automatically booted into it. See how the update process goes in the console. 
+
+A new entry in GRUB called `System Upgrade (redhat-upgrade-tool)` will appear. The system will be automatically booted into it. You can monitor the remainder of the migration process in the console. 
+
   ::: tip
   The system will reboot twice during the upgrade.
   :::
