@@ -15,8 +15,8 @@ We **HIGHLY** recommend that you follow system administration best practices and
 This guide describes steps to be performed to migrate a CentOS 6 machine to CentOS 7 using the Red Hat Upgrade Tool (redhat-upgrade-tool). 
 
 The process consists of two steps:
-* Upgrading CentOS 6.10 to CentOS 7.2.1511 as this is the latest CentOS version that supports the Red Hat Upgrade Tool.
-* Upgrading CentOS 7.2.1511 to CentOS 7.9.2009.
+1.  Upgrading CentOS 6.10 to CentOS 7.2.1511 as this is the latest CentOS version that supports the Red Hat Upgrade Tool.
+2.  Upgrading CentOS 7.2.1511 to CentOS 7.9.2009.
 
 ## Requirements 
 * This guide is suitable only for x86_64 architecture. 
