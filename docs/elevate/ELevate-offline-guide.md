@@ -298,4 +298,4 @@ Once you've edited the **leapp_upgrade_repositories.repo** file to match your lo
 
 ## Get Help 
 
-For more help and assistance reach out to us on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
