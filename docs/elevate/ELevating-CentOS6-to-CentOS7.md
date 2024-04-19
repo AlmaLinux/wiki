@@ -70,7 +70,7 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
   preupg
   ```
 
-* The generated **result.html** file is located in the */root/preupgrade/* directory. Inspect it carefully and consider running suitable commands/performing steps to resolve these issues. 
+* The generated **result.html** file is located in the */root/preupgrade/* directory. Inspect it carefully and consider running suitable commands and performing the recommended steps to resolve the reported issues. 
   
   **Check the list of risks:**
   ```sh
