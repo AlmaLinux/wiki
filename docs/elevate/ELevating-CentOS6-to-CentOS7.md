@@ -102,7 +102,9 @@ A new entry in GRUB called `System Upgrade (redhat-upgrade-tool)` will appear. T
   ::: tip
   The system will reboot twice during the upgrade.
   :::
-* After reboot, login to the system. Verify that the current OS is the one you need. 
+
+After the second reboot completes and you are presented with the login screen, login to the system and verify that the current OS is now CentOS 7. 
+
   ```sh
   cat /etc/centos-release
   ```
