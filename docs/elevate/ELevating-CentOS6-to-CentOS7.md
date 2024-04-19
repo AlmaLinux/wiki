@@ -123,7 +123,10 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
   
 ## Upgrade CenOS 7.2.1511 to CentOS 7.9.2009
 
-* As your *CenOS-Base.repo* file on CentOS 6 was earlier customized to contain CentOS Vault repositories, it wasn't updated during the migration process to contain CentOS 7 repositories. Instead, the new *CentOS-Base.repo.rpmnew* file was created. Run the following commands to replace the *.repo* file with the new one:
+Because the *CentOS-Base.repo* file was customized earlier to contain CentOS Vault repositories, it wasn't updated during the upgrade process to contain CentOS 7 repositories. Instead, the new *CentOS-Base.repo.rpmnew* file would have been created. You can confirm that with these commands:
+
+   ```sh
+ls -la /etc/yum.repos.d/CentOS-Base.repo.rpmnew
   * ```sh
     rpm -qV centos-release
     ```  
