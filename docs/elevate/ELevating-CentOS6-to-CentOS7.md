@@ -71,12 +71,11 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
   ```
 
 * The generated **result.html** file is located in the */root/preupgrade/* directory. Inspect it carefully and consider running suitable commands and performing the recommended steps to resolve the reported issues. 
-  
-  **Check the list of risks:**
+  You can check the risks from the *results.html* using the `preupgr` command:
   ```sh
   preupg --riskcheck --verbose
   ```
-  **An example of how to check the results file using the `lynx` command:**
+  Or using, for example, `lynx` - a terminal-based web browser:
   ```sh
   lynx /root/preupgrade/result.html
   ```
@@ -97,13 +96,13 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
 
 * When the upgrade process is over, reboot the system.
 
-A new entry in GRUB called `System Upgrade (redhat-upgrade-tool)` will appear. The system will be automatically booted into it. You can monitor the remainder of the migration process in the console. 
+  A new entry in GRUB called `System Upgrade (redhat-upgrade-tool)` will appear. The system will be automatically booted into it. You can monitor the remainder of the migration process in the console. 
 
   ::: tip
   The system will reboot twice during the upgrade.
   :::
 
-After the second reboot completes and you are presented with the login screen, login to the system and verify that the current OS is now CentOS 7. 
+  After the second reboot completes and you are presented with the login screen, login to the system and verify that the current OS is now CentOS 7. 
 
   ```sh
   cat /etc/centos-release
@@ -115,40 +114,37 @@ After the second reboot completes and you are presented with the login screen, l
   
 ### Clean up
 
-
-After the migration is complete, there may be leftover packages from the previous OS (even if you used the `--cleanup-post` option). Consider removing or updating them manually.
-
+* After the migration is complete, there may be leftover packages from the previous OS (even if you used the `--cleanup-post` option). Consider removing or updating them manually.
   ```sh
   rpm -qa | grep el6
   ```
-You should also check your current repo list, and disable any lingering CentOS 6 repositories.
-
-sh
-yum repolist --verbose
-
-Also consider removing the CentOS 6 upgrade repository package, as it is no longer needed and could cause problems in the next steps:
+* You should also check your current repo list, and disable any lingering CentOS 6 repositories.
+  ```sh
+  yum repolist --verbose
+  ```
+* Also consider removing the CentOS 6 upgrade repository package, as it is no longer needed and could cause problems in the next steps:
   ```sh
   yum remove elevate-release
   ```
   
 ## Upgrade CenOS 7.2.1511 to CentOS 7.9.2009
 
-Because the *CentOS-Base.repo* file was customized earlier to contain CentOS Vault repositories, it wasn't updated during the upgrade process to contain CentOS 7 repositories. Instead, the new *CentOS-Base.repo.rpmnew* file would have been created. You can confirm that with these commands:
-
-   ```sh
-ls -la /etc/yum.repos.d/CentOS-Base.repo.rpmnew
+* Because the *CentOS-Base.repo* file was customized earlier to contain CentOS Vault repositories, it wasn't updated during the upgrade process to contain CentOS 7 repositories. Instead, the new *CentOS-Base.repo.rpmnew* file would have been created. 
+  You can confirm that with these commands:
   ```sh
-    rpm -qV centos-release
-    ```  
-    ###### Expected output:
-    ```sh
-    S.5....T.  c /etc/yum.repos.d/CentOS-Base.repo
-    ```
-Run the following command to replace the outdated *.repo* file with the new one:
-
-      ```sh
-    mv /etc/yum.repos.d/CentOS-Base.repo.rpmnew /etc/yum.repos.d/CentOS-Base.repo
-    ```
+  ls -la /etc/yum.repos.d/CentOS-Base.repo.rpmnew
+  ```
+  ```sh
+  rpm -qV centos-release
+  ```  
+  ###### Expected output:
+  ```sh
+  S.5....T.  c /etc/yum.repos.d/CentOS-Base.repo
+  ```
+* Run the following command to replace the outdated *.repo* file with the new one:
+  ```sh
+  mv /etc/yum.repos.d/CentOS-Base.repo.rpmnew /etc/yum.repos.d/CentOS-Base.repo
+  ```
 
 * Run the `yum` command to update your CentOS 7.2.1511 machine to the most recent version 7.9: 
   ```sh
