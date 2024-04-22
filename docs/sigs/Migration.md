@@ -2,19 +2,30 @@
 title: "Migration SIG"
 ---
 
+###### last updated: 2024-04-22
+
 # Migration SIG
 
-The Migration team is responsible for migration from RHEL8 derivatives to AlmaLinux OS, including documentation and upgrades.
+The Migration team is responsible for two migration projects - the migration tool and the ELevate project, including documentation and upgrades. See the [Migration](/migration/) section for more details.
 
-What OSes can be converted:
-* CentOS 8
-* CentOS Stream 8, 9
-* Oracle Linux 8, 9
-* RHEL 8, 9
-* Rocky Linux 8, 9
-* Virtuozzo Linux (VZLinux) 8, 9
+### AlmaLinux Migration Tool
 
-Migration from CentOS 7 to RHEL8 derivatives such as AlmaLinux, CentOS, EuroLinux, Rocky, Oracle is also in the Migration Team's duties.
+The [migration tool](/documentation/migration-guide) is used to convert an EL8 or EL9 machine.
+
+The tool supports the following migration paths:
+
+![image](/images/migration.svg)
+
+### AlmaLinux ELevate project.
+
+The ELevate project is an initiative to support migrations between major versions of RHEL-derivatives. See the [ELevate](/elevate/) section for more details and the update steps.
+
+The project supports the following migration paths:
+
+![image](/images/ELevate.svg)
+
+\* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
+\** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
 ## How to Join
 
@@ -33,6 +44,7 @@ We do not currently hold regular meetings, but work asynchronously in mattermost
 * AlmaLinux Leapp patches at: [AlmaLinux/leapp-repository](https://github.com/AlmaLinux/leapp-repository/tree/almalinux). Consider this is not a separated forked project.
 * Static data files for Leapp utility: [AlmaLinux/leapp-data](https://github.com/AlmaLinux/leapp-data)
 * Package Evolution Service: [pes.almalinux.org](https://pes.almalinux.org)
+* CentOS 6 to CentOS 7 upgrade tool: [AlmaLinux/redhat-upgrade-tool](https://github.com/AlmaLinux/redhat-upgrade-tool).
 
 ### Help wanted
 

@@ -1,6 +1,9 @@
 ---
 title: "Core SIG"
 ---
+
+######last updated: 2024-04-22
+
 # Core SIG
 
 The Core team is responsible for the AlmaLinux OS distribution itself. This includes, but is not limited to building new distribution versions, delivering updates, core tooling development, and maintenance.
@@ -52,7 +55,7 @@ If you can help, please join us at [Core SIG on Mattermost](https://chat.almalin
 * [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
   * Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
   * GitHub profile: [jaboutboul](https://github.com/jaboutboul)
-* [Eduard Abdullin](mailto:eabdullin@almalinux.org) - The RPM packager and automation engineer.
+* [Eduard Abdullin](mailto:eabdullin@almalinux.org) - The release and automation engineer.
   * Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
   * GitHub profile: [eabdullin1](https://github.com/eabdullin1)
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
