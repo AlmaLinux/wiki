@@ -60,15 +60,15 @@ The importance of documentation cannot be understated, as it is like an investme
 
 If you want to participate, please, follow the [guidelines](Contribute-to-Documentation).
 
-### 4. Help with Azure mirrors deployment
+### 3. Help with Azure mirrors deployment
 
 We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic. More info [here](/cloud/Azure).
 
-### 5. Promotion, blog posts, translations, and more!
+### 4. Promotion, blog posts, translations, and more!
 
 If you are looking to flex skills not directly involved in development, we are always looking for guest blog posts, help with translations of our website, folks to staff events, and much more! Reach out in the [Marketing](https://chat.almalinux.org/almalinux/channels/marketing) channel for more info!
 
-### 6. More ways to help for DevOps & Programmers
+### 5. More ways to help for DevOps & Programmers
 
 - Help our [Core Infrastructure Group](/sigs/Core.html#help-wanted)
 - Help with our [cloud infrastructure maintenance](/sigs/Cloud.html#help-wanted)
