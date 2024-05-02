@@ -45,7 +45,7 @@ module.exports = {
                 '/sigs/Build-System',
                 '/sigs/Cloud',
                 '/sigs/Core',
-				'/sigs/HPCandAI',
+                '/sigs/HPCandAI',
                 '/sigs/Infrastructure',
                 '/sigs/LiveMedia',
                 '/sigs/Marketing',
