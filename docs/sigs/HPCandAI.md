@@ -11,18 +11,18 @@ Joining is easy! You can show up to a meeting, pick up an issue from the list by
 
 **Where we chat**
 
-* [SIGHPCAI](https://chat.almalinux.org/almalinux/channels/sighpcai) on [chat.almalinux.org](https://chat.almalinux.org)
+* [SIGHPCAI](https://chat.almalinux.org/almalinux/channels/sighpc--ai) on [chat.almalinux.org](https://chat.almalinux.org)
 * [HPC and AI on the AlmaLinux Forum](https://almalinux.discourse.group/c/sigs/hpc/31)
-* [HPC and AI Mailing List](https://lists.almalinux.org/postorius/lists/hpcai.lists.almalinux.org/)
+* [HPC and AI Mailing List](https://lists.almalinux.org/mailman3/lists/hpc-ai-sig.lists.almalinux.org/)
 
 **Where and when we meet**
 
-The HPC and AI SIG gathers quarterly as a group for open discussion. The HPC and AI SIG also occasionally presents on HPC and AI-related topics and hosts community gatherings at HPC and AI-related events. Quarterly meetings and other events are announced via the [HPC and AI Mailing List](https://lists.almalinux.org/postorius/lists/hpcai.lists.almalinux.org/).
+The HPC and AI SIG gathers quarterly as a group for open discussion. The HPC and AI SIG also occasionally presents on HPC and AI-related topics and hosts community gatherings at HPC and AI-related events. Quarterly meetings and other events are announced via the [HPC and AI Mailing List](https://lists.almalinux.org/mailman3/lists/hpc-ai-sig.lists.almalinux.org/).
 
 ## Activities, projects, and deliverables
 
 * AlmaLinux System Series guidance on deploying AlmaLinux in HPC and AI environments.
-* Example configuration files for deploying Slurm and other HPC software on AlmaLinux: [AlmaLinux/sig-hpcai](https://github.com/AlmaLinux/sig-hpcai).
+* Example configuration files for deploying Slurm and other HPC software on AlmaLinux: [AlmaLinux/sig-hpcai](https://github.com/AlmaLinux/sig-HPCAI).
 
 ### Help wanted
 
