@@ -49,7 +49,7 @@ module.exports = {
                 '/sigs/LiveMedia',
 			      {
 			        title: 'The Marketing SIG',
-					path: '/sigs/Marketing',
+			        path: '/sigs/Marketing',
 			        children: [
 			         '/sigs/marketing/indico',
 			        ]
