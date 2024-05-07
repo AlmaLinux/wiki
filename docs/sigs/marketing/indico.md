@@ -17,7 +17,7 @@ All events should start as unlisted events to be published after they're reviewe
 ## Webinars
 
 1. Navigate to the Webinars event group. 
-1. Create a 'Lecture' type event from the top of the page.
+1. Create a '**Lecture**' type event from the top of the page.
 1. Enter the title of the webinar, ensure the time and date are correct, and click 'Advanced' to add a description.
      1. If you need to edit the event after it's created, you can.
 1. Add speakers - you will have to manually enter anyone who is not already registered in Indico. (note for benny: if they register later, what happens?)
@@ -34,7 +34,7 @@ After it's created, there are some more adjustments to make:
 ## SIG meetings
 
 1. Navigate to to the [SIGs category](https://events.almalinux.org/category/1/manage/), and choose the appropriate category there for the specific SIG.
-1. Create a lecture event, naming it appropriately for the SIG using [$freqency - $signame meeting] as the pattern (for example, Bi-weekly Marketing SIG meeting).
+1. Create a **meeting** event, naming it appropriately for the SIG using [$freqency - $signame meeting] as the pattern (for example, Bi-weekly Marketing SIG meeting).
 1. Once created, on the default settings page update the **Contact title** and **Email** to match the SIG in question's contact details.
 1. Under **Timetable* click *Add new* and *Contribution*
 1. use the same title as for the full event, in the description add details about the event (general agenda, where they meet, and where to get the meeting link at least). 
