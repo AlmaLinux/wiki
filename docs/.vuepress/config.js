@@ -47,7 +47,13 @@ module.exports = {
                 '/sigs/Core',
                 '/sigs/Infrastructure',
                 '/sigs/LiveMedia',
-                '/sigs/Marketing',
+			      {
+			        title: 'The Marketing SIG',
+					path: '/sigs/Marketing',
+			        children: [
+			         '/sigs/marketing/indico',
+			        ]
+			     },
                 '/sigs/Migration',
                 '/sigs/ProcessForCreatingNewSIG'
               ]
