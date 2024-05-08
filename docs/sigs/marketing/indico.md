@@ -45,3 +45,12 @@ Leave the rest of it blank.
 
 If a schedule is set for meetings already, clone the meeting you just created to make more of them. If not, you can clone older events to set up new meetings as we move forward. 
 
+## SIG Categories
+
+1. Navigate in the admin interface to the [SIG category](https://events.almalinux.org/category/1/manage/)
+1. Ensure the name of the category includes the name of the SIG and the word SIG
+1. Use this template as the description:
+> These meetings are held every week via $platform. If you'd like the meeting link, join the $channelname channel on chat.almalinux.org.
+> For more information on this SIG, see the details on the AlmaLinux Wiki: $wikipage
+1. Set the **"Theme for Lectures"** to lectures, and the **"Theme for Meetings"** to *Indico style*. 
+1. Add an icon and SIG logo created using the [Canva template](https://www.canva.com/design/DAGEBQ_hwpk/meDfUVoUTVoyYIY1-hXaJA/edit).
