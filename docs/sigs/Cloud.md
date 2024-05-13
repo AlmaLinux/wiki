@@ -19,7 +19,7 @@ We do not currently hold regular meetings, but work asynchronously in mattermost
 
 ## Activities, projects, and deliverables
 
-* The AlmaLinux OS Docker/Podman images:
+* The AlmaLinux OS Container images:
   [AlmaLinux/container-images](https://github.com/AlmaLinux/container-images).
 * The AlmaLinux OS cloud images:
   [AlmaLinux/cloud-images](https://github.com/AlmaLinux/cloud-images).
