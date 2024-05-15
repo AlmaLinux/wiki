@@ -22,7 +22,8 @@ Meetings are every other Thursday on Google Meet at 9pm UTC. Join the Marketing 
 Properties that we are responsible for:
 
 * [almalinux.org](https://almalinux.org)
-* [shop.almalinux.org](shop.almalinux.org)
+* [shop.almalinux.org](https://shop.almalinux.org)
+* [events.almalinux.org](https://events.almalinux.org)
 
 We also provide content for other properties as needed by other SIGs.
 
