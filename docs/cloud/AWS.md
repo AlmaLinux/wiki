@@ -10,7 +10,7 @@ To learn more about AWS AMIs please see the [AWS EC2 Documentation on AMIs](http
 :::
 
 ## Contributing
-You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://almalinux.discourse.group/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
+You can find more information about how these, and other cloud images are built on our [Cloud Images GitHub Repository](https://github.com/AlmaLinux/cloud-images). Join our [Cloud SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) to help out with the effort or for support. You can also discuss on our [Cloud SIG Forum](https://forums.almalinux.org/c/sigs/cloud-sig/10) and on our [AlmaLinux Community Reddit](https://www.reddit.com/r/AlmaLinux).
 
 ## AWS Marketplace
 The AWS Marketplace is a curated digital catalog used to find, deploy and manage software offerings. All AWS Marketplace products undergo thorough review and vetting by the AWS team to ensure security and quality.
