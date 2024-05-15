@@ -12,7 +12,7 @@ Joining is easy! You can show up to a meeting, pick up an issue from the list by
 **Where we chat**
 
 * [SIGHPCAI](https://chat.almalinux.org/almalinux/channels/sighpc--ai) on [chat.almalinux.org](https://chat.almalinux.org)
-* [HPC and AI on the AlmaLinux Forum](https://almalinux.discourse.group/c/sigs/hpc/31)
+* [HPC and AI on the AlmaLinux Forum](https://forums.almalinux.org/c/sigs/hpc/31)
 * [HPC and AI Mailing List](https://lists.almalinux.org/mailman3/lists/hpc-ai-sig.lists.almalinux.org/)
 
 **Where and when we meet**
