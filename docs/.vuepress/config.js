@@ -64,7 +64,7 @@ module.exports = {
      {
         title: 'Development',
         children: [
-          '/documentation/building-packages-guide',
+          '/documentation/package-building-guide',
           '/development/building-almalinux-iso-locally',
           '/development/Modified-packages',
           '/development/Packaging',
