@@ -75,4 +75,4 @@ If you are looking to flex skills not directly involved in development, we are a
 
 ## Need assistance? We are here to help!
 
-If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. Join chat or reach out on [our forums](https://forums.almalinux.org/)! Our community of amazing users of all experience levels are happy to help you puzzle out your problem. 
+If you're seeking assistance in connecting with the appropriate individual or group, or if you're interested in guidance on becoming a contributor to AlmaLinux, please don't hesitate to reach out. Join chat or reach out on [our forums](https://almalinux.discourse.group/)! Our community of amazing users of all experience levels are happy to help you puzzle out your problem. 

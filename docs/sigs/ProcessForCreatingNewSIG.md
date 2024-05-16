@@ -8,7 +8,7 @@ This document outlines the process and additional considerations for creating a 
 
 ### 0. Gauge interest
 
-If you have an idea and want to see if there is interest in that idea, the first step is to gather a group of folks together that might want to work on that thing. You can do that by asking in the [chat](https://chat.almalinux.org), sending an email to the [users mailing list](https://lists.almalinux.org/mailman3/lists/users.lists.almalinux.org/), and posting on the [forums](https://forums.almalinux.org/). 
+If you have an idea and want to see if there is interest in that idea, the first step is to gather a group of folks together that might want to work on that thing. You can do that by asking in the [chat](https://chat.almalinux.org), sending an email to the [users mailing list](https://lists.almalinux.org/mailman3/lists/users.lists.almalinux.org/), and posting on the [forums](https://almalinux.discourse.group/). 
 
 Once you have gathered a group (we recommend no fewer than 3, but that isn't true for every effort), it's time to start getting things lined up!
 
