@@ -78,7 +78,6 @@ module.exports = {
                 title: 'Howto Series',
                 path: '/series/',
                 children: [
-		  '/series/LAMP-server',
                   {
                       title: "Nginx Series",
                       path: '/series/nginx/',
