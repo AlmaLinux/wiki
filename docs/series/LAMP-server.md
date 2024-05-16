@@ -62,16 +62,11 @@ MariaDB is one of the major relational databases in the market, built by the dev
 * **To use a newer repo of MariaDB (To install a newer version) run the following in your cmd:**
     ```sh
     cat <<EOF>/etc/yum.repos.d/MariaDB.repo
-    # MariaDB 11.3 RedHatEnterpriseLinux repository list - created 2024-05-16 19:02 UTC
-    # https://mariadb.org/download/
     [mariadb]
     name = MariaDB
-    # rpm.mariadb.org is a dynamic mirror if your preferred mirror goes offline. See https://mariadb.org/mirrorbits/ for details.
-    # baseurl = https://rpm.mariadb.org/11.3/rhel/$releasever/$basearch
-    # baseurl = https://rpm.mariadb.org/11.3/rhel/$releasever/$basearch
+    baseurl = https://rpm.mariadb.org/11.3/rhel/8/x86_64/
     module_hotfixes = 1
-    # gpgkey = https://rpm.mariadb.org/RPM-GPG-KEY-MariaDB
-    gpgkey = https://mirror.its.dal.ca/mariadb/yum/RPM-GPG-KEY-MariaDB
+    gpgkey = https://rpm.mariadb.org/RPM-GPG-KEY-MariaDB
     gpgcheck = 1
     EOF
     ```
@@ -92,9 +87,9 @@ MariaDB is one of the major relational databases in the market, built by the dev
 
     | Step | Input |
     |----------|----------|
-    | Enter current password for root (enter for none) | Enter a new password for MySQL root user |
-    | Switch to unix_socket authentication \[Y/n\]  | N   |
-    | Change the root password? \[Y/n\] | N |
+    | Enter current password for root (enter for none) | Press enter |
+    | Switch to unix_socket authentication \[Y/n\]  | Y   |
+    | Change the root password? \[Y/n\] | Y |
     | Remove anonymous users? \[Y/n\] | Y |
     | Disallow root login remotely? \[Y/n\] | Y |
     | Remove test database and access to it? \[Y/n\] | Y |
