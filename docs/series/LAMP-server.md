@@ -21,7 +21,7 @@ For the sake of this guide we'll focus on a **LAMP** server that is composed of 
 | (**L**) AlmaLinux    | The operating system, in this case AlmaLinux 8   |
 | **A**pache 2   | A trusted open-source web server software known for its reliability and scalability.  |
 | **M**ariaDB  | A popular open-source database system for managing structured data efficiently.   |
-| **p**hp-fpm   | A widely-used web scripting language known for its simplicity, flexibility, and strong community.   |
+| **P**HP, php-fpm   | A widely-used web scripting language known for its simplicity, flexibility, and strong community.   |
 
 ### Requirements
 
@@ -59,23 +59,23 @@ You can test that Apache runs properly by accessing http://YOUR-IP (**YOUR-IP** 
 MariaDB is one of the major relational databases in the market, built by the developers of MySQL, ensuring to remain open-source, with a large part of the cloud utilizing it for data management purposes.
 
 
-* **To use a newer repo of MariaDB (To install a newer version) run the following command in your cmd:**
+* **To use a newer repo of MariaDB (To install a newer version) run the following in your cmd:**
     ```sh
-    curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash -s -- --mariadb-server-version=11.2
+    cat <<EOF>/etc/yum.repos.d/MariaDB.repo
+    # MariaDB 11.3 RedHatEnterpriseLinux repository list - created 2024-05-16 19:02 UTC
+    # https://mariadb.org/download/
+    [mariadb]
+    name = MariaDB
+    # rpm.mariadb.org is a dynamic mirror if your preferred mirror goes offline. See https://mariadb.org/mirrorbits/ for details.
+    # baseurl = https://rpm.mariadb.org/11.3/rhel/$releasever/$basearch
+    # baseurl = https://rpm.mariadb.org/11.3/rhel/$releasever/$basearch
+    module_hotfixes = 1
+    # gpgkey = https://rpm.mariadb.org/RPM-GPG-KEY-MariaDB
+    gpgkey = https://mirror.its.dal.ca/mariadb/yum/RPM-GPG-KEY-MariaDB
+    gpgcheck = 1
+    EOF
     ```
-    You should get:
-    ```sh
-    # [info] Checking for script prerequisites.
-    # [info] MariaDB Server version 11.2 is valid
-    # [info] Repository file successfully written to /etc/yum.repos.d/mariadb.repo
-    # [info] Adding trusted package signing keys...
-    /etc/pki/rpm-gpg /var/lib/httpd
-    /var/lib/httpd
-    # [info] Successfully added trusted package signing keys
-    # [info] Cleaning package cache...
-    60 files removed
-    ```
-
+    
 * **Then install, enable and start MariaDB:**
     ```sh
     sudo dnf install -y MariaDB-server
@@ -107,7 +107,7 @@ It's widely favored by developers for its flexibility and performance, seamlessl
 
 * **Enable remi repos:**
     ```sh
-    sudo dnf install -y s://rpms.remirepo.net/enterprise/remi-release-8.rpm
+    sudo dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
     ```
 
 * **Enable php 8.3:**
