@@ -68,13 +68,7 @@ module.exports = {
           '/development/building-almalinux-iso-locally',
           '/development/Modified-packages',
           '/development/Packaging',
-          {
-            title: "Private Keys",
-            path: 'development/private-keys',
-            children: [
-              '/development/private-keys/secure-boot'
-            ]
-          }
+          '/development/secure-boot',
         ]
      },
      {
