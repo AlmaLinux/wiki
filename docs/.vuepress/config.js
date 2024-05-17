@@ -70,9 +70,8 @@ module.exports = {
           '/development/Packaging',
           {
             title: "Private Keys",
-            path: 'development/private-keys',
-            children: [
-              '/development/private-keys/secure-boot'
+			children: [
+             '/development/private-keys/secure-boot'
             ]
           }
         ]
