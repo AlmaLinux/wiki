@@ -1,5 +1,9 @@
 # Deploy a LAMP server
 
+| Experience Level   | ⭑⭑         |
+|--------------------|------------|
+| Last modified date | 2024-05-18 |
+
 The **LAMP** stack, comprising **L**inux, **A**pache, **M**ySQL, and **P**HP owes much of its popularity and versatility to its open-source nature.
 
 - **L**inux, the operating system at its core, embodies collaborative development, providing a stable foundation for web servers.
@@ -70,7 +74,7 @@ MariaDB is one of the major relational databases in the market, built by the dev
     gpgcheck = 1
     EOF
     ```
-    
+
 * **Then install, enable and start MariaDB:**
     ```sh
     sudo dnf install -y MariaDB-server
