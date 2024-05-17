@@ -2,23 +2,24 @@
 title: "EL Distro Comparison"
 ---
 
-| Benchmarking against RHEL                  | AlmaLinux                | Oracle Linux                                   | Rocky Linux                                 | CentOS Stream     | CentOS Linux      |
-| -------------------------------------------|--------------------------|------------------------------------------------|-------------------------------------------- |-------------------|-------------------|
-|Production Version                          | Since March 2021         | Since 2006                                     | Since June 2021                             | Since 2019        | Since 2004        |
-|RHEL compatibility| [Fully Compatible][almaabi] | [RHEL compatible](oracleabi) | 1:1 compatible | Compatible within the limits of the [ACG][acg] | Binary Compatible |
-|Regular updates delay                       | About 1 business day     | About 1 business day                           | About 1 business day                        | Upstream of RHEL  | About 1 business day |
-|Last minor version release delay            | [5 days][alma9.4]         | [6 days][oracle9.4]                            | [8 days][rocky9.4]                          | N/A               | N/A               |
-|Errata                                      | Yes                      | Yes                                            | Yes                                         | No                | No                |
-|Lifecycle                                   | 10 Years                 | 10 Years                                       | 10 Years                                    | 5-6 Years         | EOL on 2021-12-31 |
-|Commercial support                          | 3rd party                | Oracle, 3rd parties                            | 3rd Party                                   | 3rd party         | 3rd party         |
-|Livepatching service                        | KernelCare               | Oracle Ksplice, KernelCare Available           | KernelCare Available                        | Not available     | KernelCare, Kpatch |
-|FIPS compliance                             | Yes                      | Yes                                            | Planned                                     | Not available     | Not available     |
-|ARM support                                 | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
-|IBM PowerPC support                         | Yes                      | No                                             | Yes (versions ≥ 9)                          | Yes               | Yes               |
-|IBM Z (s390x) support                       | Yes                      | No                                             | Yes (versions ≥ 9)                          | No                | No                |
-|SecureBoot                                  | Yes                      | Yes                                            | Yes                                         | Yes               | Yes               |
-|Owned By:                                   | AlmaLinux OS Foundation  | Oracle Inc                                     | Rocky Enterprise Software Foundation        | Red Hat Inc       | Red Hat Inc       |
-|Owned by org type:                          | Non-Profit 501(c)6       | For Profit C-Corp                              | For Profit, Public Benefit Corp             | For Profit C-Corp | For Profit C-Corp |
+> Chart by [Carl George](https://www.linkedin.com/in/carlwgeorge/)
+
+![relationship_chart](/images/Comparison-relationship_chart.png)
+
+The chart above illustrates the relationship between Fedora, CentOS Stream, and RHEL.<br>
+AlmaLinux utilizes package sources from both RHEL and CentOS Stream to build its distribution. In contrast, Oracle Linux and Rocky Linux rely exclusively on package sources from RHEL.
+
+|Benchmarking against RHEL       |AlmaLinux                                 |Oracle Linux                        |Rocky Linux                                                           |CentOS Stream                  |RHEL                           |
+|--------------------------------|------------------------------------------|------------------------------------|----------------------------------------------------------------------|-------------------------------|-------------------------------|
+|First release                   |Since March 2021                          |Since 2006                          |Since June 2021                                                       |Since 2019                     |March 2002                     |
+|RHEL compatibility              |minor version compatible                  |minor version compatible            |minor version compatible                                              |major version compatible       |n/a                            |
+|Last minor version release delay|[5 days][alma9.4]                         |[6 days][oracle9.4]                 |[8 days][rocky9.4]                                                    |N/A                            |n/a                            |
+|Errata                          |Yes                                       |Yes                                 |Yes                                                                   |No                             |yes                            |
+|Lifecycle                       |10 Years                                  |10 Years                            |10 Years                                                              |5.5 Years                      |10-14 years                    |
+|Commercial support              |3rd party                                 |Oracle, 3rd parties                 |3rd parties                                                           |3rd Party                      |1st party (Red Hat)            |
+|Livepatching service            |KernelCare                                |Oracle Ksplice, KernelCare Available|KernelCare Available                                                  |Not available                  |kpatch                         |
+|Architectures                   |aarch64, ppc64le, s390x                   |aarch64                             |aarch64, ppc64le (versions ≥ 9), s390x (versions ≥ 9)                 |aarch64, ppc64le               |aarch64, ppc64le, s390x, x86_64|
+|Backing organization            |AlmaLinux OS Foundation (501c6 non-profit)|Oracle Inc (For Profit C-Corp)      |Rocky Enterprise Software Foundation (For Profit, Public Benefit Corp)|Red Hat Inc (For Profit C-Corp)|Red Hat Inc.                   |
 
 
 [binary]: https://almalinux.org/blog/future-of-almalinux/
