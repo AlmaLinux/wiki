@@ -1,3 +1,7 @@
+---
+title: 'Deploy a LAMP server'
+---
+
 # Deploy a LAMP server
 
 | Experience Level   | ⭑⭑         |
