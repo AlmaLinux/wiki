@@ -37,6 +37,7 @@ module.exports = {
             '/Contribute',
             '/Contribute-to-Documentation',
             '/Mirrors',
+            '/Contribute-to-Testing',
             '/Help-translating-site',
             {
               title: 'Special interest groups (SIGs)',
