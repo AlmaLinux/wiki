@@ -2,7 +2,7 @@
 title: "EL Distro Comparison"
 ---
 
-> Chart by [Carl George](https://www.linkedin.com/in/carlwgeorge/)
+> Diagram by [Carl George](https://www.linkedin.com/in/carlwgeorge/)
 
 ![relationship_chart](/images/Comparison-relationship_chart.png)
 
@@ -11,15 +11,15 @@ AlmaLinux utilizes package sources from both RHEL and CentOS Stream to build its
 
 |Benchmarking against RHEL       |AlmaLinux                                 |Oracle Linux                        |Rocky Linux                                                           |CentOS Stream                  |RHEL                           |
 |--------------------------------|------------------------------------------|------------------------------------|----------------------------------------------------------------------|-------------------------------|-------------------------------|
-|First release                   |Since March 2021                          |Since 2006                          |Since June 2021                                                       |Since 2019                     |March 2002                     |
+|First release                   |March 2021                          |October 2006                          |June 2021                                                       |September 2019                     |March 2002                     |
 |RHEL compatibility              |minor version compatible                  |minor version compatible            |minor version compatible                                              |major version compatible       |n/a                            |
 |Last minor version release delay|[5 days][alma9.4]                         |[6 days][oracle9.4]                 |[8 days][rocky9.4]                                                    |N/A                            |n/a                            |
 |Errata                          |Yes                                       |Yes                                 |Yes                                                                   |No                             |yes                            |
 |Lifecycle                       |10 Years                                  |10 Years                            |10 Years                                                              |5.5 Years                      |10-14 years                    |
 |Commercial support              |3rd party                                 |Oracle, 3rd parties                 |3rd parties                                                           |3rd Party                      |1st party (Red Hat)            |
 |Livepatching service            |KernelCare                                |Oracle Ksplice, KernelCare Available|KernelCare Available                                                  |Not available                  |kpatch                         |
-|Architectures                   |aarch64, ppc64le, s390x                   |aarch64                             |aarch64, ppc64le (versions ≥ 9), s390x (versions ≥ 9)                 |aarch64, ppc64le               |aarch64, ppc64le, s390x, x86_64|
-|Backing organization            |AlmaLinux OS Foundation (501c6 non-profit)|Oracle Inc (For Profit C-Corp)      |Rocky Enterprise Software Foundation (For Profit, Public Benefit Corp)|Red Hat Inc (For Profit C-Corp)|Red Hat Inc.                   |
+|Architectures                   |aarch64, ppc64le, s390x, x86_64           |aarch64, x86_64                     |aarch64, ppc64le, s390x, x86_64                 |aarch64, ppc64le, s390x, x86_64|aarch64, ppc64le, s390x, x86_64|
+|Backing organization            |AlmaLinux OS Foundation (501c6 non-profit)|Oracle Inc.      |Rocky Enterprise Software Foundation (For Profit, Public Benefit Corp)|Red Hat Inc (For Profit C-Corp)|Red Hat Inc.                   |
 
 
 [binary]: https://almalinux.org/blog/future-of-almalinux/
