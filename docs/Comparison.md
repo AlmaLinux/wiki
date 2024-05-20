@@ -19,7 +19,7 @@ AlmaLinux utilizes package sources from both RHEL and CentOS Stream to build its
 |Commercial support              |3rd party                                 |Oracle, 3rd parties                 |3rd parties                                                           |3rd Party                      |1st party (Red Hat)            |
 |Livepatching service            |KernelCare                                |Oracle Ksplice, KernelCare Available|KernelCare Available                                                  |Not available                  |kpatch                         |
 |Architectures                   |aarch64, ppc64le, s390x, x86_64           |aarch64, x86_64                     |aarch64, ppc64le, s390x, x86_64                 |aarch64, ppc64le, s390x, x86_64|aarch64, ppc64le, s390x, x86_64|
-|Backing organization            |AlmaLinux OS Foundation (501c6 non-profit)|Oracle Inc.      |Rocky Enterprise Software Foundation (For Profit, Public Benefit Corp)|Red Hat Inc (For Profit C-Corp)|Red Hat Inc.                   |
+|Backing organization            |AlmaLinux OS Foundation (501c6 non-profit)|Oracle Inc.      |Rocky Enterprise Software Foundation|Red Hat Inc|Red Hat Inc.                   |
 
 
 [binary]: https://almalinux.org/blog/future-of-almalinux/
