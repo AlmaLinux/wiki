@@ -31,6 +31,7 @@ module.exports = {
         title: 'About',
         path: '/',
      },
+	'/alesco',
      {
           title: 'Contribute',
           children: [
