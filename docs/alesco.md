@@ -51,8 +51,6 @@ The foundation board appointed the initial committee members, but the rest of th
 * [Jonathan Wright](https://chat.almalinux.org/almalinux/messages/@jonathan)
 * [Neal Gompa](https://chat.almalinux.org/almalinux/messages/@ngompa13)
 
-(you can also include additional information about other folks that help your SIG or are involved in some way here)
-
 # Accepted Proposal
 
 This proposal was a collaboration between the foundation board and many community members, and now acts as the governing document for this committee. Adjustments to this governing document require board approval. 
