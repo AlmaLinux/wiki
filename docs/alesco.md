@@ -8,21 +8,15 @@ title: 'ALESCo'
 
 The AlmaLinux Engineering Steering Committee (ALESCo), is a self-governing body made of active contributors to the project that will guide the technical direction of the AlmaLinux distribution. Participation in the meetings, discussions around potential changes, and other needs will be open to the AlmaLinux community, unless prevented for specific reasons (for example: an embargoed security patch). This committee was formed by vote of the [32nd meeting](https://drive.google.com/file/d/1rPU7QhRbLOsSrZBQcW5xQEItwgbP1Vt1/view) of the AlmaLinux OS Foundation board, May 8th of 2024.
 
-## Mission Statement
-
-The AlmaLinux Engineering Steering Committee (ALESCo) is dedicated to guiding the technical direction of the AlmaLinux distribution on a day-to-day basis within the guidelines set forth by the board, ensuring its robustness, reliability, sustainability, and relevance in the open-source ecosystem. ALESCo will work collaboratively with, and oversee relevant technical-focused Special Interest Groups (SIGs) to achieve these goals. It is “air traffic control” for engineering matters.
-
 ## How to participate
 
 Adding your voice to the ALESCo discussions is the easiest way to participate! You can show up to a meeting, add a vote or perspective to a change discussion, or ask or answer questions in chat! Not every participant needs to be a member of ALESCo, but if you do, we will soon have a way for you to express your interest. 
 
 **Where we chat**
 
-We use the AlmaLinux mattermost for most communication, but we also have a discussion mailing list. 
+We use the AlmaLinux mattermost for most communication.
 
-[~chatroom on chat.almalinux.org]()
-
-[lists on lists.almalinux.org]()
+[~alesco on chat.almalinux.org](https://chat.almalinux.org/almalinux/channels/alesco)
 
 **Where and when we meet**
 
@@ -38,7 +32,7 @@ Dubbed “air traffic control” for all engineering matters, ALESCo will ensure
 * Release Management
 * SIG support
 
-### Help wanted
+## Help wanted
 
 As the committee gets its feet under it, this section will be expanded to include more information. Initially, this committee's responsibilities will be defining a collection of processes:
 
