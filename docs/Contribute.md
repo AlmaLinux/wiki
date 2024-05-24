@@ -28,7 +28,7 @@ If any of those sound interesting to you, then take a look at the list of [SIGs]
 -   [Development](https://chat.almalinux.org/almalinux/channels/development)
 -   [Infrastructure](https://chat.almalinux.org/almalinux/channels/infrastructure)
 -   [Security](https://chat.almalinux.org/almalinux/channels/security)
--   [Documentation](https://chat.almalinux.org/almalinux/channels/documentation)
+-   [Documentation](https://chat.almalinux.org/almalinux/channels/sigdocumentation)
 -   [Marketing](https://chat.almalinux.org/almalinux/channels/marketing)
 -   [Web presence](https://chat.almalinux.org/almalinux/channels/www)
 
