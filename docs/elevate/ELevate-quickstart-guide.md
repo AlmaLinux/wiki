@@ -94,6 +94,43 @@ sudo reboot
 * A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
    See how the update process goes in the console.
 
+**NOTE**: If you're upgrading a CentOS 7 system installed in UEFI mode rather than legacy BIOS mode and Secure Boot is enabled, you may want to disable it - otherwise the upgrade process will not be able to proceed.
+
+However, there maybe cases where disabling Secure Boot is not possible. For such cases we'll add AlmaLinux Secure Boot CA certificate to the Machine Owner Key List (MokList in short). Let's do so.
+
+* Download the AlmaLinux Secure Boot CA certificate.
+
+```
+wget https://git.almalinux.org/rpms/shim/raw/branch/a8_new_sb/SOURCES/almalinuxsecurebootca0.cer
+```
+
+* Import the certificate to the MokList.
+
+```
+sudo mokutil --import almalinuxsecurebootca0.cer
+import password: password
+import password again: password
+```
+
+* Reboot the machine.
+
+```
+sudo reboot
+```
+
+* Once rebooted, a prompt with the message *Press any key to perform MOK management* will appear. Press one of them - e.g. the Enter key.
+
+* A menu will appear, allowing you to enroll AlmaLinux' certificate by choosing the *Enroll MOK* option.
+
+* Next, a menu will allow you to *View key 0* or *Continue*. You may choose *View key 0* to verify that the CA certificate is correct indeed. Then choose the *Continue* option.
+
+* Another prompt will appear, asking you: *Enroll the key(s)?* - choose *Yes*.
+
+* A window will then pop-up, asking for the password specified during the certificate import procedure. Type it - in our case it was simply: *password*.
+
+* Once the next menu pops-up, we can use the *Reboot* option.  
+From now on you can carry on with the ELevate upgrade procedure.
+
 * After reboot, login to the system and check how the migration went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
 ```
 cat /etc/redhat-release
