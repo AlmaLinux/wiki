@@ -1,12 +1,12 @@
 ---
-title: 'Howto Guides'
+title: 'Howtos'
 ---
-# AlmaLinux Howto Guides
+# AlmaLinux Howto Guides (external)
 
 ## Installation Guides
-- [ionCube Loader](https://cloud7.news/how-tos/how-to-install-ioncube-loader-in-almalinux/)
-- [Varnish](https://cloud7.news/how-tos/how-to-install-varnish-on-almalinux/)
-- [Nginx](https://cloud7.news/how-tos/how-to-install-nginx-on-almalinux-rocky-linux-centos-rhel/)
+- [ionCube Loader](https://cloud7.news/how-tos/how-to-install-ioncube-loader-in-almalinux/) 
+- [Varnish](https://cloud7.news/how-tos/how-to-install-varnish-on-almalinux/) 
+- [Nginx](https://orcacore.com/install-nginx-web-server-almalinux-9/)
 - [cPanel](https://cloud7.news/how-tos/how-to-install-cpanel/)
 - [Foreman](https://www.how2shout.com/linux/how-to-install-foreman-on-rocky-or-almalinux-8/)
 - [phpMyAdmin](https://wiki.crowncloud.net/?How_to_Install_phpMyAdmin_on_AlmaLinux_8)
@@ -29,7 +29,7 @@ title: 'Howto Guides'
 
 # ARM
 - [ESXI ARM support](https://williamlam.com/2021/07/almalinux-os-8-4-on-esxi-arm.html)
-- [Raspberri Pi](https://github.com/AlmaLinux/raspberry-pi/)
+- [Raspberry Pi](https://github.com/AlmaLinux/raspberry-pi/)
 
 ## Other
 - [Creating a mirror](https://gnulinux.ro/blog-page-8312-how-to-create-a-public-official-mirror-for-almalinux-in-three-steps)

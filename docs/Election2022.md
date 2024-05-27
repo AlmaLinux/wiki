@@ -91,7 +91,7 @@ Please, check FAQ section for more information.
 
 * How are vacancies handled in the event that a director leaves before the end of their term?
   * If a seat is vacated less than three months before a planned election, the board may fill the vacancy by a majority vote, or may choose to leave the seat vacant. 
-  * If a seat is vacated more than three months before a planned election, the board must trigger an election to fill the seat or appoint somene to fill the seat.
+  * If a seat is vacated more than three months before a planned election, the board must trigger an election to fill the seat or appoint someone to fill the seat.
 
 * Are directors on the board compensated?
   * Board positions are not compensated positions

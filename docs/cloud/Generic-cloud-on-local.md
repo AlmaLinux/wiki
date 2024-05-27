@@ -1,226 +1,382 @@
-# Use Generic Cloud (cloud-init) image on local 
-You can use the Generic Cloud image for testing, developing and repackaging purposes on your local machine or server.
+---
+title: Using Generic Cloud Images on a local machine
+lang: en-US
+---
+
+
+# Using Generic Cloud Images on a local machine
+
+You can use the AlmaLinux OS 8 and 9 Generic Cloud images for testing, developing, manipulating and repackaging purposes on your local machine.
+
+Required packages:
+- `osinfo-db` for AlmaLinux OS support on the virtualization stack.
+- `qemu-img` (RPM) (ArchLinux), `qemu-utils` (DEB) for creating snapshots.
+- `virt-install` (CLI) `virt-manager` (GUI) (RPM), `virt-manager` (ships with `virt-install` too) (DEB) for creating VMs.
+- `xorriso` or `genisoimage` for creation of Cloud-init data ISOs.
+- `guestfs-tools` (RPM) (ArchLinux), `libguestfs-tools` (DEB) for inspecting and manipulating image content.
 
 ## AlmaLinux Guest OS support
 
-You need at least the `20210215` on AlmaLinux and `20210426` version on the other distro's `osinfo-db` package for the AlmaLinux Guest OS support.
+You need at least version `20210215` for AlmaLinux and `20210426` for other distributions `osinfo-db` packages to support AlmaLinux as a guest OS.
 
 :::tip
 `20210621` and newer recommended for latest improvements.
 :::
 
-Check the list of supported guest OSes:
+To check whether AlmaLinux OS is supported on the installed version of `osinfo-db`:
 
-```bash
-$ osinfo-query os
+``` sh
+osinfo-query os | grep almalinux
 
- Short ID             | Name                                               | Version  | ID
-----------------------+----------------------------------------------------+----------+-----------------------------------------
  almalinux8           | AlmaLinux 8                                        | 8        | http://almalinux.org/almalinux/8
- alpinelinux3.10      | Alpine Linux 3.10                                  | 3.10     | http://alpinelinux.org/alpinelinux/3.10
- alpinelinux3.11      | Alpine Linux 3.11                                  | 3.11     | http://alpinelinux.org/alpinelinux/3.11
- alpinelinux3.12      | Alpine Linux 3.12                                  | 3.12     | http://alpinelinux.org/alpinelinux/3.12
- alpinelinux3.13      | Alpine Linux 3.13                                  | 3.13     | http://alpinelinux.org/alpinelinux/3.13
- alpinelinux3.14      | Alpine Linux 3.14                                  | 3.14     | http://alpinelinux.org/alpinelinux/3.14
- alpinelinux3.5       | Alpine Linux 3.5                                   | 3.5      | http://alpinelinux.org/alpinelinux/3.5
- alpinelinux3.6       | Alpine Linux 3.6                                   | 3.6      | http://alpinelinux.org/alpinelinux/3.6
- alpinelinux3.7       | Alpine Linux 3.7                                   | 3.7      | http://alpinelinux.org/alpinelinux/3.7
- alpinelinux3.8       | Alpine Linux 3.8                                   | 3.8      | http://alpinelinux.org/alpinelinux/3.8
- alpinelinux3.9       | Alpine Linux 3.9                                   | 3.9      | http://alpinelinux.org/alpinelinux/3.9
- alt.p8               | ALT p8 StarterKits                                 | p8       | http://altlinux.org/alt/p8.starterkits
- alt.p9               | ALT p9 StarterKits                                 | p9       | http://altlinux.org/alt/p9.starterkits
- alt.sisyphus         | ALT regular                                        | sisyphus | http://altlinux.org/alt/sisyphus
- alt8.0               | ALT 8 Education                                    | 8.0      | http://altlinux.org/alt/8.0
- alt8.1               | ALT 8.1                                            | 8.1      | http://altlinux.org/alt/8.1
- alt8.2               | ALT 8.2                                            | 8.2      | http://altlinux.org/alt/8.2
- alt9.0               | ALT 9.0                                            | 9.0      | http://altlinux.org/alt/9.0
- alt9.1               | ALT 9.1                                            | 9.1      | http://altlinux.org/alt/9.1
- altlinux1.0          | Mandrake RE Spring 2001                            | 1.0      | http://altlinux.org/altlinux/1.0
- altlinux2.0          | ALT Linux 2.0                                      | 2.0      | http://altlinux.org/altlinux/2.0
- altlinux2.2          | ALT Linux 2.2                                      | 2.2      | http://altlinux.org/altlinux/2.2
- altlinux2.4          | ALT Linux 2.4                                      | 2.4      | http://altlinux.org/altlinux/2.4
- altlinux3.0          | ALT Linux 3.0                                      | 3.0      | http://altlinux.org/altlinux/3.0
- altlinux4.0          | ALT Linux 4.0                                      | 4.0      | http://altlinux.org/altlinux/4.0
- altlinux4.1          | ALT Linux 4.1                                      | 4.1      | http://altlinux.org/altlinux/4.1
- altlinux5.0          | ALT Linux 5.0                                      | 5.0      | http://altlinux.org/altlinux/5.0
- altlinux6.0          | ALT Linux 6.0                                      | 6.0      | http://altlinux.org/altlinux/6.0
- altlinux7.0          | ALT Linux 7.0                                      | 7.0      | http://altlinux.org/altlinux/7.0
-
-...
+ almalinux9           | AlmaLinux 9                                        | 9        | http://almalinux.org/almalinux/9
 ```
 
-You can manually update the Osinfo database with the `--local` option without overriding the osinfo-db which is installed by the distribution's package manager. The new database will have precedence when the database is loaded.
+If the installed `osinfo-db` doesn’t support either or any version of AlmaLinux OS, You can manually update the Osinfo database with the `--local` option without overriding the installed `osinfo-db` which is installed by the distribution's package manager. The new database will have precedence when the database is loaded.
 
-Check the latest version from here: [https://releases.pagure.org/libosinfo/?C=M;O=D](https://releases.pagure.org/libosinfo/?C=M;O=D)
-```bash
-# Replace $VERSION with the latest version
-$ curl -O https://releases.pagure.org/libosinfo/osinfo-db-$VERSION.tar.xz # Download
-$ sudo osinfo-db-import --local osinfo-db-$VERSION.tar.xz #Install
+Retrieve the latest `$osinfo_db_version` from here (e.g., `20230719`) : [https://releases.pagure.org/libosinfo/?C=M;O=D](https://releases.pagure.org/libosinfo/?C=M;O=D)
+
+```sh
+osinfo_db_version='20230719' # Replace with the latest version
+
+curl -O https://releases.pagure.org/libosinfo/osinfo-db-"$osinfo_db_version".tar.xz # Download
+sudo osinfo-db-import --local osinfo-db-"$osinfo_db_version".tar.xz # Install
 ```
-Download and Verify the cloud image from this guide: [https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification](https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification)
+
+Refer to this guide to download and verify the cloud images: [https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification](https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification)
 
 
-## Create a snapshot from the image 
+## Create a snapshot from the image
 
-If you don't want to modify the cloud image on each VM creation, you can create a snapshot from the cloud image. The snapshot's virtual size can be different from the base image. In this example, we will use 20G instead of the base image's virtual size (10G). Cloud-init will grow the root filesystem automatically on the creation of the VM.
+If you don’t want to modify the cloud image each time you create a VM, you can create a snapshot from the cloud image. The snapshot's virtual size can be different from the base image. In this example, we will use 20G instead of the base image's virtual size (10G). Cloud-init will grow the root filesystem automatically on the creation of the VM.
 
-```bash
-$ qemu-img create -f qcow2 -b AlmaLinux-8-GenericCloud-8.4-20210616.x86_64.qcow2 -F qcow2 wiki-almalinux84-snapshot.qcow2 20G
+```sh
+qemu-img create -f qcow2 -b AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 -F qcow2 wiki_example_almalinux92_snapshot.qcow2 20G
 ```
+::: warning
+If you face a permission error on image, snapshot, and Cloud-init ISO files, you can resolve it in the following ways:
+- You can move the image and snapshot to the `/var/lib/libvirt/images` directory.
+- Change the ownership of file to `qemu` user with `chown qemu:qemu`. On SELinux enforced systems, do not forget to change the context type too with `chcon -t virt_image_t`
+:::
+
+
 ## Cloud-init
 
-The [NoCloud](https://cloudinit.readthedocs.io/en/latest/topics/datasources/nocloud.html) Datasource allows the user to provide User-data and Meta-data to the instance without running a network service (or even without having a network at all). You can provide Meta-data and User-data files with `--cloud-init` option of [virt-install](https://virt-manager.org/) >= 3.0.0 or with a ISO file for < 3.0.0.
+The [NoCloud](https://cloudinit.readthedocs.io/en/latest/reference/datasources/nocloud.html) datasource allows the user to provide `user-data`, `meta-data` and `network-config` to the VM without running a network service (or even without having a network at all). You can provide Meta-data and User-data files with `--cloud-init` option of [virt-install](https://virt-manager.org/) `>= 3.0.0` or with an ISO file for versions `< 3.0.0.
 
-The accounts on the cloud image locked by default. You can set a password with the [Set Password](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#set-passwords), add your ssh public key with [Authorized Keys](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#authorized-keys). In this example, we will set a password for the default `almalinux` user.
+The name of the default user on the AlmaLinux OS Generic Cloud images is `almalinux` and it's locked. Therefore we need to inject a password or public ssh key for authentication. In this example, we do both: set a password and add public SSH keys for the `almalinux` user.
 
-:::tip
-Check cloud-init modules [list](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#) for further customization options. 
-:::
+These two main criteria must be met on the Cloud-init User Data:
+
+- The first line must be `#cloud-config`.
+- The syntax must be in `YAML`.
 
 `user-data:`
 ```yaml
 #cloud-config
 
-ssh_pwauth: yes #  sshd will be configured to accept password authentication
-password: 'P@$$W0RD' # Set a password for almalinux Cloud User
+ssh_pwauth: true # sshd service will be configured to accept password authentication method
+password: changeme # Set a password for almalinux
 chpasswd:
-    expire: false
-ssh_authorized_keys: # Add your ssh public key for publickey authentication 
-    - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+nCSjUU ...
-    - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA3I7VUf2l5gSn5uavROsc5HRDpZ ...
-
+    expire: false # Don't ask for password reset after the first log-in
+ssh_authorized_keys: # Add your ssh public key for publickey authentication
+    - ssh-ed25519 AAAAB3NzaC1yc2EAAAABIwAAAQEA3I7VUf2l5gSn5uavROsc5HRDpZ turquoisekodkod@almalinux.example
+    - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+nCSjUU sapphirecaracal@almalinux.example
 ```
 
+:::tip
+Refer to the Cloud-init modules [list](https://cloudinit.readthedocs.io/en/latest/topics/modules.html#) for further customization options.
+:::
+
+:::tip
+You can close the console output of the VM with `Ctrl + ]`
+:::
 
 Start the VM - `virt-install >= 3.0.0` with `--cloud-init` option:
-```bash
+
+```sh
 #!/usr/bin/env bash
 
-VM_NAME="wiki-almalinux84"
-USER_DATA="user-data"
-DISK="wiki-almalinux84-snapshot.qcow2"
+
+vm_name='wiki-example-almalinux92'
+vm_memory='2048'
+vm_cpus='2'
+vm_disk='/var/lib/libvirt/images/wiki_example_almalinux92_snapshot.qcow2'
+
+ci_user_data='ci_user_data_ssh_auth_pass_pubkey'
 
 
 virt-install \
---name "${VM_NAME}" \
---memory 2048 \
---vcpus 2 \
---import \
---cloud-init user-data="${USER_DATA}" \
---os-variant almalinux8 \
---disk "${DISK}" \
---network network=default,model=virtio \
---graphics none \
---virt-type kvm
-
+    --connect qemu:///system \
+    --name "$vm_name" \
+    --memory "$vm_memory" \
+    --machine q35 \
+    --vcpus "$vm_cpus" \
+    --cpu host-passthrough \
+    --import \
+    --cloud-init user-data="$ci_user_data" \
+    --osinfo name=almalinux8 \
+    --disk "$vm_disk" \
+    --virt-type kvm
 ```
 
-Start the VM - `virt-install < 3.0.0` 
+Start the VM - `virt-install < 3.0.0`
 
-Create a CloudInit seed iso file with User-Data and Meta-Data:
+Create Cloud-init data ISO with User and Meta data files:
+::: warning
+The filename of Cloud-init user data, meta data must be renamed to `user-data` and `meta-data` and be placed on the root directory of ISO.
+:::
 
-```bash
-$ touch meta-data # empty meta-data file for no meta-data option
-$ genisoimage -output seed.iso -volid cidata -joliet -rock user-data meta-data
+```sh
+/user-data
+/meta-data
 ```
 
-```bash
+The `meta-data` can be empty for no meta-data option
+
+```sh
+touch meta-data
+```
+
+xorriso (AlmaLinux OS 9)
+
+```sh
+xorriso -as genisoimage -output ci_data.iso -volid CIDATA -joliet -rock user-data meta-data
+```
+
+genisoimage (AlmaLinux OS 8)
+
+```sh
+genisoimage -output ci_data.iso -volid CIDATA -joliet -rock user-data meta-data
+```
+
+Create the VM with Cloud-init data ISO mounted:
+
+```sh
 #!/usr/bin/env bash
 
-VM_NAME="wiki-almalinux84"
-DISK="wiki-almalinux84-snapshot.qcow2"
-SEED_ISO="seed.iso"
+vm_name='wiki-almalinux92'
+vm_memory='2048'
+vm_cpus='2'
+vm_disk='/var/lib/libvirt/images/wiki_example_almalinux92_snapshot.qcow2'
 
+ci_dataiso='/var/lib/libvirt/images/ci_data.iso'
 
 virt-install \
---name "${VM_NAME}" \
---memory 2048 \
---vcpus 2 \
---import \
---os-variant almalinux8 \
---disk "${DISK}" \
---disk "${SEED_ISO}",device=cdrom \
---network network=default,model=virtio \
---graphics none \
---virt-type kvm
-
+     --connect qemu:///system \
+     --name "$vm_name" \
+     --memory "$vm_memory" \
+     --machine q35 \
+     --vcpus $vm_cpus \
+     --cpu host-passthrough \
+     --import \
+     --osinfo name=almalinux9 \
+     --disk "$vm_disk" \
+     --disk "$ci_dataiso",device=cdrom \
+     --virt-type kvm
 ```
-
 
 Get the IP address of the VM:
-```bash
-$ sudo virsh domainifaddr $VM_NAME
+```sh
+virsh domainifaddr $VM_NAME
 ```
+
 
 ## Static IP
 
-You need a Cloud-init Meta-Data file for the static IP configuration.
+To create a VM with static IPs rather than dynamic from DHCP, We need to create `network-config` file in  Networking config Version 1 or Networking config Version 2 format.
 
-`meta-data:`
+An example for a single interface VM on `192.168.122.0/24` network, our `network-config` file would be:
+
+Networking config Version 1:
 
 ```yaml
-network-interfaces: |
-  iface eth0 inet static
-  address 192.168.122.8
-  network 192.168.122.0
-  netmask 255.255.255.0
-  broadcast 192.168.1.255
-  gateway 192.168.122.1
+version: 1
+config:
+  - type: physical
+    name: eth0
+    subnets:
+      - type: static
+        address: 192.168.122.92
+        netmask: 255.255.255.0
+        gateway: 192.168.122.1
+        dns_nameservers:
+          - 192.168.122.1
+          - 9.9.9.9
 ```
 
-Because of a current [bug](https://bugs.launchpad.net/cloud-init/+bug/1225922) in cloud-init, static networking configurations are not automatically started. Instead, the default DHCP configuration remains active. A suggested workaround is to manually stop and restart the network interface via the `bootcmd`. 
 
-Add these lines in the User-Data file.
+Networking config Version 2:
 
-`user-data:`
 ```yaml
-#cloud-config
-
-bootcmd:
-    - ifdown eth0
-    - ifup eth0
+version: 2
+ethernets:
+  eth0:
+    addresses:
+      - 192.168.122.92/24
+    gateway4: 192.168.124.1
+    nameservers:
+      addresses:
+        - 192.168.122.1
+        - 9.9.9.9
 ```
 
-Create a VM with static IP:
+:::tip
+Please consult documenation pages of [Networking config Version 1](https://cloudinit.readthedocs.io/en/latest/reference/network-config-format-v1.html) and [Networking config Version 2](https://cloudinit.readthedocs.io/en/latest/reference/network-config-format-v2.html) for the full list of options.
+:::
 
-```bash
+
+In virt-install/manager version `>= 4.1.0` (available in AlmaLinux OS 9), you can use the `network-config` sub-option of the `--cloud-init` option.
+
+
+```sh
 #!/usr/bin/env bash
 
-VM_NAME="wiki-almalinux84"
-META_DATA="meta-data"
-USER_DATA="user-data"
-DISK="wiki-almalinux84-snapshot.qcow2"
+vm_name='wiki-almalinux92'
+vm_memory='2048'
+vm_cpus='2'
+vm_disk='/var/lib/libvirt/images/wiki_example_almalinux92_snapshot.qcow2'
+
+ci_user_data='ci_user_data_ssh_auth_pass_pubkey' # Cloud-init user-data
+ci_network_config='ci_network_config_192_168_122_92_v1' # Cloud-init network-config
+
 
 virt-install \
---name "${VM_NAME}" \
---memory 2048 \
---vcpus 2 \
---import \
---cloud-init meta-data="${META_DATA}",user-data="${USER_DATA}" \
---os-variant almalinux8 \
---disk ${DISK} \
---network network=default,model=virtio \
---graphics none \
---virt-type kvm
-
+     --connect qemu:///system \
+     --name "$vm_name" \
+     --memory "$vm_memory" \
+     --machine q35 \
+     --vcpus "$vm_cpus" \
+     --cpu host-passthrough \
+     --import \
+     --cloud-init user-data="$ci_user_data",network-config="$ci_network_config" \
+     --osinfo name=almalinux9 \
+     --disk "$vm_disk" \
+     --virt-type kvm
 ```
+
+On virt-install/manager `< 4.1.0` (AlmaLinux OS 8), you will need to create a Cloud-init Data ISO in ISO 9660 format.
+
+::: warning
+The names of Cloud-init user data, meta data and networking config must be renamed to `user-data`, `meta-data` and `network-config` and be present on the root directory of ISO.
+:::
+
+```sh
+/user-data
+/meta-data
+/network-config
+```
+
+Create the Cloud-init Data ISO:
+
+The `meta-data` file can be empty if no meta-data is needed.
+
+```sh
+touch meta-data
+```
+
+xorriso (AlmaLinux OS 9)
+
+```sh
+xorriso -as genisoimage -output ci_data.iso -volid CIDATA -joliet -rock user-data meta-data network-config
+```
+
+genisoimage (AlmaLinux OS 8)
+
+```sh
+genisoimage -output ci_data.iso -volid CIDATA -joliet -rock user-data meta-data network-config
+```
+
+Create the VM with Cloud-init data ISO mounted:
+
+```sh
+#!/usr/bin/env bash
+
+vm_name='wiki-almalinux92'
+vm_memory='2048'
+vm_cpus='2'
+vm_disk='/var/lib/libvirt/images/wiki_example_almalinux92_snapshot.qcow2'
+
+ci_dataiso='/var/lib/libvirt/images/ci_data.iso'
+
+virt-install \
+     --connect qemu:///system \
+     --name "$vm_name" \
+     --memory "$vm_memory" \
+     --machine q35 \
+     --vcpus $vm_cpus \
+     --cpu host-passthrough \
+     --import \
+     --osinfo name=almalinux9 \
+     --disk "$vm_disk" \
+     --disk "$ci_dataiso",device=cdrom \
+     --virt-type kvm
+```
+
+## Virt-Manager (GUI)
+
+Unlike the virt-install, the virt-manager doesn't have an option to provide Cloud-init `user-data`, `meta-data` and `network-config` (Static IP). For that reason we can add Cloud-init data ISO to our VM as CDROM device.
+
+"New VM" -> "Import existing disk image" -> Choose AlmaLinux OS image itself or snapshot, put a tick on the "Customize configuration before install" option.
+
+"Add Hardware" -> "Storage" -> Select Device type as "CDROM", click on "Manage" and select Cloud-init data ISO and click on "Finish" button. Start the VM with the "Begin Installation".
 
 ## Repackage cloud image
 
 shutdown VM:
 
-```bash
-$ sudo virsh shutdown $VM_NAME
+```sh
+sudo virsh shutdown $VM_NAME
 ```
 
 Convert the snapshot to the full image without touching backing file(`AlmaLinux-8-GenericCloud-8.4-20210616.x86_64.qcow2`):
 
-```bash
-$ qemu-img convert -c -O qcow2 doc-almalinux84-snapshot.qcow2 doc-almalinux84-base.qcow2
+```sh
+qemu-img convert -c -O qcow2 doc-almalinux84-snapshot.qcow2 doc-almalinux84-base.qcow2
 ```
 
 You can reset, unconfigure and inject files to the image with ` libguestfs virt-sysprep`. See the upstream documentation for further [option](https://libguestfs.org/virt-sysprep.1.html#options) and [operations.](https://libguestfs.org/virt-sysprep.1.html#operations)
 
-```bash
-$ virt-sysprep --format qcow2 -a doc-almalinux84-base.qcow2
+```sh
+virt-sysprep --format qcow2 -a doc-almalinux84-base.qcow2
 ```
+
+## Inspection and Manipulation of images
+
+Show a file inside the image
+
+```sh
+virt-cat -a AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 /etc/cloud/cloud.cfg
+```
+
+Show disk usage inside the image
+
+```sh
+virt-df -a AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 -h
+```
+Display the OS infromation
+
+```sh
+virt-inspector -a AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2
+```
+
+Get the version of `kernel` package with the help of XPATH query
+
+```sh
+virt-inspector -a AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 | virt-inspector --xpath '//application[name="kernel"]/version | //application[name="kernel"]/release'
+
+<version>5.14.0</version>
+<release>284.11.1.el9_2</release>
+```
+
+Mount filesystems of an image.
+
+```sh
+mkdir guest_mount # Create the mount directoy
+guestmount -a AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 -i --ro guest_mount/ # Mount read-only with --ro
+guestunmount guest-mount/ # Unmount
+```
+
+::: tip
+You can check the [libguestfs's website](https://www.libguestfs.org) for more documentation and more tools
+:::

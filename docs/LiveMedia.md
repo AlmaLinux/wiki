@@ -19,6 +19,10 @@ There are a few AlmaLinux Live Media Options:
 
  ![image](/images/live-media-9-kde.png)
 
+* MATE: contains MATE desktop environment with Firefox browser, LibreOffice and other applications.
+
+ ![image](/images/live-media-9-mate.png)
+
 * XFCE: contains XFCE desktop environment with Firefox browser, Thunderbird, LibreOffice, and more applications. 
 
  ![image](/images/live-media-9-xfce.png)
@@ -66,8 +70,8 @@ For Windows OS there is a helpful free and open-source application - [Rufus](htt
 
 Open the application, choose your target USB, ISO you need to burn, press start - and Live OS is ready to run. 
 
-**MacOS:**
+**macOS:**
 
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open banlenaEtcher, choose the image and the USB, press Flash. 
+The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, press Flash. 
 
 More details and information about AlmaLinux Live Media can be found on [Live Media SIG](https://wiki.almalinux.org/sigs/LiveMedia.html).

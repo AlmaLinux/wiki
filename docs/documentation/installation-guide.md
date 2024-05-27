@@ -165,9 +165,9 @@ Open the application, choose your target USB, and ISO you need to burn, and pres
 
 #### macOS
 
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open banlenaEtcher, choose the image and the USB, and press Flash.
+The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, and press Flash.
     
-You can also use `dd` form CLI:
+You can also use `dd` from the CLI:
     
 ```
 sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/diskXXX status=progress
@@ -225,7 +225,7 @@ Now you have AlmaLinux ready on a USB stick.
     * *Software Selection* - this section contains two fields:
         * *Base Environment* - this field will be defined automatically according to the ISO type you are using for the installation.
         * *Additional Software for the Selected Environment* - you can choose additional software to be installed. The list of available additional software depends on the chosen variant in the *Base Environment* field.
-    ![image](/images/installation-guide-sofware-selection.gif)
+    ![image](/images/installation-guide-software-selection.gif)
     **When you've finished with the changes, click on the `Done` button.**
     * **SYSTEM** - this section allows you to customize the hardware of the system to you your needs like creating drive partitions, enabling Encryption, KDUMP, specifying the Network and choosing a security profile:
     * *Installation destination* - you will see available disks for the system installation as *Local Standard Disks*. You can click on the disk you need. If your system has only one disk, it'll be automatically chosen. By default, *Storage Configuration* will be marked as *Automatic*. 

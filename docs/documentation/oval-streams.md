@@ -6,12 +6,12 @@ title: "AlmaLinux OS OVAL streams"
 
 The supported AlmaLinux OS versions and their public OVAL streams are listed below:
 
-## AlmaLinux OS 8:
+## AlmaLinux OS 8
 <https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2>
 
 <https://security.almalinux.org/oval/org.almalinux.alsa-8.xml>
 
-## AlmaLinux OS 9:
+## AlmaLinux OS 9
 <https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2>
 
 <https://security.almalinux.org/oval/org.almalinux.alsa-9.xml>
