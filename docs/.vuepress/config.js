@@ -123,6 +123,7 @@ module.exports = {
                 path: '/release-notes/',
                 children: [
                   '/release-notes/9.4',
+                  '/release-notes/8.10',
                   '/release-notes/9.3',
                   '/release-notes/8.9',
                   '/release-notes/9.4-beta',
