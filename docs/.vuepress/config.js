@@ -46,7 +46,7 @@ module.exports = {
               '/release-notes/9.1',
               '/release-notes/9.0',
 	            {
-	            title: "Older AlmaLinux 9 beta releases",
+	            title: "AlmaLinux 9 betas",
 	  			  children: [
                    '/release-notes/9.4-beta',
 				  '/release-notes/9.3-beta',
@@ -70,7 +70,7 @@ module.exports = {
               '/release-notes/8.4',
               '/release-notes/8.3',
 	            {
-	            title: "Older AlmaLinux 8 beta releases",
+	            title: "AlmaLinux 8 betas",
 	  			  children: [
                    '/release-notes/8.9-beta',
                    '/release-notes/8.8-beta',
