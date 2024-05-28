@@ -3,7 +3,7 @@ title: "EL Distro Comparison"
 ---
 
 > Diagram by [Carl George](https://www.linkedin.com/in/carlwgeorge/)
-
+###### last updated: 
 ![relationship_chart](/images/Comparison-relationship_chart.png)
 
 The chart above illustrates the relationship between Fedora, CentOS Stream, and RHEL.<br>
