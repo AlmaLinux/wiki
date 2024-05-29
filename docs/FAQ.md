@@ -99,7 +99,7 @@ Since AlmaLinux attempts to be as close to RHEL as possible, it does not add pac
 
 ### Why does the AlmaLinux codename include cats?
 
-Codenames for Linux distributions are very common, and AlmaLinux adopted this pattern early on as well. Each minor version of AlmaLinux follows a specific pattern. 
+Having codenames for operating systems has a long history and has been adopted widely. While they aren't needed for us specifically, we keep them as part of our distribution both as an homage to our roots, and because the add a bit of levity to our work. Each minor version of AlmaLinux follows a specific pattern. 
 
 * AlmaLinux 8 - blue color + cat name
 * AlmaLinux 9 - green color + cat name
