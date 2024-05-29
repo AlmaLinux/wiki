@@ -20,4 +20,6 @@ The following SIGs are already established:
 
 # Additional Resources
 
-* [Process For Creating New SIG](/sigs/ProcessForCreatingNewSIG) - AlmaLinux OS Foundation SIG Lifecycle Guidelines.
+* [Community funding request form](https://forms.gle/tpoJUKPLGy3tY3DH9)
+This forms is for members of the AlmaLinux community to request specific hardware or software to support the work they're doing for the AlmaLinux project.
+* [Process For Creating New SIG](/sigs/ProcessForCreatingNewSIG) - AlmaLinux OS Foundation SIG Lifecycle Guidelines
