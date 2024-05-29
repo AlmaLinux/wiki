@@ -30,7 +30,7 @@ If you're interested in testing, please, join the [testing](https://chat.almalin
 
 ## Migration and Upgrades
 
-AlmaLinux offers two projects for migrating your machine - the ELevate tool and the Migration tool. We're actively working on improving them with the community's help, and invite you to join the testing process. 
+AlmaLinux offers one project for upgrading your operating system in-place ([ELevate](https://wiki.almalinux.org/elevate/)), and one for migrating to AlmaLinux([AlmaLinux-deploy](https://wiki.almalinux.org/documentation/migration-guide.html)! We're actively working on improving them with the community's help, and invite you to join the testing process. 
 
 If you're interested in participating, you can assist in testing new features, identifying and reporting bugs, resolving known issues, or expanding the documentation to make the migration process smoother - check the [Migration](/migration/) wiki section, [Migration SIG](/sigs/Migration) page and join the [Migration SIG](https://chat.almalinux.org/almalinux/channels/migration) chat channel. 
 
