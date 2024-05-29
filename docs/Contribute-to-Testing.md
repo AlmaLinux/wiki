@@ -28,7 +28,7 @@ AlmaLinux OS is binary compatible with RHEL® and part ways in some matters. Bef
 
 If you're interested in testing, please, join the [testing](https://chat.almalinux.org/almalinux/channels/testing) and [release engineering](https://chat.almalinux.org/almalinux/channels/engineeringreleng) chat channels to stay updated and involved.
 
-## Migration 
+## Migration and Upgrades
 
 AlmaLinux offers two projects for migrating your machine - the ELevate tool and the Migration tool. We're actively working on improving them with the community's help, and invite you to join the testing process. 
 
