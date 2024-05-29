@@ -34,7 +34,7 @@ AlmaLinux offers one project for upgrading your operating system in-place ([ELev
 
 If you're interested in participating check the [Migration](/migration/) wiki section, [Migration SIG](/sigs/Migration) page and join the [Migration SIG](https://chat.almalinux.org/almalinux/channels/migration) chat channel to get involved. You can assist AlmaLinux in:
 * Testing new features and expanding the documentation.
-* Identifying and reporting bugs as well as resolving known issues to make the migration process smoother. Bugs can be reported to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org/), the [migration chat channel](https://chat.almalinux.org/almalinux/channels/migration), or to corresponding repositories - [ELevate leapp repository](https://github.com/AlmaLinux/leapp-repository) or [AlmaLinux migration tool](https://github.com/AlmaLinux/almalinux-deploy). 
+* Identifying and reporting bugs as well as resolving known issues to make the migration process smoother. Bugs should be reported to the corresponding repositories - [ELevate leapp repository](https://github.com/AlmaLinux/leapp-repository) or [AlmaLinux migration tool](https://github.com/AlmaLinux/almalinux-deploy). 
 
 #### Trademarks
 
