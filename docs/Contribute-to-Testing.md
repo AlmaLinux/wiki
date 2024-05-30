@@ -30,7 +30,9 @@ If you're interested in testing, please, join the [testing](https://chat.almalin
 
 ## Migration and Upgrades
 
-AlmaLinux offers one project for upgrading your operating system in-place ([ELevate](https://wiki.almalinux.org/elevate/)), and one for migrating to AlmaLinux([AlmaLinux-deploy](https://wiki.almalinux.org/documentation/migration-guide.html)! We're actively working on improving them with the community's help, and invite you to join the testing process. 
+AlmaLinux offers one project for upgrading your operating system in-place ([ELevate](https://wiki.almalinux.org/elevate/)), and one for migrating to AlmaLinux ([AlmaLinux-deploy](https://wiki.almalinux.org/documentation/migration-guide.html))! We're actively working on improving them with the community's help, and invite you to join the testing process. 
+
+**Currently, we are seeking testers for the ELevate NG that uses the next Leapp tool version - 0.19.0. Follow the [ELevate NG testing guide](/elevate/ELevate-NG-testing-guide) to test this migration process and [let us know]((https://chat.almalinux.org/almalinux/channels/migration)) how it goes.**
 
 If you're interested in participating check the [Migration](/migration/) wiki section, [Migration SIG](/sigs/Migration) page and join the [Migration SIG](https://chat.almalinux.org/almalinux/channels/migration) chat channel to get involved. You can assist AlmaLinux in:
 * Testing new features and expanding the documentation.
