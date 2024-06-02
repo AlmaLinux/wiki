@@ -7,7 +7,7 @@ title: "Installing EPEL and RPM Fusion"
 This guide describes how to install _Extra Packages for Enterprise Linux (EPEL)_ and _RPM Fusion_, two software repositories that contain software that is not included by AlmaLinux (like codecs).
 
 :::warning
-These third-party software repositories are not supported by AlmaLinux's [ELevate Project](../elevate/).
+These third-party software repositories may not be supported by AlmaLinux's [ELevate Project](../elevate/).
 :::
 
 ## Step 1: Install EPEL. 
