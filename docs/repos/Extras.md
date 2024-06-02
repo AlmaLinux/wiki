@@ -27,7 +27,7 @@ During the installation process, you might get a prompt to install a GPG key. Co
 | ELRepo | # dnf install elrepo-release |
 
 ## RPM Fusion
-[RPM Fusion](https://rpmfusion.org/) provides software that RHEL and other Enterprise Linux distributions do not to ship (like software codecs).
+[RPM Fusion](https://rpmfusion.org/) provides software that RHEL and other Enterprise Linux distributions do not ship (like software codecs).
 
 | Repository | How to Enable |
 | --- | --- |
