@@ -10,7 +10,9 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 
 | Repository | How to Enable |
 | --- | --- |
-| EPEL | See the [EPEL Quickstart Guide](https://docs.fedoraproject.org/en-US/epel/#_quickstart) |
+| EPEL and CRB | # dnf install epel-release |
+
+For more detailed information see the [EPEL Quickstart Guide](https://docs.fedoraproject.org/en-US/epel/).
 
 :::tip
 During the installation process, you might get a prompt to install a GPG key. Compare the key to the "Primary key fingerprint" (see ["Verify the downloaded ISO image checksum:"](../documentation/installation-guide.md#iso-verification)) and if the fingerprints match, type "y" to continue.
