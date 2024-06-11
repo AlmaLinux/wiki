@@ -9,6 +9,7 @@ Special interest groups (SIGs) are teams within the AlmaLinux OS community that 
 The following SIGs are already established:
 
 * [Build System](/sigs/Build-System) - The AlmaLinux OS build system developers and maintainers.
+* [Certification](/sigs/Certification) - The AlmaLinux Certification SIG.
 * [Core](/sigs/Core) - The AlmaLinux OS distribution developers and maintainers.
 * [Cloud](/sigs/Cloud) - The AlmaLinux OS cloud and container images maintainers.
 * [HPC and AI](/sigs/HPCandAI) - The AlmaLinux High performance computing and AI SIG.
