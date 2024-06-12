@@ -3,27 +3,24 @@
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-06-22
+| 📆 | <small>Last modified </small>| 2024-06-11
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
 
-# Enable CRB:
-```Bash
-sudo dnf config-manager --set-enabled crb
-```
-# Add EPEL9:
+# Add EPEL:
 
 ```Bash
 sudo dnf -y install epel-release
 sudo dnf makecache
 ```
 
-# Add RPMFusion:
+# Enable CRB:
 ```Bash
-sudo dnf -y install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-$(rpm -E %rhel).noarch.rpm
-sudo dnf -y install rpmfusion-free-release-tainted rpmfusion-nonfree-release-tainted
-sudo dnf makecache
+sudo dnf config-manager --set-enabled crb
 ```
+
+# Add RPMFusion:
+Starting from step 2, follow [Installing EPEL and RPM Fusion](/documentation/epel-and-rpmfusion/).
 
 # Install multimedia codecs:
 
