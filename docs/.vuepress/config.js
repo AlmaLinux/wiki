@@ -31,6 +31,62 @@ module.exports = {
         title: 'About',
         path: '/',
      },
+     {
+         title: 'Release Notes',
+         path: '/release-notes/',
+         children: [
+           '/release-notes/9.4',
+           '/release-notes/8.9',
+           '/release-notes/8.10-beta',
+            {
+            title: "Older AlmaLinux 9 releases",
+  			  children: [
+              '/release-notes/9.3',
+              '/release-notes/9.2',
+              '/release-notes/9.1',
+              '/release-notes/9.0',
+	            {
+	            title: "AlmaLinux 9 betas",
+	  			  children: [
+                   '/release-notes/9.4-beta',
+				  '/release-notes/9.3-beta',
+				  '/release-notes/9.2-beta',
+				  '/release-notes/9.1-beta',
+				  '/release-notes/9.0-beta',
+	              ]
+	            },
+              ]
+            },
+            {
+            title: "Older AlmaLinux 8 releases",
+  			  children: [
+              '/release-notes/8.8',
+              '/release-notes/8.7',
+              '/release-notes/8.6',
+              '/release-notes/8.5-ppc',
+              '/release-notes/8.5',
+              '/release-notes/8.4-arm',
+              '/release-notes/8.4',
+              '/release-notes/8.3',
+	            {
+	            title: "AlmaLinux 8 betas",
+	  			  children: [
+                   '/release-notes/8.9-beta',
+                   '/release-notes/8.8-beta',
+                   '/release-notes/8.7-beta',
+                   '/release-notes/8.6-beta',
+                   '/release-notes/8.5-beta',
+                   '/release-notes/8.5-beta-ppc',
+                   '/release-notes/8.4-beta-arm',
+                   '/release-notes/8.4-beta',
+                   '/release-notes/8.3-rc',
+                   '/release-notes/8.3-beta'
+	              ]
+	            },
+              ]
+            },
+         ]
+     },
 	'/alesco',
      {
           title: 'Contribute',
@@ -75,7 +131,7 @@ module.exports = {
 			children: [
              '/development/private-keys/secure-boot'
             ]
-          }
+          },
         ]
      },
      {
@@ -116,47 +172,10 @@ module.exports = {
                               '/series/system/SystemSeriesA03R9',
                               '/series/system/SystemSeriesA04',
                               '/series/system/SystemSeriesA05',
-                      ]
-                  }
+                              ]
+                  },
               ]
             },
-            {
-                title: 'Release Notes',
-                path: '/release-notes/',
-                children: [
-                  '/release-notes/9.4',
-                  '/release-notes/8.10',
-                  '/release-notes/9.3',
-                  '/release-notes/8.9',
-                  '/release-notes/9.4-beta',
-                  '/release-notes/8.10-beta',
-                  '/release-notes/9.2',
-                  '/release-notes/8.8',
-                  '/release-notes/9.3-beta',
-                  '/release-notes/8.9-beta',
-                  '/release-notes/9.1',
-                  '/release-notes/8.7',
-                  '/release-notes/9.2-beta',
-                  '/release-notes/8.8-beta',
-                  '/release-notes/9.0',
-                  '/release-notes/8.6',
-                  '/release-notes/9.1-beta',
-                  '/release-notes/8.7-beta',
-                  '/release-notes/9.0-beta',
-                  '/release-notes/8.6-beta',
-                  '/release-notes/8.5-ppc',
-                  '/release-notes/8.5',
-                  '/release-notes/8.5-beta-ppc',
-                  '/release-notes/8.5-beta',
-                  '/release-notes/8.4-arm',
-                  '/release-notes/8.4',
-                  '/release-notes/8.4-beta-arm',
-                  '/release-notes/8.4-beta',
-                  '/release-notes/8.3',
-                  '/release-notes/8.3-rc',
-                  '/release-notes/8.3-beta'
-                ]
-          },
           {
                 title: 'Security Guides',
                 path: '/documentation/guides',
