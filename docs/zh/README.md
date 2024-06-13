@@ -1,0 +1,48 @@
+# About AlmaLinux Wiki
+
+[AlmaLinux](https://almalinux.org/) 是一个开源且永久免费的企业 Linux 发行版，由社区管理和驱动，专注于长期稳定性和强大的生产级平台。AlmaLinux OS 与 RHEL® 二进制兼容。 [AlmaLinux OS Foundation]（Transparency.md） 是作为 501（c）（6） 非营利组织成立的，旨在管理项目的所有权和治理。该基金会包括 400 多名个人会员、100 多名 Mirror 赞助商和超过 25 名企业赞助商。
+
+<div>
+ <div>
+  <img src=/images/hero.png style="float: right; margin-right: 80px; margin-top: 30px;">
+ </div>
+<div>
+ <h2>快速链接 & 资源</h2>
+  <ul>
+    <li><a href="https://almalinux.org/">almalinux.org</a> - 官方网站</li>
+    <li><a href="https://blog.almalinux.org">blog.almalinux.org</a> - 博客</li>
+    <li><a href="https://forums.almalinux.org">forums.almalinux.org</a> - 论坛</li>
+    <li><a href="https://bugs.almalinux.org">bugs.almalinux.org</a> - Bug Tracker</li>
+    <li><a href="https://build.almalinux.org/">build.almalinux.org</a> - Build System</li>
+    <li><a href="https://lists.almalinux.org">lists.almalinux.org</a> - Mailing Lists</li>
+    <li><a href="https://chat.almalinux.org">chat.almalinux.org</a> - Mattermost Community Chat</li>
+    <li><a href="https://web.libera.chat/#almalinux">Libera Chat IRC</a> - IRC Real Time Chat</li>
+    <li><a href="https://www.reddit.com/r/AlmaLinux/">reddit.com/r/AlmaLinux</a> - Reddit Community</li>
+    <li><a href="https://repo.almalinux.org/">repo.almalinux.org</a> - Public Package Repository</li>
+    <li><a href="https://status.almalinux.org/">status.almalinux.org</a> - Public Status Page</li>
+    <li><b>Cloud Images </b>(and Sources) for AWS, Google Cloud, Generic/Cloud-Init, LXC/LXD</li>
+    <li><a href="https://github.com/AlmaLinux/cloud-images">AlmaLinux Cloud Images</a></li>
+    <li><a href=cloud/AWS>Expanded documentation on AWS</a></li>
+    <li><a href=cloud/Generic-cloud>Expanded documentation on Generic Cloud/Cloud-Init</a></li> 
+    <li><b>Container Images</b>:
+     <ul>
+       <li><a href="https://hub.docker.com/_/almalinux">hub.docker.com/_/almalinux</a> - AlmaLinux official images on Docker Hub</li>
+      <li><a href="https://quay.io/repository/almalinux/almalinux">quay.io/repository/almalinux/almalinux</a> - AlmaLinux official images on Quay.io</li>
+     </ul>
+    </li>
+    <li>Vagrant Boxes:
+     <ul>
+       <li><a href="https://app.vagrantup.com/almalinux">app.vagrantup.com/almalinux</a> - AlmaLinux on Vagrant Cloud</li>
+     </ul>
+    </li>
+  </ul>
+ </div>
+</div>
+
+### Transparency Statement
+
+* We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
+* Minutes from the [meetings of the board of directors](Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
+
+### License
+This Wiki content is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
