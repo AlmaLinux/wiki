@@ -18,7 +18,7 @@ Use updated version of `rsync` with `xxhash` support.
    We maintain an up-to-date version
    of `rsync` in the AlmaLinux backports repository.  To use this repository on EL8 and EL9 distros:
      ```shell
-     curl http://repo.almalinux.org/backports/almalinux-backports-rsync.repo --output /etc/yum.repos.d/almalinux-backports-rsync.repo
+     curl https://repo.almalinux.org/backports/almalinux-backports-rsync.repo --output /etc/yum.repos.d/almalinux-backports-rsync.repo
      yum -y update rsync
      ```
    - You can verify that you have the expected version of `rsync` and `xxhash` support as follows:
