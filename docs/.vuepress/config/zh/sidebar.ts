@@ -1,11 +1,11 @@
 export const sidebar = [
     {
-        title: 'About',
+        title: '关于',
         path: '/zh/',
     },
     '/zh/alesco',
     {
-        title: 'Contribute',
+        title: '贡献',
         children: [
             '/zh/Contribute',
             '/zh/Contribute-to-Documentation',
@@ -13,7 +13,7 @@ export const sidebar = [
             '/zh/Contribute-to-Testing',
             '/zh/Help-translating-site',
             {
-                title: 'Special interest groups (SIGs)',
+                title: '特殊利益集团 (SIGs)',
                 path: '/zh/sigs/',
                 children: [
                     '/zh/sigs/Build-System',
@@ -36,14 +36,14 @@ export const sidebar = [
         ]
     },
     {
-        title: 'Development',
+        title: '开发',
         children: [
             '/zh/documentation/building-packages-guide',
             '/zh/development/building-almalinux-iso-locally',
             '/zh/development/Modified-packages',
             '/zh/development/Packaging',
             {
-                title: "Private Keys",
+                title: "私钥",
                 children: [
                     '/zh/development/private-keys/secure-boot'
                 ]
@@ -51,22 +51,22 @@ export const sidebar = [
         ]
     },
     {
-        title: 'Documentation',
+        title: '文档',
         children: [
             '/zh/Comparison',
             '/zh/FAQ',
             '/zh/Howto',
             {
-                title: 'openQA Guide',
+                title: 'openQA指南',
                 path: '/zh/development/openQA',
             },
             {
-                title: 'Howto Series',
+                title: '操作方法',
                 path: '/zh/series/',
                 children: [
                     '/zh/series/LAMP-server',
                     {
-                        title: "Nginx Series",
+                        title: "Nginx",
                         path: '/zh/series/nginx/',
                         children: [
                             '/zh/series/nginx/NginxSeriesA01',
@@ -78,7 +78,7 @@ export const sidebar = [
                         ]
                     },
                     {
-                        title: "System Series",
+                        title: "系统",
                         path: '/zh/series/system/',
                         children: [
                             '/zh/series/system/SystemSeriesA01',
@@ -93,7 +93,7 @@ export const sidebar = [
                 ]
             },
             {
-                title: 'Release Notes',
+                title: '发行说明',
                 path: '/zh/release-notes/',
                 children: [
                     '/zh/release-notes/9.4',
@@ -130,7 +130,7 @@ export const sidebar = [
                 ]
             },
             {
-                title: 'Security Guides',
+                title: '安全指南',
                 path: '/zh/documentation/guides',
                 children: [
                     '/zh/documentation/openscap-guide',
@@ -143,7 +143,7 @@ export const sidebar = [
         ]
     },
     {
-        title: 'Installation',
+        title: '安装',
         children: [
             '/zh/documentation/installation-guide',
             '/zh/documentation/after-installation-guide',
@@ -154,11 +154,11 @@ export const sidebar = [
             },
             '/zh/documentation/raspberry-pi',
             {
-                title: 'Cloud Images',
+                title: '云镜像',
                 path: '/zh/cloud',
                 children: [
                     {
-                        title: 'Generic Cloud (Cloud-init)',
+                        title: '通用云 （Cloud-init）',
                         path: '/zh/cloud',
                         children: [
                             '/zh/cloud/Generic-cloud',
@@ -166,7 +166,7 @@ export const sidebar = [
                         ]
                     },
                     {
-                        title: 'AWS',
+                        title: '亚马逊云',
                         path: '/zh/cloud',
                         children: [
                             '/zh/cloud/AWS',
@@ -180,14 +180,14 @@ export const sidebar = [
                 ]
             },
             {
-                title: 'Containers',
+                title: '容器',
                 path: '/zh/containers',
                 children: [
                     '/zh/containers/docker-images'
                 ]
             },
             {
-                title: 'Repositories',
+                title: '存储库',
                 path: '/zh/repos/',
                 children: [
                     '/zh/repos/AlmaLinux',
@@ -199,12 +199,12 @@ export const sidebar = [
         ]
     },
     {
-        title: 'Migration',
+        title: '迁移',
         path: '/zh/migration',
         children: [
             '/zh/documentation/migration-guide',
             {
-                title: 'ELevate Project',
+                title: 'ELevate 项目',
                 path: '/zh/elevate/',
                 children: [
                     '/zh/elevate/ELevate-quickstart-guide',
@@ -220,7 +220,7 @@ export const sidebar = [
         ]
     },
     {
-        title: 'The Foundation',
+        title: '基金会',
         children: [
             '/zh/Transparency',
             '/zh/Election2022',
