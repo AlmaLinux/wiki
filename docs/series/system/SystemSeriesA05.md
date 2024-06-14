@@ -7,39 +7,39 @@
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
 
-# Add EPEL:
+## Add EPEL:
 
 ```Bash
 sudo dnf -y install epel-release
 sudo dnf makecache
 ```
 
-# Enable CRB:
+## Enable CRB:
 ```Bash
 sudo dnf config-manager --set-enabled crb
 ```
 
-# Add RPMFusion:
+## Add RPMFusion:
 Starting from step 2, follow [Installing EPEL and RPM Fusion](/documentation/epel-and-rpmfusion/).
 
-# Install multimedia codecs:
+## Install multimedia codecs:
 
 ```bash
 sudo dnf -y group install multimedia
 sudo dnf -y install ffmpeg ffmpeg-libs ffmpeg-devel mpv
 ```
 
-# Extra Audio packages
+## Extra Audio packages
 ```bash
 sudo dnf -y group install sound-and-video
 ```
 
-# Play a DVD
+## Play a DVD
 ```Bash
 sudo dnf -y install libdvdcss
 ```
 
-# Install mediaplayers like VLC, MPV or Celluloid from RPMFusion
+## Install mediaplayers like VLC, MPV or Celluloid from RPMFusion
 ```bash
 sudo dnf install vlc
 sudo dnf install mpv
