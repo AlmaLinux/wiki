@@ -36,8 +36,7 @@ module.exports = {
          path: '/release-notes/',
          children: [
            '/release-notes/9.4',
-           '/release-notes/8.9',
-           '/release-notes/8.10-beta',
+           '/release-notes/8.10',
             {
             title: "Older AlmaLinux 9 releases",
   			  children: [
@@ -48,7 +47,7 @@ module.exports = {
 	            {
 	            title: "AlmaLinux 9 betas",
 	  			  children: [
-                   '/release-notes/9.4-beta',
+                  '/release-notes/9.4-beta',
 				  '/release-notes/9.3-beta',
 				  '/release-notes/9.2-beta',
 				  '/release-notes/9.1-beta',
@@ -60,6 +59,7 @@ module.exports = {
             {
             title: "Older AlmaLinux 8 releases",
   			  children: [
+              '/release-notes/8.9',
               '/release-notes/8.8',
               '/release-notes/8.7',
               '/release-notes/8.6',
@@ -71,6 +71,7 @@ module.exports = {
 	            {
 	            title: "AlmaLinux 8 betas",
 	  			  children: [
+                   '/release-notes/8.10-beta',
                    '/release-notes/8.9-beta',
                    '/release-notes/8.8-beta',
                    '/release-notes/8.7-beta',
