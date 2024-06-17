@@ -139,6 +139,10 @@ module.exports = {
         title: 'Documentation',
         children: [
             '/Comparison',
+            {
+                title: 'Installing EPEL and RPM Fusion',
+                path: '/documentation/epel-and-rpmfusion',
+            },
             '/FAQ',
             '/Howto',
             {
