@@ -46,4 +46,4 @@ dnf config-manager --set-enabled crb
 
 | Repository | How to Enable |
 | --- | --- |
-| ELRepo | See _[Installing EPEL and RPM Fusion](../documentation/epel-and-rpmfusion.md)_ |
+| ELRepo | See _[Installing EPEL and RPM Fusion](/documentation/epel-and-rpmfusion)_ |
