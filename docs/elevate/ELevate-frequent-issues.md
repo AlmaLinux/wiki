@@ -68,6 +68,13 @@ systemctl restart sssd
 
 When upgrading a CentOS 7 machine to an EL8 derivative, after completing the `leapp upgrade` step the process can fail during reboot showing an initramfs error. This is possible due to the removed drivers support in EL8 that were supported in EL7. 
 
+:::warning
+These steps are helpful at migrating to AlmaLinux OS version **8.8** or a lower version if necessary. Once the migration is complete, you can upgrade your AlmaLinux system to the latest version **8.10** by running the following command:"
+  ```
+  dnf update
+  ```
+:::
+
 To resolve this issue, please, follow the steps below: 
 * Find out what module is missing. 
 * Check if it's possible to use such a package from [elrepo.org](https://elrepo.org/wiki/doku.php?id=deviceids). In order not to get any dependency errors, we recommend looking for a package for EL version **8.8**. 
