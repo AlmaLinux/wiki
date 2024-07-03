@@ -58,6 +58,7 @@ module.exports = {
 			        ]
 			     },
                 '/sigs/Migration',
+                '/sigs/Certification',
                 '/sigs/ProcessForCreatingNewSIG'
               ]
            },
