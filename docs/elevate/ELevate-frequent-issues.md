@@ -43,8 +43,15 @@ dracut -f --regenerate-all
 
 ## Leapp upgrade error "More space needed on the / filesystem"
 
-If the `leapp upgrade` step fails with the "More space needed on the / filesystem" error, it is necessary to expand the `/var` partition. 
-For this purpose, we kindly ask you to search for a [suitable guide](https://docs.icdc.io/en/compute/faq/extenddisk/).
+If the `leapp upgrade` step fails with the "More space needed on the / filesystem" error, ther could be two separate problems:
+ 1. Not enough free space, it is necessary to expand the `/var` partition:
+    * For this purpose, we kindly ask you to search for a [suitable guide](https://docs.icdc.io/en/compute/faq/extenddisk/).
+ 2. For partition that uses XFS, instruct `leapp` to use bigger overlay file by setting environment variable before running `leapp` command (default is 2048 MB):
+```
+export LEAPP_OVL_SIZE=4096
+sudo leapp preupgrade
+sudo leapp preupgrade
+```
 
 ## sssd fails after migration
 
