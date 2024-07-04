@@ -6,7 +6,7 @@ title: 'Changelog'
 
 ## Amazon Web Services AMIs 
 
-### AlmaLinux OS versions 9.3.20240303 and 8.9.20240303:\
+### AlmaLinux OS versions 9.3.20240303 and 8.9.20240303:
 
 * AlmaLinux Amazon Images were switched from Instance Metadata Service Version 1 (IMDSv1) to Instance Metadata Service Version 2 (IMDSv2).
   The IMDSv2 is beneficial in multiple use cases such as:
