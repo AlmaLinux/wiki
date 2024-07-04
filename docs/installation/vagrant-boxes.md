@@ -2,7 +2,7 @@
 title: 'Vagrant Boxes'
 ---
 
-###### last updated: 2024-07-02
+###### last updated: 2024-07-04
 
 # Vagrant Boxes
 
@@ -13,15 +13,9 @@ The following [AlmaLinux OS 9](https://app.vagrantup.com/almalinux/boxes/9) and 
 | --- | --- | --- |
 | Libvirt | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
 | Virtual Box | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
-| Hyper-V | Intel/AMD (x86_64) | - |
-| VMWare | Intel/AMD (x86_64)<br>ARM64 (Aarch64) | Intel/AMD (x86_64) |
-| Parallels | ARM64 (Aarch64) | - | 
-
-## Changelog
-
-### AlmaLinux OS  version **8.10.20240604**
-
-AlmaLinux OS image for Hyper-V has now hybrid - BIOS and UEFI - boot support as well as compatibility with Generation 1 and 2 virtual machines within a single image.
+| Hyper-V | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
+| VMWare | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
+| Parallels | ARM64 (AArch64) | - | 
 
 ## Contribute and Get Help
 
