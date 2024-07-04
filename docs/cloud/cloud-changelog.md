@@ -40,7 +40,7 @@ AlmaLinux Generic Cloud images have now unified - BIOS and UEFI - boot support. 
 
 ## OpenNebula
 
-### AlmaLinux OS version **8.10-20240530** (x86_64)
+### AlmaLinux OS version **8.10-20240530** 
 
 **Impacted architecture: x86_64** 
 
