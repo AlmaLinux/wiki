@@ -19,6 +19,7 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 
 ## Activities, projects, and deliverables
 
+* [Infrastructure Ansible Playbook](https://github.com/almalinux/infra-ansible)
 * Mirror infrastructure: [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors)
 * Official mirrors:
   * Official rsync mirror: https://rsync.repo.almalinux.org
@@ -27,9 +28,11 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 [West US](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/westus2.azure.repo.almalinux.org.yml),
 [Southeast Asia](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/southeastasia.azure.repo.almalinux.org.yml),
 [Germany West/Central](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/germanywestcentral.azure.repo.almalinux.org.yml)
-  * Other mirrors: [Germany](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
+  * [AWS CloudFront Mirror](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/aws.repo.almalinux.org.yml)
+  * [repo.almalinux.org](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
+* [AlmaLinux Account Services](https://accounts.almalinux.org)
 * [Mattermost Chat](https://chat.almalinux.org)
-* [Mailing Lists](https://lists.almalinust.org)
+* [Mailing Lists](https://lists.almalinux.org)
 * Infrastructure Monitoring System (Zabbix)
 * DNS
 * Servers/basic infrastructure for all other services including but not limited to:
@@ -42,7 +45,7 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 
 ### Help wanted
 
-* Building Ansible playbooks for maintaining internal infrastructure.
+* Building Ansible playbooks for maintaining internal infrastructure: https://github.com/almalinux/infra-ansible
 * much, much more.
 
 If you would like to help, please join us at [Infrastructure channel](https://chat.almalinux.org/almalinux/channels/infrastructure) 
@@ -55,9 +58,6 @@ If you would like to help, please join us at [Infrastructure channel](https://ch
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Lead Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
-  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
-  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
