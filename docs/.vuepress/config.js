@@ -202,10 +202,12 @@ module.exports = {
             path: '/LiveMedia',
           },
           '/documentation/raspberry-pi',
+          '/installation/vagrant-boxes',
           {
             title: 'Cloud Images',
             path : '/cloud',
             children: [
+              '/cloud/cloud-changelog',
               {
                 title: 'Generic Cloud (Cloud-init)',
                 path: '/cloud',
