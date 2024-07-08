@@ -2,18 +2,18 @@
 title: "ELevate Quickstart Guide"
 ---
 
-###### last updated: 2024-04-18
+###### last updated: 2024-07-08
 
 # ELevate Quickstart Guide
 
 ::: warning
-Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
+Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that the upgrade worked as expected before you attempt to upgrade any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
 This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
 
 :::tip 
-Please note that the ELevate project is designed to perform one-step migrations. If you wish to perform a two-steps migration from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
+Please note that the ELevate project is designed to perform one-step upgrades. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
 :::
 
 The ELevate supports a number of 3rd party repositories for all supported systems:
@@ -24,28 +24,27 @@ The ELevate supports a number of 3rd party repositories for all supported system
 * nginx
 * PostgreSQL
 
-Currently, the following migration directions are available:
+Currently, the following upgrade paths are available:
 
 ![image](/images/ELevate.svg)
 
-\* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
-\** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
+\* - upgrade to CentOS Stream 9 is currently in process and will be available later. <br>
+\** - upgrade to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
 **Requirements:** You need CentOS 7, AlmaLinux 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
 
-* Fully updated system is required to accomplish the upgrade. So, install the latest updates first, and reboot.
-```
-sudo yum update -y
-sudo reboot
-```
+* A fully updated system is required to accomplish the upgrade. So, install the latest updates first, and reboot.
+   ```
+   sudo yum update -y
+   sudo reboot
+   ```
 
 * Install `elevate-release` package with the project repo and GPG key.
 ```
 sudo yum install -y http://repo.almalinux.org/elevate/elevate-release-latest-el$(rpm --eval %rhel).noarch.rpm
 ```
 
-
-* Install leapp packages and migration data for the OS you want to upgrade. Possible options are:
+* Install leapp packages and upgrade data for the OS you want to upgrade. Possible options are:
     * leapp-data-almalinux
     * leapp-data-centos
     * leapp-data-eurolinux
@@ -58,7 +57,7 @@ sudo yum install -y leapp-upgrade leapp-data-almalinux
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
 :::warning
-Preupgrade check will fail as the default install doesn't meet all requirements for migration.
+Preupgrade check will fail as the default install doesn't meet all requirements for upgrade.
 :::
 
 ```
@@ -94,19 +93,19 @@ sudo reboot
 * A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
    See how the update process goes in the console.
 
-* After reboot, login to the system and check how the migration went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
+* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
 ```
 cat /etc/redhat-release
 cat /etc/os-release
-rpm -qa | grep el7 # for 7 to 8 migration
-rpm -qa | grep el8 # for 8 to 9 migration
+rpm -qa | grep el7 # for 7 to 8 upgrade
+rpm -qa | grep el8 # for 8 to 9 upgrade
 cat /var/log/leapp/leapp-report.txt
 cat /var/log/leapp/leapp-upgrade.log
 ```
 
 ### Demo Video
 
-Check Demo of a CentOS 7.x to AlmaLinux 8.x migration using the software and data provided by the AlmaLinux ELevate Project. 
+Here we have provided a demo of a CentOS 7.x to AlmaLinux 8.x upgrade using the AlmaLinux ELevate Project. 
 
 <iframe width="856" height="482" src="https://www.youtube.com/embed/Vzl9QxG5mvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
