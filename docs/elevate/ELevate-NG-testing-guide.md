@@ -29,8 +29,10 @@ Currently, the following upgrade paths are available:
 ## Upgrade CentOS 7 to AlmaLinux 8
 
 * Update the system to get the latest updates and reboot your machine.
-   ```
-   sudo yum update -y
+   **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
+   ```bash
+   curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
+   yum upgrade -y
    sudo reboot
    ```
 
