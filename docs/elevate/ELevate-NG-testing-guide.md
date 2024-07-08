@@ -15,7 +15,7 @@ Please note that the Leapp tool is designed to perform one-step migrations. If y
 :::
 
 The ELevate NG supports a number of 3rd party repositories:
-* EPEL - for migrations from AlmaLinux 8 to AlmaLinux 9
+* EPEL support is currently available for the migrations to AlmaLinux OS only.
 * Imunify - for migrations to EL 8
 * KernelCare - for migrations to EL 8
 * MariaDB - for all supported operating systems 
@@ -40,7 +40,7 @@ Currently, the following migration directions are available:
 
 * Install ELevate version 0.19.0 repo config for CentOS7, and import ELevate GPG key:
    ```
-   sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
+   sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
    sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
    ```
 
