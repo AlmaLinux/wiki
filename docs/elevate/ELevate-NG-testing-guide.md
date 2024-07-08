@@ -2,17 +2,33 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2024-04-18
+###### last updated: 2024-07-08
+
+# ELevate NG Testing Guide (Leapp version 0.19.0) 
 
 ::: warning
 Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
-# ELevate NG Testing Guide (Leapp version 0.19.0) 
+:::tip 
+Please note that the Leapp tool is designed to perform one-step migrations. If you wish to perform a two-steps migration from CentOS 7, you need to split the process. Please check the [ELevating CentOS 7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
+:::
 
-As the Leapp tool is designed to perform one-step migrations, in order to migrate your CentOS 7 machine to AlmaLinux 9 you need to split the migration process:
-* CentOS 7 to AlmaLinux 8
-* AlmaLinux 8 to AlmaLinux 9
+The ELevate NG supports a number of 3rd party repositories:
+* EPEL - for migrations from AlmaLinux 8 to AlmaLinux 9
+* Imunify - for migrations to EL 8
+* KernelCare - for migrations to EL 8
+* MariaDB - for all supported operating systems 
+* nginx - for all supported operating systems 
+* PostgreSQL - for all supported operating systems 
+
+Currently, the following migration directions are available:
+
+![image](/images/ELevateNG.svg)
+
+\* - migration from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
+\** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
+
 
 ## Migrate CentOS 7 to AlmaLinux 8
 
@@ -24,7 +40,7 @@ As the Leapp tool is designed to perform one-step migrations, in order to migrat
 
 * Install ELevate version 0.19.0 repo config for CentOS7, and import ELevate GPG key:
    ```
-   sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
+   sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
    sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
    ```
 
@@ -205,7 +221,24 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
   sudo cat /var/log/leapp/leapp-report.txt
   sudo cat /var/log/leapp/leapp-upgrade.log
   ```
+  
+## Demo Video
+
+Check Demo of a CentOS 7.x to AlmaLinux 8.x migration using the software and data provided by the AlmaLinux ELevate Project. 
+
+<iframe width="856" height="482" src="https://www.youtube.com/embed/Vzl9QxG5mvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Known Issues
+
+### Migrating from Scientific Linux 7
+
+Migration from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can apply it by running the following command before the preupgrade check: 
+
+  ```
+  rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
+  ```
 
 ## Get Help 
 
-For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+Report your feedback to [AlmaLinux ~Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from previous OS versions. This information will allow us to improve ELevate's configuration files.
+
