@@ -7,30 +7,32 @@ title: "ELevate NG Testing Guide"
 # ELevate NG Testing Guide (Leapp version 0.19.0) 
 
 ::: warning
-Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify that migration worked as expected before you attempt to migrate any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
+Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify the upgrade worked as expected before you attempt to upgrade any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
 The ELevate NG supports a number of 3rd party repositories:
-* EPEL support is currently available for the migrations to AlmaLinux OS only.
-* Imunify - for migrations to EL 8
-* KernelCare - for migrations to EL 8
+* EPEL support is currently available for upgrades to AlmaLinux OS only.
 * MariaDB - for all supported operating systems 
 * nginx - for all supported operating systems 
 * PostgreSQL - for all supported operating systems 
+* Imunify - for upgrades to EL 8
+* KernelCare - for upgrades to EL 8
 
-Currently, the following migration directions are available:
+Currently, the following upgrade paths are available:
 
 ![image](/images/ELevateNG.svg)
 
-\* - migration from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
-\** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
+\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
+\** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
 
-## Migrate CentOS 7 to AlmaLinux 8
+## Upgrade CentOS 7 to AlmaLinux 8
 
 * Update the system to get the latest updates and reboot your machine.
-   ```
-   sudo yum update -y
+   **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
+   ```bash
+   sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
+   sudo yum upgrade -y
    sudo reboot
    ```
 
@@ -40,7 +42,7 @@ Currently, the following migration directions are available:
    sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
    ```
 
-* Install leapp packages and migration data for AlmaLinux:  
+* Install leapp packages and upgrade data for AlmaLinux:  
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```
@@ -48,7 +50,7 @@ Currently, the following migration directions are available:
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
    :::warning
-   Preupgrade check will fail as the default install doesn't meet all requirements for migration.
+   Preupgrade check will fail as the default install doesn't meet all requirements for the upgrade.
    :::
 
    ```
@@ -77,9 +79,9 @@ Currently, the following migration directions are available:
    ```
 
 * A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
-   See how the update process goes in the console.
+   See how the upgrade process goes in the console.
 
-* After reboot, login to the system and check how the migration went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
+* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or upgrading them manually.
   ```
   cat /etc/redhat-release
   cat /etc/os-release
@@ -88,9 +90,9 @@ Currently, the following migration directions are available:
   sudo cat /var/log/leapp/leapp-upgrade.log
   ```
 
-## Prepare the system for migration to AlmaLinux 9
+## Prepare the system for upgrade to AlmaLinux 9
 
-When successfully migrated to AlmaLinux 8 OS, consider performing these steps to prepare your system for migration to AlmaLinux 9:
+When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to prepare your system for upgrading to AlmaLinux 9:
 
 * Navigate to the **/etc/** directory and use an editor of your choice to edit the **yum.conf** file. You need to remove everything from the **exclude** line especially that refers to elevate or leapp. 
    
@@ -119,7 +121,7 @@ When successfully migrated to AlmaLinux 8 OS, consider performing these steps to
     leapp-data-almalinux-0.2-6.el7.noarch
     leapp-0.16.0-2.el7.noarch
    ```
-   As mentioned above, consider removing these packages or upgrading them manually to proceed with migration to AlmaLinux 9.
+   As mentioned above, consider removing these packages or upgrading them manually to proceed with the upgrade to AlmaLinux 9.
   
    :::tip
    If you face difficulties while removing the packages, the following command might help you:
@@ -128,7 +130,7 @@ When successfully migrated to AlmaLinux 8 OS, consider performing these steps to
    ``` 
    :::
    
-* You can also check for the packages left from the migration process and remove them: 
+* You can also check for the packages left from the upgrade process and remove them: 
    ```   
    rpm -qa | grep elevate
    rpm -qa | grep leapp
@@ -151,16 +153,16 @@ When successfully migrated to AlmaLinux 8 OS, consider performing these steps to
    ```
    sudo rpm -e [keyname]
    ```   
-After these preparations are completed, you can migrate your AlmaLinux 8 machine to AlmaLinux 9. 
+After these preparations are completed, you can upgrade your AlmaLinux 8 machine to AlmaLinux 9. 
 
-## Migrating AlmaLinux 8 to AlmaLinux 9
+## Upgrading AlmaLinux 8 to AlmaLinux 9
 
 * Install ELevate version 0.19.0 repo config for AlmaLinux8:
    ```
    sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
    ```
 
-* Install leapp packages and migration data for AlmaLinux:  
+* Install leapp packages and upgrade data for AlmaLinux:  
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```
@@ -168,7 +170,7 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
    :::warning
-   Preupgrade check will fail as the default install doesn't meet all requirements for migration.
+   Preupgrade check will fail as the default install doesn't meet all requirements for the upgrade.
    :::
 
    ```
@@ -187,7 +189,7 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
    sudo leapp answer --section check_vdo.confirm=True
    ```
    
-  You might also find the following issue in the **leapp-report** file that can interfere with the migration. Consider removing the file:
+  You might also find the following issue in the **leapp-report** file that can interfere with the upgrade. Consider removing the file:
    ```bash   
     Network configuration for unsupported device types detected
     Summary: RHEL 9 does not support the legacy network-scripts package that was deprecated in RHEL 8 in favor of NetworkManager. Files for device types that are not supported by NetworkManager are present in the system. Files with the problematic configuration:
@@ -207,9 +209,9 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
    :::
    
 * A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
-   See how the update process goes in the console.
+   See how the upgrade process goes in the console.
 
-* After reboot, login to the system and check how the migration went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
+* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or upgrade them manually.
   ```
   cat /etc/redhat-release
   cat /etc/os-release
@@ -220,15 +222,15 @@ After these preparations are completed, you can migrate your AlmaLinux 8 machine
   
 ## Demo Video
 
-Check Demo of a CentOS 7.x to AlmaLinux 8.x migration using the software and data provided by the AlmaLinux ELevate Project. 
+Here we have provided a demo of a CentOS 7.x to AlmaLinux 8.x upgrade using the AlmaLinux ELevate Project. 
 
 <iframe width="856" height="482" src="https://www.youtube.com/embed/Vzl9QxG5mvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Known Issues
 
-### Migrating from Scientific Linux 7
+### Upgrading from Scientific Linux 7
 
-Migration from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can apply it by running the following command before the preupgrade check: 
+Upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can apply it by running the following command before the preupgrade check: 
 
   ```
   rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
