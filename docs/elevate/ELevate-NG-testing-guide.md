@@ -79,9 +79,9 @@ Currently, the following upgrade paths are available:
    ```
 
 * A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
-   See how the update process goes in the console.
+   See how the upgrade process goes in the console.
 
-* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
+* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or upgrading them manually.
   ```
   cat /etc/redhat-release
   cat /etc/os-release
@@ -121,7 +121,7 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
     leapp-data-almalinux-0.2-6.el7.noarch
     leapp-0.16.0-2.el7.noarch
    ```
-   As mentioned above, consider removing these packages or upgrading them manually to proceed with the update to AlmaLinux 9.
+   As mentioned above, consider removing these packages or upgrading them manually to proceed with the upgrade to AlmaLinux 9.
   
    :::tip
    If you face difficulties while removing the packages, the following command might help you:
@@ -209,9 +209,9 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
    :::
    
 * A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
-   See how the update process goes in the console.
+   See how the upgrade process goes in the console.
 
-* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
+* After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or upgrade them manually.
   ```
   cat /etc/redhat-release
   cat /etc/os-release
