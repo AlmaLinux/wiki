@@ -40,8 +40,8 @@ Currently, the following upgrade paths are available:
    ```
    **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
    ```bash
-   curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
-   yum upgrade -y
+   sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
+   sudo yum upgrade -y
    sudo reboot
    ```
 
