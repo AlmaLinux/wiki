@@ -13,7 +13,7 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
 
 :::tip 
-Please note that the ELevate project is designed to perform one-step upgrades. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
+Please note, the ELevate project is designed to perform one-step upgrades. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
 :::
 
 The ELevate supports a number of 3rd party repositories for all supported systems:
