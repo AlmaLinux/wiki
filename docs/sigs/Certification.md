@@ -1,7 +1,7 @@
 ---
 title: "Certification SIG"
 ---
-# name of SIG
+# Certification SIG
 
 Create and maintain standards and procedures related to hardware and software certification for AlmaLinux.
 
