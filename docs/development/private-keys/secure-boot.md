@@ -32,7 +32,8 @@ Copy the ISO file to a flash drive.
 Boot the image.  Connect to the internet temporarily to run a single command:
 
 ```bash
-sudo dnf install pesign
+sudo dnf -y install epel-release words
+sudo dnf -y install pesign yubikey-manager yubico-piv-tool
 ```
 
 #### Download GPG Public Keys of Recipients
@@ -92,6 +93,43 @@ curl <key> | gpg --import
     -   **almalinux-secureboot-ca.cer** file is the CA public key we should include into shim. It also should be imported to signing node to perform actual binaries signing.
     -   **almalinux-secureboot.cer** is Signing public key that may be recommended to include into some RPM packages (but not necessary)
 
+### Configure Yubikey PIV
+
+```bash
+# does the system see the key
+ykman piv info
+```
+
+Generate PIV Pins (only if new yubikey)
+```bash
+PIVPIN=$(awk '/^\w{6,8}$/' /usr/share/dict/words | shuf -n1)
+PIVPUK=$(openssl rand -base64 10 | tr -d +/= | cut -c 1-8)
+echo "PIV PIN: $PIVPIN; PIV PUK: $PIVPUK"
+```
+
+**Make sure to securely store the PIN and PUK.  They are specific to the PIV component of the Yubikey.**
+
+Increase PIN/PUK retry limit (only if new yubikey)
+```bash
+ykman piv access set-retries 9 9 --pin 123456 --force
+```
+
+Set our new pins (only if new yubikey)
+```bash
+ykman piv access change-pin --pin 123456 --new-pin $PIVPIN
+ykman piv access change-puk --puk 12345678 --new-puk $PIVPUK
+```
+
+Set a non-default management key (only if new yubikey)
+```bash
+ykman piv access change-management-key --algorithm aes128 --protect --pin $PIVPIN
+```
+
+Import keys to Yubikey PIV slots (pay attention to slot number, 82 in this example, if not a new yubikey)
+```bash
+ykman piv keys import --pin-policy always --touch-policy never --pin $PIVPIN 82 almalinux-secureboot-signing.p12
+```
+
 ### Copy Keys and Certificates
 
 DO NOT DO NOT DO NOT connect to the internet to copy the files.
@@ -130,5 +168,8 @@ https://github.com/rhboot/shim-review/issues/407
 
 
 ## Changelog
+### 2024-07-03
+Add Yubikey PIV programming instructions
+
 ### 2024-03-13
 Initial ratification
