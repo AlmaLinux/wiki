@@ -131,7 +131,8 @@ module.exports = {
           {
             title: "Private Keys",
 			children: [
-             '/development/private-keys/secure-boot'
+             '/development/private-keys/secure-boot',
+             '/development/private-keys/package-signing'
             ]
           },
         ]
