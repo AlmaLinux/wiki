@@ -26,9 +26,9 @@ The process consists of two steps:
 Please, check the **Details** below for guidance on how to enable the CentOS Vault repositories.
   :::details
   To migrate your CentOS 6 machine, you need working CentOS 6 repositories. Run the below command replace your CentOS-base repo file with a known-good CentOS 6.10 Vault repository configuration:
-```sh
-    curl https://repo.almalinux.org/elevate/el6/centos6-vault.repo -o /etc/yum.repos.d/CentOS-Base.repo
-```
+  ```sh
+  curl https://repo.almalinux.org/elevate/el6/centos6-vault.repo -o /etc/yum.repos.d/CentOS-Base.repo
+  ```
    :::
 
 ## Upgrade CentOS 6.10 to CentOS 7.2.1511
@@ -126,24 +126,16 @@ Please, check the **Details** below for guidance on how to enable the CentOS Vau
   ```sh
   yum remove elevate-release
   ```
+* The *CentOS-Base.repo* file contains CentOS 6 Vault repositories. It wasn't updated during the upgrade process to CenOS 7.2.1511 contain CentOS 7 repositories. Instead, the new *CentOS-Base.repo.rpmnew* file was created which you need to remove:
+  ```sh
+  rm /etc/yum.repos.d/CentOS-Base.repo.rpmnew
+  ```
   
 ## Upgrade CenOS 7.2.1511 to CentOS 7.9.2009
 
-* Because the *CentOS-Base.repo* file was customized earlier to contain CentOS Vault repositories, it wasn't updated during the upgrade process to contain CentOS 7 repositories. Instead, the new *CentOS-Base.repo.rpmnew* file would have been created. 
-  You can confirm that with these commands:
+* CentOS 7 reached its End-Of-Life meaning the repositories are now offline. To be able to update your CentOS 7.2.1511 machine to CentOS 7.9.2009 you need to update *CentOS-Base.repo* file with the CentOS 7 Vault or you can use our CentOS 7 mirror that we've setup for use with ELevate:
   ```sh
-  ls -la /etc/yum.repos.d/CentOS-Base.repo.rpmnew
-  ```
-  ```sh
-  rpm -qV centos-release
-  ```  
-  ###### Expected output:
-  ```sh
-  S.5....T.  c /etc/yum.repos.d/CentOS-Base.repo
-  ```
-* Run the following command to replace the outdated *.repo* file with the new one:
-  ```sh
-  mv /etc/yum.repos.d/CentOS-Base.repo.rpmnew /etc/yum.repos.d/CentOS-Base.repo
+  curl http://el7.repo.almalinux.org/centos/CentOS-Base.repo -o /etc/yum.repos.d/CentOS-Base.repo
   ```
 
 * Run the `yum` command to update your CentOS 7.2.1511 machine to the most recent version 7.9: 
