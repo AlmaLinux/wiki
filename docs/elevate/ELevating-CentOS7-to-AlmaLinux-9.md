@@ -208,6 +208,11 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
    cat /var/log/leapp/leapp-upgrade.log
    ```
 
+* There will be outstanding **nss_db** package which should be removed and the system should be updated:
+   ```
+   dnf update --allowerasing
+   ```
+
 ## Get Help 
 
 For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
