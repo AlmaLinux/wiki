@@ -27,7 +27,7 @@
     <li><b>Container Images</b>:
      <ul>
        <li><a href="https://hub.docker.com/_/almalinux">hub.docker.com/_/almalinux</a> - AlmaLinux official images on Docker Hub</li>
-      <li><a href="https://quay.io/repository/almalinux/almalinux">quay.io/repository/almalinux/almalinux</a> - AlmaLinux official images on Quay.io</li>
+      <li><a href="https://quay.io/repository/almalinuxorg/almalinux">quay.io/repository/almalinuxorg/almalinux</a> - AlmaLinux official images on Quay.io</li>
      </ul>
     </li>
     <li>Vagrant Boxes:

@@ -2,7 +2,7 @@
 title: ELevate Frequent Issues
 ---
 
-###### last updated: 2023-03-27
+###### last updated: 2024-07-08
 
 # ELevate Frequent Issues
 
@@ -10,7 +10,7 @@ These are the ELevate project issues the AlmaLinux team and community are curren
 
 ## Leapp upgrade error caused by important modules from kernel drivers
 
-Proceeding with migration, you can get the "Detected loaded kernel drivers, which have been removed" error. 
+Proceeding with the upgrade, you can get the "Detected loaded kernel drivers, which have been removed" error. 
 
 The issue can be caused by the mentioned modules: 
 * mptbase
@@ -46,9 +46,9 @@ dracut -f --regenerate-all
 If the `leapp upgrade` step fails with the "More space needed on the / filesystem" error, it is necessary to expand the `/var` partition. 
 For this purpose, we kindly ask you to search for a [suitable guide](https://docs.icdc.io/en/compute/faq/extenddisk/).
 
-## sssd fails after migration
+## sssd fails after upgrade
 
-After migration, there may be problems with sssd.
+After upgrading, there may be problems with sssd.
 
 Follow these steps to resolve the issue:
 
@@ -66,12 +66,19 @@ systemctl restart sssd
 
 ## ELevate fails due to initramfs missing a module
 
-When upgrading a CentOS 7 machine to an EL8 derivative, after completing the `leapp upgrade` step the process can fail during reboot showing an initramfs error. This is possible due to the removed drivers support in EL8 that were supported in EL7. 
+When upgrading a CentOS 7 machine to an EL8 derivative, after completing the `leapp upgrade` step the process can fail during reboot showing an initramfs error. This is possible due to the lack of support for certain drives in EL8 that were supported in EL7. 
+
+:::warning
+These steps are helpful at upgrading to AlmaLinux OS version **8.8** or a lower version if necessary. Once the upgrade is complete, you can upgrade your AlmaLinux system to the latest version **8.10** by running the following command:"
+  ```
+  dnf update
+  ```
+:::
 
 To resolve this issue, please, follow the steps below: 
 * Find out what module is missing. 
 * Check if it's possible to use such a package from [elrepo.org](https://elrepo.org/wiki/doku.php?id=deviceids). In order not to get any dependency errors, we recommend looking for a package for EL version **8.8**. 
-* For the same reason, we recommend migrating your CentOS 7 machine to AlmaLinux OS version **8.8**. To do so, you need to navigate to the */etc/leapp/files/* directory and edit the **leapp_upgrade_repositories.repo** to lower the AlmaLinux version in `baseurl/mirror` to 8.8.
+* For the same reason, we recommend upgrading your CentOS 7 machine to AlmaLinux OS version **8.8**. To do so, you need to navigate to the */etc/leapp/files/* directory and edit the **leapp_upgrade_repositories.repo** to lower the AlmaLinux version in `baseurl/mirror` to 8.8.
 * If the package is present in ELRepo, modify the leapp code to add a needed driver to ELevate initramfs. 
     * Navigate to the */etc/leapp/files/* directory and add the ELRepo repository to the **leapp_upgrade_repositories.repo** file:
        ```

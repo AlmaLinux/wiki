@@ -10,6 +10,9 @@ title: 'Docker Images'
 
 AlmaLinux Docker Images is a great way to build your container image based on AlmaLinux OS. AlmaLinux Docker Images offer users such benefits as high reliability, security, and performance. It is possible to build a cloud and web application that is developed in containers and share it with whom you want or where you want to collaborate after pushing it to the registry server with any of the images. 
 
+:::warning
+Please, when accessing AlmaLinux Container images at [Quay.io](https://quay.io/repository/almalinuxorg/almalinux), make sure you are using the correct link: **https://quay.io/repository/almalinuxorg/almalinux**.
+:::
 ## AlmaLinux Docker Images Variants
 
 AlmaLinux OS project now provides two official images: Default (Platform) and Minimal (Platform), and four fully compatible alternatives for the Red Hat Universal Base Images (UBI): Base, Init, Micro and Minimal.

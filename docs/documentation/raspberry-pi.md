@@ -6,14 +6,27 @@ title: "Raspberry Pi"
 
 ## About Raspberry Pi
 
-[The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux. The AlmaLinux OS releases have been tested on both the RPi3 and RPi4.
+[The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux.
+
+## Tested models
+
+The AlmaLinux OS releases have been tested on the following models.
+
+* Raspberry Pi 5 (supported since June 2024 images)
+* Raspberry Pi 4 Model B
+* Raspberry Pi 400
+* Raspberry Pi 3 Model B+
+* Raspberry Pi 3 Model A+
+
+32-bit Raspberry Pis (ARMv6/ARMv7) and original Raspberry Pi 3 (without "+" models) are not supported. Other ARMv8 Raspberry Pis such as Compute Modules are not tested but will probably work. Let us know if it doesn't work. See also [How to contribute](#how-to-contribute) section.
 
 ## Installation steps
 
 ### Download image
 
 AlmaLinux OS provides standard Raspberry Pi images and images with a GNOME desktop environment.
-Raspberry Pi images can be found on [repo.almalinux.org](https://repo.almalinux.org/rpi/):
+Raspberry Pi images can be found on repo.almalinux.org/rpi/ and [mirrors](https://mirrors.almalinux.org/). It is recommended to get images from your nearest mirror. Dig into `/9/raspberrypi/images/` or `/8/raspberrypi/images/` directory of your nearest mirror.
+
 * [AlmaLinux OS 8](https://repo.almalinux.org/almalinux/8/raspberrypi/images/)
 * [AlmaLinux OS 9](https://repo.almalinux.org/almalinux/9/raspberrypi/images/)
 
@@ -238,7 +251,7 @@ The Raspberry Pi demo video can be found in the [GitHub repository](https://gith
 ## Configuration using cloud-init
 
 AlmaLinux Raspberry Pi image now supports [cloud-init](https://cloudinit.readthedocs.io/en/latest/) to perform early initialization.
-This page describes some typical examples to setup AlmaLinux Raspberry Pi image. See [the cloud-init official documentation](https://cloudinit.readthedocs.io/en/latest/index.html) for further information.
+This section describes some typical examples to setup AlmaLinux Raspberry Pi image. See [the cloud-init official documentation](https://cloudinit.readthedocs.io/en/latest/index.html) for further information.
 
 To configure early initialization, modify `user-data` file in FAT boot volume named `CIDATA` (the same location where `config.txt` exists). Please note that cloud-init usually only works at very first boot so modification on `user-data` file must be done before inserting SD card and power on your Raspberry Pi.
 
@@ -248,7 +261,8 @@ To configure early initialization, modify `user-data` file in FAT boot volume na
 The default user is `almalinux`. Add your SSH public key to enable to login to your Raspberry Pi.
 
 ```diff
-     ssh_authorized_keys:
+-     #ssh_authorized_keys:
++     ssh_authorized_keys:
        # Put here your ssh public keys
        #- ssh-ed25519 AAAAC3Nz...
 +      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQ...
@@ -265,7 +279,7 @@ Specify hashed password like this. Use `mkpasswd -m sha-512` command to generate
      sudo: [ "ALL=(ALL) NOPASSWD:ALL" ]
      lock_passwd: false
 +    passwd: "$6$hjdBm161zuYLfb9.$jkJkq5pQDkFvWPeJhnon9xHIX93SgLTNLsyQcddWJLcQGcM8qHkxDztbwt1DzTP6dmlQ3J.AA6h4JeGaVg.pS1"
-     ssh_authorized_keys:
+     #ssh_authorized_keys:
        # Put here your ssh public keys
        #- ssh-ed25519 AAAAC3Nz...
 ```

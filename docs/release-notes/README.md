@@ -10,7 +10,7 @@ These are AlmaLinux Release Notes listed with Release Version, General Availabil
 
 Version 9 will have active support until 31 May 2027, and security support until 31 May 2032. Release of new 9.x version ends support for the previous version.
 
-| Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
+| Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
 | [9.4](/release-notes/9.4) | Seafoam Ocelot | 15 Apr 2024 | 06 May 2024 | 5.14.0-427.13.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.3](/release-notes/9.3)| Shamrock Pampas Cat | 26 Oct 2023 | 13 Nov 2023 | 5.14.0-362.8.1 | x86_64, aarch64, ppc64le, s390x |
@@ -22,9 +22,9 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 Version 8 will have active support until 31 May 2024, and security support until 31 May 2029. Release of new 8.x version ends support for the previous version.
 
-| Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
+| Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
-| [8.10](/release-notes/8.10-beta) | Cerulean Leopard | 17 Apr 2024 | | 4.18.0-544 | x86_64, aarch64, ppc64le, s390x |
+| [8.10](/release-notes/8.10) | Cerulean Leopard | 17 Apr 2024 | 28 May 2024 | 4.18.0-553 | x86_64, aarch64, ppc64le, s390x |
 | [8.9](/release-notes/8.9) | Midnight Oncilla | 2 Nov 2023 | 21 Nov 2023 | 4.18.0-513.5.1 | x86_64, aarch64, ppc64le, s390x |
 | [8.8](/release-notes/8.8) | Sapphire Caracal | 21 Apr 2023 | 18 May 2023 | 4.18.0-477.10.1 | x86_64, aarch64, ppc64le, s390x |
 | [8.7](/release-notes/8.7) | Stone Smilodon | 25 Oct 2022 | 10 Nov 2022 | 4.18.0-425.3.1 | x86_64, aarch64, ppc64le, s390x |
