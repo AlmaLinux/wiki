@@ -83,7 +83,6 @@ The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stabl
 |AlmaLinux 8.x | 2029 |
 |AlmaLinux 9.x | 2032 |
 
-
 ### How to Report Bugs
 
 #### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
@@ -97,6 +96,24 @@ To make AlmaLinux successful, we need the close involvement of the community mem
 ### How can I request a package be added to AlmaLinux?
 
 Since AlmaLinux attempts to be as close to RHEL as possible, it does not add packages to the distribution unless they are added to RHEL. In general, the best place for additional packages is the [Extra Packages for Enterprise Linux (EPEL)](https://docs.fedoraproject.org/en-US/epel/) repository. Any Fedora package that is not in RHEL can be [requested](https://docs.fedoraproject.org/en-US/epel/epel-package-request/).
+
+### Why does the AlmaLinux codename include cats?
+
+Having codenames for operating systems has a long history and has been adopted widely. While they aren't needed for us specifically, we keep them as part of our distribution both as an homage to our roots, and because the add a bit of levity to our work. Each minor version of AlmaLinux follows a specific pattern. 
+
+* AlmaLinux 8 - blue color + cat name
+* AlmaLinux 9 - green color + cat name
+
+Icelandic people believed that cats can eat you for Christmas dinner.
+
+Many sailors and fishermen think that if a cat falls overboard, a storm will show up and the ship will be capsized.
+
+Every Norwegian Forest Cat is supposedly thought to be either a fairy or a goblin in disguise. 
+
+The AlmaLinux project prefers to ignore such superstitions and goes for the Japanese version of the cat’s soul nature - the [maneki-neko](https://en.wikipedia.org/wiki/Maneki-neko) is an iconic Japanese talisman that, it’s believed, brings good fortune to its owner. One legend explains that a Japanese cat once waved a paw to beckon a lord into a house, which saved him from being struck by lightning a moment later, and so a cat who beckons with her paw is considered a lucky gesture. 
+
+Which is why we have decided to choose color + cat breed for AlmaLinux release naming convention. The first release was named Purple Manul, and the releases since have followed the same pattern. 
+
 
 #### Trademark notices
 
