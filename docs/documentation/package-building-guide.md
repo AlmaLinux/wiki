@@ -1,8 +1,8 @@
 ---
-title: Building Packages Guide
+title: Package Building Guide
 ---
 
-# Building packages for AlmaLinux
+# AlmaLinux Package Building Guide
 
 This guide contains step-by-step instructions on how to build for AlmaLinux packages for different architectures. It also includes some background information about the mock tool, setup instructions, and some examples. These details can be helpful for the building packages for the AlmaLinux project.
 
