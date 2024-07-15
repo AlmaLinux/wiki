@@ -3,65 +3,17 @@
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
+| 📆 | <small>Last modified </small>| 2024-02-02|
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[none](mailto:none@almalinux.org) <br>  ↳ 9.x \| x86_64 \| 2023-05-xx </small>|
 <br>
 
-
 ## 🌟 Introduction
 
-This guide provides instructions how to install NVIDIA's graphics driver for AlmaLinux in to variants:
+This guide provides instructions on how to install NVIDIA's graphics driver for AlmaLinux in two variants:
 
 - **Binary Driver** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
 - **Compiling From Source** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
 - **.run Driver** <small>REQURIES manual installation of dependencies and downloading the driver manually from Nvidia website</small>
-
-## 🧠 Fundamental Concepts
-
-### Dynamic Kernel Module Support (DKMS)
-
-DKMS is a system utility that allows you to automatically build kernel modules.
-
-### ELRepo Kernel
-
-ELRepo is a community repository for Enterprise Linux distributions (e.g., RHEL, CentOS, AlmaLinux). It focuses on hardware-related packages to enhance your Linux experience. This repo provides a kernel (packages) which tracks mainline kernel very closely. In result, this kernel is updated frequently and sometimes it leads to temporary incompatiblity with NVIDIA driver sources.
-
-### NVIDIA Drivers Source
-Install the NVIDIA graphics driver using the DKMS (Dynamic Kernel Module Support). Needs switching the kernel to ELRepo kernel version.
-
-### NVIDIA Precompiled/Binary Drivers
-NVIDIA compiles and tests this driver for each precise kernel version. Installing it locks your kernel upgrade (with driver). It is the recommended way according to NVIDIA.
-
-
-
-
-## 📖 Release-Specific Installation
-
-- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](SystemSeriesA03R8)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](SystemSeriesA03R9)**
-
-
-## FAQ
-
-### Q: Installed the module but getting Black Screen after reboot?
-
-WIP# A03 ❯ NVIDIA Driver Installation Guide
-<small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[none](mailto:none@almalinux.org) <br>  ↳ 9.x \| x86_64 \| 2023-05-xx </small>|
-<br>
-
-
-## 🌟 Introduction
-
-This guide provides instructions how to install NVIDIA's graphics driver for AlmaLinux in to variants:
-
-- **Binary Driver** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
-- **Compiling From Source** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
-- **NVIDIA .run Driver Installation Guide** <small>⚠️ **Note:** This method requires manual installation of dependencies and downloading the driver manually from the Nvidia website.</small>
 
 ## 🧠 Fundamental Concepts
 
@@ -86,15 +38,12 @@ The NVIDIA .run Driver Installation Guide offers an alternative approach to inst
 # Key Points
 
 - **Manual Dependency Installation:** Users are required to install dependencies manually, ensuring compatibility with the system.
-  
 - **Direct Download from Nvidia:** The graphics driver needs to be downloaded manually from the Nvidia website, allowing users to choose specific versions compatible with their GPUs.
-
 - **Flexibility and Control:** This method provides users with greater control over the installation process, enabling customization based on specific needs.
 
 # Considerations
 
 - **Advanced Users:** The .run Driver Installation Guide is suitable for advanced users who are comfortable handling manual installations and configurations.
-
 - **Compatibility Verification:** Users must verify the compatibility of the downloaded driver version with their GPU before proceeding with the installation.
 
 ## 📖 Release-Specific Installation
@@ -107,8 +56,6 @@ The NVIDIA .run Driver Installation Guide offers an alternative approach to inst
 
 ### Q: Installed the module but getting Black Screen after reboot?
 
-WIP
-
 #### If you are able to change `GRUB` kernel boot parameters, do:
 
 ```
@@ -116,10 +63,6 @@ module_blacklist=nvidia,nvidia_drm,nvida_modeset
 ```
 
 #### If you are getting Black Screen right after boot (no GRUB visible), do:
-
-WIP
-
-### Q: `prime-select`
 
 WIP
 
@@ -147,32 +90,4 @@ sudo echo "Categories=System;Settings;X-Red-Hat-Base-Utilities;" | sudo tee -a /
 <u>Related Resources:</u>
 
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md)
-
-
-#### If you are able to change `GRUB` kernel boot parameters, do:
-
-```
-module_blacklist=nvidia,nvidia_drm,nvida_modeset
-```
-
-#### If you are getting Black Screen right after boot (no GRUB visible), do:
-
-WIP
-
-### Q: `prime-select`
-
-WIP
-
-## 📚 Further Reading and Next Steps
-
-    
-<u>In-depth Resources:</u>
-    
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](SystemSeriesA03R8.md)
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](SystemSeriesA03R9.md)
-
-<u>Related Resources:</u>
-
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md) 
