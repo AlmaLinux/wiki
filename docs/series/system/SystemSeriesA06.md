@@ -7,8 +7,7 @@
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
 
-These packages have been needed for multiple software and we're either backported, requested or discovered has alternative for Alma Linux 9 from EL8.
-
+These packages have been needed for multiple software, such has "Thinkbox Deadline" and were either backported, requested, or discovered as alternatives for AlmaLinux 9 for users migrating from enterprise Linux 8.
 
 # Enable CRB:
 ```Bash
