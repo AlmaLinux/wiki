@@ -6,21 +6,21 @@
 | 📆 | <small>Last modified </small>| 2024-02-02
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
-Jounalctl Man page : https://man7.org/linux/man-pages/man1/journalctl.1.html
+Jounalctl Man page: https://man7.org/linux/man-pages/man1/journalctl.1.html
 
 # Check if the journal directory exists:
-```Bash
+```bash
 stat /var/log/journal
 ```
 
 # Create the journal directory if it doesn't exist:
-```Bash
+```bash
 mkdir -p /var/log/journal
 ```
 
 # Configure systemd journal settings:
 **Edit the /etc/systemd/journald.conf file using a text editor like nano or vi. Ensure the following content is set:**
-```Bash
+```bash
 # This file is part of systemd.
 #
 # systemd is free software; you can redistribute it and/or modify it
@@ -28,9 +28,7 @@ mkdir -p /var/log/journal
 # the Free Software Foundation; either version 2.1 of the License, or
 # (at your option) any later version.
 #
-# Entries in this file show the com```Bash
-mkdir -p /var/log/journal
-```pile time defaults.
+# Entries in this file show the compile time defaults.
 # You can change settings by editing this file.
 # Defaults can be restored by simply deleting this file.
 #
@@ -67,15 +65,15 @@ SystemMaxFiles=10
 #LineMax=48K
 ```
 
-**This file can be modified to your preference, please see the Man page for all possible options : https://www.google.com/search?q=journalctl+man&oq=journalctl+man&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIMCAEQABgUGIcCGIAEMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIKCAYQABgPGBYYHjIKCAcQABgPGBYYHjIICAgQABgWGB4yCAgJEAAYFhgeqAIAsAIA&sourceid=chrome&ie=UTF-8**
+**This file can be modified to your preference, please see the Man page for all possible options: https://man7.org/linux/man-pages/man1/journalctl.1.html
 
 # Ensure the systemd-journald service is running:
-```Bash
+```bash
 systemctl start systemd-journald
 ```
 
 # Restart systemd-journald:
-```Bash
+```bash
 systemctl restart systemd-journald
 ```
 
