@@ -81,6 +81,8 @@ sudo dnf install celluloid # Simple GTK+ frontend for mpv
   -N /PATH/TO/SCRIPT        call script after oom kill
   -g                        kill all processes within a process group
   -d                        enable debugging messages
+```
+
 # Install multimedia codecs:
 
 ```bash
@@ -114,7 +116,7 @@ sudo dnf install celluloid # Simple GTK+ frontend for mpv
   --dryrun                  dry run (do not kill any processes)
   -h, --help                this help texthttps://github.com/rfjakob/earlyoom
 ```
-Reference : https://github.com/rfjakob/earlyoom
+Reference: https://github.com/rfjakob/earlyoom
 
 Save the changes and exit the text editor. If you are using nano, you can press Ctrl + X, then press Y to confirm changes, and finally press Enter to exit.
 
