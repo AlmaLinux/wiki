@@ -1,23 +1,23 @@
-# A09 ❯ Chrony Installation Guide
+# A10 ❯ Chrony Installation Guide
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
+| 📆 | <small>Last modified | 2024-02-02</small> |
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
-# Chrony Man page : https://chrony-project.org/doc/3.4/chrony.conf.html
+Chrony Man page: https://chrony-project.org/
 
-# Install Chrony:
-```Bash
+## Install Chrony:
+```bash
 dnf install chrony -y
 ```
 
 # Configure Chrony conf file:
-# Edit the /etc/chrony.conf file using a text editor like nano or vi. Ensure the following content is set:
-```Bash
+## Edit the /etc/chrony.conf file using a text editor like nano or vi. 
+Ensure the following content is set:
+```bash
 # chrony.conf
-
 # Use Google's NTP server
 server time.google.com iburst
 
@@ -45,11 +45,11 @@ allow XXX.XXX.XXX.XXX/XX
 # Logging
 log tracking measurements statistics
 logdir /var/log/chrony
-
-For more details on configuring Chrony, you can refer to the [Chrony Configuration Reference](https://chrony-project.org/doc/3.4/chrony.conf.html).
 ```
+For more details on configuring Chrony, you can refer to the Configuration Reference for the version of [Chrony Documentation](https://chrony-project.org/documentation.html) that matches the version you have installed.
+
 
 # Restart Chrony service:
-```Bash
+```bash
 systemctl restart chronyd
 ```
