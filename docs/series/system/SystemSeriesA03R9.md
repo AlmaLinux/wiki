@@ -126,14 +126,14 @@ sudo reboot
 
 ## 🔖 Variant III: NVIDIA .run Driver Installation Guide
 
-# Enable needed repository :
+➡️  Enable needed repository :
 
 ```
 sudo dnf install epel-release
 sudo dnf config-manager --enable crb
 sudo dnf dnf config-manager --set-enabled extras
 ```
-# Install needed packages :
+➡️  Install needed packages :
 
 ```
 sudo dnf install kernel-devel
@@ -146,7 +146,7 @@ sudo dnf install vulkan-headers
 sudo dnf install vulkan-loader-devel
 ```
 
-# Disable Nouveau :
+➡️  Disable Nouveau :
 
 ```
 sudo touch /etc/modprobe.d/nouveau-blacklist.conf
@@ -167,31 +167,31 @@ sudo grub2-mkconfig -o /boot/efi/EFI/almalinux/grub.cfg
 sudo reboot
 ```
 
-# Install the .run driver :
+➡️  Install the .run driver :
 
-# Download the latest driver (**Verify compatibility with your GPU**) : 
+**Download the latest driver (**Verify compatibility with your GPU**):**
 
 https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/
 
-# Go into the downloaded driver directory (**Replace /path/to/driver with the actual path**): 
+➡️  Go into the downloaded driver directory (**Replace /path/to/driver with the actual path**): 
 
 ```
 cd /path/to/driver
 ```
 
-# Make executable (**XXX.XXX.XX Is the driver version**):
+➡️  Make the driver executable (**XXX.XXX.XX Is the driver version**):
 
 ```
 sudo chmod +x NVIDIA-LINUX-x86_64-XXX.XXX.XX.run
 ```
 
-# Switch to Run Level 3 :
+➡️  Switch to Run Level 3 :
 
 ```
 sudo init 3
 ```
 
-# .run Driver installation options :
+➡️  .run Driver installation options :
 
 **Choose either Option 1 or Option 2 based on your preference.**
 
@@ -204,14 +204,13 @@ sudo ./NVIDIA-LINUX-x86_64-XXX.XXX.XX.run
 
 **Option 2** :
 
-# Install silently via console :
+Install silently via console :
 **Replace XXX.XXX.XX with the actual driver version.**
 
 sudo ./NVIDIA-Linux-x86_64-XXX.XXX.XX.run --accept-license --silent --run-nvidia-xconfig --dkms
 
-# Update the initramfs (**This is needed as of 535.XXX.XX drivers**) :
-
-**Update the initramfs to ensure the changes made by the NVIDIA driver installation are reflected.**
+➡️  Update the initramfs (**This is needed as of 535.XXX.XX drivers**) :
+Update the initramfs to ensure the changes made by the NVIDIA driver installation are reflected.
 
 ```
 sudo dracut -f
@@ -222,7 +221,7 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 sudo grub2-mkconfig -o /boot/efi/EFI/almalinux/grub.cfg
 ```
 
-**Set the default target to graphical for a desktop environment & Set the default target back to multi-user for a server or command-line environment.**
+➡️  Set the default target to graphical for a desktop environment & Set the default target back to multi-user for a server or command-line environment.
 
 ```
 sudo systemctl set-default graphical.target
@@ -233,8 +232,8 @@ sudo systemctl set-default multi-user.target
 sudo reboot
 ```
 
-**Known issue with NVIDIA-Settings Desktop Icon** :
-# Create NVIDIA Settings desktop icon :
+## Known issue with NVIDIA-Settings Desktop Icon** :
+### Create NVIDIA Settings desktop icon :
 
 ```
 sudo echo "[Desktop Entry]" | sudo tee /usr/share/applications/nvidia-settings.desktop
@@ -251,7 +250,6 @@ sudo echo "Categories=System;Settings;X-Red-Hat-Base-Utilities;" | sudo tee -a /
 ## 📚 Further Reading and Next Steps
 
 <u>Get Back:</u>
-
 - AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](SystemSeriesA03.md)   
 
 <u>In-depth Resources:</u>
