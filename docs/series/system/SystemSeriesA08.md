@@ -6,7 +6,7 @@
 | 📆 | <small>Last modified </small>| 2024-02-02
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
-EarlyOOM project can be find here : https://github.com/rfjakob/earlyoom
+EarlyOOM project can be found here: [https://github.com/rfjakob/earlyoom](https://github.com/rfjakob/earlyoom)
 
 ## Install EarlyOOM:
 ```bash
@@ -36,8 +36,9 @@ sudo nano /etc/default/earlyoom
 ```bash
 EARLYOOM_ARGS="-m 10 -s 75 -r 3600 --avoid '(^|/)(init|Xorg|ssh|gnome)$'"
 ```
+Save the changes and exit the text editor. If you are using nano, you can press Ctrl + X, then press Y to confirm changes, and finally press Enter to exit.
 
-**Please note that these are the options that worked in my case and may not work for all specific case, please refer to the command options for EarlyOOM :**
+**Please note that these are the options that worked in my case and may not work for all specific cases. Please refer to the command options for EarlyOOM:**
 ```bash
 User
 Command line options
@@ -51,10 +52,8 @@ Usage: ./earlyoom [OPTION]...
   -s PERCENT[,KILL_PERCENT] set free swap minimum to PERCENT of total (default
                             10 %).
                             Note: both memory and swap must be below minimum for
-
-Reference: https://github.com/rfjakob/earlyoom
-
-Save the changes and exit the text editor. If you are using nano, you can press Ctrl + X, then press Y to confirm changes, and finally press Enter to exit.
+```
+Reference: [https://github.com/rfjakob/earlyoom](https://github.com/rfjakob/earlyoom)
 
 ## Set the owner and group of the file to root:
 ```bash
