@@ -103,29 +103,11 @@ Depending on your hardware installed, you might need to install NVIDIA or AMD dr
 
 ### NVIDIA
 
-You can get NVIDIA drivers in different ways: 
-* [Install binary driver](/series/system/SystemSeriesA03)
-* [Compile driver source](/series/system/SystemSeriesA03)
-* Get them using RPM Fusion:
-    * Enable the RPM Fusion repository by running the command: 
+You can get NVIDIA drivers in different ways, all outlined in our guides. 
 
-      **For AlmaLinux 8:**
-      ``` 
-      sudo dnf install https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-8.noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-8.noarch.rpm
-      ```
-      **For AlmaLinux 9:**
-      ``` 
-      sudo dnf install https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm
-      ```
-    * Next, update the repositories:
-      ```
-      sudo dnf update  
-      ```
-    * Install the necessary packages: 
-      ```
-      sudo dnf install akmod-nvidia
-      ```
-    * Reboot your system to load the new NVIDIA kernel module and complete the installation. You should now have the NVIDIA drivers successfully installed on your AlmaLinux system.
+- **NVIDIA on AlmaLinux Overview [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)**
+- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)**
+- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)**
 
 ### AMD
 

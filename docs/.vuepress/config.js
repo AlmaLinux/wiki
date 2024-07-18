@@ -143,42 +143,37 @@ module.exports = {
             '/Comparison',
             '/FAQ',
             '/Howto',
-            {
-                title: 'openQA Guide',
-                path: '/development/openQA',
-            },
-            {
-                title: 'Howto Series',
-                path: '/series/',
+            '/development/openQA',
+				{
+                title: "Nginx Series",
+                path: '/series/nginx/',
                 children: [
-		              '/series/LAMP-server',
-                  {
-                      title: "Nginx Series",
-                      path: '/series/nginx/',
-                      children: [
-                              '/series/nginx/NginxSeriesA01',
-                              '/series/nginx/NginxSeriesA02R8',
-                              '/series/nginx/NginxSeriesA02R91',
-                              '/series/nginx/NginxSeriesA02R92',
-                              '/series/nginx/NginxSeriesA03',
-                              '/series/nginx/NginxSeriesA04P1',
-                      ]
-                  },
-                  {
-                      title: "System Series",
-                      path: '/series/system/',
-                      children: [
-                              '/series/system/SystemSeriesA01',
-                              '/series/system/SystemSeriesA02',
-                              '/series/system/SystemSeriesA03',
-                              '/series/system/SystemSeriesA03R8',
-                              '/series/system/SystemSeriesA03R9',
-                              '/series/system/SystemSeriesA04',
-                              '/series/system/SystemSeriesA05',
-                              ]
-                  },
-              ]
+                        '/series/nginx/NginxSeriesA01',
+                        '/series/nginx/NginxSeriesA02R8',
+                        '/series/nginx/NginxSeriesA02R91',
+                        '/series/nginx/NginxSeriesA02R92',
+                        '/series/nginx/NginxSeriesA03',
+                        '/series/nginx/NginxSeriesA04P1',
+                ]
             },
+            {
+                title: "AlmaLinux Tutorials 🚀",
+                path: '/series/system/',
+                children: [
+                        '/series/system/SystemSeriesA01',
+                        '/series/system/SystemSeriesA02',
+                        '/series/system/SystemSeriesA04',
+		 		   		'/series/LAMP-server',
+                        ]
+            },
+            {
+                title: "NVIDIA Install Guides",
+                path: '/series/nvidia/',
+                children: [			
+                        '/series/nvidia/nvidiaseries8x.md',
+                        '/series/nvidia/nvidiaseris9x.md',
+				]
+			},
           {
                 title: 'Security Guides',
                 path: '/documentation/guides',

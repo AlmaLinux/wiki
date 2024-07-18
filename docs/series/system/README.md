@@ -1,3 +1,7 @@
+---
+title: AlmaLinux System Series 
+---
+
 # AlmaLinux System Series 
 
 Welcome!
@@ -7,8 +11,6 @@ This series will guide you through the installation, configuration, security, an
 **Article List**
 ----
 - [A01](SystemSeriesA01.md) ❯ Application Streams
-- [A02](SystemSeriesA02.md) ❯ Firewalld: A Beginner's Guide
-- [A03](SystemSeriesA03.md) ❯ NVIDIA Driver Installation Guide
+- [A02](SystemSeriesA02.md) ❯ Firewalld - A Beginner's Guide
 - [A04](SystemSeriesA04.md) ❯ Snapd Installation Guide
-- [A05](SystemSeriesA05.md) ❯ Multimedia: Install Media Codecs
 

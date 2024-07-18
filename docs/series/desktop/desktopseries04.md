@@ -1,38 +1,48 @@
-# A08 ❯ Earlyoom (Out of Memory) Installation Guide
-<small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
+---
+title: Earlyoom (Out of Memory) Installation Guide
+---
+
+# Earlyoom (Out of Memory) Installation Guide
+<small>ℹ️ This article is part of the AlmaLinux [Desktop Series](/desktop/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
+| 📆 | <small>Last modified | 2024-07-17</small> |
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
+
+## 🌟 Introduction
+
+earlyoom is used to kill software that has, for any reason, started using more resources than a workstation has, preventing it from crashing the whole workstation. Most of the time we encounter issue where artists use multiple instance of software and exhaust the memory of a workstation (even at 128GB of RAM...).
+
+EarlyOOM comes into play and the kills software before crashing and reduces the workload for oure It department.
 
 EarlyOOM project can be found here: [https://github.com/rfjakob/earlyoom](https://github.com/rfjakob/earlyoom)
 
-## Install EarlyOOM:
+### ➡️ Install EarlyOOM
 ```bash
 sudo dnf install earlyoom -y
 ```
 
-## Configure EarlyOOM to start at boot:
+### ➡️ Configure EarlyOOM to start at boot
 ```bash
 sudo systemctl enable earlyoom
 ```
 
-## Configure Earlyoom Parameters:
+### ➡️ Configure Earlyoom Parameters
 
 Open the terminal on the host machine.
 
-## Gain administrative privileges by using the sudo command:
+### ➡️ Gain administrative privileges by using the sudo command
 ```bash
 sudo su
 ```
 
-## Open the /etc/default/earlyoom file in a text editor of your choice. For example, you can use the nano editor:
+### ➡️ Open the /etc/default/earlyoom file in a text editor of your choice. For example, you can use the nano editor
 ```bash
 sudo nano /etc/default/earlyoom
 ```
 
-## Find or add the following lines to the file:
+### ➡️ Find or add the following lines to the file
 ```bash
 EARLYOOM_ARGS="-m 10 -s 75 -r 3600 --avoid '(^|/)(init|Xorg|ssh|gnome)$'"
 ```
@@ -55,17 +65,17 @@ Usage: ./earlyoom [OPTION]...
 ```
 Reference: [https://github.com/rfjakob/earlyoom](https://github.com/rfjakob/earlyoom)
 
-## Set the owner and group of the file to root:
+### ➡️ Set the owner and group of the file to root
 ```bash
 chown root:root /etc/default/earlyoom
 ```
 
-## Set the file permissions to 0644:
+### ➡️ Set the file permissions to 0644
 ```bash
 chmod 0644 /etc/default/earlyoom
 ```
 
-# Notify the system about the changes made by restarting the earlyoom service:
+### ➡️ Notify the system about the changes made by restarting the earlyoom service
 ```bash
 systemctl restart earlyoom
 ``` 

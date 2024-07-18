@@ -1,9 +1,13 @@
+---
+title: Understanding Application Streams
+---
+
 # A01 ❯ Application Streams 
-<small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
+<small>ℹ️ This article is part of the AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-16
+| 📆 | <small>Last modified </small>| 2023-05-16|
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
 <br> 
 
