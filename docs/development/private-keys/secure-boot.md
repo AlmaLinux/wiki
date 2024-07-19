@@ -164,7 +164,8 @@ Keys should be stored offline and encrypted at rest via GPG and the hardware enc
 ### Shim 15.8
 Secure boot keys generated on 2024-03-13 using policy dated 2024-03-13.  These keys and certs will go into use in late 2024 and are valid through 2034.
 
-https://github.com/rhboot/shim-review/issues/407
+- https://github.com/rhboot/shim-review/issues/407
+- https://github.com/rhboot/shim-review/issues/432
 
 
 ## Changelog
