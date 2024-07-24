@@ -3,7 +3,11 @@ title: 'Help AlmaLinux OS'
 ---
 # Contributing to the AlmaLinux project
 
-AlmaLinux OS development, infrastructure management, and overall project promotion are organized using our community chat. There are many ways to contribute to AlmaLinux OS - testing, quality assurance, documentation, and more. We'd love to welcome you! To help get you started, here are a few ideas:
+AlmaLinux OS development, infrastructure management, and overall project promotion are organized using our community chat. There are many ways to contribute to AlmaLinux OS - testing, quality assurance, documentation, and more. We'd love to welcome you! To help get you started, here is a Q&A video on the subject:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WCERQ4E_gl8?si=cvADVpcWnmt_Criy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**And here are some ideas to get you going:**
 
 How you or your team can contribute their time: 
 - Content Creation: Create engaging content around interesting projects which showcase the use of AlmaLinux
