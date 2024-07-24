@@ -88,7 +88,17 @@ module.exports = {
             },
          ]
      },
-	'/alesco',
+     {
+          title: "ALESCo",
+          path: "/alesco",
+          children: [
+              {
+                  title: "Meeting Minutes",
+                  path: "/alesco/meeting-minutes"
+              }
+          ]
+
+     },
      {
           title: 'Contribute',
           children: [
