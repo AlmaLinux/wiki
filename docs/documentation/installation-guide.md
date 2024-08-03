@@ -145,13 +145,14 @@ You need to look for /dev/sda or /dev/sdb or /dev/sdc, which is your target USB.
 After you found out the location of your target USB, navigate to the location of your source ISO. Run the dd command to copy files from ISO to USB: 
 
 ```
-sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/sdX status=progress
+sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/sdX status=progress conv=fsync
 ```
 
 * `dd`: Start the dd command to write the DVD/CD iso image.
 * `if=AlmaLinux-9.1-x86_64-dvd.iso`: path to the input file.
 * `of=/dev/sdX`: path to destination USB disk/stick (you need to replace 'X').
 * `status=progress`: display a progress bar while writing the image to the USB stick.
+* `conv=fsync`: make sure to finish the writing before returning.
 
 :::warning
 This example is for AlmaLinux 9.1. Replace the version with the one you need to work with other AlmaLinux images.
@@ -170,7 +171,7 @@ The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to
 You can also use `dd` from the CLI:
     
 ```
-sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/diskXXX status=progress
+sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/diskXXX status=progress conv=fsync
 ```
     
 :::tip
