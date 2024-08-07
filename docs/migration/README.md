@@ -29,7 +29,7 @@ The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://gi
 The [Red Hat Upgrade Tool](https://github.com/upgrades-migrations/redhat-upgrade-tool.git) is used to perform in-place migration between CentOS 6 and CentOS 7.
 
 :::tip 
-Please note, the ELevate project is designed to perform one-step upgrades using the Leapp tool version 0.19.0. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
+Please note, the ELevate project is designed to perform one-step upgrades. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
 :::
 
 The ELevate project supports a number of 3rd party repositories:

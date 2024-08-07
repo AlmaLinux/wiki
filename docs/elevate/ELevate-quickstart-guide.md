@@ -10,7 +10,7 @@ title: "ELevate Quickstart Guide"
 Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify the upgrade worked as expected before you attempt to upgrade any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
 :::
 
-This guide contains steps on how to upgrade your RHEL-based operating system to the next major version using the Leapp tool version **0.19.0**.
+This guide contains steps on how to upgrade your RHEL-based operating system to the next major version.
 
 :::tip 
 Please note, the ELevate project is designed to perform one-step upgrades. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
@@ -33,7 +33,7 @@ Currently, the following upgrade paths are available:
 
 ### Requirements 
 
-You need CentOS 7, AlmaLinux 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
+You need CentOS 7, Scientific Linux 7, AlmaLinux 8, CentOS Stram 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
 **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
 ```
 sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo

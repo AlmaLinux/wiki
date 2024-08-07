@@ -6,7 +6,7 @@ title: "ELevating CentOS 7 to AlmaLinux 9"
 
 # ELevating CentOS 7 to AlmaLinux 9
 
-This guide contains steps on how to upgrade your CentOS 7 machine to AlmaLinux OS 9 using the Leapp tool version 0.19.0.
+This guide contains steps on how to upgrade your CentOS 7 machine to AlmaLinux OS 9.
 As the Leapp tool is designed to perform one-step upgrades, you need to split the upgrade process:
 * CentOS 7 to AlmaLinux 8
 * AlmaLinux 8 to AlmaLinux 9

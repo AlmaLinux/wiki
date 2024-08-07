@@ -36,7 +36,7 @@ Currently, the following upgrade paths are available:
 # How to upgrade
 
 Various guides cover the update steps depending on the upgrade type:
-* The [ELevate Quickstart Guide](/elevate/ELevate-quickstart-guide) covers the upgrade steps using the Leapp utility version 0.19.0 with 3rd party repositories support and provides the Demo video.
+* The [ELevate Quickstart Guide](/elevate/ELevate-quickstart-guide) covers the upgrade steps using the Leapp utility version with 3rd party repositories support and provides the Demo video.
 * The [ELevate CentOS 7 to AlmaLinux 9 Guide](/elevate/ELevating-CentOS7-to-AlmaLinux-9) covers a two-stage process to upgrade a CentOS 7 machine to AlmaLinux OS 9.
 * The [ELevate CentOS 6 to CentOS 7 Guide](/elevate/ELevating-CentOS6-to-CentOS7) covers steps to be performed to upgrade CentOS 6 machines to CentOS 7.
 * The [ELevate Offline Guide](/elevate/ELevate-offline-guide) covers the upgrade steps on air-gapped machines.
