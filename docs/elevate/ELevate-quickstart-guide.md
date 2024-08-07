@@ -33,7 +33,7 @@ Currently, the following upgrade paths are available:
 
 ### Requirements 
 
-You need CentOS 7, Scientific Linux 7, AlmaLinux 8, CentOS Stram 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
+You need CentOS 7, Scientific Linux 7, AlmaLinux 8, CentOS Stream 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
 **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
 ```
 sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
