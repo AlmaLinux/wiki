@@ -1,5 +1,5 @@
 ---
-title: 'openQA'
+title: 'openQA Guide'
 ---
 
 | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
