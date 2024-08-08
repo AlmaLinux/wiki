@@ -183,7 +183,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
 * The following fixes from *the /var/log/leapp/leapp-report.txt* file are the most popular fixes for RHEL8-based operating systems:
    ```bash
    sudo sed -i "s/^AllowZoneDrifting=.*/AllowZoneDrifting=no/" /etc/firewalld/firewalld.conf
-   sudo leapp answer --section check_vdo.no_vdo_devices=True
+   sudo leapp answer --section check_vdo.confirm=True
    ```
    
   You might also find the following issue in the **leapp-report** file that can interfere with the upgrade. Consider removing the file:
