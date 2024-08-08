@@ -2,7 +2,7 @@
 title: 'AlmaLinux Migration Projects'
 ---
 
-###### last updated: 2024-04-18
+###### last updated: 2024-08-07
 
 # AlmaLinux Migration Projects
 
@@ -28,20 +28,23 @@ The [Leapp utility](https://leapp.readthedocs.io) and a few [patches](https://gi
 
 The [Red Hat Upgrade Tool](https://github.com/upgrades-migrations/redhat-upgrade-tool.git) is used to perform in-place migration between CentOS 6 and CentOS 7.
 
-ELevate supports a number of 3rd party repositories for all supported systems:
-* EPEL
-* Imunify 
-* KernelCare
-* MariaDB
-* nginx
-* PostgreSQL
+:::tip 
+Please note, the ELevate project is designed to perform one-step upgrades. If you wish to perform an upgrade from CentOS7, you need to split the process. Please check the [ELevating CentOS7 to AlmaLinux 9](/elevate/ELevating-CentOS7-to-AlmaLinux-9.md) guide for more information.
+:::
 
-The project supports the following migration paths:
+The ELevate project supports a number of 3rd party repositories:
+* EPEL support is currently available for upgrades to AlmaLinux OS only.
+* MariaDB - for all supported operating systems. 
+* nginx - for all supported operating systems. 
+* PostgreSQL - for all supported operating systems. 
+* Imunify - for upgrades to EL 8.
+* KernelCare - for upgrades to EL 8.
 
-![image](/images/ELevate.svg)
+Currently, the following upgrade paths are available:
 
-\* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
-\** - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
+![image](/images/ELevateNG.svg)
 
+\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
+\** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 See the [ELevate](/elevate/) section for the update steps.
 
