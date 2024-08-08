@@ -89,7 +89,7 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
   * For RHEL8-based operating systems:
     ```
     sudo sed -i "s/^AllowZoneDrifting=.*/AllowZoneDrifting=no/" /etc/firewalld/firewalld.conf
-    sudo leapp answer --section check_vdo.no_vdo_devices=True
+    sudo leapp answer --section check_vdo.confirm=True
     ```
 
   Check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues and guidance steps to solve them.

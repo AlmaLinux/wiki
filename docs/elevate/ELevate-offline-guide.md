@@ -262,7 +262,7 @@ Once you've edited the **leapp_upgrade_repositories.repo** file to match your lo
 * The following fixes from *the /var/log/leapp/leapp-report.txt* file are the most popular fixes for RHEL8-based operating systems:
    ```bash
    sudo sed -i "s/^AllowZoneDrifting=.*/AllowZoneDrifting=no/" /etc/firewalld/firewalld.conf
-   sudo leapp answer --section check_vdo.no_vdo_devices=True
+   sudo leapp answer --section check_vdo.confirm=True
    ```
    
   You might also find the following issue in the **leapp-report** file that can interfere with the migration. Consider removing the file:
