@@ -224,7 +224,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
 
 ## Important Notes about the Upgrade Process
 
-* During the upgrade, ELevate uses a multitude of repositories to migrate and upgrade the system. Among them is the usage of the CRB repository. Important to note, if the CRB repository was not enabled on your system prior to using ELevate, it will remain disabled after the upgrade. This can cause future system updates via dnf to fail. The errors can look something like this:
+* During the upgrade, ELevate uses a multitude of repositories to migrate and upgrade the system. Among them is the usage of the CRB repository. Important to note, if the CRB repository was not enabled on your system prior to using ELevate, it will remain disabled after the upgrade. This can cause future system updates via dnf to fail as one or more packages/package dependencies may now depend on packages within the CRB repository. The errors can look something like this:
   ```
   Error: 
   Problem: package nss_db-2.34-100.el9_4.2.x86_64 from @System requires glibc(x86-64) = 2.34-100.el9_4.2, but none of the providers can be installed
@@ -234,7 +234,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
   cannot install the best update candidate for package glibc-2.34-100.el9_4.2.x86_64
   problem with installed package nss_db-2.34-100.el9_4.2.x86_64
   ```
-  This can be resolved by enabling the CRB repository. Either via `crb enable` if the EPEL repository is already enabeld, or via `dnf config-manager --set-enabled crb`. After the CRB repository is enabled, the dnf cache can be cleared and dnf update should return to normal functionality.
+  This issue can be resolved by enabling the CRB repository. Either via `crb enable` if the EPEL repository is already enabeld, or via `dnf config-manager --set-enabled crb`. After the CRB repository is enabled, the dnf cache can be cleared and dnf update should return to normal functionality.
 
 ## Get Help 
 
