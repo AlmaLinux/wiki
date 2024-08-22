@@ -9,6 +9,7 @@ This guide describes how to convert your operating system to AlmaLinux using the
 What OSes can be converted:
 * CentOS 8
 * CentOS Stream 8, 9
+* Miracle Linux 8, 9
 * Oracle Linux 8, 9
 * RHEL 8, 9
 * Rocky Linux 8, 9
