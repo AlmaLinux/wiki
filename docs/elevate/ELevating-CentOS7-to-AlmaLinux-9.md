@@ -2,7 +2,7 @@
 title: "ELevating CentOS 7 to AlmaLinux 9"
 ---
 
-###### last updated: 2024-07-08
+###### last updated: 2024-08-30
 
 # ELevating CentOS 7 to AlmaLinux 9
 
@@ -18,6 +18,10 @@ The ELevate project supports a number of 3rd party repositories:
 * PostgreSQL - for all supported operating systems. 
 * Imunify - for upgrades to EL 8.
 * KernelCare - for upgrades to EL 8.
+
+:::tip
+You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
+:::
 
 ## Upgrade CentOS 7 to AlmaLinux 8
 
