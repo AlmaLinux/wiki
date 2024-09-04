@@ -2,7 +2,7 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2024-08-30
+###### last updated: 2024-09-04
 
 # ELevate NG Testing Guide
 
@@ -12,6 +12,7 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 
 The ELevate NG supports a number of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS only.
+* Docker CE - for all supported operating systems.
 * MariaDB - for all supported operating systems 
 * nginx - for all supported operating systems 
 * PostgreSQL - for all supported operating systems 
