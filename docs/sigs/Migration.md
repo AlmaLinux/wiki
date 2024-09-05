@@ -43,11 +43,11 @@ We do not currently hold regular meetings, but work asynchronously in mattermost
 
 * AlmaLinux Leapp patches at: [AlmaLinux/leapp-repository](https://github.com/AlmaLinux/leapp-repository/tree/almalinux). Consider this is not a separated forked project.
 * Static data files for Leapp utility: [AlmaLinux/leapp-data](https://github.com/AlmaLinux/leapp-data)
-* Package Evolution Service: [pes.almalinux.org](https://pes.almalinux.org)
 * CentOS 6 to CentOS 7 upgrade tool: [AlmaLinux/redhat-upgrade-tool](https://github.com/AlmaLinux/redhat-upgrade-tool).
 
 ### Help wanted
 
+* Adding more 3rd party repositories support
 * Testing various configurations
 * Developing scripts for populating unsupported kernel modules and pci ids lists
 * Feedback and bug reports

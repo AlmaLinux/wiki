@@ -2,9 +2,9 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2024-07-08
+###### last updated: 2024-09-04
 
-# ELevate NG Testing Guide (Leapp version 0.19.0) 
+# ELevate NG Testing Guide
 
 ::: warning
 Before beginning, we **HIGHLY** recommend that you follow system administration best practices and make sure you have backups and/or snapshots of your system before you proceed. It is recommended to do a trial run in a sandbox to verify the upgrade worked as expected before you attempt to upgrade any production system. Please report any issues encountered to the [AlmaLinux Bug Tracker](https://bugs.almalinux.org) and/or [AlmaLinux Chat Migration Channel](https://chat.almalinux.org/almalinux/channels/migration)
@@ -12,11 +12,16 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 
 The ELevate NG supports a number of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS only.
+* Docker CE - for all supported operating systems.
 * MariaDB - for all supported operating systems 
 * nginx - for all supported operating systems 
 * PostgreSQL - for all supported operating systems 
 * Imunify - for upgrades to EL 8
 * KernelCare - for upgrades to EL 8
+
+:::tip
+You can add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
+:::
 
 Currently, the following upgrade paths are available:
 
@@ -36,7 +41,7 @@ Currently, the following upgrade paths are available:
    sudo reboot
    ```
 
-* Install ELevate version 0.19.0 repo config for CentOS7, and import ELevate GPG key:
+* Install ELevate NG version repo config for CentOS7, and import ELevate GPG key:
    ```
    sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
    sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
@@ -157,7 +162,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
 
 ## Upgrading AlmaLinux 8 to AlmaLinux 9
 
-* Install ELevate version 0.19.0 repo config for AlmaLinux8:
+* Install ELevate NG version repo config for AlmaLinux8:
    ```
    sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
    ```

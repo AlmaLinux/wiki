@@ -2,7 +2,7 @@
 title: "ELevate Testing Guide"
 ---
 
-###### last updated: 2024-07-08
+###### last updated: 2024-08-30
 
 # ELevate Testing Guide
 
@@ -17,6 +17,10 @@ The ELevate Project supports a number of 3rd party repositories:
 * PostgreSQL - for all supported operating systems 
 * Imunify - for upgrades to EL 8
 * KernelCare - for upgrades to EL 8
+
+:::tip
+You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
+:::
 
 Currently, the following upgrades are available:
 
@@ -36,7 +40,7 @@ Currently, the following upgrades are available:
    sudo reboot
    ```
 
-* Install ELevate version 0.19.0 repo config for CentOS7, and import ELevate GPG key:
+* Install ELevate testing repo config for CentOS7, and import ELevate GPG key:
    ```
    sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
    sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
@@ -157,7 +161,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
 
 ## Upgrading AlmaLinux 8 to AlmaLinux 9
 
-* Install ELevate version 0.19.0 repo config for AlmaLinux 8:
+* Install ELevate testing repo config for AlmaLinux 8:
    ```
    sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
    ```

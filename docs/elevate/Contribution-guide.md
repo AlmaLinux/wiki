@@ -2,131 +2,444 @@
 title: 'ELevate Contribution Guide'
 ---
 
-###### last updated: 2024-04-18
+###### last updated: 2024-08-30
 
-# ELevate Contribution Guide
+# Contribute to the ELevate project 
 
-:::warning
-This guide contains information for the current Package Evolution Service set. There might be some changes soon.
+We welcome contributors to the ELevate project. You can help with:
+* [Adding more 3rd party repositories support](#third-party-vendors-support)
+* [Testing](#contribute-to-testing)
+
+## Third-party vendors support
+
+Currently, the ELevate project supports the following of 3rd party repositories:
+* EPEL support is currently available for upgrades to AlmaLinux OS only.
+* MariaDB - for all supported operating systems.
+* nginx - for all supported operating systems.
+* PostgreSQL - for all supported operating systems.
+* Imunify - for upgrades to EL8.
+* KernelCare - for upgrades to EL8.
+
+This guide provides steps to integrate 3rd party repository packages into the ELevate upgrade process. 
+:::danger
+Note, that all your 3rd party packages must be signed.
 :::
 
-## About Package Evolution Service
+* Clone the [leapp-data](https://github.com/AlmaLinux/leapp-data) repository.
+* Navigate to the `vendors.d` folder. It contains the necessary files for each supported 3rd party repository.
+* To add a new 3rd party repository to the ELevate process, you must create separate files and fill them out. These files **must** have the same *<vendor_name>* part in their names:
+    * `<vendor_name>_map.json` - [repository mapping file](#repository-mapping-file).
+    * `<vendor_name>.repo` - [package repository information](#package-repository-file).
+    * `<vendor_name>.sigs` - [list of package signatures of vendor repositories](#package-signatures-list).
+    * `<vendor_name>_pes.json` - [package migration event list](#package-migration-event-list).
 
-AlmaLinux launched the [Package Evolution Service (PES)](https://pes.almalinux.org/) to collect bug reports and issues and let the Community take part in the Project. This service provides the information for migration from one RHEL-based distribution to another between different major versions.
+### Repository mapping file
 
-This guide describes how a user can contribute to the ELevate Project and helps one to proceed. 
+The mapping `.json` file provides information on mappings between source system repositories (repositories present on the system being upgraded) and target system repositories (package repositories to be used during the upgrade). 
 
-## Service review
+In case the 3rd party repository is designed for 2 migration directions, you must prepare 2 mapping JSON files:
+*  <vendor_name>_map.json.el8 - repository mapping file for upgrades to EL8.
+*  <vendor_name>_map.json.el9 - repository mapping file for upgrades to EL9.
 
-You need to login via a GitHub account to use Package Evolution Service. If you are in any organization on GitHub, make sure that your status is public so your organization can be displayed on Package Evolution Service.
+The mapping JSON file structure includes:
+* **datetime** - a generated date-time stamp, for example: `202306191741Z`.
+* **version** - version of the database, you can check the current version in the [leapp-data repository](https://github.com/AlmaLinux/leapp-data).
+* Two sections, described below:
+    * **mapping** 
+    * **repositories** 
 
-Let's start with the menu review to understand where to start. There are mentioned options:
+:::warning
+The mapping file defines whether a vendor's packages will be included in the upgrade process. If at least one source repository listed in the file is present on the system, the vendor is considered active, and package repositories/PES events are enabled - otherwise, they **will not** affect the upgrade process.
+:::
 
-* Bulk upload
-* Dump
-* Add an action
-* List actions
-* List of registered users 
-* Actions history
+#### Mapping section
 
-Let's talk a bit about each item.
+The mapping section establishes connections between repositories. 
 
-So, **BULK UPLOAD** option is only for AlmaLinux developers. It's not available for other users to work there. You'll have this result:
-
-![image](/images/elevate_bulk-result.png)
-
-**DUMP** item allows you to choose what JSON to dump. There are a few more options. Source OS allows you to choose from what system you migrate. Target OS allows you to choose what system you want to migrate to - AlmaLinux, EuroLinux, CentOS Stream, Oracle Linux and Rocky Linux. The next option is GitHub organization, where you can choose migration rules for JSON. If you are in any organization that has its own migration rules, you can choose between AlmaLinux's rules and the organization's rules, or  choose all. If you are not in any organization, there are only AlmaLinux rules available. 
-
-![image](/images/elevate_dump-json.png)
-
-After dumping is completed, the page will be automatically updated, and you'll see a JSON file. Here is an example of what you can have:
-
-![image](/images/elevate_dump-result.png)
-
-**ADD ACTION** allows you to create a new action (rule) for migration and describe it. If you are not in any organization, AlmaLinux might approve your added action. If you are in an organization, you can add an already approved action.
-Let's see what you have to fill in. Here's an example:
-
-![image](/images/elevate_add-action.png)
-
-First, you need to choose `action type` depending on the action purpose. 
-
-![image](/images/elevate_action-type.png)
-
-* Present type indicates that a package is present already in the new version of the system you are migrating.
-* Removed type indicates that a package was removed from the OS you want to migrate, but it was present in its previous version.
-* Deprecated type indicates that a package is considered deprecated and may be removed later.
-* Replaced type indicates that a package was replaced with another in the new OS version. 
-* Split type indicates that a package was split in the new OS version.
-* Merged type indicates that a few packages from the previous version were merged into one in the new OS version. 
-* Moved type indicates that a package was moved to another repository in the new OS version. 
-* Renamed type indicates that a package was renamed in the new OS version. 
-
-The next step is to choose a `GitHub organization` that displays what organization rules you can choose. If you are not in any organization, you have only AlmaLinux here. If you are, then you also have a list of your organizations additionally to AlmaLinux. 
-
-`Description` item is designed to comment and describe anything about your action that helps get information about it.
-
-`Source OS` offers you to choose from what operating system you migrate. You also need to enter the system version here.
-
-`Target OS` offers you to choose to what operating system you are migrating. You can choose between AlmaLinux, EuroLinux, CentOS Stream, Oracle Linux and Rocky Linux. Again, enter the system version nearby.
+This section defines a mapping between major system versions. It contains the following elements:
+* `source_major_version` - defines a major system version from which the system would be upgraded, `7` or`8`.
+* `target_major_version` - defines a major system version to which the system would be elevated, `8` or`9`.
+* `entries` - defines a list of repository mappings.
+    * `source` - defines a source repository that will be found on a pre-upgrade system.
+    * `target` - defines a target upgrade repository (or a list of repositories) that will contain new versions of packages. 
+    * Each source repository can map to one or multiple target repositories.
+    * `source` and `target` repositories must be listed and defined in the *repository* section and the `.pes` file, and their IDs must match.
 
 :::tip
-If you are adding action and the new rule works for all systems, you need to mark fields `source is generic` and `target is generic`. If the rule works only for chosen systems, don't mark these fields. 
-![image](/images/elevate_source.png)
+You can refer to MariDB examples: [mariadb_map.json.el8](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb_map.json.el8) and [mariadb_map.json.el9](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb_map.json.el9).
 :::
-Type your `architecture` next or put them as a list via separating each item by a comma. Both x86_64 and arm64/aarch64 architectures are supported.
 
-Specify what package you suggest replacing and what package removing in `in package set` and `out package set` options. Each package should be input as a separate row. The format of the row is name, repository, module_name, module_stream. Just leave an empty item if a package doesn't belong to a module. 
+#### Repositories section
+
+The repositories section provides both source and target repositories information.
+
+Each repository should contain its own unique information: 
+* `pesid` -  ID specific to mapping/PES files, if it doesn't match, the upgrade will fail with a corresponding error.
+* `entires`:
+    * `major_version` - defines a major system version.
+    * `repoid` - defines a repository ID. It must match its ID from its `.repo` file, but it doesn't have to match its 'pesid`. 
+    * `arch` - defines the system architecture for which this repository is relevant. 
+    * `channel` - Red Hat specific argument, defines one of the following repository channels:
+        * ga - general availability (stable) repositories; the most used one.
+        * beta - beta/testing repositories.
+        * eus, e4s, aus, tus - stand for Extended Update Support, Update Services for SAP Solutions, Advanced Update Support, and Telco Extended Update Support respectively. 
+    * `repo_type` - defines one of the following repository types:
+        * rpm - for RPM packages.
+        * srpm - for source packages.
+        * debuginfo - for packages with debug information.
 
 :::tip
-Removed and Present action types don't have `out package set`.
+You can refer to MariDB examples: [mariadb_map.json.el8](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb_map.json.el8) and [mariadb_map.json.el9](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb_map.json.el9).
 :::
 
-**LIST OF ACTIONS** allows you to see all the added actions, no matter their type and status. You can change all non-organization unapproved actions here if needed.
+### Package repository file
 
-![image](/images/elevate_list-of-actions.png)
+The package repository` .repo` file defines the vendor's package repositories that will be used during the upgrade.
 
-The *"eye"* sign shows you all information about the action.
+In case the 3rd party repository is designed for 2 migration directories, you must prepare 2 repository files:
+* <vendor_name>.repo.el8 - repository information for upgrades to EL8.
+* <vendor_name>.repo.el9 - repository information for upgrades to EL9.
 
-![image](/images/elevate_action-ID.png)
+The repository file has the same format that is typical for YUM/DNF package repository files:
+```
+[repository ID]
+name = repository name
+baseurl = repository baseurl
+gpgkey = GPG Key directory
+gpgcheck = 1
+enabled = 1
+```
+:::tip
+You can also refer to MariDB examples: [mariadb.repo.el8](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb.repo.el8) and [mariadb.repo.el9](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb.repo.el9).
+:::
 
-The *"clock"* sign shows you the action's history if any changes have been made.
+**NOTE:** The repositories listed in this repo file are only used *during* the upgrade. Package repositories on the post-upgrade system should be provided through updated packages or custom repository deployment.
 
-You'll also have the *"pen"* sign that will allow editing all non-organization unapproved actions.
+### Package signatures list
 
-![image](/images/elevate_edit-an-action.png)
+The package signature `.sigs` file should contain the list of public signature headers that the packages are signed with.
 
-After editing is done, make sure you save it.
+You can find signature headers for your packages by running the following command:
 
-You can also search by package name - you'll see all the results for the packages that contain the name you put in the search line.
+```
+rpm -qip <PACKAGE_NAME> | grep Signature
+```
 
-![image](/images/elevate_search-an-action.png)
+##### An example output:
+```
+Signature   : DSA/SHA1, Mon Aug 23 08:17:13 2021, Key ID 8c55a6628608cb71
+```
 
-**LIST OF REGISTERED USERS** allows you to see who has signed at all, no matter being in any organization. Username item links to a user's GitHub account, organization item links to an organization's GitHub account. History changes can show you what was done by the chosen user.
+The `Key ID` value after - `8c55a6628608cb71` from the example - is the public signature header you must put into the signature file. 
+The file format is designed to have *one signature per line*. 
 
-![image](/images/elevate_list-of-users.png)
+:::tip
+You can also refer to MariDB examples: [mariadb.sigs](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb.sigs).
+:::
+
+### Package migration event list
+
+The package migration event list is used for complex specific package actions that can not be handled by DNF. 
+
+Typically this data can be found in the `leapp-data/vendors.d/<vendor_name>_pes.json` file in the [GitHub repository](https://github.com/AlmaLinux/leapp-data) and the `/etc/leapp/files/vendors.d/<vendor_name>_pes.json` file on a system that is being upgraded.
 
 :::warning
-`Back to the list` gets you to the `list of actions`, not to the `list of the registered users`.
+Actions from PES JSON files will be in effect only for those packages that are signed **and** have their signatures in one of the active <vendor_name>.sigs files. Unsigned packages will be updated only if some signed package requires a new version, otherwise, they will be left as they are.
 :::
 
-**ACTIONS HISTORY** displays all changes that users did. Username will get you user's GitHub account. Action ID will display all information about this action.
+#### Creating a `pes.json`
 
-![image](/images/elevate_actions-history.png)
+If your 3rd party packages don't require any additional actions, stick to the following format to create your pes.json file:
+```
+{
+    "legal_notice": "",
+    "packageinfo": [],
+    "provided_data_streams": [
+        "2.0"
+    ],
+    "timestamp": "202408081321Z"
+}
+```
+
+If the packages require additional action, fill in the file to add the information for the upgrade. 
+* Add a new entry to the `packageinfo` array.
+* `action` - defines which of the following actions will be performed for your 3rd party vendor packages. Actions **1**, **3**, **4** and **5** are the most used ones. 
+    * `0` - present;
+        * keep the packages in `in_packageset` to ensure the repo they reside in on the target system gets enabled.
+    * `1` - removed;
+        * remove all packages in `in_packageset`.
+    * `2` - deprecated;
+        * keep the packages in `in_packageset` to ensure the repo they reside in on the target system gets enabled.
+    * `3` - replaced; 
+        * remove all packages in `in_packageset`.
+        * install parts of the `out_packageset` that are not present on the system.
+        * keep the packages from `out_packageset` that are already installed.
+    * `4` - split
+        * install parts of the `out_packageset` that are not present on the system
+        * keep the present `out_packageset`.
+        * remove packages from `in_packageset` that are not present in `out_packageset`.
+        * in case of package X being split into Y and Z, package X will be removed.
+        * in case of package X being split into X and Y, package X will **not** be removed.
+        ##### An example action structure:
+        :::details
+        ```
+           {
+            "action": 4,
+            "architectures": [
+                "aarch64",
+                "ppc64le",
+                "s390x",
+                "x86_64"
+            ],
+            "id": 23,
+            "in_packageset": {
+                "package": [
+                    {
+                        "modulestreams": [
+                            null
+                        ],
+                        "name": "ntp",
+                        "repository": "base"
+                    }
+                ],
+                "set_id": 29
+            },
+            "initial_release": {
+                "major_version": 7,
+                "minor_version": 7,
+                "os_name": "CentOS"
+            },
+            "modulestream_maps": [
+                {
+                    "in_modulestream": null,
+                    "out_modulestream": null
+                }
+            ],
+            "out_packageset": {
+                "package": [
+                    {
+                        "modulestreams": [
+                            null
+                        ],
+                        "name": "chrony",
+                        "repository": "almalinux8-baseos"
+                    },
+                    {
+                        "modulestreams": [
+                            null
+                        ],
+                        "name": "ntpstat",
+                        "repository": "almalinux8-appstream"
+                    }
+                ],
+                "set_id": 30
+            },
+            "release": {
+                "major_version": 8,
+                "minor_version": 0,
+                "os_name": "AlmaLinux"
+            }
+        },
+        ```
+        :::
+    * `5` - merged
+        * install packages from the `out_packageset` that are not present on the system.
+        * remove packages from `in_packageset` that are not present in `out_packageset`.
+        * in case of packages Y and Z being merged to X, packages Y and Z will be removed.
+        * in case of packages Y and Z are not being merged to X, packages Y and Z will **not** be removed .
+        ##### An example action structure:
+        :::details
+        ```
+           {
+            "action": 5,
+            "architectures": [
+                "aarch64",
+                "ppc64le",
+                "s390x",
+                "x86_64"
+            ],
+            "id": 93,
+            "in_packageset": {
+                "package": [
+                    {
+                        "modulestreams": [
+                            null
+                        ],
+                        "name": "infiniband-diags",
+                        "repository": "base"
+                    },
+                    {
+                        "modulestreams": [
+                            null
+                        ],
+                        "name": "libibmad",
+                        "repository": "base"
+                    }
+                ],
+                "set_id": 118
+            },
+            "initial_release": {
+                "major_version": 7,
+                "minor_version": 7,
+                "os_name": "CentOS"
+            },
+            "modulestream_maps": [
+                {
+                    "in_modulestream": null,
+                    "out_modulestream": null
+                }
+            ],
+            "out_packageset": {
+                "package": [
+                    {
+                        "modulestreams": [
+                            null
+                        ],
+                        "name": "infiniband-diags",
+                        "repository": "almalinux8-baseos"
+                    }
+                ],
+                "set_id": 9451
+            },
+            "release": {
+                "major_version": 8,
+                "minor_version": 0,
+                "os_name": "AlmaLinux"
+            }
+        },
+        ```
+        :::
+    * `6` - moved to new repository
+        - keep the package to make sure the repo it's in on the target system gets enabled.
+        - nothing happens to `in_packageset` as it always contains one package - the same as the "out" package.
+    * `7` - renamed
+        - remove the `in_packageset` and install the `out_packageset` if not installed.
+        - if already installed, keep the `out_packageset` as-is.
+    * `8` - reinstalled
+        - reinstall the `in_packageset` package during the upgrade transaction.
+        - mostly useful for packages that have the same version string between major versions, and thus won't be upgraded automatically.
+         
+    :::warning
+    Additional notes and exceptions:
+    * any event except `present` is ignored if any of the packages in `in_packageset` are marked for removal.
+    * any event except `merged` is ignored if any of the packages in `in_packageset` are neither installed nor marked for installation.
+    * for `merged` events it is sufficient to have at least one package from `in_packageset` either installed or marked for installation.
+    ::: 
+
+* `architectures` - defines what system architectures the listed actions are effective for.
+*` id` - defines entry ID, must be unique; use the scripts below to check your ID.
+* `in_packageset` - defines a set of packages on the system to be upgraded.
+    * The `repository` field defines the package repository the package was installed from on the source system.
+* `out_packageset` - defines a set of packages to switch to.
+    * The `repository` field for packages should be the same as the "Target system repo name in PES" field in the associated vendor repository mapping file.
+* `initial_release` - defines a system that is to be upgraded, must include OS major and minor versions, and OS name.
+- `release` - defines  target system, must include OS major and minor versions, and OS name.
+
+:::tip
+The Leapp-tool doesn't force packages from `out_packageset` to be installed from the specific repository. Instead, it enables repo from `out_packageset` and then DNF installs the latest package version from all enabled repos.
+:::
+
+When creating `in_packageset` and `out_packageset` lists, please, stick to the following format:
+
+```json
+      "in_packageset": {
+        "package": [
+          {
+            "module_stream": null,
+            "name": "PackageKit",
+            "repository": "base"
+          },
+          {
+            "module_stream": null,
+            "name": "PackageKit-yum",
+            "repository": "base"
+          }
+        ],
+        "set_id": 1592
+      },
+```
+
+#### Validate `pes.json` and ID
+
+* You can run the following scripts that will validate your package migration events file` pes.json` and check ID for duplication:
+  ```
+  #!/bin/bash
+
+  DISTRO=$1
+  PWD=$( pwd )
+
+  if [ -z "$DISTRO" ]; then
+      echo "$0 almalinux|centos|eurolinux|oraclelinux|rocky" 
+      exit 1 
+  fi
+
+  JSON_FILES=$(find ${PWD}/files/${DISTRO}/ -path "./tests" -prune -o -name "*pes*.json" -print0 | xargs -0 echo)
+  JSON_FILES="${JSON_FILES} $(find ${PWD}/vendors.d/ -path "./tests" -prune -o -name "*pes*.json*" -print0 | xargs -0 echo)"
+
+
+  echo "Validating ${JSON_FILES} for the ${DISTRO}"
+  echo
+
+  echo "... run tests/validate_json.py"
+  python3 tests/validate_json.py tests/pes-events-schema.json $JSON_FILES ||   exit 1
+  echo
+
+  echo "... run tests/validate_ids.py"
+  python3 tests/validate_ids.py $JSON_FILES || exit 1
+  echo
+
+  echo "... run tests/check_debranding.py"
+  python3 tests/check_debranding.py ${PWD}/files/${DISTRO}/pes-events.json || exit 1
+  echo
+
+  echo "$DISTRO - OK"
+  exit 0
+  ```
+
+* Check ID for duplication and fix it:
+```
+  #!/bin/bash
+
+  DISTRO=$1
+  PWD=$( pwd )
+
+  if [ -z "$DISTRO" ]; then
+      echo "$0 almalinux|centos|eurolinux|oraclelinux|rocky" 
+      exit 1
+  fi
+
+  JSON_FILES=$( find ${PWD}/vendors.d/ -path "./tests" -prune -o -name "*pes*.json*" -print0 | xargs -0 echo )
+
+  python3 tools/id_uniquifier.py ./files/${DISTRO}/pes-events.json $JSON_FILES || exit 1
+
+  echo "$DISTRO - OK"
+```
+
+
+### Creating a pull request
+
+Once you've prepared the vendor data for migration and tested the upgrade process, create a pull request to [leapp-data repository](https://github.com/AlmaLinux/leapp-data) to make it publicly available.
 
 :::warning
-`Back to the list` gets you to the `list of actions`, not to the `actions history`.
+If your v3rd party repository data is intended only for a specific OS and not all supported OSes, please put it in the `files/<target_OS>/vendors.d/`  direction. 
+
+When testing on your system, put your vendor files to the `/etc/leapp/files/vendors.d/` direction before starting the upgrade.
 :::
 
-## Extra actions
+Next, when the pull request is submitted, the AlmaLinux Team will review it. 
 
-Package Evolution Service's top menu allows you to quickly navigate between other AlmaLinux OS' services to:
-* Report an [issue](https://github.com/AlmaLinux/pes)
-* Visit [AlmaLinux home web-site](https://almalinux.org/) and [AlmaLinux Blog](https://almalinux.org/blog//)
-* Report any [bug](https://bugs.almalinux.org/my_view_page.php)
-* Visit [AlmaLinux GitHub](https://github.com/AlmaLinux/). 
+## Contribute to Testing
 
-![image](/images/elevate_homebar.png)
+We are also seeking contributors to test new ELevate features and upgrade directions. 
 
-## Get Help and Assistance
+The current ELevate process is the following:
 
-For more help and assistance, or if you want to discuss anything, you are very welcome in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
+![image](/images/elevate-testing-scheme.svg)
+
+* ELevate NG is designed to collect community contributions such as new support, features and bugfixes, leapp-repository, and leapp-data new versions. We test these enhancements first and welcome the community to test them. If you are interested please refer to the [ELevate NG Testing Guide](https://wiki.almalinux.org/elevate/ELevate-NG-testing-guide.html). 
+* ELevate NG goes to the general testing. If you are interested please refer to the [ELevate Testing Guide](https://wiki.almalinux.org/elevate/ELevate-testing-guide.html). Meanwhile, ELevate NG gathers new data, features and improvements.
+* When the updated process is tested and approved, the Almainux Team releases it to ELevate Stable and publishes the announcement via [AlmaLinux Blog](https://almalinux.org/blog/), Social Media and [Mailing List](https://lists.almalinux.org/mailman3/lists/?all-lists) which you can subscribe not the miss the news!
+
+## Get Help
+
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
