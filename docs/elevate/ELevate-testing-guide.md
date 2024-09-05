@@ -2,7 +2,7 @@
 title: "ELevate Testing Guide"
 ---
 
-###### last updated: 2024-08-30
+###### last updated: 2024-09-05
 
 # ELevate Testing Guide
 
@@ -12,11 +12,13 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 
 The ELevate Project supports a number of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS only.
-* MariaDB - for all supported operating systems 
-* nginx - for all supported operating systems 
-* PostgreSQL - for all supported operating systems 
-* Imunify - for upgrades to EL 8
-* KernelCare - for upgrades to EL 8
+* Docker CE - for all supported operating systems.
+* MariaDB - for all supported operating systems.
+* Microsoft Linux Package Repositories - for all supported operating systems.
+* nginx - for all supported operating systems.
+* PostgreSQL - for all supported operating systems.
+* Imunify - for upgrades to EL 8.
+* KernelCare - for upgrades to EL 8.
 
 :::tip
 You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
