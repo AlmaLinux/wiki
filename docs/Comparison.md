@@ -4,9 +4,25 @@ title: "Enterprise Linux Comparison"
 
 # Enterprise Linux Comparison
 
-###### Last updated 2024-07-12
+###### Last updated 2024-09-09
 
-When deciding what OS to use, having specifics outlined in a chart can help many people. The enterprise linux ecosystem is vast and has many differentiators that are nuanced and don't fit easily into charts, but we have attempted to capture some of the differentiations below. 
+When deciding what OS to use, there are many factors that come into play for a variety of reasons. This page attempts to outline some of the specific differences, while focusing on the reasons that many in the AlmaLinux community have cited as the reasons they pick AlmaLinux. The enterprise linux ecosystem is vast and has many differentiators that are nuanced, hard to articulated, and don't fit easily into charts, but we have attempted to capture some of the differentiations below. 
+
+## Build Sources
+
+In June of 2023 Red Hat announced that they would no longer be shipping their sources for Red Hat Enterprise Linux (RHEL) to git.centos.org, and would be limiting access to RHEL's sources to their customers. As a result of that change, we adjusted where we get our sources to match where RHEL gets its source. AlmaLinux utilizes package sources from both RHEL and CentOS Stream to build its distribution, in addition to other upstream sources, ensuring that our operating system remains stable and safe to use for our users. 
+
+![Build pipeline image](/images/2023.updated.almafedoraRedhatoverview.png)
+
+You can hear specifics about how AlmaLinux is built today in [this presentation](https://www.youtube.com/watch?v=aMvI5E9-LYI) from AlmaLinux Day: Germany, in March of 2024.
+
+Rocky Linux outlined where they would be getting their sources in [a blog post after the shift](https://rockylinux.org/news/keeping-open-source-open). 
+
+## Ownership
+
+AlmaLinux is wholly owned by the AlmaLinux OS Foundation, a non-profit organization founded in the US. Red Hat and Oracle are both for-profit corporations, and the [Rocky Enterprise Software Foundation][resf.link] is a [B-Corp](https://en.wikipedia.org/wiki/Benefit_corporation).
+
+At the outset, it was important to the founding members of the AlmaLinux OS project to set the structure around the project in such a way that it is nearly impossible for bad actors to take control of the project and use it for personal gain. The project needed to be able to operate with a single mission: its community. While corporate social responsibility is a noble aim, the B Corp option wasn’t a good fit as it didn’t comply with AlmaLinux’s ‘north star’ of putting ownership of the OS, the IP, and the project’s direction in the hands of the community. 
 
 ## Technical breakdown
 

@@ -39,6 +39,10 @@
  </div>
 </div>
 
+## Contributions to the Wiki
+
+There are many ways to contribute to the wiki! To see how, check out the [Contributing to Documentation](https://wiki.almalinux.org/Contribute-to-Documentation.html) guide. Before submitting pull requests, always make sure that your updates will build and display correctly, by testing in your local environment using `yarn docs:dev`.
+
 ### Transparency Statement
 
 * We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
