@@ -7,8 +7,16 @@ title: 'Beginner series'
 
 Many new users come to Linux every day, and using AlmaLinux for the first time should be as simple as possible! This serie attempts to explain some of the base level conecepts in simple language so new users won't get immediately overwhelmed. 
 
-- [File and Folder Permissions on AlmaLinux](file-and-folder-permissions.md) 
+- [File and Folder Permissions on AlmaLinux](/beginners/file-and-folder-permissions/) 
+- [User and group management explained](/beginners/users-and-groups/)
 
+## Related articles
+
+Some of our other documentation might come in handy, too! 
+
+- [Installation of AlmaLinux](/documentation/installation-guide/)
+- [After installing, what comes next?](/documentation/after-installation-guide/)
+- [Run AlmaLinux on your Windows device!](/documentation/wsl/)
 
 # Up next!
 
