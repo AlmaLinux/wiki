@@ -3,7 +3,6 @@ title: Understanding Application Streams
 ---
 
 # A01 ❯ Application Streams 
-<small>ℹ️ This article is part of the AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
