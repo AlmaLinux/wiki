@@ -3,7 +3,6 @@ title: Firewalld - A Beginner's Guide
 ---
 
 # A02 ❯ Firewalld - A Beginner's Guide
-<small>ℹ️ This article is part of the AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
