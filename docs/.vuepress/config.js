@@ -159,6 +159,7 @@ module.exports = {
                 path: '/beginners/',
                 children: [
 		              '/beginners/file-and-folder-permissions',
+		              '/beginners/users-and-groups',
 				]
 			},
             {
