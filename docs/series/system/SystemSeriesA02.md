@@ -1,5 +1,5 @@
 ---
-title: Firewalld - A Beginner's Guide
+title: 'Firewalld - A Beginner's Guide'
 ---
 
 # A02 ❯ Firewalld - A Beginner's Guide

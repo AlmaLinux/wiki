@@ -166,12 +166,23 @@ module.exports = {
 		 		   		'/series/LAMP-server',
                         ]
             },
-            {
+			{
+                title: "AlmaLinux Desktop Series ",
+                path: '/series/desktop/',
+                children: [			
+                        '/series/desktop/desktopseries01',
+                        '/series/desktop/desktopseries02',
+                        '/series/desktop/desktopseries03',
+                        '/series/desktop/desktopseries04',
+                        '/series/desktop/desktopseries05',
+                        '/series/desktop/desktopseries06',
+							]
+						},            {
                 title: "NVIDIA Install Guides",
                 path: '/series/nvidia/',
                 children: [			
-                        '/series/nvidia/nvidiaseries8x.md',
-                        '/series/nvidia/nvidiaseris9x.md',
+                        '/series/nvidia/nvidiaseries8x',
+                        '/series/nvidia/nvidiaseris9x',
 				]
 			},
           {

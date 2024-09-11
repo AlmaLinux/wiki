@@ -1,5 +1,5 @@
 ---
-title: VFX Workstation Installation Guide
+title: 'VFX Workstation Installation Guide'
 ---
 
 # Multimedia Codecs & Libraries for VFX Workstation Installation Guide
@@ -7,8 +7,8 @@ title: VFX Workstation Installation Guide
 <hr>
 | 💡 | Experience Level  | ⭐⭐☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified | 2024-07-17</small> |
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
+| 📆 | Last modified | 2024-07-17 |
+
 
 ## 🌟 Introduction
 

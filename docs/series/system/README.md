@@ -1,5 +1,5 @@
 ---
-title: AlmaLinux System Series 
+title: 'AlmaLinux System Series' 
 ---
 
 # AlmaLinux System Series 
@@ -10,7 +10,7 @@ This series will guide you through the installation, configuration, security, an
 
 **Article List**
 ----
-- [A01](SystemSeriesA01.md) ❯ Application Streams
-- [A02](SystemSeriesA02.md) ❯ Firewalld - A Beginner's Guide
-- [A04](SystemSeriesA04.md) ❯ Snapd Installation Guide
+- [A01](SystemSeriesA01) ❯ Application Streams
+- [A02](SystemSeriesA02) ❯ Firewalld - A Beginner's Guide
+- [A04](SystemSeriesA04) ❯ Snapd Installation Guide
 

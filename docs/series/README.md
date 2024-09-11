@@ -12,12 +12,12 @@ The Nginx series focuses on all things related to Nginx web server. From install
 
 Browse the articles in the Nginx series:
 
-- [A01](nginx/NginxSeriesA01.md) ❯ Beginner's Guide
-- [A02 R8](nginx/NginxSeriesA02R8.md) ❯ AlmaLinux 8.x Installation Examples
-- [A02 R9.1](nginx/NginxSeriesA02R91.md) ❯ AlmaLinux 9.1 Installation Examples
-- [A02 R9.2](nginx/NginxSeriesA02R92.md) ❯ AlmaLinux 9.2 Installation Examples
-- [A03](nginx/NginxSeriesA03.md) ❯ Default Configuration Guide
-- [A04](nginx/NginxSeriesA04P1.md) ❯ Secure Nginx Deployment
+- [A01](nginx/NginxSeriesA01) ❯ Beginner's Guide
+- [A02 R8](nginx/NginxSeriesA02R8) ❯ AlmaLinux 8.x Installation Examples
+- [A02 R9.1](nginx/NginxSeriesA02R91) ❯ AlmaLinux 9.1 Installation Examples
+- [A02 R9.2](nginx/NginxSeriesA02R92) ❯ AlmaLinux 9.2 Installation Examples
+- [A03](nginx/NginxSeriesA03) ❯ Default Configuration Guide
+- [A04](nginx/NginxSeriesA04P1) ❯ Secure Nginx Deployment
 
 ## System Series
 
@@ -25,9 +25,9 @@ Browse the articles in the Nginx series:
 
 Explore the articles in the System series:
 
-- [A01](system/SystemSeriesA01.md) ❯ Application Streams
-- [A02](system/SystemSeriesA02.md) ❯ Firewalld: A Beginner's Guide
-- [A04](system/SystemSeriesA04.md) ❯ Snapd Installation Guide
+- [A01](system/SystemSeriesA01) ❯ Application Streams
+- [A02](system/SystemSeriesA02) ❯ Firewalld: A Beginner's Guide
+- [A04](system/SystemSeriesA04) ❯ Snapd Installation Guide
 
 Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hacking! 🐧💻🚀
 

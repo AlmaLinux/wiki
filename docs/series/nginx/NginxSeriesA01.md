@@ -1,11 +1,12 @@
+---
+title: 'Nginx beginners guide'
+---
 # A01 ❯ A Beginner's Guide
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-10
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>| 
-<br>
+| 📆 | <small>Last modified </small>| 2023-05-10 |
 
 ## 🌟 Introduction
 

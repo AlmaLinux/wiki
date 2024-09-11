@@ -1,5 +1,5 @@
 ---
-title: NVIDIA - Installation on 8.x
+title: 'NVIDIA - Installation on 8.x'
 ---
 
 # NVIDIA: Installation on 8.x
@@ -7,24 +7,22 @@ title: NVIDIA - Installation on 8.x
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-07-17|
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[none](mailto:none@almalinux.org) <br>  ↳ 8.x \| x86_64 \| 2023-05-xx </small>|
-<br> 
+| 📆 | Last modified | 2024-07-17|
 
 
 ## 🌟 Introduction
 
 This is a dedicated example for the AlmaLinux 8.x series, demonstrating how to install NVIDIA's graphics driver for AlmaLinux three different ways:
 
-* Option I: Precompiled/Binary Driver 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
-* Option II: Compile Driver Source ⚠️  <small>REQURIES SWITCHING TO AN ELRepo KERNEL</small>
-* Option III: NVIDIA .run Driver Installation Guide ⚠️ <small>REQURIES manual installation of dependencies and downloading the driver manually from Nvidia website</small>
+- Option I: Precompiled/Binary Driver - using precompiled drivers is recommended.
+- Option II: Compile Driver Source - requires switching to an ELRepo kernel.
+- Option III: NVIDIA .run Driver Installation Guide - requires manual installation of dependencies and downloading the driver manually from Nvidia website
 
 ### 📖 Full list of guides for NVIDIA Driver Installation
 
 - **NVIDIA on AlmaLinux Overview [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)**
+- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](nvidiaseries8x)**
+- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](nvidiaseries9x)**
 
 ## 🔖 Option I: Install Binary Driver
 
@@ -254,11 +252,11 @@ sudo echo "Categories=System;Settings;X-Red-Hat-Base-Utilities;" | sudo tee -a /
 ## 📚 Further Reading and Next Steps
 
 <u>Get Back:</u>
-- AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](SystemSeriesA03.md)   
+- AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](/series/nvidia/)   
 
 <u>In-depth Resources:</u>
-- AlmaLinux System Series ❯ [NVIDIA: Installation on 9.x](SystemSeriesA03R9.md)
+- AlmaLinux System Series ❯ [NVIDIA: Installation on 9.x](nvidiaseries9x)
 
 <u>Related Resources:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md)
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](/series/nginx/NginxSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](/series/system/SystemSeriesA02)

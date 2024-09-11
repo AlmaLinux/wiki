@@ -1,5 +1,5 @@
 ---
-title: Snapd Installation Guide
+title: 'Snapd Installation Guide'
 ---
 
 # A04 ❯ Snapd Installation Guide

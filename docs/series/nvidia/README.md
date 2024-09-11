@@ -1,5 +1,5 @@
 ---
-title: NVIDIA Driver Guides for AlmaLinux
+title: 'NVIDIA Driver Guides for AlmaLinux'
 ---
 
 # NVIDIA Driver Guides for AlmaLinux
@@ -85,9 +85,9 @@ sudo echo "Categories=System;Settings;X-Red-Hat-Base-Utilities;" | sudo tee -a /
 ## 📚 Further Reading and Next Steps
     
 <u>In-depth Resources:</u>
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](SystemSeriesA03R8.md)
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](SystemSeriesA03R9.md)
+- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](nvidiaseries8x)
+- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](nvidiaseries9x)
 
 <u>Related Resources:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md) 
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](/series/nginx/NginxSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](/series/system/SystemSeriesA02) 

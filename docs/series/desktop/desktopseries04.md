@@ -1,5 +1,5 @@
 ---
-title: Earlyoom (Out of Memory) Installation Guide
+title: 'Earlyoom (Out of Memory) Installation Guide'
 ---
 
 # Earlyoom (Out of Memory) Installation Guide
@@ -7,8 +7,8 @@ title: Earlyoom (Out of Memory) Installation Guide
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified | 2024-07-17</small> |
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
+| 📆 | Last modified | 2024-07-17 |
+
 
 ## 🌟 Introduction
 

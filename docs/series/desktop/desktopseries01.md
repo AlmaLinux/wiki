@@ -1,5 +1,5 @@
 ---
-title: Multimedia Codecs Installation Guide
+title: 'Multimedia Codecs Installation Guide'
 ---
 
 # Multimedia Codecs Installation Guide
@@ -7,8 +7,7 @@ title: Multimedia Codecs Installation Guide
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified | 2024-07-17</small> |
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
+| 📆 | Last modified | 2024-07-17 |
 
 ## 🌟 Introduction
 

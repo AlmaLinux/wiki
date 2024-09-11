@@ -105,9 +105,9 @@ Depending on your hardware installed, you might need to install NVIDIA or AMD dr
 
 You can get NVIDIA drivers in different ways, all outlined in our guides. 
 
-- **NVIDIA on AlmaLinux Overview [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)**
+- NVIDIA on AlmaLinux Overview [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
+- NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)
+- NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)
 
 ### AMD
 

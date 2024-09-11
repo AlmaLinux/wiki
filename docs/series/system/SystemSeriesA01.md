@@ -1,5 +1,5 @@
 ---
-title: Understanding Application Streams
+title: 'Understanding Application Streams'
 ---
 
 # A01 ❯ Application Streams 

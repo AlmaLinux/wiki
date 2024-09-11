@@ -1,5 +1,5 @@
 ---
-title: Journalctl Persistent Installation Guide
+title: 'Journalctl Persistent Installation Guide'
 ---
 
 # Journalctl Persistent Installation Guide
@@ -7,8 +7,8 @@ title: Journalctl Persistent Installation Guide
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified | 2024-07-17</small> |
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
+| 📆 | Last modified | 2024-07-17 |
+
 
 ## 🌟 Introduction
 

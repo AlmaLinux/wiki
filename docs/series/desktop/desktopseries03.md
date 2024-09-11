@@ -1,5 +1,5 @@
 ---
-title: Change from Wayland to Xorg Installation Guide
+title: 'Change from Wayland to Xorg Installation Guide'
 ---
 
 # Change from Wayland to Xorg Installation Guide
@@ -7,8 +7,8 @@ title: Change from Wayland to Xorg Installation Guide
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified | 2024-07-17</small> |
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
+| 📆 | Last modified | 2024-07-17 |
+
 
 ## 🌟 Introduction
 
