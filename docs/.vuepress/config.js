@@ -157,7 +157,7 @@ module.exports = {
                 ]
             },
             {
-                title: "AlmaLinux Tutorials 🚀",
+                title: "AlmaLinux Tutorials",
                 path: '/series/system/',
                 children: [
                         '/series/system/SystemSeriesA01',
