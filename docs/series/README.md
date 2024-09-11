@@ -1,5 +1,5 @@
 ---
-title: 'AlmaLinux Tutorials 🚀'
+title: 'AlmaLinux Tutorials'
 ---
 
 # AlmaLinux Tutorials 🚀
