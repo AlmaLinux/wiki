@@ -14,9 +14,9 @@ title: 'NVIDIA Driver Guides for AlmaLinux'
 
 These guides provide instructions on how to install NVIDIA's graphics driver for AlmaLinux three different ways:
 
-* Option I: Precompiled/Binary Driver 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
-* Option II: Compile Driver Source ⚠️  <small>REQURIES SWITCHING TO AN ELRepo KERNEL</small>
-* Option III: NVIDIA .run Driver Installation Guide ⚠️ <small>REQURIES manual installation of dependencies and downloading the driver manually from Nvidia website</small>
+- Option I: Precompiled/Binary Driver - using precompiled drivers is recommended.
+- Option II: Compile Driver Source - requires switching to an ELRepo kernel.
+- Option III: NVIDIA .run Driver Installation Guide - requires manual installation of dependencies and downloading the driver manually from Nvidia website
 
 ### 📖 Full list of guides for NVIDIA Driver Installation
 

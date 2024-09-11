@@ -177,6 +177,6 @@ Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 - [Application Streams Considerations (RHEL 9)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/considerations_in_adopting_rhel_9/ref_application-streams_considerations-in-adopting-rhel-9)
 
 <u>Related Resources:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md)
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02)
 
