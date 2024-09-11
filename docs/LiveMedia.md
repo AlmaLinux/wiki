@@ -19,6 +19,10 @@ There are a few AlmaLinux Live Media Options:
 
  ![image](/images/live-media-9-kde.png)
 
+* MATE: contains MATE desktop environment with Firefox browser, LibreOffice and other applications.
+
+ ![image](/images/live-media-9-mate.png)
+
 * XFCE: contains XFCE desktop environment with Firefox browser, Thunderbird, LibreOffice, and more applications. 
 
  ![image](/images/live-media-9-xfce.png)

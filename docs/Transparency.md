@@ -44,7 +44,7 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 | social media accounts | Reassign them to AlmaLinux OS Foundation. | [In Progress](/Marketing.html#social-media-accounts) |
 | github almalinux account | Already open-sourced, nothing needs to be done | DONE |
 | Build/Test system | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3 | [DONE](https://github.com/AlmaLinux/build-system) |
-| RPM signing keys | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it | Q3 2023: Need to come up with rules for holding keys 
+| RPM signing keys | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it | Q3 2023: Need to come up with rules for holding keys |
 | EV certificate for Secure Boot | We've been on an AlmaLinux owned cert since 8.8/9.2 |  DONE |
 | Logo License for the foundation | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed | DONE - all assets in the Google drive | 
 
@@ -53,7 +53,14 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
 
-- Jan  , 2024 [Board meeting #29 agenda](https://docs.google.com/document/d/15KWe01ctwfew2LGt7mWgu9kuS1cqNgCBLl70a9gN0Ag/edit)
+- Oct 08, 2024 [Board meeting #35 agenda](https://docs.google.com/document/d/1FZQsb3KNn1SD8InYPjWI3WnCm25a0oQ2BLjHlrf7KRo)
+- Sep 10, 2024 [Board meeting #34 minutes](https://drive.google.com/file/d/1vhhTag5m0ptVlB2m7-knUFUdaoP1Aund/view)
+- Aug 13, 2024 [Board meeting #33 minutes](https://drive.google.com/file/d/10k4DAo0K_XISKHdpxiLZDwPwei3zKVFH/view)
+- Jun, July, 2024 (meetings cancelled)
+- May 08, 2024 [Board meeting #32 minutes](https://drive.google.com/file/d/1rPU7QhRbLOsSrZBQcW5xQEItwgbP1Vt1/view)
+- Apr 10, 2024 [Board meeting #31 minutes](https://drive.google.com/file/d/1A8DaxM9_4Cl927N4JEvUq7Sjs9e0VwMb/view)
+- Mar 13, 2024 [Board meeting #30 minutes](https://drive.google.com/file/d/1IBJC4YrB8wMvUd8Nka4FBoDik4TYAw34/view)
+- Feb 14, 2024 [Board meeting #29 minutes](https://drive.google.com/file/d/1pvtPWbg9CIEJWbIyb-xLd_4m93Z52DU9/view)
 - Dec 13, 2023 [Board meeting #28 minutes](https://drive.google.com/file/d/1s-AyjmpykKkoO8h0khlIVj6Rqw8x2hEy/view)
 - Nov 08, 2023 [Board meeting #27 minutes](https://drive.google.com/file/d/1mrl35cc1ASpqqvmHxzdxFfMJKja5574H/view)
 - Oct 18, 2023 [Board meeting #26 minutes](https://drive.google.com/file/d/1tcAdwSuxb36LkBbY0pF0XDMlp02lLmTS/view)

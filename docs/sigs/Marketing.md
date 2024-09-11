@@ -22,7 +22,8 @@ Meetings are every other Thursday on Google Meet at 9pm UTC. Join the Marketing 
 Properties that we are responsible for:
 
 * [almalinux.org](https://almalinux.org)
-* [shop.almalinux.org](shop.almalinux.org)
+* [shop.almalinux.org](https://shop.almalinux.org)
+* [events.almalinux.org](https://events.almalinux.org)
 
 We also provide content for other properties as needed by other SIGs.
 
@@ -42,7 +43,7 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 * Content writers -- especially for the blog and social media
 * Website maintainers -- our Hugo migration is complete, but we need to clean it up
 * Graphic designers -- we have sticker ideas, but they aren't nearly as pretty as they could be!
-* Website translations -- accepted through [Weblate](https://hosted.weblate.org/projects/almalinux/website-backend/), automatically sent to the website repo for merging in. 
+* Website translations -- accepted through [Weblate](https://hosted.weblate.org/projects/almalinux/website-backend/), automatically sent to the website repo for merging in. To contribute, take a look at the ["Help translating site"](/Help-translating-site.html) guide.
 
 We have tons of ideas and bugs on the [website repo](https://github.com/AlmaLinux/almalinux.org) and on [GitHub Projects](https://github.com/orgs/AlmaLinux/projects/5/views/1).
 

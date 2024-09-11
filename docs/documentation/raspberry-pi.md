@@ -6,14 +6,27 @@ title: "Raspberry Pi"
 
 ## About Raspberry Pi
 
-[The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux. The AlmaLinux OS releases have been tested on both the RPi3 and RPi4.
+[The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux.
+
+## Tested models
+
+The AlmaLinux OS releases have been tested on the following models.
+
+* Raspberry Pi 5 (supported since June 2024 images)
+* Raspberry Pi 4 Model B
+* Raspberry Pi 400
+* Raspberry Pi 3 Model B+
+* Raspberry Pi 3 Model A+
+
+32-bit Raspberry Pis (ARMv6/ARMv7) and original Raspberry Pi 3 (without "+" models) are not supported. Other ARMv8 Raspberry Pis such as Compute Modules are not tested but will probably work. Let us know if it doesn't work. See also [How to contribute](#how-to-contribute) section.
 
 ## Installation steps
 
 ### Download image
 
 AlmaLinux OS provides standard Raspberry Pi images and images with a GNOME desktop environment.
-Raspberry Pi images can be found on [repo.almalinux.org](https://repo.almalinux.org/rpi/):
+Raspberry Pi images can be found on repo.almalinux.org/rpi/ and [mirrors](https://mirrors.almalinux.org/). It is recommended to get images from your nearest mirror. Dig into `/9/raspberrypi/images/` or `/8/raspberrypi/images/` directory of your nearest mirror.
+
 * [AlmaLinux OS 8](https://repo.almalinux.org/almalinux/8/raspberrypi/images/)
 * [AlmaLinux OS 9](https://repo.almalinux.org/almalinux/9/raspberrypi/images/)
 
@@ -87,7 +100,7 @@ At the time of our testing, these commands were used to fetch the images:
   Primary key fingerprint: 5E9B 8F56 17B5 066C E920  57C3 488F CF7C 3ABB 34F8
        Subkey fingerprint: E53C F5EF 91CE B0AD 1812  ECB8 51D6 647E C21A D6EA
   ```
-  :::tip  
+  :::tip
   Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"` message in the output.
   :::
 
@@ -96,7 +109,7 @@ At the time of our testing, these commands were used to fetch the images:
   $ sha256sum -c CHECKSUM 2>&1 | grep OK
   AlmaLinux-8-RaspberryPi-latest.aarch64.raw.xz: OK
   ```
-  :::warning  
+  :::warning
   If the output is different, you should download the image again.
   :::
 
@@ -166,8 +179,8 @@ At the time of our testing, these commands were used to fetch the images:
   :::
 ### Burn Raspberry Pi image
 
-The next step is to burn the image to an SD card using  
-- [RPi Image](https://www.raspberrypi.com/documentation/computers/getting-started.html#using-raspberry-pi-imager)
+The next step is to burn the image to an SD card using
+- [RPi Imager](https://www.raspberrypi.com/documentation/computers/getting-started.html#using-raspberry-pi-imager)
 - [Fedora Media Writer](https://github.com/FedoraQt/MediaWriter/releases/)
 - [balenaEtcher](https://www.balena.io/etcher/)
 - `dd`
@@ -175,9 +188,13 @@ The next step is to burn the image to an SD card using
 
 When it's done insert the SD Card into your Raspberry Pi and boot.
 
+  :::tip
+  Do not use OS customization feature built in RPi Imager. AlmaLinux doesn't support the feature and it conflicts with our initialization process such as default user creation. If you want to apply custom configuration, edit `user-data` file as described in [Configuration using cloud-init](#configuration-using-cloud-init) section.
+  :::
+
 ### Getting started
 
-When you boot your Raspberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default. Proceed with resizing your root filesystem by running `sudo rootfs-expand`.
+When you boot your Raspberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default.
 
 ### Connecting to Wi-Fi
 * Check whether wifi is enabled:
@@ -234,7 +251,7 @@ The Raspberry Pi demo video can be found in the [GitHub repository](https://gith
 ## Configuration using cloud-init
 
 AlmaLinux Raspberry Pi image now supports [cloud-init](https://cloudinit.readthedocs.io/en/latest/) to perform early initialization.
-This page describes some typical examples to setup AlmaLinux Raspberry Pi image. See [the cloud-init official documentation](https://cloudinit.readthedocs.io/en/latest/index.html) for further information.
+This section describes some typical examples to setup AlmaLinux Raspberry Pi image. See [the cloud-init official documentation](https://cloudinit.readthedocs.io/en/latest/index.html) for further information.
 
 To configure early initialization, modify `user-data` file in FAT boot volume named `CIDATA` (the same location where `config.txt` exists). Please note that cloud-init usually only works at very first boot so modification on `user-data` file must be done before inserting SD card and power on your Raspberry Pi.
 
@@ -244,7 +261,8 @@ To configure early initialization, modify `user-data` file in FAT boot volume na
 The default user is `almalinux`. Add your SSH public key to enable to login to your Raspberry Pi.
 
 ```diff
-     ssh_authorized_keys:
+-     #ssh_authorized_keys:
++     ssh_authorized_keys:
        # Put here your ssh public keys
        #- ssh-ed25519 AAAAC3Nz...
 +      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQ...
@@ -261,7 +279,7 @@ Specify hashed password like this. Use `mkpasswd -m sha-512` command to generate
      sudo: [ "ALL=(ALL) NOPASSWD:ALL" ]
      lock_passwd: false
 +    passwd: "$6$hjdBm161zuYLfb9.$jkJkq5pQDkFvWPeJhnon9xHIX93SgLTNLsyQcddWJLcQGcM8qHkxDztbwt1DzTP6dmlQ3J.AA6h4JeGaVg.pS1"
-     ssh_authorized_keys:
+     #ssh_authorized_keys:
        # Put here your ssh public keys
        #- ssh-ed25519 AAAAC3Nz...
 ```
@@ -1079,7 +1097,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDtC0X1uAbqUFgbFAl3c9Zc56WaUVUdj7+S6rzdz8V2
 [  241.538302] cloud-init[592]: Cloud-init v. 22.1-9.el9.alma finished at Mon, 20 Mar 2023 00:03:48 +0000. Datasource DataSourceNoCloud [seed=/dev/mmcblk0p1][dsmode=net].  Up 241.33 seconds
 
 ```
-:::  
+:::
 
 ## How to contribute
 

@@ -46,7 +46,7 @@ Please, check FAQ section for more information.
 Last updated Dec 1, 2023
 
 # Election Committee
-* ![image](/images/elections2023/Abdullah_As-Sadeed-small.png) [Abdullah As-Sadeed](https://github.com/Abdullah-As-Sadeed)
+* ![image](/images/elections2023/Abdullah_As-Sadeed-small.png) [Abdullah As-Sadeed](https://github.com/Bitscoper/)
 * ![image](/images/elections2023/JING_LUO.png) Jing Luo
 * [Radhesh Goel](https://www.linkedin.com/in/radhesh-g)
 * ![image](/images/elections2023/Benny-small.jpg) [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/)

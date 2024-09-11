@@ -1,5 +1,5 @@
 ---
-title: "Migration Guide"
+title: 'Migration Guide'
 ---
 
 # AlmaLinux Migration Guide 
@@ -9,6 +9,7 @@ This guide describes how to convert your operating system to AlmaLinux using the
 What OSes can be converted:
 * CentOS 8
 * CentOS Stream 8, 9
+* Miracle Linux 8, 9
 * Oracle Linux 8, 9
 * RHEL 8, 9
 * Rocky Linux 8, 9
@@ -111,4 +112,8 @@ sudo bash almalinux-deploy.sh
    $ sudo grubby --info DEFAULT | grep AlmaLinux
    title="AlmaLinux (4.18.0-425.3.1.el8.x86_64) 8.7 (Stone Smilodon)"
    ```
+
+## Get Help 
+
+For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
 

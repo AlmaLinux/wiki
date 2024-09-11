@@ -10,7 +10,13 @@ EPEL packages are usually based on their Fedora counterparts and will never conf
 
 | Repository | How to Enable |
 | --- | --- |
-| EPEL | # dnf install epel-release |
+| EPEL and CRB | # dnf install epel-release |
+
+For more detailed information see the [EPEL Quickstart Guide](https://docs.fedoraproject.org/en-US/epel/).
+
+:::tip
+During the installation process, you might get a prompt to install a GPG key. Compare the key to the "Primary key fingerprint" (see ["Verify the downloaded ISO image checksum:"](../documentation/installation-guide.md#iso-verification)) and if the fingerprints match, type "y" to continue.
+:::
 
 :::tip
 Most EPEL packages require packages from PowerTools/CRB repository as dependencies. Run the suitable command to enable the PowerTools/CRB repository:
@@ -34,3 +40,10 @@ dnf config-manager --set-enabled crb
 | Repository | How to Enable |
 | --- | --- |
 | ELRepo | # dnf install elrepo-release |
+
+## RPM Fusion
+[RPM Fusion](https://rpmfusion.org/) provides software that RHEL and other Enterprise Linux distributions do not ship (like software codecs).
+
+| Repository | How to Enable |
+| --- | --- |
+| ELRepo | See _[Installing EPEL and RPM Fusion](/documentation/epel-and-rpmfusion)_ |

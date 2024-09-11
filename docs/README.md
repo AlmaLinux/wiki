@@ -27,7 +27,7 @@
     <li><b>Container Images</b>:
      <ul>
        <li><a href="https://hub.docker.com/_/almalinux">hub.docker.com/_/almalinux</a> - AlmaLinux official images on Docker Hub</li>
-      <li><a href="https://quay.io/repository/almalinux/almalinux">quay.io/repository/almalinux/almalinux</a> - AlmaLinux official images on Quay.io</li>
+      <li><a href="https://quay.io/repository/almalinuxorg/almalinux">quay.io/repository/almalinuxorg/almalinux</a> - AlmaLinux official images on Quay.io</li>
      </ul>
     </li>
     <li>Vagrant Boxes:
@@ -38,6 +38,10 @@
   </ul>
  </div>
 </div>
+
+## Contributions to the Wiki
+
+There are many ways to contribute to the wiki! To see how, check out the [Contributing to Documentation](https://wiki.almalinux.org/Contribute-to-Documentation.html) guide. Before submitting pull requests, always make sure that your updates will build and display correctly, by testing in your local environment using `yarn docs:dev`.
 
 ### Transparency Statement
 

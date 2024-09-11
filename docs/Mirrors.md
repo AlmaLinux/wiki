@@ -18,7 +18,7 @@ Use updated version of `rsync` with `xxhash` support.
    We maintain an up-to-date version
    of `rsync` in the AlmaLinux backports repository.  To use this repository on EL8 and EL9 distros:
      ```shell
-     curl http://repo.almalinux.org/backports/almalinux-backports-rsync.repo --output /etc/yum.repos.d/almalinux-backports-rsync.repo
+     curl https://repo.almalinux.org/backports/almalinux-backports-rsync.repo --output /etc/yum.repos.d/almalinux-backports-rsync.repo
      yum -y update rsync
      ```
    - You can verify that you have the expected version of `rsync` and `xxhash` support as follows:
@@ -27,9 +27,9 @@ Use updated version of `rsync` with `xxhash` support.
      xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
      ```
 :::
-2. Synchronize with the official AlmaLinux mirror via `rsync`:  
+2. Synchronize with the official AlmaLinux mirror via `rsync`:
    ```shell
-   /usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
+   /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
    ```
    - The official tier0 rsync mirrors are in Atlanta, GA, USA, and Seattle, WA, USA.  We use geolocation-based DNS steering to send your traffic to the closest tier0 mirror.  If your mirror is not in the United States or you are
    otherwise seeing suboptimal speed from this source we recommend performing the **initial** sync from a mirror
@@ -37,7 +37,7 @@ Use updated version of `rsync` with `xxhash` support.
 3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```shell
-   0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH -f 'R .~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
+   0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
 4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
    [https://ipinfo.io](https://ipinfo.io).
@@ -60,7 +60,7 @@ Use updated version of `rsync` with `xxhash` support.
    You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
    as an example. Your mirror does not have to provide all the protocols
    that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
-   Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.  
+   Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.
 
     ```YAML
     ---
@@ -76,7 +76,7 @@ Use updated version of `rsync` with `xxhash` support.
     sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
     email: <e-mail of a mirror's sponsor/holder, e.g. admin@some.company.name>
     geolocation:
-      continent: <name of a continent, e.g. North America; than field is not mandatory>
+      continent: <name of a continent, e.g. North America; this field is not mandatory>
       country: <two-letter name of a country, e.g. US>
       state_province: <name of a province, e.g. New York>
       city: <name of a city, e.g. New York>
