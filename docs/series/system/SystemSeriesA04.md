@@ -2,26 +2,25 @@
 title: 'Snapd Installation Guide'
 ---
 
-# A04 ❯ Snapd Installation Guide
-<hr>
+# Snapd Installation Guide on almaLinux
+
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-06-07
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
-<br> 
+| 📆 | Last modified | 2023-06-07
 
-## 🌟 Introduction
+
+## Introduction
 
 The snap packages for AlmaLinux can be found in the Extra Packages for Enterprise Linux (EPEL) repository. :package:
 
-### ➡️ Enable EPEL repo :minidisc:
+### Enable EPEL repo :minidisc:
 If you haven’t done it yet, enable the EPEL repository for your AlmaLinux system:
 ```
 sudo dnf install epel-release
 sudo dnf upgrade
 ```
 
-### ➡️ Install :hammer_and_wrench:
+### Install :hammer_and_wrench:
 
 :::tip
 :information_source:
@@ -41,7 +40,7 @@ With the EPEL repository and kernel-modules added to your AlmaLinux installation
 sudo dnf install snapd
 ```
 
-### ➡️ Set up :gear:
+### Set up :gear:
 
 Next, instruct systemd to enable the unit providing the snapd communication socket:
 
@@ -55,7 +54,7 @@ Then, enable classic snap support, create a symbolic link it requires:
 sudo ln -s /var/lib/snapd/snap /snap
 ```
 
-### ➡️ Last installation step :checkered_flag:
+### Last installation step :checkered_flag:
 
 To make sure the paths for snapd are updated correctly, you just need to re-login. Reboot will work too. :arrows_counterclockwise:
 

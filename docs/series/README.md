@@ -12,12 +12,11 @@ The Nginx series focuses on all things related to Nginx web server. From install
 
 Browse the articles in the Nginx series:
 
-- [A01](nginx/NginxSeriesA01) ❯ Beginner's Guide
-- [A02 R8](nginx/NginxSeriesA02R8) ❯ AlmaLinux 8.x Installation Examples
-- [A02 R9.1](nginx/NginxSeriesA02R91) ❯ AlmaLinux 9.1 Installation Examples
-- [A02 R9.2](nginx/NginxSeriesA02R92) ❯ AlmaLinux 9.2 Installation Examples
-- [A03](nginx/NginxSeriesA03) ❯ Default Configuration Guide
-- [A04](nginx/NginxSeriesA04P1) ❯ Secure Nginx Deployment
+- [Nginx, a Beginner's Guide](nginx/NginxSeriesA01) 
+- [Installing Nginx on AlmaLinux 8](nginx/NginxSeriesA02R8)
+- [Installing Nginx on AlmaLinux 9](nginx/NginxSeriesA02R92) 
+- [Default Nginx Configuration Guide](nginx/NginxSeriesA03) 
+- [Secure Nginx Deployment on AlmaLinux](nginx/NginxSeriesA04P1) 
 
 ## System Series
 
@@ -25,29 +24,19 @@ Browse the articles in the Nginx series:
 
 Explore the articles in the System series:
 
-- [A01](system/SystemSeriesA01) ❯ Application Streams
-- [A02](system/SystemSeriesA02) ❯ Firewalld: A Beginner's Guide
-- [A04](system/SystemSeriesA04) ❯ Snapd Installation Guide
+- [Understanding Application Streams](system/SystemSeriesA01) ❯ 
+- [Firewalld: A Beginner's Guide](system/SystemSeriesA02) ❯ 
+- [Snapd Installation Guide for AlmaLinux](system/SystemSeriesA04) ❯ 
 
 Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hacking! 🐧💻🚀
 
-----
-
 ## Guides for NVIDIA Driver Installation
 
-- **NVIDIA on AlmaLinux overall guide** [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
-- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)**
+- NVIDIA on AlmaLinux overall guide [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
+- NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)
+- NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)
 
 ##### Trademark Notices
 :::warning
-
-**AlmaLinux** is a registered trademark of AlmaLinux OS Foundation.
-**Linux®** is a registered trademark of Linus Torvalds in the U.S. and other countries.
-**macOS** are trademarks of Apple Inc., registered in the U.S. and other countries.
-**NVIDIA** is a registered trademark of NVIDIA Corporation in the U.S. and other countries.
-**Red Hat** is a registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries.
-**Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
-
-All trademarks are the property of their respective owners.
+In case it isn't clear, all trademarks are the property of their respective owners.
 :::

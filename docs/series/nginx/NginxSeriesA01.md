@@ -1,14 +1,13 @@
 ---
 title: 'Nginx beginners guide'
 ---
-# A01 ❯ A Beginner's Guide
-<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
-<hr>
+# Nginx: A Beginner's Guide
+
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
 | 📆 | <small>Last modified </small>| 2023-05-10 |
 
-## 🌟 Introduction
+## Introduction
 
 In this guide, we offer a detailed walk-through of Nginx installation, exploring three potential installation methods with examples for AlmaLinux OS 8.x and 9.x. You'll gain insights into essential Nginx interactions, and we'll present a tailored-learning path crafted to assist you in mastering Nginx and achieving proficiency in its utilization.
 
@@ -34,7 +33,7 @@ In this series, we will delve into best practices and uncover new aspects of Ngi
 - **Implement HTTPS**: Ensure SSL/TLS certificates are in place to encrypt traffic between your server and users.
 - **Enhance Performance**: Employ caching and load balancing techniques to optimize your server's performance and scalability.
 
-## 🧠 Fundamental Concepts 
+## Fundamental Concepts 
 
 ### Nginx Installation Variants
 
@@ -51,9 +50,9 @@ There are three ways of installing Nginx on AlmaLinux 8.x and 9.x:
  -- Allows always running the latest version of Nginx
 
 
-## 📝 Key Takeaways
+## Key Takeaways
 
-### ➡️ Installing
+### Installing
 -  **Update System Packages**: Ensure your system packages are up-to-date before installing Nginx by running:
 ```
 sudo dnf update
@@ -85,7 +84,7 @@ sudo firewall-cmd --reload
 
 
 
-### ➡️ Testing
+### Testing
 - **Start Nginx Service**: After installation, start the Nginx service with:
 ```
 sudo systemctl start nginx
@@ -120,7 +119,7 @@ sudo firewall-cmd --list-services
  :::
 
 
-### ➡️ Configuring
+### Configuring
 - **Configure Nginx**: To serve your own content, edit the Nginx configuration file at:
   ```
   /etc/nginx/nginx.conf
@@ -132,7 +131,7 @@ sudo firewall-cmd --list-services
   ```
     
 
-### ➡️ Management
+### Management
 - **Reload Nginx**: Reload Nginx to apply configuration changes with:
   ```
   sudo systemctl reload nginx
@@ -148,24 +147,20 @@ sudo firewall-cmd --list-services
  sudo systemctl enable nginx 
  ```
 
-## 📖 Release-Specific Installation
+## Release-Specific Installation
 
 <u>AlmaLinux version-specific examples:</u>
    
-   - AlmaLinux Nginx Series ❯ [AlmaLinux OS 8.x Installation Examples](NginxSeriesA02R8)
-   - AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation Examples](NginxSeriesA02R91)
-   - AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation Examples](NginxSeriesA02R92)
+- [Installing Nginx on AlmaLinux 8](NginxSeriesA02R8)
+- [Installing Nginx on AlmaLinux 9](NginxSeriesA02R92)
 
-
-## 📚 Further reading and Next Steps
+## Further reading and Next Steps
 
 <u>In-depth Resources:</u>
-
-- AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA03)
-- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1)
-
+- [Default Nginx Configuration Guide](NginxSeriesA03)
+- [Secure Nginx Deployment](NginxSeriesA04P1)
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02)
-- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
-
+- [Firewalld - A Beginner's Guide](../system/SystemSeriesA02)
+- [Application Streams](../system/SystemSeriesA01)
+- [NVIDIA Driver Installation Guides](/series/nvidia/)   

@@ -1,16 +1,15 @@
 ---
 title: 'Nginx Default Configuration Guide'
 ---
-# A03 ❯ Default Configuration Guide 
-<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
-<hr>
+# Nginx Default Configuration Guide 
+
 | 💡 | Experience Level  | ⭐⭐☆☆☆ |
 |--- | --------- | --------|
 | 📆 | Last modified | 2023-05-15
 
-## 🌟 Intoduction
+## Intoduction
 By understanding each line in the default configuration, you can modify the settings to better suit your needs. Be sure to carefully review any changes you make to the configuration and test them before deploying in a production environment. This will help ensure that your Nginx server on AlmaLinux is properly configured and running optimally.
-## 🧠 Fundamental Concepts
+## Fundamental Concepts
 
 ### Nginx Configuration File Structure
 
@@ -36,9 +35,9 @@ Nginx provides a variety of built-in variables that can be used within the confi
 
 Nginx provides directives for creating rewrite and redirect rules, such as `rewrite`, `return`, and `error_page`. These rules can be used to manipulate incoming URLs and redirect clients to different resources based on specific conditions.
 
-## 📝 Key take aways
+## Key take aways
 
-### ➡️ Basic Configuration
+### Basic Configuration
 
 - System user account Nginx runs as:
 ```
@@ -61,7 +60,7 @@ pid /run/nginx.pid;
 include /usr/share/nginx/modules/*.conf;
 ```
 
-### ➡️ Performance and Connection Settings
+### Performance and Connection Settings
 
 - Maximum connections per worker process:
 ```
@@ -92,7 +91,7 @@ keepalive_timeout 65;
 ² [Details of tcp_nodelay option (nginx.org)](http://nginx.org/en/docs/http/ngx_http_core_module.html#tcp_nodelay)<br>
   [About Neagle's algorithm (wikipedia.org)](https://en.wikipedia.org/wiki/Nagle%27s_algorithm)
 
-### 📖 Deep dive on `worker_connections`
+### Deep dive on `worker_connections`
 
 `worker_connections` directive is used to set the maximum number of simultaneous connections that a single worker process can handle. A worker process is a separate operating system process that handles the processing of client requests. The worker_connections directive is set within the events block of the Nginx configuration file.
 
@@ -103,7 +102,7 @@ Keep in mind that the total number of connections the server can handle is deter
 It’s important to find the right balance between the number of worker processes and worker connections to optimize the performance of your Nginx server based on your specific use case and hardware resources.
 
 
-### ➡️ MIME Types and Logging
+### MIME Types and Logging
 
 - Maximum size of the MIME types hash table:
 ```
@@ -134,7 +133,7 @@ log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
                   '$status $body_bytes_sent "$http_referer" '
                   '"$http_user_agent" "$http_x_forwarded_for"';
 ```
-### 📖 Break down the the default `log_format`
+### Break down the the default `log_format`
 
 - The IP address of the client making the request:
 ```
@@ -173,7 +172,7 @@ $body_bytes_sent
 "$http_x_forwarded_for"
 ```
 
-### ➡️ HTTP Server Block
+### HTTP Server Block
 
 - Included configuration files for additional server blocks:
 ```
@@ -216,7 +215,7 @@ error_page 500 502 503 504 /50x.html;
 location = /50x.html { }
 ```
 
-### ➡️ HTTPS Server Block Specific
+### HTTPS Server Block Specific
 
 - HTTPS requests listened on port 443 (SSL and HTTP/2 protocols):
 ```
@@ -251,7 +250,7 @@ ssl_prefer_server_ciphers on;
 ssl_ciphers PROFILE=SYSTEM;
 ```
 
-### 📖 More about `ssl_ciphers` setting
+### More about `ssl_ciphers` setting
 The `ssl_ciphers` directive in Nginx is used to specify the list of available ciphers that can be used for SSL/TLS connections. The order of ciphers in the list affects their priority during the SSL/TLS handshake between the server and the client.
 
 `ssl_ciphers PROFILE=SYSTEM;` tells Nginx to use the system's default cipher list for SSL/TLS connections. The system default cipher list is determined by the OpenSSL library installed on your system.
@@ -259,19 +258,16 @@ The `ssl_ciphers` directive in Nginx is used to specify the list of available ci
 Using `PROFILE=SYSTEM` can be useful when you want to rely on the system-wide cipher configuration rather than specifying a custom list of ciphers in your Nginx configuration. This approach can simplify your Nginx configuration and ensure that your server uses the recommended ciphers for your system.
 
 
-## 📚 Further reading and Next Steps
+## Further reading and Next Steps
 
 <u>Get Back:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 8.x Installation Examples](NginxSeriesA02R8)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation Examples](NginxSeriesA02R91)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation Examples](NginxSeriesA02R92)
+- [Nginx: A Beginner's Guide](NginxSeriesA01)
 
 <u>In-depth Resources:</u>
-
-- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA04P1)
+- [Installing Nginx on AlmaLinux 8](NginxSeriesA02R8)
+- [Secure Nginx Deployment](NginxSeriesA04P1)
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02)
-- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
- 
+- [Firewalld - A Beginner's Guide](../system/SystemSeriesA02)
+- [Application Streams](../system/SystemSeriesA01) 
+- [NVIDIA Driver Installation Guides](/series/nvidia/)   

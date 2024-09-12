@@ -150,7 +150,6 @@ module.exports = {
                 children: [
                         '/series/nginx/NginxSeriesA01',
                         '/series/nginx/NginxSeriesA02R8',
-                        '/series/nginx/NginxSeriesA02R91',
                         '/series/nginx/NginxSeriesA02R92',
                         '/series/nginx/NginxSeriesA03',
                         '/series/nginx/NginxSeriesA04P1',
@@ -158,7 +157,7 @@ module.exports = {
             },
             {
                 title: "AlmaLinux Tutorials",
-                path: '/series/system/',
+                path: '/series/',
                 children: [
                         '/series/system/SystemSeriesA01',
                         '/series/system/SystemSeriesA02',
@@ -182,8 +181,8 @@ module.exports = {
                 path: '/series/nvidia/',
                 children: [			
                         '/series/nvidia/nvidiaseries8x',
-                        '/series/nvidia/nvidiaseris9x',
-				]
+                        '/series/nvidia/nvidiaseries9x',
+						]
 			},
           {
                 title: 'Security Guides',

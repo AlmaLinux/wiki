@@ -1,18 +1,17 @@
 ---
 title: 'Nginx Deployment on AlmaLinux'
 ---
-# A04 ❯ Secure Nginx Deployment
-<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
-<hr>
+# Secure Nginx Deployment
+
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
 | 📆 | Last modified | 2023-05-16 |
 
 
-## 🌟 Introduction
+## Introduction
 As Nginx is a high-performance web server commonly used in public environments it makes it a prime target for malicious attacks. To enhance the security of your Nginx server and protect your web content, it's important to secure your system. This guide presents a few simple steps you can take to secure your Nginx server and help prevent unauthorized access.
 
-## 🧠 Fundamental Concepts
+## Fundamental Concepts
 
 ### General Protection
 
@@ -57,7 +56,7 @@ Monitoring your Nginx server logs can help you detect and respond to security in
 
 
 
-## 📝 Key Takeaways
+## Key Takeaways
 
 
 ### Step 1: Check The Firewalld Configuration
@@ -266,7 +265,7 @@ As with all the changes to the configuration file you need to reload the server 
 systemctl reload nginx
 ```
 
-## 📖 FAQ
+## FAQ
 
 #### Q: How to fix `Nginx: stat() failed (13: Permission denied)` with SELinux enabled?
 
@@ -336,17 +335,18 @@ sudo setenforce 1
 ```
 
 
-## 📚 Further reading and Next Steps
+## Further reading and Next Steps
 
 <u>Get Back:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 8.x Installation](NginxSeriesA01R8)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation](NginxSeriesA02R91)
-- AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA02R92)
+- [Nginx: A Beginner's Guide](NginxSeriesA01)
 
 <u>In-depth Resources:</u>
+- [Secure Nginx Deployment](NginxSeriesA04P1)
+- [Installing Nginx on AlmaLinux 8](NginxSeriesA02R8)
+- [Default Nginx Configuration Guide](NginxSeriesA03)
 
 <u>Related Resources:</u>
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02)
-- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
+- [Firewalld - A Beginner's Guide](../system/SystemSeriesA02)
+- [Application Streams](../system/SystemSeriesA01) 
+- [NVIDIA Driver Installation Guides](/series/nvidia/)   
 
