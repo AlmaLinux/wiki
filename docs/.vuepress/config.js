@@ -155,6 +155,13 @@ module.exports = {
             '/FAQ',
             '/Howto',
             {
+                title: 'Beginner Series',
+                path: '/beginners/',
+                children: [
+		              '/beginners/file-and-folder-permissions',
+				]
+			},
+            {
                 title: 'openQA Guide',
                 path: '/development/openQA',
             },
