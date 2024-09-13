@@ -19,12 +19,12 @@ Meetings are approximately every fortnight. If there's nothing confidential in t
 
 ## Activities, projects, and deliverables
 
-The SIG is responsible for a few different things, and maintains a few repos:
+The SIG is responsible for, and maintains the following:
 
 -   [Hardware Certification Program](https://almalinux.org/certification/hardware-certification/hardware-certification-program/)
     -   This program allows for the Certification SIG to engage with IHVs to certify hardware for AlmaLinux OS.
 -   [AlmaLinux/Certifications](https://github.com/AlmaLinux/certifications)
-    -   This repo is the primary point of contact for the SIG, acts as the holder of certification results, and is the location for certification requests that are not initiated by the foundation or the IHV. It is also the source for the Hardware Certification Program documentation.
+    -   This repo is the primary point of contact for the SIG, stores the certification results, and is the location for certification requests that are not initiated by the foundation or and IHV. It is also the source for the Hardware Certification Program documentation.
 -   [AlmaLinux/Hardware-Certification-Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite)
     -   This repo houses the certification suite itself, and documentation, issues tracking, and related code snippets.
 -   [Certification SIG Board](https://github.com/orgs/AlmaLinux/projects/6)
@@ -48,7 +48,7 @@ More ways to contribute:
 
 * Contributions towards expanding the [AlmaLinux Hardware Certification Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite) to represent a meaningful range of hardware and Linux hardware driver tests that an end user would expect a certification to cover.
 * Help spin up the software certification program.
-* Validate results submitted and listed on the website already
+* Confirm or provide updates to results submitted and listed on the website already.
 
 ## SIG members
 
