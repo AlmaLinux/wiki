@@ -78,10 +78,13 @@ Check the [ELevate page](/elevate/README.md) for the list of the available migra
 ### How long will AlmaLinux be supported?
 
 The AlmaLinux OS Foundation is committed to supporting AlmaLinux including stable and thoroughly tested updates and security patches until: 
+
 | Release | End-of-Life |
 |---|---|
 |AlmaLinux 8.x | 2029 |
 |AlmaLinux 9.x | 2032 |
+
+Each minor version reaches end of life when the new version is released. For example, AlmaLinux 9.2 reached end of life with the release of AlmaLinux 9.3.
 
 ### How to Report Bugs
 
