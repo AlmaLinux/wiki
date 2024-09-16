@@ -237,4 +237,4 @@ Interested in contributing to the project?
 * Create a new feature branch.
 * Write your change.
 * Submit a pull request.
-* The AlmaLinux Team will appreciate and review your contribution! 
+* The SIG members will appreciate and review your contribution! 
