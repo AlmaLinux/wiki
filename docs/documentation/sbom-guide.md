@@ -2,7 +2,7 @@
 title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 ---
 
-###### Last updated: 2024-09-16
+###### Last updated: 2024-09-17
 
 # AlmaLinux SBOM User Guide 
 
@@ -14,15 +14,15 @@ title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 
 ## About immudb
 
-The Codenotary [immudb](https://docs.immudb.io/master/immudb.html#what-is-immudb) database is integrated with AlmaLinux to ensure data integrity and provide a chain of trust and traceability. Each stage of the build process goes through authentication and notarization. 
+The AlmaLinux SBOM data is stored in Codenotary's [immudb](https://docs.immudb.io/master/immudb.html#what-is-immudb), which ensures data integrity and provides a chain of trust and traceability. Each stage of the build process goes through authentication and notarization. 
 
-AlmaLinux OS Team has developed SBOM data management [utility](https://github.com/AlmaLinux/alma-sbom) that generates SBOM records and allows users to track a package to verify if it is notarized and trusted.
+AlmaLinux OS Team has developed has developed [alma-sbom](https://github.com/AlmaLinux/alma-sbom), the SBOM data management utility for AlmaLinux, that generates SBOM records and allows users to track a package to verify if it is notarized and trusted.
 
 ## Working with *SBOM* 
 
 ### Get the AlmaLinux SBOM tool
 
-To access the immudb SBOM information for AlmaLinux you need an internet connection as records are stored in the AlmaLinux `git` repository.
+To access the SBOM information for AlmaLinux, you need an internet connection to retrieve the records from our AlmaLinux immudb instance.
 You also need to install the AlmaLinux SBOM tool:
 * Clone the [alma-sbom](https://github.com/AlmaLinux/alma-sbom) repository. 
 * Navigate to *alma-sbom* directory.
@@ -38,7 +38,7 @@ You also need to install the AlmaLinux SBOM tool:
   ```
   pip install .
   ```
-  Among installed dependencies there's [immudb-wrapper](https://github.com/AlmaLinux/immudb-wrapper) that is used to get SBOM information based on the rpm package hash.
+  Among installed dependencies there's [immudb-wrapper](https://github.com/AlmaLinux/immudb-wrapper), that is used to interact with our immudb database to save or get SBOM information based on the rpm package hash.
   
 ### Get the package you want to inspect
 
