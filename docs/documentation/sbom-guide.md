@@ -16,7 +16,7 @@ title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 
 The AlmaLinux SBOM data is stored in Codenotary's [immudb](https://docs.immudb.io/master/immudb.html#what-is-immudb), which ensures data integrity and provides a chain of trust and traceability. Each stage of the build process goes through authentication and notarization. 
 
-AlmaLinux OS Team has developed has developed [alma-sbom](https://github.com/AlmaLinux/alma-sbom), the SBOM data management utility for AlmaLinux, that generates SBOM records and allows users to track a package to verify if it is notarized and trusted.
+AlmaLinux OS Team has developed [alma-sbom](https://github.com/AlmaLinux/alma-sbom), the SBOM data management utility for AlmaLinux, that generates SBOM records and allows users to track a package to verify if it is notarized and trusted.
 
 ## Working with *SBOM* 
 
