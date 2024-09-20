@@ -2,7 +2,7 @@
 title: "ELevate Testing Guide"
 ---
 
-###### last updated: 2024-09-05
+###### last updated: 2024-09-20
 
 # ELevate Testing Guide
 
@@ -28,7 +28,7 @@ Currently, the following upgrades are available:
 
 ![image](/images/ELevateNG.svg)
 
-\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
+\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
 
@@ -48,7 +48,7 @@ Currently, the following upgrades are available:
    sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
    ```
 
-* Install leapp packages and upgrade data for AlmaLinux:  
+* Install leapp packages and upgrade data for AlmaLinux which is target OS to upgrade to:  
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```

@@ -168,7 +168,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
    sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
    ```
 
-* Install leapp packages and upgrade data for AlmaLinux:  
+* Install leapp packages and upgrade data for AlmaLinux which is target OS:  
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```

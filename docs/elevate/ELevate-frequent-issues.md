@@ -2,7 +2,7 @@
 title: ELevate Frequent Issues
 ---
 
-###### last updated: 2024-07-08
+###### last updated: 2024-09-20
 
 # ELevate Frequent Issues
 
@@ -112,10 +112,17 @@ To resolve this issue, please, follow the steps below:
 
 ## Known issues 
 
-* For now, the ELevate project supports only CentOS repositories. It doesn't support other third-party (external) repositories.
+AlmaLinux Team is working hard to get a solution for these issues. Any contribution is valuable and helps us out. If you want to help and contribute, see [how to contribute](/elevate/#how-to-contribute) information. 
+
 * Some CentOS 7 packages can remain after the upgrade.
 
-AlmaLinux Team is working hard to get a solution for these issues. Any contribution is valuable and helps us out. If you want to help and contribute, see [how to contribute](/elevate/#how-to-contribute) information. 
+### Upgrading from Scientific Linux 7
+
+Upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can apply it by running the following command before the preupgrade check: 
+
+  ```
+  rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
+  ```
 
 ## Get Help 
 

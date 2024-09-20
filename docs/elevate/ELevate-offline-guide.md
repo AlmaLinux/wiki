@@ -2,7 +2,7 @@
 title: "ELevate Offline Guide"
 ---
 
-###### last updated: 2024-04-18
+###### last updated: 2024-09-20
 
 # ELevate Offline Guide
 
@@ -80,7 +80,7 @@ To be able to install ELevate packages you need to add the local ELevate mirror 
 
 ### Install ELevate packages 
 
-* Install leapp packages and migration data for the OS you want to upgrade from the private mirror: 
+* Install leapp packages and migration data for the target OS you want to upgrade to from the private mirror: 
   ```
   sudo yum install -y leapp-upgrade leapp-data-almalinux
   ```
@@ -223,7 +223,7 @@ If this migration is the first one, you have to [create your local mirrors](#pre
 
 ### Install ELevate packages 
 
-* Install leapp packages and migration data for the OS you want to upgrade from the private mirror: 
+* Install leapp packages and migration data for the target OS you want to upgrade to from the private mirror: 
   ```
   sudo yum install -y leapp-upgrade leapp-data-almalinux
   ```
