@@ -2,7 +2,7 @@
 title: "ELevate Quickstart Guide"
 ---
 
-###### last updated: 2024-08-30
+###### last updated: 2024-09-20
 
 # ELevate Quickstart Guide
 
@@ -32,7 +32,7 @@ Currently, the following upgrade paths are available:
 
 ![image](/images/ELevateNG.svg)
 
-\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
+\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
 ### Requirements 
@@ -56,17 +56,16 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
   sudo yum install -y http://repo.almalinux.org/elevate/elevate-release-latest-el$(rpm --eval %rhel).noarch.rpm
   ```
 
-* Install leapp packages and upgrade data for the OS you want to upgrade. Possible options are:
+* Install leapp packages and upgrade data for the target OS you want to upgrade to. Possible options are:
     * leapp-data-almalinux
-    * leapp-data-centos
+    * leapp-data-centos <small>* leapp-data-centos package is designed for upgrades to CentOS Stream.</small>
     * leapp-data-eurolinux
     * leapp-data-oraclelinux
     * leapp-data-rocky
- 
+    
   ```
   sudo yum install -y leapp-upgrade leapp-data-almalinux
   ```
-
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
   :::warning

@@ -38,7 +38,7 @@ You can contribute to the project and add more 3rd party repositories support. S
    sudo yum install -y http://repo.almalinux.org/elevate/elevate-release-latest-el$(rpm --eval %rhel).noarch.rpm
    ```
 
-* Install leapp packages and upgrade data for AlmaLinux:  
+* Install leapp packages and upgrade data for AlmaLinux which is target OS:  
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```
