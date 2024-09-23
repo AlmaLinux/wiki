@@ -172,7 +172,7 @@ Expected output (test):
 nginx version: nginx/1.25.0
 ```
 
-## 📚 Further reading and Next Steps
+## Further reading and Next Steps
 
 <u>Get Back:</u>
 - [Nginx: A Beginner's Guide](NginxSeriesA01)
