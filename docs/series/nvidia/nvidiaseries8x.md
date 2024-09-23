@@ -121,7 +121,7 @@ sudo reboot
 sudo systemctl set-default graphical.target
 sudo reboot
 ```
-## 🔖 Option III: NVIDIA .run Driver Installation Guide
+## Option III: NVIDIA .run Driver Installation Guide
 
 ###   Enable needed repository
 
