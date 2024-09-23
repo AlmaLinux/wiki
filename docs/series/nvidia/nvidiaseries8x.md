@@ -53,7 +53,7 @@ sudo dnf module install nvidia-driver:latest
 sudo dnf install freeglut-devel libX11-devel libXi-devel libXmu-devel make mesa-libGLU-devel freeimage-devel libglfw3-devel
 ```
 
-## 🔖 Option II: Compile Driver Source
+## Option II: Compile Driver Source
 
 ::: tip
 Installing NVIDIA drivers on AlmaLinux 8 requires using ELRepo Mainline kernel.
