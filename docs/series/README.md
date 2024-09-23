@@ -32,9 +32,10 @@ Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hac
 
 ## Guides for NVIDIA Driver Installation
 
-- NVIDIA on AlmaLinux overall guide [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
-- NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)
-- NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)
+- NVIDIA on AlmaLinux overall guide - [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
+- NVIDIA Driver Installation Guide:
+  - [Installation on 8.x](/series/nvidia/nvidiaseries8x)
+  - [Installation on 9.x](/series/nvidia/nvidiaseries9x)
 
 ##### Trademark Notices
 :::warning
