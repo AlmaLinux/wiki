@@ -24,9 +24,9 @@ Browse the articles in the Nginx series:
 
 Explore the articles in the System series:
 
-- [Understanding Application Streams](system/SystemSeriesA01) ❯ 
-- [Firewalld: A Beginner's Guide](system/SystemSeriesA02) ❯ 
-- [Snapd Installation Guide for AlmaLinux](system/SystemSeriesA04) ❯ 
+- [Understanding Application Streams](system/SystemSeriesA01)
+- [Firewalld: A Beginner's Guide](system/SystemSeriesA02)
+- [Snapd Installation Guide for AlmaLinux](system/SystemSeriesA04)
 
 Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hacking! 🐧💻🚀
 
