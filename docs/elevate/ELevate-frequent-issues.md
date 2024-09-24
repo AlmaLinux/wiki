@@ -124,7 +124,9 @@ After the ELevate upgrade process has completed, you may encounter an error like
   ```
   The cause of this error is that during the upgrade process, ELevate uses a multitude of repositories to migrate and upgrade the system. Among them is the usage of the CRB repository. Importantly, if the CRB repository was not enabled on the system prior to using ELevate, it will remain disabled after the upgrade. This can cause future system updates via dnf to fail as some packages/package dependencies now depend on the CRB repository. 
 
-  This issue can be resolved by enabling the CRB repository. Either via `crb enable` if the EPEL repository is already enabeld, or via `dnf config-manager --set-enabled crb`. After the CRB repository is enabled, the dnf cache can be cleared and dnf update should return to normal functionality.
+  While this is one of the most commonly encountered post-ELevate dnf repository related issues, additional or alternative issues may arise from similarly absent dnf repositories that are responsible for dependency resolution.
+
+  To enable CRB or any other or any other AlmaLinux repository, please reference [this article](https://wiki.almalinux.org/repos/AlmaLinux.html)
 
 ## Known issues 
 
