@@ -126,7 +126,7 @@ After the ELevate upgrade process has completed, you may encounter an error like
 
   While this is one of the most commonly encountered post-ELevate dnf repository related issues, additional or alternative issues may arise from similarly absent dnf repositories that are responsible for dependency resolution.
 
-  To enable CRB or any other or any other AlmaLinux repository, please reference [this article](https://wiki.almalinux.org/repos/AlmaLinux.html)
+  To enable CRB or any other AlmaLinux repository, please reference [this article](/repos/AlmaLinux.html)
 
 ## Known issues 
 
