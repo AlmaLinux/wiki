@@ -6,7 +6,7 @@ title: 'AlmaLinux Build System'
 
 # Contribute to AlmaLinux Build System
 
-AlmaLinux Build System is under [SIG/Build System](/sigs/Build-System) maintanance. 
+The AlmaLinux Build System is managed by the [SIG/Build System](/sigs/Build-System) SIG. 
 
 The project is open for community contributions. If you are interested to contributing the Build System project, we recommend you checking the AlmaLinux Build System project [milestones](https://github.com/AlmaLinux/build-system/milestones) for ongoing tasks and following these guidelines.
 
