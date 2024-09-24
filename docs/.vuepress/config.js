@@ -278,6 +278,7 @@ module.exports = {
                 '/elevate/ELevate-NG-testing-guide',
                 '/elevate/ELevate-frequent-issues',
                 '/elevate/Contribution-guide',
+                '/elevate/Changelog',                
               ]
            },
          ]
