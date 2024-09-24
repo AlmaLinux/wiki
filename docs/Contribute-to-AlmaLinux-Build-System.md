@@ -107,7 +107,7 @@ When writing the body part, you can add as much details as you want on the commi
 
 #### Footer
 
-Footer is a perfect place to add references as links to fixed or resolved issue(s). If have not referenced issues in the subject, then they can be added here:
+The footer is a perfect place to add references as links to fixed or resolved issue(s). If you have not referenced issues in the subject, then they can be added here:
 ```
 Fixes https://github.com/AlmaLinux/build-system/issues/80
 ```
