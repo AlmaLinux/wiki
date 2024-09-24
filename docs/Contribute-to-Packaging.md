@@ -15,7 +15,7 @@ AlmaLinux OS is, at its base, a collection of packages. For anyone who would lik
 
 The [AlmaLinux Build System](/development/AlmaLinux-Build-System) supports Community repositories, allowing users to create packages of their projects and share them with others. 
 
-These packages can also be released to the [Synergy](/repos/Synergy) repository.
+If they are useful for the AlmaLinux community at large, these packages can also be released to the [Synergy](/repos/Synergy) repository. Not all packages are a good fit for Synergy, but we are happy to consider them! Once your package is building successfully, you can ask for it to be considered to be included in the [SIG/Core](https://chat.almalinux.org/almalinux/channels/sigcore) room on [chat.almalinux.org](https://chat.almalinux.org)
 
 If you are interested in building packages as a community repository, please use the [AlmaLinux Build System User Guide](https://github.com/AlmaLinux/build-system/wiki/ALBS:-Guide-for-Authorised-Users#community-repositories).
 
