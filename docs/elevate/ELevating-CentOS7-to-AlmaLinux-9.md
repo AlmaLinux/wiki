@@ -234,7 +234,11 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
   cannot install the best update candidate for package glibc-2.34-100.el9_4.2.x86_64
   problem with installed package nss_db-2.34-100.el9_4.2.x86_64
   ```
-  This issue can be resolved by enabling the CRB repository. Either via `crb enable` if the EPEL repository is already enabeld, or via `dnf config-manager --set-enabled crb`. After the CRB repository is enabled, the dnf cache can be cleared and dnf update should return to normal functionality.
+  This issue can be resolved by enabling the CRB repository.
+
+  While this is one of the most commonly encountered post-ELevate dnf repository related issues, additional or alternative issues may arise from similarly absent dnf repositories that are responsible for dependency resolution.
+
+  To enable CRB or any other AlmaLinux repository, please reference [this article](/repos/AlmaLinux.html)
 
 ## Get Help 
 
