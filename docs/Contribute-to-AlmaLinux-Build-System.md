@@ -75,7 +75,7 @@ Ideally, every commit message should look like this, but we try to be flexible e
 
 #### Summary
 
-Perfect summary should meet further requirements: 
+The perfect summary will meet these requirements: 
 * Short commit title, 72 chars or less.
 * Commit summary, 72 chars or less per line.
     * Keep it meaningful in a short way. Remember that you can add more details later.
