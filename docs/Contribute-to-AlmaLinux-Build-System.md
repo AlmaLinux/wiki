@@ -8,13 +8,13 @@ title: 'AlmaLinux Build System'
 
 The AlmaLinux Build System is managed by the [SIG/Build System](/sigs/Build-System) SIG. 
 
-The project is open for community contributions. If you are interested to contributing the Build System project, we recommend you start by checking the AlmaLinux Build System project [milestones](https://github.com/AlmaLinux/build-system/milestones) for ongoing tasks and following the guidelines below.
+The project is open for community contributions. If you are interested in contributing to the Build System project, we recommend you start by checking the AlmaLinux Build System project [milestones](https://github.com/AlmaLinux/build-system/milestones) for ongoing tasks and following the guidelines below.
 
 When you are ready to create a pull request with your suggested changes, please follow the **[commit guidelines](#commit-guidelines)** to keep our commit messages consistent across all repositories around the AlmaLinux Build System. 
 
 ## Contribute to the codebase
 
-To contribute to development we recommend deploying the AlmaLinux Build System [locally](https://github.com/AlmaLinux/build-system/wiki/Deploy-on-local-and-remote-machines) and follow these guide steps for possible modifications and commit guidelines.
+To contribute to development we recommend deploying the AlmaLinux Build System [locally](https://github.com/AlmaLinux/build-system/wiki/Deploy-on-local-and-remote-machines) and following these guide steps for possible modifications and commit guidelines.
 
 #### A new service's config
 * Add template to `roles/dev_deploy/templates` for config of a service. The name of the file should be `<name_of_target_config_file>.j2`.
@@ -34,14 +34,14 @@ When you are ready to create a pull request with your suggested changes, please 
 Every contributor should make commit messages that:
 * Make sense (grammatically).
 * Are meaningful/clear enough -> describe the change(s) made to the code.
-* Include references to Github issue (whenever possible).
+* Include references to a GitHub issue (whenever possible).
 * Include references to fixed (or resolved) issue(s).
 * This guide also aims to cover not only atomic commits made by contributors but also how merge commits must be performed.
 
 ### Commit messages
-For this first iteration, we aim to focus on these main two goals:
+For this first iteration, we aim to focus on these two main goals:
 * Commit messages must be precise about the changes made so other developers understand what happened in that commit.
-* A person can identify the issue in Github that motivated such change. If possible link a GitHub issue that the commit(s) fixed or resolved. 
+* A person can identify the issue in GitHub that motivated such change. If possible link a GitHub issue that the commit(s) fixed or resolved. 
 
 **Remember**, these goals apply to both regular and merge commits.
 
@@ -52,17 +52,17 @@ Depending on the context, a commit message might have specific needs in differen
 * When there is a list of meaningul commits that fixes one or several issues at a time.
 * When there's no issue involved.
 
-Even if we don't want to be very pedantic about how commits look like (unless we decide to strengthen the policy for other reasons), we'd like to be more or less consistent with the goals described above.
+Even if we don't want to be very pedantic about how commits look (unless we decide to strengthen the policy for other reasons), we'd like to be more or less consistent with the goals described above.
 
 #### A very detailed commit message
 
 The commit message should meet the requirements:
-* Should contain short (72 chars or less) summary.
+* Should contain a short (72 chars or less) summary.
 * Should contain more detailed explanatory text. Wrap it to 72 characters. The blank line separating the summary from the body is critical (unless you omit the body entirely).
 * Further paragraphs come after blank lines.
 * Bullet points are okay, too.
     * Typically a hyphen or asterisk is used for the bullet, followed by a single space. Use a hanging indent.
-* If want to add references to fixed or resolved issue(s), do it at the end as in the exmaple: 
+* If you want to add references to fixed or resolved issue(s), do it at the end as in the example: 
   ```
   Fixes: https://github.com/AlmaLinux/build-system/issues/80.
   ```
@@ -92,18 +92,18 @@ The perfect summary will meet these requirements:
 
 #### Body
 
-Body is a more detailed explanatory text. Wrap it to 72 characters. The blank line separating the summary from the body is critical (unless you omit the body entirely).
+The body is a more detailed explanatory text. Wrap it to 72 characters. The blank line separating the summary from the body is critical (unless you omit the body entirely).
 
 Further paragraphs come after blank lines.
 
 * Bullet points are okay, too.
 * Typically a hyphen or asterisk is used for the bullet, followed by a single space. Use a hanging indent.
 
-When writing the body part, you can add as much details as you want on the commit message. Just remember:
+When writing the body part, you can add as many details as you want to the commit message. Just remember:
 * The body is optional if the subject is enough to describe the commit.
 * Wrap lines to 72 characters.
 * Using the imperative or simple past tenses is acceptable, but please be consistent.
-* Feel free to describe what you think it's worth being described as if you were your colleague (that is more or less familiar to the code) that would like to understand what happened by just reading a few lines.
+* Feel free to describe what you think it's worth being described as if you were your colleague (who is more or less familiar with the code) and would like to understand what happened by just reading a few lines.
 
 #### Footer
 
@@ -119,7 +119,7 @@ Resolves https://github.com/AlmaLinux/build-system/issues/80
 Remember:
 * Not having referenced issues is a possibility in case of dependency version updates and so on.
 * Can use a bullet list for the list of references.
-* Although using Github's abbreviations is okay, we require using the full URL as it will be meaningful if somebody is not reading the commit message through Github's interface.
+* Although using GitHub's abbreviations is okay, we require using the full URL as it will be meaningful if somebody is not reading the commit message through GitHub's interface.
 
 ### Everyday Use cases
 
@@ -128,10 +128,10 @@ Remember:
 ```
 Fixed create_module_by_payload (#123)
 ```
-As you can see, simple commit messages like this one are ok. Even if not providing a good description in the commit message, it:
+As you can see, simple commit messages like this one are ok. Even if it doesn't provide a good description in the commit message, it:
 
 * Describes that there was a fix in `create_module_by_payload`.
-* References a github issue (#123).
+* References a GitHub issue (#123).
 
 However, this structure might not fit as `#123` will refer to issues/pull request within the same repository. That reference needs to be more specific.
 
@@ -146,9 +146,9 @@ Also, adding aarch64 NFV repos for AlmaLinux 9
 Resolves: https://github.com/AlmaLinux/build-system/issues/80
 ```
 In this structure you can see that we have used an expanded example that:
-
 * adds more context for the changes that were made
 * includes the full URL for which issue was fixed
+
 #### A little bit about merge commits
 
 Some commits might not be meaningful or might not include references to specific GitHub issues, so they cannot follow the same structure or be as fully descriptive. Since 99% of the time we merge pull requests (hereinafter PRs), we should add the relevant data in the commit message. By relevant data we mean the branch the code is coming from, and the information we would like to know about the commits as described earlier in the document, so that it can be understood later.
@@ -170,10 +170,10 @@ Merge pull request #562 from javihernandez:pydantic-1.10.8
 Bump Pydantic from 1.10.7 to 1.10.8
 ```
 
-Of course, and as always, ensure that if the change is motivated by a Github issue, please do add a reference in the commit message as described in the previous section of the document.
+Of course, and as always, ensure that if the change is motivated by a GitHub issue, please do add a reference in the commit message as described in the previous section of the document.
 
 #### Several commits PRs
-Usually, PRs involve more than one single commit. Ideally, they all should follow the structure described through this document, but sometimes this is not the case. We can see commit messages like:
+Usually, PRs involve more than one single commit. Ideally, they all should follow the structure described in this document, but sometimes this is not the case. We can see commit messages like:
 
 * Addressed review comments.
 * Fixed typo.
@@ -182,7 +182,7 @@ Which, for obvious reasons, do not provide a lot of information about the commit
 
 * Reference the branch being merged.
 * Reference the pull request.
-As optional things to add, merge commit messages can also (and we encourage to) include:
+As optional things to add, merge commit messages can also (and we encourage you to) include:
 
 * Highlight, description or main goal of the PR.
 * Add references to fixed or resolved issues as described earlier.
