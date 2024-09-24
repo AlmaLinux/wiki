@@ -29,7 +29,9 @@ To contribute to development we recommend deploying the AlmaLinux Build System [
 
 ## Commit Guidelines
 
-When you are ready to create a pull request with your suggested changes, we'd like to provide some commit guidelines in order to make our commit messages consistent across all repositories around the AlmaLinux Build System. Every contributor could use this document to make commits that:
+When you are ready to create a pull request with your suggested changes, please follow the guidelines below to make our commit messages consistent across all repositories around the AlmaLinux Build System. 
+
+Every contributor should make commit messages that:
 * Make sense (grammatically).
 * Are meaningful/clear enough -> describe the change(s) made to the code.
 * Include references to Github issue (whenever possible).
