@@ -6,7 +6,7 @@ title: 'Packaging'
 
 # Contribute to Packaging
 
-We welcome our community to enhance to users experience by contributing to:
+AlmaLinux OS is, at its base, a collection of packages. For anyone who would like to contribute to the operating system, we have a collection of ways to help!
 
 * [Building packages for the Community](#community-repositories)
 * [Submitting patches](#submit-patches)
