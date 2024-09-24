@@ -155,7 +155,7 @@ Some commits might not be meaningul, others might not include references, some c
 
 #### Single commit PRs
 
-Sometimes, a PR has a single and meaningful commit message that doesn't require to reference an issue, i.e.:
+Sometimes, a PR has a single and meaningful commit message that doesn't require referencing an issue, i.e.:
 
 `Bump Pydantic from 1.10.7 to 1.10.8`
 
