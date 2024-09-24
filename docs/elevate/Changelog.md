@@ -11,7 +11,7 @@ title: 'ELevate Changelog'
 ## 2024-09-24
 Released from Testing to Stable:
 * Added **Microsoft Linux Package Repositories** support for all supported operating systems.
-* Added **Docker CE** support ffor all supported operating systems.
+* Added **Docker CE** support for all supported operating systems.
 * leapp-repository rebased to upstream version [**0.21.0**](https://github.com/oamg/leapp-repository/releases/tag/v0.21.0).
 * leapp rebased to upstream version [**0.18.0**](https://github.com/oamg/leapp/releases/tag/v0.18.0).
 * leapp-data:
