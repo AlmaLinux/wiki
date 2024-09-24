@@ -119,7 +119,7 @@ Resolves https://github.com/AlmaLinux/build-system/issues/80
 Remember:
 * Not having referenced issues is a possibility in case of dependency version updates and so on.
 * Can use a bullet list for the list of references.
-* Although using Github's abbreviations is okay, we privilege using the full URL as it will be meaningful if somebody is not reading the commit message through Github's interface.
+* Although using Github's abbreviations is okay, we require using the full URL as it will be meaningful if somebody is not reading the commit message through Github's interface.
 
 ### Everyday Use cases
 
