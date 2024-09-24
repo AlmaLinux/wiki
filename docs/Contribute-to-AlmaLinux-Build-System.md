@@ -145,7 +145,10 @@ Also, adding aarch64 NFV repos for AlmaLinux 9
 
 Resolves: https://github.com/AlmaLinux/build-system/issues/80
 ```
+In this structure you can see that we have used an expanded example that:
 
+* adds more context for the changes that were made
+* includes the full URL for which issue was fixed
 #### A little bit about merge commits
 
 Some commits might not be meaningul, others might not include references, some can ollow the same structure or are not fully descriptive. Since 99% of the time we merge pull requests (hereinafter PRs), we should add the relevant data in the mere commit message. By relevant data we understand the branch the code is coming from and the information we would like to know about the commits as described earlier in the document.
