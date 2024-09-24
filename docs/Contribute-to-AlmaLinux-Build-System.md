@@ -41,7 +41,7 @@ Every contributor should make commit messages that:
 ### Commit messages
 For this first iteration, we aim to focus on these main two goals:
 * Commit messages must be precise about the changes made so other developers understand what happened in that commit.
-* A person can identify the ticket in Github that motivated such change. If possible link a GitHub issue that the commit(s) fixed or resolved. 
+* A person can identify the issue in Github that motivated such change. If possible link a GitHub issue that the commit(s) fixed or resolved. 
 
 **Remember**, these goals apply to both regular and merge commits.
 
