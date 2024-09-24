@@ -13,7 +13,7 @@ AlmaLinux OS is, at its base, a collection of packages. For anyone who would lik
 
 ## Community Repositories
 
-[AlmaLinux Build System](/development/AlmaLinux-Build-System) supports Community repositories. Users to create their projects and share them with others. 
+The [AlmaLinux Build System](/development/AlmaLinux-Build-System) supports Community repositories, allowing users to create packages of their projects and share them with others. 
 
 These packages can also be released to the [Synergy](/repos/Synergy) repository.
 
