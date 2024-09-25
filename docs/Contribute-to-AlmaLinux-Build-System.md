@@ -16,6 +16,17 @@ When you are ready to create a pull request with your suggested changes, please 
 
 To contribute to development we recommend deploying the AlmaLinux Build System [locally](https://github.com/AlmaLinux/build-system/wiki/Deploy-on-local-and-remote-machines) and following these guide steps for possible modifications and commit guidelines.
 
+### Help Wanted
+
+We are seeking contributors to help us with:
+* Python and JavaScript Developers are needed to improve UI/UX.
+* Add the ability to run test VMs in different clouds (AWS, Azure, etc.).
+* Add the ability to use external repositories for testing scenarios (e.g. LTP for kernel, CentOS tests for different packages, openQA, etc.).
+* Add OpenStack backend driver support.
+* Add Azure backend driver support.
+* Improve ability to delete a build.
+* Add Kubevirt backend support.
+
 #### A new service's config
 * Add template to `roles/dev_deploy/templates` for config of a service. The name of the file should be `<name_of_target_config_file>.j2`.
 * Add description of config to `roles/dev_deploy/defaults/main/configs.yml`.
