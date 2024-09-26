@@ -99,7 +99,19 @@ AlmaLinux Wiki documentation is written with [Markdown](https://www.markdownguid
 Please, refer to the template in the *details* and to this [page](/elevate/ELevate-quickstart-guide) as the example.
 :::details
 ```
+  ---
+  title: ' '
+  ---
+  
   # Title of the Guide
+  
+  ###### last updated: YYYY-MM-DD
+  
+  or 
+  
+  | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
+  |--------------------|---------------------- |
+  | Last modified date | YYYY-MM-DD            | 
 
   ## About
 
