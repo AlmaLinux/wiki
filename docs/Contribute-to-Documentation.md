@@ -96,6 +96,75 @@ We kindly ask that all members respect each other's diverse skills and abilities
 :::
 
 AlmaLinux Wiki documentation is written with [Markdown](https://www.markdownguide.org/basic-syntax/). Some HTML elements can also be used.
+Please, refer to the template in the *details* and to this [page](/elevate/ELevate-quickstart-guide) as the example.
+:::details
+```
+  # Title of the Guide
+
+  ## About
+
+  A brief description, purpose of the guide. What will users achieve by following it?
+
+  ## Prerequisites
+
+  List all necessary prerequisites, such as:
+  * Software or hardware required.
+  * User permissions needed.
+  * Prior knowledge or skills.
+
+  Example:
+  * Operating System: Linux (Windows/MacOS if applicable) 
+  * Software: Git, Docker, etc.
+  * Access Level: Admin rights required, etc.
+
+  ## Step-by-Step Instructions
+
+  ### Part 1
+
+  Describe steps in detail. Use code blocks, tables, lists, and images as necessary. 
+  Highlight any important notes or warnings if applicable using markdown tips/warnings.
+
+  * Step 1
+  * Step 2
+
+  **Example:**
+  (Code block or output example)
+
+  ### Part 2
+
+  Describe the next step in detail. Use code blocks, tables, lists, and images as necessary. 
+  Highlight any important notes or warnings if applicable.
+
+  * Step 1
+  * Step 2
+
+  **Example:**
+  (Code block or output example)
+
+  ## Additional Resources
+
+  Provide links to external documentation, tutorials, or resources for further learning.
+
+  * Resource 1
+  * Resource 2
+  * Official Documentation
+
+  ## Troubleshooting/Known Issues
+  Include any common/known issues that users can face and how to resolve them.
+
+  ### Issue 1: Description of issue.
+
+  Solution: Steps to solve the issue.
+
+  ### Issue 2: Another issue.
+
+  Solution: Another solution.
+
+  ## Get Help
+
+  Provide any links to forums/chats where users can report their bugs, ask for any help, assistance or reach out with their feedback.
+```
+:::
 
 All the content is located in the `/wiki/docs` directory. 
 
