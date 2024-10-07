@@ -2,6 +2,8 @@
 title: 'Build System SIG'
 ---
 
+##### last modified: 2024-09-2026
+
 # Build System SIG
 
 The Build System Team is responsible for automating processes of building distribution and packages, testing packages, signing packages, and releasing them to public repositories.
@@ -20,19 +22,26 @@ Meetings are held regularly, including a daily standup. If you would like to joi
 
 ## Activities, projects, and deliverables
 
+* [AlmaLinux Build System](https://build.almalinux.org/)
 * [Build System project's documentation and issue tracker](https://github.com/AlmaLinux/build-system)
+* [Build System project's milestones](https://github.com/AlmaLinux/build-system/milestones)
 * [Build System Web-Server](https://github.com/AlmaLinux/albs-web-server)
 * [Build System Build Node](https://github.com/AlmaLinux/albs-node)
 * [Build System Test System](https://github.com/AlmaLinux/alts)
 * [Build System Frontend](https://github.com/AlmaLinux/albs-frontend)
+* [Build System Sign Node](https://github.com/AlmaLinux/albs-sign-node)
+* [Build System Sign File](https://github.com/AlmaLinux/albs-sign-file)
+* [Build System Tests Cacher](https://github.com/AlmaLinux/alma-tests-cacher)
 
 ### Help wanted:
 
+* Python and JavaScript Developers are needed to improve UI/UX.
+* Add the ability to run test VMs in different clouds (AWS, Azure, etc.).
+* Add the ability to use external repositories for testing scenarios (e.g. LTP for kernel, CentOS tests for different packages, openQA, etc.).
 * Add OpenStack backend driver support.
-* Improve OpenNebula backend driver support.
 * Add Azure backend driver support.
-* Improve ability to delete a build. 
-* Add support for external test projects.
+* Improve the ability to delete a build.
+* Add Kubevirt backend support.
 
 ## SIG Members:
 
@@ -42,6 +51,9 @@ Meetings are held regularly, including a daily standup. If you would like to joi
 * [Vasily Kleschov](mailto:vkleschov@cloudlinux.com) - Build System Team Lead.
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
+* [Roman Kravchenko](mailto:rkravchenko@cloudlinux.com) - Product Owner.
+  * Chat login: [roman-of-the-bs](https://chat.almalinux.org/almalinux/messages/@roman-of-the-bs)
+  * GitHub profile: [forbiddenpotato](https://github.com/forbiddenpotato)
 * [Javier Hernández Antúnez](mailto:jhernandez@cloudlinux.com) - The software developer engineer.
   * Chat login: [jhernandez](https://chat.almalinux.org/almalinux/messages/@jhernandez)
   * GitHub profile: [javihernandez](https://github.com/javihernandez)
@@ -52,6 +64,21 @@ Meetings are held regularly, including a daily standup. If you would like to joi
   * Chat login: [anfimovdm](https://chat.almalinux.org/almalinux/messages/@anfimovdm)
   * GitHub profile: [anfimovdm](https://github.com/anfimovdm)
 * [Maksim Petuhov](mailto:mpetuhov@cloudlinux.com) - The UI designer.
-    * Chat login: [mxpthv](https://chat.almalinux.org/almalinux/messages/@mxpthv)
-    * GitHub profile: [maccelf](https://github.com/maccelf)
+  * Chat login: [mxpthv](https://chat.almalinux.org/almalinux/messages/@mxpthv)
+  * GitHub profile: [maccelf](https://github.com/maccelf)
+* [Kirill Zhukov](mailto:kzhukov@cloudlinux.com) - The software developer engineer.
+  * Chat login: [kzhukov](https://chat.almalinux.org/almalinux/messages/@kzhukov)
+  * GitHub profile: [zklevsha](https://github.com/zklevsha)
+* [Aleksandra Kachanova](mailto:akachanova@cloudlinux.com) - The software developer engineer.
+  * Chat login: [akachanova](https://chat.almalinux.org/almalinux/messages/@akachanova)
+  * GitHub profile: [bklvsky](https://github.com/bklvsky)
+* [Lev Pambuk](mailto:lpambuk@cloudlinux.com) - The software developer engineer.
+  * Chat login: [levpambuk](https://chat.almalinux.org/almalinux/messages/@levpambuk)
+  * GitHub profile: [Kwaizer](https://github.com/Kwaizer)
+* Koichiro Iwao - The software developer engineer, and contributor from Cybertrust Japan Co., Ltd.
+  * Chat login: [koichiro.iwao](https://chat.almalinux.org/almalinux/messages/@koichiro.iwao)
+  * GitHub profile: [metalefty](https://github.com/metalefty)
+* Souta Kawahara - The software developer engineer, and contributor from Cybertrust Japan Co., Ltd.
+  * Chat login: [souta.kawahara](https://chat.almalinux.org/almalinux/messages/@souta.kawahara)
+  * GitHub profile: [KAWAHARA-souta](https://github.com/KAWAHARA-souta)
 
