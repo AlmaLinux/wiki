@@ -2,7 +2,7 @@
 title: 'ELevate Contribution Guide'
 ---
 
-###### last updated: 2024-08-30
+###### last updated: 2024-10-07
 
 # Contribute to the ELevate project 
 
@@ -14,11 +14,13 @@ We welcome contributors to the ELevate project. You can help with:
 
 Currently, the ELevate project supports the following of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS only.
+* Docker CE - for all supported operating systems.
 * MariaDB - for all supported operating systems.
+* Microsoft Linux Package Repositories - for all supported operating systems.
 * nginx - for all supported operating systems.
 * PostgreSQL - for all supported operating systems.
-* Imunify - for upgrades to EL8.
-* KernelCare - for upgrades to EL8.
+* Imunify - for upgrades to EL 8.
+* KernelCare - for upgrades to EL 8.
 
 This guide provides steps to integrate 3rd party repository packages into the ELevate upgrade process. 
 :::danger

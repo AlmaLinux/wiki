@@ -2,7 +2,7 @@
 title: 'AlmaLinux Migration Projects'
 ---
 
-###### last updated: 2024-08-30
+###### last updated: 2024-10-07
 
 # AlmaLinux Migration Projects
 
@@ -34,9 +34,11 @@ Please note, the ELevate project is designed to perform one-step upgrades. If yo
 
 The ELevate project supports a number of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS only.
-* MariaDB - for all supported operating systems. 
-* nginx - for all supported operating systems. 
-* PostgreSQL - for all supported operating systems. 
+* Docker CE - for all supported operating systems.
+* MariaDB - for all supported operating systems.
+* Microsoft Linux Package Repositories - for all supported operating systems.
+* nginx - for all supported operating systems.
+* PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
 * KernelCare - for upgrades to EL 8.
 
