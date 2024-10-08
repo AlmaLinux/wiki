@@ -82,7 +82,7 @@ The commit message should meet the requirements:
   Resolves: https://github.com/AlmaLinux/build-system/issues/80.
   ```
 
-Ideally, every commit message should look like this, but we try to be flexible enough.
+Ideally, every commit message should look like this, but we try to be flexible enough. You can also refer to the [example](https://github.com/AlmaLinux/albs-web-server/commit/db062d4e69fe7bc93c59ce5c4c977e3fc3667419).
 
 #### Summary
 
@@ -197,6 +197,15 @@ As optional things to add, merge commit messages can also (and we encourage you 
 
 * Highlight, description or main goal of the PR.
 * Add references to fixed or resolved issues as described earlier.
+
+#### Example
+
+You can refer to this example when writing the commit. The merge [commit](https://github.com/AlmaLinux/albs-web-server/commit/7e0f7f835917fd670de6d770867fdc9720272baf) includes:
+* PR number
+* A branch being merged
+
+Since it's a 2 commits PR, linking to issue being resolved is not mandatory, as usually described in one of the commits. For single commit PRs, we can add the reference in the merge commit if it's missing. In the example, we're referencing the PR and the issue that it fixes, not the branch being merged, but anybody can go and check the branch this commit is coming from.
+
 
 ## Get Help
 
