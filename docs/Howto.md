@@ -5,10 +5,7 @@ title: 'Howtos'
 
 ## Installation Guides
 - [EPEL and RPM Fusion](/documentation/epel-and-rpmfusion)
-- [ionCube Loader](https://cloud7.news/how-tos/how-to-install-ioncube-loader-in-almalinux/) 
-- [Varnish](https://cloud7.news/how-tos/how-to-install-varnish-on-almalinux/) 
 - [Nginx](https://orcacore.com/install-nginx-web-server-almalinux-9/)
-- [cPanel](https://cloud7.news/how-tos/how-to-install-cpanel/)
 - [Foreman](https://www.how2shout.com/linux/how-to-install-foreman-on-rocky-or-almalinux-8/)
 - [phpMyAdmin](https://wiki.crowncloud.net/?How_to_Install_phpMyAdmin_on_AlmaLinux_8)
 - [Apache Web Server](https://www.linode.com/docs/guides/install-and-use-apache-on-almalinux/)
