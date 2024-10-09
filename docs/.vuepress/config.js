@@ -103,8 +103,10 @@ module.exports = {
           title: 'Contribute',
           children: [
             '/Contribute',
+            '/Contribute-to-AlmaLinux-Build-System',
             '/Contribute-to-Documentation',
             '/Mirrors',
+            '/Contribute-to-Packaging',
             '/Contribute-to-Testing',
             '/Help-translating-site',
             {
