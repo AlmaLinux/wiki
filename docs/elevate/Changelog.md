@@ -2,13 +2,13 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2024-09-24
+###### last updated: 2024-10-09
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
-## 2024-09-30
+## 2024-10-09
 Released from Testing to Stable:
 * Fixed leapp actions that were causing packages removal and as so the upgrade process to fail: 
   * For configurations with **Imunify360** repository enabled, a *replace* leapp action will be taken for the `libunwind` package. 
