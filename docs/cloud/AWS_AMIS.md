@@ -83,7 +83,7 @@ AlmaLinux OS |8.10.20240820 |ap-southeast-3 |ami-0421142e62ebe3f44 |aarch64
 AlmaLinux OS |8.10.20240820 |ap-southeast-4 |ami-051f723cbeee1e2eb |x86_64
 AlmaLinux OS |8.10.20240820 |ap-southeast-4 |ami-08b27bfedd2b5583c |aarch64
 AlmaLinux OS |8.10.20240820 |ap-southeast-5 |ami-036a6b681793c4841 |x86_64
-AlmaLinux OS |9.10.20240820 |ap-southeast-5 |ami-094a0bc259323b834 |aarch64
+AlmaLinux OS |8.10.20240820 |ap-southeast-5 |ami-094a0bc259323b834 |aarch64
 AlmaLinux OS |8.10.20240820 |ca-central-1 |ami-0ddf77a117c0069b8 |x86_64
 AlmaLinux OS |8.10.20240820 |ca-central-1 |ami-04c49099a1a4b33c4 |aarch64
 AlmaLinux OS |8.10.20240820 |ca-west-1 |ami-0dd63ce06d19b3c0d |x86_64
