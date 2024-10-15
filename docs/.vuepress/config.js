@@ -37,6 +37,7 @@ module.exports = {
          children: [
            '/release-notes/9.4',
            '/release-notes/8.10',
+           '/release-notes/9.5-beta',
             {
             title: "Older AlmaLinux 9 releases",
   			  children: [
