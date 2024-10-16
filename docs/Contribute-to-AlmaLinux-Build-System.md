@@ -2,7 +2,7 @@
 title: 'AlmaLinux Build System'
 ---
 
-###### last updated: 2024-09-20
+###### last updated: 2024-10-16
 
 # Contribute to AlmaLinux Build System
 
@@ -18,25 +18,18 @@ To contribute to development we recommend deploying the AlmaLinux Build System [
 
 ### Help Wanted
 
-We are seeking contributors to help us with:
-* Python and JavaScript Developers are needed to improve UI/UX.
-* Add the ability to run test VMs in different clouds (AWS, Azure, etc.).
-* Add the ability to use external repositories for testing scenarios (e.g. LTP for kernel, CentOS tests for different packages, openQA, etc.).
-* Add OpenStack backend driver support.
-* Add Azure backend driver support.
-* Improve ability to delete a build.
-* Add Kubevirt backend support.
+* Help on keeping our Build System SIG documentation up to date (READMEs in repos, wiki, docs, SIG wiki page, etc).
+* Testing (experience with pytest), we need help to:
+  * Increase our test coverage in repos that already have tests.
+  * Add tests to those that don't have tests at all.
+  * Design and implement integration/e2e tests that involve different services.
+* Familiar with Ansible? Help us in testing and improving our current ansible roles to deploy the AlmaLinux Build System.
+* Interested in supply-chain security and SBOM? Help us in defining the next steps toward providing and expanding the current SBOM data that AlmaLinux OS is generating.
 
-#### A new service's config
-* Add template to `roles/dev_deploy/templates` for config of a service. The name of the file should be `<name_of_target_config_file>.j2`.
-* Add description of config to `roles/dev_deploy/defaults/main/configs.yml`.
-
-#### A new directory
-* Add description to `roles/dev_deploy/defaults/main/common.yml`.
-
-#### A new docker container
-* Add a new description of a container's docker image to `roles/dev_deploy/defaults/main/docker_images.yml`.
-* Add a new description of a docker container to `roles/dev_deploy/defaults/main/docker_containers.yml`.
+Our tech stack:
+* Backend: Python, FastAPI, SQLAlchemy, PostgreSQL, Redis.
+* Frontend: JavaScript, Vue.js, Quasar.
+* Tooling: Docker, Docker Compose, Ansible, Terraform.
 
 ## Commit Guidelines
 
@@ -60,7 +53,7 @@ For this first iteration, we aim to focus on these two main goals:
 Depending on the context, a commit message might have specific needs in different situations, i.e.:
 
 * There is only a single commit that fixes a single issue.
-* When there is a list of meaningul commits that fixes one or several issues at a time.
+* When there is a list of meaningful commits that fixes one or several issues at a time.
 * When there's no issue involved.
 
 Even if we don't want to be very pedantic about how commits look (unless we decide to strengthen the policy for other reasons), we'd like to be more or less consistent with the goals described above.
@@ -157,8 +150,8 @@ Also, adding aarch64 NFV repos for AlmaLinux 9
 Resolves: https://github.com/AlmaLinux/build-system/issues/80
 ```
 In this structure you can see that we have used an expanded example that:
-* adds more context for the changes that were made
-* includes the full URL for which issue was fixed
+* adds more context to the changes that were made
+* includes the full URL for which the issue was fixed
 
 #### A little bit about merge commits
 
