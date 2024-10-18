@@ -2,11 +2,16 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2024-10-09
+###### last updated: 2024-10-18
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2024-10-18
+Released from Testing to Stable:
+* Extend upgrade path with the ability to elevate to AlmaLinux OS 8 versions *8.7*, *8.8*, *8.9*, *8.10*, and AlmaLinux OS 9 versions *9.0*, *9.1*, *9.2*, *9.3*, *9.4* versions with --target option set.
+* Remove the *9.5* target version from the upgrade path for all supported operating systems until this version is released.
 
 ## 2024-10-09
 Released from Testing to Stable:
