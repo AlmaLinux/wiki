@@ -30,6 +30,7 @@ dnf config-manager --set-enabled powertools
 **AlmaLinux OS 9**
 ```
 dnf config-manager --set-enabled crb
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 ```
 :::
 
