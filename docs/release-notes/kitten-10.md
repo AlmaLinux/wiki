@@ -108,7 +108,7 @@ There are three installation ISO images available:
 Download a suitable ISO image from the 10-kitten/isos/$arch/ directory, for example:
 
 ```bash
-$ wget https://kitten.repo.almalinux.org/10-kitten/isos/x86_64/.iso
+$ wget https://kitten.repo.almalinux.org/10-kitten/isos/x86_64/AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso
 ```
 
 Download and import the AlmaLinux OS public key:
