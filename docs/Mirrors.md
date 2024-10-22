@@ -10,7 +10,7 @@ help us with this. The current list of public mirrors can be found on the
 
 You can create a public AlmaLinux mirror in a few easy steps:
 
-1. Make sure that you have enough free space: 500GB per major version is the suggested minimum.  As there are currently two supported major versions (8 and 9) the recommended minimum storage space is 1TB.
+1. Make sure that you have enough free space: 500GB per major version is the suggested minimum.  As there are currently two supported major versions (8 and 9) the recommended minimum storage space is 1TB.  If you are also mirroring [AlmaLinux OS Kitten](https://wiki.almalinux.org/development/almalinux-os-kitten-10.html) we recommend 1.5TB.
 ::: tip Optional but recommended
 Use updated version of `rsync` with `xxhash` support.
    - `xxhash` provides a superior hashing algorithm to `rsync` which lightens the load on the source and destination
@@ -31,14 +31,23 @@ Use updated version of `rsync` with `xxhash` support.
    ```shell
    /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
    ```
-   - The official tier0 rsync mirrors are in Atlanta, GA, USA, and Seattle, WA, USA.  We use geolocation-based DNS steering to send your traffic to the closest tier0 mirror.  If your mirror is not in the United States or you are
-   otherwise seeing suboptimal speed from this source we recommend performing the **initial** sync from a mirror
-   close to you.  Make sure that your cron syncs from the official mirror, however.
+   - The official tier0 rsync mirrors are in Atlanta, GA, USA; Seattle, WA, USA; Frankfurt, Germany, and Tokyo, Japan.  We use geolocation-based DNS steering to send your traffic to the closest tier0 mirror.
 3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```shell
    0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
+::: tip Optional Mirroring of AlmaLinux Kitten
+We maintain AlmaLinux kitten in a separate rsync module so you can choose whether or not to sync it.  It is not required to be mirrored to be an AlmaLinux mirror, but all mirroring is welcomed and appreciated.  Do keep in mind that the `almalinux-kitten` module should be synced as its own top-level project and must NOT be placed inside of the main `almalinux` target on your server.  AlmaLinux Kitten mirroring requires very little extra bandwidth.
+  - Initial sync:
+  ```shell
+  /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/
+  ```
+  - Cron:
+  ```shell
+  0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
+```
+:::
 4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
    [https://ipinfo.io](https://ipinfo.io).
    Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
@@ -71,6 +80,13 @@ Use updated version of `rsync` with `xxhash` support.
       https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux>
       rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux>
       ftp: <ftp URL to a mirror, e.g. ftp://almalinux.mirror.link/almalinux>
+    # if you are mirroring kitten as well provide only the protocols/URLs that you are hosting
+    # remove this section if you are not mirroring kitten
+    address_optional:
+      kitten:
+        http: <http URL to a mirror, e.g. http://almalinux.mirror.link/almalinux-kitten>
+        https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux-kitten>
+        rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux-kitten>
     update_frequency: <update frequency of a mirror, e.g. 1h>
     sponsor: <Name of a mirror's sponsor/holder, e.g. Some company name>
     sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
