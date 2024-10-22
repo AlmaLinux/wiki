@@ -38,6 +38,8 @@ Version 8 will have active support until 31 May 2024, and security support until
 
 ### AlmaLinux OS Kitten 10
 
+AlmaLinux OS Kitten 10 active support will match the end of CentOS Stream 10.
+
 | Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
 | [Kitten 10](/release-notes/kitten-10) | Lion Cub | 22 Oct 2024 | 6.11.0-25 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
