@@ -2,13 +2,15 @@
 title: "Release Notes"
 ---
 
+###### last updated: 2024-10-22
+
 # AlmaLinux Release Notes
 
 These are AlmaLinux Release Notes listed with Release Version, General Availability Date, Codename, Kernel Version.
 
-### AlmaLinux 9
+### AlmaLinux OS 9
 
-Version 9 will have active support until 31 May 2027, and security support until 31 May 2032. Each minor version reaches end of life when the new version is released. For example, AlmaLinux 9.2 reached end of life with the release of AlmaLinux 9.3.
+Version 9 will have active support until 31 May 2027, and security support until 31 May 2032. Each minor version reaches end of life when the new version is released. For example, AlmaLinux OS 9.2 reached end of life with the release of AlmaLinux OS 9.3.
 
 | Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
@@ -19,9 +21,9 @@ Version 9 will have active support until 31 May 2027, and security support until
 | [9.1](/release-notes/9.1) | Lime Lynx | 02 Nov 2022 | 16 Nov 2022 | 5.14.0-162.6.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.0](/release-notes/9.0) | Emerald Puma | 19 Apr 2022 | 26 May 2022 | 5.14.0-70.13.1 | x86_64, aarch64, ppc64le, s390x  |
 
-### AlmaLinux 8
+### AlmaLinux OS 8
 
-Version 8 will have active support until 31 May 2024, and security support until 31 May 2029. Each minor version reaches end of life when the new version is released. For example, AlmaLinux 8.9 reached end of life with the release of AlmaLinux 8.10.
+Version 8 will have active support until 31 May 2024, and security support until 31 May 2029. Each minor version reaches end of life when the new version is released. For example, AlmaLinux OS 8.9 reached end of life with the release of AlmaLinux OS 8.10.
 
 | Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
@@ -33,6 +35,13 @@ Version 8 will have active support until 31 May 2024, and security support until
 | [8.5](/release-notes/8.5) | Arctic Sphynx | 13 Oct 2021 | 12 Nov 2021 | 4.18.0-348 | x86_64, aarch64, ppc64le |
 | [8.4](/release-notes/8.4) | Electric Cheetah | 20 Apr 2021 | 26 May 2021 | 4.18.0-305 | x86_64, aarch64 |
 | [8.3](/release-notes/8.3) | Purple Manul | 1 Feb 2021 | 30 Mar 2021 | 4.18.0-240 | x86_64 |
+
+### AlmaLinux OS Kitten 10
+
+| Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Release Date | Kernel | Supported Architectures |
+|---|---|---|---|---|---|
+| [Kitten 10](/release-notes/kitten-10) | Lion Cub | 22 Oct 2024 | 6.11.0-25 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
+
 
 **Run the following commands to find:**
 * your AlmaLinux release
