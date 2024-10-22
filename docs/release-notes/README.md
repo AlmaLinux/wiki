@@ -37,6 +37,7 @@ Version 8 will have active support until 31 May 2024, and security support until
 | [8.3](/release-notes/8.3) | Purple Manul | 1 Feb 2021 | 30 Mar 2021 | 4.18.0-240 | x86_64 |
 
 ### AlmaLinux OS Kitten 10
+###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
 
 AlmaLinux OS Kitten 10 active support will match the end of CentOS Stream 10.
 
