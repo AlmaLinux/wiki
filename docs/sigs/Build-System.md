@@ -33,9 +33,9 @@ Meetings are held regularly, including a daily standup. If you would like to joi
 * [Build System Sign File](https://github.com/AlmaLinux/albs-sign-file)
 * [Build System Tests Cacher](https://github.com/AlmaLinux/alma-tests-cacher)
 * Documentation:
-  * About AlmaLinux Build System and its structure - [AlmaLinux Build System](/development/AlmaLinux-Build-System)
-  * About SBOM - [SBOM guide](/documentation/sbom-guide)
-  * How to contribute to AlmaLinux Build System - [Contribute to AlmaLinux Build System](Contribute-to-AlmaLinux-Build-System)
+  * About AlmaLinux Build System and its structure - [AlmaLinux Build System](/development/AlmaLinux-Build-System).
+  * About SBOM - [SBOM guide](/documentation/sbom-guide).
+  * How to contribute to AlmaLinux Build System - [Contribute to AlmaLinux Build System](/Contribute-to-AlmaLinux-Build-System).
 
 ### Help wanted:
 
