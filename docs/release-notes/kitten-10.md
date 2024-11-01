@@ -2,7 +2,7 @@
 title: 'Kitten 10'
 ---
 
-###### last updated: 2024-10-22
+###### last updated: 2024-11-01
 
 # AlmaLinux OS Kitten 10 Release Notes
 
