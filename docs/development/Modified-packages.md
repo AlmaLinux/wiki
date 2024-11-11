@@ -1,7 +1,7 @@
 ---
 title: "Modified packages"
 ---
-###### last updated: 2024-10-22
+###### last updated: 2024-11-11
 
 # AlmaLinux OS Modified packages
 
@@ -66,6 +66,7 @@ This table lists AlmaLinux OS packages with modified sources.
 | pesign | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/pesign/commit/c7c43ad2c86964976ac5c23aa60e0ca6f61a12e4) | - Add x86_64_v2 support |
 | python2 | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/python2/commit/c6c16b43455d5c0cafa9c2313c2ee71086535d61) |Doesn't require modification | Doesn't require modification | - Add AlmaLinux OS to supported distros |
 | python3 | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/python-psycopg2/commit/4e9ae78a23ce76ee0292634f6eb4b018dc0879a8) |Doesn't require modification | Doesn't require modification | - Add AlmaLinux OS to supported distros |
+| python-rpmautospec | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/python-rpmautospec/commit/d3c3bf3fd24d8c691fa575a493f93aecafc9d1a7) | -Add AlmaLinux OS change identifier |
 | python-nss | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/python-nss/commit/43e6c2c074aa364c5691d2b0b0316365ab6ac328)|Doesn't require modification | Doesn't require modification | - Fix FTBFS with NSS v3.58+ caused by conflicting struct names |
 | python-productmd | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/python-productmd/commit/a1ba031d7c36cd05804f0cab7820ccb184ff3705) | - Add x86_64_v2 support |
 | python-psycopg2 | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/python-psycopg2/commit/4e9ae78a23ce76ee0292634f6eb4b018dc0879a8) |Doesn't require modification | Doesn't require modification |- Add patch <i>0001-Mark-_test_external_close-as-expected-failure.patch</i> |
