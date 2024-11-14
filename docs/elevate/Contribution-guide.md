@@ -2,7 +2,7 @@
 title: 'ELevate Contribution Guide'
 ---
 
-###### last updated: 2024-10-07
+###### last updated: 2024-11-14
 
 # Contribute to the ELevate project 
 
@@ -20,7 +20,7 @@ Currently, the ELevate project supports the following of 3rd party repositories:
 * nginx - for all supported operating systems.
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
-* KernelCare - for upgrades to EL 8.
+* KernelCare - for all supported operating systems.
 
 This guide provides steps to integrate 3rd party repository packages into the ELevate upgrade process. 
 :::danger
