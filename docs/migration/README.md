@@ -2,7 +2,7 @@
 title: 'AlmaLinux Migration Projects'
 ---
 
-###### last updated: 2024-10-07
+###### last updated: 2024-11-14
 
 # AlmaLinux Migration Projects
 
@@ -40,7 +40,7 @@ The ELevate project supports a number of 3rd party repositories:
 * nginx - for all supported operating systems.
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
-* KernelCare - for upgrades to EL 8.
+* KernelCare - for all supported operating systems.
 
 :::tip
 You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.

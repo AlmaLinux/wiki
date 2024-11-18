@@ -2,7 +2,7 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2024-09-05
+###### last updated: 2024-11-14
 
 # ELevate NG Testing Guide
 
@@ -18,7 +18,7 @@ The ELevate NG supports a number of 3rd party repositories:
 * nginx - for all supported operating systems.
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
-* KernelCare - for upgrades to EL 8.
+* KernelCare - for all supported operating systems.
 
 :::tip
 You can add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.

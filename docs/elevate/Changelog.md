@@ -2,11 +2,19 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2024-10-18
+###### last updated: 2024-11-18
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2024-11-18
+Released from Testing to Stable:
+* Update AlmaLinux leapp upgrade repository files to use `$releasever` instead of major OS version (e.g., `8` or `9`).
+* Add CentOS 7 ELS repos support for upgrades to Oracle Linux 8.
+* Add KernelCare vendor support for EL8 to EL9 upgrades.
+* Add support for architectures other than x86_64 by updating map files. Users can follow the standard [Quickstart guide](/elevate/ELevate-quickstart-guide) without any additional steps for these architectures.
+* Avoid creating symbolic links such as `/etc/leapp/repos.d/system_upgrade;67377d17` and prevent conflicts between `leapp-upgrade-*` and `leapp-data-*` packages in the `/etc/leapp/repos.d/system_upgrade` path when upgrading CentOS 7 to AlmaLinux OS 9. These issues occur if `leapp-data-*` packages remain installed after upgrading from CentOS 7 to EL8. Therefore, **we strongly recommend removing all ELevate-related EL7 packages before proceeding with the upgrade to EL9**.
 
 ## 2024-10-18
 Released from Testing to Stable:
