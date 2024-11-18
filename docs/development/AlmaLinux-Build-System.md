@@ -2,7 +2,7 @@
 title: 'AlmaLinux Build System'
 ---
 
-###### last updated: 2024-09-10
+###### last updated: 2024-10-28
 
 # AlmaLinux Build System
 
@@ -21,6 +21,18 @@ title: 'AlmaLinux Build System'
 AlmaLinux OS source code including [modified packages](/development/Modified-packages) is stored and managed in Git repositories on [git.almalinux.org](https://git.almalinux.org/explore/repos).
 
 AlmaLinux OS Team and community work on these repositories to submit changes, fix bugs, and introduce new features. The AlmaLinux Build System is then used to pull the latest changes from these repositories and build the updated packages. 
+
+## AlmaLinux Build System Structure
+
+<img src=/images/ALBS-structure.svg width="60%" height="60%">
+
+* The Build System [Master Service](https://github.com/AlmaLinux/albs-web-server) provides an API that UI and CLI tools use to build, test, sign and release the packages.
+* The sources to build the AlmaLinux OS packages are taken from the AlmaLinux [git server](https://git.almalinux.org/), which are either synchronized directly from the CentOS git server, or updated manually by the AlmaLinux packagers. All the package sources that are used to build AlmaLinux OS packages are notarized commit by commit, and this information is stored in our [immudb](/documentation/sbom-guide) instance.
+* The [Build Node](https://github.com/AlmaLinux/albs-node) continuously asks the Master Service for new tasks to build packages from the provided git references. The built packages will be marked as verified only if the git references used to build the packages have been notarized. Built packages and build logs (or artifacts) are stored in the Artifact Storage (PULP), which only keeps notarized artifacts, this is, trusted and verified artifacts. 
+* [Test System](https://github.com/AlmaLinux/alts) receives Test Tasks to test built packages from Artifact Storage. The Test System tests packages via Test Nodes (eg. Docker or OpenNebula with different architectures) and store test artifacts (test logs) in Artifact Storage.
+* [Sign Server](https://github.com/AlmaLinux/albs-sign-node) receives sign tasks to sign packages with the corresponding PGP key. The Sign Server retrieves the unsigned packages, verifies that the packages are notarized, and signs them. Signed packages are then notarized again, storing this information in immudb and then saving the signed packages in the Artifact Storage.
+* Release System receives release tasks to upload signed packages to public repositories.
+* Each step involved in the build process is notarized and stored in immudb using a unique hash (immudb hash). This process ensures that traceability is guaranteed and that the information generated throughout the build process and stored in immudb can be used later on to generate SBOM documents.
 
 ## More guides and details
 

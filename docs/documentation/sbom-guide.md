@@ -2,7 +2,7 @@
 title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 ---
 
-###### Last updated: 2024-09-17
+###### Last updated: 2024-10-28
 
 # AlmaLinux SBOM User Guide 
 
@@ -65,7 +65,7 @@ Here is the command example of generating an SBOM record using the build ID opti
 ```bash
 python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --build-id 17812
 ```
-The command example with the CAS hash of the package:
+The command example with the immudb hash of the package:
 ```bash
 python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --rpm-package-hash 911945c71710c83cf6f760447c32d8d6cae737dc
 ```

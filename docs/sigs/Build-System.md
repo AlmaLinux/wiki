@@ -2,7 +2,7 @@
 title: 'Build System SIG'
 ---
 
-##### last modified: 2024-09-2026
+##### last modified: 2024-10-28
 
 # Build System SIG
 
@@ -23,7 +23,7 @@ Meetings are held regularly, including a daily standup. If you would like to joi
 ## Activities, projects, and deliverables
 
 * [AlmaLinux Build System](https://build.almalinux.org/)
-* [Build System project's documentation and issue tracker](https://github.com/AlmaLinux/build-system)
+* [Build System project's issue tracker](https://github.com/AlmaLinux/build-system/issues)
 * [Build System project's milestones](https://github.com/AlmaLinux/build-system/milestones)
 * [Build System Web-Server](https://github.com/AlmaLinux/albs-web-server)
 * [Build System Build Node](https://github.com/AlmaLinux/albs-node)
@@ -32,16 +32,25 @@ Meetings are held regularly, including a daily standup. If you would like to joi
 * [Build System Sign Node](https://github.com/AlmaLinux/albs-sign-node)
 * [Build System Sign File](https://github.com/AlmaLinux/albs-sign-file)
 * [Build System Tests Cacher](https://github.com/AlmaLinux/alma-tests-cacher)
+* Documentation:
+  * About AlmaLinux Build System and its structure - [AlmaLinux Build System](/development/AlmaLinux-Build-System).
+  * About SBOM - [SBOM guide](/documentation/sbom-guide).
+  * How to contribute to AlmaLinux Build System - [Contribute to AlmaLinux Build System](/Contribute-to-AlmaLinux-Build-System).
 
 ### Help wanted:
 
-* Python and JavaScript Developers are needed to improve UI/UX.
-* Add the ability to run test VMs in different clouds (AWS, Azure, etc.).
-* Add the ability to use external repositories for testing scenarios (e.g. LTP for kernel, CentOS tests for different packages, openQA, etc.).
-* Add OpenStack backend driver support.
-* Add Azure backend driver support.
-* Improve the ability to delete a build.
-* Add Kubevirt backend support.
+* Help on keeping our Build System SIG documentation up to date (READMEs in repos, wiki, docs, SIG wiki page, etc).
+* Testing (experience with pytest), we need help to:
+  * Increase our test coverage in repos that already have tests.
+  * Add tests to those that don't have tests at all.
+  * Design and implement integration/e2e tests that involve different services.
+* Familiar with Ansible? Help us in testing and improving our current ansible roles to deploy the AlmaLinux Build System.
+* Interested in supply-chain security and SBOM? Help us in defining the next steps toward providing and expanding the current SBOM data that AlmaLinux OS is generating.
+
+Our tech stack:
+* Backend: Python, FastAPI, SQLAlchemy, PostgreSQL, Redis.
+* Frontend: JavaScript, Vue.js, Quasar.
+* Tooling: Docker, Docker Compose, Ansible, Terraform.
 
 ## SIG Members:
 
