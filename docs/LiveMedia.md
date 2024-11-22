@@ -30,8 +30,19 @@ There are a few AlmaLinux Live Media Options:
 ## How to download and write images
 
 The first step is to download an AlmaLinux image:
-* [AlmaLinux 8 Live Images](https://repo.almalinux.org/almalinux/8/live/x86_64/)
-* [AlmaLinux 9 Live Images](https://repo.almalinux.org/almalinux/9/live/x86_64/)
+
+<table align="center">
+    <tr>
+        <td align="center">AlmaLinux 8</td>
+        <td align="center"><a href="https://repo.almalinux.org/almalinux/8/live/x86_64/">x86_64</a></td>
+        <td align="center">Not Available</td>
+    </tr>
+    <tr>
+        <td align="center">AlmaLinux 9</td>
+        <td align="center"><a href="https://repo.almalinux.org/almalinux/9/live/x86_64/">x86_64</a></td>
+        <td align="center"><a href="https://repo.almalinux.org/almalinux/9/live/aarch64/">aarch64</a></td>
+    </tr>
+</table>
 
 Then it all depends on what OS you use. 
 
