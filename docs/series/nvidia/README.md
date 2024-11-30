@@ -1,21 +1,23 @@
-# A03 ❯ NVIDIA Driver Installation Guide
-<small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02|
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[none](mailto:none@almalinux.org) <br>  ↳ 9.x \| x86_64 \| 2023-05-xx </small>|
-<br>
+---
+title: 'NVIDIA Driver Guides for AlmaLinux'
+---
 
-## 🌟 Introduction
+# NVIDIA Driver Guides for AlmaLinux
 
-This guide provides instructions on how to install NVIDIA's graphics driver for AlmaLinux in two variants:
 
-- **Binary Driver** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) 👈 <small>USING PRECOMPILED DRIVERS IS RECOMMENDED</small>
-- **Compiling From Source** [**8.x**](SystemSeriesA03R8.md) | [**9.x**](SystemSeriesA03R9.md) ⚠️  <small>REQURIES SWITCHING TO ELRepo KERNEL</small>
-- **.run Driver** <small>REQURIES manual installation of dependencies and downloading the driver manually from Nvidia website</small>
+## Introduction
 
-## 🧠 Fundamental Concepts
+These guides provide instructions on how to install NVIDIA's graphics driver for AlmaLinux three different ways:
+
+- Option I: Precompiled/Binary Driver - using precompiled drivers is recommended.
+- Option II: Compile Driver Source - requires switching to an ELRepo kernel.
+- Option III: NVIDIA .run Driver Installation Guide - requires manual installation of dependencies and downloading the driver manually from Nvidia website
+
+- NVIDIA on AlmaLinux Overview [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
+- NVIDIA Driver Installation Guide ❯ [Installation on 8.x](/series/nvidia/nvidiaseries8x)
+- NVIDIA Driver Installation Guide ❯ [Installation on 9.x](/series/nvidia/nvidiaseries9x)
+
+## Fundamental Concepts
 
 ### Dynamic Kernel Module Support (DKMS)
 
@@ -46,27 +48,21 @@ The NVIDIA .run Driver Installation Guide offers an alternative approach to inst
 - **Advanced Users:** The .run Driver Installation Guide is suitable for advanced users who are comfortable handling manual installations and configurations.
 - **Compatibility Verification:** Users must verify the compatibility of the downloaded driver version with their GPU before proceeding with the installation.
 
-## 📖 Release-Specific Installation
+# FAQ
 
-- **NVIDIA Driver Installation Guide ❯ [Installation on 8.x](SystemSeriesA03R8)**
-- **NVIDIA Driver Installation Guide ❯ [Installation on 9.x](SystemSeriesA03R9)**
+## Q: Installed the module but getting Black Screen after reboot?
 
-
-## FAQ
-
-### Q: Installed the module but getting Black Screen after reboot?
-
-#### If you are able to change `GRUB` kernel boot parameters, do:
+### If you are able to change `GRUB` kernel boot parameters, do:
 
 ```
 module_blacklist=nvidia,nvidia_drm,nvida_modeset
 ```
 
-#### If you are getting Black Screen right after boot (no GRUB visible), do:
+### If you are getting Black Screen right after boot (no GRUB visible), do:
 
 WIP
 
-### If the Desktop Icon for NVIDIA-Settings is not showing, do :
+## If the Desktop Icon for NVIDIA-Settings is not showing, do :
 
 ```
 sudo echo "[Desktop Entry]" | sudo tee /usr/share/applications/nvidia-settings.desktop
@@ -79,15 +75,12 @@ sudo echo "Terminal=false" | sudo tee -a /usr/share/applications/nvidia-settings
 sudo echo "Categories=System;Settings;X-Red-Hat-Base-Utilities;" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 ```
 
-## 📚 Further Reading and Next Steps
-
+## Further Reading and Next Steps
     
 <u>In-depth Resources:</u>
-    
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 8.x](SystemSeriesA03R8.md)
-- AlmaLinux System Series ❯  [NVIDIA: Installation on 9.x](SystemSeriesA03R9.md)
+- [NVIDIA: Installation on AlmaLinux 8](nvidiaseries8x)
+- [NVIDIA: Installation on AlmaLinux 9](nvidiaseries9x)
 
 <u>Related Resources:</u>
-
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](SystemSeriesA02.md) 
+- [Nginx: A Beginner's Guide](/series/nginx/NginxSeriesA01)
+- [Firewalld: A Beginner's Guide](/series/system/SystemSeriesA02)

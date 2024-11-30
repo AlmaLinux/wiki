@@ -160,42 +160,47 @@ module.exports = {
             '/Comparison',
             '/FAQ',
             '/Howto',
-            {
-                title: 'openQA Guide',
-                path: '/development/openQA',
+            '/development/openQA',
+				{
+                title: "Nginx Series",
+                path: '/series/nginx/',
+                children: [
+                        '/series/nginx/NginxSeriesA01',
+                        '/series/nginx/NginxSeriesA02R8',
+                        '/series/nginx/NginxSeriesA02R92',
+                        '/series/nginx/NginxSeriesA03',
+                        '/series/nginx/NginxSeriesA04P1',
+                ]
             },
             {
-                title: 'Howto Series',
+                title: "AlmaLinux Tutorials",
                 path: '/series/',
                 children: [
-		              '/series/LAMP-server',
-                  {
-                      title: "Nginx Series",
-                      path: '/series/nginx/',
-                      children: [
-                              '/series/nginx/NginxSeriesA01',
-                              '/series/nginx/NginxSeriesA02R8',
-                              '/series/nginx/NginxSeriesA02R91',
-                              '/series/nginx/NginxSeriesA02R92',
-                              '/series/nginx/NginxSeriesA03',
-                              '/series/nginx/NginxSeriesA04P1',
-                      ]
-                  },
-                  {
-                      title: "System Series",
-                      path: '/series/system/',
-                      children: [
-                              '/series/system/SystemSeriesA01',
-                              '/series/system/SystemSeriesA02',
-                              '/series/system/SystemSeriesA03',
-                              '/series/system/SystemSeriesA03R8',
-                              '/series/system/SystemSeriesA03R9',
-                              '/series/system/SystemSeriesA04',
-                              '/series/system/SystemSeriesA05',
-                              ]
-                  },
-              ]
+                        '/series/system/SystemSeriesA01',
+                        '/series/system/SystemSeriesA02',
+                        '/series/system/SystemSeriesA04',
+		 		   		'/series/LAMP-server',
+                        ]
             },
+			{
+                title: "AlmaLinux Desktop Series ",
+                path: '/series/desktop/',
+                children: [			
+                        '/series/desktop/desktopseries01',
+                        '/series/desktop/desktopseries02',
+                        '/series/desktop/desktopseries03',
+                        '/series/desktop/desktopseries04',
+                        '/series/desktop/desktopseries05',
+                        '/series/desktop/desktopseries06',
+							]
+						},            {
+                title: "NVIDIA Install Guides",
+                path: '/series/nvidia/',
+                children: [			
+                        '/series/nvidia/nvidiaseries8x',
+                        '/series/nvidia/nvidiaseries9x',
+						]
+			},
           {
                 title: 'Security Guides',
                 path: '/documentation/guides',
