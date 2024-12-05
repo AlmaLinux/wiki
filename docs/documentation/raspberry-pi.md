@@ -20,6 +20,8 @@ The AlmaLinux OS releases have been tested on the following models.
 
 32-bit Raspberry Pis (ARMv6/ARMv7) and original Raspberry Pi 3 (without "+" models) are not supported. Other ARMv8 Raspberry Pis such as Compute Modules are not tested but will probably work. Let us know if it doesn't work. See also [How to contribute](#how-to-contribute) section.
 
+Since AlmaLinux 9.5, images with GPT (GUID partition table) have been available in addition to traditional MBR images. GPT supports larger disks over 2TB and allows up to 128 partitions, compared to MBR's limit of 4. However, booting from a GPT disk is not supported on Raspberry Pi 3. Select the appropriate image for your Raspberry Pi model.
+
 ## Installation steps
 
 ### Download image
