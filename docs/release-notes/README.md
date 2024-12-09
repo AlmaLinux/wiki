@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-###### last updated: 2024-11-18
+###### last updated: 2024-12-09
 
 # AlmaLinux Release Notes
 
@@ -35,6 +35,14 @@ Version 8 will have active support until 31 May 2024, and security support until
 | [8.5](/release-notes/8.5) | Arctic Sphynx | 13 Oct 2021 | 12 Nov 2021 | 4.18.0-348 | x86_64, aarch64, ppc64le |
 | [8.4](/release-notes/8.4) | Electric Cheetah | 20 Apr 2021 | 26 May 2021 | 4.18.0-305 | x86_64, aarch64 |
 | [8.3](/release-notes/8.3) | Purple Manul | 1 Feb 2021 | 30 Mar 2021 | 4.18.0-240 | x86_64 |
+
+### AlmaLinux OS 10
+
+Version 10 active support will match RHEL 10 lifecycle.
+
+| Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
+|---|---|---|---|---|---|
+| [10.0](/release-notes/10.0-beta) | Purple Lion | 10 Dec 2024 | | 6.11.0-0.rc5.23 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
 
 ### AlmaLinux OS Kitten 10
 ###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
