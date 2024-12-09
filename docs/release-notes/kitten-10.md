@@ -96,6 +96,21 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
 
 * Graphical User Interface:
     * Qt6 6.7
+    
+* The following device drivers were modified to re-add PCI IDs for hardware that was previously disabled in our upstream:
+    * **aacraid** -  Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI 
+    * **be2iscsi** - Emulex OneConnectOpen-iSCSI for BladeEngine 2 and 3 adapters 
+    * **be2net** - Emulex BladeEngine 2 and 3 adapters *
+    * **hpsa** - HP Smart Array Controller 
+    * **lpfc** - Emulex LightPulse Fibre Channel SCSI 
+    * **megaraid_sas** - Broadcom MegaRAID SAS 
+    * **mlx4_core** - Mellanox Gen2 and ConnectX-2 adapters
+    * **mpt3sas** - LSI MPT Fusion SAS 3.0 
+    * **mptsas** - Fusion MPT SAS Host 
+    * **qla2xxx** - QLogic Fibre Channel HBA 
+    * **qla4xxx** - QLogic iSCSI HBA 
+  
+  For a complete list of hardware support for which was added in this release, see the [Extended hardware support](#extended-hardware-support) section.
 
 ## Installation instructions
 
@@ -293,11 +308,15 @@ The following devices support is added in AlmaLinux OS Kitten 10 release compare
 | 0x15B3:0x100e | Mellanox Technologies: MT27551 Family [ConnectX-3 Pro] | mlx4_core |
 | 0x15B3:0x100f | Mellanox Technologies: MT27560 Family [ConnectX-3 Pro] | mlx4_core |
 | 0x15B3:0x1010 | Mellanox Technologies: MT27561 Family [ConnectX-3 Pro] | mlx4_core |
+| 0x19A2:0x0211 | Emulex BladeEngine 2 Network Adapter | be2net * |
 | 0x19A2:0x0212 | Emulex BladeEngine 2 10Gb iSCSI Initiator | be2iscsi |
+| 0x19A2:0x0221 | Emulex BladeEngine 3 Network Adapter | be2net * |
 | 0x19A2:0x0222 | Emulex BladeEngine 3 iSCSI | be2iscsi |
+| 0x19A2:0x0700 | Emulex OneConnect Tigershark NIC | be2net * |
 | 0x19A2:0x0702 | Emulex OneConnect OCe10101/OCm10101/OCe10102/OCm10102 | be2iscsi |
 | 0x19A2:0x0703 | Emulex OneConnect OCe10100 | be2iscsi |
 | 0x19A2:0x0704 | Emulex OneConnect Tigershark FCoE | lpfc |
+| 0x19A2:0x0710 | Emulex OneConnect Tomcat NIC | be2net * |
 | 0x19A2:0x0712 | Emulex OneConnect Tomcat iSCSI | be2iscsi |
 | 0x19A2:0x0714 | Emulex OneConnect Tomcat FCoE | lpfc |
 | 0x9005:0x0200:0x9005:0x0200 | Themisto Jupiter Platform | aacraid |
