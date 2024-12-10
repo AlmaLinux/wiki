@@ -2,7 +2,7 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2024-11-14
+###### last updated: 2024-12-10
 
 # ELevate NG Testing Guide
 
@@ -26,7 +26,7 @@ You can add more 3rd party repositories support. See more on the [Contribute](/e
 
 Currently, the following upgrade paths are available:
 
-![image](/images/ELevateNG.svg)
+![image](/images/ELevate.svg)
 
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.

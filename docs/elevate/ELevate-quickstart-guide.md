@@ -2,7 +2,7 @@
 title: "ELevate Quickstart Guide"
 ---
 
-###### last updated: 2024-11-14
+###### last updated: 2024-12-10
 
 # ELevate Quickstart Guide
 
@@ -32,14 +32,14 @@ You can contribute to the project and add more 3rd party repositories support. S
 
 Currently, the following upgrade paths are available:
 
-![image](/images/ELevateNG.svg)
+![image](/images/ELevate.svg)
 
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 
 ### Requirements 
 
-You need CentOS 7, Scientific Linux 7, AlmaLinux 8, CentOS Stream 8, EuroLinux 8 or Rocky Linux 8 system installed to use this guide.
+You need CentOS 7, Scientific Linux 7, AlmaLinux 8, CentOS Stream 8, or Rocky Linux 8 system installed to use this guide.
 **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
 ```
 sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
@@ -61,7 +61,6 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
 * Install leapp packages and upgrade data for the target OS you want to upgrade to. Possible options are:
     * leapp-data-almalinux
     * leapp-data-centos <small>* leapp-data-centos package is designed for upgrades to CentOS Stream.</small>
-    * leapp-data-eurolinux
     * leapp-data-oraclelinux
     * leapp-data-rocky
     
