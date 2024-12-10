@@ -2,7 +2,7 @@
 title: 'ELevate Contribution Guide'
 ---
 
-###### last updated: 2024-11-14
+###### last updated: 2024-12-10
 
 # Contribute to the ELevate project 
 
@@ -371,7 +371,7 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
   PWD=$( pwd )
 
   if [ -z "$DISTRO" ]; then
-      echo "$0 almalinux|centos|eurolinux|oraclelinux|rocky" 
+      echo "$0 almalinux|centos|oraclelinux|rocky" 
       exit 1 
   fi
 
@@ -406,7 +406,7 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
   PWD=$( pwd )
 
   if [ -z "$DISTRO" ]; then
-      echo "$0 almalinux|centos|eurolinux|oraclelinux|rocky" 
+      echo "$0 almalinux|centos|oraclelinux|rocky" 
       exit 1
   fi
 

@@ -2,11 +2,14 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2024-11-18
+###### last updated: 2024-12-10
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2024-12-10
+* Support for EuroLinux has been discontinued due to its [end-of-life as a Linux distribution in 23 October 2024](https://docs.euro-linux.com/).
 
 ## 2024-11-18
 Released from Testing to Stable:
