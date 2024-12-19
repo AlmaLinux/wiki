@@ -1,7 +1,7 @@
 ---
 title: "Modified packages"
 ---
-###### last updated: 2024-11-11
+###### last updated: 2024-12-19
 
 # AlmaLinux OS Modified packages
 
@@ -65,6 +65,7 @@ This table lists AlmaLinux OS packages with modified sources.
 | pcs | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/pcs/commit/1066fd3ebc6c09a42f80706d59f2d49d54d2080f) | Doesn't require modification | Doesn't require modification | - Debrand logo |
 | perl-AnyEvent | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/perl-AnyEvent/commit/7df8a744d97fbb6b31ace8f6bef17177bae18d37) | Doesn't require modification | Doesn't require modification | - Use patch for fix ssltest|
 | pesign | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/pesign/commit/c7c43ad2c86964976ac5c23aa60e0ca6f61a12e4) | - Add x86_64_v2 support |
+| plymouth | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/plymouth/commit/f3ea54c793797a11a772ff072cc853918495d0a5) | - Add in the symlink for fedora-gdm-logo.png to watermark.png in the spinner theme directory to ensure the AlmaLinux watermark is displayed in plymouth |
 | python2 | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/python2/commit/c6c16b43455d5c0cafa9c2313c2ee71086535d61) |Doesn't require modification | Doesn't require modification | - Add AlmaLinux OS to supported distros |
 | python3 | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/python-psycopg2/commit/4e9ae78a23ce76ee0292634f6eb4b018dc0879a8) |Doesn't require modification | Doesn't require modification | - Add AlmaLinux OS to supported distros |
 | python-rpmautospec | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/python-rpmautospec/commit/d3c3bf3fd24d8c691fa575a493f93aecafc9d1a7) | - Add AlmaLinux OS change identifier |
@@ -90,6 +91,7 @@ This table lists AlmaLinux OS packages with modified sources.
 | thunderbird | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/thunderbird/commit/f17f8521488d3d48b0061cec08d795b8ba4d857f) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/thunderbird/commit/dd5ecbc4851476d1e1e73759e75dcb350146c40f) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/thunderbird/commit/6a9a91a50b11a8e5c00dc26c9fbae1116d8a6f40) | - Debrand for AlmaLinux OS |
 | virt-manager | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/virt-manager/commit/a4a6bbffb06cc711d6d1c95c9253762bb9b127f0) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/virt-manager/commit/811ee55238fb13fd132f18db1d45b72865b482c4) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-top/commit/f5dade3a7d045ab8101c4ca84416bfb431199449)| - Add AlmaLinux OS support patch <br> - Enable building for ppc64le for AlmaLinux OS 10 |
 | virt-viewer | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-viewer/commit/954580e5f28486f88527be777a75cf1c96655fd9) | - Enable spice on AlmaLinux OS 10 | 
+| virtiofsd | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virtiofsd/commit/84f873c7408772d419981037ade21256af91faf8)| - Enable build on ppc64le |
 | wget | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/wget/commit/102c384c44cb942f3d6c58862bee90802735ab70) | Add nettle-devel to BuildRequires |
     
 List of modified packages that don't require debranding after AlmaLinux OS 8.7 and AlmaLinux OS 9.1 versions:
