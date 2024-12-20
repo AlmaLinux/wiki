@@ -12,7 +12,7 @@ Before beginning, we **HIGHLY** recommend that you follow system administration 
 
 The ELevate NG supports a number of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS.
-    * EPEL support is also available for upgrades to AlmaLinux OS 10.0 beta. Please, note, that the support works only for packages that are currently available for EL 9.
+    * EPEL support is also available for upgrades to AlmaLinux OS 10.0 beta. lease, note, that the support works only for those packages from EL 9 that are currently available for EL 10. Unavailable packages from EL 9 will remain on the system after the upgrade.
 * Docker CE - for all supported operating systems including AlmaLinux OS 10.0 beta.
 * MariaDB - for all supported operating systems.
 * Microsoft Linux Package Repositories - for all supported operating systems.
