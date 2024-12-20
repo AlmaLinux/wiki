@@ -45,7 +45,7 @@ Released from Testing to Stable:
 #### Vendor-Specific Changes
 * Introduce 2 new actors add_arm_bootloader_workaround, remove_upgrade_efi_entry use specific to particular OS, EFI directory location path, like `/boot/efi/EFI/$distro_dir`.
 * Remove `0006-ReadOfKernelArgsError-fix-the-error.patch` that has been incorporated upstream.
-* Add the `9.6` version as supported for all supported operating system.
+* Add the `9.6` version as supported for all supported operating systems.
 * Remove the `9.6` version from the upgrade path for all supported operating systems until this version is released.
 * Add PostgreSQL support for ARM architecture (signature: `6c7cb6ef305d49d6`).
 
