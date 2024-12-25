@@ -12,11 +12,11 @@ AlmaLinux OS Kitten is the direct upstream for AlmaLinux OS 10, and is the prima
 
 Currently, AlmaLinux OS Kitten is based on CentOS Stream 10 code and provides a stable preview of AlmaLinux OS 10.
 
-AlmaLinux Kitten also allows anyone who is building from or extending AlmaLinux to engage in our building and release processes and gain a deeper understanding of them. 
+AlmaLinux Kitten also allows anyone who is building from or extending AlmaLinux to engage in our building and release processes and gain a deeper understanding of them.
 
 <img src=/images/kitten10-screenshot.png width="75%" height="75%">
 
-## Mirrors, ISOs, and Update Frequency
+## Mirrors, ISOs, Cloud images and Update Frequency
 
 AlmaLinux OS Kitten 10 has its own primary mirror URLs:
 * [kitten.repo.almalinux.org](https://kitten.repo.almalinux.org)
@@ -24,16 +24,21 @@ AlmaLinux OS Kitten 10 has its own primary mirror URLs:
 
 Package updates will be released regularly and frequently. ISOs will be rebuilt and published with the latest updates every 3 months.
 
+## Community AMIs
+
+Community AMIs are images that are shared directly by the AlmaLinux OS Foundation for others to utilize directly within their infrastructure. Below is a complete list of currently published AMIs and their corresponding IDs. For purposes of automation and integration into build tools and CI/CD pipelines, this list is also available as a [CSV](https://wiki.almalinux.org/ci-data/aws_amis_kitten_10.csv) file.
+
+<Content :page-key="$site.pages.find(p => p.path === '/development/AWS_AMIS_kitten_10.html').key"/>
 #### Why Kitten?
-AlmaLinux OS has used [cat names](/FAQ.html#why-does-the-almalinux-codename-include-cats) in our code names for our entire existence, and this felt like a perfect extension of that. This OS is the version that will grow up to be the next AlmaLinux OS cat. 
+AlmaLinux OS has used [cat names](/FAQ.html#why-does-the-almalinux-codename-include-cats) in our code names for our entire existence, and this felt like a perfect extension of that. This OS is the version that will grow up to be the next AlmaLinux OS cat.
 
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 
 CentOS Stream is a product of the CentOS community–it’s the ultimate destination of the CentOS community’s work. AlmaLinux OS Kitten is not a product, it is meant as a vehicle along the journey of development of the next version of AlmaLinux OS.
 
-We are using our freedom here to do a bunch of work in preparation for AlmaLinux OS 10. 
+We are using our freedom here to do a bunch of work in preparation for AlmaLinux OS 10.
 
-### Re-enabling Frame Pointers 
+### Re-enabling Frame Pointers
 Red Hat Enterprise Linux and CentOS Stream disable frame pointers by default. We are re-enabling them with AlmaLinux OS Kitten 10. This enables system-wide real-time tracing and profiling for optimizing the performance of any workload running on AlmaLinux OS.
 
 ### AlmaLinux OS Kitten includes an additional build using x86-64-v2
@@ -55,9 +60,9 @@ KVM for IBM POWER has also been unsupported since RHEL 9.0. We enable it in the 
 Starting with AlmaLinux OS  8.10 and 9.4 we re-enabled support for more than 150 devices that were removed upstream. We will continue that support in AlmaLinux OS Kitten 10, as well as in AlmaLinux OS 10.
 
 ### Firefox and Thunderbird in the system repositories
-Our upstream decided to remove packaged versions of Firefox and Thunderbird RPM packages from CentOS Stream 10 and RHEL10 in favor of using Flatpak versions of them. To support our community of desktop users, we decided to continue shipping them in AlmaLinux OS Kitten 10 as regular RPM packages. 
+Our upstream decided to remove packaged versions of Firefox and Thunderbird RPM packages from CentOS Stream 10 and RHEL10 in favor of using Flatpak versions of them. To support our community of desktop users, we decided to continue shipping them in AlmaLinux OS Kitten 10 as regular RPM packages.
 
-## Give Feedback and Get Help 
+## Give Feedback and Get Help
 
 Join us in the AlmaLinux OS [chat channel](https://chat.almalinux.org/), [mailing lists](https://lists.almalinux.org/), and [forums](https://forums.almalinux.org/) to share your feedback or ask for any assistance. Please, file your bugs and steps to reproduce them on [AlmaLinux Bug Tracker](https://bugs.almalinux.org/).
 
