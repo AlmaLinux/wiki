@@ -1,3 +1,12 @@
+---
+title: 'Firewalld: A Beginner Guide'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'System Series'
+---
+
+<Breadcrumbs />
+
 # A02 ❯ Firewalld: A Beginner's Guide
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>

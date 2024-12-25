@@ -1,6 +1,9 @@
 ---
-title: Package Building Guide
+title: 'Package Building Guide'
+parent: 'Development'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux Package Building Guide
 

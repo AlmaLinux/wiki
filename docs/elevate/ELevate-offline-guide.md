@@ -1,8 +1,12 @@
 ---
-title: "ELevate Offline Guide"
+title: 'ELevate Offline Guide'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
 
 ###### last updated: 2024-09-20
+
+<Breadcrumbs />
 
 # ELevate Offline Guide
 

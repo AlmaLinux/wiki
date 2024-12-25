@@ -1,6 +1,11 @@
 ---
-title: "HPC and AI SIG"
+title: 'HPC and AI SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
+
+<Breadcrumbs />
+
 # HPC and AI SIG
 
 AlmaLinux is the ideal Linux choice for HPC and AI applications, and the HPC and AI SIG is here to help you make the most of it. We are a group of HPC and AI experts who use AlmaLinux to power our projects and share our knowledge with the AlmaLinux community. We promote the benefits of AlmaLinux for HPC and AI, provide guidance and support for AlmaLinux users in HPC and AI, and represent the interests and needs of the HPC and AI community within AlmaLinux. Join us today and discover how AlmaLinux can boost your HPC and AI performance and productivity.

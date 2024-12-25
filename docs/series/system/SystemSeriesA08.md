@@ -1,3 +1,12 @@
+---
+title: 'Earlyoom (Out of Memory) Installation Guide'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'System Series'
+---
+
+<Breadcrumbs />
+
 # A08 ❯ Earlyoom (Out of Memory) Installation Guide
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>

@@ -1,6 +1,9 @@
 ---
-Title: 'ALESCo Meeting Minutes'
+title: 'ALESCo Meeting Minutes'
+parent: 'ALESCo'
 ---
+
+<Breadcrumbs />
 
 Each meeting of ALESCo is public, and future meetings can be found on [events.almalinux.org](https://events.almalinux.org/category/7/)
 

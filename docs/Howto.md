@@ -1,6 +1,10 @@
 ---
 title: 'Howtos'
+parent: 'Documentation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux Howto Guides (external)
 
 ## Installation Guides

@@ -1,3 +1,12 @@
+---
+title: 'Multimedia Codecs Installation Guide'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'System Series'
+---
+
+<Breadcrumbs />
+
 # A05 ❯ Multimedia Codecs Installation Guide
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>

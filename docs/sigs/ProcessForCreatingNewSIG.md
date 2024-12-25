@@ -1,3 +1,10 @@
+---
+title: 'The Process for Creating a New SIG* in the AlmaLinux Community'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
+---
+
+<Breadcrumbs />
 
 # The Process for Creating a New SIG* in the AlmaLinux Community 
 *Special Interest Group

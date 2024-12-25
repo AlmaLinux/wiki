@@ -1,8 +1,12 @@
 ---
 title: 'ELevate Contribution Guide'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
 
 ###### last updated: 2024-12-10
+
+<Breadcrumbs />
 
 # Contribute to the ELevate project 
 

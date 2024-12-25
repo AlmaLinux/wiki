@@ -1,6 +1,9 @@
 ---
 title: 'Migration Guide'
+parent: 'Migration'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux Migration Guide 
 

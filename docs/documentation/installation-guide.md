@@ -1,8 +1,11 @@
 ---
-title: "AlmaLinux Installation Guide"
+title: 'AlmaLinux Installation Guide'
+parent: 'Installation'
 ---
 
 ###### last updated: 2023-02-09
+
+<Breadcrumbs />
 
 # AlmaLinux installation guide (ISOs)
 

@@ -1,6 +1,10 @@
 ---
 title: 'Deploy a LAMP server'
+parent: 'Howto Series'
+grandparent: 'Documentation'
 ---
+
+<Breadcrumbs />
 
 # Deploy a LAMP server
 

@@ -1,6 +1,10 @@
 ---
-title: "Security Errata"
+title: 'Security Errata'
+parent: 'Security Guides'
+grandparent: 'Documentation'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux Errata
 

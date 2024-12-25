@@ -1,3 +1,12 @@
+---
+title: 'A Beginner Guide'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'Nginx Series'
+---
+
+<Breadcrumbs />
+
 # A01 ❯ A Beginner's Guide
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>

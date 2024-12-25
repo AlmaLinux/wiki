@@ -1,8 +1,11 @@
 ---
 title: 'Vagrant Boxes'
+parent: 'Installation'
 ---
 
 ###### last updated: 2024-12-23
+
+<Breadcrumbs />
 
 # Vagrant Boxes
 

@@ -1,6 +1,10 @@
 ---
 title: 'Google Cloud'
+parent: 'Cloud Images'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux OS Google Cloud Platform
 

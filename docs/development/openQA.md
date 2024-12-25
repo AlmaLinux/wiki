@@ -1,6 +1,9 @@
 ---
 title: 'openQA'
+parent: 'Documentation'
 ---
+
+<Breadcrumbs />
 
 | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
 |--------------------|---------------------- |

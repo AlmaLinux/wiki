@@ -1,6 +1,11 @@
 ---
 title: 'OpenNebula'
+parent: 'Cloud Images'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux OS OpenNebula image
 
 The OpenNebula image contains the OpenNebula addons repository as delivered via the AlmaLinux [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html). The repo provides the latest upstream version of the OpenNebula Linux VM Contextualization to prepare the networking in the running guest virtual machine, configure SSH keys, set passwords, run custom start scripts, `onesysprep`, etc.

@@ -1,3 +1,12 @@
+---
+title: 'Secure Nginx Deployment'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'Nginx Series'
+---
+
+<Breadcrumbs />
+
 # A04 ❯ Secure Nginx Deployment
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>
