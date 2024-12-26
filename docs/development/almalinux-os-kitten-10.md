@@ -2,7 +2,7 @@
 title: 'AlmaLinux OS Kitten 10'
 ---
 
-###### last modified: 2024-11-01
+###### last modified: 2024-12-26
 
 # About AlmaLinux OS Kitten 10
 
@@ -16,7 +16,7 @@ AlmaLinux Kitten also allows anyone who is building from or extending AlmaLinux 
 
 <img src=/images/kitten10-screenshot.png width="75%" height="75%">
 
-## Mirrors, ISOs, Cloud images and Update Frequency
+## Mirrors, ISOs, and Update Frequency
 
 AlmaLinux OS Kitten 10 has its own primary mirror URLs:
 * [kitten.repo.almalinux.org](https://kitten.repo.almalinux.org)
@@ -24,13 +24,62 @@ AlmaLinux OS Kitten 10 has its own primary mirror URLs:
 
 Package updates will be released regularly and frequently. ISOs will be rebuilt and published with the latest updates every 3 months.
 
-## Community AMIs
+#### Why Kitten?
+AlmaLinux OS has used [cat names](/FAQ.html#why-does-the-almalinux-codename-include-cats) in our code names for our entire existence, and this felt like a perfect extension of that. This OS is the version that will grow up to be the next AlmaLinux OS cat.
+
+## Cloud Images 
+
+AlmaLinux provides official AlmaLinux OS Kitten 10 images for various cloud providers.
+
+### Amazon Web Services (AWS)
+
+AlmaLinux OS offers Amazon Machine Images in a number of formats and regions for consumption on AWS. All AlmaLinux OS AMIs are completely free of charge regardless of the deployment channel.
+
+More about AlmaLinux OS images for AWS - [AlmaLinux AWS Wiki Page](/cloud/AWS).
+
+#### AWS Marketplace
+
+The AlmaLinux OS Foundation's official AlmaLinux OS Kitten 10 images are available via the [AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=529d1014-352c-4bed-8b63-6120e4bd3342).
+
+#### Community AMIs
 
 Community AMIs are images that are shared directly by the AlmaLinux OS Foundation for others to utilize directly within their infrastructure. Below is a complete list of currently published AMIs and their corresponding IDs. For purposes of automation and integration into build tools and CI/CD pipelines, this list is also available as a [CSV](https://wiki.almalinux.org/ci-data/aws_amis_kitten_10.csv) file.
 
-<Content :page-key="$site.pages.find(p => p.path === '/development/AWS_AMIS_kitten_10.html').key"/>
-#### Why Kitten?
-AlmaLinux OS has used [cat names](/FAQ.html#why-does-the-almalinux-codename-include-cats) in our code names for our entire existence, and this felt like a perfect extension of that. This OS is the version that will grow up to be the next AlmaLinux OS cat.
+<details>
+  <summary>Click to expand AlmaLinux OS Kitten 10 AMIs</summary>
+  
+  <Content :page-key="$site.pages.find(p => p.path === '/development/AWS_AMIS_kitten_10.html').key"/>
+</details>
+
+
+
+### Generic Cloud
+
+The AlmaLinux OS Generic Cloud images are available from our [mirrors](https://mirrors.almalinux.org/) and from the AlmaLinux OS Kitten repositories:
+
+| | | | | | | 
+| --- | --- | --- | --- | --- | --- |
+| AlmaLinux OS Kitten 10 | [x86_64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [aarch64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [s390x](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [ppc64le](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/cloud/) |
+
+More about AlmaLinux OS images for Generic Cloud - [AlmaLinux Generic Cloud Wiki Page](/cloud/Generic-cloud).
+
+### Microsoft Azure
+
+AlmaLinux offers AlmaLinux OS Kitten 10 images for Azure across all Azure regions via the Azure Marketplace. Images are deployable via the marketplace, portal and CLI.
+* [x86_64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.kitten)
+* [aarch64](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/almalinux.kitten)
+
+More about AlmaLinux OS images for Azure - [AlmaLinux Azure Wiki Page](/cloud/Azure).
+
+### Open Nebula
+
+The AlmaLinux OS Generic Cloud images are available from our [mirrors](https://mirrors.almalinux.org/) and from the AlmaLinux OS Kitten repositories:
+
+| | | | | | | 
+| --- | --- | --- | --- | --- | --- |
+| AlmaLinux OS Kitten 10 | [x86_64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [aarch64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [s390x](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [ppc64le](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/cloud/) |
+
+More about AlmaLinux OS images for OpenNebula - [AlmaLinux OpenNebula Wiki Page](/cloud/OpenNebula).
 
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 
