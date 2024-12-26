@@ -33,16 +33,16 @@ AlmaLinux OS provides official OCI, Docker and four fully compatible alternative
 
 | Image | Container tag | Link to the Repository | 
 | --- | --- | --- |
-| Default (Platform) | almalinux:10-kitten| - [DockerHub](https://hub.docker.com/_/almalinux)<br>- [quay.io](https://quay.io/repository/almalinuxorg/almalinux?tab=tags) |
+| Default (Platform) | almalinux:10-kitten| [DockerHub](https://hub.docker.com/_/almalinux) |
 | Minimal (Platform) | almalinux:10-kitten-minimal| [DockerHub](https://hub.docker.com/_/almalinux) |
 
 **UBI-alternatives**
 | Image | Container tag | Link to the Repository | 
 | --- | --- | --- 
-| Minimal | almalinux/10-kitten-minimal | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-minimal)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-minimal) |
-| Base | almalinux/10-kitten-base | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-base)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-base) |
-| Init | almalinux/10-kitten-init | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-init)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-init) |
-| Micro | almalinux/10-kitten-micro | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-micro)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-micro) |
+| Minimal | almalinux/10-kitten-minimal | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-minimal)<br>- [quay.io](https://quay.io/repository/almalinuxorg/10-kitten-minimal)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-minimal) |
+| Base | almalinux/10-kitten-base | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-base)<br>- [quay.io](https://quay.io/repository/almalinuxorg/10-kitten-base)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-base) |
+| Init | almalinux/10-kitten-init | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-init)<br>- [quay.io](https://quay.io/repository/almalinuxorg/10-kitten-init)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-init) |
+| Micro | almalinux/10-kitten-micro | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-micro)<br>- [quay.io](https://quay.io/repository/almalinuxorg/10-kitten-micro)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-micro) |
 
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 
