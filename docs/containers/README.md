@@ -6,6 +6,10 @@ In the evolving world of development and deployment, containers have become esse
 
 **OCI Images**: The Open Container Initiative (OCI) lays down the standards for modern container technologies. AlmaLinux's OCI images uphold these standards, ensuring compatibility and smooth operation with various container tools and orchestration platforms.
 
+:::tip
+If you are looking for AlmaLinux OS Kitten 10 images, please, visit the [AlmaLinux OS Kitten 10](/development/almalinux-os-kitten-10) page.
+:::
+
 Dive into the future of application deployment with AlmaLinux's tailored container solutions.
 
 

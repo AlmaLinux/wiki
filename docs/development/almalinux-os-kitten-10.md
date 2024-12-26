@@ -27,6 +27,23 @@ Package updates will be released regularly and frequently. ISOs will be rebuilt 
 #### Why Kitten?
 AlmaLinux OS has used [cat names](/FAQ.html#why-does-the-almalinux-codename-include-cats) in our code names for our entire existence, and this felt like a perfect extension of that. This OS is the version that will grow up to be the next AlmaLinux OS cat. 
 
+## Container Images
+
+AlmaLinux OS provides official OCI, Docker and four fully compatible alternatives for Red Hat Universal Base Images (UBI):
+
+| Image | Container tag | Link to the Repository | 
+| --- | --- | --- |
+| Default (Platform) | almalinux:10-kitten| - [DockerHub](https://hub.docker.com/_/almalinux)<br>- [quay.io](https://quay.io/repository/almalinuxorg/almalinux?tab=tags) |
+| Minimal (Platform) | almalinux:10-kitten-minimal| [DockerHub](https://hub.docker.com/_/almalinux) |
+
+**UBI-alternatives**
+| Image | Container tag | Link to the Repository | 
+| --- | --- | --- 
+| Minimal | almalinux/10-kitten-minimal | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-minimal)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-minimal) |
+| Base | almalinux/10-kitten-base | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-base)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-base) |
+| Init | almalinux/10-kitten-init | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-init)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-init) |
+| Micro | almalinux/10-kitten-micro | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-micro)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-micro) |
+
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 
 CentOS Stream is a product of the CentOS community–it’s the ultimate destination of the CentOS community’s work. AlmaLinux OS Kitten is not a product, it is meant as a vehicle along the journey of development of the next version of AlmaLinux OS.
