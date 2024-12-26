@@ -73,7 +73,7 @@ More about AlmaLinux OS images for Azure - [AlmaLinux Azure Wiki Page](/cloud/Az
 
 ### Open Nebula
 
-The AlmaLinux OS Generic Cloud images are available from our [mirrors](https://mirrors.almalinux.org/) and from the AlmaLinux OS Kitten repositories:
+The AlmaLinux OS OpenNebula images are available from our [mirrors](https://mirrors.almalinux.org/) and from the AlmaLinux OS Kitten repositories:
 
 | | | | | | | 
 | --- | --- | --- | --- | --- | --- |
