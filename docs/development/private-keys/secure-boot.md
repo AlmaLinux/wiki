@@ -1,6 +1,14 @@
-# Secure Boot Key Generation and Handling
+---
+title: 'Secure Boot Key Generation and Handling'
+parent: 'Private Keys'
+grandparent: 'Development'
+---
 
-Last updated 2024-03-13.
+###### Last updated 2024-03-13
+
+<Breadcrumbs />
+
+# Secure Boot Key Generation and Handling
 
 ## Owernship
 Certificate and key generation and handling is overseen by ALESCo.

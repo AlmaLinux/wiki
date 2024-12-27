@@ -1,3 +1,12 @@
+---
+title: 'NVIDIA Driver Installation Guide'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'System Series'
+---
+
+<Breadcrumbs />
+
 # A03 ❯ NVIDIA Driver Installation Guide
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>

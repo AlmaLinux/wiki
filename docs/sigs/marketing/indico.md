@@ -1,10 +1,15 @@
 ---
 title: 'Managing events.almalinux.org'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
+child: 'Marketing'
 ---
 
-# Managing events.almalinux.org
-
 ###### last updated: May 8, 2024
+
+<Breadcrumbs />
+
+# Managing events.almalinux.org
 
 Our events are managed using [Indico](https://getindico.io/), the open source software created and developed at CERN. Our install, at [events.almalinux.org](https://events.almalinux.org) (documentation at [learn.getindico.io](https://learn.getindico.io/)), is kept up to date by the AlmaLinux Infra SIG, but events on it are managed by the marketing SIG. This document helps us consistently create new events to the community.
 

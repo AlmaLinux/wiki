@@ -1,8 +1,12 @@
 ---
-title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
+title: 'User Guide: AlmaLinux *Software Bill of Materials (SBOM)*'
+parent: 'Security Guides'
+grandparent: 'Documentation'
 ---
 
 ###### Last updated: 2024-10-28
+
+<Breadcrumbs />
 
 # AlmaLinux SBOM User Guide 
 

@@ -1,6 +1,11 @@
 ---
-title: "Live Media SIG"
+title: 'Live Media SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
+
+<Breadcrumbs />
+
 # Live Media SIG
 
 The Live Media Team is responsible for AlmaLinux OS Live Media.

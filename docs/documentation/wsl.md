@@ -1,6 +1,9 @@
 ---
-title: "AlmaLinux WSL"
+title: 'AlmaLinux WSL'
+parent: 'Installation'
 ---
+
+<Breadcrumbs />
 
 # Windows Subsystem for Linux 
 

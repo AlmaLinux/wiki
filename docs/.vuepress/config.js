@@ -1,4 +1,4 @@
-
+const path = require('path');
 module.exports = {
   title: 'AlmaLinux Wiki',
   description: 'AlmaLinux OS Documentation',
@@ -25,6 +25,16 @@ module.exports = {
       { text: 'Chat', link: 'https://chat.almalinux.org/' },
       { text: 'Mailing Lists', link: 'https://lists.almalinux.org/' },
       { text: 'Bugs', link: 'https://bugs.almalinux.org/' }
+    ],
+    plugins: [
+      [
+        '@vuepress/plugin-register-components',
+        {
+          components: {
+            Breadcrumbs: path.resolve(__dirname, './breadcrumbs.js'),
+          },
+        },
+      ],
     ],
     sidebar: [
      {

@@ -1,8 +1,12 @@
 ---
 title: 'Build System SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
 
 ##### last modified: 2024-10-28
+
+<Breadcrumbs />
 
 # Build System SIG
 

@@ -1,6 +1,10 @@
 ---
 title: 'ELevating CentOS 6 to CentOS 7'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
+
+<Breadcrumbs />
 
 | Experience Level   | ⭐⭐☆☆☆  (Intermediate) |
 |--------------------|---------------------- |

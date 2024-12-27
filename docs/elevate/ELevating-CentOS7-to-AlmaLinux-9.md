@@ -1,8 +1,12 @@
 ---
-title: "ELevating CentOS 7 to AlmaLinux 9"
+title: 'ELevating CentOS 7 to AlmaLinux 9'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
 
 ###### last updated: 2024-11-14
+
+<Breadcrumbs />
 
 # ELevating CentOS 7 to AlmaLinux 9
 

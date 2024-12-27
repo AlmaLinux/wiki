@@ -1,8 +1,11 @@
 ---
 title: 'AlmaLinux OS Kitten 10'
+parent: 'Development'
 ---
 
 ###### last modified: 2024-11-01
+
+<Breadcrumbs />
 
 # About AlmaLinux OS Kitten 10
 

@@ -1,6 +1,11 @@
 ---
-title: "Cloud SIG"
+title: 'Cloud SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
+
+<Breadcrumbs />
+
 # Cloud SIG
 
 The Cloud team is responsible for AlmaLinux OS container and cloud images.

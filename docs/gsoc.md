@@ -1,3 +1,10 @@
+---
+title: 'Google Summer of Code'
+parent: 'Foundation'
+---
+
+<Breadcrumbs />
+
 # Google Summer of Code
 
 AlmaLinux is proud to participate in Google's Summer of Code. Please find some details below regarding submitting proposals.

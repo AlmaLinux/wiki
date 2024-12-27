@@ -1,3 +1,10 @@
+---
+title: 'Containers on AlmaLinux'
+parent: 'Installation'
+---
+
+<Breadcrumbs />
+
 # Containers on AlmaLinux
 
 In the evolving world of development and deployment, containers have become essential tools, bringing consistency, scalability, and efficiency to the forefront. At AlmaLinux, we've embraced this trend, with our Cloud Special Interest Group (Cloud SIG) playing a pivotal role in aligning our offerings with the needs of the community.

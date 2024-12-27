@@ -1,6 +1,11 @@
 ---
 title: 'Extra Repositories'
+parent: 'Repositories'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
+
 # Extra Repositories
 
 ## EPEL 

@@ -1,8 +1,13 @@
 ---
 title: 'EC2 Instance Connect'
+parent: 'Cloud Images'
+grandparent: 'Installation'
+child: 'AWS'
 ---
 
 ###### last modified: 2024-03-05
+
+<Breadcrumbs />
 
 # How to use EC2 Instance Connect
 

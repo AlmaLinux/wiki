@@ -1,3 +1,10 @@
+---
+title: 'Kickstart Installation (Unattended Installation)'
+parent: 'Installation'
+---
+
+<Breadcrumbs />
+
 ## Kickstart Installation (Unattended Installation)
 
 Kickstart is used to perform unattended installation with predefined set of parameters

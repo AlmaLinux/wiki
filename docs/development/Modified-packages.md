@@ -1,7 +1,11 @@
 ---
-title: "Modified packages"
+title: 'Modified packages'
+parent: 'Development'
 ---
+
 ###### last updated: 2024-12-19
+
+<Breadcrumbs />
 
 # AlmaLinux OS Modified packages
 

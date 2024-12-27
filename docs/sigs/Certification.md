@@ -1,6 +1,11 @@
 ---
-title: "Certification SIG"
+title: 'Certification SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
+
+<Breadcrumbs />
+
 # Certification SIG
 
 The Certification SIG is focused on creating and maintaining standards and procedures related to hardware and software certification for AlmaLinux OS.

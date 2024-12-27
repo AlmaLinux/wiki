@@ -1,6 +1,10 @@
 ---
-title: "Live Media"
+title: 'Live Media'
+parent: 'Installation'
 ---
+
+<Breadcrumbs />
+
 # Live Media
 
 ## About Live Media

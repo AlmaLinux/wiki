@@ -1,6 +1,10 @@
 ---
-title: "Synergy Repository"
+title: 'Synergy Repository'
+parent: 'Repositories'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
 
 # Synergy Repository
 

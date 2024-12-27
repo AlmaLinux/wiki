@@ -1,6 +1,11 @@
 ---
-title: "Marketing SIG"
+title: 'Marketing SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
+
+<Breadcrumbs />
+
 # Marketing SIG
 
 The Marketing team is responsible for AlmaLinux marketing and outreach efforts. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise linux distribution to find us.

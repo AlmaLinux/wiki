@@ -1,6 +1,10 @@
 ---
-title: AlmaLinux 9 OpenSCAP Guide
+title: 'AlmaLinux 9 OpenSCAP Guide'
+parent: 'Security Guides'
+grandparent: 'Documentation'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux 9 OpenSCAP Guide
 

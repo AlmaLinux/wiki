@@ -1,6 +1,12 @@
 ---
-title: "name of SIG"
+title: 'name of SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
+child: 'The Process for Creating a New SIG* in the AlmaLinux Community'
 ---
+
+<Breadcrumbs />
+
 # name of SIG
 
 [insert the SIG's purpose here]

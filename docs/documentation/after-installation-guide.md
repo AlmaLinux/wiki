@@ -1,8 +1,10 @@
 ---
-title: "AlmaLinux After-Installation Guide"
+title: 'AlmaLinux After-Installation Guide'
+parent: 'Installation'
 ---
 
-###### last updated: 2023-01-15
+<Breadcrumbs />
+
 <hr>
 
 | 💡 | Experience Level  | ⭐☆☆☆☆ |

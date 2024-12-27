@@ -1,8 +1,12 @@
 ---
-title: "Migration SIG"
+title: 'Migration SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
 
 ###### last updated: 2024-04-22
+
+<Breadcrumbs />
 
 # Migration SIG
 

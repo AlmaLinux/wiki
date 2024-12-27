@@ -1,8 +1,12 @@
 ---
-title: "ELevate Quickstart Guide"
+title: 'ELevate Quickstart Guide'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
 
 ###### last updated: 2024-12-10
+
+<Breadcrumbs />
 
 # ELevate Quickstart Guide
 

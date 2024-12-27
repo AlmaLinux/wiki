@@ -1,3 +1,12 @@
+---
+title: 'Default Configuration Guide'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'Nginx Series'
+---
+
+<Breadcrumbs />
+
 # A03 ❯ Default Configuration Guide 
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>

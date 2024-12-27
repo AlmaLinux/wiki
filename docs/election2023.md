@@ -1,6 +1,10 @@
 ---
 title: 'Election 2023'
+parent: 'Foundation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux Board of Directors Election 2023
 
 # 2023 - Election Results

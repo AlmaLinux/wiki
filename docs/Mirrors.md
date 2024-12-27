@@ -1,6 +1,10 @@
 ---
 title: 'Mirrors'
+parent: 'Contribute'
 ---
+
+<Breadcrumbs />
+
 # How to create a public mirror for AlmaLinux
 
 Mirrors are extremely important to provide a fast and reliable

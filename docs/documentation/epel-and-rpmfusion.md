@@ -1,6 +1,11 @@
 ---
-title: "Installing EPEL and RPM Fusion"
+title: 'Installing EPEL and RPM Fusion'
+parent: 'Repositories'
+grandparent: 'Installation'
+child: 'Extra Repositories'
 ---
+
+<Breadcrumbs />
 
 # Installing EPEL and RPM Fusion
 

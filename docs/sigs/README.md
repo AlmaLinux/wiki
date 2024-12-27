@@ -1,6 +1,9 @@
 ---
-title: "Special interest groups"
+title: 'Special interest groups'
+parent: 'Contribute'
 ---
+
+<Breadcrumbs />
 
 # Special interest groups
 

@@ -1,3 +1,11 @@
+---
+title: 'AlmaLinux Nginx Series'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+---
+
+<Breadcrumbs />
+
 # AlmaLinux Nginx Series
 
 Welcome!

@@ -1,6 +1,10 @@
 ---
 title: 'Help translating site'
+parent: Contribute'
 ---
+
+<Breadcrumbs />
+
 # Help translating the site
 
 The [almalinux.org website](https://almalinux.org/) localization and translation is managed by [Weblate](https://hosted.weblate.org/engage/almalinux/) and supported by contributors. The translations that get submitted through Weblate are automatically submitted to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request.

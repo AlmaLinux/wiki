@@ -1,8 +1,12 @@
 ---
-title: ELevate Frequent Issues
+title: 'ELevate Frequent Issues'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
 
 ###### last updated: 2024-09-20
+
+<Breadcrumbs />
 
 # ELevate Frequent Issues
 

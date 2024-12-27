@@ -1,3 +1,12 @@
+---
+title: 'AlmaLinux 8.x Installation'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'Nginx Series'
+---
+
+<Breadcrumbs />
+
 # A02 R8 ❯ AlmaLinux 8.x Installation 
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>

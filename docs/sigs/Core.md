@@ -1,8 +1,12 @@
 ---
-title: "Core SIG"
+title: 'Core SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
 
-######last updated: 2024-04-22
+###### last updated: 2024-04-22
+
+<Breadcrumbs />
 
 # Core SIG
 

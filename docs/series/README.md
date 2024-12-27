@@ -1,3 +1,10 @@
+---
+title: 'Howto Series: AlmaLinux Tutorials'
+parent: 'Documentation'
+---
+
+<Breadcrumbs />
+
 # Howto Series: AlmaLinux Tutorials 🚀
 
 Welcome to our Howto series on AlmaLinux! In this series, we provide comprehensive guides and tutorials to help you learn and master various aspects of AlmaLinux. Whether you are interested in Nginx or system-related topics, we've got you covered.

@@ -1,3 +1,12 @@
+---
+title: 'AlmaLinux 9.2 Installation'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'Nginx Series'
+---
+
+<Breadcrumbs />
+
 # A02 R92 ❯ AlmaLinux 9.2 Installation
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>

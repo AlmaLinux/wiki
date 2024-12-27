@@ -1,6 +1,9 @@
 ---
-title: "Repositories"
+title: 'Repositories'
+parent: 'Installation'
 ---
+
+<Breadcrumbs />
 
 # Repositories
 

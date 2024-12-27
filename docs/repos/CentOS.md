@@ -1,8 +1,12 @@
 ---
 title: 'CentOS SIGs Repositories'
+parent: 'Repositories'
+grandparent: 'Installation'
 ---
 
 ###### last modified: 2024-06-12
+
+<Breadcrumbs />
 
 # CentOS SIGs Repositories
 

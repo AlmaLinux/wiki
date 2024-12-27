@@ -1,3 +1,10 @@
+---
+title: 'Security Guides'
+parent: 'Documentation'
+---
+
+<Breadcrumbs />
+
 # Documentation | Security Guides
 
 In this section of the wiki, we emphasize AlmaLinux OS security through:
