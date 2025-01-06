@@ -12,9 +12,9 @@ The following [AlmaLinux OS 9](https://app.vagrantup.com/almalinux/boxes/9) and 
 | Vagrant Box| AlmaLinux OS 9 | AlmaLinux OS 8 |
 | --- | --- | --- |
 | Libvirt | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
-| Virtual Box | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
+| VirtualBox | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
 | Hyper-V | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
-| VMWare | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
+| VMware | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
 | Parallels | ARM64 (AArch64) | - | 
 
 :::tip
