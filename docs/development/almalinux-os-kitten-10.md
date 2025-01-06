@@ -59,7 +59,7 @@ The AlmaLinux OS Generic Cloud images are available from our [mirrors](https://m
 
 | | | | | | | 
 | --- | --- | --- | --- | --- | --- |
-| AlmaLinux OS Kitten 10 | [x86_64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [aarch64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [s390x](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [ppc64le](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/cloud/) |
+| AlmaLinux OS Kitten 10 | [x86_64](https://kitten.repo.almalinux.org/10-kitten/cloud/x86_64/images/) | [aarch64](https://kitten.repo.almalinux.org/10-kitten/cloud/aarch64/images/) | [s390x](https://kitten.repo.almalinux.org/10-kitten/cloud/s390x/images/) | [ppc64le](https://kitten.repo.almalinux.org/10-kitten/cloud/ppc64le/images/) | [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/cloud/x86_64_v2/images/) |
 
 More about AlmaLinux OS images for Generic Cloud - [AlmaLinux Generic Cloud Wiki Page](/cloud/Generic-cloud).
 
@@ -71,13 +71,13 @@ AlmaLinux offers AlmaLinux OS Kitten 10 images for Azure across all Azure region
 
 More about AlmaLinux OS images for Azure - [AlmaLinux Azure Wiki Page](/cloud/Azure).
 
-### Open Nebula
+### OpenNebula
 
 The AlmaLinux OS OpenNebula images are available from our [mirrors](https://mirrors.almalinux.org/) and from the AlmaLinux OS Kitten repositories:
 
-| | | | | | | 
-| --- | --- | --- | --- | --- | --- |
-| AlmaLinux OS Kitten 10 | [x86_64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [aarch64](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [s390x](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [ppc64le](https://kitten.repo.almalinux.org/10-kitten/cloud/) | [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/cloud/) |
+| | | | |
+| --- | --- | --- | --- |
+| AlmaLinux OS Kitten 10 | [x86_64](https://kitten.repo.almalinux.org/10-kitten/cloud/x86_64/images/) | [aarch64](https://kitten.repo.almalinux.org/10-kitten/cloud/aarch64/images/) | [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/cloud/x86_64_v2/images/) |
 
 More about AlmaLinux OS images for OpenNebula - [AlmaLinux OpenNebula Wiki Page](/cloud/OpenNebula).
 
