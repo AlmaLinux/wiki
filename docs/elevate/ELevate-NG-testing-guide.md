@@ -321,6 +321,8 @@ This upgrade is currently in development and testing. The main goals are to deli
    In certain configurations, Leapp generates */var/log/leapp/answerfile* with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
    :::
 
+* Currently, the direct upgrade from Almalinux OS 9 to AlmaLinux OS 10.0 Beta goes smoothly. If there is a progressive upgrade from CentOS 7 to AlmaLinux OS 10.0 Beta, please check the [known issues](#known-issues) section.
+
 * Start an upgrade. You'll be offered to reboot the system after this process is completed.
    ```
    sudo leapp upgrade
@@ -355,6 +357,32 @@ Upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can 
   rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
   ```
 
+### Progressive upgrade to AlmaLinux 10.0 Beta
+
+If the system has been progressively upgraded from CentOS 7, the following issues appear after the preupgrade check when upgrading AlmaLinux 9 to AlmaLinux 10.0 Beta.  The issues can be found in the generated `/var/log/leapp/leapp-report.txt` file.
+* "Deprecated DHCP plugin configured" inhibitor.
+  * To mitigate the "Deprecated DHCP plugin configured" inhibitor, run:
+     ```
+     # sudo nmcli conn migrate
+     # sudo nmcli connection modify <connection_name> ipv4.dhcp-timeout 30 ipv6.dhcp-timeout 30
+     # sudo sed -i'.bak' 's/^dhcp=dhclient//g' /usr/lib/NetworkManager/conf.d/10-dhcp-dhclient.conf
+     # sudo systemctl restart NetworkManager
+     ```
+  * After that, verify the networking configuration:
+     ```
+     # NetworkManager --print-config
+     ```
+* "dracut module 'network-legacy' cannot be found or installed." error.
+  * To fix this issue delete the drop-in:
+    ```
+    # sudo rm -f /etc/dracut.conf.d/50-network-legacy.conf 
+    ```
+* Before rebooting, make sure you have a working main console. You will probably need to check the `/etc/default/grub`. An example of the console-related settings:
+  ```
+  GRUB_TERMINAL_OUTPUT="console"
+  GRUB_CMDLINE_LINUX="console=ttyS0,115200 console=tty0"
+  ```
+    
 ## Get Help 
 
 Report your feedback to [AlmaLinux ~Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from the previous OS versions. This information will allow us to improve ELevate's configuration files.
