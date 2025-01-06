@@ -2,7 +2,7 @@
 title: 'Vagrant Boxes'
 ---
 
-###### last updated: 2024-12-23
+###### last updated: 2025-01-06
 
 # Vagrant Boxes
 
@@ -16,6 +16,10 @@ The following [AlmaLinux OS 9](https://app.vagrantup.com/almalinux/boxes/9) and 
 | Hyper-V | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
 | VMWare | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
 | Parallels | ARM64 (AArch64) | - | 
+
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
 
 ## Contribute and Get Help
 
