@@ -2,7 +2,7 @@
 title: 'Kitten 10'
 ---
 
-###### last updated: 2024-11-01
+###### last updated: 2025-01-06
 
 # AlmaLinux OS Kitten 10 Release Notes
 
@@ -17,7 +17,7 @@ These are the release notes for AlmaLinux OS Kitten 10 for all supported archite
 
 Codename: Lion Cub.
 
-Distributed kernel version: 6.11.0-25.el10
+Distributed kernel version: 6.12.0-35.el10
 
 :::warning
 This release should not be used for production installations.
@@ -47,14 +47,14 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
 
 * Compilers and Programming Languages:
     * GCC 14.2
-    * Rust 1.79
+    * Rust 1.82
     * Perl 5.40
     * PHP 8.3
 
 * Build and Development Tools:
-    * CMake 3.28
+    * CMake 3.30
     * Bash 5.2
-    * LLVM-toolset 18.1
+    * LLVM-toolset 19.1
 
 * System Libraries and Core Components:
     * glibc 2.39
@@ -63,7 +63,7 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
 * Installation and Configuration:
     * Anaconda 40.22
     * Systemd 256
-    * Crypto-policies 20240828
+    * Crypto-policies 20241128
     * SELinux-policy 40.13
 
 * Web Servers and Application Servers:
@@ -83,7 +83,7 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
 
 * Virtualization and Kernel:
     * QEMU-KVM 9.1
-    * Kernel 6.11
+    * Kernel 6.12
     * Kexec-tools 2.0.29
 
 * Security Tools:
@@ -95,7 +95,7 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
     * RPM 4.19
 
 * Graphical User Interface:
-    * Qt6 6.7
+    * Qt6 6.8
     
 * The following device drivers were modified to re-add PCI IDs for hardware that was previously disabled in our upstream:
     * **aacraid** -  Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI 
@@ -116,23 +116,23 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
 
 There are three installation ISO images available:
 
-`AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso` - a single network installation CD image that downloads packages over the Internet.
+`AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso ` - a single network installation CD image that downloads packages over the Internet.
 
-`AlmaLinux-Kitten-10-20241018.0-x86_64-minimal.iso` - a minimal self-containing DVD image that makes possible offline installation.
+`AlmaLinux-Kitten-10-20241227.0-x86_64-minimal.iso` - a minimal self-containing DVD image that makes possible offline installation.
 
-`AlmaLinux-Kitten-10-20241018.0-x86_64-dvd.iso` - a full installation DVD image that contains mostly all AlmaLinux OS packages.
+`AlmaLinux-Kitten-10-20241227.0-x86_64-dvd.iso ` - a full installation DVD image that contains mostly all AlmaLinux OS packages.
 
 Download a suitable ISO image from the 10-kitten/isos/$arch/ directory, for example:
 
 ```bash
-$ wget https://kitten.repo.almalinux.org/10-kitten/isos/x86_64/AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso
+$ wget https://kitten.repo.almalinux.org/10-kitten/isos/x86_64/AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso
 ```
 
 Download and import the AlmaLinux OS public key:
 
 ```bash
 $ wget https://kitten.repo.almalinux.org/RPM-GPG-KEY-AlmaLinux-10
-$ gpg --import RPM-GPG-KEY-AlmaLinux
+$ gpg --import RPM-GPG-KEY-AlmaLinux-10
 ```
 
 Download and verify a checksums list:
@@ -142,7 +142,7 @@ $ wget https://kitten.repo.almalinux.org/10-kitten/isos/x86_64/CHECKSUM
 
 # we are looking for “Good signature”
 $ gpg --verify CHECKSUM
-gpg: Signature made Fri 18 Oct 2024 04:28:17 AM EDT
+gpg: Signature made Fri 27 Dec 2024 11:16:09 CET
 gpg:                using RSA key EE6DB7B98F5BF5EDD9DA0DE5DEE5C11CC2A1E572
 gpg: Good signature from "AlmaLinux OS 10 <packager@almalinux.org>" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
@@ -154,15 +154,15 @@ Verify the downloaded ISO image checksum:
 
 ```bash
 # calculate the downloaded ISO SHA256 checksum
-$ sha256sum AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso 
-cd6e303213ca8b4d5f02cf011dcc78a34c5c4031f3bdfeb153f0ab22c101a9f4  AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso
+$ sha256sum AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso 
+608bd2ab27ade8d2a41ee6869fd5f7f80458bbb1b8bc0fcd5bf65bbcf2889e2a  AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso
 
 # compare it with expected checksum, it should be the same
-$ cat CHECKSUM | grep -E 'SHA256.*AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso'
-SHA256 (AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso) = cd6e303213ca8b4d5f02cf011dcc78a34c5c4031f3bdfeb153f0ab22c101a9f4
+$ cat CHECKSUM | grep -E 'SHA256.*AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso'
+SHA256 (AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso) = 608bd2ab27ade8d2a41ee6869fd5f7f80458bbb1b8bc0fcd5bf65bbcf2889e2a
 ```
 
-If you decide to use the `AlmaLinux-Kitten-10-20241018.0-x86_64-boot.iso` image, you may need to provide the `https://kitten.repo.almalinux.org/10-kitten/BaseOS/x86_64/kickstart/` URL repository from the selected mirror as the Installation Source in the event that the installer is not able to find the closest mirror for some reason.
+If you decide to use the `AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso` image, you may need to provide the `https://kitten.repo.almalinux.org/10-kitten/BaseOS/x86_64/kickstart/` URL repository from the selected mirror as the Installation Source in the event that the installer is not able to find the closest mirror for some reason.
 
 There are no extra Installation Sources required if you decided to go with either the minimal or DVD ISO images.
 
