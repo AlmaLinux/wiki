@@ -12,10 +12,14 @@ The following [AlmaLinux OS 9](https://portal.cloud.hashicorp.com/vagrant/discov
 | Vagrant Box| AlmaLinux OS 9 | AlmaLinux OS 8 |
 | --- | --- | --- |
 | Libvirt | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
-| Virtual Box | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
+| VirtualBox | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
 | Hyper-V | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
-| VMWare | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
+| VMware | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
 | Parallels | ARM64 (AArch64) | - | 
+
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
 
 ## Contribute and Get Help
 
