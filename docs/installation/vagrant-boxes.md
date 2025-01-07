@@ -8,7 +8,7 @@ title: 'Vagrant Boxes'
 
 AlmaLinux offers official AlmaLinux OS images for Vagrant Boxes. Images are delivered by the AlmaLinux [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html).
 
-The following [AlmaLinux OS 9](https://app.vagrantup.com/almalinux/boxes/9) and [AlmaLinux OS 8](https://app.vagrantup.com/almalinux/boxes/8) images are available on Vagrant Cloud:
+The following [AlmaLinux OS 9](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/9) and [AlmaLinux OS 8](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/8) images are available on HCP Vagrant Registry:
 | Vagrant Box| AlmaLinux OS 9 | AlmaLinux OS 8 |
 | --- | --- | --- |
 | Libvirt | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
