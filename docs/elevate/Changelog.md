@@ -2,7 +2,7 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2024-12-20
+###### last updated: 2025-01-08
 
 # ELevate Changelog
 
