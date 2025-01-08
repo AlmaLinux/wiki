@@ -8,7 +8,7 @@ title: 'ELevate Changelog'
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
-## 2024-12-20
+## 2025-01-08
 Released from Testing to Stable:
 
 #### General updates
