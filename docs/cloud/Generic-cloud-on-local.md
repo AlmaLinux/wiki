@@ -1,8 +1,12 @@
 ---
-title: Using Generic Cloud Images on a local machine
+title: 'Using Generic Cloud Images on a local machine'
 lang: en-US
+parent: 'Cloud Images'
+grandparent: 'Installation'
+child: 'Generic CLoud (Cloud-init)'
 ---
 
+<Breadcrumbs />
 
 # Using Generic Cloud Images on a local machine
 

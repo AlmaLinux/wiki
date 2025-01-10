@@ -1,6 +1,11 @@
 ---
 title: 'Azure'
+parent: 'Cloud Images'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux OS in Azure Cloud
 
 AlmaLinux offers images for Azure across all Azure regions via the Azure Marketplace. Images are deployable via the marketplace, portal and CLI and for both Gen1 and Gen2 machines. The images are completely free of charge regardless of the deployment channel.

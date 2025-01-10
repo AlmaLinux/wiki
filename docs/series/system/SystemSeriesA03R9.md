@@ -1,3 +1,12 @@
+---
+title: 'NVIDIA: Installation on 9.x'
+parent: 'Howto Series'
+grandparent: 'Documentation'
+child: 'System Series'
+---
+
+<Breadcrumbs />
+
 # A03 R9 ❯ NVIDIA: Installation on 9.x
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>

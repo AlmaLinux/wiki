@@ -1,8 +1,11 @@
 ---
 title: 'Packaging'
+parent: 'Contribute'
 ---
 
 ###### last updated: 2024-09-20
+
+<Breadcrumbs />
 
 # Contribute to Packaging
 

@@ -1,6 +1,10 @@
 ---
 title: 'Election 2022'
+parent: 'Foundation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux Board of Directors Election 2022
 
 # Sept 19, 2022 - Election Results

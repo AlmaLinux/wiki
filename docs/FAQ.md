@@ -1,7 +1,10 @@
 ---
 title: 'FAQ'
+parent: 'Documentation'
 ---
 ###### last updated: 2023-10-02
+
+<Breadcrumbs />
 
 # Frequently asked questions
 

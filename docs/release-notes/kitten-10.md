@@ -1,8 +1,11 @@
 ---
 title: 'Kitten 10'
+parent: 'Release Notes'
 ---
 
 ###### last updated: 2025-01-06
+
+<Breadcrumbs />
 
 # AlmaLinux OS Kitten 10 Release Notes
 

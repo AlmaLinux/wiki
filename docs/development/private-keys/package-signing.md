@@ -1,6 +1,14 @@
-# Package Signing Key Generation and Handling
+---
+title: 'Package Signing Key Generation and Handling'
+parent: 'Private Keys'
+grandparent: 'Development'
+---
 
-Last updated 2024-07-10.
+###### Last updated 2024-07-10
+
+<Breadcrumbs />
+
+# Package Signing Key Generation and Handling
 
 ## Owernship
 Certificate and key generation and handling is overseen by ALESCo.

@@ -1,8 +1,12 @@
 ---
 title: 'Changelog'
+parent: 'Cloud Images'
+grandparent: 'Installation'
 ---
 
 ###### last updated: 2024-12-23
+
+<Breadcrumbs />
 
 ## Amazon Web Services AMIs
 

@@ -1,6 +1,9 @@
 ---
-title: "Raspberry Pi"
+title: 'Raspberry Pi'
+parent: 'Installation'
 ---
+
+<Breadcrumbs />
 
 # Raspberry Pi
 

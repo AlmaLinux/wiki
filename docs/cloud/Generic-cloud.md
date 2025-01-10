@@ -1,6 +1,12 @@
 ---
 title: 'Generic Cloud (Cloud-init)'
+parent: 'Cloud Images'
+grandparent: 'Installation'
+child: 'Generic CLoud (Cloud-init)'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux OS Generic Cloud (Cloud-init) image
 
 The Generic Cloud image is a general purpose virtual machine image that

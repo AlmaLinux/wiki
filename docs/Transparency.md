@@ -1,3 +1,10 @@
+---
+title: 'AlmaLinux OS Foundation'
+parent: 'Foundation'
+---
+
+<Breadcrumbs />
+
 # AlmaLinux OS Foundation
 
 The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all assets related to AlmaLinux OS. It is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 

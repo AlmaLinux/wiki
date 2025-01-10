@@ -1,6 +1,10 @@
 ---
-title: "AlmaLinux OS OVAL streams"
+title: 'AlmaLinux OS OVAL streams'
+parent: 'Security Guides'
+grandparent: 'Documentation'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux OS OVAL streams
 

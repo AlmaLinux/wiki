@@ -1,6 +1,9 @@
 ---
-title: "Howtos"
+\title: "Howtos"
+parent: 'Documentation'
 ---
+
+<Breadcrumbs />
 
 # AlmaLinux Howto Guides (external)
 

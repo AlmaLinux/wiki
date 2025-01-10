@@ -1,6 +1,11 @@
 ---
 title: 'Oracle Cloud Infrastructure'
+parent: 'Cloud Images'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux OS in Oracle Cloud Infrastructure
 
 AlmaLinux offers images for Oracle Cloud Infrastructure across all OCI regions via the [Oracle Cloud Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/homeLinkPage). Images are deployable for Regular, Shielded and ARM type instances via the Oracle Cloud Marketplace, Partner Image on Oracle Cloud Infrastructure Console and [OCI CLI](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm). The images are completely free of charge regardless of the deployment channel.

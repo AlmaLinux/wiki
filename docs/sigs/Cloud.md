@@ -1,8 +1,11 @@
 ---
-title: "Cloud SIG"
+title: 'Cloud SIG'
+parent: 'Special interest groups (SIGs)'
+grandparent: 'Contribute'
 ---
-
 ###### last updated: 2025-01-06
+<Breadcrumbs />
+
 
 # Cloud SIG
 

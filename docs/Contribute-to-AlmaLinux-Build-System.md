@@ -1,8 +1,11 @@
 ---
 title: 'AlmaLinux Build System'
+parent: 'Contribute'
 ---
 
 ###### last updated: 2024-10-16
+
+<Breadcrumbs />
 
 # Contribute to AlmaLinux Build System
 

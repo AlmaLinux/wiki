@@ -1,8 +1,12 @@
 ---
 title: 'ELevate Changelog'
+parent: 'ELevate Project'
+grandparent: 'Migration'
 ---
 
 ###### last updated: 2025-01-08
+
+<Breadcrumbs />
 
 # ELevate Changelog
 

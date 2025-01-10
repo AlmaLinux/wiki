@@ -1,6 +1,11 @@
 ---
 title: 'AlmaLinux Repositories'
+parent: 'Repositories'
+grandparent: 'Installation'
 ---
+
+<Breadcrumbs />
+
 # AlmaLinux Repositories
 
 Information about the main AlmaLinux repositories and how to install them can be found on this page. 

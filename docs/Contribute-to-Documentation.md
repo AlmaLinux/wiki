@@ -1,8 +1,11 @@
 ---
 title: 'Documentation'
+parent: 'Contribute'
 ---
 
 ###### last updated: 2024-03-25
+
+<Breadcrumbs />
 
 # Contribute to AlmaLinux Documentation
 
