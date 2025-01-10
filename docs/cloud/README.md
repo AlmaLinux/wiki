@@ -9,6 +9,10 @@ parent: 'Installation'
 
 At AlmaLinux, cloud integration is among our top priorities, ensuring that users get the most streamlined and efficient experience when deploying our OS in the cloud. Our dedication to this initiative is evident through the exceptional work of our [Cloud Special Interest Group (Cloud SIG)](/sigs/Cloud). They relentlessly work on perfecting and tailoring AlmaLinux for cloud environments, making our cloud images stand out for their performance, stability, and adaptability. 
 
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
+
 Presently, we are proud to offer robust support for a wide range of platforms including:
 | Cloud | AlmaLinux OS 8 | AlmaLinux OS 9 |
 | --- | --- | --- |

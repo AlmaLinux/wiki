@@ -17,6 +17,11 @@ AlmaLinux Docker Images is a great way to build your container image based on Al
 :::warning
 Please, when accessing AlmaLinux Container images at [Quay.io](https://quay.io/repository/almalinuxorg/almalinux), make sure you are using the correct link: **https://quay.io/repository/almalinuxorg/almalinux**.
 :::
+
+:::tip
+If you are looking for AlmaLinux OS Kitten 10 images, please, visit the [AlmaLinux OS Kitten 10](/development/almalinux-os-kitten-10) page.
+:::
+
 ## AlmaLinux Docker Images Variants
 
 AlmaLinux OS project now provides two official images: Default (Platform) and Minimal (Platform), and four fully compatible alternatives for the Red Hat Universal Base Images (UBI): Base, Init, Micro and Minimal.

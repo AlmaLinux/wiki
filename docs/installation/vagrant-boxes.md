@@ -3,7 +3,7 @@ title: 'Vagrant Boxes'
 parent: 'Installation'
 ---
 
-###### last updated: 2024-12-23
+###### last updated: 2025-01-06
 
 <Breadcrumbs />
 
@@ -11,14 +11,18 @@ parent: 'Installation'
 
 AlmaLinux offers official AlmaLinux OS images for Vagrant Boxes. Images are delivered by the AlmaLinux [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html).
 
-The following [AlmaLinux OS 9](https://app.vagrantup.com/almalinux/boxes/9) and [AlmaLinux OS 8](https://app.vagrantup.com/almalinux/boxes/8) images are available on Vagrant Cloud:
+The following [AlmaLinux OS 9](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/9) and [AlmaLinux OS 8](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/8) images are available on HCP Vagrant Registry:
 | Vagrant Box| AlmaLinux OS 9 | AlmaLinux OS 8 |
 | --- | --- | --- |
 | Libvirt | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
-| Virtual Box | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
+| VirtualBox | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
 | Hyper-V | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
-| VMWare | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
+| VMware | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
 | Parallels | ARM64 (AArch64) | - | 
+
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
 
 ## Contribute and Get Help
 

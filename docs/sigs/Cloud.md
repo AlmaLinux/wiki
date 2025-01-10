@@ -3,8 +3,9 @@ title: 'Cloud SIG'
 parent: 'Special interest groups (SIGs)'
 grandparent: 'Contribute'
 ---
-
+###### last updated: 2025-01-06
 <Breadcrumbs />
+
 
 # Cloud SIG
 
@@ -56,7 +57,7 @@ The pre-built AlmaLinux OS images are listed below:
 | LXC/LXD                    | [images.linuxcontainers.org](https://images.linuxcontainers.org) |
 | Quay                       | [quay.io/almalinuxorg](https://quay.io/almalinuxorg) |
 | GitHub Packages            | [github.com/orgs/AlmaLinux/packages](https://github.com/orgs/AlmaLinux/packages)
-| Vagrant boxes              | [app.vagrantup.com/almalinux](https://app.vagrantup.com/almalinux/) |
+| Vagrant Boxes              | [portal.cloud.hashicorp.com/vagrant/discover/almalinux](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux) |
 
 
 ### Help wanted

@@ -35,7 +35,7 @@
     </li>
     <li>Vagrant Boxes:
      <ul>
-       <li><a href="https://app.vagrantup.com/almalinux">app.vagrantup.com/almalinux</a> - AlmaLinux on Vagrant Cloud</li>
+       <li><a href="https://portal.cloud.hashicorp.com/vagrant/discover/almalinux">portal.cloud.hashicorp.com/vagrant/discover/almalinux</a> - AlmaLinux on HCP Vagrant Registry</li>
      </ul>
     </li>
   </ul>
