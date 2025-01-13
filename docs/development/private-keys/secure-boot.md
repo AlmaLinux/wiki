@@ -130,6 +130,11 @@ Import keys to Yubikey PIV slots (pay attention to slot number, 82 in this examp
 ykman piv keys import --pin-policy always --touch-policy never --pin $PIVPIN 82 almalinux-secureboot-signing.p12
 ```
 
+Import certificate to Yubikey PIV slots (pay attention to slot number, 82 in this example, if not a new yubikey)
+```bash
+ykman piv certificates import --pin $PIVPIN --verify 82 almalinux-secureboot.cer
+```
+
 ### Copy Keys and Certificates
 
 DO NOT DO NOT DO NOT connect to the internet to copy the files.
@@ -169,6 +174,9 @@ Secure boot keys generated on 2024-03-13 using policy dated 2024-03-13.  These k
 
 
 ## Changelog
+### 2025-01-13
+Add Yubikey PIV certificate (public) programming instructions
+
 ### 2024-07-03
 Add Yubikey PIV programming instructions
 
