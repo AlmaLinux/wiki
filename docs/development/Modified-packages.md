@@ -1,7 +1,7 @@
 ---
 title: "Modified packages"
 ---
-###### last updated: 2024-12-19
+###### last updated: 2025-01-14
 
 # AlmaLinux OS Modified packages
 
@@ -93,7 +93,6 @@ This table lists AlmaLinux OS packages with modified sources.
 | virt-manager | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/virt-manager/commit/a4a6bbffb06cc711d6d1c95c9253762bb9b127f0) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/virt-manager/commit/811ee55238fb13fd132f18db1d45b72865b482c4) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-top/commit/f5dade3a7d045ab8101c4ca84416bfb431199449)| - Add AlmaLinux OS support patch <br> - Enable building for ppc64le for AlmaLinux OS 10 |
 | virt-viewer | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-viewer/commit/954580e5f28486f88527be777a75cf1c96655fd9) | - Enable spice on AlmaLinux OS 10 | 
 | virtiofsd | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virtiofsd/commit/84f873c7408772d419981037ade21256af91faf8)| - Enable build on ppc64le |
-| wget | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/wget/commit/102c384c44cb942f3d6c58862bee90802735ab70) | Add nettle-devel to BuildRequires |
     
 List of modified packages that don't require debranding after AlmaLinux OS 8.7 and AlmaLinux OS 9.1 versions:
 | Package | AlmaLinux OS 8 | AlmaLinux OS 9 | Commentary |
