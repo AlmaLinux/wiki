@@ -163,7 +163,7 @@ This example is for AlmaLinux 9.1. Replace the version with the one you need to 
 
 For Windows OS there is a helpful free and open-source application - [Rufus](https://rufus.ie/). 
 
-Open the application, choose your target USB, and ISO you need to burn, and press `start`.
+Open the application, choose your target USB, and ISO you need to burn, and press `start`. After pressing start select 'DD' mode. 
 
 #### macOS
 
