@@ -45,7 +45,7 @@ There are also **latest** and **update** ISO images. **Latest** provides the lat
 
 There are a several ways to download AlmaLinux ISO:
 
-- Download AlmaLinux ISO from a mirror. Select the nearest to your geographic area mirror from the [list](https://mirrors.almalinux.org/isos.html). You need the **version**/isos/**arch**/ directory to download the suitable ISO.
+- Download AlmaLinux ISO from a mirror. Select the nearest mirror to your geographic location from the [list](https://mirrors.almalinux.org/isos.html). You need the **version**/isos/**arch**/ directory to download the suitable ISO.
 - Download AlmaLinux ISO via Bittorrent:
   - [AlmaLinux 8](https://repo.almalinux.org/almalinux/8/isos/x86_64/)
   - [AlmaLinux 9](https://repo.almalinux.org/almalinux/9/isos/x86_64/)
