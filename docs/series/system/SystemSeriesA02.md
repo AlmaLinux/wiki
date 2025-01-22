@@ -1,15 +1,16 @@
-# A02 ❯ Firewalld: A Beginner's Guide
-<small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
-<hr>
+---
+title: "Firewalld - A Beginner's Guide"
+---
+
+# Firewalld - A Beginner's Guide
+
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-10
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
-<br> 
+| 📆 | Last modified | 2023-05-10|
 
 
-## 🌟 Introduction
-   Firewalld is a dynamic firewall management tool that is enabled by default in AlmaLinux. It provides a flexible and powerful interface for configuring network traffic filtering rules and allows system administrators to easily manage firewall settings without needing to know the specifics of iptables or nftables. Firewalld uses zones, services, ports, source and destination, and masquerading/NAT to define firewall rules and secure network traffic. With firewalld, system administrators can create custom firewall configurations, add or remove services and ports, and manage network zones to secure their systems against unauthorized access and potential security threats.
+## Introduction
+Firewalld is a dynamic firewall management tool that is enabled by default in AlmaLinux. It provides a flexible and powerful interface for configuring network traffic filtering rules and allows system administrators to easily manage firewall settings without needing to know the specifics of iptables or nftables. Firewalld uses zones, services, ports, source and destination, and masquerading/NAT to define firewall rules and secure network traffic. With firewalld, system administrators can create custom firewall configurations, add or remove services and ports, and manage network zones to secure their systems against unauthorized access and potential security threats.
    
 
 :::tip
@@ -26,12 +27,9 @@ Example:
 ```
 running
 ```
-
 :::
 
-   
-
-## 🧠 Fundamental Concepts
+## Fundamental Concepts
 
 Firewalld implements a number of fundamental concepts to provide flexible and powerful network traffic filtering. These concepts include:
 
@@ -49,7 +47,7 @@ Firewalld implements a number of fundamental concepts to provide flexible and po
 
 
    
-## 📝 Key Takeaways
+## Key Takeaways
    
 ### Predefined zones
 
@@ -88,13 +86,13 @@ The changes by `firewall-cmd` when adding or removing rules are temporary are on
 Using the `--permanent` option makes the changes permanent, meaning they will be saved to the firewall configuration files on disk. These configuration files are read and applied by the firewall service when it starts up, so the changes will persist across reboots and firewall restarts.
 
 
-## 📖 Interacting with Firewalld
+## Interacting with Firewalld
 
 ::: tip
 Keep in mind that sudo privileges are required for firewall modification commands.
 :::
 
-### ➡️  Adding / removing temporary rules 
+###  Adding / removing temporary rules 
 
 Here are some basic patterns for adding and removing rules temporarily or permanently:
 
@@ -110,7 +108,7 @@ sudo firewall-cmd --add-service=<service-name>
 sudo firewall-cmd --remove-service=<service-name>
 ```
 
-### ➡️  Adding / removing permanent rules
+###  Adding / removing permanent rules
 
 - To add a service to the default zone permanently, use the command:
 
@@ -125,9 +123,9 @@ sudo firewall-cmd --permanent --remove-service=<service-name>
 ```
 
 
-## 🔖 Probing settings
+## Probing settings
   
-### ➡️  Configuration
+###  Configuration
 
 List the current active zone (by default it is `public` zone), along with any configured rules and services for that zone:
   
@@ -155,7 +153,7 @@ public (active)
 ```
 :::
 
-### ➡️  Zones 
+###  Zones 
 
 Current configuration of the firewall zones:
     
@@ -175,7 +173,7 @@ sudo firewall-cmd --info-zone=<zone> command
 ```
 
 
-### ➡️  Services: list active services
+###  Services: list active services
 
 List of services that are currently allowed in the public zone. 
 ::: tip
@@ -199,7 +197,7 @@ Replace `public` with the name of any other zone that you want to check.
 
 
 
-## 🔖 Configuring
+## Configuring
 
 ::: warning 
    
@@ -225,7 +223,7 @@ cockpit dhcpv6-client ssh
 :::
    
 
-### ➡️  Selecting Zones for Interfaces
+###  Selecting Zones for Interfaces
 
 By default, each network interface is assigned to the default zone when the firewall is booted. 
 To change the zone of an interface during a session using the `--zone=` parameter with the `--change-interface=` parameter.
@@ -236,7 +234,7 @@ For example, to transition the eth0 interface to the `work` zone, use the follow
 sudo firewall-cmd --zone=work--change-interface=eth0
 ```
 
-### ➡️  Changing the Default Zone
+###  Changing the Default Zone
 
 If you want to handle all your interfaces with a single zone, it's recommended to select the appropriate default zone for your configuration.
 To change the default zone, use the `--set-default-zone=` parameter followed by the desired zone name. 
@@ -258,7 +256,7 @@ success
 By adjusting the default zone, you can simplify and customize your firewall configuration.
 
 
-## 📋 Table of Services
+## Table of Services
 
 Table below lists common services and ports that can be used with the `firewall-cmd` command to add or remove them from the default zone (or other zones when using `--zone`).
 
@@ -337,11 +335,12 @@ mysql-proxy     6446/udp                # MySQL Proxy
 
 
 
-## 📚 Further Reading and Next Steps
+## Further Reading and Next Steps
 
 <u>In-depth Resources:</u>
-- Firewalld Series ❯ [Advanced Configuration Guide](#) 🚧 -- Work In Progress (5/15) -- HELP NEEDED: psuchanecki@almalinux.org
+- [Understanding Application Streams](SystemSeriesA01)
+- [Snapd Installation Guide](SystemSeriesA04)
 
 <u>Related Resources:</u>
-- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01.md)
-- AlmaLinux System Series ❯ [Application Streams](SystemSeriesA01.md)
+- [Nginx: A Beginner's Guide](../nginx/NginxSeriesA01)
+- [Firewalld: A Beginner's Guide](SystemSeriesA02)

@@ -1,6 +1,10 @@
-# Howto Series: AlmaLinux Tutorials 🚀
+---
+title: 'AlmaLinux Tutorials'
+---
 
-Welcome to our Howto series on AlmaLinux! In this series, we provide comprehensive guides and tutorials to help you learn and master various aspects of AlmaLinux. Whether you are interested in Nginx or system-related topics, we've got you covered.
+# AlmaLinux Tutorials
+
+Welcome to our tutorial series on AlmaLinux! In this series, we provide comprehensive guides and tutorials to help you learn and master various aspects of AlmaLinux. Whether you are interested in Nginx or system-related topics, we've got you covered.
 
 ## Nginx Series
 
@@ -8,45 +12,32 @@ The Nginx series focuses on all things related to Nginx web server. From install
 
 Browse the articles in the Nginx series:
 
-- [A01](nginx/NginxSeriesA01.md) ❯ Beginner's Guide
-- [A02 R8](nginx/NginxSeriesA02R8.md) ❯ AlmaLinux 8.x Installation Examples
-- [A02 R9.1](nginx/NginxSeriesA02R91.md) ❯ AlmaLinux 9.1 Installation Examples
-- [A02 R9.2](nginx/NginxSeriesA02R92.md) ❯ AlmaLinux 9.2 Installation Examples
-- [A03](nginx/NginxSeriesA03.md) ❯ Default Configuration Guide
-- [A04](nginx/NginxSeriesA04P1.md) ❯ Secure Nginx Deployment
+- [Nginx, a Beginner's Guide](nginx/NginxSeriesA01) 
+- [Installing Nginx on AlmaLinux 8](nginx/NginxSeriesA02R8)
+- [Installing Nginx on AlmaLinux 9](nginx/NginxSeriesA02R92) 
+- [Default Nginx Configuration Guide](nginx/NginxSeriesA03) 
+- [Secure Nginx Deployment on AlmaLinux](nginx/NginxSeriesA04P1) 
 
 ## System Series
 
-**The vision:** (In near future) The System series covers a wide range of system-related topics on AlmaLinux. This guides will help you enhance your system administration skills and ensure the stability and security of your AlmaLinux environment.
+**The vision:** The System series covers a wide range of system-related topics on AlmaLinux. These guides will help you enhance your system administration skills and ensure the stability and security of your AlmaLinux environment.
 
 Explore the articles in the System series:
 
-- [A01](system/SystemSeriesA01.md) ❯ Application Streams
-- [A02](system/SystemSeriesA02.md) ❯ Firewalld: A Beginner's Guide
-- [A03](system/SystemSeriesA03.md) ❯ NVIDIA Driver Installation Guide
-- [A03 R8](system/SystemSeriesA03R8.md) ❯ NVIDIA Driver: Installation on 8.x
-- [A03 R9](system/SystemSeriesA03R9.md) ❯ NVIDIA Driver: Installation on 9.x
-- [A04](system/SystemSeriesA04.md) ❯ Snapd Installation Guide
-- [A05](system/SystemSeriesA05.md) ❯ Multimedia Codecs Installation Guide
+- [Understanding Application Streams](system/SystemSeriesA01)
+- [Firewalld: A Beginner's Guide](system/SystemSeriesA02)
+- [Snapd Installation Guide for AlmaLinux](system/SystemSeriesA04)
 
 Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hacking! 🐧💻🚀
 
-----
+## Guides for NVIDIA Driver Installation
+
+- NVIDIA on AlmaLinux overall guide - [NVIDIA Drivers Guide for AlmaLinux](/series/nvidia/)
+- NVIDIA Driver Installation Guide:
+  - [Installation on 8.x](/series/nvidia/nvidiaseries8x)
+  - [Installation on 9.x](/series/nvidia/nvidiaseries9x)
 
 ##### Trademark Notices
 :::warning
-
-**AlmaLinux** is a registered trademark of AlmaLinux OS Foundation.
-
-**Linux®** is a registered trademark of Linus Torvalds in the U.S. and other countries.
-
-**macOS** are trademarks of Apple Inc., registered in the U.S. and other countries.
-
-**NVIDIA** is a registered trademark of NVIDIA Corporation in the U.S. and other countries.
-
-**Red Hat** is a registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries.
-
-**Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
-
-All other trademarks are the property of their respective owners.
+In case it isn't clear, all trademarks are the property of their respective owners.
 :::
