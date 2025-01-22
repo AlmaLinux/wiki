@@ -276,7 +276,7 @@ UEFI or Bios is never mentioned again during the installation instructions. Remo
 
 This section allows you to add the installation source and additional repositories if needed.
 
-- _Installation Source_ - the installation source is to be specified here. When installing using the full DVD image the installation source will be automatically specified as Local media, if the Boot media is used as the installation media the installation source will be set to Network.
+- _Installation Source_ - the installation source is to be specified here. When installing using the full DVD image the installation source will be automatically specified as Local media, if the Boot ISO is used as the installation media the installation source will be set to the closest mirror.
 
 **Select `Done` to complete the configuration of this section.**
 
