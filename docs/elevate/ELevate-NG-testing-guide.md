@@ -2,7 +2,7 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2024-12-19
+###### last updated: 2025-01-23
 
 # ELevate NG Testing Guide
 
@@ -31,7 +31,7 @@ Currently, the following upgrade paths are available:
 
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](#known-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.<br>
-\*** - Upgrade to AlmaLinux OS 10 is only available to the version **10.0 Beta**. Currently, it doesn't have support x86_64_v2. 
+\*** - Upgrade to AlmaLinux OS 10 is only available to the version **10.0 Beta**. Currently, it doesn't have support x86_64_v2.
 
 
 ## Upgrade CentOS 7 to AlmaLinux 8
@@ -174,7 +174,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```
-
+   
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
    :::warning
@@ -292,6 +292,11 @@ After these preparations are completed, you can upgrade your AlmaLinux 9 machine
 This upgrade is currently in development and testing. The main goals are to deliver working `leapp-data` and `leapp-repository` packages needed for the upgrade and to be able to upgrade to AlmaLinux OS 10 successfully. This upgrade is not recommended for production machines.
 :::
 
+:::tip
+These steps can also be used to perform the upgrade from CentOS Stream 9 to CentOS Stream 10. The only difference is the `leapp-data` package.
+:::
+
+
 * Install ELevate NG version repo config for AlmaLinux 9:
    ```
    sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
@@ -304,7 +309,12 @@ This upgrade is currently in development and testing. The main goals are to deli
    ```
    sudo yum install -y leapp-upgrade leapp-data-almalinux
    ```
-
+   :::tip
+   For the upgrade to CentOS Stream 10, please, use the `leapp-data-centos` package:
+   ```
+   sudo yum install -y leapp-upgrade leapp-data-centos
+   ```
+   
 * Start a preupgrade check. In the meanwhile, the Leapp utility creates a special */var/log/leapp/leapp-report.txt* file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
    :::warning
@@ -322,6 +332,10 @@ This upgrade is currently in development and testing. The main goals are to deli
    :::
 
 * Currently, the direct upgrade from Almalinux OS 9 to AlmaLinux OS 10.0 Beta goes smoothly. If there is a progressive upgrade from CentOS 7 to AlmaLinux OS 10.0 Beta, please check the [known issues](#known-issues) section.
+ 
+  :::tip
+  For CentOS Stream 9 to CentOS Stream 10 upgrade, please, also see the [known issues](#known-issues) section.
+  :::
 
 * Start an upgrade. You'll be offered to reboot the system after this process is completed.
    ```
@@ -382,7 +396,20 @@ If the system has been progressively upgraded from CentOS 7, the following issue
   GRUB_TERMINAL_OUTPUT="console"
   GRUB_CMDLINE_LINUX="console=ttyS0,115200 console=tty0"
   ```
-    
+
+### Upgrade from CentOS Strem 9 to CentOS Stream 10
+
+During CentOS Stream 9 to CentOS Stream 10 upgrade the following error can appear during preupgrade/upgrade step and can also be found in the generated */var/log/leapp/leapp-report.txt* file:
+  ```
+  error: Verifying a signature using certificate 99DB70FAE1D7CE227FB6488205B555B38483C65D (CentOS (CentOS Official Signing Key) <security@centos.org>)
+  ```
+
+To fix the error, please, manually remove and import the CentOS GPG Key using the following commands:
+  ```
+  rpm -e gpg-pubkey-8483c65d-5ccc5b19
+  rpm --import https://www.centos.org/keys/RPM-GPG-KEY-CentOS-Official-SHA256
+  ```
+	
 ## Get Help 
 
 Report your feedback to [AlmaLinux ~Migration Channel](https://chat.almalinux.org/almalinux/channels/migration). We're especially interested in packages left from the previous OS versions. This information will allow us to improve ELevate's configuration files.

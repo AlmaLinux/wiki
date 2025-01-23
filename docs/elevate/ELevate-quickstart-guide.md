@@ -2,7 +2,7 @@
 title: "ELevate Quickstart Guide"
 ---
 
-###### last updated: 2024-12-10
+###### last updated: 2025-01-23
 
 # ELevate Quickstart Guide
 
@@ -35,7 +35,8 @@ Currently, the following upgrade paths are available:
 ![image](/images/ELevate.svg)
 
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
-\** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
+\** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.<br>
+\*** - upgrade is available as ELevate NG and currently in testing. For details, please, see the [ELevate NG Guide](/elevate/ELevate-NG-testing-guide).
 
 ### Requirements 
 
