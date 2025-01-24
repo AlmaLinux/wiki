@@ -1,7 +1,7 @@
 ---
 title: "Modified packages"
 ---
-###### last updated: 2025-01-14
+###### last updated: 2025-01-24
 
 # AlmaLinux OS Modified packages
 
@@ -39,7 +39,8 @@ This table lists AlmaLinux OS packages with modified sources.
 | grub2 |<b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/grub2/commit/33d2c41b51cb5f249b35e4a0d63c1d14bf45f4d4) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/grub2/commit/c5253d0d2e694a98261ba5133ea9f79106f76d8f) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/grub2/commit/4521df2d3781c2ad4f1b40a376a7a32962b440fc) |- Use AlmaLinux OS secure boot cert<br>- Debrand for AlmaLinux<br> - Add x86_64_v2 support for AlmaLinux OS 10 |
 | guestfs-tools | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/guestfs-tools/commit/d3a3549449e1e880126866695de5d77a29dc9720) | - Enable qemu-kvm for ppc64le |
 | hplip | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/hplip/commit/4b2a9aa41df8d259e7c59e573344f748d7af390c) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/hplip/commit/3d3e591d57b2762c47885e4cf3f6980cb371ebff) | Doesn't require modification | - Add AlmaLinux OS support<br>- Fix permission for custom created gpg dir<br>- Change gpg server to pgp.mit.edu |
-| java-17-openjdk | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/java-17-openjdk/commit/75be5786f3af8ec131c1b6bc400e9858b3b977f5) | - Use el8 portable packages |
+| java-17-openjdk | Doesn't require modification | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/java-17-openjdk/commit/97b3a82a1354119f41d6360eadce7e64fe703b35#diff-2aaacb2bf35ce218a8099aee7c006760350db1f4) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/java-17-openjdk/commit/75be5786f3af8ec131c1b6bc400e9858b3b977f5) | - Use el8 portable packages |
+| java-21-openjdk | Doesn't require modification | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/java-21-openjdk/commit/024085b87e7b007f40a2bc8ea3d2ad63691e05f2#diff-bde9f3b4ee6fe570d90088f1086d0cf2f5b510a7) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/java-21-openjdk/commit/c93a62d0f9bdbfddac891cae205fc424f278469d) | - Use el8 portable packages |
 | initial-setup | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/initial-setup/commit/afd963bfb2093779ccaadd636847a71bee4f8e49)  | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/initial-setup/commit/e6f8b66291c747e0bd3131d799ac1ca9380f8616) | Doesn't require modification | - AlmaLinux OS debrand patch |
 | kernel | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/kernel/commit/273ff5a1639b7aa4281b9d12df0844833e4b174e) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/kernel/commit/b3893ae5fe5b195d08796fdeb7c8299af14ed5a5) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/kernel/commit/6f28939af4ddb9e15f1326a665f063e8360e3678)<br>[Kitten 10](https://git.almalinux.org/rpms/kernel/commit/3d80ff5551c23254722041a0695eba060355a53d)<br>[Kitten 10](https://git.almalinux.org/rpms/kernel/commit/ed4a5f72567233d2dc9120f863206c463cfff567)|- Use AlmaLinux OS secure boot cert<br>- Debrand for AlmaLinux OS <br> - Add x86_64_v2 support for Kitten 10 <br> - Enable frame-pointers for AlmaLinux OS 10 - Bring back deprecated PCI IDs |
 | kernel-rt | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/kernel-rt/commit/1cc2bb69323a86c570fffefd79d02191f20f3cd1) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/kernel-rt/commit/b3b715bbe5e7adef10364e64647095b31011a697) | Doesn't require modification |- Use AlmaLinux OS secure boot cert<br>- Debrand for AlmaLinux OS |
