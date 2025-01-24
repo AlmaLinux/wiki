@@ -46,7 +46,7 @@ There are also **latest** and **update** ISO images. **Latest** provides the lat
 There are a several ways to download AlmaLinux ISO:
 
 - Download AlmaLinux ISO from a mirror. Select the nearest mirror to your geographic location from the [list](https://mirrors.almalinux.org/isos.html). You need the **version**/isos/**arch**/ directory to download the suitable ISO.
-- Download AlmaLinux ISO via Bittorrent:
+- Download AlmaLinux ISO via Bittorrent, this may be faster than downloading from a mirror based on your geographic location. A .torrent file can be found on all mirrors in the ISO directory.:
   - [AlmaLinux 8](https://repo.almalinux.org/almalinux/8/isos/x86_64/)
   - [AlmaLinux 9](https://repo.almalinux.org/almalinux/9/isos/x86_64/)
 - Download from the [Public Package Repository](https://repo.almalinux.org/):
@@ -174,11 +174,17 @@ This example is for AlmaLinux 9.1. Replace the version with the one you need to 
 
 Fedora Media Writer is a GUI based application for creating USB installation media from ISO images. It is available on Flathub for installation on linux. Use either your distributions software packaging application or install via the CLI with flatpak.
 
-**Install:**
-`flatpak install flathub org.fedoraproject.MediaWriter`
+- **Install:**
 
-**Run:**
-`flatpak run org.fedoraproject.MediaWriter`
+  ```bash
+  flatpak install flathub org.fedoraproject.MediaWriter
+  ```
+
+- **Run:**
+
+  ```bash
+  flatpak run org.fedoraproject.MediaWriter
+  ```
 
 ### Windows
 
@@ -258,19 +264,19 @@ UEFI or Bios is never mentioned again during the installation instructions. Remo
 
   ![image](/images/installation-guide-keyboard.gif)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - _Language Support_ - the default supported language is the language selected for the installation process. You can add support for additional languages as required.
 
   ![image](/images/installation-guide-language-support.png)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - _Time & Date_ - this option allows you to select the timezone to be configured. You can select the location from the _Region_/_City_ lists or select from the map. Enable the Network Time option to configure the system to automatically set the time on boot via NTP.
 
   ![image](/images/installation-guide-time-date.gif)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 ### SOFTWARE
 
@@ -278,7 +284,7 @@ This section allows you to add the installation source and additional repositori
 
 - _Installation Source_ - the installation source is to be specified here. When installing using the full DVD image the installation source will be automatically specified as Local media, if the Boot ISO is used as the installation media the installation source will be set to the closest mirror.
 
-**Select `Done` to complete the configuration of this section.**
+Select **Done** to complete the configuration of this section.
 
 - _Software Selection_ - this section contains two fields:
 
@@ -293,7 +299,7 @@ This section allows you to add the installation source and additional repositori
 
   ![image](/images/installation-guide-software-selection.gif)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 ### SYSTEM
 
@@ -313,19 +319,19 @@ This section allows you to customize the installation to the requirements of you
   ![image](/images/installation-guide-encryption.gif)
   :::
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - _KDUMP_ - by default, kdump will be marked as enabled with automatic memory reservation.
 
   ![image](/images/installation-guide-kdump.png)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - _Network & Host Name_ - all detected networks will be listed in the left field. If able they will be automatically connected. You can add a network device and configure the chosen network in this section.
 
   ![image](/images/installation-guide-network.png)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - _Security Profile_ - no profile is chosen by default, as applying a security policy is not necessary. The applied security policy will be installed in the system using the compliance policies defined by SCAP. You can choose one of the available security profiles:
 
@@ -352,7 +358,7 @@ This section allows you to customize the installation to the requirements of you
     For further details about Security Profiles, check the [OpenSCAP Guide for AlmaLinux 8](/documentation/openscap-guide.md) and [OpenSCAP Guide for AlmaLinux 9](/documentation/openscap-guide-for-9.md).
     :::
 
-    **Select `Done` to complete the configuration of this section.**
+    Select **Done** to complete the configuration of this section.
 
 ### USER SETTINGS
 
@@ -362,13 +368,13 @@ This section allows you to configure a password for the root user account if req
 
   ![image](/images/installation-guide-root.gif)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - _User Creation_ - this window allows you to create administrative and non-administrative users. To create a user fill in the _Full Name_ and _User Name_ fields, set and confirm the password, and enable the _Make this user administrator_ field if required. The _Require the password to use this account_ option is enabled by default. You can leave it enabled or click on the checkbox to remove the check to disable this option.
 
   ![image](/images/installation-guide-user.gif)
 
-  **Select `Done` to complete the configuration of this section.**
+  Select **Done** to complete the configuration of this section.
 
 - When you are finished with the customization, click on the **Begin Installation** button to start the installation process.
 
