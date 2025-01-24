@@ -2,7 +2,7 @@
 title: "AlmaLinux Installation Guide"
 ---
 
-###### last updated: 2025-22-01
+###### last updated: 2025-01-22
 
 # AlmaLinux installation guide (ISOs)
 
