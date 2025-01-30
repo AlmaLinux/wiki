@@ -2,7 +2,7 @@
 title: "ELevate Quickstart Guide"
 ---
 
-###### last updated: 2025-01-23
+###### last updated: 2025-01-30
 
 # ELevate Quickstart Guide
 
