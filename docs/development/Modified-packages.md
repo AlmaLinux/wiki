@@ -1,7 +1,7 @@
 ---
 title: "Modified packages"
 ---
-###### last updated: 2025-01-30
+###### last updated: 2025-02-04
 
 # AlmaLinux OS Modified packages
 
@@ -51,6 +51,7 @@ This table lists AlmaLinux OS packages with modified sources.
 | libvirt | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/libvirt/commit/86f8f548d2d73828aba563db9e84dd92f62426d1) | - Enable building for ppc64le |
 | llvm | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/llvm/commit/1a99fbd6a14bd25a7c9e1b5c945e104a05ef6fb7) | - Use x86_64-redhat-linux as default gcc triple for x86_64_v2 |
 | lorax | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/lorax/commit/09aad953b71617f32ff80317f6983b93700bafb1) | - Add x86_64_v2 support |
+| mesa |  <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/mesa/commit/5a703a38e75f4418fff96dbd057868d963bf260c) |  <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/mesa/commit/9ddf16c06864f171379394c2751527152da47407) | Doesn't require modification | - Enable v3d for Raspberry Pi graphic in AlmaLinux |
 | mongo-tools | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/mongo-tools/commit/fc4e50154e1d56ee3478d2966fd6fa76c8d6b370) | Doesn't require modification| Doesn't require modification | - Use golang instead of go-toolset-1.10-golang BR |
 | nginx | <b>Git commit:</b><br>8:<li>[a8-stream-1.14](https://git.almalinux.org/rpms/nginx/commit/a2a7289a0c043020a2dbf2cc518f4b7b1642eb10)</li><li>[a8-stream-1.16](https://git.almalinux.org/rpms/nginx/commit/11fd354236f99d6518fa71b73904d869ebc20bdd)</li><li>[a8-stream-1.18](https://git.almalinux.org/rpms/nginx/commit/c2226342dbc12a52a6ebdf706b2f89403b45c34e)</li><li>[a8-stream-1.20](https://git.almalinux.org/rpms/nginx/commit/abb001e0947d0c865bfeaa52fd0f8b88a793cec9)</li><li>[a8-stream-1.22](https://git.almalinux.org/rpms/nginx/commit/270d35d08b1496dc53a1bee8efe070efa9d8c9ee)</li> | <b>Git commit:</b><br>9:<li>[9](https://git.almalinux.org/rpms/nginx/commit/866617d21031f21e60aeb6827feb8437c605b2fd)</li><li>[a9-stream-1.22](https://git.almalinux.org/rpms/nginx/commit/d5f7b095ca134f51b9649ea60bea4c95d495ae1a)</li> | Doesn't require modification | - Debrand for AlmaLinux OS |
 | opa-ff | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/opa-ff/commit/349cff1caea18466ccdbb7839dc8a18b557ae092) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/opa-ff/commit/c5a7fc55b8f368b2af08bf09b7fda73f40e02f3a) | Doesn't require modification | - Add AlmaLinux OS detection |
@@ -84,6 +85,7 @@ This table lists AlmaLinux OS packages with modified sources.
 | syslinux | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/syslinux/commit/17d18ccb8d762ab5400c9ec467bdb64f36fdd92c) | - Add x86_64_v2 support |
 | systemd | Doesn't require modification | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/systemd/commit/199f2fc85038d845ba2c8ba7693882abad7b9b37) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/systemd/commit/e393a8bf841dd217a83a54ba6028c5ca33033372) | - Use AlmaLinux OS support-url |
 | thunderbird | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/thunderbird/commit/f17f8521488d3d48b0061cec08d795b8ba4d857f) | <b>Git commit:</b><br> [9](https://git.almalinux.org/rpms/thunderbird/commit/dd5ecbc4851476d1e1e73759e75dcb350146c40f) | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/thunderbird/commit/6a9a91a50b11a8e5c00dc26c9fbae1116d8a6f40) | - Debrand for AlmaLinux OS |
+| virt-manager | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/virt-manager/commit/a4a6bbffb06cc711d6d1c95c9253762bb9b127f0) | Doesn't require modification | Doesn't require modification | - Add AlmaLinux OS support patch |
 | virt-top | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-top/commit/f5dade3a7d045ab8101c4ca84416bfb431199449)| - Enable building for ppc64le for AlmaLinux OS 10 |
 | virt-viewer | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-viewer/commit/954580e5f28486f88527be777a75cf1c96655fd9) | - Enable spice on AlmaLinux OS 10 | 
 | virtiofsd | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virtiofsd/commit/84f873c7408772d419981037ade21256af91faf8)| - Enable build on ppc64le |
@@ -103,4 +105,4 @@ List of modified packages that no longer require debranding:
 | perl-AnyEvent | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/perl-AnyEvent/commit/7df8a744d97fbb6b31ace8f6bef17177bae18d37) | Doesn't require modification | Doesn't require modification | - Use patch for fix ssltest|
 | rpm-ostree | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/rpm-ostree/commit/bf2f06b445140c9786e1fe50301a734e6094b77c) |Doesn't require modification | Doesn't require modification | - Add libassuan-devel to BR|
 | s390utils | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/s390utils/commit/7c6a3e182f09e2f141b0460e7bb2190dc27b4c80) |Doesn't require modification | Doesn't require modification |- Fix detection <i>5*</i> version kernels to allow builds on AlmaLinux OS 9 nodes |
-| virt-manager | <b>Git commit:</b><br>[8](https://git.almalinux.org/rpms/virt-manager/commit/a4a6bbffb06cc711d6d1c95c9253762bb9b127f0) | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/virt-manager/commit/811ee55238fb13fd132f18db1d45b72865b482c4) | Doesn't require modification | - Add AlmaLinux OS support patch |
+| virt-manager | To be modified | <b>Git commit:</b><br>[9](https://git.almalinux.org/rpms/virt-manager/commit/811ee55238fb13fd132f18db1d45b72865b482c4) | Doesn't require modification | - Add AlmaLinux OS support patch |
