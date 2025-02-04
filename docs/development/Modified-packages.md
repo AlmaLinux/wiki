@@ -91,6 +91,8 @@ This table lists AlmaLinux OS packages with modified sources.
 | virt-top | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-top/commit/f5dade3a7d045ab8101c4ca84416bfb431199449)| - Enable building for ppc64le for AlmaLinux OS 10 |
 | virt-viewer | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virt-viewer/commit/954580e5f28486f88527be777a75cf1c96655fd9) | - Enable spice on AlmaLinux OS 10 | 
 | virtiofsd | Doesn't require modification | Doesn't require modification | <b>Git commit:</b><br>[Kitten 10](https://git.almalinux.org/rpms/virtiofsd/commit/84f873c7408772d419981037ade21256af91faf8)| - Enable build on ppc64le |
+
+List of modified packages that no longer require debranding:
     
 | Package | AlmaLinux OS 8 | AlmaLinux OS 9 | Kitten 10 | Commentary |
 | --- | --- | --- | --- | --- |
