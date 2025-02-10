@@ -66,9 +66,6 @@ Our tech stack:
 * [Javier Hernández Antúnez](mailto:jhernandez@cloudlinux.com) - The software developer engineer.
   * Chat login: [jhernandez](https://chat.almalinux.org/almalinux/messages/@jhernandez)
   * GitHub profile: [javihernandez](https://github.com/javihernandez)
-* [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
-  * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-  * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
 * [Maksim Petuhov](mailto:mpetuhov@cloudlinux.com) - The UI designer.
   * Chat login: [mxpthv](https://chat.almalinux.org/almalinux/messages/@mxpthv)
   * GitHub profile: [maccelf](https://github.com/maccelf)
