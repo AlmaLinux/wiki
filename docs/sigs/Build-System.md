@@ -2,7 +2,7 @@
 title: 'Build System SIG'
 ---
 
-##### last modified: 2024-10-28
+##### last modified: 2025-02-10
 
 # Build System SIG
 
@@ -57,21 +57,15 @@ Our tech stack:
 * [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
   * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
   * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
-* [Vasily Kleschov](mailto:vkleschov@cloudlinux.com) - Build System Team Lead.
-  * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
-  * GitHub profile: [Korulag](https://github.com/Korulag)
+* [Daniil Anfimov](mailto:danfimov@cloudlinux.com) - Build System Team Lead.
+  * Chat login: [anfimovdm](https://chat.almalinux.org/almalinux/messages/@anfimovdm)
+  * GitHub profile: [anfimovdm](https://github.com/anfimovdm)
 * [Roman Kravchenko](mailto:rkravchenko@cloudlinux.com) - Product Owner.
   * Chat login: [roman-of-the-bs](https://chat.almalinux.org/almalinux/messages/@roman-of-the-bs)
   * GitHub profile: [forbiddenpotato](https://github.com/forbiddenpotato)
 * [Javier Hernández Antúnez](mailto:jhernandez@cloudlinux.com) - The software developer engineer.
   * Chat login: [jhernandez](https://chat.almalinux.org/almalinux/messages/@jhernandez)
   * GitHub profile: [javihernandez](https://github.com/javihernandez)
-* [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
-  * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-  * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Daniil Anfimov](mailto:danfimov@cloudlinux.com) - The software developer engineer.
-  * Chat login: [anfimovdm](https://chat.almalinux.org/almalinux/messages/@anfimovdm)
-  * GitHub profile: [anfimovdm](https://github.com/anfimovdm)
 * [Maksim Petuhov](mailto:mpetuhov@cloudlinux.com) - The UI designer.
   * Chat login: [mxpthv](https://chat.almalinux.org/almalinux/messages/@mxpthv)
   * GitHub profile: [maccelf](https://github.com/maccelf)
