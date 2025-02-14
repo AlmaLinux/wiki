@@ -18,7 +18,22 @@ module.exports = {
     ['link', { rel: "shortcut icon", type: 'image/png', href: "/images/logo.png"}],
   ],
   base: '/',
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp) => {
+          return new Date(timestamp).toLocaleDateString('en-GB', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          });
+        },
+      },
+    ],
+  ],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     logo: '/images/logo.png',
     nav: [
       { text: 'Home', link: 'https://almalinux.org/' },
