@@ -109,6 +109,8 @@ Currently, AlmaLinux builds Live Media images for GNOME, GNOME Mini and KDE opti
 | GNOME Mini | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
 | KDE | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
 
+More about AlmaLinux OS Live Media images - [AlmaLinux Live Media Page](/LiveMedia).
+
 ## Vagrant Boxes
 
 AlmaLinux provides official AlmaLinux OS Kitten images for Vagrant:
