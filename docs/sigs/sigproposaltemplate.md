@@ -29,7 +29,7 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 
 ## SIG members
 
-* [name](either email address or mattermost chat link) - Committee lead
+* [name](either email address or mattermost chat link) - SIG lead
 * [name](either email address or mattermost chat link) - member
 
 (you can also include additional information about other folks that help your SIG or are involved in some way here)

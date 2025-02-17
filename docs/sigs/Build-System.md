@@ -54,9 +54,6 @@ Our tech stack:
 
 ## SIG Members:
 
-* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
-  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
-  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Vasily Kleschov](mailto:vkleschov@cloudlinux.com) - Build System Team Lead.
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
