@@ -100,6 +100,15 @@ AlmaLinux OS provides official OCI, Docker and four fully compatible alternative
 
 More about AlmaLinux OS Container Images - [AlmaLinux Containers](/containers/).
 
+## Live Media
+
+Currently, AlmaLinux builds Live Media images for GNOME, GNOME Mini and KDE options for AlmaLinux OS Kitten 10:
+| Live Media | AlmaLinux OS Kitten 10 |
+| --- | --- |
+| GNOME | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
+| GNOME Mini | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
+| KDE | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
+
 ## Vagrant Boxes
 
 AlmaLinux provides official AlmaLinux OS Kitten images for Vagrant:
