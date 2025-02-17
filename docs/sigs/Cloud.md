@@ -78,6 +78,3 @@ If you can help, please join us at [SIG/Cloud on Mattermost](https://chat.almali
 * [Yuriy Kohut](mailto:ykohut@almalinux.org) - Release automation engineer.
   * Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
   * GitHub profile: [yuravk](https://github.com/yuravk)
-* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
-  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
-  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
