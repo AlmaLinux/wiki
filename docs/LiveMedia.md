@@ -1,6 +1,9 @@
 ---
 title: "Live Media"
 ---
+
+###### last modified: 2025-02-17
+
 # Live Media
 
 ## About Live Media
@@ -8,6 +11,11 @@ title: "Live Media"
 Live Media is a way to try AlmaLinux on your computer without installing it to the hard drive. You can run it from a USB or DVD to preview and for system rescue needs. Images support both BIOS and UEFI, including Secure Boot mode. 
 
 ## Live Media Options
+
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
+
 There are a few AlmaLinux Live Media Options:
 
 * GNOME Mini: contains a core GNOME environment with Firefox browser
