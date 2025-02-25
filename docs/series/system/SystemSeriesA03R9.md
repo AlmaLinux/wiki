@@ -131,7 +131,7 @@ sudo reboot
 ```
 sudo dnf install epel-release
 sudo dnf config-manager --enable crb
-sudo dnf dnf config-manager --set-enabled extras
+sudo dnf config-manager --set-enabled extras
 ```
 ➡️  Install needed packages :
 
