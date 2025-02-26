@@ -279,6 +279,7 @@ module.exports = {
               children: [
                 '/elevate/ELevate-quickstart-guide',
                 '/elevate/ELevating-CentOS7-to-AlmaLinux-9',
+                '/elevate/Elevating-CentOS-ELS-to-AlmaLinux-ESU-by-TuxCare',
                 '/elevate/ELevating-CentOS6-to-CentOS7',
                 '/elevate/ELevate-offline-guide',
                 '/elevate/ELevate-testing-guide',
