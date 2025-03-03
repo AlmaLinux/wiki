@@ -239,7 +239,7 @@ sudo reboot
 sudo echo "[Desktop Entry]" | sudo tee /usr/share/applications/nvidia-settings.desktop
 sudo echo "Type=Application" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Name=NVIDIA Settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
-sudo echo "Comment=Configure NVIDIA Settings" | sudo tee -a /usr/share/applications/nv```idia-settings.desktop
+sudo echo "Comment=Configure NVIDIA Settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Exec=nvidia-settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Icon=nvidia-settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Terminal=false" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
