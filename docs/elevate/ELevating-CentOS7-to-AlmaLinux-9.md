@@ -2,7 +2,7 @@
 title: "ELevating CentOS 7 to AlmaLinux 9"
 ---
 
-###### last updated: 2024-11-14
+###### last updated: 2025-03-05
 
 # ELevating CentOS 7 to AlmaLinux 9
 
@@ -230,7 +230,9 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
 
 ## Important Notes about the Upgrade Process
 
-* During the upgrade, ELevate uses a multitude of repositories to migrate and upgrade the system. Among them is the usage of the CRB repository. Important to note, if the CRB repository was not enabled on your system prior to using ELevate, it will remain disabled after the upgrade. This can cause future system updates via dnf to fail as one or more packages/package dependencies may now depend on packages within the CRB repository. The errors can look something like this:
+### Package Dependency Error After ELevate Upgrade
+
+ During the upgrade, ELevate uses a multitude of repositories to migrate and upgrade the system. Among them is the usage of the CRB repository. Important to note, if the CRB repository was not enabled on your system prior to using ELevate, it will remain disabled after the upgrade. This can cause future system updates via dnf to fail as one or more packages/package dependencies may now depend on packages within the CRB repository. The errors can look something like this:
   ```
   Error: 
   Problem: package nss_db-2.34-100.el9_4.2.x86_64 from @System requires glibc(x86-64) = 2.34-100.el9_4.2, but none of the providers can be installed
@@ -245,6 +247,25 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
   While this is one of the most commonly encountered post-ELevate dnf repository related issues, additional or alternative issues may arise from similarly absent dnf repositories that are responsible for dependency resolution.
 
   To enable CRB or any other AlmaLinux repository, please reference [this article](/repos/AlmaLinux.html)
+
+  ### Error Detected While Processing /etc/virc
+
+  When performing a progressive upgrade from CentOS 7 to AlmaLinux 9, you may encounter the following issue on EL 9 while using `vi` (not `vim`):
+  ```
+  Error detected while processing /etc/virc:
+  line   40:
+  E319: Sorry, the command is not available in this version: let skip_defaults_vim=1
+  ```
+  To fix this error:
+  * Open `/etc/virc` file using a text editor of your choice.
+  * Search for the line containing the text *content added by Leapp*.
+  * Locate and remove the following line:
+    ```
+    let skip_defaults_vim=1
+    ```
+  * Save the file and exit the editor.
+  
+  After making these changes, the error should no longer appear when using `vi`.
 
 ## Get Help 
 
