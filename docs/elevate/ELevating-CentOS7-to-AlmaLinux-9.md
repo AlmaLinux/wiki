@@ -227,6 +227,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
    ```
    dnf update --allowerasing
    ```
+* When performing a progressive upgrade from CentOS 7 to AlmaLinux 9, you may encounter the following issue on EL 9 while using `vi` (not `vim`). For more details and a fix, please check the [Important Notes](#important-notes-about-the-upgrade-process) section below.
 
 ## Important Notes about the Upgrade Process
 
@@ -264,7 +265,7 @@ After these preparations are completed, you can upgrade your AlmaLinux 8 machine
     let skip_defaults_vim=1
     ```
   * Save the file and exit the editor.
-  
+
   After making these changes, the error should no longer appear when using `vi`.
 
 ## Get Help 
