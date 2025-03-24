@@ -2,21 +2,28 @@
 title: "AlmaLinux WSL"
 ---
 
+###### last modified: 2025-03-24
+
 # Windows Subsystem for Linux 
 
 ## About WSL
 
 Windows Subsystem for Linux (WSL) is designed as integration between Windows and Linux. You can now run the AlmaLinux terminal environment on a Windows machine. It doesn't require a dual-boot or a VM. 
 
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
+
+
 #### Supported versions:
 
-You can get an image from the Microsoft Store: 
-* [AlmaLinux OS 8](https://apps.microsoft.com/store/detail/almalinux-8-wsl/9NMD96XJJ19F)
-* [AlmaLinux OS 9](https://apps.microsoft.com/store/detail/almalinux-9/9P5RWLM70SN9)
+You can get an image from:
+* the Microsoft Store: 
+  * [AlmaLinux OS 8](https://apps.microsoft.com/store/detail/almalinux-8-wsl/9NMD96XJJ19F)
+  * [AlmaLinux OS 9](https://apps.microsoft.com/store/detail/almalinux-9/9P5RWLM70SN9)
 
-or using the direct links:
-
-<table align="center">
+* by using the direct links:
+  <table align="center">
     <tr>
         <td align="center">AlmaLinux 8</td>
         <td align="center"><a href="https://wsl.almalinux.org/8/AlmaLinuxOS-8_latest_x64.appx">Intel/AMD (x86_64)</a></td>
@@ -27,10 +34,15 @@ or using the direct links:
         <td align="center"><a href="https://wsl.almalinux.org/9/AlmaLinuxOS-9_latest_x64.appx">Intel/AMD (x86_64)</a></td>
         <td align="center"><a href="https://wsl.almalinux.org/9/AlmaLinuxOS-9_latest_ARM64.appx">ARM64 (AArch64)</a></td>
     </tr>
-</table>
+  </table>
 
+* via WSL CLI tool (**best option for for Windows Server editions**):
+  
+  ![image](/images/wsl-cli.png)
 
 ## Installation steps
+
+### Get Started
 
 Follow these steps to get AlmaLinux for WSL. 
 
@@ -42,6 +54,9 @@ Follow these steps to get AlmaLinux for WSL.
 ![image](/images/wsl-install.png)
 
 * After WSL installations are completed, you need to reboot the system.
+
+### Install from Microsoft Store
+
 * Now open **Microsoft Store** and search for AlmaLinux 8 WSL or AlmaLinux 9 app. Press *Get*. Installation of the app will begin.
 ![image](/images/wsl-ms-store.png)
 
@@ -52,6 +67,30 @@ These username and password don't have to match with your Windows user credentia
 :::
 * After installation is finished successfully, congratulations, you can now run AlmaLinux terminal on your Windows machine.
 ![image](/images/wsl-alma.png)
+
+### Install from WSL CLI tool
+
+* Open the command line tool. 
+* List all the Linux distributions that are officially available for installation:
+  ```
+  wsl --list --online
+  ```
+* Choose a preferrable AlmaLinux OS version and install it:
+  ```
+  wsl.exe --install <AlmaLinux OS version>
+  ```
+  Example:
+  ```
+  wsl.exe --install AlmaLinux-Kitten-10
+  ```
+* Launch AlmaLinux OS after installation to start using it:
+  ```
+  wsl.exe -d <AlmaLinux OS version>
+  ```
+  Example:
+  ```
+  wsl.exe -d AlmaLinux-Kitten-10
+  ```
 
 ## Popular issues
 
