@@ -2,7 +2,7 @@
 title: "Raspberry Pi"
 ---
 
-###### last modified: 2025-02-26
+###### last modified: 2025-03-24
 
 # Raspberry Pi
 
@@ -343,7 +343,43 @@ Add the following two lines at the bottom of `user-data` instead (example is dif
 +  - nmcli dev wifi connect "Wi-Fi_SSID" password "Wi-Fi_PreSharedKey"
 ```
 
-### Frequent Issues
+
+## Configure Boot Order
+
+In March 2025, the `rpi-eeprom` package was added, enabling the Raspberry Pi bootloader configuration, such as boot order, to be changed using only AlmaLinux. Here are the instructions on how to change the Raspberry Pi boot order.
+
+The `rpi-eeprom` tool is an optional package that is not pre-installed in our Raspberry Pi images. Install it if you with to configure the Raspberry Pi boot order.
+
+```shell
+dnf install -y rpi-eeprom
+```
+
+Run `rpi-eeprom-config` command with the `-e` (edit) option. The editor will open, letting you edit the bootconfiguration.
+Refer to [the official documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#BOOT_ORDER) for the meaning of `BOOT_ORDER` and detailed examples.
+
+```shell
+rpi-eeprom-config -e
+```
+
+The following example attempts to boot from the SD card first, followed by a USB mass storage device, and then NVMe. To boot from USB mass storage device first, bring `4` to the rightmost position, `0xf614`.
+
+```ini
+[all]
+BOOT_UART=1
+POWER_OFF_ON_HALT=0
+BOOT_ORDER=0xf641
+```
+
+After saving the changes and the exiting the editor, the following message will be displayed. Raspberry Pi will boot up with the new order after reboot.
+
+```
+(ommitted)
+
+EEPROM updates pending. Please reboot to apply the update.
+To cancel a pending update run "sudo rpi-eeprom-update -r".
+```
+
+## Frequent Issues
 
 If you installed a GUI, and your screen has a black border around it, follow the steps below to fix this:
 
