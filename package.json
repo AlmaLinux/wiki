@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.9"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
   }
 }

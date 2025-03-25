@@ -24,10 +24,9 @@ module.exports = {
       {
         transformer: (timestamp, lang) =>
         {
-          const moment = require('moment')
-          moment.locale(lang)
+          var dayjs = require('dayjs')
           // Omit time from last updated
-          return moment(timestamp).format("YYYY-MM-DD")
+          return dayjs(timestamp).format('YYYY-MM-DD')
         }
       }
     ]
