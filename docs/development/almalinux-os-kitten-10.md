@@ -2,7 +2,7 @@
 title: 'AlmaLinux OS Kitten 10'
 ---
 
-###### last modified: 2025-01-06
+###### last modified: 2025-02-26
 
 # About AlmaLinux OS Kitten 10
 
@@ -112,6 +112,13 @@ AlmaLinux provides official AlmaLinux OS Kitten images for Vagrant:
 | VMware | - [x86_64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten)<br>- [x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten-x86_64_v2) |
 
 More about AlmaLinux OS images for Vagrant Boxes - [AlmaLinux Vagrant Boxes Page](/installation/vagrant-boxes).
+
+## Raspberry Pi
+
+AlmaLinux builds standard Raspberry Pi images and images with the GNOME desktop environment:
+* [aarch64](https://kitten.repo.almalinux.org/10-kitten/raspberrypi/images/)
+
+More about AlmaLinux OS Raspberry Pi images - [Raspberry Pi](/documentation/raspberry-pi).
 
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 

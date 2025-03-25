@@ -49,9 +49,6 @@ If you can help, please join us at [Core SIG on Mattermost](https://chat.almalin
 * [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Lead Architect.
   * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Darya Malyavkina](mailto:dmalyavkina@almalinux.org) - The director of release engineering at [CloudLinux Inc.](https://cloudlinux.com/), coordinates the company efforts on the AlmaLinux OS development and support.
-  * Chat login: [dmalyavkina](https://chat.almalinux.org/almalinux/messages/@dmalyavkina)
-  * GitHub profile: [dmalyavkina](https://github.com/dmalyavkina)
 * [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
   * Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
   * GitHub profile: [jaboutboul](https://github.com/jaboutboul)

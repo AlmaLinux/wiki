@@ -2,11 +2,17 @@
 title: "Raspberry Pi"
 ---
 
+###### last modified: 2025-02-26
+
 # Raspberry Pi
 
 ## About Raspberry Pi
 
 [The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux.
+
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
 
 ## Tested models
 
