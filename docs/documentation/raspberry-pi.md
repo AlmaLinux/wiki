@@ -2,8 +2,6 @@
 title: "Raspberry Pi"
 ---
 
-###### last modified: 2025-03-24
-
 # Raspberry Pi
 
 ## About Raspberry Pi
