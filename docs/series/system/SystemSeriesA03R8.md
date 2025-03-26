@@ -3,9 +3,9 @@
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
+| 📆 | <small>Last modified </small>| 2024-02-02 |
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[none](mailto:none@almalinux.org) <br>  ↳ 9.x \| x86_64 \| 2023-05-xx </small>|
-<br> 
+<br>
 
 
 ## 🌟 Introduction
@@ -167,11 +167,11 @@ sudo reboot
 ```
 
 ➡️  Install the .run driver :
-**Download the latest driver (**Verify compatibility with your GPU**):** 
+**Download the latest driver (**Verify compatibility with your GPU**):**
 
 https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/
 
-➡️  Go into the downloaded driver directory (**Replace /path/to/driver with the actual path**): 
+➡️  Go into the downloaded driver directory (**Replace /path/to/driver with the actual path**):
 
 ```
 cd /path/to/driver
@@ -238,7 +238,7 @@ sudo reboot
 sudo echo "[Desktop Entry]" | sudo tee /usr/share/applications/nvidia-settings.desktop
 sudo echo "Type=Application" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Name=NVIDIA Settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktopsudo
-sudo echo "Comment=Configure NVIDIA Settings" | sudo tee -a /usr/share/applications/nv```idia-settings.desktop
+sudo echo "Comment=Configure NVIDIA Settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Exec=nvidia-settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Icon=nvidia-settings" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
 sudo echo "Terminal=false" | sudo tee -a /usr/share/applications/nvidia-settings.desktop
@@ -248,7 +248,7 @@ sudo echo "Categories=System;Settings;X-Red-Hat-Base-Utilities;" | sudo tee -a /
 ## 📚 Further Reading and Next Steps
 
 <u>Get Back:</u>
-- AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](SystemSeriesA03.md)   
+- AlmaLinux System Series ❯ [NVIDIA Driver Installation Guide](SystemSeriesA03.md)
 
 <u>In-depth Resources:</u>
 - AlmaLinux System Series ❯ [NVIDIA: Installation on 9.x](SystemSeriesA03R9.md)
