@@ -346,7 +346,7 @@ Add the following two lines at the bottom of `user-data` instead (example is dif
 
 In March 2025, the `rpi-eeprom` package was added, enabling the Raspberry Pi bootloader configuration, such as boot order, to be changed using only AlmaLinux. Here are the instructions on how to change the Raspberry Pi boot order.
 
-The `rpi-eeprom` tool is an optional package that is not pre-installed in our Raspberry Pi images. Install it if you with to configure the Raspberry Pi boot order.
+The `rpi-eeprom` tool is an optional package that is not pre-installed in our Raspberry Pi images. Install it if you wish to configure the Raspberry Pi boot order.
 
 ```shell
 dnf install -y rpi-eeprom
@@ -359,7 +359,7 @@ Refer to [the official documentation](https://www.raspberrypi.com/documentation/
 rpi-eeprom-config -e
 ```
 
-The following example attempts to boot from the SD card first, followed by a USB mass storage device, and then NVMe. To boot from USB mass storage device first, bring `4` to the rightmost position, `0xf614`.
+The following example attempts to boot from the SD card first, followed by a USB mass storage device, and then NVMe. To boot from a USB mass storage device first, move `4` to the rightmost position, `0xf614`.
 
 ```ini
 [all]
@@ -368,7 +368,7 @@ POWER_OFF_ON_HALT=0
 BOOT_ORDER=0xf641
 ```
 
-After saving the changes and the exiting the editor, the following message will be displayed. Raspberry Pi will boot up with the new order after reboot.
+After saving the changes and exiting the editor, the following message will be displayed. Raspberry Pi will boot up with the new order after reboot.
 
 ```
 (ommitted)
