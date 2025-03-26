@@ -193,6 +193,11 @@ module.exports = {
                               '/series/system/SystemSeriesA03R9',
                               '/series/system/SystemSeriesA04',
                               '/series/system/SystemSeriesA05',
+                              '/series/system/SystemSeriesA06',
+                              '/series/system/SystemSeriesA07',
+                              '/series/system/SystemSeriesA08',
+                              '/series/system/SystemSeriesA09',
+                              '/series/system/SystemSeriesA10',
                               ]
                   },
               ]
@@ -285,7 +290,7 @@ module.exports = {
                 '/elevate/ELevate-NG-testing-guide',
                 '/elevate/ELevate-frequent-issues',
                 '/elevate/Contribution-guide',
-                '/elevate/Changelog',                
+                '/elevate/Changelog',
               ]
            },
          ]
