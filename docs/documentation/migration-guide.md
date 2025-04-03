@@ -2,7 +2,7 @@
 title: 'Migration Guide'
 ---
 
-# AlmaLinux Migration Guide 
+# AlmaLinux Migration Guide
 
 This guide describes how to convert your operating system to AlmaLinux using the [AlmaLinux Migration tool](https://github.com/AlmaLinux/almalinux-deploy).
 
@@ -15,17 +15,21 @@ What OSes can be converted:
 * Rocky Linux 8, 9
 * Virtuozzo Linux (VZLinux) 8, 9
 
-This tool also supports cPanel, Plesk and DirectAdmin panels. 
+This tool also supports cPanel, Plesk and DirectAdmin panels.
 
 ## How to Migrate
 
 The minimal supported version of EL8 operating systems is 8.4. In case your OS version is lower, please, upgrade it.
 
 :::tip
-It's recommended to have a backup or snapshot of your system. There'll be a restore point if something will go wrong. 
+It's recommended to have a backup or snapshot of your system. There'll be a restore point if something will go wrong.
 :::
 
-Follow these steps to convert your EL8 or EL9 system to AlmaLinux using CLI: 
+::: warning
+Make sure you are using reliable console access to your system. It's recommended the migration tool is run from inside main console or via ssh.
+:::
+
+Follow these steps to convert your EL8 or EL9 system to AlmaLinux using CLI:
 
 * Run the following command to update your operating system if needed:
 ```
@@ -60,7 +64,7 @@ sudo reboot
 ## Migrating from CentOS versions lower than 8.4
 
 There are a few additional moments when you are converting your CentOS System.
-CentOS 8.4 or 8.5 is required to convert to AlmaLinux. If your CentOS version is lower, it is recommended to update it to 8.5 before converting to AlmaLinux. Though, it's not necessary if your CentOS version is at least CentOS 8.4. 
+CentOS 8.4 or 8.5 is required to convert to AlmaLinux. If your CentOS version is lower, it is recommended to update it to 8.5 before converting to AlmaLinux. Though, it's not necessary if your CentOS version is at least CentOS 8.4.
 
 * As of January 31, 2022, the CentOS 8 mirror lists are offline. To successfully perform `dnf update -y` you need to update your `dnf` config files to point to a valid mirror. You can use the following `sed` commands for convenience to restore dnf to a functional state that will let you update to 8.5 and subsequently AlmaLinux.
 ```
@@ -113,7 +117,6 @@ sudo bash almalinux-deploy.sh
    title="AlmaLinux (4.18.0-425.3.1.el8.x86_64) 8.7 (Stone Smilodon)"
    ```
 
-## Get Help 
+## Get Help
 
 For more help and assistance reach out to us in the ~migration channel on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
-
