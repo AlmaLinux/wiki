@@ -2,7 +2,7 @@
 title: "ELevate Testing Guide"
 ---
 
-###### last updated: 2025-01-30
+###### last updated: 2025-04-03
 
 # ELevate Testing Guide
 
@@ -26,11 +26,11 @@ You can contribute to the project and add more 3rd party repositories support. S
 
 Currently, the following upgrades are available:
 
-![image](/images/ELevate.svg)
+![image](/images/ELevate-Testing.svg)
 
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.<br>
-\*** - upgrade is available as ELevate NG and currently in testing. For details, please, see the [ELevate NG Guide](/elevate/ELevate-NG-testing-guide).
+\*** - Upgrade to AlmaLinux OS 10 is only available to the version 10.0 Beta. Upgrade to AlmaLinux OS Kitten 10 is available as ELevate NG. Currently, they don't have support for x86_64_v2.
 
 
 ## Upgrade CentOS 7 to AlmaLinux 8

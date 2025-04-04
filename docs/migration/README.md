@@ -2,7 +2,7 @@
 title: 'AlmaLinux Migration Projects'
 ---
 
-###### last updated: 2025-01-30
+###### last updated: 2025-04-03
 
 # AlmaLinux Migration Projects
 
@@ -53,4 +53,4 @@ Currently, the following upgrade paths are available:
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 See the [ELevate](/elevate/) section for the update steps.<br>
-\*** - upgrade is available as ELevate NG and currently in testing. For details, please, see the [ELevate NG Guide](/elevate/ELevate-NG-testing-guide).
+\*** - upgrades to AlmaLinux OS 10 (beta) and CentOS 10 are available as ELevate Testing. Upgrade to AlmaLinux OS Kitten 10 is available as ELevate NG.
