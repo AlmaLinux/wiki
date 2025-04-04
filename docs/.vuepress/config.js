@@ -18,7 +18,21 @@ module.exports = {
     ['link', { rel: "shortcut icon", type: 'image/png', href: "/images/logo.png"}],
   ],
   base: '/',
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) =>
+        {
+          var dayjs = require('dayjs')
+          // Omit time from last updated
+          return dayjs(timestamp).format('YYYY-MM-DD')
+        }
+      }
+    ]
+  ],
   themeConfig: {
+    lastUpdated: true,
     logo: '/images/logo.png',
     nav: [
       { text: 'Home', link: 'https://almalinux.org/' },
