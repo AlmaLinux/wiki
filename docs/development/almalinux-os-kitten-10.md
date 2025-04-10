@@ -2,7 +2,7 @@
 title: 'AlmaLinux OS Kitten 10'
 ---
 
-###### last modified: 2025-02-26
+###### last modified: 2025-04-09
 
 # About AlmaLinux OS Kitten 10
 
@@ -119,6 +119,27 @@ AlmaLinux builds standard Raspberry Pi images and images with the GNOME desktop 
 * [aarch64](https://kitten.repo.almalinux.org/10-kitten/raspberrypi/images/)
 
 More about AlmaLinux OS Raspberry Pi images - [Raspberry Pi](/documentation/raspberry-pi).
+
+## Windows Subsystem for Linux (WSL) 
+
+AlmaLinux OS Kitten 10 images are available for installation via WSL CLI tool.
+* Open the command line tool. 
+* List all the Linux distributions that are officially available for installation:
+  ```
+  wsl --list --online
+  ```
+* Install AlmaLinux OS Kitten 10:
+  ```
+  wsl --install AlmaLinux-Kitten-10
+  ```
+* Launch AlmaLinux OS to start using it:
+  * Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the “+” icon. You’ll see a dropdown with available WSL distros listed. Click AlmaLinux-Kitten-10. It will open in a new tab, ready to use.
+  * Or run the command:
+    ```
+    wsl -d AlmaLinux-Kitten-10
+    ```
+
+More about AlmaLinux for WSL - [WSL Page](/documentation/WSL).
 
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 
