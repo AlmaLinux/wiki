@@ -17,8 +17,6 @@ What OSes can be converted:
 
 This tool also supports cPanel, Plesk and DirectAdmin panels.
 
-## How to Migrate
-
 The minimal supported version of EL8 operating systems is 8.4. In case your OS version is lower, please, upgrade it.
 
 :::tip
@@ -27,6 +25,12 @@ It's recommended to have a backup or snapshot of your system. There'll be a rest
 
 ::: warning
 Make sure you are using reliable console access to your system. It's recommended the migration tool is run from inside main console or via ssh.
+:::
+
+## Migrate using AlmaLinux public repositories (General purposes)
+
+:::tip
+For systems with an access to internet
 :::
 
 Follow these steps to convert your EL8 or EL9 system to AlmaLinux using CLI:
@@ -44,6 +48,107 @@ curl -O https://raw.githubusercontent.com/AlmaLinux/almalinux-deploy/master/alma
 ```
 sudo bash almalinux-deploy.sh
 ```
+* Check the output for any errors. If the conversion went without any issues, you'll see that `Migration to AlmaLinux is completed` in the output.
+* Reboot the system to boot with AlmaLinux kernel:
+```
+sudo reboot
+```
+* Ensure that your system was successfully converted:
+    * Check the release file:
+    ```
+   $ cat /etc/redhat-release
+   AlmaLinux release 8.7 (Stone Smilodon)
+   ```
+    * Check that the system boots with AlmaLinux kernel by default:
+    ```
+   $ sudo grubby --info DEFAULT | grep AlmaLinux
+   title="AlmaLinux (4.18.0-425.3.1.el8.x86_64) 8.7 (Stone Smilodon)"
+   ```
+
+## Migrating air-gapped machine
+
+This guide describes steps to be performed to migrate an air-gapped machine that has no connection to the Internet, but has network access to a private mirror, or access to data storage device with a mirror
+
+The process involves at least two hosts:
+ * One with Internet access to be able to create local AlmaLinux mirrors, or with a data storage device where mirror will be placed
+ * The machine which will be migrated
+
+### Create a local, private AlmaLinux mirror
+
+To migrate an air-gapped machine, you have to create a local mirror to receive updates. For this purpose, the recommended storage space is at least 500GB per major version.
+
+**These steps are to be performed on a host with Internet access.**
+
+The `rsync`  tool can be used to create a mirror.
+* Synchronize with the official AlmaLinux mirror via `rsync`:
+   ```shell
+   /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /example-almalinux-mirror/
+   ```
+* If needed, create a cron task to sync your mirror periodically (we recommend updating the mirror every 3 hours):
+   ```shell
+   0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /example-almalinux-mirror/"
+   ```
+
+  :::warning
+  Don't forget to replace /example-almalinux-mirror/ directory with the directory you need.
+  :::
+
+  The `/example-almalinux-mirror/` can be on external data storage device, so the device can later be used on systems without even an access to the mirror you created.
+
+### If there's neither access to a private mirror nor the Internet
+
+You'll have to use a data storage device with local, private mirror created with the steps above. Make the device with the mirror available directly on migrating system, for example in `/opt` directory.
+
+Please make sure the mirror on the device matches AlmaLinux repository directories structure. Like this one, for AlmaLinux 8, x86-64:
+```
+/opt
+├── almalinux-release-latest-8.x86_64.rpm
+├── RPM-GPG-KEY-AlmaLinux-8
+└── 8
+    ├── AppStream
+    │   └── x86_64
+    │       └── os
+    │           ├── Packages
+    │           └── repodata
+    ├── BaseOS
+    │   └── x86_64
+    │       └── os
+    │           ├── Packages
+    │           └── repodata
+    ├── PowerTools
+    .   └── x86_64
+    .       └── os
+    .           ├── Packages
+                └── repodata
+```
+where:
+ * `Packages` - folder with corresponded repository all packages
+ * `repodata` - folder with repository metadata
+
+Note, it's mandatory you download `almalinux-release` package and public GPG key corresponding to your release, like `almalinux-release-latest-8.x86_64.rpm` and `RPM-GPG-KEY-AlmaLinux-8` for AlmaLinux 8 x86_64, from [https://repo.almalinux.org/almalinux/](https://repo.almalinux.org/almalinux/) and place them into the root of `/opt`
+
+### Do migration
+
+**These steps are to be performed on a host which will be migrated.**
+
+Follow these steps to convert your EL8 or EL9 system to AlmaLinux using CLI:
+
+* Your operating system should have all most recent packages (if possible):
+
+* The [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script should be present on your system
+
+* Run the script as one of the following:
+
+    * AlmaLinux repositories local mirror is available, for example at http://mirror.example.com/example-almalinux-mirror
+    ```
+    sudo bash almalinux-deploy.sh --local-repo=http://mirror.example.com/example-almalinux-mirror
+    ```
+
+    * No access to private mirror, it is on local file-system, for example on `/opt` directory
+    ```
+    sudo bash almalinux-deploy.sh --local-repo=file:///opt
+    ```
+
 * Check the output for any errors. If the conversion went without any issues, you'll see that `Migration to AlmaLinux is completed` in the output.
 * Reboot the system to boot with AlmaLinux kernel:
 ```
