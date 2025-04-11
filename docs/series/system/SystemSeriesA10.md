@@ -3,7 +3,7 @@
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified | 2024-02-02</small> |
+| 📆 | <small>Last modified</small> | 2024-02-02 |
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 
 Chrony Man page: https://chrony-project.org/
