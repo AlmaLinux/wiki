@@ -141,7 +141,7 @@ Convert your EL8 or EL9 system to AlmaLinux using CLI:
 
 * Run the script using one of the following methods:
 
-    * If your AlmaLinux private local mirror is accessible via network, for example,e at http://mirror.example.com/example-almalinux-mirror:
+    * If your AlmaLinux private local mirror is accessible via network, for example, at http://mirror.example.com/example-almalinux-mirror:
     ```
     sudo bash almalinux-deploy.sh --local-repo=http://mirror.example.com/example-almalinux-mirror
     ```
