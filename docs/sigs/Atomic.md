@@ -3,7 +3,7 @@ title: "Atomic SIG"
 ---
 # Atomic SIG
 
-[insert the SIG's purpose here]
+The purpose of the Atomic SIG is to explore Atomic Linux technologies like bootc, to develop a modern AlmaLinux-based immutable desktop environment, and to enable others to build upon our tooling. In short, the purpose of this SIG is to expand AlmaLinux's role in the immutable desktop space.
 
 ## How to Join
 
@@ -11,32 +11,40 @@ Joining is easy! You can show up to a meeting, pick up an issue from the list by
 
 **Where we chat**
 
-We use $platform for communication. [ this should either be a link to the SIG chat room on mattermost, or the mailing list on lists.almalinux.org ]
+We use [Mattermost](https://chat.almalinux.org/almalinux/channels/sigatomic) for communication.
 
 **Where and when we meet**
 
-Meetings are... [ this should be a general day/time/cadence, and indicate how one might join this meeting if they'd like, or use "We do not currently hold regular meetings, but work asynchronously in mattermost to accomplish our goals." ]
+We do not currently hold regular meetings, but work asynchronously in Mattermost to accomplish our goals.
 
 ## Activities, projects, and deliverables
 
-[ this should be the thing or list of things you expect to be responsible for ]
+* Base desktop bootc container and ISO image based on [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html)'s AlmaLinux 10 bootc image
+* Templates/automation/examples for further downstream extension/customization of the base image
+* Opinionated modern workstation distribution, based on the previous deliverables
 
 ### Help wanted
 
-Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, here are a few things that need help soon, and a place where you can find more information.
-
-[ either a list of things or a link to a project/task tracker should go here ]
+Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, please get in touch!
 
 ## SIG members
 
-* [name](either email address or mattermost chat link) - SIG lead
-* [name](either email address or mattermost chat link) - member
-
-(you can also include additional information about other folks that help your SIG or are involved in some way here)
+* [Isaac Beverly](mailto:imbev@protonmail.com) - SIG lead
+	* Chat: [@imbev](https://chat.almalinux.org/almalinux/messages/@imbev)
+	* Github: [imbev](https://github.com/imbev)
+* [Alex Iribarren](mailto:alex@almalinux.org) - SIG lead
+	* Chat: [@alex.iribarren](https://chat.almalinux.org/almalinux/messages/@alex.iribarren)
+	* Github: [alexiri](https://github.com/alexiri/)
+* [James Reilly](mailto:jreilly1821@gmail.com) - SIG lead
+	* Chat: []()
+	* Github: [hanthor](https://github.com/hanthor)
 
 ## Additional information for SIG application approval
 
-* Timeline for when you would like to get things rolling for this group, and how quickly you expect to see motion on your Activities, projects, and deliverables.
-* Any known resources (monetary or infrastructure) that you anticipate needing, and how they will be used.
+We hope to be able to start quickly and have at least the base image ready by Q3 2025.
 
-[ You can add anything additional you feel is important here as well ]
+We will require the creation of:
+* An Atomic SIG channel on chat.almalinux.org
+* Several GitHub repositories under the [AlmaLinux organization](https://github.com/AlmaLinux) (or a separate organization)
+* Several Quay.io repositories under the [almalinuxorg organization](https://quay.io/organization/almalinuxorg) (or a separate organization)
+* Access to [openQA](https://openqa.almalinux.org/) to test our images before release
