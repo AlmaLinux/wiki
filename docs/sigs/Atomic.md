@@ -36,7 +36,6 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
  	* Chat: [@alex.iribarren](https://chat.almalinux.org/almalinux/messages/@alex.iribarren)
  	* Github: [alexiri](https://github.com/alexiri/)
  * [James Reilly](mailto:jreilly1821@gmail.com) - SIG lead
- 	* Chat: []()
  	* Github: [hanthor](https://github.com/hanthor)
 
 ## Additional information for SIG application approval
