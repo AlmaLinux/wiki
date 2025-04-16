@@ -28,16 +28,16 @@ We do not currently hold regular meetings, but work asynchronously in Mattermost
 Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, please get in touch!
 
 ## SIG members
-
-* [Isaac Beverly](mailto:imbev@protonmail.com)
-	* Chat: [@imbev](https://chat.almalinux.org/almalinux/messages/@imbev)
-	* Github: [imbev](https://github.com/imbev)
-* [Alex Iribarren](mailto:alex@almalinux.org)
-	* Chat: [@alex.iribarren](https://chat.almalinux.org/almalinux/messages/@alex.iribarren)
-	* Github: [alexiri](https://github.com/alexiri/)
-* [James Reilly](mailto:jreilly1821@gmail.com)
-	* Chat: []()
-	* Github: [hanthor](https://github.com/hanthor)
+ 
+ * [Isaac Beverly](mailto:imbev@protonmail.com) - SIG lead
+ 	* Chat: [@imbev](https://chat.almalinux.org/almalinux/messages/@imbev)
+ 	* Github: [imbev](https://github.com/imbev)
+ * [Alex Iribarren](mailto:alex@almalinux.org) - SIG lead
+ 	* Chat: [@alex.iribarren](https://chat.almalinux.org/almalinux/messages/@alex.iribarren)
+ 	* Github: [alexiri](https://github.com/alexiri/)
+ * [James Reilly](mailto:jreilly1821@gmail.com) - SIG lead
+ 	* Chat: []()
+ 	* Github: [hanthor](https://github.com/hanthor)
 
 ## Additional information for SIG application approval
 
