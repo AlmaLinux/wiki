@@ -19,7 +19,7 @@ We do not currently hold regular meetings, but work asynchronously in Mattermost
 
 ## Activities, projects, and deliverables
 
-* Base desktop bootc image and ISO installer based on [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html)'s AlmaLinux bootc images
+* Base desktop bootc image and ISO installer based on [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html)'s bootc images starting with AlmaLinux 10.
 * Templates/automation/examples to guide downstream extension/customization of the base image
 * A workstation distribution that is opinionated, modern, and polished, based on the previous deliverables
 
