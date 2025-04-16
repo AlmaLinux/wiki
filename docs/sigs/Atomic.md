@@ -3,7 +3,7 @@ title: "Atomic SIG"
 ---
 # Atomic SIG
 
-The purpose of the Atomic SIG is to explore Atomic Linux technologies like bootc, to develop a modern AlmaLinux-based immutable desktop environment, and to enable others to build upon our tooling. In short, the purpose of this SIG is to expand AlmaLinux's role in the immutable desktop space.
+The purpose of the Atomic SIG is to explore atomic Linux technologies like bootc, to develop a modern AlmaLinux-based immutable desktop system, and to enable others to build upon our tooling. In short, the purpose of this SIG is to expand AlmaLinux's role in the atomic desktop space.
 
 ## How to Join
 
@@ -19,9 +19,9 @@ We do not currently hold regular meetings, but work asynchronously in Mattermost
 
 ## Activities, projects, and deliverables
 
-* Base desktop bootc container and ISO image based on [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html)'s AlmaLinux 10 bootc image
-* Templates/automation/examples for further downstream extension/customization of the base image
-* Opinionated modern workstation distribution, based on the previous deliverables
+* Base desktop bootc image and ISO installer based on [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html)'s AlmaLinux bootc images
+* Templates/automation/examples to guide downstream extension/customization of the base image
+* A workstation distribution that is opinionated, modern, and polished, based on the previous deliverables
 
 ### Help wanted
 
@@ -29,13 +29,13 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 
 ## SIG members
 
-* [Isaac Beverly](mailto:imbev@protonmail.com) - SIG lead
+* [Isaac Beverly](mailto:imbev@protonmail.com)
 	* Chat: [@imbev](https://chat.almalinux.org/almalinux/messages/@imbev)
 	* Github: [imbev](https://github.com/imbev)
-* [Alex Iribarren](mailto:alex@almalinux.org) - SIG lead
+* [Alex Iribarren](mailto:alex@almalinux.org)
 	* Chat: [@alex.iribarren](https://chat.almalinux.org/almalinux/messages/@alex.iribarren)
 	* Github: [alexiri](https://github.com/alexiri/)
-* [James Reilly](mailto:jreilly1821@gmail.com) - SIG lead
+* [James Reilly](mailto:jreilly1821@gmail.com)
 	* Chat: []()
 	* Github: [hanthor](https://github.com/hanthor)
 
@@ -45,6 +45,6 @@ We hope to be able to start quickly and have at least the base image ready by Q3
 
 We will require the creation of:
 * An Atomic SIG channel on chat.almalinux.org
-* Several GitHub repositories under the [AlmaLinux organization](https://github.com/AlmaLinux) (or a separate organization)
-* Several Quay.io repositories under the [almalinuxorg organization](https://quay.io/organization/almalinuxorg) (or a separate organization)
-* Access to [openQA](https://openqa.almalinux.org/) to test our images before release
+* Several git repositories under an AlmaLinux namespace at GitHub
+* Several OCI repositories under an AlmaLinux namespace at DockerHub and Quay.io
+* (Optional) Access to [openQA](https://openqa.almalinux.org/) to test our images before release
