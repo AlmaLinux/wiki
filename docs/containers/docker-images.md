@@ -57,7 +57,7 @@ Links to repositories:
 
 | Platform | Version |
 | --- | --- |
-| Docker Hub | [AlmaLinux 8](https://hub.docker.com/r/almalinux/8-base)<br>[AlmaLinux 9](hub.docker.com/r/almalinux/9-base) | 
+| Docker Hub | [AlmaLinux 8](https://hub.docker.com/r/almalinux/8-base)<br>[AlmaLinux 9](https://hub.docker.com/r/almalinux/9-base) | 
 | Quay.io | [AlmaLinux 8](https://quay.io/repository/almalinuxorg/8-base?tab=tags)<br>[AlmaLinux 9](https://quay.io/repository/almalinuxorg/9-base?tab=tags) |
 | GitHub Packages | [AlmaLinux 8](https://github.com/orgs/AlmaLinux/packages/container/package/8-base)<br>[AlmaLinux 9](https://github.com/orgs/AlmaLinux/packages/container/package/9-base) |
 
