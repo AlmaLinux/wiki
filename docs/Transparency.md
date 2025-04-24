@@ -8,7 +8,7 @@ The goals of a Community-owned operating system needs to include transparency in
 
 As of December 17, 2023, the foundation has a 9 board directors.
 - [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
-- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director and Community Leader at AlmaLinux
+- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director at AlmaLinux and Program Manager at Microsoft Azure AOSI
 - [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
