@@ -37,6 +37,9 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
  	* Github: [alexiri](https://github.com/alexiri/)
  * [James Reilly](mailto:jreilly1821@gmail.com) - SIG lead
  	* Github: [hanthor](https://github.com/hanthor)
+ * [Cameron Knauff](mailto:cameron@stillhq.io)
+ 	* Chat: [@cameron](https://chat.almalinux.org/almalinux/messages/@cameron)
+ 	* Github: [PizzaLovingNerd](https://github.com/PizzaLovingNerd)
 
 ## Additional information for SIG application approval
 
