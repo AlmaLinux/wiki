@@ -60,13 +60,13 @@ To make AlmaLinux successful, we need the close involvement of the community mem
 
 ### 2. Improve the documentation
 
-The importance of documentation cannot be understated, as it is like an investment in the future. It can take time and energy, but it is essential to create full and comprehensive documentation together.
+The importance of documentation cannot be understated - it's like an investment in the future. It can take time and energy, but it is essential to create full and comprehensive documentation together.
 
 If you want to participate, please, follow the [guidelines](Contribute-to-Documentation).
 
-### 3. Help with Azure mirrors deployment
+### 3. Help deliver AlmaLinux faster by hosting a mirror
 
-We want to make sure that AlmaLinux images in Azure Cloud will use local mirrors for each region, and don't pay for traffic. More info [here](/cloud/Azure).
+We want AlmaLinux to reach its users as fast as possible through a robust mirror system. Set up one in your region, add it to the [mirror system](/mirrors), and then join the foundation as a [Mirror Sponsor member](https://almalinux.org/members/)!
 
 ### 4. Promotion, blog posts, translations, and more!
 
