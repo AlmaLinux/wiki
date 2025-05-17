@@ -222,6 +222,8 @@ Choose your USB drive in the `External` section and check the disk name in the `
 ![image](/images/installation-guide-macos-usb.png)
 :::
 
+Now you have AlmaLinux ready on a USB stick.
+
 ## Installation
 
 <!---
