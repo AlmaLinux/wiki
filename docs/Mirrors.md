@@ -10,7 +10,7 @@ help us with this. The current list of public mirrors can be found on the
 
 You can create a public AlmaLinux mirror in a few easy steps:
 
-1. Make sure that you have enough free space: 500GB per major version is the suggested minimum.  As there are currently two supported major versions (8 and 9) the recommended minimum storage space is 1TB.  If you are also mirroring [AlmaLinux OS Kitten](https://wiki.almalinux.org/development/almalinux-os-kitten-10.html) we recommend 1.5TB.
+1. Make sure that you have enough free space: 500GB per major version is the suggested minimum.  As there are currently three supported major versions (8, 9, and 10) the recommended **minimum** storage space is 1.5TB.  2TB is more ideal.  The current steady-state of the mirror is approximately 1TB.  If you are also mirroring [AlmaLinux OS Kitten](https://wiki.almalinux.org/development/almalinux-os-kitten-10.html) we recommend 2.5TB.
 ::: tip Optional but recommended
 Use updated version of `rsync` with `xxhash` support.
    - `xxhash` provides a superior hashing algorithm to `rsync` which lightens the load on the source and destination
@@ -35,7 +35,7 @@ Use updated version of `rsync` with `xxhash` support.
 3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```shell
-   0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
+   0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
 ::: tip Optional Mirroring of AlmaLinux Kitten
 We maintain AlmaLinux kitten in a separate rsync module so you can choose whether or not to sync it.  It is not required to be mirrored to be an AlmaLinux mirror, but all mirroring is welcomed and appreciated.  Do keep in mind that the `almalinux-kitten` module should be synced as its own top-level project and must NOT be placed inside of the main `almalinux` target on your server.  AlmaLinux Kitten mirroring requires very little extra bandwidth.
@@ -45,7 +45,7 @@ We maintain AlmaLinux kitten in a separate rsync module so you can choose whethe
   ```
   - Cron:
   ```shell
-  0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
+  0 */3 * * * /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
 ```
 :::
 4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
