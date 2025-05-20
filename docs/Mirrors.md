@@ -10,7 +10,7 @@ help us with this. The current list of public mirrors can be found on the
 
 You can create a public AlmaLinux mirror in a few easy steps:
 
-1. Make sure that you have enough free space: 500GB per major version is the suggested minimum.  As there are currently three supported major versions (8, 9, and 10) the recommended **minimum** storage space is 1.5TB.  2TB is more ideal.  The current steady-state of the mirror is approximately 1TB.  If you are also mirroring [AlmaLinux OS Kitten](https://wiki.almalinux.org/development/almalinux-os-kitten-10.html) we recommend 2.5TB.
+1. Make sure that you have enough free space: 500GB per major version is the suggested minimum.  As there are currently three supported major versions (8, 9, and 10) (AlmaLinux OS Kitten being thought of separately, below) the recommended **minimum** storage space is 1.5TB.  2TB is more ideal.  The current steady-state of the mirror is approximately 1TB.  If you are also mirroring [AlmaLinux OS Kitten](https://wiki.almalinux.org/development/almalinux-os-kitten-10.html) we recommend 2.5TB.
 ::: tip Optional but recommended
 Use updated version of `rsync` with `xxhash` support.
    - `xxhash` provides a superior hashing algorithm to `rsync` which lightens the load on the source and destination
