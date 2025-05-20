@@ -118,6 +118,7 @@ module.exports = {
               title: 'Special interest groups (SIGs)',
               path: '/sigs/',
               children: [
+		'/sigs/Atomic',
                 '/sigs/Build-System',
                 '/sigs/Cloud',
                 '/sigs/Core',
