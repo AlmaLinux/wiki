@@ -35,15 +35,15 @@ module.exports = {
          title: 'Release Notes',
          path: '/release-notes/',
          children: [
-           '/release-notes/9.5',
+           '/release-notes/9.6',
            '/release-notes/8.10',
            '/release-notes/10.0-beta',
-           '/release-notes/9.6-beta',
            '/release-notes/kitten-10',
             {
             title: "Older AlmaLinux 9 releases",
   			  children: [
-  	      '/release-notes/9.4',
+              '/release-notes/9.5',
+  	          '/release-notes/9.4',
               '/release-notes/9.3',
               '/release-notes/9.2',
               '/release-notes/9.1',
@@ -51,6 +51,7 @@ module.exports = {
 	            {
 	            title: "AlmaLinux 9 betas",
 	  			  children: [
+            '/release-notes/9.6-beta',  
 	  			  '/release-notes/9.5-beta',
                  		  '/release-notes/9.4-beta',
 				  '/release-notes/9.3-beta',
@@ -118,6 +119,7 @@ module.exports = {
               title: 'Special interest groups (SIGs)',
               path: '/sigs/',
               children: [
+		'/sigs/Atomic',
                 '/sigs/Build-System',
                 '/sigs/Cloud',
                 '/sigs/Core',

@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-###### last updated: 2025-04-08
+###### last updated: 2025-05-20
 
 # AlmaLinux Release Notes
 
@@ -14,7 +14,7 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 | Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
-| [9.6 Beta](/release-notes/9.6-beta) | Sage Margay | 08 Apr 2025 | | 5.14.0-570.5.1 | x86_64, aarch64, ppc64le, s390x |
+| [9.6](/release-notes/9.6) | Sage Margay | 08 Apr 2025 | 20 May 2025| 5.14.0-570.12.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.5](/release-notes/9.5) | Teal Serval | 15 Oct 2024 | 18 Nov 2024 | 5.14.0-503.11.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.4](/release-notes/9.4) | Seafoam Ocelot | 15 Apr 2024 | 06 May 2024 | 5.14.0-427.13.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.3](/release-notes/9.3)| Shamrock Pampas Cat | 26 Oct 2023 | 13 Nov 2023 | 5.14.0-362.8.1 | x86_64, aarch64, ppc64le, s390x |

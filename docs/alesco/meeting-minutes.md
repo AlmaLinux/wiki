@@ -5,6 +5,7 @@ Title: 'ALESCo Meeting Minutes'
 Each meeting of ALESCo is public, and future meetings can be found on [events.almalinux.org](https://events.almalinux.org/category/7/)
 
 # ALESCo Meeting Minutes
+- [May 14, 2025](/alesco/meeting-minutes/2025-05-14)
 - [April 2, 2025](/alesco/meeting-minutes/2025-04-02)
 - [January 22, 2025](/alesco/meeting-minutes/2025-01-22)
 - [January 8, 2025](/alesco/meeting-minutes/2025-01-08)
