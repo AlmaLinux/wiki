@@ -2,11 +2,23 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2025-01-08
+###### last updated: 2025-05-22
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2025-01-23
+Released from Testing to Stable:
+
+#### Leapp code enhancements
+* Leapp code updated to [the latest upstream 0.21.0-5 version](https://github.com/oamg/leapp-repository/commit/57fa7a5781f6cff6ab1632d83e971c4bc395fc20).
+* Fix pes events scanner crashing when there are duplicate packages in the received instructions.
+* Fix pes events scanner not respecting user’s transaction configuration.
+* Fix storage scanner crashing when command outputs contain colon character.
+* Activate LVM VGs with `--sysinit` option to correct the use in the upgrade initramfs.
+* Minor improvements in preupgrade reports.
+* Resolves: RHEL-67621, RHEL-34570, RHEL-44596, RHEL-50076.
 
 ## 2025-01-08
 Released from Testing to Stable:
@@ -68,12 +80,12 @@ Released from Testing to Stable:
 
 ## 2024-10-09
 Released from Testing to Stable:
-* Fixed leapp actions that were causing packages removal and as so the upgrade process to fail: 
-  * For configurations with **Imunify360** repository enabled, a *replace* leapp action will be taken for the `libunwind` package. 
+* Fixed leapp actions that were causing packages removal and as so the upgrade process to fail:
+  * For configurations with **Imunify360** repository enabled, a *replace* leapp action will be taken for the `libunwind` package.
   * For configurations with **EPEL** repository enabled, a *move* leapp action will be taken for the `GeoIP` package.
   * For other configurations, these packages will be removed during the upgrade process.
 * Added **CloudLinux Imunify360 alt-php** 3rd party repository support for EL7 to EL8 upgrades for all supported systems.
-  * Before the upgrade, you must replace the `<imunify360_alt-php_token>` string in the `/etc/yum.repos.d/imunify360-alt-php.repo` config with the token from the `/etc/leapp/files/vendors.d/imunify360-alt-php.repo`. 
+  * Before the upgrade, you must replace the `<imunify360_alt-php_token>` string in the `/etc/yum.repos.d/imunify360-alt-php.repo` config with the token from the `/etc/leapp/files/vendors.d/imunify360-alt-php.repo`.
 * Unnecessery `openssl-libs` package split was removed for EL8 to EL9 upgrades for all supported systems.
 
 ## 2024-09-24
