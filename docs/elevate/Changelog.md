@@ -12,7 +12,7 @@ title: 'ELevate Changelog'
 Released from Testing to Stable:
 
 #### Leapp code enhancements
-* Leapp code updated to [the latest upstream 0.21.0-5 version](https://github.com/oamg/leapp-repository/commit/57fa7a5781f6cff6ab1632d83e971c4bc395fc20).
+* Synced leapp code 0.21 with upstream’s [latest pre-0.22 state](https://github.com/oamg/leapp-repository/commit/518722058ca53e94c8efa8958ca8fd7cac40dca7) (version 0.21.0-5).
 * Fix pes events scanner crashing when there are duplicate packages in the received instructions.
 * Fix pes events scanner not respecting user’s transaction configuration.
 * Fix storage scanner crashing when command outputs contain colon character.
