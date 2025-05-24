@@ -222,10 +222,6 @@ Choose your USB drive in the `External` section and check the disk name in the `
 ![image](/images/installation-guide-macos-usb.png)
 :::
 
-#### **Balena Etcher**
-
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, and press Flash.
-
 Now you have AlmaLinux ready on a USB stick.
 
 ## Installation
