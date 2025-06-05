@@ -2,7 +2,7 @@
 title: 'AlmaLinux Migration Projects'
 ---
 
-###### last updated: 2025-04-03
+###### last updated: 2025-06-05
 
 # AlmaLinux Migration Projects
 
@@ -33,14 +33,13 @@ Please note, the ELevate project is designed to perform one-step upgrades. If yo
 :::
 
 The ELevate project supports a number of 3rd party repositories:
-* EPEL support is currently available for upgrades to AlmaLinux OS only.
+* EPEL support is currently available for upgrades to AlmaLinux OS only. **Note**, that the support works only for those packages from EL 9 that are currently available for EL 10. Unavailable packages from EL 9 will remain on the system after the upgrade.
 * Docker CE - for all supported operating systems.
-* MariaDB - for all supported operating systems.
-* Microsoft Linux Package Repositories - for all supported operating systems.
-* nginx - for all supported operating systems.
+* MariaDB - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
+* nginx - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
-* KernelCare - for all supported operating systems.
+* KernelCare - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
 
 :::tip
 You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
@@ -53,4 +52,4 @@ Currently, the following upgrade paths are available:
 \* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
 See the [ELevate](/elevate/) section for the update steps.<br>
-\*** - upgrades to AlmaLinux OS 10 (beta) and CentOS 10 are available as ELevate Testing. Upgrade to AlmaLinux OS Kitten 10 is available as ELevate NG.
+\*** - Currently, updgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
