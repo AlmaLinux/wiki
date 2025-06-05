@@ -2,7 +2,7 @@
 title: "ELevating CentOS 7 to AlmaLinux 9"
 ---
 
-###### last updated: 2025-03-05
+###### last updated: 2025-06-05
 
 # ELevating CentOS 7 to AlmaLinux 9
 
@@ -14,12 +14,11 @@ As the Leapp tool is designed to perform one-step upgrades, you need to split th
 The ELevate project supports a number of 3rd party repositories:
 * EPEL support is currently available for upgrades to AlmaLinux OS only.
 * Docker CE - for all supported operating systems.
-* MariaDB - for all supported operating systems.
-* Microsoft Linux Package Repositories - for all supported operating systems.
-* nginx - for all supported operating systems.
+* MariaDB - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
+* nginx - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
-* KernelCare - for all supported operating systems.
+* KernelCare - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
 
 :::tip
 You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
