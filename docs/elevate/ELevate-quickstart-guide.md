@@ -17,7 +17,7 @@ Please note, the ELevate project is designed to perform one-step upgrades. If yo
 :::
 
 The ELevate project supports a number of 3rd party repositories:
-* EPEL support is currently available for upgrades to AlmaLinux OS only.
+* EPEL support is currently available for upgrades to AlmaLinux OS only. **Note**, that the support works only for those packages from EL 9 that are currently available for EL 10. Unavailable packages from EL 9 will remain on the system after the upgrade.
 * Docker CE - for all supported operating systems.
 * MariaDB - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
 * nginx - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
