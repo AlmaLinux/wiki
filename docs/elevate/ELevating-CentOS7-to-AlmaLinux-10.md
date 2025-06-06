@@ -407,7 +407,7 @@ The only difference is the `leapp-data` package.
    ```bash
    rpm -qa | grep el9
    ```
-   An example output with a list of packages:
+  ##### An example output with a list of packages:
 
    ```bash
    kernel-modules-core-5.14.0-570.18.1.el9_6.x86_64
