@@ -132,7 +132,7 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
    ```bash
    rpm -qa | grep el7
    ```
-   An example output with a list of packages:
+  ##### An example output with a list of packages:
 
    ```bash
    elevate-release-1.0-2.el7.noarch
