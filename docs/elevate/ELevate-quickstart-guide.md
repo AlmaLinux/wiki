@@ -40,7 +40,11 @@ Currently, the following upgrade paths are available:
 
 ### Requirements
 
-You need CentOS 7, Scientific Linux 7, AlmaLinux 8, CentOS Stream 8, Rocky Linux 8, AlmaLinux 9 or CentOS Stream 9 system installed to use this guide.
+Depending on your upgrade path, you'll need one of the following systems installed to use this guide:
+* CentOS 7 – if you're upgrading to EL 8
+* Scientific Linux 7 – if you're upgrading to AlmaLinux 8
+* AlmaLinux 8, CentOS Stream 8, or Rocky Linux 8 – if you're upgrading to EL 9
+* AlmaLinux 9 or CentOS Stream 9 – if you're upgrading to EL10
 
 **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
 
