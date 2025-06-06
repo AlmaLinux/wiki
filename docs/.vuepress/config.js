@@ -62,7 +62,7 @@ module.exports = {
 	            {
 	            title: "AlmaLinux 9 betas",
 	  			  children: [
-            '/release-notes/9.6-beta',  
+            '/release-notes/9.6-beta',
 	  			  '/release-notes/9.5-beta',
                  		  '/release-notes/9.4-beta',
 				  '/release-notes/9.3-beta',
@@ -297,7 +297,7 @@ module.exports = {
               path: '/elevate/',
               children: [
                 '/elevate/ELevate-quickstart-guide',
-                '/elevate/ELevating-CentOS7-to-AlmaLinux-9',
+                '/elevate/ELevating-CentOS7-to-AlmaLinux-10',
                 '/elevate/ELevating-CentOS6-to-CentOS7',
                 '/elevate/ELevate-offline-guide',
                 '/elevate/ELevate-testing-guide',
