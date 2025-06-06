@@ -454,19 +454,19 @@ If the system has been progressively upgraded from CentOS 7, the following issue
 * "Deprecated DHCP plugin configured" inhibitor.
   * To mitigate the "Deprecated DHCP plugin configured" inhibitor, run:
      ```
-     # sudo nmcli conn migrate
-     # sudo nmcli connection modify <connection_name> ipv4.dhcp-timeout 30 ipv6.dhcp-timeout 30
-     # sudo sed -i'.bak' 's/^dhcp=dhclient//g' /usr/lib/NetworkManager/conf.d/10-dhcp-dhclient.conf
-     # sudo systemctl restart NetworkManager
+     sudo nmcli conn migrate
+     sudo nmcli connection modify <connection_name> ipv4.dhcp-timeout 30 ipv6.dhcp-timeout 30
+     sudo sed -i'.bak' 's/^dhcp=dhclient//g' /usr/lib/NetworkManager/conf.d/10-dhcp-dhclient.conf
+     sudo systemctl restart NetworkManager
      ```
   * After that, verify the networking configuration:
      ```
-     # NetworkManager --print-config
+     NetworkManager --print-config
      ```
 * "dracut module 'network-legacy' cannot be found or installed." error.
   * To fix this issue delete the drop-in:
     ```
-    # sudo rm -f /etc/dracut.conf.d/50-network-legacy.conf
+    sudo rm -f /etc/dracut.conf.d/50-network-legacy.conf
     ```
 * Before rebooting, make sure you have a working main console. You will probably need to check the `/etc/default/grub`. An example of the console-related settings:
   ```
