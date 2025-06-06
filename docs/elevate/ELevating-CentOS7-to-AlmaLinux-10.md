@@ -176,7 +176,7 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
    rpm -q gpg-pubkey --qf '%{NAME}-%{VERSION}-%{RELEASE}\t%{SUMMARY}\n'
    ```
 
-   To remove them, use use the `rpm -e` command:
+   To remove them, use the `rpm -e` command:
 
    ```bash
    sudo rpm -e [keyname]
