@@ -1,45 +1,40 @@
 ---
 title: "Live Media SIG"
 ---
+
 # Live Media SIG
 
-The Live Media Team is responsible for AlmaLinux OS Live Media.
+The Live Media SIG is responsible for creating and maintaining AlmaLinux OS Live ISO images for multiple desktop environments (GNOME, KDE, XFCE, etc.).
 
 ## How to Join
 
-Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple. 
+Anyone is welcome to contribute! You can join our discussion on Matrix or contribute directly via GitHub.
 
-**Where we chat**
+- **Chat**: [#almalinux:matrix.org](https://matrix.to/#/#almalinux:matrix.org)
+- **GitHub Repository**: [AlmaLinux/sig-livemedia](https://github.com/AlmaLinux/sig-livemedia)
 
-The Live Media SIG uses the [SIG/LiveMedia](https://chat.almalinux.org/almalinux/channels/siglivemedia) chat channel for communication.
+## Activities and Deliverables (2025)
 
-**Where and when we meet**
+- Provide Live ISO images for AlmaLinux 9 and AlmaLinux 10
+- Maintain and test multiple spins (GNOME, KDE, XFCE)
+- Automate build and test processes using CI/CD pipelines
+- Collaborate with Infrastructure SIG to host and distribute official images
 
-We do not currently hold regular meetings, but work asynchronously in mattermost to accomplish our goals.
+**Download ISO Images**
 
-## Activities, projects, and deliverables
+- AlmaLinux 8: [repo.almalinux.org/almalinux/8/live/x86_64](https://repo.almalinux.org/almalinux/8/live/x86_64/)
+- AlmaLinux 9: [repo.almalinux.org/almalinux/9/live/x86_64](https://repo.almalinux.org/almalinux/9/live/x86_64/)
+- AlmaLinux 10: [repo.almalinux.org/almalinux/10/live/x86_64](https://repo.almalinux.org/almalinux/10/live/x86_64/) *(Work in progress)*
 
-* ISO images download link: [repo.almalinux.org/almalinux/8/live/x86_64](https://repo.almalinux.org/almalinux/8/live/x86_64/).
-* Build scripts and configuration files: [AlmaLinux/sig-livemedia](https://github.com/AlmaLinux/sig-livemedia).
+## Help Wanted
 
-### Help wanted
+- CI/CD engineers to improve build pipeline
+- Testers for verifying ISO functionality across environments
+- Technical writers for documentation and release notes
 
-* Technical writers for working on documentation.
-* Design and automate test scenarios.
+## SIG Members
 
-If you can help, please join us at [Live Media SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/siglivemedia) 
-
-## SIG members
-
-* [Eduard Abdullin](mailto:eabdullin@almalinux.org) - Works on Live Media build scripts and configuration files.
-  * Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
-  * GitHub profile: [eabdullin1](https://github.com/eabdullin1)
-* [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Live Media build scripts and automation.
-  * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
-  * GitHub profile: [LKHN](https://github.com/LKHN)
-* [Yuriy Kohut](mailto:ykohut@almalinux.org) - Works on Live Media build scripts and configuration files.
-  * Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
-  * GitHub profile: [yuravk](https://github.com/yuravk)
-* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Lead Architect.
-  * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
-  * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
+- Eduard Abdullin ([GitHub](https://github.com/eabdullin1))
+- Elkhan Mammadli ([GitHub](https://github.com/LKHN))
+- Yuriy Kohut ([GitHub](https://github.com/yuravk))
+- Andrew Lukoshko – AlmaLinux OS Lead Architect ([GitHub](https://github.com/andrewlukoshko))
