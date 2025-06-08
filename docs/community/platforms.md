@@ -2,27 +2,19 @@
 title: 'Community Platforms'
 ---
 
-# AlmaLinux IRC Channels
+# Community Platforms
 
-AlmaLinux maintains a presence on the [freenode IRC network](https://freenode.net/).
-
-Please observe the AlmaLinux [Code of Conduct](coc.md) and respect your fellow users at all times.
+The AlmaLinux community communicates through modern platforms that are open, transparent, and actively maintained. Join us and get involved!
 
 ## Official Channels
 
-| Channel | Purpose |
+| Platform | Purpose |
 |-|-|
-| #almalinux | General discussion and community-based user support |
-| #almalinux-arm | (SIG) ARM-specific discussion and support
-| #almalinux-cloud | (SIG) Cloud-centric discussion (AWS, GCP, Azure, OpenStack, etc.) |
-| #almalinux-devel | Developing for AlmaLinux (or a similar EL platform)? This is for you. |
-| #almalinux-infra | Discussion or issue reporting for AlmaLinux project infrastructure |
-| #almalinux-security | Security-specific discussion and support |
-| #almalinux-social | Off-topic banter |
-| #almalinux-storage | (SIG) Storage-specific discussion (GlusterFS, etc.)
+| [Matrix](https://matrix.to/#/#almalinux:matrix.org) | Real-time chat and support (primary communication channel) |
+| [Discourse Forum](https://almalinux.discourse.group/) | Long-form discussions, community collaboration |
+| [GitHub Discussions](https://github.com/AlmaLinux/wiki/discussions) | Q&A, feedback, and wiki contributions |
+| [Reddit](https://www.reddit.com/r/AlmaLinux/) | Informal discussions and community interaction |
+| [Mailing Lists](https://lists.almalinux.org/) | Formal announcements, SIG coordination, and proposals |
 
-# Mattermost
+IRC and Mattermost are no longer actively maintained and have been deprecated in favor of the platforms above.
 
-AlmaLinux operates a Mattermost instance at https://chat.almalinux.org.
-
-This instance is open to the public; contributors are highly encouraged to sign up!
