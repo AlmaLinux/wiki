@@ -2,62 +2,50 @@
 title: "Core SIG"
 ---
 
-######last updated: 2024-04-22
-
 # Core SIG
 
-The Core team is responsible for the AlmaLinux OS distribution itself. This includes, but is not limited to building new distribution versions, delivering updates, core tooling development, and maintenance.
+The Core SIG is responsible for the AlmaLinux OS distribution itself.  
+This includes building new versions (e.g., AlmaLinux 10 based on RHEL 10), delivering updates, coordinating SIG activities, and maintaining core infrastructure such as the AlmaLinux Build System (ALBS).
+
+## Responsibilities (2025)
+
+- Maintain and release AlmaLinux 8, 9, and 10
+- Manage [AlmaLinux Build System (ALBS)](https://build.almalinux.org/) and distribution pipelines
+- Coordinate packaging and bug resolution across all SIGs
+- Ensure secure and timely delivery of updates
+- Collaborate with Infrastructure, Cloud, and LiveMedia SIGs
+- Respond to security bulletins and publish relevant announcements
 
 ## How to Join
 
-Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple. 
+Anyone interested in distribution maintenance, automation, or release engineering is welcome!
 
-**Where we chat**
+- **Chat**: [#almalinux:matrix.org](https://matrix.to/#/#almalinux:matrix.org)
+- **GitHub Repositories**:
+  - [AlmaLinux/almalinux-deploy](https://github.com/AlmaLinux/almalinux-deploy)
+  - [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors)
+  - [AlmaLinux/albs](https://github.com/AlmaLinux/albs)
 
-The Core SIG uses the [SIG/Core](https://chat.almalinux.org/almalinux/channels/sigcore) chat channel for communication.
+## Recent Work
 
-**Where and when we meet**
+- Released AlmaLinux 10
+- Automated image generation and updates via ALBS
+- Modernized release tooling using GitHub Actions and CI pipelines
+- Coordinated efforts between SIGs (Cloud, LiveMedia, Infrastructure)
 
-We meet on Google Meet every other Tuesday at 16:00 UTC. If you would like to join, join the chat and ask for an invite!
+## Help Wanted
 
-## Activities, projects, and deliverables
+- RPM packagers and maintainers
+- Security bulletin writers and processors
+- CI/CD contributors (GitHub Actions, Ansible, Testinfra, Packer)
+- Bash and Python developers for tooling automation
+- PostgreSQL developers for ALBS back-end systems
 
-* The AlmaLinux OS distribution.
-* The mirrors infrastructure: [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors).
-* The migration script: [AlmaLinux/almalinux-deploy](https://github.com/AlmaLinux/almalinux-deploy/).
-* Bug reports processing: [bugs.almalinux.org](https://bugs.almalinux.org/).
+## SIG Members
 
+- [Andrew Lukoshko](https://github.com/andrewlukoshko) – AlmaLinux OS Lead Architect
+- [Eduard Abdullin](https://github.com/eabdullin1) – Release and automation engineer
+- [Jack Aboutboul](https://github.com/jaboutboul) – Community manager
+- [Stepan Oksanichenko](https://github.com/soksanichenko) – Developer, CI engineer
+- [Simon John](https://github.com/sej7278) – Security Standards Architect
 
-### Help wanted
-
-* Technical writers for working on announcements, security bulletins, wiki
-  articles and so on.
-* RPM packagers/maintainers.
-* Bug reports processing: collecting information, reproducing, escalating to
-  developers, communicating upstream, etc.
-* Design and automate test scenarios: Ansible, [Bats](https://github.com/bats-core/bats-core),
-  Bash, CI/CD, [Testinfra](https://testinfra.readthedocs.io/en/latest/),
-  [Packer](https://packer.io/), Python, AWS, Azure, etc.
-* Bash and Python developers for working on distribution tooling.
-* Python, PostgreSQL developers for working on our monitoring/build systems
-  and other projects.
-
-If you can help, please join us at [Core SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcore) 
-
-## SIG members
-
-* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Lead Architect.
-  * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
-  * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
-  * Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
-  * GitHub profile: [jaboutboul](https://github.com/jaboutboul)
-* [Eduard Abdullin](mailto:eabdullin@almalinux.org) - The release and automation engineer.
-  * Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
-  * GitHub profile: [eabdullin1](https://github.com/eabdullin1)
-* [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
-  * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-  * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Simon John](mailto:sjohn@almalinux.org) - Security Standards Architect.
-  * Chat login: [sej7278](https://chat.almalinux.org/almalinux/messages/@sej7278)
-  * GitHub profile: [sej7278](https://github.com/sej7278)
