@@ -2,7 +2,7 @@
 title: "ELevating CentOS 7 to AlmaLinux 10"
 ---
 
-###### last updated: 2025-06-05
+###### last updated: 2025-06-09
 
 # ELevating CentOS 7 to AlmaLinux 10
 
@@ -11,7 +11,7 @@ As the Leapp tool is designed to perform one-step upgrades, you need to split th
 
 - CentOS 7 to AlmaLinux 8
 - AlmaLinux 8 to AlmaLinux 9
-- AlmaLinux 8 to AlmaLinux 10  or AlmaLinux Kitten 10
+- AlmaLinux 9 to AlmaLinux 10  or AlmaLinux Kitten 10
 
 The ELevate project supports a number of 3rd party repositories:
 
@@ -394,7 +394,8 @@ The only difference is the `leapp-data` package.
    Make sure you have console access to view the actual upgrade process.
 
 * After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from the previous OS version, consider removing them or upgrade them manually.
-  ```
+
+  ```bash
   cat /etc/redhat-release
   cat /etc/os-release
   rpm -qa | grep el9
@@ -444,32 +445,36 @@ Here we have provided a demo of a CentOS 7.x to AlmaLinux 8.x upgrade using the 
 
 Upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can apply it by running the following command before the preupgrade check:
 
-  ```
-  rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
+  ```bash
+  sudo rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
   ```
 
-### Progressive upgrade to AlmaLinux 10.0 Beta
+### Progressive upgrade to AlmaLinux 10 or AlmaLinux Kitten 10
 
-If the system has been progressively upgraded from CentOS 7, the following issues appear after the preupgrade check when upgrading AlmaLinux 9 to AlmaLinux 10.0 Beta.  The issues can be found in the generated `/var/log/leapp/leapp-report.txt` file.
+If the system has been progressively upgraded from CentOS 7, the following issues appear after the preupgrade check when upgrading AlmaLinux 9 to AlmaLinux 10 or AlmaLinux Kitten 10.  The issues can be found in the generated `/var/log/leapp/leapp-report.txt` file.
 * "Deprecated DHCP plugin configured" inhibitor.
   * To mitigate the "Deprecated DHCP plugin configured" inhibitor, run:
-     ```
+
+     ```bash
      sudo nmcli conn migrate
      sudo nmcli connection modify <connection_name> ipv4.dhcp-timeout 30 ipv6.dhcp-timeout 30
      sudo sed -i'.bak' 's/^dhcp=dhclient//g' /usr/lib/NetworkManager/conf.d/10-dhcp-dhclient.conf
      sudo systemctl restart NetworkManager
      ```
   * After that, verify the networking configuration:
-     ```
-     NetworkManager --print-config
+
+     ```bash
+     sudo NetworkManager --print-config
      ```
 * "dracut module 'network-legacy' cannot be found or installed." error.
   * To fix this issue delete the drop-in:
-    ```
+
+    ```bash
     sudo rm -f /etc/dracut.conf.d/50-network-legacy.conf
     ```
 * Before rebooting, make sure you have a working main console. You will probably need to check the `/etc/default/grub`. An example of the console-related settings:
-  ```
+
+  ```bash
   GRUB_TERMINAL_OUTPUT="console"
   GRUB_CMDLINE_LINUX="console=ttyS0,115200 console=tty0"
   ```
@@ -477,14 +482,16 @@ If the system has been progressively upgraded from CentOS 7, the following issue
 ### Upgrade from CentOS Strem 9 to CentOS Stream 10
 
 During CentOS Stream 9 to CentOS Stream 10 upgrade the following error can appear during preupgrade/upgrade step and can also be found in the generated */var/log/leapp/leapp-report.txt* file:
-  ```
+
+  ```bash
   error: Verifying a signature using certificate 99DB70FAE1D7CE227FB6488205B555B38483C65D (CentOS (CentOS Official Signing Key) <security@centos.org>)
   ```
 
 To fix the error, please, manually remove and import the CentOS GPG Key using the following commands:
-  ```
-  rpm -e gpg-pubkey-8483c65d-5ccc5b19
-  rpm --import https://www.centos.org/keys/RPM-GPG-KEY-CentOS-Official-SHA256
+
+  ```bash
+  sudo rpm -e gpg-pubkey-8483c65d-5ccc5b19
+  sudo rpm --import https://www.centos.org/keys/RPM-GPG-KEY-CentOS-Official-SHA256
   ```
 
 ## Get Help
