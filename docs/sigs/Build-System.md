@@ -57,9 +57,6 @@ Our tech stack:
 * [Daniil Anfimov](mailto:danfimov@cloudlinux.com) - Build System Team Lead.
   * Chat login: [anfimovdm](https://chat.almalinux.org/almalinux/messages/@anfimovdm)
   * GitHub profile: [anfimovdm](https://github.com/anfimovdm)
-* [Roman Kravchenko](mailto:rkravchenko@cloudlinux.com) - Product Owner.
-  * Chat login: [roman-of-the-bs](https://chat.almalinux.org/almalinux/messages/@roman-of-the-bs)
-  * GitHub profile: [forbiddenpotato](https://github.com/forbiddenpotato)
 * [Javier Hernández Antúnez](mailto:jhernandez@cloudlinux.com) - The software developer engineer.
   * Chat login: [jhernandez](https://chat.almalinux.org/almalinux/messages/@jhernandez)
   * GitHub profile: [javihernandez](https://github.com/javihernandez)
