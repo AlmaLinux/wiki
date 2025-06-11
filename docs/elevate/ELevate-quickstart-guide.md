@@ -38,6 +38,10 @@ Currently, the following upgrade paths are available:
 \** - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.<br>
 \*** - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
 
+::: info
+ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
+:::
+
 ### Requirements
 
 Depending on your upgrade path, you'll need one of the following systems installed to use this guide:
