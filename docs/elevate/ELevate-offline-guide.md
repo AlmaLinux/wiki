@@ -14,6 +14,10 @@ This guide describes steps to be performed to migrate an air-gapped machine that
 If there's neither access to a private mirror nor the Internet, you'll have to use a data storage device to get local AlmaLinux and ELevate mirrors.
 :::
 
+::: info
+ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
+:::
+
 ## Requirements
 
 To migrate an air-gapped machine, you have to create a local mirror to receive updates. For this purpose, the recommended **storage space** is at least 500GB per major version. As there are currently two supported major versions (8 and 9) the storage space should be 1TB.
