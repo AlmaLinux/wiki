@@ -2,7 +2,7 @@
 title: 'AlmaLinux OS Kitten 10'
 ---
 
-###### last modified: 2025-02-17
+###### last modified: 2025-06-19
 
 # About AlmaLinux OS Kitten 10
 
@@ -105,9 +105,8 @@ More about AlmaLinux OS Container Images - [AlmaLinux Containers](/containers/).
 Currently, AlmaLinux builds Live Media images for GNOME, GNOME Mini and KDE options for AlmaLinux OS Kitten 10:
 | Live Media | AlmaLinux OS Kitten 10 |
 | --- | --- |
-| GNOME | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
-| GNOME Mini | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
-| KDE | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/) |
+| GNOME | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/AlmaLinux-Kitten-10-latest-x86_64-Live-GNOME.iso)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/AlmaLinux-Kitten-10-latest-x86_64_v2-Live-GNOME.iso)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/AlmaLinux-Kitten-10-latest-aarch64-Live-GNOME.iso) |
+| KDE | - [x86_64](https://kitten.repo.almalinux.org/10-kitten/live/x86_64/AlmaLinux-Kitten-10-latest-x86_64-Live-KDE.iso)<br>- [x86_64_v2](https://kitten.repo.almalinux.org/10-kitten/live/x86_64_v2/AlmaLinux-Kitten-10-latest-x86_64_v2-Live-KDE.iso)<br>- [aarch64](https://kitten.repo.almalinux.org/10-kitten/live/aarch64/AlmaLinux-Kitten-10-latest-aarch64-Live-KDE.iso) |
 
 More about AlmaLinux OS Live Media images - [AlmaLinux Live Media Page](/LiveMedia).
 
