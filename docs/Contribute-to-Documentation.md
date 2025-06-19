@@ -75,7 +75,7 @@ You can use a container engine like Podman or Docker to deploy a local developme
   ```
 * Now you can create a container from this image whenever is needed from the image that was built above and mount *docs* to */wiki/docs* inside the container:
   ```sh
-  podman run --name wiki_dev --rm -i -t -p 8080:8080 -v "$(pwd)"/docs:/wiki/docs:ro,z localhost/wiki_dev
+  podman run --name wiki_dev --rm -i -t -p 8080:8080 -v "$(pwd)":/wiki:ro,z localhost/wiki_dev
   ```
   The options of the command are:
   * `podman/docker` - container engine
@@ -84,7 +84,7 @@ You can use a container engine like Podman or Docker to deploy a local developme
   * `--rm` - remove the container once it is stopped
   * `-i -t` - an interactive terminal session where you can track the deployment process and check the logs. Stop it with `Ctrl+C`.
   * `-p 8080:8080` - map the port number 8080 inside the container to 8080 on the host
-  * `-v "$(pwd)"/docs:/wiki/docs:ro,z` - mount `docs` in the current directory on `/wiki/docs` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
+  * `-v "$(pwd)":/wiki:ro,z` - mount the current directory (the repository root) on `/wiki` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
   * `localhost/wiki_dev` - the name of the container image
 * The wiki instance should be up and running on [http://localhost:8080/](http://localhost:8080/).
 * Don't forget to stop the container when you've finished. 

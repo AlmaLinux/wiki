@@ -82,6 +82,6 @@ Open the application, choose your target USB, ISO you need to burn, press start 
 
 **macOS:**
 
-The cross-platform tool [balenaEtcher](https://www.balena.io/etcher/) is used to write images on macOS. It is simple too. Open balenaEtcher, choose the image and the USB, press Flash. 
+The cross-platform tool [Fedora Media Writer](https://fedoraproject.org/workstation/download#fedora-media-writer) is used to write images on macOS. It is simple too. Open Fedora Media Writer, select the AlmaLinux ISO, choose the correct options, then write the image.
 
 More details and information about AlmaLinux Live Media can be found on [Live Media SIG](https://wiki.almalinux.org/sigs/LiveMedia.html).

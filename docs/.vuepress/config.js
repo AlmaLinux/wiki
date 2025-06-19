@@ -18,7 +18,21 @@ module.exports = {
     ['link', { rel: "shortcut icon", type: 'image/png', href: "/images/logo.png"}],
   ],
   base: '/',
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) =>
+        {
+          var dayjs = require('dayjs')
+          // Omit time from last updated
+          return dayjs(timestamp).format('YYYY-MM-DD')
+        }
+      }
+    ]
+  ],
   themeConfig: {
+    lastUpdated: true,
     logo: '/images/logo.png',
     nav: [
       { text: 'Home', link: 'https://almalinux.org/' },
@@ -35,14 +49,26 @@ module.exports = {
          title: 'Release Notes',
          path: '/release-notes/',
          children: [
-           '/release-notes/9.5',
+           '/release-notes/10.0',
+           '/release-notes/9.6',
            '/release-notes/8.10',
-           '/release-notes/10.0-beta',
            '/release-notes/kitten-10',
+            {
+              title: "Older AlmaLinux 10 releases",
+              children: [
+              {
+                title: "AlmaLinux 10 betas",
+                children: [
+                  '/release-notes/10.0-beta',
+                ],
+              },
+            ]
+            },
             {
             title: "Older AlmaLinux 9 releases",
   			  children: [
-  	      '/release-notes/9.4',
+              '/release-notes/9.5',
+  	          '/release-notes/9.4',
               '/release-notes/9.3',
               '/release-notes/9.2',
               '/release-notes/9.1',
@@ -50,6 +76,7 @@ module.exports = {
 	            {
 	            title: "AlmaLinux 9 betas",
 	  			  children: [
+            '/release-notes/9.6-beta',
 	  			  '/release-notes/9.5-beta',
                  		  '/release-notes/9.4-beta',
 				  '/release-notes/9.3-beta',
@@ -117,6 +144,7 @@ module.exports = {
               title: 'Special interest groups (SIGs)',
               path: '/sigs/',
               children: [
+		'/sigs/Atomic',
                 '/sigs/Build-System',
                 '/sigs/Cloud',
                 '/sigs/Core',
@@ -193,6 +221,11 @@ module.exports = {
                               '/series/system/SystemSeriesA03R9',
                               '/series/system/SystemSeriesA04',
                               '/series/system/SystemSeriesA05',
+                              '/series/system/SystemSeriesA06',
+                              '/series/system/SystemSeriesA07',
+                              '/series/system/SystemSeriesA08',
+                              '/series/system/SystemSeriesA09',
+                              '/series/system/SystemSeriesA10',
                               ]
                   },
               ]
@@ -278,14 +311,14 @@ module.exports = {
               path: '/elevate/',
               children: [
                 '/elevate/ELevate-quickstart-guide',
-                '/elevate/ELevating-CentOS7-to-AlmaLinux-9',
+                '/elevate/ELevating-CentOS7-to-AlmaLinux-10',
                 '/elevate/ELevating-CentOS6-to-CentOS7',
                 '/elevate/ELevate-offline-guide',
                 '/elevate/ELevate-testing-guide',
                 '/elevate/ELevate-NG-testing-guide',
                 '/elevate/ELevate-frequent-issues',
                 '/elevate/Contribution-guide',
-                '/elevate/Changelog',                
+                '/elevate/Changelog',
               ]
            },
          ]

@@ -8,7 +8,7 @@ The goals of a Community-owned operating system needs to include transparency in
 
 As of December 17, 2023, the foundation has a 9 board directors.
 - [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
-- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director and Community Leader at AlmaLinux
+- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director at AlmaLinux and Program Manager at Microsoft Azure AOSI
 - [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
@@ -52,8 +52,12 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 <!-- To add minutes to this list, export the approved minutes from the meeting as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF here -->
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
-
-- Feb 11,2025 [Board meeting #37 agenda](https://docs.google.com/document/d/1HNRWu-lBYeDO0kbw96EWHW_kv_Kr80kp-ZmK0we3xSQ/)
+- Jul 8, 2025 [Board meeting #41 agenda](https://docs.google.com/document/d/1uoiblCREy9Xi7zqp1_Qep0FMC3pnAwIUwbUrxsclPeg/edit?usp=sharing)
+- Jun 10, 2025 (meeting canceled) 
+- May 13, 2025 [Board meeting #40 minutes](https://drive.google.com/file/d/13PZZ7eyKx4clvVU6qRw0mV_EPuvAy_QE/view)
+- Apr 08, 2025 [Board meeting #39 minutes](https://drive.google.com/file/d/1YpzVeq81TOYRE8sd3feRPVL9ujM7ePKO/view)
+- Mar 11, 2025 [Board meeting #38 minutes](https://drive.google.com/file/d/1oNtQKXw2qFGdUiM7dnvxzPf6x_CgSNbp/view)
+- Feb 11, 2025 [Board meeting #37 minutes](https://drive.google.com/file/d/13KHaxb_3B5iNo-q9oWGgW10GT59fQxKK/view)
 - Jan 14, 2025 [Board meeting #36 minutes](https://drive.google.com/file/d/1oNtQKXw2qFGdUiM7dnvxzPf6x_CgSNbp/view)
 - Dec, 2024 (cancelled due to scheduling problems) 
 - Nov 12, 2024 [Board meeting #35 minutes](https://drive.google.com/file/d/1sBCL3vWIvsDjtC2PHHC8WslOjLN-k1-A/view)

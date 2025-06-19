@@ -2,11 +2,69 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2025-01-08
+###### last updated: 2025-06-05
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2025-06-05
+Released from Testing to Stable:
+
+#### General updates
+
+* Leapp data updated to [the latest upstream state](https://github.com/oamg/leapp-repository/commit/ffd6d8e456484630f99d98d5bff955914af02aa5).
+* Leapp version updated to `0.22.0-3.elevate.1`.
+
+#### PES data updates
+* Add support for:
+  * **AlmaLinux release 10.0**
+  * **AlmaLinux Kitten release 10**
+  * **CentOS Stream release 10**
+* Install rpm public GPG key(s) into distro specific path
+* Device driver deprecation data:
+  * leapp-repository sha 9c621a91199c093f603ef30ba3daf59010c20e47
+* PES data, `pes-events.json` leapp-repository sha ffd6d8e456484630f99d98d5bff955914af02aa5
+  * updated 9to10 data
+  * solve valgrind-docs, valgrind-scripts with valgrind package conflicts during 8to9 upgrade
+* PES data, `config.json`:
+  * add libreport-rhel-anaconda-bugzilla (except centos) to the removable packages list, with scenarios: 9to9, 9to10
+  * add redhat-flatpak-repo, redhat-flatpak-preinstall-firefox, redhat-flatpak-preinstall-thunderbird to the removable packages list, with scenarios: 9to10
+
+#### Leapp code enhancements
+* Leapp code updated to [the latest upstream version](https://github.com/oamg/leapp-repository/commit/ffd6d8e456484630f99d98d5bff955914af02aa5).
+* Minor updates in generated reports
+* Resolves: RHEL-67621, RHEL-67719, RHEL-16881
+* Require leapp-framework >= 6.1
+* Simplified use of the LiveMode experimental feature with additional enhancements
+* Fix the check of deprecated PCI devices and drivers
+* Add RHEL 9.7 product certificates
+* Gracefully handle CentOS OS versioning style
+* Introduced the --enable-experimental-feature to simplify use of experimental features
+* Manage RPM GPG keys during the upgrade respecting used linux distributions
+* Minor fixes in reports
+* Prevent a crach during post-upgrade phases when no custom SELinux modules needs to be migrated
+* Update leapp upgrade data files
+* Resolves: RHEL-53801, RHEL-77945, RHEL-84978
+
+#### Vendor-Specific Changes
+* Create symlinks of RHSM certs path like `prod-certs/VERSION_MAJOR -> prod-certs/VERSION_MAJOR.VERSION_MINOR`
+* Exclude CentOS packages public GPG keys
+* Correct the list of leapp and leapp-repository rpms, that should be preserved during the 9to10 upgrade
+* Exclude **Microsoft** Vendor from all upgrade paths
+* Add **EPEL**, **Docker CE** and **PostgreSQL** Vendors for 9to10 upgrade path
+
+## 2025-01-23
+Released from Testing to Stable:
+
+#### Leapp code enhancements
+* Synced leapp code 0.21 with upstream’s [latest pre-0.22 state](https://github.com/oamg/leapp-repository/commit/518722058ca53e94c8efa8958ca8fd7cac40dca7) (version 0.21.0-5).
+* Fix pes events scanner crashing when there are duplicate packages in the received instructions.
+* Fix pes events scanner not respecting user’s transaction configuration.
+* Fix storage scanner crashing when command outputs contain colon character.
+* Activate LVM VGs with `--sysinit` option to correct the use in the upgrade initramfs.
+* Minor improvements in preupgrade reports.
+* Resolves: RHEL-67621, RHEL-34570, RHEL-44596, RHEL-50076.
 
 ## 2025-01-08
 Released from Testing to Stable:
@@ -68,12 +126,12 @@ Released from Testing to Stable:
 
 ## 2024-10-09
 Released from Testing to Stable:
-* Fixed leapp actions that were causing packages removal and as so the upgrade process to fail: 
-  * For configurations with **Imunify360** repository enabled, a *replace* leapp action will be taken for the `libunwind` package. 
+* Fixed leapp actions that were causing packages removal and as so the upgrade process to fail:
+  * For configurations with **Imunify360** repository enabled, a *replace* leapp action will be taken for the `libunwind` package.
   * For configurations with **EPEL** repository enabled, a *move* leapp action will be taken for the `GeoIP` package.
   * For other configurations, these packages will be removed during the upgrade process.
 * Added **CloudLinux Imunify360 alt-php** 3rd party repository support for EL7 to EL8 upgrades for all supported systems.
-  * Before the upgrade, you must replace the `<imunify360_alt-php_token>` string in the `/etc/yum.repos.d/imunify360-alt-php.repo` config with the token from the `/etc/leapp/files/vendors.d/imunify360-alt-php.repo`. 
+  * Before the upgrade, you must replace the `<imunify360_alt-php_token>` string in the `/etc/yum.repos.d/imunify360-alt-php.repo` config with the token from the `/etc/leapp/files/vendors.d/imunify360-alt-php.repo`.
 * Unnecessery `openssl-libs` package split was removed for EL8 to EL9 upgrades for all supported systems.
 
 ## 2024-09-24

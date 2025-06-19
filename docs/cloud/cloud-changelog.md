@@ -2,7 +2,7 @@
 title: 'Changelog'
 ---
 
-###### last updated: 2024-12-23
+###### last updated: 2025-02-18
 
 ## Amazon Web Services AMIs
 
@@ -85,3 +85,35 @@ AlmaLinux Generic Cloud images have now unified - BIOS and UEFI - boot support. 
 **Impacted architecture: x86_64**
 
 AlmaLinux OpenNebula images have now unified - BIOS and UEFI - boot support. The download URLs of the UEFI images are symlinked to the current image for compatibility.
+
+## Oracle Cloud Infrastructure (OCI)
+
+### AlmaLinux OS versions **9.5-20250205** and **8.10-20250215**
+
+* Enhancements:
+  * Updated the iSCSI optimizations according to the [OCI documentation](https://docs.oracle.com/en-us/iaas/Content/Block/Concepts/iscsiinformation.htm#iscsid).
+  * Added NVMe drivers into the initramfs for the support shapes with NVMe root disks.
+
+* New packages were added:
+  * `jq`: Command-line JSON processor.
+  * `nvme-cli`: NVMe management command line interface.
+
+* Some packages were removed to optimize package selection:
+  * `firewalld`: Do not install firewall to avoid a conflict between the rules of the
+firewall inside the and Security lists or Network security groups (NSGs).
+  * `cockpit-system`: Cockpit admin interface package for configuring and troubleshooting a system.
+  * `cockpit-ws`: Cockpit Web Service.
+  * `dnf-utils`: Yum-utils CLI compatibility layer.
+  * `gdisk`: An fdisk-like partitioning tool for GPT disks.
+
+**Impacted architecture: AArch64**
+
+ Use `ttyAMA0` as a serial port on AArch64 according to the [OCI documentation](https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/enablingserialconsoleaccess.htm).
+
+#### AlmaLinux OS versions **9.5-20250205**
+
+* Fixes:
+  * The OCI-specific kernel command-line parameters are ineffective, resulting in a broken boot process on bare metal instances that use iSCSI disks.
+
+* New packages were added:
+  * `langpacks-en`: Adds `en_US.UTF-8` setting it as a default locale.

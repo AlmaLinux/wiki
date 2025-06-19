@@ -2,11 +2,19 @@
 title: "Release Notes"
 ---
 
-###### last updated: 2024-12-09
+###### last updated: 2025-05-27
 
 # AlmaLinux Release Notes
 
 These are AlmaLinux Release Notes listed with Release Version, General Availability Date, Codename, Kernel Version.
+
+### AlmaLinux OS 10
+
+Version 10 will have active support until 31 May 2030, and security support until 31 May 2035. Each minor version reaches end of life when the new version is released.
+
+| Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
+|---|---|---|---|---|---|
+| [10.0](/release-notes/10.0) | Purple Lion | 10 Dec 2024 | 27 May 2025 |  6.12.0-55.9.1 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
 
 ### AlmaLinux OS 9
 
@@ -14,6 +22,7 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 | Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date | Release Date | Kernel | Supported Architectures |
 |---|---|---|---|---|---|
+| [9.6](/release-notes/9.6) | Sage Margay | 08 Apr 2025 | 20 May 2025| 5.14.0-570.12.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.5](/release-notes/9.5) | Teal Serval | 15 Oct 2024 | 18 Nov 2024 | 5.14.0-503.11.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.4](/release-notes/9.4) | Seafoam Ocelot | 15 Apr 2024 | 06 May 2024 | 5.14.0-427.13.1 | x86_64, aarch64, ppc64le, s390x |
 | [9.3](/release-notes/9.3)| Shamrock Pampas Cat | 26 Oct 2023 | 13 Nov 2023 | 5.14.0-362.8.1 | x86_64, aarch64, ppc64le, s390x |
@@ -36,21 +45,13 @@ Version 8 will have active support until 31 May 2024, and security support until
 | [8.4](/release-notes/8.4) | Electric Cheetah | 20 Apr 2021 | 26 May 2021 | 4.18.0-305 | x86_64, aarch64 |
 | [8.3](/release-notes/8.3) | Purple Manul | 1 Feb 2021 | 30 Mar 2021 | 4.18.0-240 | x86_64 |
 
-### AlmaLinux OS 10
-
-Version 10 active support will match RHEL 10 lifecycle.
-
-| Release | Codename | Beta Date | Release Date | Kernel | Supported Architectures |
-|---|---|---|---|---|---|
-| [10.0](/release-notes/10.0-beta) | Purple Lion | 10 Dec 2024 | | 6.11.0-0.rc5.23 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
-
 ### AlmaLinux OS Kitten 10
 ###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
 
 AlmaLinux OS Kitten 10 active support will match the end of CentOS Stream 10.
 
 | Release | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Release Date | Kernel | Supported Architectures |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | [Kitten 10](/release-notes/kitten-10) | Lion Cub | 22 Oct 2024 | 6.11.0-25 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
 
 

@@ -55,7 +55,6 @@ More ways to contribute:
 * [Jonathan Wright](mailto:jonathan@almalinux.org) - SIG lead
 * [Justin Boffemmyer](mailto:justin.boffemmyer@cybertrust.co.jp) - member
 * [Akitsu Izawa](mailto:akitsu.izawa@cybertrust.co.jp) - member
-* [Daniel Black](mailto:daniel@mariadb.org) - member
 * [Simon John](mailto:sjohn@tuxcare.com) - member
 * [Neal Gompa](mailto:ngompa@almalinux.org) - member
 

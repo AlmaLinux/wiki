@@ -1,11 +1,14 @@
 ---
-title: 'Help translating site'
+title: 'Help translating AlmaLinux.org'
 ---
+
+The content of [almalinux.org](https://almalinux.org/) is localized and translated by a large community of contributors through [Weblate](https://hosted.weblate.org/engage/almalinux/). This guide will guide you through contributing to those translations.
+
+[![Translation status](https://hosted.weblate.org/widget/almalinux/website-backend/multi-auto.svg)](https://hosted.weblate.org/engage/almalinux/)
+
 # Help translating the site
 
-The [almalinux.org website](https://almalinux.org/) localization and translation is managed by [Weblate](https://hosted.weblate.org/engage/almalinux/) and supported by contributors. The translations that get submitted through Weblate are automatically submitted to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request.
-
-Pull requests from Weblate are reviewed by a member of the marketing SIG or another team lead, and merged as appropriate.
+The translations that get submitted through Weblate are automatically submitted to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request from Weblate. Pull requests from Weblate are reviewed by a member of the marketing SIG or another team lead, and merged as appropriate.
 
 If you would like to help contribute to translations, you can do so by following the directions below!
 

@@ -8,6 +8,7 @@ Special interest groups (SIGs) are teams within the AlmaLinux OS community that 
 
 The following SIGs are already established:
 
+* [Atomic](/sigs/Atomic) - The AlmaLinux Atomic SIG
 * [Build System](/sigs/Build-System) - The AlmaLinux OS build system developers and maintainers.
 * [Certification](/sigs/Certification) - The AlmaLinux Certification SIG.
 * [Core](/sigs/Core) - The AlmaLinux OS distribution developers and maintainers.

@@ -123,6 +123,34 @@ AlmaLinux provides official AlmaLinux OS Kitten images for Vagrant:
 
 More about AlmaLinux OS images for Vagrant Boxes - [AlmaLinux Vagrant Boxes Page](/installation/vagrant-boxes).
 
+## Raspberry Pi
+
+AlmaLinux builds standard Raspberry Pi images and images with the GNOME desktop environment:
+* [aarch64](https://kitten.repo.almalinux.org/10-kitten/raspberrypi/images/)
+
+More about AlmaLinux OS Raspberry Pi images - [Raspberry Pi](/documentation/raspberry-pi).
+
+## Windows Subsystem for Linux (WSL) 
+
+AlmaLinux OS Kitten 10 images are available for installation via WSL CLI tool.
+* Open the command line tool. 
+* List all the Linux distributions that are officially available for installation:
+  ```
+  wsl --list --online
+  ```
+* Install AlmaLinux OS Kitten 10:
+  ```
+  wsl --install AlmaLinux-Kitten-10
+  ```
+* Launch AlmaLinux OS to start using it:
+  * Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the “+” icon. You’ll see a dropdown with available WSL distros listed. Click AlmaLinux-Kitten-10. It will open in a new tab, ready to use.
+  * Or run the command:
+    ```
+    wsl -d AlmaLinux-Kitten-10
+    ```
+
+More about AlmaLinux for WSL - [WSL Page](/documentation/WSL).
+
 ## How is AlmaLinux OS Kitten different from CentOS Stream?
 
 CentOS Stream is a product of the CentOS community–it’s the ultimate destination of the CentOS community’s work. AlmaLinux OS Kitten is not a product, it is meant as a vehicle along the journey of development of the next version of AlmaLinux OS.
