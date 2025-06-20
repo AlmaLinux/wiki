@@ -2,20 +2,24 @@
 title: 'Vagrant Boxes'
 ---
 
-###### last updated: 2025-01-06
+###### last updated: 2025-06-20
 
 # Vagrant Boxes
 
 AlmaLinux offers official AlmaLinux OS images for Vagrant Boxes. Images are delivered by the AlmaLinux [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html).
 
-The following [AlmaLinux OS 9](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/9) and [AlmaLinux OS 8](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/8) images are available on HCP Vagrant Registry:
-| Vagrant Box| AlmaLinux OS 9 | AlmaLinux OS 8 |
-| --- | --- | --- |
-| Libvirt | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
-| VirtualBox | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
-| Hyper-V | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
-| VMware | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
-| Parallels | ARM64 (AArch64) | - | 
+The following images are available on HCP Vagrant Registry:
+* [AlmaLinux OS 10](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10) and [AlmaLinux OS 10 for x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-x86_64_v2)
+* [AlmaLinux OS 9](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/9)
+* [AlmaLinux OS 8](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/8)
+
+| Vagrant Box| AlmaLinux OS 10 |AlmaLinux OS 9 | AlmaLinux OS 8 |
+| --- | --- | --- | --- |
+| Libvirt | Intel/AMD (x86_64)<br>Intel/AMD (x86_64_v2) | Intel/AMD (x86_64) | Intel/AMD (x86_64) | 
+| VirtualBox | Intel/AMD (x86_64)<br>Intel/AMD (x86_64_v2) | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
+| Hyper-V | Intel/AMD (x86_64)<br>Intel/AMD (x86_64_v2) | Intel/AMD (x86_64) | Intel/AMD (x86_64) |
+| VMware | Intel/AMD (x86_64)<br>Intel/AMD (x86_64_v2)<br>ARM64 (AArch64) | Intel/AMD (x86_64)<br>ARM64 (AArch64) | Intel/AMD (x86_64) |
+| Parallels | ARM64 (AArch64) | ARM64 (AArch64) | - | 
 
 :::tip
 If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).

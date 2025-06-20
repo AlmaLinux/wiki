@@ -17,18 +17,11 @@ The AWS Marketplace is a curated digital catalog used to find, deploy and manage
 
 The AlmaLinux OS Foundation's [official AlmaLinux OS images](https://aws.amazon.com/marketplace/seller-profile?id=529d1014-352c-4bed-8b63-6120e4bd3342) are available via the AWS Marketplace at the links provided:
 
-<table align="center">
-    <tr>
-        <td align="center">AlmaLinux OS 8</td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-mku4y3g4sjrye">x86_64</a></td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-zgsymdwitnxmm">arm64</a></td>
-    </tr>
-    <tr>
-        <td align="center">AlmaLinux OS 9</td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-ykmb6re2rcouy">x86_64</a></td>
-        <td align="center"><a href="https://aws.amazon.com/marketplace/pp/prodview-pvttztrj2uzjk">arm64</a></td>
-    </tr>
-</table>
+|     |     |     |
+| --- | --- | --- |
+| AlmaLinux OS 8 | [x86_64](https://aws.amazon.com/marketplace/pp/prodview-mku4y3g4sjrye) | [arm64](https://aws.amazon.com/marketplace/pp/prodview-zgsymdwitnxmm) |
+| AlmaLinux OS 9 | [x86_64](https://aws.amazon.com/marketplace/pp/prodview-ykmb6re2rcouy) | [arm64](https://aws.amazon.com/marketplace/pp/prodview-pvttztrj2uzjk) |
+| AlmaLinux OS 10 | [x86_64](https://aws.amazon.com/marketplace/pp/prodview-tommf6drdxv4w) | [arm64](https://aws.amazon.com/marketplace/pp/prodview-kh5sf2hbb7rnw) |
 
 ## Community AMIs
 

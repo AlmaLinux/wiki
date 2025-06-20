@@ -10,18 +10,11 @@ The OpenNebula image contains the OpenNebula addons repository as delivered via 
 The AlmaLinux OS OpenNebula image is available from our
 [mirrors](https://mirrors.almalinux.org/) and from the main AlmaLinux OS repositories:
 
-<table align="center">
-    <tr>
-        <td align="center">AlmaLinux 8</td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/">x86_64</a></td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/8/cloud/aarch64/images">aarch64</a></td>
-    </tr>
-    <tr>
-        <td align="center">AlmaLinux 9</td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/">x86_64</a></td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/">aarch64</a></td>
-    </tr>
-</table>
+|     |     |     |     |
+| --- | --- | --- | --- |
+| AlmaLinux OS 8 | [x86_64](https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/) | [aarch64](https://repo.almalinux.org/almalinux/8/cloud/aarch64/images) | |
+| AlmaLinux OS 9 | [x86_64](https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/) | [aarch64](https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/) | |
+| AlmaLinux OS 10 | [x86_64_v2](https://repo.almalinux.org/almalinux/10/cloud/x86_64_v2/images/) | [x86_64](https://repo.almalinux.org/almalinux/10/cloud/x86_64/) | [aarch64](https://repo.almalinux.org/almalinux/10/cloud/aarch64/images/) |
 
 ## Verify AlmaLinux 8 images
 

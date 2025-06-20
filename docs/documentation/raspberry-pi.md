@@ -35,6 +35,7 @@ Raspberry Pi images can be found on repo.almalinux.org/rpi/ and [mirrors](https:
 
 * [AlmaLinux OS 8](https://repo.almalinux.org/almalinux/8/raspberrypi/images/)
 * [AlmaLinux OS 9](https://repo.almalinux.org/almalinux/9/raspberrypi/images/)
+* [AlmaLinux OS 10](https://repo.almalinux.org/almalinux/10/raspberrypi/images/)
 
 :::details
 At the time of our testing, these commands were used to fetch the images:
