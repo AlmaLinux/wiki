@@ -40,8 +40,8 @@ If any of those sound interesting to you, then take a look at the list of [SIGs]
 
 Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly identical bugs as the current release of RHEL. AlmaLinux recommends following an "upstream first" approach in order to help not just the AlmaLinux but the whole EL community:
 * Try to reproduce the steps and check whether the bug is present in CentOS Stream or has been already fixed.
-* If present, it means that the bug is upstream. Please, submit the bug to [CentOS Stream bugzilla](https://wiki.centos.org/ReportBugs) providing all the necessary information about an issue and reproducing steps. This is the contribution path to get the bug fix into the upstream, which will, in turn, be built into AlmaLinux.
-* If you are able to help investigate and fix the bug, please collaborate with CentOS Stream, as this is the best an AlmaLinux Community Member can do. Check the [CentOS Contributor's Guide](https://docs.centos.org/en-US/stream-contrib/) for more details.
+* If present, it means that the bug is upstream. Please, submit the bug to [Red Hat Jira](https://docs.centos.org/centos-stream-docs/bugs/) providing all the necessary information about an issue and reproducing steps. This is the contribution path to get the bug fix into the upstream, which will, in turn, be built into AlmaLinux.
+* If you are able to help investigate and fix the bug, please collaborate with CentOS Stream, as this is the best an AlmaLinux Community Member can do. Check the [CentOS Contributor's Guide](https://docs.centos.org/centos-stream-docs/contributors-guide/) for more details.
 * If the bug is AlmaLinux-specific, please open a bug on [AlmaLinux Bug Tracker](https://bugs.almalinux.org/) providing all the necessary information about an issue and reproducing steps. 
 
 Please, file your [bugs](https://github.com/AlmaLinux/almalinux-deploy/issues) and join us for discussions on [GitHub](https://github.com/AlmaLinux/almalinux-deploy/discussions) and on [AlmaLinux Chat on Mattermost](https://chat.almalinux.org/).
