@@ -90,7 +90,7 @@ Each minor version reaches end of life when the new version is released. For exa
 
 #### I found a bug in RHEL; can I contribute the bug fix to AlmaLinux?
 
-Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly the same bugs as the current release of RHEL.  AlmaLinux recommends following an "upstream first" approach to fix these bugs by testing against CentOS Stream, and submitting them to [CentOS Stream](https://wiki.centos.org/ReportBugs). For more information, please, see the  [Contribute page](/contribute.html#help-with-reporting-bugs-and-making-fixes).
+Since AlmaLinux aims to be as close to RHEL as possible, it should have nearly the same bugs as the current release of RHEL.  AlmaLinux recommends following an "upstream first" approach to fix these bugs by testing against CentOS Stream, and submitting them to [CentOS Stream](https://docs.centos.org/centos-stream-docs/bugs/). For more information, please, see the  [Contribute page](/contribute.html#help-with-reporting-bugs-and-making-fixes).
 
 #### Bug Tracker 
 
