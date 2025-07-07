@@ -78,7 +78,7 @@ Non-Reimbursable Car Expenses:
 
 #### 5.3 Meals
 
--   You may claim the per diem rates provided by the GSA for each full day you are on approved travel. Partial days will be divided by ⅓ based on the time on travel. 
+-   You may claim the per diem rates provided by the GSA for each full day you are on approved travel. Partial days will be divided by ⅓ based on the time on travel.
 
 #### 5.4 Registration Fees
 
@@ -92,26 +92,26 @@ Non-Reimbursable Car Expenses:
 
 The following are examples of expenses not covered:
 
--   Personal entertainment (movies, sightseeing, etc.).
--   Alcoholic beverages (apart from as a minority element of a claimable meal).
--   Upgrades for travel or accommodation.
--   Loss/theft of personal belongings.
--   Fines, penalties, or parking tickets.
+-   Personal entertainment (movies, sightseeing, etc.)
+-   Alcoholic beverages (apart from as a minority element of a claimable meal)
+-   Upgrades for travel or accommodation
+-   Loss/theft of personal belongings
+-   Fines, penalties, or parking tickets
 
 ### 7. Reimbursement Process
 
 #### 7.1 Submission of Claims
 
--   Submit an Expense Reimbursement Form within 60 days after returning.
--   Attach itemized receipts for all expenses.
--   For lost or unavailable receipts, submit an explanation.
+-   Submit an Expense Reimbursement Form within 60 days after returning
+-   Attach itemized receipts for all expenses
+-   For lost or unavailable receipts, submit an explanation
 -   For personal vehicle use, include:
-	-   A completed mileage log.
-	-   Receipts for parking, tolls, or other eligible expenses.
+	-   A completed mileage log
+	-   Receipts for parking, tolls, or other eligible expenses
 
 #### 7.2 Payment Timeline
 
--   Reimbursement will be processed within 14 days of approval.
+-   Reimbursement will be processed within 14 days of approval
 
 #### 7.3 Currency
 
@@ -131,4 +131,4 @@ This policy will be reviewed regularly by the Board of Directors to ensure align
 
 * * * * *
 
-For questions or clarifications, please contact [Email/Contact Information].
+For questions or clarifications, please open an issue on the [AlmaLinux Board Business Github repo](https://github.com/AlmaLinux/AlmaLinuxBoardBusiness).
