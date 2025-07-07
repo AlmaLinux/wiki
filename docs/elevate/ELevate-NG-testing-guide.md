@@ -38,7 +38,7 @@ ELevate currently does not support the [Raspberry Pi images](https://github.com/
 
 ## Experimental feature: LiveMode
 
-[LiveMode is an experimental feature](https://github.com/oamg/leapp-repository/blob/main/docs/source/configuring-ipu/experimental-features/livemode.md) that gives more control and flexibility over your system real upgrade process, this part which is done during the reboot.
+[LiveMode is an experimental feature](https://github.com/oamg/leapp-repository/blob/main/docs/source/configuring-ipu/experimental-features/livemode.md) that gives more control and flexibility over your system's real upgrade process, which takes place during the reboot.
 
 :::warning
 Leapp will notify you that's `UNSUPPORTED UPGRADE`, so please do not use the feature on production environments.
