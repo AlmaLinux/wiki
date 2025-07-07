@@ -42,13 +42,9 @@ ELevate currently does not support the [Raspberry Pi images](https://github.com/
 
 :::warning
 Leapp will notify you that's `UNSUPPORTED UPGRADE`, so please do not use the feature on production environments.
-:::
 
-:::warning
 Live upgrades are currently limited to x86_64 only.
-:::
 
-:::warning
 Live upgrades are available for EL8 to EL9, and EL9 to EL10 paths.
 :::
 
