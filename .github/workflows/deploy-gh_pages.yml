@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: IT4Change/vuepress-build-and-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: AlmaLinux/wiki
