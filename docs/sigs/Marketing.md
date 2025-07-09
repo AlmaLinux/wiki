@@ -3,7 +3,7 @@ title: "Marketing SIG"
 ---
 # Marketing SIG
 
-The Marketing team is responsible for AlmaLinux marketing and outreach efforts. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise linux distribution to find us.
+The Marketing team is responsible for AlmaLinux branding consistency, marketing and outreach efforts, and overall public presense. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise linux distribution to find us.
 
 ## How to Join
 
@@ -38,11 +38,10 @@ Other efforts that we manage:
 
 Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, here are a few things that need help soon, and a place where you can find more information.
 
-* Mastodon automation - we use Sprout Social for scheduling ahead of time right now, but it doesn't work with mastodon! 
 * Event management and staffing -- help us expand the number of events we can join by helping us staff events local to you!
 * Content writers -- especially for the blog and social media
 * Website maintainers -- our Hugo migration is complete, but we need to clean it up
-* Graphic designers -- we have sticker ideas, but they aren't nearly as pretty as they could be!
+* Graphic designers -- we have stickers, but they aren't nearly as pretty as they could be! we have ideas, but execution is... lacking. :D 
 * Website translations -- accepted through [Weblate](https://hosted.weblate.org/projects/almalinux/website-backend/), automatically sent to the website repo for merging in. To contribute, take a look at the ["Help translating site"](/Help-translating-site.html) guide.
 
 We have tons of ideas and bugs on the [website repo](https://github.com/AlmaLinux/almalinux.org) and on [GitHub Projects](https://github.com/orgs/AlmaLinux/projects/5/views/1).
@@ -52,11 +51,14 @@ We have tons of ideas and bugs on the [website repo](https://github.com/AlmaLinu
 These members share responsibilities between and among each other.
 
 * [benny Vasquez](mailto:benny@almalinux.org) - SIG leader
-* [Jack Aboutboul](mailto:jack@almalinux.org) - Member
-* [Jonathan Wright](mailto:jonathan@almalinux.org) - Member 
-* [Cody Robertson](mailto:crobertson@almalinux.org) - Member 
+* Tristan Théroux [talk to him on chat.almalinux.org](http://chat.almalinux.org) - Member
+* DeShea Witcher
+* Michael Cannavan
+
 
 We also have a variety of folks who help us with PR, social media, and website maintenance through submissions to chat or just PRs to the [website repo](https://github.com/AlmaLinux/almalinux.org).
+
+We also contract with a Publice Relations team who joins the Marketing SIG meetings
 
 # Marketing accounts
 
@@ -64,7 +66,7 @@ Here is where we track the different accounts that marketing uses, and who has a
 
 ### Various marketing-adjacent accounts
 
-* [Canva](https://canva.com) - we have a free Pro teams account - benny has admin/owner rights
+* [Canva](https://canva.com) - we have a non-profit Pro teams account - benny has admin/owner rights
 
 ### Social Media Accounts
 
@@ -76,12 +78,13 @@ These accounts are actively monitored, updated, and managed by the SIG on a regu
 
 * [Mastodon (on fosstodon.org)](https://fosstodon.org/@almalinux) - password in Vaultwarden
 * [Twitter (x)](https://twitter.com/almalinux) - password in Vaultwarden
-* [Facebook](https://www.facebook.com/AlmaLinux/) - password in Vaultwarden
 * [LinkedIn](https://www.linkedin.com/company/almalinuxos/) - benny and Jack have 'owner' rights
+* [BlueSky](bsky.app/almalinux) - password in Vaultwarden
+* [Youtube](https://www.youtube.com/@almalinux6891) - benny and Jack have 'owner' rights - others (in and outside the marketing SIG) have "content manager" rights 
+* [Instagram](https://www.instagram.com/almalinuxos/) - password in Vaultwarden
 
 #### Inactive (placeholder) accounts
 
 These accounts are only in place to keep the name owned by us, and to point folks to our active accounts.
 
-* [Youtube](https://www.youtube.com/@almalinux6891) - benny and Jack have 'owner' rights
-* [BlueSky](bsky.app/almalinux) - password in Vaultwarden
+* [Facebook](https://www.facebook.com/AlmaLinux/) - password in Vaultwarden
