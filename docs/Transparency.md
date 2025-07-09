@@ -52,7 +52,8 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 <!-- To add minutes to this list, export the approved minutes from the meeting as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF here -->
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
-- Jul 8, 2025 [Board meeting #41 agenda](https://docs.google.com/document/d/1uoiblCREy9Xi7zqp1_Qep0FMC3pnAwIUwbUrxsclPeg/edit?usp=sharing)
+- Aug  , 2025 [Board meeting #42 agenda](https://docs.google.com/document/d/1mcRSWnzqOlT7LAWWOgwo3mZMY6pXTNsKbdsHYOK-A84/edit?tab=t.0)
+- Jul 8, 2025 [Board meeting #41 minutes](https://drive.google.com/file/d/1tS2WI28FrbHRBAH7COODEpbalqGLwFoL/view)
 - Jun 10, 2025 (meeting canceled) 
 - May 13, 2025 [Board meeting #40 minutes](https://drive.google.com/file/d/13PZZ7eyKx4clvVU6qRw0mV_EPuvAy_QE/view)
 - Apr 08, 2025 [Board meeting #39 minutes](https://drive.google.com/file/d/1YpzVeq81TOYRE8sd3feRPVL9ujM7ePKO/view)
