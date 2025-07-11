@@ -52,77 +52,9 @@ At the time of our testing, these commands were used to fetch the images:
   ```
 :::
 
-### Verify AlmaLinux 8 images
-
-   :::tip
-   If you are using an AlmaLinux OS-powered system, you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux` file. So you can skip the download the key and print the key fingerprint steps.
-   Run the following command to import the key instead:
-   ```shell
-   gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
-   ```
-   :::
-
-**In order to verify a downloaded image you need to:**
-
-* Import the AlmaLinux OS PGP public key first:
-   ```shell
-   $ curl -O -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux
-   ```
-
-* Print the key fingerprint:
-  ```shell
-  $ gpg --with-subkey-fingerprints RPM-GPG-KEY-AlmaLinux
-  gpg: WARNING: no command supplied.  Trying to guess what you mean ...
-  pub   rsa4096 2021-01-12 [C] [expires: 2024-01-12]
-        5E9B8F5617B5066CE92057C3488FCF7C3ABB34F8
-  uid           AlmaLinux <packager@almalinux.org>
-  sub   rsa3072 2021-01-12 [S] [expires: 2024-01-12]
-  ```
-  :::warning
-  The fingerprint is `5E9B8F5617B5066CE92057C3488FCF7C3ABB34F8`. If you see a different fingerprint, it means you downloaded a compromised file. Please, [let us know](mailto:security@almalinux.org), remove the file and retry the download.
-  :::
-
-* Next you need to import the key:
-  ```shell
-  $ gpg --import RPM-GPG-KEY-AlmaLinux
-  gpg: key 488FCF7C3ABB34F8: public key "AlmaLinux <packager@almalinux.org>" imported
-  gpg: Total number processed: 1
-  gpg:               imported: 1
-  ```
-
-**To verify the image:**
-
-* Download the checksum file and its signature first:
-  ```shell
-  $ curl -O -s https://repo.almalinux.org/rpi/images/CHECKSUM
-  $ curl -O -s https://repo.almalinux.org/rpi/images/CHECKSUM.asc
-  ```
-
-* Verify the checksum file signature:
-  ```shell
-  $ gpg --verify CHECKSUM.asc CHECKSUM
-  gpg: Signature made Mon 14 Nov 2022 06:40:06 PM CET
-  gpg:                using RSA key 51D6647EC21AD6EA
-  gpg: Good signature from "AlmaLinux <packager@almalinux.org>" [unknown]
-  gpg: WARNING: This key is not certified with a trusted signature!
-  gpg:          There is no indication that the signature belongs to the owner.
-  Primary key fingerprint: 5E9B 8F56 17B5 066C E920  57C3 488F CF7C 3ABB 34F8
-       Subkey fingerprint: E53C F5EF 91CE B0AD 1812  ECB8 51D6 647E C21A D6EA
-  ```
-  :::tip
-  Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"` message in the output.
-  :::
-
-* Verify the checksum of the downloaded image:
-  ```shell
-  $ sha256sum -c CHECKSUM 2>&1 | grep OK
-  AlmaLinux-8-RaspberryPi-latest.aarch64.raw.xz: OK
-  ```
-  :::warning
-  If the output is different, you should download the image again.
-  :::
-
 ### Verify AlmaLinux 9 images
+
+The instructions below are typical examples based on AlmaLinux 9. If you use a different version, please adjust accordingly.
 
 **In order to verify a downloaded image:**
 
