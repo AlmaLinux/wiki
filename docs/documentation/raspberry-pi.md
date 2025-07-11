@@ -9,7 +9,8 @@ title: "Raspberry Pi"
 [The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux.
 
 :::tip
-If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+The official AlmaLinux Raspberry Pi images come with the default username and password are both set to `almalinux`. By default, only console login is allowed.
+See the [cloud-init section](#configuration-using-cloud-init) for instructions on how to add you SSH public key for SSH access or perform additional customizations.
 :::
 
 ## Tested models
@@ -36,6 +37,7 @@ Raspberry Pi images can be found on repo.almalinux.org/rpi/ and [mirrors](https:
 * [AlmaLinux OS 8](https://repo.almalinux.org/almalinux/8/raspberrypi/images/)
 * [AlmaLinux OS 9](https://repo.almalinux.org/almalinux/9/raspberrypi/images/)
 * [AlmaLinux OS 10](https://repo.almalinux.org/almalinux/10/raspberrypi/images/)
+* [AlmaLinux OS Kitten 10](https://repo.almalinux.org/almalinux-kitten/10-kitten/raspberrypi/images/)
 
 :::details
 At the time of our testing, these commands were used to fetch the images:
