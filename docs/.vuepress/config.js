@@ -131,6 +131,7 @@ module.exports = {
     },
     {
       title: 'Contribute',
+      path: '/Contribute',
       children: [
         '/Contribute',
         '/Contribute-to-AlmaLinux-Build-System',
@@ -166,6 +167,7 @@ module.exports = {
     },
     {
       title: 'Development',
+      path: '/development/AlmaLinux-Build-System',
       children: [
         '/development/AlmaLinux-Build-System',
         '/development/almalinux-os-kitten-10',
@@ -184,6 +186,7 @@ module.exports = {
     },
     {
       title: 'Documentation',
+      path:  '/Comparison',
       children: [
         '/Comparison',
         '/documentation/nvidia',
@@ -245,6 +248,7 @@ module.exports = {
     },
     {
       title: 'Installation',
+      path: '/documentation/installation-guide',
       children: [
         '/documentation/installation-guide',
         '/documentation/after-installation-guide',
@@ -325,6 +329,7 @@ module.exports = {
     },
     {
       title: 'The Foundation',
+      path: '/Transparency',
       children: [
         '/Transparency',
         '/Election2022',
