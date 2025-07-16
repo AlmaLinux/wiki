@@ -3,7 +3,7 @@ title: 'ELevate Contribution Guide'
 ---
 
 ###### last updated: 2025-06-05
-# Contribute to the ELevate project 
+# Contribute to the ELevate project
 
 We welcome contributors to the ELevate project. You can help with:
 * [Adding more 3rd party repositories support](#third-party-vendors-support)
@@ -12,6 +12,7 @@ We welcome contributors to the ELevate project. You can help with:
 ## Third-party vendors support
 
 Currently, the ELevate project supports the following of 3rd party repositories:
+
 * EPEL support is currently available for upgrades to AlmaLinux OS only. **Note**, that the support works only for those packages from EL 9 that are currently available for EL 10. Unavailable packages from EL 9 will remain on the system after the upgrade.
 * Docker CE - for all supported operating systems.
 * MariaDB - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
@@ -19,8 +20,9 @@ Currently, the ELevate project supports the following of 3rd party repositories:
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
 * KernelCare - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
+* TuxCare - for all supported operating systems.
 
-This guide provides steps to integrate 3rd party repository packages into the ELevate upgrade process. 
+This guide provides steps to integrate 3rd party repository packages into the ELevate upgrade process.
 :::danger
 Note, that all your 3rd party packages must be signed.
 :::
@@ -35,7 +37,7 @@ Note, that all your 3rd party packages must be signed.
 
 ### Repository mapping file
 
-The mapping `.json` file provides information on mappings between source system repositories (repositories present on the system being upgraded) and target system repositories (package repositories to be used during the upgrade). 
+The mapping `.json` file provides information on mappings between source system repositories (repositories present on the system being upgraded) and target system repositories (package repositories to be used during the upgrade).
 
 In case the 3rd party repository is designed for 2 migration directions, you must prepare 2 mapping JSON files:
 *  <vendor_name>_map.json.el8 - repository mapping file for upgrades to EL8.
@@ -45,8 +47,8 @@ The mapping JSON file structure includes:
 * **datetime** - a generated date-time stamp, for example: `202306191741Z`.
 * **version** - version of the database, you can check the current version in the [leapp-data repository](https://github.com/AlmaLinux/leapp-data).
 * Two sections, described below:
-    * **mapping** 
-    * **repositories** 
+    * **mapping**
+    * **repositories**
 
 :::warning
 The mapping file defines whether a vendor's packages will be included in the upgrade process. If at least one source repository listed in the file is present on the system, the vendor is considered active, and package repositories/PES events are enabled - otherwise, they **will not** affect the upgrade process.
@@ -54,14 +56,14 @@ The mapping file defines whether a vendor's packages will be included in the upg
 
 #### Mapping section
 
-The mapping section establishes connections between repositories. 
+The mapping section establishes connections between repositories.
 
 This section defines a mapping between major system versions. It contains the following elements:
 * `source_major_version` - defines a major system version from which the system would be upgraded, `7` or`8`.
 * `target_major_version` - defines a major system version to which the system would be elevated, `8` or`9`.
 * `entries` - defines a list of repository mappings.
     * `source` - defines a source repository that will be found on a pre-upgrade system.
-    * `target` - defines a target upgrade repository (or a list of repositories) that will contain new versions of packages. 
+    * `target` - defines a target upgrade repository (or a list of repositories) that will contain new versions of packages.
     * Each source repository can map to one or multiple target repositories.
     * `source` and `target` repositories must be listed and defined in the *repository* section and the `.pes` file, and their IDs must match.
 
@@ -73,16 +75,16 @@ You can refer to MariDB examples: [mariadb_map.json.el8](https://github.com/Alma
 
 The repositories section provides both source and target repositories information.
 
-Each repository should contain its own unique information: 
+Each repository should contain its own unique information:
 * `pesid` -  ID specific to mapping/PES files, if it doesn't match, the upgrade will fail with a corresponding error.
 * `entires`:
     * `major_version` - defines a major system version.
-    * `repoid` - defines a repository ID. It must match its ID from its `.repo` file, but it doesn't have to match its 'pesid`. 
-    * `arch` - defines the system architecture for which this repository is relevant. 
+    * `repoid` - defines a repository ID. It must match its ID from its `.repo` file, but it doesn't have to match its 'pesid`.
+    * `arch` - defines the system architecture for which this repository is relevant.
     * `channel` - Red Hat specific argument, defines one of the following repository channels:
         * ga - general availability (stable) repositories; the most used one.
         * beta - beta/testing repositories.
-        * eus, e4s, aus, tus - stand for Extended Update Support, Update Services for SAP Solutions, Advanced Update Support, and Telco Extended Update Support respectively. 
+        * eus, e4s, aus, tus - stand for Extended Update Support, Update Services for SAP Solutions, Advanced Update Support, and Telco Extended Update Support respectively.
     * `repo_type` - defines one of the following repository types:
         * rpm - for RPM packages.
         * srpm - for source packages.
@@ -130,8 +132,8 @@ rpm -qip <PACKAGE_NAME> | grep Signature
 Signature   : DSA/SHA1, Mon Aug 23 08:17:13 2021, Key ID 8c55a6628608cb71
 ```
 
-The `Key ID` value after - `8c55a6628608cb71` from the example - is the public signature header you must put into the signature file. 
-The file format is designed to have *one signature per line*. 
+The `Key ID` value after - `8c55a6628608cb71` from the example - is the public signature header you must put into the signature file.
+The file format is designed to have *one signature per line*.
 
 :::tip
 You can also refer to MariDB examples: [mariadb.sigs](https://github.com/AlmaLinux/leapp-data/blob/main/vendors.d/mariadb.sigs).
@@ -139,7 +141,7 @@ You can also refer to MariDB examples: [mariadb.sigs](https://github.com/AlmaLin
 
 ### Package migration event list
 
-The package migration event list is used for complex specific package actions that can not be handled by DNF. 
+The package migration event list is used for complex specific package actions that can not be handled by DNF.
 
 Typically this data can be found in the `leapp-data/vendors.d/<vendor_name>_pes.json` file in the [GitHub repository](https://github.com/AlmaLinux/leapp-data) and the `/etc/leapp/files/vendors.d/<vendor_name>_pes.json` file on a system that is being upgraded.
 
@@ -161,16 +163,16 @@ If your 3rd party packages don't require any additional actions, stick to the fo
 }
 ```
 
-If the packages require additional action, fill in the file to add the information for the upgrade. 
+If the packages require additional action, fill in the file to add the information for the upgrade.
 * Add a new entry to the `packageinfo` array.
-* `action` - defines which of the following actions will be performed for your 3rd party vendor packages. Actions **1**, **3**, **4** and **5** are the most used ones. 
+* `action` - defines which of the following actions will be performed for your 3rd party vendor packages. Actions **1**, **3**, **4** and **5** are the most used ones.
     * `0` - present;
         * keep the packages in `in_packageset` to ensure the repo they reside in on the target system gets enabled.
     * `1` - removed;
         * remove all packages in `in_packageset`.
     * `2` - deprecated;
         * keep the packages in `in_packageset` to ensure the repo they reside in on the target system gets enabled.
-    * `3` - replaced; 
+    * `3` - replaced;
         * remove all packages in `in_packageset`.
         * install parts of the `out_packageset` that are not present on the system.
         * keep the packages from `out_packageset` that are already installed.
@@ -318,13 +320,13 @@ If the packages require additional action, fill in the file to add the informati
     * `8` - reinstalled
         - reinstall the `in_packageset` package during the upgrade transaction.
         - mostly useful for packages that have the same version string between major versions, and thus won't be upgraded automatically.
-         
+
     :::warning
     Additional notes and exceptions:
     * any event except `present` is ignored if any of the packages in `in_packageset` are marked for removal.
     * any event except `merged` is ignored if any of the packages in `in_packageset` are neither installed nor marked for installation.
     * for `merged` events it is sufficient to have at least one package from `in_packageset` either installed or marked for installation.
-    ::: 
+    :::
 
 * `architectures` - defines what system architectures the listed actions are effective for.
 *` id` - defines entry ID, must be unique; use the scripts below to check your ID.
@@ -369,8 +371,8 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
   PWD=$( pwd )
 
   if [ -z "$DISTRO" ]; then
-      echo "$0 almalinux|centos|oraclelinux|rocky" 
-      exit 1 
+      echo "$0 almalinux|centos|oraclelinux|rocky"
+      exit 1
   fi
 
   JSON_FILES=$(find ${PWD}/files/${DISTRO}/ -path "./tests" -prune -o -name "*pes*.json" -print0 | xargs -0 echo)
@@ -404,7 +406,7 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
   PWD=$( pwd )
 
   if [ -z "$DISTRO" ]; then
-      echo "$0 almalinux|centos|oraclelinux|rocky" 
+      echo "$0 almalinux|centos|oraclelinux|rocky"
       exit 1
   fi
 
@@ -421,22 +423,22 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
 Once you've prepared the vendor data for migration and tested the upgrade process, create a pull request to [leapp-data repository](https://github.com/AlmaLinux/leapp-data) to make it publicly available.
 
 :::warning
-If your v3rd party repository data is intended only for a specific OS and not all supported OSes, please put it in the `files/<target_OS>/vendors.d/`  direction. 
+If your v3rd party repository data is intended only for a specific OS and not all supported OSes, please put it in the `files/<target_OS>/vendors.d/`  direction.
 
 When testing on your system, put your vendor files to the `/etc/leapp/files/vendors.d/` direction before starting the upgrade.
 :::
 
-Next, when the pull request is submitted, the AlmaLinux Team will review it. 
+Next, when the pull request is submitted, the AlmaLinux Team will review it.
 
 ## Contribute to Testing
 
-We are also seeking contributors to test new ELevate features and upgrade directions. 
+We are also seeking contributors to test new ELevate features and upgrade directions.
 
 The current ELevate process is the following:
 
 ![image](/images/elevate-testing-scheme.svg)
 
-* ELevate NG is designed to collect community contributions such as new support, features and bugfixes, leapp-repository, and leapp-data new versions. We test these enhancements first and welcome the community to test them. If you are interested please refer to the [ELevate NG Testing Guide](https://wiki.almalinux.org/elevate/ELevate-NG-testing-guide.html). 
+* ELevate NG is designed to collect community contributions such as new support, features and bugfixes, leapp-repository, and leapp-data new versions. We test these enhancements first and welcome the community to test them. If you are interested please refer to the [ELevate NG Testing Guide](https://wiki.almalinux.org/elevate/ELevate-NG-testing-guide.html).
 * ELevate NG goes to the general testing. If you are interested please refer to the [ELevate Testing Guide](https://wiki.almalinux.org/elevate/ELevate-testing-guide.html). Meanwhile, ELevate NG gathers new data, features and improvements.
 * When the updated process is tested and approved, the Almainux Team releases it to ELevate Stable and publishes the announcement via [AlmaLinux Blog](https://almalinux.org/blog/), Social Media and [Mailing List](https://lists.almalinux.org/mailman3/lists/?all-lists) which you can subscribe not the miss the news!
 
