@@ -2,18 +2,24 @@
 title: 'ELevate Changelog'
 ---
 
-###### last updated: 2025-07-16
+###### last updated: 2025-07-30
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2025-07-30
+Released to Stable:
+
+#### PES data updates
+* Leapp data updated to [the latest upstream state](https://github.com/oamg/leapp-repository/commit/93cae9c88e964d6485ad8314ae65deb0ab676862).
+
 ## 2025-07-14
 Released to Stable:
 
 #### PES data updates
-- New vendor, **TuxCare**
- - add `alt-common` repository - alt common Extended Lifecycle Support by TuxCare
+* New vendor, **TuxCare**
+  * add `alt-common` repository - alt common Extended Lifecycle Support by TuxCare
 
 ## 2025-06-05
 Released from Testing to Stable:
