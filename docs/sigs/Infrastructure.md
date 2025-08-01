@@ -61,9 +61,6 @@ If you would like to help, please join us at [Infrastructure channel](https://ch
 * [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer.
   * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
   * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Elkhan Mammadli](mailto:elkhan@almalinux.org) - AlmaLinux OS Cloud Engineer, Cloud & Virt Team Lead.
-  * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
-  * GitHub profile: [LKHN](https://github.com/LKHN)
 * [Vasiliy Kleschov](mailto:vkleschov@almalinux.org) - Build System Team Lead.
   * Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
   * GitHub profile: [Korulag](https://github.com/Korulag)
