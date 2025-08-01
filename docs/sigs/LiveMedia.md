@@ -34,9 +34,6 @@ If you can help, please join us at [Live Media SIG on Mattermost](https://chat.a
 * [Eduard Abdullin](mailto:eabdullin@almalinux.org) - Works on Live Media build scripts and configuration files.
   * Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
   * GitHub profile: [eabdullin1](https://github.com/eabdullin1)
-* [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Live Media build scripts and automation.
-  * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
-  * GitHub profile: [LKHN](https://github.com/LKHN)
 * [Yuriy Kohut](mailto:ykohut@almalinux.org) - Works on Live Media build scripts and configuration files.
   * Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
   * GitHub profile: [yuravk](https://github.com/yuravk)

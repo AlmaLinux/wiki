@@ -72,9 +72,6 @@ If you can help, please join us at [SIG/Cloud on Mattermost](https://chat.almali
 
 ## SIG members
 
-* [Elkhan Mammadli](mailto:elkhan.mammadli@protonmail.com) - Works on Qemu/Libvirt support.
-  * Chat login: [lkhn](https://chat.almalinux.org/almalinux/messages/@lkhn)
-  * GitHub profile: [LKHN](https://github.com/LKHN)
 * [Yuriy Kohut](mailto:ykohut@almalinux.org) - Release automation engineer.
   * Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
   * GitHub profile: [yuravk](https://github.com/yuravk)
