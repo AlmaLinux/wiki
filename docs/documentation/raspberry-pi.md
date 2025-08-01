@@ -313,6 +313,22 @@ EEPROM updates pending. Please reboot to apply the update.
 To cancel a pending update run "sudo rpi-eeprom-update -r".
 ```
 
+## Upgrading Major Version
+
+In-place upgrades between major versions using [Elevate](/elevate/) are not supported for Raspberry Pi images.
+The recommended approach is to perform a fresh setup from a clean image of the new major version.
+
+If you want to perform an in-place upgrade from AlmaLinux 9 to 10, try running the following command:
+
+:::warning
+Please note that the result of the following command may be unpredictable. We recommend creating a backup before proceeding.
+:::
+
+```bash
+rpm --import https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-10
+dnf update --releasever=10 --allowerasing
+```
+
 ## Frequent Issues
 
 If you installed a GUI, and your screen has a black border around it, follow the steps below to fix this:
