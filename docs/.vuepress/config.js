@@ -328,6 +328,7 @@ module.exports = {
         '/Transparency',
         '/Election2022',
         '/election2023',
+        '/Election2025',
         '/policies/expense_policy',
         '/gsoc',
       ]
