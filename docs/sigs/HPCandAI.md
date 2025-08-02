@@ -30,9 +30,6 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 
 ## SIG members
 
-* [Hayden Barnes](mailto:hayden.barnes@hpe.com) - Senior Open Source Community Manager for AI Software, [Determined AI](https://www.determined.ai/) and [Pachyderm](https://www.pachyderm.com/), [HPE](https://www.hpe.com/)
-  * Chat login: [@hayden-barnes](https://chat.almalinux.org/almalinux/messages/@hayden-barnes)
-  * GitHub profile: [sirredbeard](https://github.com/sirredbeard)
 * [Peter Grossoehme](mailto:peter.grossoehme@megware.com) - Chief Operating Officer, [MEGWARE](http://www.megware.com)
   * Chat login: [@peter.grossoehme](https://chat.almalinux.org/almalinux/messages/@peter.grossoehme)
 * [Markus Hilger](mailto:markus.hilger@megware.com), HPC Engineer, [MEGWARE](http://www.megware.com)
