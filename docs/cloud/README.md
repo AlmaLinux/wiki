@@ -1,6 +1,6 @@
 # Cloud Images
 
-At AlmaLinux, cloud integration is among our top priorities, ensuring that users get the most streamlined and efficient experience when deploying our OS in the cloud. Our dedication to this initiative is evident through the exceptional work of our [Cloud Special Interest Group (Cloud SIG)](/sigs/Cloud). They relentlessly work on perfecting and tailoring AlmaLinux for cloud environments, making our cloud images stand out for their performance, stability, and adaptability. 
+At AlmaLinux, cloud integration is among our top priorities, ensuring that users get the most streamlined and efficient experience when deploying our OS in the cloud. Our dedication to this initiative is evident through the exceptional work of our [Cloud Special Interest Group (Cloud SIG)](/sigs/Cloud). They relentlessly work on perfecting and tailoring AlmaLinux for cloud environments, making our cloud images stand out for their performance, stability, and adaptability.
 
 :::tip
 If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
@@ -20,8 +20,8 @@ Additionally, for those wishing to simulate cloud environments or test locally, 
 
 ## Changelog
 
-You can find all the changes for every AlmaLinux Cloud Image starting versions 8.9 and 9.3 on the [changelog](cloud-changelog) page. 
+You can find all the changes for every AlmaLinux Cloud Image starting versions 8.9 and 9.3 on the [changelog](cloud-changelog) page.
 
 ## Contribute and Get Help
 
-If you are interested in contributing or need any assistance, check the [SIG/Cloud](/sigs/Cloud) wiki page and join the *~SIG/Cloud* chat channel in [Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) chat channel on [chat.almalinux.org](https://chat.almalinux.org).
+If you are interested in contributing or need any assistance, check the [SIG/Cloud](/sigs/Cloud) wiki page and join the _~SIG/Cloud_ chat channel in [Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) chat channel on [chat.almalinux.org](https://chat.almalinux.org).

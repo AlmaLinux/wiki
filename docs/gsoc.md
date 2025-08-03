@@ -4,7 +4,7 @@ AlmaLinux is proud to participate in Google's Summer of Code. Please find some d
 
 ## Application Process
 
-1. Join our [GSoC Chat Channel](https://chat.almalinux.org/almalinux/channels/gsoc). 
+1. Join our [GSoC Chat Channel](https://chat.almalinux.org/almalinux/channels/gsoc).
 2. Introduce yourself and tell us a little bit of your background and interests.
 3. Let us know what languages, projects or frameworks you have experience or would like to work in.
 4. Have you ever contributed to Open Source before?

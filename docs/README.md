@@ -1,6 +1,6 @@
 # About AlmaLinux Wiki
 
-[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is binary compatible with RHEL®.  The [AlmaLinux OS Foundation](Transparency.md) was established as a 501(c)(6) non-profit to steward ownership and governance of the project. The foundation includes over 400 individual members, over 100 Mirror sponsors, and over 25 Corporate sponsors.
+[AlmaLinux](https://almalinux.org/) is an Open Source and forever-free enterprise Linux distribution, governed and driven by the community, focused on long-term stability and a robust production grade platform. AlmaLinux OS is binary compatible with RHEL®. The [AlmaLinux OS Foundation](Transparency.md) was established as a 501(c)(6) non-profit to steward ownership and governance of the project. The foundation includes over 400 individual members, over 100 Mirror sponsors, and over 25 Corporate sponsors.
 
 <div>
  <div>
@@ -48,8 +48,9 @@ There are many ways to contribute to the wiki! To see how, check out the [Contri
 
 ### Transparency Statement
 
-* We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
-* Minutes from the [meetings of the board of directors](Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
+- We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
+- Minutes from the [meetings of the board of directors](Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
 
 ### License
+
 This Wiki content is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).

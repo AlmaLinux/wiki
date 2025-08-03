@@ -1,16 +1,16 @@
 ---
-title: 'AlmaLinux Build System'
+title: "AlmaLinux Build System"
 ---
 
 ###### last updated: 2024-10-16
 
 # Contribute to AlmaLinux Build System
 
-The AlmaLinux Build System is managed by the [SIG/Build System](/sigs/Build-System) SIG. 
+The AlmaLinux Build System is managed by the [SIG/Build System](/sigs/Build-System) SIG.
 
 The project is open for community contributions. If you are interested in contributing to the Build System project, we recommend you start by checking the AlmaLinux Build System project [milestones](https://github.com/AlmaLinux/build-system/milestones) for ongoing tasks and following the guidelines below.
 
-When you are ready to create a pull request with your suggested changes, please follow the **[commit guidelines](#commit-guidelines)** to keep our commit messages consistent across all repositories around the AlmaLinux Build System. 
+When you are ready to create a pull request with your suggested changes, please follow the **[commit guidelines](#commit-guidelines)** to keep our commit messages consistent across all repositories around the AlmaLinux Build System.
 
 ## Contribute to the codebase
 
@@ -18,59 +18,65 @@ To contribute to development we recommend deploying the AlmaLinux Build System [
 
 ### Help Wanted
 
-* Help on keeping our Build System SIG documentation up to date (READMEs in repos, wiki, docs, SIG wiki page, etc).
-* Testing (experience with pytest), we need help to:
-  * Increase our test coverage in repos that already have tests.
-  * Add tests to those that don't have tests at all.
-  * Design and implement integration/e2e tests that involve different services.
-* Familiar with Ansible? Help us in testing and improving our current ansible roles to deploy the AlmaLinux Build System.
-* Interested in supply-chain security and SBOM? Help us in defining the next steps toward providing and expanding the current SBOM data that AlmaLinux OS is generating.
+- Help on keeping our Build System SIG documentation up to date (READMEs in repos, wiki, docs, SIG wiki page, etc).
+- Testing (experience with pytest), we need help to:
+  - Increase our test coverage in repos that already have tests.
+  - Add tests to those that don't have tests at all.
+  - Design and implement integration/e2e tests that involve different services.
+- Familiar with Ansible? Help us in testing and improving our current ansible roles to deploy the AlmaLinux Build System.
+- Interested in supply-chain security and SBOM? Help us in defining the next steps toward providing and expanding the current SBOM data that AlmaLinux OS is generating.
 
 Our tech stack:
-* Backend: Python, FastAPI, SQLAlchemy, PostgreSQL, Redis.
-* Frontend: JavaScript, Vue.js, Quasar.
-* Tooling: Docker, Docker Compose, Ansible, Terraform.
+
+- Backend: Python, FastAPI, SQLAlchemy, PostgreSQL, Redis.
+- Frontend: JavaScript, Vue.js, Quasar.
+- Tooling: Docker, Docker Compose, Ansible, Terraform.
 
 ## Commit Guidelines
 
-When you are ready to create a pull request with your suggested changes, please follow the guidelines below to make our commit messages consistent across all repositories around the AlmaLinux Build System. 
+When you are ready to create a pull request with your suggested changes, please follow the guidelines below to make our commit messages consistent across all repositories around the AlmaLinux Build System.
 
 Every contributor should make commit messages that:
-* Make sense (grammatically).
-* Are meaningful/clear enough -> describe the change(s) made to the code.
-* Include references to a GitHub issue (whenever possible).
-* Include references to fixed (or resolved) issue(s).
-* This guide also aims to cover not only atomic commits made by contributors but also how merge commits must be performed.
+
+- Make sense (grammatically).
+- Are meaningful/clear enough -> describe the change(s) made to the code.
+- Include references to a GitHub issue (whenever possible).
+- Include references to fixed (or resolved) issue(s).
+- This guide also aims to cover not only atomic commits made by contributors but also how merge commits must be performed.
 
 ### Commit messages
+
 For this first iteration, we aim to focus on these two main goals:
-* Commit messages must be precise about the changes made so other developers understand what happened in that commit.
-* A person can identify the issue in GitHub that motivated such change. If possible link a GitHub issue that the commit(s) fixed or resolved. 
+
+- Commit messages must be precise about the changes made so other developers understand what happened in that commit.
+- A person can identify the issue in GitHub that motivated such change. If possible link a GitHub issue that the commit(s) fixed or resolved.
 
 **Remember**, these goals apply to both regular and merge commits.
 
 ### Structure
+
 Depending on the context, a commit message might have specific needs in different situations, i.e.:
 
-* There is only a single commit that fixes a single issue.
-* When there is a list of meaningful commits that fixes one or several issues at a time.
-* When there's no issue involved.
+- There is only a single commit that fixes a single issue.
+- When there is a list of meaningful commits that fixes one or several issues at a time.
+- When there's no issue involved.
 
 Even if we don't want to be very pedantic about how commits look (unless we decide to strengthen the policy for other reasons), we'd like to be more or less consistent with the goals described above.
 
 #### A very detailed commit message
 
 The commit message should meet the requirements:
-* Should contain a short (72 chars or less) summary.
-* Should contain more detailed explanatory text. Wrap it to 72 characters. The blank line separating the summary from the body is critical (unless you omit the body entirely).
-* Further paragraphs come after blank lines.
-* Bullet points are okay, too.
-    * Typically a hyphen or asterisk is used for the bullet, followed by a single space. Use a hanging indent.
-* If you want to add references to fixed or resolved issue(s), do it at the end as in the example: 
+
+- Should contain a short (72 chars or less) summary.
+- Should contain more detailed explanatory text. Wrap it to 72 characters. The blank line separating the summary from the body is critical (unless you omit the body entirely).
+- Further paragraphs come after blank lines.
+- Bullet points are okay, too.
+  - Typically a hyphen or asterisk is used for the bullet, followed by a single space. Use a hanging indent.
+- If you want to add references to fixed or resolved issue(s), do it at the end as in the example:
   ```
   Fixes: https://github.com/AlmaLinux/build-system/issues/80.
   ```
-  or 
+  or
   ```
   Resolves: https://github.com/AlmaLinux/build-system/issues/80.
   ```
@@ -79,12 +85,13 @@ Ideally, every commit message should look like this, but we try to be flexible e
 
 #### Summary
 
-The perfect summary will meet these requirements: 
-* Short commit title, 72 chars or less.
-* Commit summary, 72 chars or less per line.
-    * Keep it meaningful in a short way. Remember that you can add more details later.
-    * Using the imperative or simple past tenses is acceptable, but please be consistent.
-* Link a fixed/resolved issue:
+The perfect summary will meet these requirements:
+
+- Short commit title, 72 chars or less.
+- Commit summary, 72 chars or less per line.
+  - Keep it meaningful in a short way. Remember that you can add more details later.
+  - Using the imperative or simple past tenses is acceptable, but please be consistent.
+- Link a fixed/resolved issue:
   ```
   Fixes: https://github.com/AlmaLinux/build-system/issues/80
   ```
@@ -100,30 +107,35 @@ The body is a more detailed explanatory text. Wrap it to 72 characters. The blan
 
 Further paragraphs come after blank lines.
 
-* Bullet points are okay, too.
-* Typically a hyphen or asterisk is used for the bullet, followed by a single space. Use a hanging indent.
+- Bullet points are okay, too.
+- Typically a hyphen or asterisk is used for the bullet, followed by a single space. Use a hanging indent.
 
 When writing the body part, you can add as many details as you want to the commit message. Just remember:
-* The body is optional if the subject is enough to describe the commit.
-* Wrap lines to 72 characters.
-* Using the imperative or simple past tenses is acceptable, but please be consistent.
-* Feel free to describe what you think it's worth being described as if you were your colleague (who is more or less familiar with the code) and would like to understand what happened by just reading a few lines.
+
+- The body is optional if the subject is enough to describe the commit.
+- Wrap lines to 72 characters.
+- Using the imperative or simple past tenses is acceptable, but please be consistent.
+- Feel free to describe what you think it's worth being described as if you were your colleague (who is more or less familiar with the code) and would like to understand what happened by just reading a few lines.
 
 #### Footer
 
 The footer is a perfect place to add references as links to fixed or resolved issue(s). If you have not referenced issues in the subject, then they can be added here:
+
 ```
 Fixes https://github.com/AlmaLinux/build-system/issues/80
 ```
-or 
+
+or
+
 ```
 Resolves https://github.com/AlmaLinux/build-system/issues/80
 ```
 
 Remember:
-* Not having referenced issues is a possibility in case of dependency version updates and so on.
-* Can use a bullet list for the list of references.
-* Although using GitHub's abbreviations is okay, we require using the full URL as it will be meaningful if somebody is not reading the commit message through GitHub's interface.
+
+- Not having referenced issues is a possibility in case of dependency version updates and so on.
+- Can use a bullet list for the list of references.
+- Although using GitHub's abbreviations is okay, we require using the full URL as it will be meaningful if somebody is not reading the commit message through GitHub's interface.
 
 ### Everyday Use cases
 
@@ -132,10 +144,11 @@ Remember:
 ```
 Fixed create_module_by_payload (#123)
 ```
+
 As you can see, simple commit messages like this one are ok. Even if it doesn't provide a good description in the commit message, it:
 
-* Describes that there was a fix in `create_module_by_payload`.
-* References a GitHub issue (#123).
+- Describes that there was a fix in `create_module_by_payload`.
+- References a GitHub issue (#123).
 
 However, this structure might not fit as `#123` will refer to issues/pull request within the same repository. That reference needs to be more specific.
 
@@ -149,9 +162,11 @@ Also, adding aarch64 NFV repos for AlmaLinux 9
 
 Resolves: https://github.com/AlmaLinux/build-system/issues/80
 ```
+
 In this structure you can see that we have used an expanded example that:
-* adds more context to the changes that were made
-* includes the full URL for which the issue was fixed
+
+- adds more context to the changes that were made
+- includes the full URL for which the issue was fixed
 
 #### A little bit about merge commits
 
@@ -168,6 +183,7 @@ In this case, we can do a squash and merge for the commit to end up in the repos
 `Bump Pydantic from 1.10.7 to 1.10.8 (#562)`
 
 You can also create a merge commit message this way.
+
 ```
 Merge pull request #562 from javihernandez:pydantic-1.10.8
 
@@ -177,28 +193,29 @@ Bump Pydantic from 1.10.7 to 1.10.8
 Of course, and as always, ensure that if the change is motivated by a GitHub issue, please do add a reference in the commit message as described in the previous section of the document.
 
 #### Several commits PRs
+
 Usually, PRs involve more than one single commit. Ideally, they all should follow the structure described in this document, but sometimes this is not the case. We can see commit messages like:
 
-* Addressed review comments.
-* Fixed typo.
-* etc.
-Which, for obvious reasons, do not provide a lot of information about the commit. For this reason, all our merge commit messages must:
+- Addressed review comments.
+- Fixed typo.
+- etc.
+  Which, for obvious reasons, do not provide a lot of information about the commit. For this reason, all our merge commit messages must:
 
-* Reference the branch being merged.
-* Reference the pull request.
-As optional things to add, merge commit messages can also (and we encourage you to) include:
+- Reference the branch being merged.
+- Reference the pull request.
+  As optional things to add, merge commit messages can also (and we encourage you to) include:
 
-* Highlight, description or main goal of the PR.
-* Add references to fixed or resolved issues as described earlier.
+- Highlight, description or main goal of the PR.
+- Add references to fixed or resolved issues as described earlier.
 
 #### Example
 
 You can refer to this example when writing the commit. The merge [commit](https://github.com/AlmaLinux/albs-web-server/commit/7e0f7f835917fd670de6d770867fdc9720272baf) includes:
-* PR number
-* A branch being merged
+
+- PR number
+- A branch being merged
 
 Since it's a 2 commits PR, linking to issue being resolved is not mandatory, as usually described in one of the commits. For single commit PRs, we can add the reference in the merge commit if it's missing. In the example, we're referencing the PR and the issue that it fixes, not the branch being merged, but anybody can go and check the branch this commit is coming from.
-
 
 ## Get Help
 

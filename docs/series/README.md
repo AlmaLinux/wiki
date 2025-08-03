@@ -31,9 +31,10 @@ Explore the articles in the System series:
 
 Dive into our Howto series and unlock the full potential of AlmaLinux. Happy hacking! 🐧💻🚀
 
-----
+---
 
 ##### Trademark Notices
+
 :::warning
 
 **AlmaLinux** is a registered trademark of AlmaLinux OS Foundation.

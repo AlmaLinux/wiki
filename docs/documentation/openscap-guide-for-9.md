@@ -4,7 +4,7 @@ title: AlmaLinux 9 OpenSCAP Guide
 
 # AlmaLinux 9 OpenSCAP Guide
 
-This guide was developed AlmaLinux 9 OS. 
+This guide was developed AlmaLinux 9 OS.
 You can find some general information about OpenSCAP and how to enable OpenSCAP packages in the [About OpenSCAP](https://wiki.almalinux.org/documentation/openscap-guide.html#about-openscap) section.
 
 ## Validate Data Stream File
@@ -15,7 +15,7 @@ A single source data stream file includes XCCDF content. Run the following comma
 oscap ds sds-validate /usr/share/xml/scap/ssg/content/ssg-almalinux9-ds.xml \ && echo "ok" || echo "exit code = $? not ok"
 ```
 
-The command output returns *ok* if the data-stream file is valid.
+The command output returns _ok_ if the data-stream file is valid.
 
 The part in quotes is the full path to the security content file being examined.
 
@@ -58,8 +58,8 @@ Fedora 32 - cpe:/o:fedoraproject:fedora:32
 ...
 
 ==== Supported OVAL objects and associated OpenSCAP probes ====
-OVAL family   OVAL object                  OpenSCAP probe              
-----------    ----------                   ----------                  
+OVAL family   OVAL object                  OpenSCAP probe
+----------    ----------                   ----------
 independent   environmentvariable          probe_environmentvariable
 independent   environmentvariable58        probe_environmentvariable58
 ...
@@ -78,7 +78,7 @@ The part in quotes is the full path to the security content file being examined.
 
 As an example of displaying available profiles output you'll see next:
 
-```    
+```
 Document type: Source Data Stream
 Imported: 2022-05-25T01:55:58
 
@@ -146,11 +146,13 @@ Dictionaries:
 The `--profile` option is useful to get information about a specific profile.
 
 For example:
+
 ```
 oscap info --profile xccdf_org.ssgproject.content_profile_hipaa /usr/share/xml/scap/ssg/content/ssg-almalinux9-ds.xml
 ```
 
 There's an output example:
+
 ```
 Document type: Source Data Stream
 Imported: 2022-05-25T01:55:58
@@ -166,6 +168,7 @@ Profile
 
 	Description: The HIPAA Security Rule establishes U.S. national standards to protect individuals’ electronic personal health information that is created, received, used, or maintained by a covered entity. The Security Rule requires appropriate administrative, physical and technical safeguards to ensure the confidentiality, integrity, and security of electronic protected health information.  This profile configures AlmaLinux 9 to the HIPAA Security Rule identified for securing of electronic protected health information. Use of this profile in no way guarantees or makes claims against legal compliance against the HIPAA Security Rule(s).
 ```
+
 :::warning
 You can see a warning about remote data stream components when viewing information about XCCDF profiles. The data stream file contains information on where to download these components - OVAL definitions. You can ignore this warning now, but you must use the `--fetch-remote-resources` option when performing an evaluation. This option allows OSCAP to download these resources.
 :::
@@ -183,7 +186,7 @@ sudo oscap xccdf eval  --profile hipaa   --fetch-remote-resources   --results /t
 ```
 
 :::warning
-You must use the `--fetch-remote-resources` option when performing an evaluation. This option allows OSCAP to download these remote resources which are OVAL definitions. Information on where to download them is included in the data stream file. 
+You must use the `--fetch-remote-resources` option when performing an evaluation. This option allows OSCAP to download these remote resources which are OVAL definitions. Information on where to download them is included in the data stream file.
 :::
 
 Here is an example output of this command:
@@ -198,8 +201,9 @@ Result  pass
 ...
 Title   Distribute the SSH Server configuration to multiple files in a config directory.
 Rule    xccdf_org.ssgproject.content_rule_sshd_use_directory_configuration
-Result  pass    
+Result  pass
 ```
+
 The HTML report which you can view in a browser looks like as follows:
 
 ![image](/images/openscap-9_evaluation_report.png)
@@ -220,12 +224,12 @@ The HTML report which you can view in a browser looks like as follows:
 ![image](/images/openscap-9_full_security_guide.png)
 
 :::tip
-Run the `oscap info ssg-results.xml` command from the */tmp* directory to review the results XML file. You can get information like remediation scripts from it.
+Run the `oscap info ssg-results.xml` command from the _/tmp_ directory to review the results XML file. You can get information like remediation scripts from it.
 :::
 
 ## Remediating a System For Compliance With a Security Profile
 
-Performing remediation steps is recommended after a fresh installation without any profile selected while installation. OSCAP commands can apply remediation steps where the system fails to comply with an XCCDF profile. You can find these rules that result in fail status during scanning the system and generating a security guide. 
+Performing remediation steps is recommended after a fresh installation without any profile selected while installation. OSCAP commands can apply remediation steps where the system fails to comply with an XCCDF profile. You can find these rules that result in fail status during scanning the system and generating a security guide.
 
 :::tip
 Note, that remediation doesn't guarantee compliance with an XCCDF profile if the system configuration has been changed. Also, remediation steps can make changes to a system and alter how a system functions and the steps can't be automatically reverted once applied. So it's not recommended to run remediation steps on a production system without testing.
@@ -233,26 +237,26 @@ Note, that remediation doesn't guarantee compliance with an XCCDF profile if the
 
 Run the `oscap xccdf eval` command with `--profile` and `--remediate` options to allow OSCAP automatically apply remediation steps:
 
-```   
+```
 sudo oscap xccdf eval --profile hipaa \
-  --remediate /usr/share/xml/scap/ssg/content/ssg-almalinux9-ds.xml    
-```  
+  --remediate /usr/share/xml/scap/ssg/content/ssg-almalinux9-ds.xml
+```
 
 After that, reboot the system and scan the system again to validate the changes.
 
-It's possible to generate remediation scripts for later use allowing to review and modify actions before applying these changes. 
+It's possible to generate remediation scripts for later use allowing to review and modify actions before applying these changes.
 The following command generates a remediation script that provides all of the remediations that are present in a profile. Run the command against the data stream file:
 
 ```
 oscap xccdf generate fix --profile hipaa --fix-type bash \
  --output all-remediations.sh /usr/share/xml/scap/ssg/content/ssg-almalinux9-ds.xml
-```   
+```
 
 To generate a remediation script with specific remediations run a scan against an XCCDF file and use an XML results file:
 
-```  
+```
 oscap xccdf generate fix --profile hipaa --fix-type bash  --output remediations.sh /tmp/ssg-results.xml
-```  
+```
 
 ## Auditing for Vulnerabilities By Using OVAL Definitions
 
@@ -260,7 +264,7 @@ oscap xccdf generate fix --profile hipaa --fix-type bash  --output remediations.
 
 The OVAL definition file is used to scan the system in order to verify if applicable errata have been installed. To see the information about supported AlmaLinux OS versions and their public OVAL streams, please, visit the [AlmaLinux OVAL streams](https://wiki.almalinux.org/documentation/oval-streams.html) wiki page.
 
-There are two types of OVAL files: *org.almalinux.alsa-9.xml* and *org.almalinux.alsa-9.xml.bz2*, which contain the same information but archived.
+There are two types of OVAL files: _org.almalinux.alsa-9.xml_ and _org.almalinux.alsa-9.xml.bz2_, which contain the same information but archived.
 
 ### Getting an OVAL file
 
@@ -278,9 +282,11 @@ wget https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2
 
 :::tip
 Don't forget to extract the OVAL file if you downloaded the compressed file:
+
 ```
 bzip2 -d org.almalinux.alsa-9.xml.bz2
 ```
+
 :::
 
 ### Displaying information about an OVAL file
@@ -289,7 +295,7 @@ Run the `oscap info` command to display information about an OVAL file:
 
 ```
 oscap info org.almalinux.alsa-9.xml
-``` 
+```
 
 Here is an example output you can see:
 
@@ -309,11 +315,11 @@ oscap oval validate org.almalinux.alsa-9.xml \
   && echo "ok" || echo "exit code = $? not ok"
 ```
 
-The command output returns *ok* if the files are valid and properly structured.
+The command output returns _ok_ if the files are valid and properly structured.
 
 ### Performing a scan
 
-Run the following command to perform an audit scan of the AlmaLinux:  
+Run the following command to perform an audit scan of the AlmaLinux:
 
 ```
 sudo oscap oval eval --results /tmp/alsa-results-oval.xml \
@@ -332,20 +338,20 @@ Definition oval:org.almalinux.alsa:def:20221728: false
 Evaluation done
 ```
 
-A result of *false* means that the patch has been applied. A result of *true* means that the system is vulnerable and the patch is yet to be applied.
+A result of _false_ means that the patch has been applied. A result of _true_ means that the system is vulnerable and the patch is yet to be applied.
 
 Run the following command to generate the HTML report to view in a browser:
 
 ```
-sudo oscap oval generate report /tmp/alsa-results-oval.xml \ 
+sudo oscap oval generate report /tmp/alsa-results-oval.xml \
 /home/sonia/report/alsa-report-oval.html
 ```
 
 Here is an example of the HTML report:
-    
+
 ![image](/images/openscap-9_oval_scan.png)
 
-## SCAP Workbench 
+## SCAP Workbench
 
 One more way to scan a local or a remote system is SCAP Workbench. The SCAP Workbench utility also allows generating reports based on scan evaluations.
 
@@ -355,62 +361,62 @@ To install SCAP Workbench run the following command as root:
 sudo dnf install scap-workbench
 ```
 
-If the `scap-security-guide` package wasn't installed from the package repository before, you need to install it too, to use SCAP Workbench effectively. All the other packages and dependencies are installed and updated automatically. 
+If the `scap-security-guide` package wasn't installed from the package repository before, you need to install it too, to use SCAP Workbench effectively. All the other packages and dependencies are installed and updated automatically.
 
-After SCAP Workbench is installed, it should appear in your desktop environments application menu and you can run it. 
+After SCAP Workbench is installed, it should appear in your desktop environments application menu and you can run it.
 
 ![image](/images/openscap-9_workbench.png)
 
-After you start Workbench, a dialog window will offer you to choose which SCAP Security Guide to open. 
+After you start Workbench, a dialog window will offer you to choose which SCAP Security Guide to open.
 
-When one of the guides is chosen, the next SCAP Workbench window appears. There is a menu, which offers you some more options to select before scanning the system. 
+When one of the guides is chosen, the next SCAP Workbench window appears. There is a menu, which offers you some more options to select before scanning the system.
 
 ![image](/images/openscap-9_workbench_profiles.png)
 
-***File***
-This option offers to load or save SCAP-related content. The *Save Customization Only* item is useful if you selected 'Customization Only' and you want to save it as an XCCDF XML file. The *Save All* item is useful to save SCAP files to the selected directory or as an RPM package.
+**_File_**
+This option offers to load or save SCAP-related content. The _Save Customization Only_ item is useful if you selected 'Customization Only' and you want to save it as an XCCDF XML file. The _Save All_ item is useful to save SCAP files to the selected directory or as an RPM package.
 
-***Customization***
+**_Customization_**
 This option informs you about the customization used for the given security policy. The default is no customization.
 
-***Profile***
+**_Profile_**
 This option allows choosing the security profile by clicking this menu. You can create a new profile by clicking the Customize button.
 
-Here is the list of available profiles that can be used to evaluate the system: 
+Here is the list of available profiles that can be used to evaluate the system:
 
-* ANSSI-BP-028 (enhanced)
-* ANSSI-BP-028 (high)
-* ANSSI-BP-028 (intermediary)
-* ANSSI-BP-028 (minimal)
-* [DRAFT] CIS AlmaLinux 9 Benchmark for Level 2 - Server
-* [DRAFT] CIS AlmaLinux 9 Benchmark for Level 1 - Server
-* [DRAFT] CIS AlmaLinux 9 Benchmark for Level 1 - Workstation
-* [DRAFT] CIS AlmaLinux 9 Benchmark for Level 2 - Workstation
-* [DRAFT] Unclassified Information in Non-federal Information Systems and Organizations (NIST 800-171)
-* Australian Cyber Security Centre (ACSC) Essential Eight
-* Health Insurance Portability and Accountability Act (HIPAA)
-* Australian Cyber Security Centre (ACSC) ISM Official
-* [DRAFT] Protection Profile for General Purpose Operating Systems
-* PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 9
-* [DRAFT] DISA STIG for Red Hat Enterprise Linux 9
-* [DRAFT] DISA STIG with GUI for Red Hat Enterprise Linux 9
+- ANSSI-BP-028 (enhanced)
+- ANSSI-BP-028 (high)
+- ANSSI-BP-028 (intermediary)
+- ANSSI-BP-028 (minimal)
+- [DRAFT] CIS AlmaLinux 9 Benchmark for Level 2 - Server
+- [DRAFT] CIS AlmaLinux 9 Benchmark for Level 1 - Server
+- [DRAFT] CIS AlmaLinux 9 Benchmark for Level 1 - Workstation
+- [DRAFT] CIS AlmaLinux 9 Benchmark for Level 2 - Workstation
+- [DRAFT] Unclassified Information in Non-federal Information Systems and Organizations (NIST 800-171)
+- Australian Cyber Security Centre (ACSC) Essential Eight
+- Health Insurance Portability and Accountability Act (HIPAA)
+- Australian Cyber Security Centre (ACSC) ISM Official
+- [DRAFT] Protection Profile for General Purpose Operating Systems
+- PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 9
+- [DRAFT] DISA STIG for Red Hat Enterprise Linux 9
+- [DRAFT] DISA STIG with GUI for Red Hat Enterprise Linux 9
 
-***Target***
+**_Target_**
 Here you can select the system you want to be evaluated - a local or a remote one.
 
-***Selected Rules***
+**_Selected Rules_**
 This field shows you a list of security rules that security policy applies to.
 
-***Fetch remote resources***
+**_Fetch remote resources_**
 You need to check this box in case you want the scanner to download remote OVAL content defined in an XML file.
 
-***Remediate***
+**_Remediate_**
 If you check this box, SCAP Workbench will attempt to correct system settings that would fail to match the state defined by the policy.
 
-After the profile is chosen, press the SCAN button. You will see how the process is going on the status bar. 
+After the profile is chosen, press the SCAN button. You will see how the process is going on the status bar.
 
 ![image](/images/openscap-9_workbench_scan.png)
 
-When the scan is completed, you can *Save Results* as an XCCDF Result file, ARF, or HTML Report, in case you need them. If you press the *Show Report* button, it'll be displayed in a browser: 
+When the scan is completed, you can _Save Results_ as an XCCDF Result file, ARF, or HTML Report, in case you need them. If you press the _Show Report_ button, it'll be displayed in a browser:
 
 ![image](/images/openscap-9_workbench_report.png)

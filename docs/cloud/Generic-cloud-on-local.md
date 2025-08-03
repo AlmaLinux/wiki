@@ -3,12 +3,12 @@ title: Using Generic Cloud Images on a local machine
 lang: en-US
 ---
 
-
 # Using Generic Cloud Images on a local machine
 
 You can use the AlmaLinux OS 8 and 9 Generic Cloud images for testing, developing, manipulating and repackaging purposes on your local machine.
 
 Required packages:
+
 - `osinfo-db` for AlmaLinux OS support on the virtualization stack.
 - `qemu-img` (RPM) (ArchLinux), `qemu-utils` (DEB) for creating snapshots.
 - `virt-install` (CLI) `virt-manager` (GUI) (RPM), `virt-manager` (ships with `virt-install` too) (DEB) for creating VMs.
@@ -25,7 +25,7 @@ You need at least version `20210215` for AlmaLinux and `20210426` for other dist
 
 To check whether AlmaLinux OS is supported on the installed version of `osinfo-db`:
 
-``` sh
+```sh
 osinfo-query os | grep almalinux
 
  almalinux8           | AlmaLinux 8                                        | 8        | http://almalinux.org/almalinux/8
@@ -45,7 +45,6 @@ sudo osinfo-db-import --local osinfo-db-"$osinfo_db_version".tar.xz # Install
 
 Refer to this guide to download and verify the cloud images: [https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification](https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification)
 
-
 ## Create a snapshot from the image
 
 If you don’t want to modify the cloud image each time you create a VM, you can create a snapshot from the cloud image. The snapshot's virtual size can be different from the base image. In this example, we will use 20G instead of the base image's virtual size (10G). Cloud-init will grow the root filesystem automatically on the creation of the VM.
@@ -53,12 +52,13 @@ If you don’t want to modify the cloud image each time you create a VM, you can
 ```sh
 qemu-img create -f qcow2 -b AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 -F qcow2 wiki_example_almalinux92_snapshot.qcow2 20G
 ```
+
 ::: warning
 If you face a permission error on image, snapshot, and Cloud-init ISO files, you can resolve it in the following ways:
+
 - You can move the image and snapshot to the `/var/lib/libvirt/images` directory.
 - Change the ownership of file to `qemu` user with `chown qemu:qemu`. On SELinux enforced systems, do not forget to change the context type too with `chcon -t virt_image_t`
-:::
-
+  :::
 
 ## Cloud-init
 
@@ -72,16 +72,17 @@ These two main criteria must be met on the Cloud-init User Data:
 - The syntax must be in `YAML`.
 
 `user-data:`
+
 ```yaml
 #cloud-config
 
 ssh_pwauth: true # sshd service will be configured to accept password authentication method
 password: changeme # Set a password for almalinux
 chpasswd:
-    expire: false # Don't ask for password reset after the first log-in
+  expire: false # Don't ask for password reset after the first log-in
 ssh_authorized_keys: # Add your ssh public key for publickey authentication
-    - ssh-ed25519 AAAAB3NzaC1yc2EAAAABIwAAAQEA3I7VUf2l5gSn5uavROsc5HRDpZ turquoisekodkod@almalinux.example
-    - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+nCSjUU sapphirecaracal@almalinux.example
+  - ssh-ed25519 AAAAB3NzaC1yc2EAAAABIwAAAQEA3I7VUf2l5gSn5uavROsc5HRDpZ turquoisekodkod@almalinux.example
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+nCSjUU sapphirecaracal@almalinux.example
 ```
 
 :::tip
@@ -177,14 +178,14 @@ virt-install \
 ```
 
 Get the IP address of the VM:
+
 ```sh
 virsh domainifaddr $VM_NAME
 ```
 
-
 ## Static IP
 
-To create a VM with static IPs rather than dynamic from DHCP, We need to create `network-config` file in  Networking config Version 1 or Networking config Version 2 format.
+To create a VM with static IPs rather than dynamic from DHCP, We need to create `network-config` file in Networking config Version 1 or Networking config Version 2 format.
 
 An example for a single interface VM on `192.168.122.0/24` network, our `network-config` file would be:
 
@@ -205,7 +206,6 @@ config:
           - 9.9.9.9
 ```
 
-
 Networking config Version 2:
 
 ```yaml
@@ -225,9 +225,7 @@ ethernets:
 Please consult documenation pages of [Networking config Version 1](https://cloudinit.readthedocs.io/en/latest/reference/network-config-format-v1.html) and [Networking config Version 2](https://cloudinit.readthedocs.io/en/latest/reference/network-config-format-v2.html) for the full list of options.
 :::
 
-
 In virt-install/manager version `>= 4.1.0` (available in AlmaLinux OS 9), you can use the `network-config` sub-option of the `--cloud-init` option.
-
 
 ```sh
 #!/usr/bin/env bash
@@ -354,6 +352,7 @@ Show disk usage inside the image
 ```sh
 virt-df -a AlmaLinux-9-GenericCloud-9.2-20230513.x86_64.qcow2 -h
 ```
+
 Display the OS infromation
 
 ```sh

@@ -1,11 +1,11 @@
 # AlmaLinux System Series
 
-Welcome!
-----
+## Welcome!
+
 This series will guide you through the installation, configuration, security, and management of your server.
 
-**Article List**
-----
+## **Article List**
+
 - [A01](SystemSeriesA01.md) ❯ Application Streams
 - [A02](SystemSeriesA02.md) ❯ Firewalld: A Beginner's Guide
 - [A03](SystemSeriesA03.md) ❯ NVIDIA Driver Installation Guide
@@ -16,4 +16,3 @@ This series will guide you through the installation, configuration, security, an
 - [A08](SystemSeriesA08.md) ❯ Earlyoom (Out of Memory) Installation Guide
 - [A09](SystemSeriesA09.md) ❯ Journalctl Persistent Installation Guide
 - [A10](SystemSeriesA10.md) ❯ Chrony Installation Guide
-

@@ -4,78 +4,83 @@ title: "User Guide: AlmaLinux *Software Bill of Materials (SBOM)*"
 
 ###### Last updated: 2024-10-28
 
-# AlmaLinux SBOM User Guide 
+# AlmaLinux SBOM User Guide
 
-## About *SBOM*
+## About _SBOM_
 
-*SBOM (Software Bill of Materials)* is a list of all open-source and third-party components used in a codebase, along with their licensing information, version numbers, and any known vulnerabilities. 
+_SBOM (Software Bill of Materials)_ is a list of all open-source and third-party components used in a codebase, along with their licensing information, version numbers, and any known vulnerabilities.
 
-[AlmaLinux Build System](https://github.com/AlmaLinux/build-system) has implemented *SBOM* into its pipeline for security purposes, such as tracing the build process, ensuring that only trusted sources are used, and reducing the risk of data corruption. 
+[AlmaLinux Build System](https://github.com/AlmaLinux/build-system) has implemented _SBOM_ into its pipeline for security purposes, such as tracing the build process, ensuring that only trusted sources are used, and reducing the risk of data corruption.
 
 ## About immudb
 
-The AlmaLinux SBOM data is stored in Codenotary's [immudb](https://docs.immudb.io/master/immudb.html#what-is-immudb), which ensures data integrity and provides a chain of trust and traceability. Each stage of the build process goes through authentication and notarization. 
+The AlmaLinux SBOM data is stored in Codenotary's [immudb](https://docs.immudb.io/master/immudb.html#what-is-immudb), which ensures data integrity and provides a chain of trust and traceability. Each stage of the build process goes through authentication and notarization.
 
 AlmaLinux OS Team has developed [alma-sbom](https://github.com/AlmaLinux/alma-sbom), the SBOM data management utility for AlmaLinux, that generates SBOM records and allows users to track a package to verify if it is notarized and trusted.
 
-## Working with *SBOM* 
+## Working with _SBOM_
 
 ### Get the AlmaLinux SBOM tool
 
 To access the SBOM information for AlmaLinux, you need an internet connection to retrieve the records from our AlmaLinux immudb instance.
 You also need to install the AlmaLinux SBOM tool:
-* Clone the [alma-sbom](https://github.com/AlmaLinux/alma-sbom) repository. 
-* Navigate to *alma-sbom* directory.
-* Create a Python Virtual Environment:
+
+- Clone the [alma-sbom](https://github.com/AlmaLinux/alma-sbom) repository.
+- Navigate to _alma-sbom_ directory.
+- Create a Python Virtual Environment:
   ```
   python3.9 -m venv env
   ```
-* Activate the Virtual Environment:
+- Activate the Virtual Environment:
   ```
   source env/bin/activate
   ```
-* Install dependencies:  
+- Install dependencies:
   ```
   pip install .
   ```
   Among installed dependencies there's [immudb-wrapper](https://github.com/AlmaLinux/immudb-wrapper), that is used to interact with our immudb database to save or get SBOM information based on the rpm package hash.
-  
+
 ### Get the package you want to inspect
 
-To inspect a desired package for *SBOM* information, you need the package information that can be found in [AlmaLinux Build System](https://build.almalinux.org/). You can use the package *build-id* or its *rpm-package-hash*.
-* Navigate to [AlmaLinux Build System](https://build.almalinux.org/).
-* Find the package you want to inspect in the **Feed** or by using the **Search**.
-* Click **Details**. 
-  ![image](/images/sbom-details.png)
-* Now you can see the **build-id** and the package's **rpm-package-hash**. The cryptographic hash ensures the integrity of this SBOM, meaning it hasn't been tampered with since being stored in immudb. 
-You can see and copy the hash by hovering the mouse on the *key* sign and by clicking it.  
-  ![image](/images/sbom-details2.png)
+To inspect a desired package for _SBOM_ information, you need the package information that can be found in [AlmaLinux Build System](https://build.almalinux.org/). You can use the package _build-id_ or its _rpm-package-hash_.
 
+- Navigate to [AlmaLinux Build System](https://build.almalinux.org/).
+- Find the package you want to inspect in the **Feed** or by using the **Search**.
+- Click **Details**.
+  ![image](/images/sbom-details.png)
+- Now you can see the **build-id** and the package's **rpm-package-hash**. The cryptographic hash ensures the integrity of this SBOM, meaning it hasn't been tampered with since being stored in immudb.
+  You can see and copy the hash by hovering the mouse on the _key_ sign and by clicking it.  
+   ![image](/images/sbom-details2.png)
 
 ## Using the AlmaLinux SBOM tool
 
 Run the `python alma_sbom.py` command with the following arguments to get an SBOM record for your package:
 
-* `--output-file` - the file name you want to save the generated SBOM to. The file format can be *JSON* or *XML*. Without providing this argument, generated SBOM results will be shown in the terminal as an output.
-* `--file-format` - indicate a desired SBOM format and file format you want to generate. *CycloneDX* and *SPDX* SBOM types are supported. The file format can be *JSON* or *XML*.
-* `--build-id` or `--rpm-package-hash` - define one of these arguments, you can find them in the [AlmaLinux Build System](https://build.almalinux.org/).
+- `--output-file` - the file name you want to save the generated SBOM to. The file format can be _JSON_ or _XML_. Without providing this argument, generated SBOM results will be shown in the terminal as an output.
+- `--file-format` - indicate a desired SBOM format and file format you want to generate. _CycloneDX_ and _SPDX_ SBOM types are supported. The file format can be _JSON_ or _XML_.
+- `--build-id` or `--rpm-package-hash` - define one of these arguments, you can find them in the [AlmaLinux Build System](https://build.almalinux.org/).
 
 Here is the command example of generating an SBOM record using the build ID option:
 
 ```bash
 python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --build-id 17812
 ```
+
 The command example with the immudb hash of the package:
+
 ```bash
 python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --rpm-package-hash 911945c71710c83cf6f760447c32d8d6cae737dc
 ```
 
 ##### An example output of Cyclonedx format:
+
 :::details
+
 ```bash
 {
     "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json", # schema version from CycloneDX
-    "bomFormat": "CycloneDX", # SBOM format CycloneDX 
+    "bomFormat": "CycloneDX", # SBOM format CycloneDX
     "specVersion": "1.4",
     "serialNumber": "urn:uuid:fb4f1edb-b227-4609-baae-9be629230e0e",
     "version": 2,
@@ -162,14 +167,17 @@ python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --rpm-
                 },
                ...
             ]
-        },                    
+        },
         ...
-                
+
 ```
+
 :::
 
 ##### An example output of SPDX format:
+
 :::details
+
 ```bash
 {
     "SPDXID": "SPDXRef-DOCUMENT", # identifies as an SPDX format
@@ -206,7 +214,7 @@ python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --rpm-
     "dataLicense": "CC0-1.0", #  the data is public domain.
     "name": "build-17812", # the build ID being tracked
     "spdxVersion": "SPDX-2.3",
-    "documentNamespace": "https://security.almalinux.org/spdx-build-17812-e1b3e264-6c82-4052-b42d-fb88de7ef2bc", # a unique URL that identifies this particular SBOM 
+    "documentNamespace": "https://security.almalinux.org/spdx-build-17812-e1b3e264-6c82-4052-b42d-fb88de7ef2bc", # a unique URL that identifies this particular SBOM
     "packages": [
         {
             "SPDXID": "SPDXRef-0",
@@ -218,14 +226,15 @@ python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --rpm-
                     "comment": "almalinux:package:epoch=1"
                 },
                 ...
-                { 
+                {
                     "annotationDate": "2024-09-13T12:43:11Z",
                     "annotationType": "OTHER",
                     "annotator": "Tool: alma-sbom 0.0.2",
-                    "comment":  "almalinux:sbom:immudbHash=f8e2a823ffc9fe9311dac3e3a50c349c3a0689b951656fefa955cd4405ddf510" 
+                    "comment":  "almalinux:sbom:immudbHash=f8e2a823ffc9fe9311dac3e3a50c349c3a0689b951656fefa955cd4405ddf510"
                     # this is the cryptographic hash stored in immudb
                 },
 ```
+
 :::
 
 ## Contribute
@@ -233,8 +242,9 @@ python alma_sbom.py --output-file 17812.json --file-format cyclonedx-json --rpm-
 If you have a question, want to file a bug, please, create an [issue](https://github.com/AlmaLinux/alma-sbom/issues) and reach out to us trough the [SIG/Build System ](https://chat.almalinux.org/almalinux/channels/build-system) chat channel.
 
 Interested in contributing to the project?
-* Fork the [repository](https://github.com/AlmaLinux/alma-sbom).
-* Create a new feature branch.
-* Write your change.
-* Submit a pull request.
-* The SIG members will appreciate and review your contribution! 
+
+- Fork the [repository](https://github.com/AlmaLinux/alma-sbom).
+- Create a new feature branch.
+- Write your change.
+- Submit a pull request.
+- The SIG members will appreciate and review your contribution!

@@ -11,6 +11,3 @@ If you are looking for AlmaLinux OS Kitten 10 images, please, visit the [AlmaLin
 :::
 
 Dive into the future of application deployment with AlmaLinux's tailored container solutions.
-
-
-

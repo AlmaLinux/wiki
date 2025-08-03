@@ -1,5 +1,7 @@
 # A07 ❯ Change from Wayland to Xorg Installation Guide
+
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
+
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
@@ -11,22 +13,26 @@ In some case Wayland may interfere with software installed and require Xorg inst
 # Open the terminal on the host machine.
 
 # Gain administrative privileges by using the sudo command:
+
 ```Bash
 sudo su
 ```
 
 # Navigate to the /etc/gdm/ directory:
+
 ```Bash
 cd /etc/gdm/
 ```
 
 # Open the custom.conf file in a text editor of your choice. For example, you can use the nano editor:
+
 ```Bash
 Ensure that these lines are within the block that starts with # {mark} ANSIBLE MANAGED BLOCK.
 sudo nano custom.conf
 ```
 
 # Find or add the following lines to the file:
+
 ```Bash
 WaylandEnable=false
 DefaultSession=gnome-xorg.desktop
