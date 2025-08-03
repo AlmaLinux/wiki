@@ -1,6 +1,7 @@
 ---
 title: "Certification SIG"
 ---
+
 # Certification SIG
 
 The Certification SIG is focused on creating and maintaining standards and procedures related to hardware and software certification for AlmaLinux OS.
@@ -21,18 +22,18 @@ Meetings are approximately every fortnight. If there's nothing confidential in t
 
 The SIG is responsible for, and maintains the following:
 
--   [Hardware Certification Program](https://almalinux.org/certification/hardware-certification/hardware-certification-program/)
-    -   This program allows for the Certification SIG to engage with IHVs to certify hardware for AlmaLinux OS.
--   [AlmaLinux/Certifications](https://github.com/AlmaLinux/certifications)
-    -   This repo is the primary point of contact for the SIG, stores the certification results, and is the location for certification requests that are not initiated by the foundation or and IHV. It is also the source for the Hardware Certification Program documentation.
--   [AlmaLinux/Hardware-Certification-Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite)
-    -   This repo houses the certification suite itself, and documentation, issues tracking, and related code snippets.
--   [Certification SIG Board](https://github.com/orgs/AlmaLinux/projects/6)
-    -   This board provides an asynchronous method of communication, allowing for more flexible timelines, especially for international participants. Additionally, the GitHub platform serves as a mechanism for organizations to collaborate with the SIG on making certification requests from Independent Software Vendors (ISVs) and Independent Hardware Vendors (IHVs).
--   [Mattermost chat - SIGs/Certifcation](https://chat.almalinux.org/almalinux/channels/sigcertification)
-    -   This acts as the primary way for the community to engage with each other (including the SIG members) for work on certifications or the certification suite. The most collaborative place for the SIG is this chat room. This room is also bridged to matrix on [#sig-certification:almalinux.im](https://app.almalinux.im/#/room/#sig-certification:almalinux.im)
--   Private certification mailing list
-    -   The ([certification-sig\@lists.almalinux.org](mailto:certification-sig@lists.almalinux.org?subject=updateme)) mailing list acts as a private place for the Certification SIG to communicate with IHVs and ISVs. If you require your interaction with the SIG to be private (for example, if you are working with the SIG under NDA), you may reach out here.
+- [Hardware Certification Program](https://almalinux.org/certification/hardware-certification/hardware-certification-program/)
+  - This program allows for the Certification SIG to engage with IHVs to certify hardware for AlmaLinux OS.
+- [AlmaLinux/Certifications](https://github.com/AlmaLinux/certifications)
+  - This repo is the primary point of contact for the SIG, stores the certification results, and is the location for certification requests that are not initiated by the foundation or and IHV. It is also the source for the Hardware Certification Program documentation.
+- [AlmaLinux/Hardware-Certification-Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite)
+  - This repo houses the certification suite itself, and documentation, issues tracking, and related code snippets.
+- [Certification SIG Board](https://github.com/orgs/AlmaLinux/projects/6)
+  - This board provides an asynchronous method of communication, allowing for more flexible timelines, especially for international participants. Additionally, the GitHub platform serves as a mechanism for organizations to collaborate with the SIG on making certification requests from Independent Software Vendors (ISVs) and Independent Hardware Vendors (IHVs).
+- [Mattermost chat - SIGs/Certifcation](https://chat.almalinux.org/almalinux/channels/sigcertification)
+  - This acts as the primary way for the community to engage with each other (including the SIG members) for work on certifications or the certification suite. The most collaborative place for the SIG is this chat room. This room is also bridged to matrix on [#sig-certification:almalinux.im](https://app.almalinux.im/#/room/#sig-certification:almalinux.im)
+- Private certification mailing list
+  - The ([certification-sig\@lists.almalinux.org](mailto:certification-sig@lists.almalinux.org?subject=updateme)) mailing list acts as a private place for the Certification SIG to communicate with IHVs and ISVs. If you require your interaction with the SIG to be private (for example, if you are working with the SIG under NDA), you may reach out here.
 
 ### Help wanted
 
@@ -46,14 +47,14 @@ Once the certification suite has been run, results should be shared through a pu
 
 More ways to contribute:
 
-* Contributions towards expanding the [AlmaLinux Hardware Certification Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite) to represent a meaningful range of hardware and Linux hardware driver tests that an end user would expect a certification to cover.
-* Help spin up the software certification program.
-* Confirm or provide updates to results submitted and listed on the website already.
+- Contributions towards expanding the [AlmaLinux Hardware Certification Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite) to represent a meaningful range of hardware and Linux hardware driver tests that an end user would expect a certification to cover.
+- Help spin up the software certification program.
+- Confirm or provide updates to results submitted and listed on the website already.
 
 ## SIG members
 
-* [Jonathan Wright](mailto:jonathan@almalinux.org) - SIG lead
-* [Justin Boffemmyer](mailto:justin.boffemmyer@almalinux.org) - member
-* [Akitsu Izawa](mailto:akitsu.izawa@almalinux.org) - member
-* [Simon John](mailto:sjohn@almalinux.org) - member
-* [Neal Gompa](mailto:ngompa@almalinux.org) - member
+- [Jonathan Wright](mailto:jonathan@almalinux.org) - SIG lead
+- [Justin Boffemmyer](mailto:justin.boffemmyer@almalinux.org) - member
+- [Akitsu Izawa](mailto:akitsu.izawa@almalinux.org) - member
+- [Simon John](mailto:sjohn@almalinux.org) - member
+- [Neal Gompa](mailto:ngompa@almalinux.org) - member

@@ -17,4 +17,3 @@ For AlmaLinux OS Project ensuring its security is paramount for several reasons:
 - **Threat Landscape**: Linux-based systems, due to their widespread use especially in server environments, are continuous targets for attackers. Keeping them secure is an ongoing necessity.
 - **Reputation**: AlmaLinux aims to be a reliable RHEL fork. Maintaining a strong security posture is essential for its reputation and adoption.
 - **Compliance**: Many organizations are subject to regulatory standards that mandate specific security controls and measures. A secure OS helps these organizations achieve and maintain compliance.
-

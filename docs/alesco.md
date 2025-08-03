@@ -1,5 +1,5 @@
 ---
-title: 'ALESCo'
+title: "ALESCo"
 ---
 
 ###### last updated: 2024-05-20
@@ -10,7 +10,7 @@ The AlmaLinux Engineering Steering Committee (ALESCo), is a self-governing body 
 
 ## How to participate
 
-Adding your voice to the ALESCo discussions is the easiest way to participate! You can show up to a meeting, add a vote or perspective to a change discussion, or ask or answer questions in chat! Not every participant needs to be a member of ALESCo, but if you do, we will soon have a way for you to express your interest. 
+Adding your voice to the ALESCo discussions is the easiest way to participate! You can show up to a meeting, add a vote or perspective to a change discussion, or ask or answer questions in chat! Not every participant needs to be a member of ALESCo, but if you do, we will soon have a way for you to express your interest.
 
 **Where we chat**
 
@@ -26,33 +26,34 @@ Meeting times have yet to be decided, but they will eventually be listed on [eve
 
 Dubbed “air traffic control” for all engineering matters, ALESCo will ensure AlmaLinux’s robustness, reliability, and sustainability while working collaboratively with and overseeing technical decisions in relevant Special Interest Groups (SIGs). The committee will hold five key responsibilities:
 
-* Technical oversight for the operating system
-* Transparency in engineering decisions
-* Ensuring Long-Term Stability Focus
-* Release Management
-* SIG support
+- Technical oversight for the operating system
+- Transparency in engineering decisions
+- Ensuring Long-Term Stability Focus
+- Release Management
+- SIG support
 
 ## Help wanted
 
 As the committee gets its feet under it, this section will be expanded to include more information. Initially, this committee's responsibilities will be defining a collection of processes:
 
-* how the AlmaLinux project accepts requests for changes from the community
-* what changes the project is willing to consider
-* how the project solicits feedback from the greater AlmaLinux community about the changes it considers
-* how community members express interest in joining ALESCo
+- how the AlmaLinux project accepts requests for changes from the community
+- what changes the project is willing to consider
+- how the project solicits feedback from the greater AlmaLinux community about the changes it considers
+- how community members express interest in joining ALESCo
 
 ## Committee members
+
 The foundation board appointed the initial committee members, but the rest of the management of the members will be done by the committee itself. Current members:
 
-* [Andrew Lukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
-* [Ben Thomas](https://chat.almalinux.org/almalinux/messages/@b.a.thomas)
-* [Cody Robertson](https://chat.almalinux.org/almalinux/messages/@codyr)
-* [Jonathan Wright](https://chat.almalinux.org/almalinux/messages/@jonathan)
-* [Neal Gompa](https://chat.almalinux.org/almalinux/messages/@ngompa13)
+- [Andrew Lukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
+- [Ben Thomas](https://chat.almalinux.org/almalinux/messages/@b.a.thomas)
+- [Cody Robertson](https://chat.almalinux.org/almalinux/messages/@codyr)
+- [Jonathan Wright](https://chat.almalinux.org/almalinux/messages/@jonathan)
+- [Neal Gompa](https://chat.almalinux.org/almalinux/messages/@ngompa13)
 
 # Accepted Proposal
 
-This proposal was a collaboration between the foundation board and many community members, and now acts as the governing document for this committee. Adjustments to this governing document require board approval. 
+This proposal was a collaboration between the foundation board and many community members, and now acts as the governing document for this committee. Adjustments to this governing document require board approval.
 
 ## AlmaLinux Engineering Steering Committee (ALESCo)
 
@@ -65,12 +66,12 @@ The AlmaLinux Engineering Steering Committee (ALESCo) is dedicated to guiding th
 ### Tasks and Responsibilities:
 
 1. Policy Oversight: Create and maintain policies on the management of technical aspects of the AlmaLinux project. Its primary purpose is to be a policy-making group for when the need arises; for example, to lay out a clear framework for when we would deviate from upstream to provide a CVE or bug-fix patch early.  Examples:
-	1.  Change Proposals: Evaluate and approve new features or changes proposed for inclusion in AlmaLinux or relating to AlmaLinux's technical and engineering operations.
-	2.  Package and Software Decisions: Supervise the inclusion, updating, and maintenance of software packages in the AlmaLinux repositories and ultimately decide which packages are added and removed from AlmaLinux.
-2.  Conflict Mediation: Act as a final arbiter in technical disputes related to AlmaLinux's operations within the community, ensuring decisions align with the project's best interests.
-3.  Long-Term Stability Focus: Prioritize the unique needs of users by ensuring enterprise-grade stability, compatibility, and long-term support in ALESCo's decisions. This includes a commitment to rigorous testing of updates, maintaining consistent software packages and configurations, emphasizing security, and providing comprehensive documentation to support deployments at all scales.
-4.  Release Management: Oversee the release cycle of AlmaLinux to meet the needs and expectations of our users per our mission statement.
-5.  SIG Liaisons: Each technical SIG needs to ensure ALESCo is aware of its plans and actions. To address this, if an ALESCo member is not actively participating in the SIG, it should work with the SIG to ensure a liaison attends ALESCo meetings.
+   1. Change Proposals: Evaluate and approve new features or changes proposed for inclusion in AlmaLinux or relating to AlmaLinux's technical and engineering operations.
+   2. Package and Software Decisions: Supervise the inclusion, updating, and maintenance of software packages in the AlmaLinux repositories and ultimately decide which packages are added and removed from AlmaLinux.
+2. Conflict Mediation: Act as a final arbiter in technical disputes related to AlmaLinux's operations within the community, ensuring decisions align with the project's best interests.
+3. Long-Term Stability Focus: Prioritize the unique needs of users by ensuring enterprise-grade stability, compatibility, and long-term support in ALESCo's decisions. This includes a commitment to rigorous testing of updates, maintaining consistent software packages and configurations, emphasizing security, and providing comprehensive documentation to support deployments at all scales.
+4. Release Management: Oversee the release cycle of AlmaLinux to meet the needs and expectations of our users per our mission statement.
+5. SIG Liaisons: Each technical SIG needs to ensure ALESCo is aware of its plans and actions. To address this, if an ALESCo member is not actively participating in the SIG, it should work with the SIG to ensure a liaison attends ALESCo meetings.
 
 ### Policies:
 
@@ -79,7 +80,7 @@ The AlmaLinux Engineering Steering Committee (ALESCo) is dedicated to guiding th
 3.  Term Duration: ALESCo members are appointed with no set term. Every 6 months, at the time of chair election within ALESCo, each member is to be asked if they intend to continue serving or choose to step down.
 4.  Meeting Frequency: ALESCo will meet regularly, no less than once per month.
 5.  Decision Making: Decisions will be made based on a majority vote. In case of a tie, the chairperson (or a designated member) will have the deciding vote.
-6.  Quorum:  A quorum is defined as 50% of members +1 with a minimum quorum always being at least four (4) members. A quorum is required for any votes.
+6.  Quorum: A quorum is defined as 50% of members +1 with a minimum quorum always being at least four (4) members. A quorum is required for any votes.
 7.  Dissolution: At a point where the ALESCo is no longer functioning for the good of the AlmaLinux community, the board reserves the right to dissolve the committee and reform it with new members.
 
 ### Chair:
@@ -94,7 +95,7 @@ The AlmaLinux Engineering Steering Committee (ALESCo) is dedicated to guiding th
 
 We would like to thank the following people for their contribution to this proposal in the form of feedback and ideas:
 
--   Alex Iribarren; CERN
--   benny Vasquez; Chair, AlmaLinux Board of Directors
--   Brian Farrell; Hawk Host, Inc.
--   Daniel Pearson; KnownHost, LLC
+- Alex Iribarren; CERN
+- benny Vasquez; Chair, AlmaLinux Board of Directors
+- Brian Farrell; Hawk Host, Inc.
+- Daniel Pearson; KnownHost, LLC

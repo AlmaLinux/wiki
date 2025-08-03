@@ -10,7 +10,7 @@ The Core team is responsible for the AlmaLinux OS distribution itself. This incl
 
 ## How to Join
 
-Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple. 
+Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple.
 
 **Where we chat**
 
@@ -22,42 +22,41 @@ We meet on Google Meet every other Tuesday at 16:00 UTC. If you would like to jo
 
 ## Activities, projects, and deliverables
 
-* The AlmaLinux OS distribution.
-* The mirrors infrastructure: [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors).
-* The migration script: [AlmaLinux/almalinux-deploy](https://github.com/AlmaLinux/almalinux-deploy/).
-* Bug reports processing: [bugs.almalinux.org](https://bugs.almalinux.org/).
-
+- The AlmaLinux OS distribution.
+- The mirrors infrastructure: [AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors).
+- The migration script: [AlmaLinux/almalinux-deploy](https://github.com/AlmaLinux/almalinux-deploy/).
+- Bug reports processing: [bugs.almalinux.org](https://bugs.almalinux.org/).
 
 ### Help wanted
 
-* Technical writers for working on announcements, security bulletins, wiki
+- Technical writers for working on announcements, security bulletins, wiki
   articles and so on.
-* RPM packagers/maintainers.
-* Bug reports processing: collecting information, reproducing, escalating to
+- RPM packagers/maintainers.
+- Bug reports processing: collecting information, reproducing, escalating to
   developers, communicating upstream, etc.
-* Design and automate test scenarios: Ansible, [Bats](https://github.com/bats-core/bats-core),
+- Design and automate test scenarios: Ansible, [Bats](https://github.com/bats-core/bats-core),
   Bash, CI/CD, [Testinfra](https://testinfra.readthedocs.io/en/latest/),
   [Packer](https://packer.io/), Python, AWS, Azure, etc.
-* Bash and Python developers for working on distribution tooling.
-* Python, PostgreSQL developers for working on our monitoring/build systems
+- Bash and Python developers for working on distribution tooling.
+- Python, PostgreSQL developers for working on our monitoring/build systems
   and other projects.
 
-If you can help, please join us at [Core SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcore) 
+If you can help, please join us at [Core SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigcore)
 
 ## SIG members
 
-* [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Lead Architect.
-  * Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
-  * GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-* [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
-  * Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
-  * GitHub profile: [jaboutboul](https://github.com/jaboutboul)
-* [Eduard Abdullin](mailto:eabdullin@almalinux.org) - The release and automation engineer.
-  * Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
-  * GitHub profile: [eabdullin1](https://github.com/eabdullin1)
-* [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
-  * Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-  * GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-* [Simon John](mailto:sjohn@almalinux.org) - Security Standards Architect.
-  * Chat login: [sej7278](https://chat.almalinux.org/almalinux/messages/@sej7278)
-  * GitHub profile: [sej7278](https://github.com/sej7278)
+- [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - The AlmaLinux OS Lead Architect.
+  - Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
+  - GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
+- [Jack Aboutboul](mailto:jack@almalinux.org) - The AlmaLinux OS community manager.
+  - Chat login: [themayor](https://chat.almalinux.org/almalinux/messages/@themayor)
+  - GitHub profile: [jaboutboul](https://github.com/jaboutboul)
+- [Eduard Abdullin](mailto:eabdullin@almalinux.org) - The release and automation engineer.
+  - Chat login: [eabdullin](https://chat.almalinux.org/almalinux/messages/@eabdullin)
+  - GitHub profile: [eabdullin1](https://github.com/eabdullin1)
+- [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - The software developer and automation engineer.
+  - Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
+  - GitHub profile: [soksanichenko](https://github.com/soksanichenko)
+- [Simon John](mailto:sjohn@almalinux.org) - Security Standards Architect.
+  - Chat login: [sej7278](https://chat.almalinux.org/almalinux/messages/@sej7278)
+  - GitHub profile: [sej7278](https://github.com/sej7278)
