@@ -227,15 +227,18 @@ When editing an existing page or writing a new one, we recommend you follow this
   _ The image should be a proper size that is clear to read.
   _ The image will serve from `/images/`, so do not change the beginning of this path.
 - All the commands (even separate ones) and code blocks should be formatted as code blocks, not as inline code:
+
   ```
   {your command(s)/code}
   ```
 
   - If there's any example output/code/result, consider mentioning it right after according to the format below. Also, consider formatting it as a code block or as an image.
-  **An example output you may see:**
+    **An example output you may see:**
+
   ```
   example
   ```
+
 - If there's anything to warn about or provide a tip, highlight it with markdown tips and warnings.
 - If there are trademarks mentioned on the page, we recommend writing **Trademark notices** at the bottom of the page.
 - Before committing the changes and creating a pull request, we also recommend to:
