@@ -103,7 +103,7 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
 
 ```
   ---
-  title: ' '
+  title: " "
   ---
 
   # Title of the Guide
@@ -113,8 +113,8 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
   or
 
   | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
-  |--------------------|---------------------- |
-  | Last modified date | YYYY-MM-DD            |
+  | ------------------ | -------------------- |
+  | Last modified date | YYYY-MM-DD           |
 
   ## About
 
@@ -123,14 +123,16 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
   ## Prerequisites
 
   List all necessary prerequisites, such as:
-  * Software or hardware required.
-  * User permissions needed.
-  * Prior knowledge or skills.
+
+  - Software or hardware required.
+  - User permissions needed.
+  - Prior knowledge or skills.
 
   Example:
-  * Operating System: Linux (Windows/MacOS if applicable)
-  * Software: Git, Docker, etc.
-  * Access Level: Admin rights required, etc.
+
+  - Operating System: Linux (Windows/MacOS if applicable)
+  - Software: Git, Docker, etc.
+  - Access Level: Admin rights required, etc.
 
   ## Step-by-Step Instructions
 
@@ -139,8 +141,8 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
   Describe steps in detail. Use code blocks, tables, lists, and images as necessary.
   Highlight any important notes or warnings if applicable using markdown tips/warnings.
 
-  * Step 1
-  * Step 2
+  - Step 1
+  - Step 2
 
   **Example:**
   (Code block or output example)
@@ -150,8 +152,8 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
   Describe the next step in detail. Use code blocks, tables, lists, and images as necessary.
   Highlight any important notes or warnings if applicable.
 
-  * Step 1
-  * Step 2
+  - Step 1
+  - Step 2
 
   **Example:**
   (Code block or output example)
@@ -160,11 +162,12 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
 
   Provide links to external documentation, tutorials, or resources for further learning.
 
-  * Resource 1
-  * Resource 2
-  * Official Documentation
+  - Resource 1
+  - Resource 2
+  - Official Documentation
 
   ## Troubleshooting/Known Issues
+
   Include any common/known issues that users can face and how to resolve them.
 
   ### Issue 1: Description of issue.
@@ -197,12 +200,12 @@ When editing an existing page or writing a new one, we recommend you follow this
 - The top of the page should include meta data with the page title. It should match the file/page name and topic.
   ```
   ---
-  title: ' '
+  title: " "
   ---
   ```
 - If applicable (for example, when creating a new guide), fill out the form below and place it as a table at the top of the page right after the title.
   | Experience Level | ⭑⭑⭒⭒⭒ (Intermediate) |
-  |--------------------|---------------------- |
+  | ------------------ | -------------------- |
   | Last modified date | YYYY-MM-DD |
   - If possible, evaluate the level of skills and experience needed based on the target audience. Experience level options: Beginner, Intermediate, Advanced, Fluent and Proficient
   - Put the last modified or updated date below the experience level. The date format should go as **YYYY-MM-DD**.
