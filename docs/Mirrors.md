@@ -23,12 +23,12 @@ You can create a public AlmaLinux mirror in a few easy steps:
      yum -y update rsync
      ```
    - You can verify that you have the expected version of `rsync` and `xxhash` support as follows:
-     `shell
-$ rsync --version |grep xxhash
-xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
-`
-     :::
-2. Synchronize with the official AlmaLinux mirror via `rsync`:
+   ```shell
+   $ rsync --version |grep xxhash
+   xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
+   ```
+   :::
+1. Synchronize with the official AlmaLinux mirror via `rsync`:
 
    ```shell
    /usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
@@ -36,7 +36,7 @@ xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
 
    - The official tier0 rsync mirrors are in Atlanta, GA, USA; Seattle, WA, USA; Frankfurt, Germany, and Tokyo, Japan. We use geolocation-based DNS steering to send your traffic to the closest tier0 mirror.
 
-3. Create a cron task to sync it periodically (we recommend updating the
+1. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```shell
    0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"

@@ -41,18 +41,18 @@ The Foundation will reimburse at least the following expenses:
 
 #### 5.1 Travel
 
-5.1.1 Airfare & Rail & Bus
+##### 5.1.1 Airfare & Rail & Bus
 
 - Economy class tickets only, apart from cases of genuine need or of benefit to the Foundation agreed with the approver in advance. Upgrades are at the traveler's personal expense. Reasonable luggage and seating charges are permitted.
 - Use the most cost-effective and direct route.
 
-  5.1.2 Ground Transportation
+##### 5.1.2 Ground Transportation
 
 - Public transport, ride-shares, or taxis. To the extent a receipt is not available for public transportation, these expenses should be documented by screenshots or affidavits.
 - Personal car use (see 5.1.3 below for details).
 - Rental cars when more economical than other transport modes. Actual costs must be claimed and not mileage.
 
-  5.1.3 Personal Vehicle Use
+##### 5.1.3 Personal Vehicle Use
 
 - If traveling to a conference or event using a personal car, mileage will be reimbursed at the current IRS mileage rate (or equivalent local government rate for international travelers).
 - Mileage reimbursement covers fuel, wear and tear, and insurance costs.
