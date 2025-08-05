@@ -186,6 +186,7 @@ module.exports = {
       title: 'Documentation',
       children: [
         '/Comparison',
+        '/documentation/nvidia',
         '/FAQ',
         '/Howto',
         {
