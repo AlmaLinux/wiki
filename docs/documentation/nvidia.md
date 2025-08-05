@@ -8,7 +8,7 @@ After a [successful RFC approval by ALESCO](https://github.com/AlmaLinux/ALESCo/
 
 We build and ship drivers for AlmaLinux Kitten 10, AlmaLinux 10, and AlmaLinux 9.  At this time we do not build or ship drivers for AlmaLinux 8, and support for AlmaLinux 8 is not expected at this time.
 
-NVIDIA drivers are only available for x86_64 and aarch64 architectures (excluding AlmaLinux 10 x86_64_v2 builds for now).
+NVIDIA drivers are only available for x86_64 (including x86_64_v2 variants of 10) and aarch64 architectures.
 
 ## Installation of GPU Driver
 
@@ -71,10 +71,10 @@ Mon Jul 21 14:23:02 2025
 +-----------------------------------------------------------------------------------------+
 ```
 
-### Installation of CUDA Components
-#### CUDA SDK
+## Installation of CUDA Components
+### CUDA SDK
 `sudo dnf install cuda`
-#### GPUDirect Filesystems
+### GPUDirect Filesystems
 At this time NVIDIA GPUDirect components are not available.
 
 ## Common Problems
