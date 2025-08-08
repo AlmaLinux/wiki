@@ -7,9 +7,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
     "dayjs": "^1.11.13"
+  },
+  "resolutions": {
+    "stylus": "github:stylus/stylus#^0.54.8"
   }
 }
