@@ -8,7 +8,9 @@ After a [successful RFC approval by ALESCO](https://github.com/AlmaLinux/ALESCo/
 
 We build and ship drivers for AlmaLinux Kitten 10, AlmaLinux 10, and AlmaLinux 9.  At this time we do not build or ship drivers for AlmaLinux 8, and support for AlmaLinux 8 is not expected at this time.
 
-NVIDIA drivers are only available for x86_64 (including x86_64_v2 variants of 10) and aarch64 architectures.
+NVIDIA drivers are only available for x86_64 (excluding x86_64_v2 variants of 10*) and aarch64 architectures.
+
+_* We expect to ship x86_64_v2 support in the near future_
 
 ## Installation of GPU Driver
 
