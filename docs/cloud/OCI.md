@@ -14,19 +14,11 @@ All apps and services on the marketplace are offered by approved, registered, an
 
 The official AlmaLinux OS images are available on [Oracle Cloud Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/partners/125035508) at the links provided:
 
-
-<table align="center">
-    <tr>
-        <td align="center">AlmaLinux OS 8</td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125544666">x86_64</a></td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125567282">AArch64</a></td>
-    </tr>
-    <tr>
-        <td align="center">AlmaLinux OS 9</td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/127985411">x86_64</a></td>
-        <td align="center"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/listing/127985893">AArch64</a></td>
-    </tr>
-</table>
+|     |     |     |
+| --- | --- | --- |
+| AlmaLinux OS 8 | [x86_64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125544666) | [AArch64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/125567282) |
+| AlmaLinux OS 9 | [x86_64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/127985411) | [AArch64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/127985893) |
+| AlmaLinux OS 10 | [x86_64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/189119150) | [AArch64](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/189119919) |
 
 ### Oracle Cloud Infrastructure Console
 In the **Image and shape** section, choose the image and shape. For instance: in the Image section, click Change image. Then, select Partner images as an Image source from the list.

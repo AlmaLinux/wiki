@@ -22,6 +22,7 @@ The ELevate project supports a number of 3rd party repositories:
 * PostgreSQL - for all supported operating systems.
 * Imunify - for upgrades to EL 8.
 * KernelCare - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10
+* TuxCare - for all supported operating systems.
 
 :::tip
 You can add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.

@@ -1,6 +1,9 @@
 ---
 title: "Live Media"
 ---
+
+###### last modified: 2025-02-17
+
 # Live Media
 
 ## About Live Media
@@ -8,6 +11,11 @@ title: "Live Media"
 Live Media is a way to try AlmaLinux on your computer without installing it to the hard drive. You can run it from a USB or DVD to preview and for system rescue needs. Images support both BIOS and UEFI, including Secure Boot mode. 
 
 ## Live Media Options
+
+:::tip
+If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+:::
+
 There are a few AlmaLinux Live Media Options:
 
 * GNOME Mini: contains a core GNOME environment with Firefox browser
@@ -30,10 +38,11 @@ There are a few AlmaLinux Live Media Options:
 ## How to download and write images
 
 The first step is to download an AlmaLinux image:
-|     |     |     |
-| --- | --- | --- |
-| AlmaLinux 8 | [x86\_64](https://repo.almalinux.org/almalinux/8/live/x86_64/) | |
-| AlmaLinux 9 | [x86\_64](https://repo.almalinux.org/almalinux/9/live/x86_64/) | [aarch64](https://repo.almalinux.org/almalinux/9/live/aarch64/) |
+|     |     |     |     |
+| --- | --- | --- | --- |
+| AlmaLinux 8 | [x86\_64](https://repo.almalinux.org/almalinux/8/live/x86_64/) | | |
+| AlmaLinux 9 | [x86\_64](https://repo.almalinux.org/almalinux/9/live/x86_64/) | [aarch64](https://repo.almalinux.org/almalinux/9/live/aarch64/) | |
+| AlmaLinux 10 | [x86\_64](https://repo.almalinux.org/almalinux/10/live/x86_64/) | [x86\_64\_v2](https://repo.almalinux.org/almalinux/10/live/x86_64_v2/) | [aarch64](https://repo.almalinux.org/almalinux/10/live/aarch64/) |
 
 Then it all depends on what OS you use. 
 
