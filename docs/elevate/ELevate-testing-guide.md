@@ -474,6 +474,7 @@ sudo rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
 If the system has been progressively upgraded from CentOS 7, the following issues appear after the preupgrade check when upgrading AlmaLinux 9 to AlmaLinux 10 or AlmaLinux Kitten 10. The issues can be found in the generated `/var/log/leapp/leapp-report.txt` file.
 
 - "Deprecated DHCP plugin configured" inhibitor.
+
   - To mitigate the "Deprecated DHCP plugin configured" inhibitor, run:
 
     ```bash
@@ -490,6 +491,7 @@ If the system has been progressively upgraded from CentOS 7, the following issue
     ```
 
 - "dracut module 'network-legacy' cannot be found or installed." error.
+
   - To fix this issue delete the drop-in:
 
     ```bash

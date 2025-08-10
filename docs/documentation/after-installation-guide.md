@@ -112,6 +112,7 @@ You can get NVIDIA drivers in different ways:
 - [Install binary driver](/series/system/SystemSeriesA03)
 - [Compile driver source](/series/system/SystemSeriesA03)
 - Get them using RPM Fusion:
+
   - Enable the RPM Fusion repository by running the command:
 
     **For AlmaLinux 8:**

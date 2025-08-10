@@ -178,6 +178,7 @@ If the packages require additional action, fill in the file to add the informati
 
 - Add a new entry to the `packageinfo` array.
 - `action` - defines which of the following actions will be performed for your 3rd party vendor packages. Actions **1**, **3**, **4** and **5** are the most used ones.
+
   - `0` - present;
     - keep the packages in `in_packageset` to ensure the repo they reside in on the target system gets enabled.
   - `1` - removed;
@@ -335,6 +336,7 @@ If the packages require additional action, fill in the file to add the informati
 
   :::warning
   Additional notes and exceptions:
+
   - any event except `present` is ignored if any of the packages in `in_packageset` are marked for removal.
   - any event except `merged` is ignored if any of the packages in `in_packageset` are neither installed nor marked for installation.
   - for `merged` events it is sufficient to have at least one package from `in_packageset` either installed or marked for installation.

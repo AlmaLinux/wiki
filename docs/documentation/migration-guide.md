@@ -145,6 +145,7 @@ Convert your EL8 or EL9 system to AlmaLinux using CLI:
 - The [almalinux-deploy.sh](https://github.com/AlmaLinux/almalinux-deploy/blob/master/almalinux-deploy.sh) script is available on your system.
 
 - Run the script using one of the following methods:
+
   - If your AlmaLinux private local mirror is accessible via network, for example, at http://mirror.example.com/example-almalinux-mirror:
 
   ```
@@ -227,6 +228,7 @@ sudo bash almalinux-deploy.sh
 ```
 
 - Ensure that your system was successfully converted:
+
   - check the release file
 
   ```

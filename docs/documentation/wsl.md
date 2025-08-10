@@ -37,7 +37,7 @@ To start with, let's check what is the Windows build number:
 - Right-click on the Start menu and open PowerShell or Windows Command Prompt in administrator mode by selecting **"Run as administrator"**.
 - Install WSL without any specific Linux distribution. This command prepares your system to run Linux on Windows but doesn't yet set up the actual Linux environment.
 
-   
+
 
   ```
   wsl --install --no-distribution
@@ -124,6 +124,7 @@ The WSL format is a modern and recommended way of installation. The WSL version 
 ### Install AlmaLinux OS via the Microsoft App Store
 
 - Install the needed AlmaLinux OS app from the Microsoft Store:
+
   - [AlmaLinux OS 8](https://apps.microsoft.com/detail/9nmd96xjj19f)
   - [AlmaLinux OS 9](https://apps.microsoft.com/detail/9p5rwlm70sn9)
 

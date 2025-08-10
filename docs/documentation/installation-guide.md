@@ -23,6 +23,7 @@ This page provides a step-by-step guide to downloading the AlmaLinux ISO image, 
 AlmaLinux supports the following firmware interfaces and architectures.
 
 - **Firmware Interfaces:**
+
   - BIOS
   - UEFI
 
@@ -233,6 +234,7 @@ UEFI or Bios is never mentioned again during the installation instructions. Remo
 - Insert and boot the USB installation meda and you will be presented with the AlmaLinux welcome menu:
 
   ![image](/images/installation-guide-welcome-menu.png)
+
   - The recommended option _Test this media & install AlmaLinux 9.1_ is automatically highlighted. Choosing this option will run the installation media check to verify that it's usable and the installation can continue. After the media check completes successfully, the anaconda installer will start automatically.
     :::tip
     Selecting _Install AlmaLinux 9.x_. will skip checking the installation media and boot straight to the anaconda installer.
@@ -281,6 +283,7 @@ This section allows you to add the installation source and additional repositori
 Select **Done** to complete the configuration of this section.
 
 - _Software Selection_ - this section contains two fields:
+
   - _Base Environment_ - this field allows you to select the base packages for the installation based six pre-built definitions.
     - Server with GUI
     - Server
@@ -327,6 +330,7 @@ This section allows you to customize the installation to the requirements of you
   Select **Done** to complete the configuration of this section.
 
 - _Security Profile_ - no profile is chosen by default, as applying a security policy is not necessary. The applied security policy will be installed in the system using the compliance policies defined by SCAP. You can choose one of the available security profiles:
+
   - ANSSI-BP-028 (enhanced)
   - ANSSI-BP-028 (high)
   - ANSSI-BP-028 (intermediary)

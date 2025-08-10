@@ -51,6 +51,7 @@ All the boxes have been migrated to the [HCP Vagrant Registry](https://portal.cl
 #### Provider specific changes:
 
 - virtualbox
+
   - Built in VirtualBox 7.1.4, with Guest Additions included in the same version.
 
 - vmware_desktop

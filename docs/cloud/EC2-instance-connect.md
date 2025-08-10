@@ -50,6 +50,7 @@ To be able to connect to an AlmaLinux OS instance using the EC2 Instance Connect
 
 - In EC2 Console navigate to **"IAM -> Policies -> Create policy"**.
 - Select Policy editor as JSON and paste the relevant policy contents:
+
   - Policy to enable EC2 Instance Connect by tag: `ec2_instance_connect_policy_by_tag.json`.
 
     ```json
@@ -77,6 +78,7 @@ To be able to connect to an AlmaLinux OS instance using the EC2 Instance Connect
     ```
 
     Replace these variables with yours:
+
     - `$REGION`: AWS Region of instances you want to connect (for example,`us-east-1`) or `*` to apply to all regions.
     - `$ACCOUNT-ID`: ID of AWS account or `*` to apply to all accounts.
     - `$TAGKEY`: Key of the resource tag, for example, `Foo`
@@ -124,10 +126,12 @@ To be able to connect to an AlmaLinux OS instance using the EC2 Instance Connect
   ```
 
   Replace these variables with your data:
+
   - `$POLICY_NAME`: Name of policy, `ec2_instance_connect_policy_by_instance-id` or `ec2_instance_connect_policy_by_tag`
   - `$POLICY_FILE:`: Policy file in JSON `ec2_instance_connect_policy_by_instance-id.json` or `ec2_instance_connect_policy_by_tag.json`
 
 - Put relevant policy contents:
+
   - Policy to enable EC2 Instance Connect by tag: `ec2_instance_connect_policy_by_tag.json`.
 
     ```json
@@ -155,6 +159,7 @@ To be able to connect to an AlmaLinux OS instance using the EC2 Instance Connect
     ```
 
     Replace these variables with yours:
+
     - `$REGION`: AWS Region of instances you want to connect (for example,`us-east-1`) or `*` to apply to all regions.
     - `$ACCOUNT-ID`: ID of AWS account or `*` to apply to all accounts.
     - `$TAGKEY`: Key of the resource tag, for example, `Foo`
