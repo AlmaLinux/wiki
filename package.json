@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "prepare": "husky install"
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "vuepress": "^1.9.10"
@@ -15,8 +14,5 @@
   },
   "resolutions": {
     "stylus": "github:stylus/stylus#^0.54.8"
-  },
-  "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
   }
 }
