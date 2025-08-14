@@ -11,14 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - uses: actions/setup-node@v4
-      - run: |
-          yarn
-          yarn prettier . --write
-      - uses: autofix-ci/action@v1
-        with:
-          commit-message: "Apply Prettier format"
-
       - name: Build and Deploy
         uses: IT4Change/vuepress-build-and-deploy@master
         env:
