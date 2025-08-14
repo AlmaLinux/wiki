@@ -1,5 +1,5 @@
 ---
-title: 'Kitten 10'
+title: "Kitten 10"
 ---
 
 ###### last updated: 2025-01-06
@@ -9,11 +9,12 @@ title: 'Kitten 10'
 ###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
 
 These are the release notes for AlmaLinux OS Kitten 10 for all supported architectures:
-* x86_64
-* x86_64_v2
-* aarch64
-* ppc64le
-* s390x 
+
+- x86_64
+- x86_64_v2
+- aarch64
+- ppc64le
+- s390x
 
 Codename: Lion Cub.
 
@@ -31,85 +32,84 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
 
 ## Changelog
 
-* AlmaLinux OS Kitten 10 packages and repositories are signed with [the new GPG key](https://kitten.repo.almalinux.org/RPM-GPG-KEY-AlmaLinux-10).
-* Starting with AlmaLinux OS Kitten 10 version a new architecture was added - x86_64_v2.
-* Starting with AlmaLinux OS Kitten 10 version there are no longer 32-bit (i686 architecture) packages.
-* AlmaLinux OS Kitten 10 has its own primary mirror URLs:
-    * [kitten.repo.almalinux.org](https://kitten.repo.almalinux.org)
-    * [kitten.vault.almalinux.org](https://kitten.vault.almalinux.org)
-* AlmaLinux OS Kitten 10 ISOs will be renewed and released with the latest updates quarterly.
-* Re-enabled Frame Pointers.<br>
+- AlmaLinux OS Kitten 10 packages and repositories are signed with [the new GPG key](https://kitten.repo.almalinux.org/RPM-GPG-KEY-AlmaLinux-10).
+- Starting with AlmaLinux OS Kitten 10 version a new architecture was added - x86_64_v2.
+- Starting with AlmaLinux OS Kitten 10 version there are no longer 32-bit (i686 architecture) packages.
+- AlmaLinux OS Kitten 10 has its own primary mirror URLs:
+  - [kitten.repo.almalinux.org](https://kitten.repo.almalinux.org)
+  - [kitten.vault.almalinux.org](https://kitten.vault.almalinux.org)
+- AlmaLinux OS Kitten 10 ISOs will be renewed and released with the latest updates quarterly.
+- Re-enabled Frame Pointers.<br>
   Red Hat Enterprise Linux and CentOS Stream disable frame pointers by default, but with AlmaLinux OS Kitten 10, we are re-enabling them. This enables system-wide real-time tracing and profiling for optimizing the performance of any workload running on AlmaLinux OS.
-* SPICE support.<br>
+- SPICE support.<br>
   Simple Protocol for Independent Computing Environments (SPICE) has been unsupported since RHEL 9.0. We added support back in, so SPICE support is fully re-enabled for both server and client applications.
-* KVM for IBM POWER.<br>
+- KVM for IBM POWER.<br>
   KVM for IBM POWER has also been unsupported since RHEL 9.0. We enable it in the AlmaLinux OS Kitten 10 virtualization stack, so it’s possible to continue using KVM.
 
-* Compilers and Programming Languages:
-    * GCC 14.2
-    * Rust 1.82
-    * Perl 5.40
-    * PHP 8.3
+- Compilers and Programming Languages:
+  - GCC 14.2
+  - Rust 1.82
+  - Perl 5.40
+  - PHP 8.3
 
-* Build and Development Tools:
-    * CMake 3.30
-    * Bash 5.2
-    * LLVM-toolset 19.1
+- Build and Development Tools:
+  - CMake 3.30
+  - Bash 5.2
+  - LLVM-toolset 19.1
 
-* System Libraries and Core Components:
-    * glibc 2.39
-    * binutils 2.41
+- System Libraries and Core Components:
+  - glibc 2.39
+  - binutils 2.41
 
-* Installation and Configuration:
-    * Anaconda 40.22
-    * Systemd 256
-    * Crypto-policies 20241128
-    * SELinux-policy 40.13
+- Installation and Configuration:
+  - Anaconda 40.22
+  - Systemd 256
+  - Crypto-policies 20241128
+  - SELinux-policy 40.13
 
-* Web Servers and Application Servers:
-    * Apache HTTP Server 2.4.62
-    * Nginx 1.26
+- Web Servers and Application Servers:
+  - Apache HTTP Server 2.4.62
+  - Nginx 1.26
 
-* Databases and Caching:
-    * MySQL 8.4
-    * Redis 7.2
+- Databases and Caching:
+  - MySQL 8.4
+  - Redis 7.2
 
-* Monitoring and Analytics:
-    * Grafana 10.2
-    * PCP 6.3
+- Monitoring and Analytics:
+  - Grafana 10.2
+  - PCP 6.3
 
-* Networking and Routing:
-    * FRR 10.1
+- Networking and Routing:
+  - FRR 10.1
 
-* Virtualization and Kernel:
-    * QEMU-KVM 9.1
-    * Kernel 6.12
-    * Kexec-tools 2.0.29
+- Virtualization and Kernel:
+  - QEMU-KVM 9.1
+  - Kernel 6.12
+  - Kexec-tools 2.0.29
 
-* Security Tools:
-    * OpenSCAP 1.4
-    * OpenSSH 9.9
+- Security Tools:
+  - OpenSCAP 1.4
+  - OpenSSH 9.9
 
-* Package Management:
-    * DNF 4.20
-    * RPM 4.19
+- Package Management:
+  - DNF 4.20
+  - RPM 4.19
 
-* Graphical User Interface:
-    * Qt6 6.8
-    
-* The following device drivers were modified to re-add PCI IDs for hardware that was previously disabled in our upstream:
-    * **aacraid** -  Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI 
-    * **be2iscsi** - Emulex OneConnectOpen-iSCSI for BladeEngine 2 and 3 adapters 
-    * **be2net** - Emulex BladeEngine 2 and 3 adapters *
-    * **hpsa** - HP Smart Array Controller 
-    * **lpfc** - Emulex LightPulse Fibre Channel SCSI 
-    * **megaraid_sas** - Broadcom MegaRAID SAS 
-    * **mlx4_core** - Mellanox Gen2, ConnectX-2, ConnectX-3 adapters
-    * **mpt3sas** - LSI MPT Fusion SAS 3.0 
-    * **mptsas** - Fusion MPT SAS Host 
-    * **qla2xxx** - QLogic Fibre Channel HBA 
-    * **qla4xxx** - QLogic iSCSI HBA 
-  
+- Graphical User Interface:
+  - Qt6 6.8
+- The following device drivers were modified to re-add PCI IDs for hardware that was previously disabled in our upstream:
+  - **aacraid** - Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI
+  - **be2iscsi** - Emulex OneConnectOpen-iSCSI for BladeEngine 2 and 3 adapters
+  - **be2net** - Emulex BladeEngine 2 and 3 adapters \*
+  - **hpsa** - HP Smart Array Controller
+  - **lpfc** - Emulex LightPulse Fibre Channel SCSI
+  - **megaraid_sas** - Broadcom MegaRAID SAS
+  - **mlx4_core** - Mellanox Gen2, ConnectX-2, ConnectX-3 adapters
+  - **mpt3sas** - LSI MPT Fusion SAS 3.0
+  - **mptsas** - Fusion MPT SAS Host
+  - **qla2xxx** - QLogic Fibre Channel HBA
+  - **qla4xxx** - QLogic iSCSI HBA
+
   For a complete list of hardware support for which was added in this release, see the [Extended hardware support](#extended-hardware-support) section.
 
 ## Installation instructions
@@ -154,7 +154,7 @@ Verify the downloaded ISO image checksum:
 
 ```bash
 # calculate the downloaded ISO SHA256 checksum
-$ sha256sum AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso 
+$ sha256sum AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso
 608bd2ab27ade8d2a41ee6869fd5f7f80458bbb1b8bc0fcd5bf65bbcf2889e2a  AlmaLinux-Kitten-10-20241227.0-x86_64-boot.iso
 
 # compare it with expected checksum, it should be the same
@@ -170,16 +170,16 @@ There are no extra Installation Sources required if you decided to go with eithe
 
 Here is a list of packages that are AlmaLinux OS-specific, and will not be found in compatible versions of CentOS Stream.
 
-| Package | Description |
-| --- | --- |
-| almalinux-backgrounds | AlmaLinux OS background images.<br/>Replaces `redhat-backgrounds` |
-| almalinux-indexhtml | AlmaLinux OS default browser page<br/>Replaces `redhat-indexhtml` |
-| almalinux-logos | AlmaLinux OS graphics for OS<br/>Replaces `redhat-logos` |
-| almalinux-logos-httpd | AlmaLinux OS graphics for HTTPD server<br/>Replaces `redhat-logos-httpd` |
-| almalinux-logos-ipa | AlmaLinux OS graphics for IPA server<br/>Replaces `redhat-logos-ipa` |
+| Package                  | Description                                                                                           |
+| ------------------------ | ----------------------------------------------------------------------------------------------------- |
+| almalinux-backgrounds    | AlmaLinux OS background images.<br/>Replaces `redhat-backgrounds`                                     |
+| almalinux-indexhtml      | AlmaLinux OS default browser page<br/>Replaces `redhat-indexhtml`                                     |
+| almalinux-logos          | AlmaLinux OS graphics for OS<br/>Replaces `redhat-logos`                                              |
+| almalinux-logos-httpd    | AlmaLinux OS graphics for HTTPD server<br/>Replaces `redhat-logos-httpd`                              |
+| almalinux-logos-ipa      | AlmaLinux OS graphics for IPA server<br/>Replaces `redhat-logos-ipa`                                  |
 | almalinux-kitten-release | AlmaLinux OS release package, repos, and EULA<br/>Replaces `redhat-release` and `redhat-release-eula` |
-| firefox | Open-source web browser developed by Mozilla|
-| thunderbird | Open-source email client developed by Mozilla |
+| firefox                  | Open-source web browser developed by Mozilla                                                          |
+| thunderbird              | Open-source email client developed by Mozilla                                                         |
 
 ## Removed packages
 
@@ -187,203 +187,203 @@ Here is a list of packages you will not find in AlmaLinux when comparing with th
 
 AlmaLinux OS is a community distribution so all changes are subject to discussion. If you would like to do so, please join [AlmaLinux Chat](https://chat.almalinux.org/almalinux/channels/engineeringpackaging) as well as filing a bug report at [AlmaLinux Bug Tracker](https://bugs.almalinux.org) to discuss if you think any of the packages below should be included into the repos.
 
-| Package | Description |
-| --- | --- |
-| centos-indexhtml | CentOS Stream specific default browser page | 
-| centos-backgrounds | CentOS Stream specific background images | 
-| centos-logos | CentOS Stream specific graphics for OS|
-| centos-logos-httpd | CentOS Stream specific graphics for HTTPD server|
-| centos-logos-ipa | CentOS Stream graphics for IPA server |
-| insights-client | CentOS Stream specific package to connect to upstream vendor resource |
-| insights-client-ros | CentOS Stream specific plugin for the Insights client |
-| rhc | CentOS Stream specific package to connect to upstream vendor resources |
-| rhc-worker-playbook | CentOS Stream package to connect to upstream vendor resources |
-| virt-who | CentOS Stream specific package to connect to upstream vendor resources |
-| centos-gpg-keys | CentOS Stream specific package to provide the GPG keys |
-| centos-stream-release | CentOS Stream specific release package |
-| centos-stream-repos | CentOS Stream repos |
-| kpatch | CentOS Stream specific live patches for kernel |
-| kpatch-dnf | CentOS Stream specific kpatch tool integrated with DNF |
-| rhsm-icons | CentOS Stream specific GUI for Subscription Manager |
-| subscription-manager-cockpit | CentOS Stream specific Cockpit module for Subscription Manager |
+| Package                      | Description                                                            |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| centos-indexhtml             | CentOS Stream specific default browser page                            |
+| centos-backgrounds           | CentOS Stream specific background images                               |
+| centos-logos                 | CentOS Stream specific graphics for OS                                 |
+| centos-logos-httpd           | CentOS Stream specific graphics for HTTPD server                       |
+| centos-logos-ipa             | CentOS Stream graphics for IPA server                                  |
+| insights-client              | CentOS Stream specific package to connect to upstream vendor resource  |
+| insights-client-ros          | CentOS Stream specific plugin for the Insights client                  |
+| rhc                          | CentOS Stream specific package to connect to upstream vendor resources |
+| rhc-worker-playbook          | CentOS Stream package to connect to upstream vendor resources          |
+| virt-who                     | CentOS Stream specific package to connect to upstream vendor resources |
+| centos-gpg-keys              | CentOS Stream specific package to provide the GPG keys                 |
+| centos-stream-release        | CentOS Stream specific release package                                 |
+| centos-stream-repos          | CentOS Stream repos                                                    |
+| kpatch                       | CentOS Stream specific live patches for kernel                         |
+| kpatch-dnf                   | CentOS Stream specific kpatch tool integrated with DNF                 |
+| rhsm-icons                   | CentOS Stream specific GUI for Subscription Manager                    |
+| subscription-manager-cockpit | CentOS Stream specific Cockpit module for Subscription Manager         |
 
 ## Extended hardware support
 
 The following devices support is added in AlmaLinux OS Kitten 10 release compared with the CentOS Stream/RHEL:
 
-| Device PCI ID | Device name | Driver name |
-| --- | --- | --- |
-| 0x0E11:*:*: \*:01:04  | Compaq | hpsa |
-| 0x1000:0x0050 | LSI SAS1064 | mptsas |
-| 0x1000:0x0054 | LSI SAS1068 | mptsas |
-| 0x1000:0x0056 | LSI SAS1064E | mptsas |
-| 0x1000:0x0058 | LSI SAS1068E | mptsas |
-| 0x1000:0x0059 | LSI SAS1068_820XELP | mptsas |
-| 0x1000:0x0060 | LSI MegaRAID SAS1078R | megaraid_sas |
-| 0x1000:0x0062 | LSI SAS1078 | mptsas |
-| 0x1000:0x0064 | LSI SAS2116_1 | mpt3sas |
-| 0x1000:0x0065 | LSI SAS2116_2 | mpt3sas |
-| 0x1000:0x0070 | LSI SAS2004 | mpt3sas |
-| 0x1000:0x0072 | LSI SAS2008 | mpt3sas |
-| 0x1000:0x0074 | LSI SAS2108_1 | mpt3sas |
-| 0x1000:0x0076 | LSI SAS2108_2 | mpt3sas |
-| 0x1000:0x0077 | LSI SAS2108_3 | mpt3sas |
-| 0x1000:0x0078 | LSI MegaRAID SAS1078 Gen2 | megaraid_sas |
-| 0x1000:0x007C | LSI MegaRAID SAS1078DE | megaraid_sas |
-| 0x1000:0x007E | LSI SSS6200 | mpt3sas |
-| 0x1000:0x0411 | LSI MegaRAID SAS1064R | megaraid_sas |
-| 0x1000:0x0413 | LSI MegaRAID SAS1068 Verde ZCR | megaraid_sas |
-| 0x1011:0x0046:0x103C:0x10C2 | HP NetRAID-4M | aacraid |
-| 0x1011:0x0046:0x9005:0x0364 | Adaptec 5400S (Mustang) | aacraid |
-| 0x1011:0x0046:0x9005:0x0365 | Adaptec 5400S (Mustang) | aacraid |
-| 0x1011:0x0046:0x9005:0x1364 | Dell PERC 2/QC | aacraid |
-| 0x1028:0x0001:0x1028:0x0001 | DELL PERC 2/Si (Iguana) | aacraid |
-| 0x1028:0x0002:0x1028:0x0002 | DELL PERC 3/Di (Opal) | aacraid |
-| 0x1028:0x0002:0x1028:0x00D1 | DELL PERC 3/Di (Viper) | aacraid |
-| 0x1028:0x0002:0x1028:0x00D9 | DELL PERC 3/Di (Lexus) | aacraid |
-| 0x1028:0x0003:0x1028:0x0003 | DELL PERC 3/Si (SlimFast) | aacraid |
-| 0x1028:0x0004:0x1028:0x00D0 | DELL PERC 3/Di (Iguana FlipChip) | aacraid |
-| 0x1028:0x000A:0x1028:0x0106 | DELL PERC 3/Di (Jaguar) | aacraid |
-| 0x1028:0x000A:0x1028:0x011B | DELL PERC 3/Di (Dagger) | aacraid |
-| 0x1028:0x000A:0x1028:0x0121 | DELL PERC 3/Di (Boxster) | aacraid |
-| 0x1028:0x0015 | Dell PERC5 | megaraid_sas |
-| 0x103C::: \*:01:04 | HP | hpsa |
-| 0x1077:0x2100 | QLogic ISP2100 | qla2xxx |
-| 0x1077:0x2200 | QLogic ISP2200 | qla2xxx |
-| 0x1077:0x2300 | QLogic ISP2300 | qla2xxx |
-| 0x1077:0x2312 | QLogic ISP2312 | qla2xxx |
-| 0x1077:0x2322 | QLogic ISP2322 | qla2xxx |
-| 0x1077:0x2422 | QLogic ISP2422 | qla2xxx |
-| 0x1077:0x2432 | QLogic ISP2432 | qla2xxx |
-| 0x1077:0x5422 | QLogic ISP5422 | qla2xxx |
-| 0x1077:0x5432 | QLogic ISP5432 / QLE220 | qla2xxx |
-| 0x1077:0x6312 | QLogic ISP6312 | qla2xxx |
-| 0x1077:0x6322 | QLogic ISP6322 | qla2xxx |
-| 0x1077:0x8001 | QLogic ISP8001 / QLE81xx | qla2xxx |
-| 0x1077:0x8021 | QLogic ISP8021 / QLE82xx | qla2xxx |
-| 0x1077:0x8022 | QLogic ISP8022 | qla4xxx |
-| 0x1077:0x8032 | QLogic ISP8324 | qla4xxx |
-| 0x1077:0x8042 | QLogic ISP8042 | qla4xxx |
-| 0x1077:0x8044 | QLogic ISP8044 / QLE84xx | qla2xxx |
-| 0x1077:0x8432 | QLogic ISP8432 / QLE8000 | qla2xxx |
-| 0x1077:0xF001 | QLogic ISPF001 / QLE10000 | qla2xxx |
-| 0x10DF:0x1AE5 | FIREFLY  | lpfc |
-| 0x10DF:0xE100 | PROTEUS VF | lpfc |
-| 0x10DF:0xE131 | BALIUS | lpfc |
-| 0x10DF:0xE180 | PROTEUS PF | lpfc |
-| 0x10DF:0xE208 | LANCER_FC_VF | lpfc |
-| 0x10DF:0xE260 | Emulex OneConnect OCe15102-FM/OCe15104-FM/OCm15108-F-P | lpfc |
-| 0x10DF:0xE268 | LANCER_FCOE_VF | lpfc |
-| 0x10DF:0xF095 | RFLY | lpfc |
-| 0x10DF:0xF098 | PFLY | lpfc |
-| 0x10DF:0xF0A1 | LP101 | lpfc |
-| 0x10DF:0xF0A5 | TFLY | lpfc |
-| 0x10DF:0xF0D1 | BSMB | lpfc |
-| 0x10DF:0xF0F5 | NEPTUNE | lpfc |
-| 0x10DF:0xF0F6 | NEPTUNE SCSP | lpfc |
-| 0x10DF:0xF0F7 | NEPTUNE DCSP | lpfc |
-| 0x10DF:0xF700 | SUPERFLY | lpfc |
-| 0x10DF:0xF800 | DRAGONFLY | lpfc |
-| 0x10DF:0xF900 | CENTAUR | lpfc |
-| 0x10DF:0xF980 | PEGASUS | lpfc |
-| 0x10DF:0xFA00 | THOR | lpfc |
-| 0x10DF:0xFB00 | VIPER | lpfc |
-| 0x10DF:0xFC00 | LP10000S | lpfc |
-| 0x10DF:0xFC10 | LP11000S | lpfc |
-| 0x10DF:0xFC20 | LPE11000S | lpfc |
-| 0x10DF:0xFC50 | PROTEUS S | lpfc |
-| 0x10DF:0xFD00 | HELIOS | lpfc |
-| 0x10DF:0xFD11 | HELIOS SCSP | lpfc |
-| 0x10DF:0xFD12 | HELIOS DCSP | lpfc |
-| 0x15B3:0x1002 | Mellanox MT25400 Family [ConnectX-2 Virtual Function] | mlx4_core |
-| 0x15B3:0x1003 | Mellanox MT27500 Family [ConnectX-3] | mlx4_core |
-| 0x15B3:0x1004 | Mellanox MT27500 Family [ConnectX-3 Virtual Function] | mlx4_core |
-| 0x15B3:0x1005 | Mellanox MT27510 Family [ConnectX-3] | mlx4_core |
-| 0x15B3:0x1006 | Mellanox MT27511 Family [ConnectX-3] | mlx4_core |
-| 0x15B3:0x1007 | Mellanox MT27520 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x1008 | Mellanox MT27521 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x1009 | Mellanox MT27530 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x100A | Mellanox MT27531 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x100B | Mellanox MT27540 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x100C | Mellanox MT27541 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x100D | Mellanox MT27550 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x100E | Mellanox MT27551 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x100F | Mellanox MT27560 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x1010 | Mellanox MT27561 Family [ConnectX-3 Pro] | mlx4_core |
-| 0x15B3:0x6340 | Mellanox MT25408A0-FCC-SI ConnectX | mlx4_core |
-| 0x15B3:0x634A | Mellanox MT25408A0-FCC-DI ConnectX | mlx4_core |
-| 0x15B3:0x6354 | Mellanox MT25408 Hermon QDR | mlx4_core |
-| 0x15B3:0x6368 | Mellanox MT25448 ConnectX | mlx4_core |
-| 0x15B3:0x6372 | Mellanox MT25458 ConnectX | mlx4_core |
-| 0x15B3:0x6732 | Mellanox MT25408A0-FCC-GI ConnectX | mlx4_core |
-| 0x15B3:0x673C | Mellanox MT25408A0-FCC-QI ConnectX | mlx4_core |
-| 0x15B3:0x6746 | Mellanox MT26438 ConnectX | mlx4_core |
-| 0x15B3:0x6750 | Mellanox MT26448 ConnectX | mlx4_core |
-| 0x15B3:0x675A | Mellanox MT26458 ConnectX | mlx4_core |
-| 0x15B3:0x6764 | Mellanox MT26468 ConnectX | mlx4_core |
-| 0x15B3:0x676E | Mellanox MT26478 ConnectX | mlx4_core |
-| 0x19A2:0x0211 | Emulex BladeEngine 2 Network Adapter | be2net * |
-| 0x19A2:0x0212 | Emulex BladeEngine 2 10Gb iSCSI Initiator | be2iscsi |
-| 0x19A2:0x0221 | Emulex BladeEngine 3 Network Adapter | be2net * |
-| 0x19A2:0x0222 | Emulex BladeEngine 3 iSCSI | be2iscsi |
-| 0x19A2:0x0700 | Emulex OneConnect Tigershark NIC | be2net * |
-| 0x19A2:0x0702 | Emulex OneConnect OCe10101/OCm10101/OCe10102/OCm10102 | be2iscsi |
-| 0x19A2:0x0703 | Emulex OneConnect OCe10100 | be2iscsi |
-| 0x19A2:0x0704 | Emulex OneConnect Tigershark FCoE | lpfc |
-| 0x19A2:0x0710 | Emulex OneConnect Tomcat NIC | be2net * |
-| 0x19A2:0x0712 | Emulex OneConnect Tomcat iSCSI | be2iscsi |
-| 0x19A2:0x0714 | Emulex OneConnect Tomcat FCoE | lpfc |
-| 0x9005:0x0200:0x9005:0x0200 | Themisto Jupiter Platform | aacraid |
-| 0x9005:0x0283:0x9005:0x0283 | Catapult | aacraid |
-| 0x9005:0x0284:0x9005:0x0284 | Tomcat | aacraid |
-| 0x9005:0x0285 | Adaptec Catch All | aacraid |
-| 0x9005:0x0285:0x1014:0x02F2 | IBM 8i (AvonPark) | aacraid |
-| 0x9005:0x0285:0x1014:0x0312 | IBM 8i (AvonPark Lite) | aacraid |
-| 0x9005:0x0285:0x1028 | Dell Catchall | aacraid |
-| 0x9005:0x0285:0x1028:0x0287 | Perc 320/DC | aacraid |
-| 0x9005:0x0285:0x1028:0x0291 | CERC SATA RAID 2 PCI SATA 6ch (DellCorsair) | aacraid |
-| 0x9005:0x0285:0x103C:0x3227 | AAR-2610SA PCI SATA 6ch | aacraid |
-| 0x9005:0x0285:0x17AA | Legend Catchall | aacraid |
-| 0x9005:0x0285:0x17AA:0x0286 | Legend S220 (Legend Crusader) | aacraid |
-| 0x9005:0x0285:0x17AA:0x0287 | Legend S230 (Legend Vulcan) | aacraid |
-| 0x9005:0x0285:0x9005:0x0285 | Adaptec 2200S (Vulcan) | aacraid |
-| 0x9005:0x0285:0x9005:0x0286 | Adaptec 2120S (Crusader) | aacraid |
-| 0x9005:0x0285:0x9005:0x0287 | Adaptec 2200S (Vulcan-2m) | aacraid |
-| 0x9005:0x0285:0x9005:0x0288 | Adaptec 3230S (Harrier) | aacraid |
-| 0x9005:0x0285:0x9005:0x0289 | Adaptec 3240S (Tornado) | aacraid |
-| 0x9005:0x0285:0x9005:0x028A | ASR-2020ZCR SCSI PCI-X ZCR (Skyhawk) | aacraid |
-| 0x9005:0x0285:0x9005:0x028B | ASR-2025ZCR SCSI SO-DIMM PCI-X ZCR (Terminator) | aacraid |
-| 0x9005:0x0285:0x9005:0x028E | ASR-2020SA SATA PCI-X ZCR (Skyhawk) | aacraid |
-| 0x9005:0x0285:0x9005:0x028F | ASR-2025SA SATA SO-DIMM PCI-X ZCR (Terminator) | aacraid |
-| 0x9005:0x0285:0x9005:0x0290 | AAR-2410SA PCI SATA 4ch (Jaguar II) | aacraid |
-| 0x9005:0x0285:0x9005:0x0292 | AAR-2810SA PCI SATA 8ch (Corsair-8) | aacraid |
-| 0x9005:0x0285:0x9005:0x0293 | AAR-21610SA PCI SATA 16ch (Corsair-16) | aacraid |
-| 0x9005:0x0285:0x9005:0x0294 | ESD SO-DIMM PCI-X SATA ZCR (Prowler) | aacraid |
-| 0x9005:0x0285:0x9005:0x0296 | ASR-2240S (SabreExpress) | aacraid |
-| 0x9005:0x0285:0x9005:0x0297 | ASR-4005 | aacraid |
-| 0x9005:0x0285:0x9005:0x0298 | ASR-4000 (BlackBird) | aacraid |
-| 0x9005:0x0285:0x9005:0x0299 | ASR-4800SAS (Marauder-X) | aacraid |
-| 0x9005:0x0285:0x9005:0x029A | ASR-4805SAS (Marauder-E) | aacraid |
-| 0x9005:0x0285:0x9005:0x02A4 | ICP9085LI (Marauder-X) | aacraid |
-| 0x9005:0x0285:0x9005:0x02A5 | ICP5085BR (Marauder-E) | aacraid |
-| 0x9005:0x0286 | Adaptec Rocket Catch All | aacraid |
-| 0x9005:0x0286:0x1014:0x9540 | IBM 8k/8k-l4 (Aurora Lite) | aacraid |
-| 0x9005:0x0286:0x1014:0x9580 | IBM 8k/8k-l8 (Aurora) | aacraid |
-| 0x9005:0x0286:0x9005:0x028C | ASR-2230S/ASR-2230SLP PCI-X (Lancer) | aacraid |
-| 0x9005:0x0286:0x9005:0x028D | ASR-2130S (Lancer) | aacraid |
-| 0x9005:0x0286:0x9005:0x029B | AAR-2820SA (Intruder) | aacraid |
-| 0x9005:0x0286:0x9005:0x029C | AAR-2620SA (Intruder) | aacraid |
-| 0x9005:0x0286:0x9005:0x029D | AAR-2420SA (Intruder) | aacraid |
-| 0x9005:0x0286:0x9005:0x029E | ICP9024RO (Lancer) | aacraid |
-| 0x9005:0x0286:0x9005:0x029F | ICP9014RO (Lancer) | aacraid |
-| 0x9005:0x0286:0x9005:0x02A0 | ICP9047MA (Lancer) | aacraid |
-| 0x9005:0x0286:0x9005:0x02A1 | ICP9087MA (Lancer) | aacraid |
-| 0x9005:0x0286:0x9005:0x02A2 | ASR-3800 (Hurricane44) | aacraid |
-| 0x9005:0x0286:0x9005:0x02A3 | ICP5445AU (Hurricane44) | aacraid |
-| 0x9005:0x0286:0x9005:0x02A6 | ICP9067MA (Intruder-6) | aacraid |
-| 0x9005:0x0286:0x9005:0x0800 | Callisto Jupiter Platform | aacraid |
-| 0x9005:0x0287:0x9005:0x0800 | Themisto Jupiter Platform | aacraid |
-| 0x9005:0x0288 | Adaptec NEMER/ARK Catch All | aacraid |
+| Device PCI ID               | Device name                                            | Driver name  |
+| --------------------------- | ------------------------------------------------------ | ------------ |
+| 0x0E11:_:_: \*:01:04        | Compaq                                                 | hpsa         |
+| 0x1000:0x0050               | LSI SAS1064                                            | mptsas       |
+| 0x1000:0x0054               | LSI SAS1068                                            | mptsas       |
+| 0x1000:0x0056               | LSI SAS1064E                                           | mptsas       |
+| 0x1000:0x0058               | LSI SAS1068E                                           | mptsas       |
+| 0x1000:0x0059               | LSI SAS1068_820XELP                                    | mptsas       |
+| 0x1000:0x0060               | LSI MegaRAID SAS1078R                                  | megaraid_sas |
+| 0x1000:0x0062               | LSI SAS1078                                            | mptsas       |
+| 0x1000:0x0064               | LSI SAS2116_1                                          | mpt3sas      |
+| 0x1000:0x0065               | LSI SAS2116_2                                          | mpt3sas      |
+| 0x1000:0x0070               | LSI SAS2004                                            | mpt3sas      |
+| 0x1000:0x0072               | LSI SAS2008                                            | mpt3sas      |
+| 0x1000:0x0074               | LSI SAS2108_1                                          | mpt3sas      |
+| 0x1000:0x0076               | LSI SAS2108_2                                          | mpt3sas      |
+| 0x1000:0x0077               | LSI SAS2108_3                                          | mpt3sas      |
+| 0x1000:0x0078               | LSI MegaRAID SAS1078 Gen2                              | megaraid_sas |
+| 0x1000:0x007C               | LSI MegaRAID SAS1078DE                                 | megaraid_sas |
+| 0x1000:0x007E               | LSI SSS6200                                            | mpt3sas      |
+| 0x1000:0x0411               | LSI MegaRAID SAS1064R                                  | megaraid_sas |
+| 0x1000:0x0413               | LSI MegaRAID SAS1068 Verde ZCR                         | megaraid_sas |
+| 0x1011:0x0046:0x103C:0x10C2 | HP NetRAID-4M                                          | aacraid      |
+| 0x1011:0x0046:0x9005:0x0364 | Adaptec 5400S (Mustang)                                | aacraid      |
+| 0x1011:0x0046:0x9005:0x0365 | Adaptec 5400S (Mustang)                                | aacraid      |
+| 0x1011:0x0046:0x9005:0x1364 | Dell PERC 2/QC                                         | aacraid      |
+| 0x1028:0x0001:0x1028:0x0001 | DELL PERC 2/Si (Iguana)                                | aacraid      |
+| 0x1028:0x0002:0x1028:0x0002 | DELL PERC 3/Di (Opal)                                  | aacraid      |
+| 0x1028:0x0002:0x1028:0x00D1 | DELL PERC 3/Di (Viper)                                 | aacraid      |
+| 0x1028:0x0002:0x1028:0x00D9 | DELL PERC 3/Di (Lexus)                                 | aacraid      |
+| 0x1028:0x0003:0x1028:0x0003 | DELL PERC 3/Si (SlimFast)                              | aacraid      |
+| 0x1028:0x0004:0x1028:0x00D0 | DELL PERC 3/Di (Iguana FlipChip)                       | aacraid      |
+| 0x1028:0x000A:0x1028:0x0106 | DELL PERC 3/Di (Jaguar)                                | aacraid      |
+| 0x1028:0x000A:0x1028:0x011B | DELL PERC 3/Di (Dagger)                                | aacraid      |
+| 0x1028:0x000A:0x1028:0x0121 | DELL PERC 3/Di (Boxster)                               | aacraid      |
+| 0x1028:0x0015               | Dell PERC5                                             | megaraid_sas |
+| 0x103C::: \*:01:04          | HP                                                     | hpsa         |
+| 0x1077:0x2100               | QLogic ISP2100                                         | qla2xxx      |
+| 0x1077:0x2200               | QLogic ISP2200                                         | qla2xxx      |
+| 0x1077:0x2300               | QLogic ISP2300                                         | qla2xxx      |
+| 0x1077:0x2312               | QLogic ISP2312                                         | qla2xxx      |
+| 0x1077:0x2322               | QLogic ISP2322                                         | qla2xxx      |
+| 0x1077:0x2422               | QLogic ISP2422                                         | qla2xxx      |
+| 0x1077:0x2432               | QLogic ISP2432                                         | qla2xxx      |
+| 0x1077:0x5422               | QLogic ISP5422                                         | qla2xxx      |
+| 0x1077:0x5432               | QLogic ISP5432 / QLE220                                | qla2xxx      |
+| 0x1077:0x6312               | QLogic ISP6312                                         | qla2xxx      |
+| 0x1077:0x6322               | QLogic ISP6322                                         | qla2xxx      |
+| 0x1077:0x8001               | QLogic ISP8001 / QLE81xx                               | qla2xxx      |
+| 0x1077:0x8021               | QLogic ISP8021 / QLE82xx                               | qla2xxx      |
+| 0x1077:0x8022               | QLogic ISP8022                                         | qla4xxx      |
+| 0x1077:0x8032               | QLogic ISP8324                                         | qla4xxx      |
+| 0x1077:0x8042               | QLogic ISP8042                                         | qla4xxx      |
+| 0x1077:0x8044               | QLogic ISP8044 / QLE84xx                               | qla2xxx      |
+| 0x1077:0x8432               | QLogic ISP8432 / QLE8000                               | qla2xxx      |
+| 0x1077:0xF001               | QLogic ISPF001 / QLE10000                              | qla2xxx      |
+| 0x10DF:0x1AE5               | FIREFLY                                                | lpfc         |
+| 0x10DF:0xE100               | PROTEUS VF                                             | lpfc         |
+| 0x10DF:0xE131               | BALIUS                                                 | lpfc         |
+| 0x10DF:0xE180               | PROTEUS PF                                             | lpfc         |
+| 0x10DF:0xE208               | LANCER_FC_VF                                           | lpfc         |
+| 0x10DF:0xE260               | Emulex OneConnect OCe15102-FM/OCe15104-FM/OCm15108-F-P | lpfc         |
+| 0x10DF:0xE268               | LANCER_FCOE_VF                                         | lpfc         |
+| 0x10DF:0xF095               | RFLY                                                   | lpfc         |
+| 0x10DF:0xF098               | PFLY                                                   | lpfc         |
+| 0x10DF:0xF0A1               | LP101                                                  | lpfc         |
+| 0x10DF:0xF0A5               | TFLY                                                   | lpfc         |
+| 0x10DF:0xF0D1               | BSMB                                                   | lpfc         |
+| 0x10DF:0xF0F5               | NEPTUNE                                                | lpfc         |
+| 0x10DF:0xF0F6               | NEPTUNE SCSP                                           | lpfc         |
+| 0x10DF:0xF0F7               | NEPTUNE DCSP                                           | lpfc         |
+| 0x10DF:0xF700               | SUPERFLY                                               | lpfc         |
+| 0x10DF:0xF800               | DRAGONFLY                                              | lpfc         |
+| 0x10DF:0xF900               | CENTAUR                                                | lpfc         |
+| 0x10DF:0xF980               | PEGASUS                                                | lpfc         |
+| 0x10DF:0xFA00               | THOR                                                   | lpfc         |
+| 0x10DF:0xFB00               | VIPER                                                  | lpfc         |
+| 0x10DF:0xFC00               | LP10000S                                               | lpfc         |
+| 0x10DF:0xFC10               | LP11000S                                               | lpfc         |
+| 0x10DF:0xFC20               | LPE11000S                                              | lpfc         |
+| 0x10DF:0xFC50               | PROTEUS S                                              | lpfc         |
+| 0x10DF:0xFD00               | HELIOS                                                 | lpfc         |
+| 0x10DF:0xFD11               | HELIOS SCSP                                            | lpfc         |
+| 0x10DF:0xFD12               | HELIOS DCSP                                            | lpfc         |
+| 0x15B3:0x1002               | Mellanox MT25400 Family [ConnectX-2 Virtual Function]  | mlx4_core    |
+| 0x15B3:0x1003               | Mellanox MT27500 Family [ConnectX-3]                   | mlx4_core    |
+| 0x15B3:0x1004               | Mellanox MT27500 Family [ConnectX-3 Virtual Function]  | mlx4_core    |
+| 0x15B3:0x1005               | Mellanox MT27510 Family [ConnectX-3]                   | mlx4_core    |
+| 0x15B3:0x1006               | Mellanox MT27511 Family [ConnectX-3]                   | mlx4_core    |
+| 0x15B3:0x1007               | Mellanox MT27520 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x1008               | Mellanox MT27521 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x1009               | Mellanox MT27530 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x100A               | Mellanox MT27531 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x100B               | Mellanox MT27540 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x100C               | Mellanox MT27541 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x100D               | Mellanox MT27550 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x100E               | Mellanox MT27551 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x100F               | Mellanox MT27560 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x1010               | Mellanox MT27561 Family [ConnectX-3 Pro]               | mlx4_core    |
+| 0x15B3:0x6340               | Mellanox MT25408A0-FCC-SI ConnectX                     | mlx4_core    |
+| 0x15B3:0x634A               | Mellanox MT25408A0-FCC-DI ConnectX                     | mlx4_core    |
+| 0x15B3:0x6354               | Mellanox MT25408 Hermon QDR                            | mlx4_core    |
+| 0x15B3:0x6368               | Mellanox MT25448 ConnectX                              | mlx4_core    |
+| 0x15B3:0x6372               | Mellanox MT25458 ConnectX                              | mlx4_core    |
+| 0x15B3:0x6732               | Mellanox MT25408A0-FCC-GI ConnectX                     | mlx4_core    |
+| 0x15B3:0x673C               | Mellanox MT25408A0-FCC-QI ConnectX                     | mlx4_core    |
+| 0x15B3:0x6746               | Mellanox MT26438 ConnectX                              | mlx4_core    |
+| 0x15B3:0x6750               | Mellanox MT26448 ConnectX                              | mlx4_core    |
+| 0x15B3:0x675A               | Mellanox MT26458 ConnectX                              | mlx4_core    |
+| 0x15B3:0x6764               | Mellanox MT26468 ConnectX                              | mlx4_core    |
+| 0x15B3:0x676E               | Mellanox MT26478 ConnectX                              | mlx4_core    |
+| 0x19A2:0x0211               | Emulex BladeEngine 2 Network Adapter                   | be2net \*    |
+| 0x19A2:0x0212               | Emulex BladeEngine 2 10Gb iSCSI Initiator              | be2iscsi     |
+| 0x19A2:0x0221               | Emulex BladeEngine 3 Network Adapter                   | be2net \*    |
+| 0x19A2:0x0222               | Emulex BladeEngine 3 iSCSI                             | be2iscsi     |
+| 0x19A2:0x0700               | Emulex OneConnect Tigershark NIC                       | be2net \*    |
+| 0x19A2:0x0702               | Emulex OneConnect OCe10101/OCm10101/OCe10102/OCm10102  | be2iscsi     |
+| 0x19A2:0x0703               | Emulex OneConnect OCe10100                             | be2iscsi     |
+| 0x19A2:0x0704               | Emulex OneConnect Tigershark FCoE                      | lpfc         |
+| 0x19A2:0x0710               | Emulex OneConnect Tomcat NIC                           | be2net \*    |
+| 0x19A2:0x0712               | Emulex OneConnect Tomcat iSCSI                         | be2iscsi     |
+| 0x19A2:0x0714               | Emulex OneConnect Tomcat FCoE                          | lpfc         |
+| 0x9005:0x0200:0x9005:0x0200 | Themisto Jupiter Platform                              | aacraid      |
+| 0x9005:0x0283:0x9005:0x0283 | Catapult                                               | aacraid      |
+| 0x9005:0x0284:0x9005:0x0284 | Tomcat                                                 | aacraid      |
+| 0x9005:0x0285               | Adaptec Catch All                                      | aacraid      |
+| 0x9005:0x0285:0x1014:0x02F2 | IBM 8i (AvonPark)                                      | aacraid      |
+| 0x9005:0x0285:0x1014:0x0312 | IBM 8i (AvonPark Lite)                                 | aacraid      |
+| 0x9005:0x0285:0x1028        | Dell Catchall                                          | aacraid      |
+| 0x9005:0x0285:0x1028:0x0287 | Perc 320/DC                                            | aacraid      |
+| 0x9005:0x0285:0x1028:0x0291 | CERC SATA RAID 2 PCI SATA 6ch (DellCorsair)            | aacraid      |
+| 0x9005:0x0285:0x103C:0x3227 | AAR-2610SA PCI SATA 6ch                                | aacraid      |
+| 0x9005:0x0285:0x17AA        | Legend Catchall                                        | aacraid      |
+| 0x9005:0x0285:0x17AA:0x0286 | Legend S220 (Legend Crusader)                          | aacraid      |
+| 0x9005:0x0285:0x17AA:0x0287 | Legend S230 (Legend Vulcan)                            | aacraid      |
+| 0x9005:0x0285:0x9005:0x0285 | Adaptec 2200S (Vulcan)                                 | aacraid      |
+| 0x9005:0x0285:0x9005:0x0286 | Adaptec 2120S (Crusader)                               | aacraid      |
+| 0x9005:0x0285:0x9005:0x0287 | Adaptec 2200S (Vulcan-2m)                              | aacraid      |
+| 0x9005:0x0285:0x9005:0x0288 | Adaptec 3230S (Harrier)                                | aacraid      |
+| 0x9005:0x0285:0x9005:0x0289 | Adaptec 3240S (Tornado)                                | aacraid      |
+| 0x9005:0x0285:0x9005:0x028A | ASR-2020ZCR SCSI PCI-X ZCR (Skyhawk)                   | aacraid      |
+| 0x9005:0x0285:0x9005:0x028B | ASR-2025ZCR SCSI SO-DIMM PCI-X ZCR (Terminator)        | aacraid      |
+| 0x9005:0x0285:0x9005:0x028E | ASR-2020SA SATA PCI-X ZCR (Skyhawk)                    | aacraid      |
+| 0x9005:0x0285:0x9005:0x028F | ASR-2025SA SATA SO-DIMM PCI-X ZCR (Terminator)         | aacraid      |
+| 0x9005:0x0285:0x9005:0x0290 | AAR-2410SA PCI SATA 4ch (Jaguar II)                    | aacraid      |
+| 0x9005:0x0285:0x9005:0x0292 | AAR-2810SA PCI SATA 8ch (Corsair-8)                    | aacraid      |
+| 0x9005:0x0285:0x9005:0x0293 | AAR-21610SA PCI SATA 16ch (Corsair-16)                 | aacraid      |
+| 0x9005:0x0285:0x9005:0x0294 | ESD SO-DIMM PCI-X SATA ZCR (Prowler)                   | aacraid      |
+| 0x9005:0x0285:0x9005:0x0296 | ASR-2240S (SabreExpress)                               | aacraid      |
+| 0x9005:0x0285:0x9005:0x0297 | ASR-4005                                               | aacraid      |
+| 0x9005:0x0285:0x9005:0x0298 | ASR-4000 (BlackBird)                                   | aacraid      |
+| 0x9005:0x0285:0x9005:0x0299 | ASR-4800SAS (Marauder-X)                               | aacraid      |
+| 0x9005:0x0285:0x9005:0x029A | ASR-4805SAS (Marauder-E)                               | aacraid      |
+| 0x9005:0x0285:0x9005:0x02A4 | ICP9085LI (Marauder-X)                                 | aacraid      |
+| 0x9005:0x0285:0x9005:0x02A5 | ICP5085BR (Marauder-E)                                 | aacraid      |
+| 0x9005:0x0286               | Adaptec Rocket Catch All                               | aacraid      |
+| 0x9005:0x0286:0x1014:0x9540 | IBM 8k/8k-l4 (Aurora Lite)                             | aacraid      |
+| 0x9005:0x0286:0x1014:0x9580 | IBM 8k/8k-l8 (Aurora)                                  | aacraid      |
+| 0x9005:0x0286:0x9005:0x028C | ASR-2230S/ASR-2230SLP PCI-X (Lancer)                   | aacraid      |
+| 0x9005:0x0286:0x9005:0x028D | ASR-2130S (Lancer)                                     | aacraid      |
+| 0x9005:0x0286:0x9005:0x029B | AAR-2820SA (Intruder)                                  | aacraid      |
+| 0x9005:0x0286:0x9005:0x029C | AAR-2620SA (Intruder)                                  | aacraid      |
+| 0x9005:0x0286:0x9005:0x029D | AAR-2420SA (Intruder)                                  | aacraid      |
+| 0x9005:0x0286:0x9005:0x029E | ICP9024RO (Lancer)                                     | aacraid      |
+| 0x9005:0x0286:0x9005:0x029F | ICP9014RO (Lancer)                                     | aacraid      |
+| 0x9005:0x0286:0x9005:0x02A0 | ICP9047MA (Lancer)                                     | aacraid      |
+| 0x9005:0x0286:0x9005:0x02A1 | ICP9087MA (Lancer)                                     | aacraid      |
+| 0x9005:0x0286:0x9005:0x02A2 | ASR-3800 (Hurricane44)                                 | aacraid      |
+| 0x9005:0x0286:0x9005:0x02A3 | ICP5445AU (Hurricane44)                                | aacraid      |
+| 0x9005:0x0286:0x9005:0x02A6 | ICP9067MA (Intruder-6)                                 | aacraid      |
+| 0x9005:0x0286:0x9005:0x0800 | Callisto Jupiter Platform                              | aacraid      |
+| 0x9005:0x0287:0x9005:0x0800 | Themisto Jupiter Platform                              | aacraid      |
+| 0x9005:0x0288               | Adaptec NEMER/ARK Catch All                            | aacraid      |
 
 ### _Thank you, Image Engine!_
 

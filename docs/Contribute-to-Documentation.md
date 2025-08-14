@@ -1,20 +1,21 @@
 ---
-title: 'Documentation'
+title: "Documentation"
 ---
 
 ###### last updated: 2024-03-25
 
 # Contribute to AlmaLinux Documentation
 
-If you are interested in contributing to AlmaLinux Wiki Documentation, we recommend you follow these guidelines. 
+If you are interested in contributing to AlmaLinux Wiki Documentation, we recommend you follow these guidelines.
 
 ## Prerequisites
 
 ### Starting the process
 
 Before you start writing a wiki page/instruction or modifying an existing one, we strongly recommend:
-* Look through existing open and closed [issues](https://github.com/AlmaLinux/wiki/issues) for similar content, to prevent duplication.
-* Open an [issue](https://github.com/AlmaLinux/wiki/issues) on the repo to propose your content before you begin writing it to ensure that is appropriate for the AlmaLinux Wiki and to collaborate with the AlmaLinux OS Foundation, Team and Community. 
+
+- Look through existing open and closed [issues](https://github.com/AlmaLinux/wiki/issues) for similar content, to prevent duplication.
+- Open an [issue](https://github.com/AlmaLinux/wiki/issues) on the repo to propose your content before you begin writing it to ensure that is appropriate for the AlmaLinux Wiki and to collaborate with the AlmaLinux OS Foundation, Team and Community.
 
 You are also welcome to discuss the content and share your feedback and thoughts in the [Documentation Chat Channel](https://chat.almalinux.org/almalinux/channels/sigdocumentation).
 
@@ -23,42 +24,43 @@ You are also welcome to discuss the content and share your feedback and thoughts
 The Wiki is powered by [VuePress](https://vuepress.vuejs.org/).
 
 The general process to contribute to the wiki includes these steps:
-* Fork the Wiki [repository](https://github.com/AlmaLinux/wiki).
-* Clone your forked repository and navigate to its directory.
-* Create a new branch.
-* Edit or create a page.
-* Check your changes on the local wiki - see the steps below.
-* Commit your changes.
-* Create a pull-request to the master branch as described in the GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+- Fork the Wiki [repository](https://github.com/AlmaLinux/wiki).
+- Clone your forked repository and navigate to its directory.
+- Create a new branch.
+- Edit or create a page.
+- Check your changes on the local wiki - see the steps below.
+- Commit your changes.
+- Create a pull-request to the master branch as described in the GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 There are two ways to run the wiki locally to check your changes:
 
 **Please, note, most steps are suitable for all three Linux, Windows and macOS systems, but some commands may need some adjustments.**
 
-#### Install yarn 
+#### Install yarn
 
 :::tip
 For Windows and macOS, you may need to install [nodejs](https://nodejs.org/en) first.
 :::
 
-* Install necessary dependencies:
-   ```sh
-   $ yarn install
-   ```
-* Run a development web-server:
-   ```sh
-   $ yarn docs:dev
-   ```
-* Your local Wiki instance should be up and running on
-   [http://localhost:8080/](http://localhost:8080/).
+- Install necessary dependencies:
+  ```sh
+  $ yarn install
+  ```
+- Run a development web-server:
+  ```sh
+  $ yarn docs:dev
+  ```
+- Your local Wiki instance should be up and running on
+  [http://localhost:8080/](http://localhost:8080/).
 
-#### Use a container 
+#### Use a container
 
 You can use a container engine like Podman or Docker to deploy a local development version of wiki inside a container.
 
 **Requirements:** Docker or Podman
 
-* The wiki repository contains the `Containerfile` file that is used to create a container image with development dependencies installed. The command to create the container image requires setting a container name which, for example, is *wiki_dev*:
+- The wiki repository contains the `Containerfile` file that is used to create a container image with development dependencies installed. The command to create the container image requires setting a container name which, for example, is _wiki_dev_:
   ```sh
   podman build -t wiki_dev .
   ```
@@ -69,25 +71,25 @@ You can use a container engine like Podman or Docker to deploy a local developme
   podman rmi localhost/wiki_dev
   ```
   :::
-* Clean up the first stage container image:
+- Clean up the first stage container image:
   ```sh
   podman image prune --filter label=stage=auto-clean-stage1
   ```
-* Now you can create a container from this image whenever is needed from the image that was built above and mount *docs* to */wiki/docs* inside the container:
+- Now you can create a container from this image whenever is needed from the image that was built above and mount _docs_ to _/wiki/docs_ inside the container:
   ```sh
   podman run --name wiki_dev --rm -i -t -p 8080:8080 -v "$(pwd)":/wiki:ro,z localhost/wiki_dev
   ```
   The options of the command are:
-  * `podman/docker` - container engine
-  * `run` - create a container
-  * `--name wiki_dev` - name a container *wiki_dev*
-  * `--rm` - remove the container once it is stopped
-  * `-i -t` - an interactive terminal session where you can track the deployment process and check the logs. Stop it with `Ctrl+C`.
-  * `-p 8080:8080` - map the port number 8080 inside the container to 8080 on the host
-  * `-v "$(pwd)":/wiki:ro,z` - mount the current directory (the repository root) on `/wiki` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
-  * `localhost/wiki_dev` - the name of the container image
-* The wiki instance should be up and running on [http://localhost:8080/](http://localhost:8080/).
-* Don't forget to stop the container when you've finished. 
+  - `podman/docker` - container engine
+  - `run` - create a container
+  - `--name wiki_dev` - name a container _wiki_dev_
+  - `--rm` - remove the container once it is stopped
+  - `-i -t` - an interactive terminal session where you can track the deployment process and check the logs. Stop it with `Ctrl+C`.
+  - `-p 8080:8080` - map the port number 8080 inside the container to 8080 on the host
+  - `-v "$(pwd)":/wiki:ro,z` - mount the current directory (the repository root) on `/wiki` inside the container read-only (ro). **`,z` is needed only for systems that have SELinux.**
+  - `localhost/wiki_dev` - the name of the container image
+- The wiki instance should be up and running on [http://localhost:8080/](http://localhost:8080/).
+- Don't forget to stop the container when you've finished.
 
 ## Working with AlmaLinux documentation
 
@@ -96,22 +98,23 @@ We kindly ask that all members respect each other's diverse skills and abilities
 :::
 
 AlmaLinux Wiki documentation is written with [Markdown](https://www.markdownguide.org/basic-syntax/). Some HTML elements can also be used.
-Please, refer to the template in the *details* and to this [page](/elevate/ELevate-quickstart-guide) as the example.
+Please, refer to the template in the _details_ and to this [page](/elevate/ELevate-quickstart-guide) as the example.
 :::details
+
 ```
   ---
-  title: ' '
+  title: " "
   ---
-  
+
   # Title of the Guide
-  
+
   ###### last updated: YYYY-MM-DD
-  
-  or 
-  
+
+  or
+
   | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
-  |--------------------|---------------------- |
-  | Last modified date | YYYY-MM-DD            | 
+  | ------------------ | -------------------- |
+  | Last modified date | YYYY-MM-DD           |
 
   ## About
 
@@ -120,35 +123,37 @@ Please, refer to the template in the *details* and to this [page](/elevate/ELeva
   ## Prerequisites
 
   List all necessary prerequisites, such as:
-  * Software or hardware required.
-  * User permissions needed.
-  * Prior knowledge or skills.
+
+  - Software or hardware required.
+  - User permissions needed.
+  - Prior knowledge or skills.
 
   Example:
-  * Operating System: Linux (Windows/MacOS if applicable) 
-  * Software: Git, Docker, etc.
-  * Access Level: Admin rights required, etc.
+
+  - Operating System: Linux (Windows/MacOS if applicable)
+  - Software: Git, Docker, etc.
+  - Access Level: Admin rights required, etc.
 
   ## Step-by-Step Instructions
 
   ### Part 1
 
-  Describe steps in detail. Use code blocks, tables, lists, and images as necessary. 
+  Describe steps in detail. Use code blocks, tables, lists, and images as necessary.
   Highlight any important notes or warnings if applicable using markdown tips/warnings.
 
-  * Step 1
-  * Step 2
+  - Step 1
+  - Step 2
 
   **Example:**
   (Code block or output example)
 
   ### Part 2
 
-  Describe the next step in detail. Use code blocks, tables, lists, and images as necessary. 
+  Describe the next step in detail. Use code blocks, tables, lists, and images as necessary.
   Highlight any important notes or warnings if applicable.
 
-  * Step 1
-  * Step 2
+  - Step 1
+  - Step 2
 
   **Example:**
   (Code block or output example)
@@ -157,11 +162,12 @@ Please, refer to the template in the *details* and to this [page](/elevate/ELeva
 
   Provide links to external documentation, tutorials, or resources for further learning.
 
-  * Resource 1
-  * Resource 2
-  * Official Documentation
+  - Resource 1
+  - Resource 2
+  - Official Documentation
 
   ## Troubleshooting/Known Issues
+
   Include any common/known issues that users can face and how to resolve them.
 
   ### Issue 1: Description of issue.
@@ -176,68 +182,73 @@ Please, refer to the template in the *details* and to this [page](/elevate/ELeva
 
   Provide any links to forums/chats where users can report their bugs, ask for any help, assistance or reach out with their feedback.
 ```
+
 :::
 
-All the content is located in the `/wiki/docs` directory. 
+All the content is located in the `/wiki/docs` directory.
 
 To create a new page:
-* Navigate to the `/wiki/docs` directory. 
-* Create a markdown file `page-name.md` with a clear name that corresponds to the topic of the page.
-* In order to get a page displayed, enlist it in the **config.js** file that is located in the `/wiki/docs/.vuepress` directory.
+
+- Navigate to the `/wiki/docs` directory.
+- Create a markdown file `page-name.md` with a clear name that corresponds to the topic of the page.
+- In order to get a page displayed, enlist it in the **config.js** file that is located in the `/wiki/docs/.vuepress` directory.
 
 ### Pages style guide
 
 When editing an existing page or writing a new one, we recommend you follow this style guide.
 
-* The top of the page should include meta data with the page title. It should match the file/page name and topic.
+- The top of the page should include meta data with the page title. It should match the file/page name and topic.
   ```
   ---
-  title: ' '
+  title: " "
   ---
   ```
-* If applicable (for example, when creating a new guide), fill out the form below and place it as a table at the top of the page right after the title.
-    | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
-    |--------------------|---------------------- |
-    | Last modified date | YYYY-MM-DD            | 
-    
-    * If possible, evaluate the level of skills and experience needed based on the target audience. Experience level options: Beginner, Intermediate, Advanced, Fluent and Proficient
-    * Put the last modified or updated date below the experience level. The date format should go as **YYYY-MM-DD**.
-* If using this form is not applicable here, it's preferable to write right after the page title the date when the page was last modified. Please, stick, to the following format:
+- If applicable (for example, when creating a new guide), fill out the form below and place it as a table at the top of the page right after the title.
+  | Experience Level | ⭑⭑⭒⭒⭒ (Intermediate) |
+  | ------------------ | -------------------- |
+  | Last modified date | YYYY-MM-DD |
+  - If possible, evaluate the level of skills and experience needed based on the target audience. Experience level options: Beginner, Intermediate, Advanced, Fluent and Proficient
+  - Put the last modified or updated date below the experience level. The date format should go as **YYYY-MM-DD**.
+- If using this form is not applicable here, it's preferable to write right after the page title the date when the page was last modified. Please, stick, to the following format:
+
   ```
   ###### last updated: YYYY-MM-DD
   ```
 
-* Write the content of the page using [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Some HTML elements are also allowed.
-    * It's recommended to use clear and simple language.
-    * It's preferable to divide the content into sections, including these basic ones:
-        * Introduction: stating what the page is about.
-        * Body: describing all the instructions.
-        * Version specific directions: Remember that AlmaLinux currently more than one supported major version. If the directions differ for each release, consider dividing your instructions for each supported version into separate sections.
-        * Known caveats: If there are any known or popular issues, write them as a separate section.
-We encourage images in guides, but please follow the below guidelines
-     * If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
-    * The image name should be clear to understand and match the topic subject it's related to. 
-    * The image should not violate any trademarks or copyrights and should be relevant to the content. 
-    * The image should not contain any personal information for security reasons.
-    * The image should be a proper size that is clear to read. 
-    * The image will serve from `/images/`, so do not change the beginning of this path.
-* All the commands (even separate ones) and code blocks should be formatted as code blocks, not as inline code:
+- Write the content of the page using [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Some HTML elements are also allowed.
+  _ It's recommended to use clear and simple language.
+  _ It's preferable to divide the content into sections, including these basic ones:
+  _ Introduction: stating what the page is about.
+  _ Body: describing all the instructions.
+  _ Version specific directions: Remember that AlmaLinux currently more than one supported major version. If the directions differ for each release, consider dividing your instructions for each supported version into separate sections.
+  _ Known caveats: If there are any known or popular issues, write them as a separate section.
+  We encourage images in guides, but please follow the below guidelines
+  _ If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
+  _ The image name should be clear to understand and match the topic subject it's related to.
+  _ The image should not violate any trademarks or copyrights and should be relevant to the content.
+  _ The image should not contain any personal information for security reasons.
+  _ The image should be a proper size that is clear to read.
+  _ The image will serve from `/images/`, so do not change the beginning of this path.
+- All the commands (even separate ones) and code blocks should be formatted as code blocks, not as inline code:
+
   ```
   {your command(s)/code}
   ```
-    * If there's any example output/code/result, consider mentioning it right after according to the format below. Also, consider formatting it as a code block or as an image.
-    
+
+  - If there's any example output/code/result, consider mentioning it right after according to the format below. Also, consider formatting it as a code block or as an image.
     **An example output you may see:**
-    ```
-    example
-    ```  
-* If there's anything to warn about or provide a tip, highlight it with markdown tips and warnings.
-* If there are trademarks mentioned on the page, we recommend writing **Trademark notices** at the bottom of the page.
-* Before committing the changes and creating a pull request, we also recommend to:
-    * Make sure the page is displayed on the wiki correctly by running it on [http://localhost:8080/](http://localhost:8080/).
-    * Look through the page to see if any cosmetic changes (typos, minor styling, etc) are needed.
+
+  ```
+  example
+  ```
+
+- If there's anything to warn about or provide a tip, highlight it with markdown tips and warnings.
+- If there are trademarks mentioned on the page, we recommend writing **Trademark notices** at the bottom of the page.
+- Before committing the changes and creating a pull request, we also recommend to:
+  - Make sure the page is displayed on the wiki correctly by running it on [http://localhost:8080/](http://localhost:8080/).
+  - Look through the page to see if any cosmetic changes (typos, minor styling, etc) are needed.
 
 ### Review process
 
-Any member of the AlmaLinux OS Foundation, Team and Community can take part in the review process and request any changes or updates. 
-Merging the content is under the AlmaLinux OS Foundation and Team responsibility. 
+Any member of the AlmaLinux OS Foundation, Team and Community can take part in the review process and request any changes or updates.
+Merging the content is under the AlmaLinux OS Foundation and Team responsibility.

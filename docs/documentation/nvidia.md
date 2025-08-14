@@ -4,13 +4,13 @@ title: "NVIDIA Drivers"
 
 # NVIDIA Driver Packages
 
-After a [successful RFC approval by ALESCO](https://github.com/AlmaLinux/ALESCo/pull/8) we began building and shipping NVIDIA driver packages.  These packages are based on the NVIDIA open source drivers and are secureboot-signed.  The drivers are built using kernel kmods meaning upon installation/update there are no DKMS compilations required.
+After a [successful RFC approval by ALESCO](https://github.com/AlmaLinux/ALESCo/pull/8) we began building and shipping NVIDIA driver packages. These packages are based on the NVIDIA open source drivers and are secureboot-signed. The drivers are built using kernel kmods meaning upon installation/update there are no DKMS compilations required.
 
-We build and ship drivers for AlmaLinux Kitten 10, AlmaLinux 10, and AlmaLinux 9.  At this time we do not build or ship drivers for AlmaLinux 8, and support for AlmaLinux 8 is not expected at this time.
+We build and ship drivers for AlmaLinux Kitten 10, AlmaLinux 10, and AlmaLinux 9. At this time we do not build or ship drivers for AlmaLinux 8, and support for AlmaLinux 8 is not expected at this time.
 
-NVIDIA drivers are only available for x86_64 (excluding x86_64_v2 variants of 10*) and aarch64 architectures.
+NVIDIA drivers are only available for x86_64 (excluding x86_64_v2 variants of 10\*) and aarch64 architectures.
 
-_* We expect to ship x86_64_v2 support in the near future._
+_\* We expect to ship x86_64_v2 support in the near future._
 
 ## Installation of GPU Driver
 
@@ -18,7 +18,7 @@ Installation is very easy, requiring only 2 `dnf` commands - the first to enable
 
 `sudo dnf install almalinux-release-nvidia-driver`
 
-This will enable the AlmaLinux NVIDIA driver repository, AlmaLinux CRB repository, and NVIDIA's upstream CUDA repository.  It will also install the [EPEL repository](https://docs.fedoraproject.org/en-US/epel/).
+This will enable the AlmaLinux NVIDIA driver repository, AlmaLinux CRB repository, and NVIDIA's upstream CUDA repository. It will also install the [EPEL repository](https://docs.fedoraproject.org/en-US/epel/).
 
 `sudo dnf install nvidia-open-kmod nvidia-driver`
 
@@ -43,7 +43,7 @@ nvidia              12988416  1 nvidia_modeset
 
 ### nvidia-smi
 
-Many people want or need nvidia-smi for information about their GPU(s).  The `nvidia-smi` binary is provided by the `nvidia-driver-cuda` package and can be installed as such:
+Many people want or need nvidia-smi for information about their GPU(s). The `nvidia-smi` binary is provided by the `nvidia-driver-cuda` package and can be installed as such:
 
 `sudo dnf install nvidia-driver-cuda`
 
@@ -74,11 +74,16 @@ Mon Jul 21 14:23:02 2025
 ```
 
 ## Installation of CUDA Components
+
 ### CUDA SDK
+
 `sudo dnf install cuda`
+
 ### GPUDirect Filesystems
+
 At this time NVIDIA GPUDirect components are not available.
 
 ## Common Problems
-*  `modprobe: ERROR: could not insert 'nvidia_drm': No such device`
-   * This most likely stems from your running kernel being different than the latest installed kernel.  Rebooting should fix it if that is the case.
+
+- `modprobe: ERROR: could not insert 'nvidia_drm': No such device`
+  - This most likely stems from your running kernel being different than the latest installed kernel. Rebooting should fix it if that is the case.

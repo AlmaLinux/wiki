@@ -5,6 +5,7 @@ Kickstart is used to perform unattended installation with predefined set of para
 There are multiple ways of starting a kickstart installation, for details check out [pykickstart docs](https://pykickstart.readthedocs.io/en/latest/kickstart-docs.html#chapter-12-starting-a-kickstart-installation)
 
 ### Customization
+
 Best way to start is to perform an installation in a virtual machine then take `/root/anaconda-ks.cfg` as the base and modify it, it contains selected options during the installation
 
 All commands that can be used in kickstart are listed [here](https://pykickstart.readthedocs.io/en/latest/kickstart-docs.html#chapter-3-kickstart-commands-in-red-hat-enterprise-linux)
@@ -12,7 +13,9 @@ All commands that can be used in kickstart are listed [here](https://pykickstart
 You can host the kickstart files using preinstalled python http server `python -m http.server` and then add `inst.ks=http://<ip>:<port>/kickstart.cfg` to grub during boot
 
 ### Examples
+
 #### KDE Desktop
+
 Example using KDE Desktop with preinstalled CRB and EPEL repositories preinstalled
 
 ```

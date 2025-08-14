@@ -1,6 +1,7 @@
 ---
-title: 'Generic Cloud (Cloud-init)'
+title: "Generic Cloud (Cloud-init)"
 ---
+
 # AlmaLinux OS Generic Cloud (Cloud-init) image
 
 The Generic Cloud image is a general purpose virtual machine image that
@@ -15,11 +16,11 @@ The AlmaLinux OS Generic Cloud image is available from our
 [mirrors](https://mirrors.almalinux.org/) and from the main AlmaLinux OS
 repositories:
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |
-| AlmaLinux OS 8 | [x86_64](https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/) | [aarch64](https://repo.almalinux.org/almalinux/8/cloud/aarch64/images) | [ppc64le](http://repo.almalinux.org/almalinux/8/cloud/ppc64le/images/) | [s390x](https://repo.almalinux.org/almalinux/8/cloud/s390x/images/) | |
-| AlmaLinux OS 9 | [x86_64](https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/) | [aarch64](https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/) | [ppc64le](https://repo.almalinux.org/almalinux/9/cloud/ppc64le/images/) | [s390x](https://repo.almalinux.org/almalinux/9/cloud/s390x/images/) | |
-| AlmaLinux OS 10 | [x86_64_v2](https://repo.almalinux.org/almalinux/10/cloud/x86_64_v2/images/) | [x86_64](https://repo.almalinux.org/almalinux/10/cloud/x86_64/) | [aarch64](https://repo.almalinux.org/almalinux/10/cloud/aarch64/images/) | [ppc64le](https://repo.almalinux.org/almalinux/10/cloud/ppc64le/images/) | [s390x](https://repo.almalinux.org/almalinux/10/cloud/s390x/images/) |
+|                 |                                                                              |                                                                         |                                                                          |                                                                          |                                                                      |
+| --------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| AlmaLinux OS 8  | [x86_64](https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/)        | [aarch64](https://repo.almalinux.org/almalinux/8/cloud/aarch64/images)  | [ppc64le](http://repo.almalinux.org/almalinux/8/cloud/ppc64le/images/)   | [s390x](https://repo.almalinux.org/almalinux/8/cloud/s390x/images/)      |                                                                      |
+| AlmaLinux OS 9  | [x86_64](https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/)        | [aarch64](https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/) | [ppc64le](https://repo.almalinux.org/almalinux/9/cloud/ppc64le/images/)  | [s390x](https://repo.almalinux.org/almalinux/9/cloud/s390x/images/)      |                                                                      |
+| AlmaLinux OS 10 | [x86_64_v2](https://repo.almalinux.org/almalinux/10/cloud/x86_64_v2/images/) | [x86_64](https://repo.almalinux.org/almalinux/10/cloud/x86_64/)         | [aarch64](https://repo.almalinux.org/almalinux/10/cloud/aarch64/images/) | [ppc64le](https://repo.almalinux.org/almalinux/10/cloud/ppc64le/images/) | [s390x](https://repo.almalinux.org/almalinux/10/cloud/s390x/images/) |
 
 ## Verify AlmaLinux 8 images
 
@@ -31,10 +32,12 @@ public key first.
 :::tip
 If you are using an AlmaLinux OS-powered system, you may skip the command
 below because you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux` file.
- Run the following command instead to import the key:
+Run the following command instead to import the key:
+
 ```shell
 gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
 ```
+
 :::
 
 ```shell
@@ -118,10 +121,12 @@ public key first.
 :::tip
 If you are using an AlmaLinux OS-powered system, you may skip the command
 below because you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9` file.
- Run the following command instead to import the key:
+Run the following command instead to import the key:
+
 ```shell
 gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
 ```
+
 :::
 
 ```shell
