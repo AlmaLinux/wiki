@@ -47,69 +47,57 @@ Please report any issues you may encounter during tests on the [AlmaLinux Bug Tr
   KVM for IBM POWER has also been unsupported since RHEL 9.0. We enable it in the AlmaLinux OS Kitten 10 virtualization stack, so it’s possible to continue using KVM.
 
 - Compilers and Programming Languages:
-
   - GCC 14.2
   - Rust 1.82
   - Perl 5.40
   - PHP 8.3
 
 - Build and Development Tools:
-
   - CMake 3.30
   - Bash 5.2
   - LLVM-toolset 19.1
 
 - System Libraries and Core Components:
-
   - glibc 2.39
   - binutils 2.41
 
 - Installation and Configuration:
-
   - Anaconda 40.22
   - Systemd 256
   - Crypto-policies 20241128
   - SELinux-policy 40.13
 
 - Web Servers and Application Servers:
-
   - Apache HTTP Server 2.4.62
   - Nginx 1.26
 
 - Databases and Caching:
-
   - MySQL 8.4
   - Redis 7.2
 
 - Monitoring and Analytics:
-
   - Grafana 10.2
   - PCP 6.3
 
 - Networking and Routing:
-
   - FRR 10.1
 
 - Virtualization and Kernel:
-
   - QEMU-KVM 9.1
   - Kernel 6.12
   - Kexec-tools 2.0.29
 
 - Security Tools:
-
   - OpenSCAP 1.4
   - OpenSSH 9.9
 
 - Package Management:
-
   - DNF 4.20
   - RPM 4.19
 
 - Graphical User Interface:
   - Qt6 6.8
 - The following device drivers were modified to re-add PCI IDs for hardware that was previously disabled in our upstream:
-
   - **aacraid** - Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI
   - **be2iscsi** - Emulex OneConnectOpen-iSCSI for BladeEngine 2 and 3 adapters
   - **be2net** - Emulex BladeEngine 2 and 3 adapters \*

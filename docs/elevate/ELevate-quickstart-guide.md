@@ -74,7 +74,6 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
   ```
 
 - Install leapp packages and upgrade data for the target OS you want to upgrade to. Possible options are:
-
   - leapp-data-almalinux
   - leapp-data-almalinux-kitten <small>\* leapp-data-almalinux-kitten package is designed for upgrades from AlmaLinux OS 9 to AlmaLinux Kitten OS 10.</small>
   - leapp-data-centos <small>\* leapp-data-centos package is designed for upgrades to CentOS Stream.</small>
@@ -102,7 +101,6 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
   :::
 
 - The following fixes from _the /var/log/leapp/leapp-report.txt_ file are the most popular ones, but it's recommended to review the whole file.
-
   - For CentOS 7:
 
     ```bash

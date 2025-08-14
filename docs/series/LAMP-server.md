@@ -186,7 +186,6 @@ It's widely favored by developers for its flexibility and performance, seamlessl
   ```
 
   Open the newly created file with your preferred text editor and change the following:
-
   - **\[www\]** - with the pools name (.e.g almasite)
   - **user = apache** - your user (.i.e almasite)
   - **group = apache** - your group (.i.e almasite)

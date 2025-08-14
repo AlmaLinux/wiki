@@ -9,7 +9,6 @@ title: "Changelog"
 ### AlmaLinux OS versions 9.5.20241122:
 
 - Fixes:
-
   - [GH206: Unknown group 'sgx', ignoring](https://github.com/AlmaLinux/cloud-images/issues/206).
 
 - New packages were added:
@@ -24,7 +23,6 @@ The complete list of installed packages starting with this version is available 
 
 - AlmaLinux Amazon Images were switched from Instance Metadata Service Version 1 (IMDSv1) to Instance Metadata Service Version 2 (IMDSv2).
   The IMDSv2 is beneficial in multiple use cases such as:
-
   - Misconfigured Open Web Application Firewalls (WAF).
   - Misconfigured Open Reverse Proxies (Apache HTTP Server, Squid etc.).
   - Server-side request forgery (SSRF) vulnerabilities.
@@ -93,12 +91,10 @@ AlmaLinux OpenNebula images have now unified - BIOS and UEFI - boot support. The
 ### AlmaLinux OS versions **9.5-20250205** and **8.10-20250215**
 
 - Enhancements:
-
   - Updated the iSCSI optimizations according to the [OCI documentation](https://docs.oracle.com/en-us/iaas/Content/Block/Concepts/iscsiinformation.htm#iscsid).
   - Added NVMe drivers into the initramfs for the support shapes with NVMe root disks.
 
 - New packages were added:
-
   - `jq`: Command-line JSON processor.
   - `nvme-cli`: NVMe management command line interface.
 
@@ -117,7 +113,6 @@ Use `ttyAMA0` as a serial port on AArch64 according to the [OCI documentation](h
 #### AlmaLinux OS versions **9.5-20250205**
 
 - Fixes:
-
   - The OCI-specific kernel command-line parameters are ineffective, resulting in a broken boot process on bare metal instances that use iSCSI disks.
 
 - New packages were added:
