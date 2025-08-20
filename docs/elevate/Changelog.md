@@ -2,11 +2,25 @@
 title: "ELevate Changelog"
 ---
 
-###### last updated: 2025-07-30
+###### last updated: 2025-08-20
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2025-08-20
+
+Released to Stable:
+
+#### PES data updates
+
+- Leapp data updated to [the latest upstream state (300e1579c28d630a9c0be2599083a79d441cc6b2)](https://github.com/oamg/leapp-repository/commit/300e1579c28d630a9c0be2599083a79d441cc6b2).
+- Vendor **KernelCare**: use local GPG key instead of remote one
+- Vendor **MariaDB**: switch into `12.rolloing` repository
+
+#### Leapp Framework
+
+- Fix version to `0.19.0` as expected
 
 ## 2025-07-30
 
@@ -14,7 +28,7 @@ Released to Stable:
 
 #### PES data updates
 
-- Leapp data updated to [the latest upstream state](https://github.com/oamg/leapp-repository/commit/93cae9c88e964d6485ad8314ae65deb0ab676862).
+- Leapp data updated to [the latest upstream state (93cae9c88e964d6485ad8314ae65deb0ab676862)](https://github.com/oamg/leapp-repository/commit/93cae9c88e964d6485ad8314ae65deb0ab676862).
 
 ## 2025-07-14
 
@@ -31,7 +45,7 @@ Released from Testing to Stable:
 
 #### General updates
 
-- Leapp data updated to [the latest upstream state](https://github.com/oamg/leapp-repository/commit/ffd6d8e456484630f99d98d5bff955914af02aa5).
+- Leapp data updated to [the latest upstream state (ffd6d8e456484630f99d98d5bff955914af02aa5)](https://github.com/oamg/leapp-repository/commit/ffd6d8e456484630f99d98d5bff955914af02aa5).
 - Leapp version updated to `0.22.0-3.elevate.1`.
 
 #### PES data updates
@@ -52,7 +66,7 @@ Released from Testing to Stable:
 
 #### Leapp code enhancements
 
-- Leapp code updated to [the latest upstream version](https://github.com/oamg/leapp-repository/commit/ffd6d8e456484630f99d98d5bff955914af02aa5).
+- Leapp code updated to [the latest upstream state (ffd6d8e456484630f99d98d5bff955914af02aa5)](https://github.com/oamg/leapp-repository/commit/ffd6d8e456484630f99d98d5bff955914af02aa5).
 - Minor updates in generated reports
 - Resolves: RHEL-67621, RHEL-67719, RHEL-16881
 - Require leapp-framework >= 6.1
@@ -81,7 +95,7 @@ Released from Testing to Stable:
 
 #### Leapp code enhancements
 
-- Synced leapp code 0.21 with upstream’s [latest pre-0.22 state](https://github.com/oamg/leapp-repository/commit/518722058ca53e94c8efa8958ca8fd7cac40dca7) (version 0.21.0-5).
+- Synced leapp code 0.21 with upstream’s [latest pre-0.22 state (518722058ca53e94c8efa8958ca8fd7cac40dca7)](https://github.com/oamg/leapp-repository/commit/518722058ca53e94c8efa8958ca8fd7cac40dca7) (version 0.21.0-5).
 - Fix pes events scanner crashing when there are duplicate packages in the received instructions.
 - Fix pes events scanner not respecting user’s transaction configuration.
 - Fix storage scanner crashing when command outputs contain colon character.
@@ -95,7 +109,7 @@ Released from Testing to Stable:
 
 #### General updates
 
-- Leapp data updated to [the latest upstream state](https://github.com/oamg/leapp-repository/commit/2dc7efa41ccf7206e0e33d687d7931846f3e4390) with an extended hardware support list from AlmaLinux OS 9.5.
+- Leapp data updated to [the latest upstream state (2dc7efa41ccf7206e0e33d687d7931846f3e4390)](https://github.com/oamg/leapp-repository/commit/2dc7efa41ccf7206e0e33d687d7931846f3e4390) with an extended hardware support list from AlmaLinux OS 9.5.
 - Leapp version updated to `0.21.0-4.elevate.4`.
 
 #### PES data updates
@@ -111,7 +125,7 @@ Released from Testing to Stable:
 
 #### Leapp code enhancements
 
-- Leapp code updated to [the latest upstream version](https://github.com/oamg/leapp-repository/commit/3c3421a0f155fe3bdfaee74c5345e86874684a09).
+- Leapp code updated to [the latest upstream state (3c3421a0f155fe3bdfaee74c5345e86874684a09)](https://github.com/oamg/leapp-repository/commit/3c3421a0f155fe3bdfaee74c5345e86874684a09).
 - Introduce the upgrade path from EL 8.10 to EL 9.6.
 - Require leapp-framework 6.0+ and updated dependency packages.
 - Address a number of RHEL bug reports RHEL-23473, RHEL-67621, RHEL-57064, RHEL-56251, RHEL-50686, RHEL-41193, RHEL-34570, RHEL-26459, RHEL-23473, RHEL-16881, RHEL-3294.
