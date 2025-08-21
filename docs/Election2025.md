@@ -17,13 +17,13 @@ At this stage we are looking for nominees for the Board of Director positions. T
 - Be an AlmaLinux OS Foundation member for at least 3 months by August 31st, 2025
 - Be nominated by an AlmaLinux OS Foundation member in good standing
 
-To nominate someone email name & contact information of nominee to [elections@almalinux.org](mailto:elections@almalinux.org). Nominations are open from August 9th to August 24th 2025.
+To nominate someone email name & contact information of nominee to [elections@almalinux.org](mailto:elections@almalinux.org). Nominations are open from August 9th to August 30th 2025.
 
 Please, check FAQ section for more information.
 
 # Nominees
 
-Last updated --
+Last updated: Aug 21, 2025
 
 # Election Committee
 
