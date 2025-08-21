@@ -47,7 +47,7 @@ Last updated: Aug 21, 2025
   - E-Mail name & contact information of nominee to [elections@almalinux.org](mailto:elections@almalinux.org).
 
 - My company is a member sponsor, can it nominate any company employee?
-  - Yes, sponsors can nominate any company employee, but if the employee is terminated, or company sponsorship laps, the person may be asked to step down from the role.
+  - Yes, sponsors can nominate any company employee, but if the employee is terminated, or company sponsorship lapses, the person may be asked to step down from the role.
 
 - Who can vote?
   - Any Platinum, Gold, Ruby, Silver, Contributor, User, Alumnus, or Mirror member in good standing, approved by the membership committee on or before August 7th.
