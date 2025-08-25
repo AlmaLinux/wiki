@@ -23,7 +23,9 @@ Please, check FAQ section for more information.
 
 # Nominees
 
-Last updated: Aug 21, 2025
+- ![image](/images/elections2025/daniel-small.jpg) [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Pavel Malyavko_
+
+Last updated: Aug 25, 2025
 
 # Election Committee
 
