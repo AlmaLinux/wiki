@@ -10,7 +10,7 @@ To be announced after the election concludes.
 
 # Process
 
-The AlmaLinux OS Foundation is running an election to fill 6 seats on the Board of Directors. The election will start on August 31st, 2025.
+The AlmaLinux OS Foundation is running an election to fill 7 seats on the Board of Directors. The election will start on August 31st, 2025.
 
 At this stage we are looking for nominees for the Board of Director positions. To be nominated you have to:
 
