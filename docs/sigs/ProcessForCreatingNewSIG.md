@@ -14,7 +14,7 @@ Once you have gathered a group (we recommend no fewer than 3, but that isn't tru
 
 ### 1. Write a proposal for the board
 
-To create a new SIG, a proposal must be submitted to and approved by the AlmaLinux OS Foundation Board. To create the proposal, clone this repo, make a copy of the [template](https://wiki.almalinux.org/sigs/sigproposaltemplate.html) file, title it for your SIG, and start filling things in! Once you are satisfied with the content of your proposal, submit a pull request to the wiki, and tag @bennyvasquez. She'll take a look and let you know if there are any concerns.
+To create a new SIG, a proposal must be submitted to and approved by the AlmaLinux OS Foundation Board. To create the proposal, clone this repo, make a copy of the [template](https://raw.githubusercontent.com/AlmaLinux/wiki/refs/heads/master/docs/sigs/sigproposaltemplate.md) file, title it for your SIG, and start filling things in! Once you are satisfied with the content of your proposal, submit a pull request to the wiki, and tag @bennyvasquez. She'll take a look and let you know if there are any concerns.
 
 If none, she'll let you know the date of the board meeting at which your SIG proposal will be discussed! Members of the board or the community might comment and ask questions or provide feedback on your pull request ahead of the board meeting, so make sure to answer those questions as well as you can. At a minimum, your proposal should include:
 
@@ -27,7 +27,7 @@ If none, she'll let you know the date of the board meeting at which your SIG pro
   <li>Any known required resources, such as infrastructure or funding.</li>
 </ol>
 
-[template](https://wiki.almalinux.org/sigs/sigproposaltemplate.html)
+[template](https://raw.githubusercontent.com/AlmaLinux/wiki/refs/heads/master/docs/sigs/sigproposaltemplate.md)
 
 ### 2. Proposal Review
 
