@@ -24,11 +24,11 @@ Please, check FAQ section for more information.
 # Nominees
 
 - ![image](/images/elections2025/daniel-small.jpg) [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - COO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Pavel Malyavko_
-- ![image](/images/elections2025/jack-small.jpg) [Jack Aboutboul](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Program Manager at Microsoft Azure AOSI _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/simon-small.jpg) [Simon Phipps](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - open source advocate and a former president of the Open Source Initiative _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/moshe-bar-board-small.jpg) [Moshe Barr](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/davidsnead-small.jpg) [David Snead](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - General Counsel at WebPros _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/benny-small.jpg) [benny Vasquez](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by: Jonathan Wright_
+- ![image](/images/elections2025/jack-small.jpg) [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Program Manager at Microsoft Azure AOSI _Nominated by: benny Vasquez_
+- ![image](/images/elections2025/simon-small.jpg) [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - open source advocate and a former president of the Open Source Initiative _Nominated by: benny Vasquez_
+- ![image](/images/elections2025/moshe-bar-board-small.jpg) [Moshe Barr](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor _Nominated by: benny Vasquez_
+- ![image](/images/elections2025/davidsnead-small.jpg) [David Snead](https://www.linkedin.com/in/davidsnead/) - General Counsel at WebPros _Nominated by: benny Vasquez_
+- ![image](/images/elections2025/benny-small.jpg) [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by: Jonathan Wright_
 
 Last updated: Aug 26, 2025
 
