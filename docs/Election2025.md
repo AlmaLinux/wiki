@@ -158,7 +158,7 @@ Please, check FAQ section for more information.
   </tr>
 </table>
 
-Last updated: Aug 26, 2025
+Last updated: Aug 28, 2025
 
 # Election Committee
 
