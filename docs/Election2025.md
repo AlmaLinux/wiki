@@ -23,19 +23,136 @@ Please, check FAQ section for more information.
 
 # Nominees
 
-- ![image](/images/elections2025/daniel-small.jpg) [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - CEO of KnownHost, LLC, AlmaLinux Gold Sponsor _Nominated by: Pavel Malyavko_
-- ![image](/images/elections2025/jack-small.jpg) [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Program Manager at Microsoft Azure AOSI _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/simon-small.jpg) [Simon Phipps](<https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)>) - open source advocate and a former president of the Open Source Initiative _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/moshe-bar-board-small.jpg) [Moshe Barr](<https://en.wikipedia.org/wiki/Moshe_Bar_(investor)>) - CEO of CodeNotary Inc., AlmaLinux Gold Sponsor _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/davidsnead-small.jpg) [David Snead](https://www.linkedin.com/in/davidsnead/) - General Counsel at WebPros _Nominated by: benny Vasquez_
-- ![image](/images/elections2025/benny-small.jpg) [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - current Chair of the board of AlmaLinux OS Foundation _Nominated by: Jonathan Wright_
+<table>
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/daniel-small.jpg" alt="Daniel Pearson" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/daniel-pearson-b2559b60/">Daniel Pearson</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      CEO of KnownHost, LLC, AlmaLinux Gold Sponsor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: Pavel Malyavko</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/jack-small.jpg" alt="Jack Aboutboul" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/jackaboutboul/">Jack Aboutboul</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Program Manager at Microsoft Azure AOSI
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: benny Vasquez</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/simon-small.jpg" alt="Simon Phipps" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)">Simon Phipps</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Open source advocate and a former president of the Open Source Initiative
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: benny Vasquez</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/moshe-bar-board-small.jpg" alt="Moshe Barr" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://en.wikipedia.org/wiki/Moshe_Bar_(investor)">Moshe Barr</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      CEO of CodeNotary Inc., AlmaLinux Gold Sponsor
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: benny Vasquez</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/davidsnead-small.jpg" alt="David Snead" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/davidsnead/">David Snead</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      General Counsel at WebPros
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: benny Vasquez</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/benny-small.jpg" alt="benny Vasquez" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/bennyvasquez/">benny Vasquez</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Current Chair of the board of AlmaLinux OS Foundation
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: Jonathan Wright</em>
+    </td>
+  </tr>
+</table>
 
 Last updated: Aug 26, 2025
 
 # Election Committee
 
-- ![image](/images/elections2025/igor-small.jpg) [Igor Seletskiy](https://www.linkedin.com/in/iseletsk/)
-- ![image](/images/elections2025/AlexIribarren-small.jpg) [Alex Iribarren](https://www.linkedin.com/in/iribarren/)
+<table>
+  <tr>
+    <td style="vertical-align: top;"><img src="/images/elections2025/igor-small.jpg" alt="Igor Seletskiy" /></td>
+    <td><a href="https://www.linkedin.com/in/iseletsk/">Igor Seletskiy</a></td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;"><img src="/images/elections2025/AlexIribarren-small.jpg" alt="Alex Iribarren" /></td>
+    <td><a href="https://www.linkedin.com/in/iribarren/">Alex Iribarren</a></td>
+  </tr>
+</table>
 
 ## FAQ
 
