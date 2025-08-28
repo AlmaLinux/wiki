@@ -137,6 +137,25 @@ Please, check FAQ section for more information.
       <em>Nominated by: Jonathan Wright</em>
     </td>
   </tr>
+
+  <tr>
+    <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
+      <img src="/images/elections2025/tristan-small.jpg" alt="Tristan Theroux" width="128" height="128" />
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/tristan-th%C3%A9roux-b588065a/">Tristan Theroux</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Tristan Theroux is IT Infrastructure &amp; Security Director at SHED, a VFX and post-production studio, where he manages Linux-based infrastructure, automation, virtualization, and security at scale. Beyond his professional role, he has been an active supporter of AlmaLinux, representing the project at CloudFest Germany, SIGGRAPH 2024, AlmaLinux Day: Vancouver 2025, and SIGGRAPH 2025. With deep technical expertise and a proven record of community advocacy, Tristan is committed to advancing AlmaLinux’s mission of delivering a stable, community-driven enterprise Linux platform.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <em>Nominated by: Cody Robertson</em>
+    </td>
+  </tr>
 </table>
 
 Last updated: Aug 26, 2025
