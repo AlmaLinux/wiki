@@ -110,7 +110,7 @@ Please, check FAQ section for more information.
   </tr>
   <tr>
     <td>
-      General Counsel at WebPros
+      David Snead is an attorney based in Santa Fe, NM. He is the director of the “Secure Hosting Alliance” and runs a law firm representing Internet infrastructure providers. He has provided advice and counsel to technology companies since 1995 beginning with a practice based on technology exports.  Since 1999, his practice has focused exclusively on the Internet infrastructure industry. In 2011 he co-founded the Internet Infrastructure Coalition (I2Coalition), an advocacy organization for the Internet infrastructure industry. David is chairman of the Board of Directors of CasaQ, a shelter in Albuquerque for LGBTQ+ youth at risk of homelessness. He received his J.D. in 1991 from Georgetown University Law Center, and his B.A. in 1987 in International Affairs from Trinity University in San Antonio, and is a member of the bars of the District of Columbia and State of New Mexico.
     </td>
   </tr>
   <tr>
