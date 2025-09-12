@@ -1,9 +1,22 @@
 {
+  "name": "wiki.almalinux.org",
+  "version": "0.1.0",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "npx -y vuepress@1.9.10 build docs",
     "prebuild": "node scripts/merge-amis.js",
     "build": "npm run docs:build",
     "dev": "npm run docs:dev"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  },
+  "resolutions": {
+    "stylus": "github:stylus/stylus#^0.54.8"
   }
 }
