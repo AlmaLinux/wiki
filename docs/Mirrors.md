@@ -47,14 +47,14 @@ You can create a public AlmaLinux mirror in a few easy steps:
    We maintain AlmaLinux OS Kitten in a separate rsync module so you can choose whether or not to sync it. It is not required to be mirrored to be an AlmaLinux mirror, but all mirroring is welcomed and appreciated. Do keep in mind that the `almalinux-kitten` module should be synced as its own top-level project and must NOT be placed inside of the main `almalinux` target on your server. AlmaLinux Kitten mirroring requires very little extra bandwidth.
 
     - Initial sync:
-    ```shell
-    /usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/
-    ```
+      ```shell
+      /usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/
+      ```
     - Cron:
-    ```shell
-    0 */3 * * * /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
-    ```
-    :::
+      ```shell
+      0 */3 * * * /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
+      ```
+   :::
 
 4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
    [https://ipinfo.io](https://ipinfo.io).  Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
