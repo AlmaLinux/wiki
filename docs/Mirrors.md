@@ -23,10 +23,10 @@ You can create a public AlmaLinux mirror in a few easy steps:
      yum -y update rsync
      ```
    - You can verify that you have the expected version of `rsync` and `xxhash` support as follows:
-   ```shell
-   $ rsync --version |grep xxhash
-   xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
-   ```
+     ```shell
+     $ rsync --version |grep xxhash
+     xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
+     ```
    :::
 
 2. Synchronize with the official AlmaLinux mirror via `rsync`:
