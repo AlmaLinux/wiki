@@ -56,7 +56,7 @@ You can create a public AlmaLinux mirror in a few easy steps:
 0 */3 * * * /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
 ```
 
-::: 4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
+1. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
 [https://ipinfo.io](https://ipinfo.io).
 Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
 if the information is incorrect.
@@ -77,52 +77,52 @@ as an example. Your mirror does not have to provide all the protocols
 that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
 Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.
 
-    ```YAML
-    ---
-    name: <domain name of a mirror, e.g. almalinux.mirror.link>
-    cloud_type: <azure|aws. It'll be required if a mirror is located in AWS/Azure cloud>
-    address:
-      http: <http URL to a mirror, e.g. http://almalinux.mirror.link/almalinux>
-      https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux>
-      rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux>
-      ftp: <ftp URL to a mirror, e.g. ftp://almalinux.mirror.link/almalinux>
-    # if you are mirroring kitten as well provide only the protocols/URLs that you are hosting
-    # remove this section if you are not mirroring kitten
-    address_optional:
-      kitten:
-        http: <http URL to a mirror, e.g. http://almalinux.mirror.link/almalinux-kitten>
-        https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux-kitten>
-        rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux-kitten>
-    update_frequency: <update frequency of a mirror, e.g. 1h>
-    sponsor: <Name of a mirror's sponsor/holder, e.g. Some company name>
-    sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
-    email: <e-mail of a mirror's sponsor/holder, e.g. admin@some.company.name>
-    geolocation:
-      continent: <name of a continent, e.g. North America; this field is not mandatory>
-      country: <two-letter name of a country, e.g. US>
-      state_province: <name of a province, e.g. New York>
-      city: <name of a city, e.g. New York>
-    private: <true|false. A mirror is available in some local network if the param is true>
-    monopoly: <true|false. The mirrors list contains only this private mirror for a suitable client if param is true>
-    # The list will be required if a mirror is local or cloud.
-    # It contains subnets behind which located a private mirror.
-    # Also, it can be string and contains URL which returns json list with subnets
-    subnets:
-      - <network mask>
-    # That parameter can specify ASN which is maintained by a mirror is located in cloud
-    # It can be number or list of numbers:
-    # asn: 40162
-    # or
-    # asn:
-    #   - 41222
-    #   - 91213
-    # or
-    # asn: [12345, 98765]
-    asn: <ASN number or list of ASN numbers, see https://en.wikipedia.org/wiki/Autonomous_system_(Internet)>.
-    # The list will be required if a mirror is located in Azure/AWS cloud
-    cloud_regions:
-      - <cloud_region of Azure/AWS, e.g. australiacentral2>
-    ...
+```YAML
+---
+name: <domain name of a mirror, e.g. almalinux.mirror.link>
+cloud_type: <azure|aws. It'll be required if a mirror is located in AWS/Azure cloud>
+address:
+  http: <http URL to a mirror, e.g. http://almalinux.mirror.link/almalinux>
+  https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux>
+  rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux>
+  ftp: <ftp URL to a mirror, e.g. ftp://almalinux.mirror.link/almalinux>
+# if you are mirroring kitten as well provide only the protocols/URLs that you are hosting
+# remove this section if you are not mirroring kitten
+address_optional:
+  kitten:
+    http: <http URL to a mirror, e.g. http://almalinux.mirror.link/almalinux-kitten>
+    https: <https URL to a mirror, e.g. https://almalinux.mirror.link/almalinux-kitten>
+    rsync: <rsync URL to a mirror, e.g. rsync://almalinux.mirror.link/almalinux-kitten>
+update_frequency: <update frequency of a mirror, e.g. 1h>
+sponsor: <Name of a mirror's sponsor/holder, e.g. Some company name>
+sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
+email: <e-mail of a mirror's sponsor/holder, e.g. admin@some.company.name>
+geolocation:
+  continent: <name of a continent, e.g. North America; this field is not mandatory>
+  country: <two-letter name of a country, e.g. US>
+  state_province: <name of a province, e.g. New York>
+  city: <name of a city, e.g. New York>
+private: <true|false. A mirror is available in some local network if the param is true>
+monopoly: <true|false. The mirrors list contains only this private mirror for a suitable client if param is true>
+# The list will be required if a mirror is local or cloud.
+# It contains subnets behind which located a private mirror.
+# Also, it can be string and contains URL which returns json list with subnets
+subnets:
+  - <network mask>
+# That parameter can specify ASN which is maintained by a mirror is located in cloud
+# It can be number or list of numbers:
+# asn: 40162
+# or
+# asn:
+#   - 41222
+#   - 91213
+# or
+# asn: [12345, 98765]
+asn: <ASN number or list of ASN numbers, see https://en.wikipedia.org/wiki/Autonomous_system_(Internet)>.
+# The list will be required if a mirror is located in Azure/AWS cloud
+cloud_regions:
+  - <cloud_region of Azure/AWS, e.g. australiacentral2>
+...
 
 ```
 
