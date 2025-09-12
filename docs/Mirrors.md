@@ -28,7 +28,8 @@ You can create a public AlmaLinux mirror in a few easy steps:
    xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
    ```
    :::
-1. Synchronize with the official AlmaLinux mirror via `rsync`:
+
+2. Synchronize with the official AlmaLinux mirror via `rsync`:
 
    ```shell
    /usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/
@@ -36,46 +37,47 @@ You can create a public AlmaLinux mirror in a few easy steps:
 
    - The official tier0 rsync mirrors are in Atlanta, GA, USA; Seattle, WA, USA; Frankfurt, Germany, and Tokyo, Japan. We use geolocation-based DNS steering to send your traffic to the closest tier0 mirror.
 
-1. Create a cron task to sync it periodically (we recommend updating the
+3. Create a cron task to sync it periodically (we recommend updating the
    mirror every 3 hours):
    ```shell
    0 */3 * * * /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/dir/on/your/server/"
    ```
+
    ::: tip Optional Mirroring of AlmaLinux OS Kitten
    We maintain AlmaLinux OS Kitten in a separate rsync module so you can choose whether or not to sync it. It is not required to be mirrored to be an AlmaLinux mirror, but all mirroring is welcomed and appreciated. Do keep in mind that the `almalinux-kitten` module should be synced as its own top-level project and must NOT be placed inside of the main `almalinux` target on your server. AlmaLinux Kitten mirroring requires very little extra bandwidth.
 
-- Initial sync:
+    - Initial sync:
+    ```shell
+    /usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/
+    ```
+    - Cron:
+    ```shell
+    0 */3 * * * /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
+    ```
+    :::
 
-```shell
-/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/
-```
+4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
+   [https://ipinfo.io](https://ipinfo.io).  Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
+   if the information is incorrect. Our mirrorlist URL tries to serve the best mirror to a client based on IPinfo geolocation data
+   so having accurate IPinfo data ensures the best possible experience for users.
 
-- Cron:
+5. Join the [mirror-announce](https://lists.almalinux.org/mailman3/lists/mirror-announce.lists.almalinux.org/) mailing list to receive
+   important mirror-related updates from the AlmaLinux team.
 
-```shell
-0 */3 * * * /usr/bin/flock -n /var/run/almalinux_kitten_rsync.lock -c "/usr/bin/rsync -rlptvSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.kitten.repo.almalinux.org/almalinux-kitten/ /almalinux-kitten/dir/on/your/server/"
-```
+   You may also consider joining the [mirror](https://lists.almalinux.org/mailman3/lists/mirror.lists.almalinux.org/) mailing list for
+   general discussion/help related to mirrors.
 
-1. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
-[https://ipinfo.io](https://ipinfo.io).
-Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
-if the information is incorrect.
+   We recommend joining the [mirrors channel on Mattermost](https://chat.almalinux.org/almalinux/channels/mirrors) for any questions
+   as well as updates from our team that impact mirror hosts in a live interactive format.
 
-Our mirrorlist URL tries to serve the best mirror to a client based on IPinfo geolocation data
-so having accurate IPinfo data ensures the best possible experience for users. 5. Join the [mirror-announce](https://lists.almalinux.org/mailman3/lists/mirror-announce.lists.almalinux.org/) mailing list to receive
-important mirror-related updates from the AlmaLinux team.
-
-You may also consider joining the [mirror](https://lists.almalinux.org/mailman3/lists/mirror.lists.almalinux.org/) mailing list for
-general discussion/help related to mirrors.
-
-We recommend joining the [mirrors channel on Mattermost](https://chat.almalinux.org/almalinux/channels/mirrors) for any questions
-as well as updates from our team that impact mirror hosts in a live interactive format. 6. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
-repository and create a pull request that will add a YAML file describing
-your mirror to the `mirrors.d` directory.
-You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
-as an example. Your mirror does not have to provide all the protocols
-that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
-Also, you can validate your config to use some JSON online validator using [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.
+6. Fork the [github.com/AlmaLinux/mirrors](https://github.com/AlmaLinux/mirrors/)
+   repository and create a pull request that will add a YAML file describing
+   your mirror to the `mirrors.d` directory.
+   You can use the [official AlmaLinux repo file](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
+   as an example. Your mirror does not have to provide all the protocols
+   that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
+   Also, you can validate your config to use some JSON online validator using
+   [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.
 
 ```YAML
 ---
@@ -134,4 +136,3 @@ be added to the mirrorlists that dnf package manager works with.
 
 All mirror hosts are eligible for membership to the AlmaLinux OS Foundation.
 Make sure you submit your [application for membership](https://almalinux.org/foundation/members/)!
-```
