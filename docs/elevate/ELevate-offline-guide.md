@@ -15,7 +15,7 @@ This guide describes steps to be performed to migrate an air-gapped machine that
 If there's neither access to a private mirror nor the Internet, you'll have to use a data storage device to get local AlmaLinux and ELevate mirrors.
 :::
 
-::: info
+::: warning
 ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
 :::
 
