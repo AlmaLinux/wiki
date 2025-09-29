@@ -6,8 +6,7 @@ title: "Election processes and board terms"
 
 V1.0 - Adopted April 10th, 2024 [at the 31st board meeting](/Transparency.html#minutes-of-almalinux-os-foundation-board-meetings)
 
-General
-=======
+# General
 
 The AlmaLinux OS Foundation is managed by a Member-elected Board of Directors that is the ultimate authority responsible for the organization as a Delaware corporation with 501(c)6 tax-exempt status. The Board's responsibilities include oversight of the organization, including its operations, staff and budget; setting strategic direction and defining goals in line with the mission; satisfying financial and other regulations. The Board is composed of directors elected by the foundation members.
 
@@ -19,12 +18,11 @@ As outlined in the Bylaws Article IV Section 2:
 
 The number of Directors shall be at least twice the number of Platinum Members, up to a maximum of thirteen in all.
 
-Elections, Nominations, and Director Selection
-==============================================
+# Elections, Nominations, and Director Selection
 
 ### Voting Method
 
-Voting for all elections shall be done online using a voting platform or software like[  Helios Voting](https://vote.heliosvoting.org/). When elections are held, all parties eligible to vote shall receive an email notification with instructions on how to access the online voting systems, instructions on how to complete their vote, and a list of the candidates with further information about them and their interests/qualifications.
+Voting for all elections shall be done online using a voting platform or software like[ Helios Voting](https://vote.heliosvoting.org/). When elections are held, all parties eligible to vote shall receive an email notification with instructions on how to access the online voting systems, instructions on how to complete their vote, and a list of the candidates with further information about them and their interests/qualifications.
 
 ### Election Schedule
 
