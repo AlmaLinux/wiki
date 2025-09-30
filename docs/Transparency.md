@@ -1,3 +1,7 @@
+---
+title: "AlmaLinux OS Foundation"
+---
+
 # AlmaLinux OS Foundation
 
 The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all assets related to AlmaLinux OS. It is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/).
@@ -56,8 +60,10 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Aug , 2025 [Board meeting #42 agenda](https://docs.google.com/document/d/1mcRSWnzqOlT7LAWWOgwo3mZMY6pXTNsKbdsHYOK-A84/edit?tab=t.0)
-- Jul 8, 2025 [Board meeting #41 minutes](https://drive.google.com/file/d/1tS2WI28FrbHRBAH7COODEpbalqGLwFoL/view)
+- Oct 14, 2025 [Board meeting #44 agenda](https://docs.google.com/document/d/1fL6pCnvIvfj3uuUYUWLp9UwWpRxTsEPZ4rEgEF-jjFA/edit?tab=t.0)
+- Sep 09, 2025 [Board meeting #43 minutes](https://drive.google.com/file/d/1iGYlJofSYkpFDhRUpUrv7upo5sQOj-wB/view)
+- Aug 12, 2025 [Board meeting #42 minutes](https://drive.google.com/file/d/1dtiqaWzxIRrRQziG8h13Hc9uFvGpNprl/view)
+- Jul 08, 2025 [Board meeting #41 minutes](https://drive.google.com/file/d/1tS2WI28FrbHRBAH7COODEpbalqGLwFoL/view)
 - Jun 10, 2025 (meeting canceled)
 - May 13, 2025 [Board meeting #40 minutes](https://drive.google.com/file/d/13PZZ7eyKx4clvVU6qRw0mV_EPuvAy_QE/view)
 - Apr 08, 2025 [Board meeting #39 minutes](https://drive.google.com/file/d/1YpzVeq81TOYRE8sd3feRPVL9ujM7ePKO/view)

@@ -328,10 +328,17 @@ module.exports = {
         title: "The Foundation",
         path: "/Transparency",
         children: [
-          "/Transparency",
-          "/Election2022",
-          "/election2023",
-          "/Election2025",
+          "foundation/memberbenefits",
+          {
+            title: "Elections",
+            path: "/foundation/elections/",
+            children: [
+              "/Election2022",
+              "/election2023",
+              "/Election2025",
+              "/foundation/elections/processesandterms",
+            ],
+          },
           "/policies/expense_policy",
           "/gsoc",
         ],
