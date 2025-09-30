@@ -62,7 +62,7 @@ Information about the nominations and the election status are tracked on the ele
   - There are 8 voting seats on the board.
 
 - How long does a director serve?
-  - A term on the board is 3 years, unless the director leaves for any reasons.
+  - A term on the board is 3 years, unless the director leaves for any reason.
 
 - What platform will you use for the elections?
   - The election committee decides this, but typically uses Helios.
