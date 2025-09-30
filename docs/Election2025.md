@@ -1,14 +1,16 @@
 ---
-title: "Election 2025"
+title: "Election 2025 - Rescheduled"
 ---
 
-# AlmaLinux Board of Directors Election 2025
+# AlmaLinux Board of Directors Election 2025 - RESCHEDULED 
 
-# 2025 - Election Results
+Due to potential problems identified in the election process, this election has been rescheduled for March of 2026. You can find more information on the [AlmaLinux Blog](https://almalinux.org/blog/2025-09-30-election-update/).
 
-To be announced after the election concludes.
+## 2025 - Election Results
 
-# Process
+None - election was cancelled. 
+
+## Process
 
 The AlmaLinux OS Foundation is running an election to fill 7 seats on the Board of Directors. The election will start on August 31st, 2025.
 
@@ -21,7 +23,7 @@ To nominate someone email name & contact information of nominee to [elections@al
 
 Please, check FAQ section for more information.
 
-# Nominees
+## Nominees
 
 <table>
   <tr>
@@ -160,7 +162,7 @@ Please, check FAQ section for more information.
 
 Last updated: Aug 28, 2025
 
-# Election Committee
+## Election Committee
 
 <table>
   <tr>
@@ -173,7 +175,7 @@ Last updated: Aug 28, 2025
   </tr>
 </table>
 
-## FAQ
+### FAQ
 
 - When does the election start?
   - The election starts on August 31st, 2025 and runs until September 14th, 2025. If we don't reach quorum by September 14th, the election will stay open until quorum is reached.

@@ -20,11 +20,11 @@ The AlmaLinux bylaws were set up to include regular elections, to ensure AlmaLin
 
 Information about the nominations and the election status are tracked on the election specific pages:
 
-| Election year | Tracking page                       | Election status | Link to announcements                                                                                                                    |
-| ------------- | ----------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Election year | Tracking page                       | Election status | Link to announcements |
+| ------------- | ----------------------------------- | --------------- | ---------------------------------------------- |
 | 2022          | [Election 2022](/Election2022.html) | Complete        | [First AlmaLinux Board Election Announces 7 New Seats](https://almalinux.org/blog/first-almalinux-board-election-announces-7-new-seats/) |
-| 2023          | [Election 2023](/election2023.html) | Complete        | [Meet our two new board members!](https://almalinux.org/blog/2023-12-19-jun-and-alex-join-board/)                                        |
-| 2025          | [Election 2025](/Election2025.html) | In progress     | N/A                                                                                                                                      |
+| 2023          | [Election 2023](/election2023.html) | Complete        | [Meet our two new board members!](https://almalinux.org/blog/2023-12-19-jun-and-alex-join-board/)  |
+| 2025          | [Election 2025](/Election2025.html) | Rescheduled - 2026 |  [Election rescheduled for March 2026](https://almalinux.org/blog/2025-09-30-election-update/) (blog) |
 
 ## FAQ
 
