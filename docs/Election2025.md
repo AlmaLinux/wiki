@@ -2,13 +2,13 @@
 title: "Election 2025 - Rescheduled"
 ---
 
-# AlmaLinux Board of Directors Election 2025 - RESCHEDULED 
+# AlmaLinux Board of Directors Election 2025 - RESCHEDULED
 
 Due to potential problems identified in the election process, this election has been rescheduled for March of 2026. You can find more information on the [AlmaLinux Blog](https://almalinux.org/blog/2025-09-30-election-update/).
 
 ## 2025 - Election Results
 
-None - election was cancelled. 
+None - election was cancelled.
 
 ## Process
 
