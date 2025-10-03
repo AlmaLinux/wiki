@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "npm run prebuild && vuepress dev docs",
+    "docs:build": "npm run prebuild && vuepress build docs",
+    "prebuild": "bash ./aws_amis_md_csv_merge.sh"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
