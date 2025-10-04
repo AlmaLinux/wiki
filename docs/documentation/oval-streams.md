@@ -18,7 +18,6 @@ The supported AlmaLinux OS versions and their public OVAL streams are listed bel
 
 <https://security.almalinux.org/oval/org.almalinux.alsa-9.xml>
 
-
 ## AlmaLinux OS 10
 
 <https://security.almalinux.org/oval/org.almalinux.alsa-10.xml.bz2>
