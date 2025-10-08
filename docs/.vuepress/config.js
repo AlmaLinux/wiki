@@ -58,6 +58,7 @@ module.exports = {
           "/release-notes/10.0",
           "/release-notes/9.6",
           "/release-notes/8.10",
+          "/release-notes/9.7-beta",
           "/release-notes/kitten-10",
           {
             title: "Older AlmaLinux 10 releases",
