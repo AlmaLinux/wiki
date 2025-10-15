@@ -10,12 +10,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+        with:
+          # fetch all commits to get last updated time or other git log info
+          fetch-depth: 0
 
-      - name: Build and Deploy
-        uses: IT4Change/vuepress-build-and-deploy@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install deps
+        run: yarn
+
+      - name: Build VuePress site
+        run: yarn docs:build
+
+      # please check out the docs of the workflow for more details
+      # @see https://github.com/crazy-max/ghaction-github-pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: docs/.vuepress/dist
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: AlmaLinux/wiki
-          TARGET_BRANCH: gh-pages
-          BUILD_SCRIPT: yarn && yarn docs:build
-          BUILD_DIR: docs/.vuepress/dist/
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
