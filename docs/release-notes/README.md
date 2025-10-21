@@ -10,10 +10,10 @@ These are AlmaLinux Release Notes listed with Release Version, General Availabil
 
 Version 10 will have active support until 31 May 2030, and security support until 31 May 2035. Each minor version reaches end of life when the new version is released.
 
-| Release                     | Codename    | Beta Date   | Release Date | Kernel        | Supported Architectures                    |
-| --------------------------- | ----------- | ----------- | ------------ | ------------- | ------------------------------------------ |
-| [10.1 Beta](/release-notes/10.1-beta) | Heliotrope Lion | 21 Oct 2025  |             | 6.12.0-124 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
-| [10.0](/release-notes/10.0) | Purple Lion | 10 Dec 2024 | 27 May 2025  | 6.12.0-55.9.1 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
+| Release                               | Codename        | Beta Date   | Release Date | Kernel        | Supported Architectures                    |
+| ------------------------------------- | --------------- | ----------- | ------------ | ------------- | ------------------------------------------ |
+| [10.1 Beta](/release-notes/10.1-beta) | Heliotrope Lion | 21 Oct 2025 |              | 6.12.0-124    | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
+| [10.0](/release-notes/10.0)           | Purple Lion     | 10 Dec 2024 | 27 May 2025  | 6.12.0-55.9.1 | x86_64, x86_64_v2, aarch64, ppc64le, s390x |
 
 ### AlmaLinux OS 9
 
