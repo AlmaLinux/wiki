@@ -92,4 +92,4 @@ Links to repositories:
 
 ## Help and Contribute
 
-If you want to contribute or need any help, join us at [Cloud Sig at Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) or [Cloud Sig on Matrix](https://matrix.to/#/#sig-cloud:almalinux.im).
+If you want to contribute or need any help, join us at [Cloud SIG at Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) or [Cloud SIG on Matrix](https://matrix.to/#/#sig-cloud:almalinux.im).
