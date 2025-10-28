@@ -100,9 +100,8 @@ sponsor: <Name of a mirror's sponsor/holder, e.g. Some company name>
 sponsor_url: <URL of a mirror's sponsor/holder, e.g. http://some.company.name>
 email: <e-mail of a mirror's sponsor/holder, e.g. admin@some.company.name>
 geolocation:
-  continent: <name of a continent, e.g. North America; this field is not mandatory>
   country: <two-letter name of a country, e.g. US>
-  state_province: <name of a province, e.g. New York>
+  state_province: <name of a province, e.g. New York.  Field is required even if blank.>
   city: <name of a city, e.g. New York>
 private: <true|false. A mirror is available in some local network if the param is true>
 monopoly: <true|false. The mirrors list contains only this private mirror for a suitable client if param is true>
