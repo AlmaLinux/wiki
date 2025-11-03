@@ -2,11 +2,32 @@
 title: "ELevate Changelog"
 ---
 
-###### last updated: 2025-08-20
+###### last updated: 2025-11-03
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2025-11-03
+
+Released to Stable:
+
+#### PES data updates
+
+- New Vendor **elevate** - ELevate enables upgrades between major versions of RHEL derivatives. Enabled for all upgrade paths
+- Enable Vendors for 9 to 10 upgrade:
+  - **nginx**
+  - **kernelcare**
+  - **mariadb** (without MaxScale and Tools repositories)
+  - **imunify**
+  - **imunify360-alt-php**
+- Vendor **kernelcare** use `el-sig202505` repository
+- Vendor **imunify**: update rpm GPG key, correct EL9 `imunify360-testing` repository baseurl, update packages SIGs
+- Vendor **imunify360-alt-php** update rpm GPG key, update packages SIGs
+
+#### ELevate release package
+
+- Use `$releasever` instead of `%{rhel}` in `baseurl`
 
 ## 2025-08-20
 

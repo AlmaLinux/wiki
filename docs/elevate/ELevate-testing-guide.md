@@ -2,7 +2,7 @@
 title: "ELevate Testing Guide"
 ---
 
-###### last updated: 2025-06-09
+###### last updated: 2025-11-03
 
 # ELevate Testing Guide
 
@@ -21,12 +21,13 @@ The ELevate Project supports a number of 3rd party repositories:
 
 - EPEL support is currently available for upgrades to AlmaLinux OS only. **Note**, that the support works only for those packages from EL 9 that are currently available for EL 10. Unavailable packages from EL 9 will remain on the system after the upgrade.
 - Docker CE - for all supported operating systems.
-- MariaDB - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
-- nginx - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
+- MariaDB - for supported operating systems.
+- nginx - for supported operating systems.
 - PostgreSQL - for all supported operating systems.
-- Imunify - for upgrades to EL 8.
-- KernelCare - for supported operating systems excluding AlmaLinux 10, AlmaLinux Kitten 10, and CentOS Stream 10.
+- Imunify - for upgrades to EL 8 and EL 10.
+- KernelCare - for supported operating systems.
 - TuxCare - for all supported operating systems.
+- ELevate - for all supported operating systems.
 
 :::tip
 You can contribute to the project and add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
@@ -116,6 +117,10 @@ ELevate currently does not support the [Raspberry Pi images](https://github.com/
 
 ## Prepare the system for upgrading to AlmaLinux 9
 
+:::warning
+Skip these steps if your system was NOT upgraded from EL 7.
+:::
+
 When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to prepare your system for upgrading to AlmaLinux 9:
 
 - Navigate to the **/etc/** directory and use an editor of your choice to edit the **yum.conf** file. You need to remove everything from the **exclude** line especially that refers to elevate or leapp.
@@ -203,6 +208,12 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
   sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
   ```
 
+- Import ELevate GPG key:
+
+  ```bash
+  sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
+  ```
+
 - Install leapp packages and upgrade data for AlmaLinux:
 
   ```bash
@@ -267,6 +278,10 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
   ```
 
 ## Prepare the system for upgrade to AlmaLinux 10
+
+:::warning
+Skip these steps if your system was NOT upgraded from EL 8.
+:::
 
 When successfully upgraded to AlmaLinux 9 OS, consider performing these steps to prepare your system for upgrading to AlmaLinux 10:
 
@@ -354,6 +369,12 @@ The only difference is the `leapp-data` package.
 
   ```bash
   sudo curl https://repo.almalinux.org/elevate/testing/elevate-testing.repo -o /etc/yum.repos.d/elevate-testing.repo
+  ```
+
+- Import ELevate GPG key:
+
+  ```bash
+  sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
   ```
 
 - Install leapp packages and upgrade data for AlmaLinux which is target OS:
