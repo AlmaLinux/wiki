@@ -2,8 +2,6 @@
 title: "About ELevate project"
 ---
 
-###### last updated: 2025-11-03
-
 # About the project
 
 The ELevate project is an initiative to support upgrades between major versions of RHEL-derivatives.

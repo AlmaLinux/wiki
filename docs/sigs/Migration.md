@@ -2,8 +2,6 @@
 title: "Migration SIG"
 ---
 
-###### last updated: 2024-04-22
-
 # Migration SIG
 
 The Migration team is responsible for two migration projects - the migration tool and the ELevate project, including documentation and upgrades. See the [Migration](/migration/) section for more details.

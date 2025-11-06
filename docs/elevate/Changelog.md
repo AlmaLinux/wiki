@@ -2,8 +2,6 @@
 title: "ELevate Changelog"
 ---
 
-###### last updated: 2025-11-03
-
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.

@@ -2,8 +2,6 @@
 title: "ELevate Contribution Guide"
 ---
 
-###### last updated: 2025-11-03
-
 # Contribute to the ELevate project
 
 We welcome contributors to the ELevate project. You can help with:

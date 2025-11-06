@@ -2,8 +2,6 @@
 title: "Testing"
 ---
 
-###### last updated: 2024-08-30
-
 # Contribute to Testing
 
 At AlmaLinux, we're dedicated to providing a high-quality experience for our community. We believe that thorough testing is crucial to guaranteeing the quality and reliability of the distribution. We put a lot of effort into testing and making sure everything works smoothly regardless of where or what you run.

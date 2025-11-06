@@ -2,8 +2,6 @@
 title: "Core SIG"
 ---
 
-######last updated: 2024-04-22
-
 # Core SIG
 
 The Core team is responsible for the AlmaLinux OS distribution itself. This includes, but is not limited to building new distribution versions, delivering updates, core tooling development, and maintenance.

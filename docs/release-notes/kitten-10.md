@@ -2,8 +2,6 @@
 title: "Kitten 10"
 ---
 
-###### last updated: 2025-01-06
-
 # AlmaLinux OS Kitten 10 Release Notes
 
 ###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D

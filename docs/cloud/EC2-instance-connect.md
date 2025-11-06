@@ -2,8 +2,6 @@
 title: "EC2 Instance Connect"
 ---
 
-###### last modified: 2024-03-05
-
 # How to use EC2 Instance Connect
 
 ## About EC2 Instance Connect

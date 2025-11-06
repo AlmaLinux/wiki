@@ -2,8 +2,6 @@
 title: "Migration Guide"
 ---
 
-###### last updated: 2025-04-11
-
 # AlmaLinux Migration Guide
 
 This guide describes how to convert your operating system to AlmaLinux using the [AlmaLinux Migration tool](https://github.com/AlmaLinux/almalinux-deploy).

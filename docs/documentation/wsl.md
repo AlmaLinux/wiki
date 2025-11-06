@@ -2,8 +2,6 @@
 title: "AlmaLinux WSL"
 ---
 
-###### last modified: 2025-04-09
-
 # Windows Subsystem for Linux
 
 ## About Windows Subsystem for Linux

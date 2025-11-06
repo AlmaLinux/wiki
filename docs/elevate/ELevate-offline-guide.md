@@ -2,8 +2,6 @@
 title: "ELevate Offline Guide"
 ---
 
-###### last updated: 2025-06-09
-
 # ELevate Offline Guide
 
 This guide describes steps to be performed to migrate an air-gapped machine that has no connection to the Internet but has network access to a private mirror. The process involves at least two hosts:

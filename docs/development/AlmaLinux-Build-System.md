@@ -2,8 +2,6 @@
 title: "AlmaLinux Build System"
 ---
 
-###### last updated: 2024-10-28
-
 # AlmaLinux Build System
 
 ## About AlmaLinux Build System

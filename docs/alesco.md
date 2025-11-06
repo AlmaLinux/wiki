@@ -2,8 +2,6 @@
 title: "ALESCo"
 ---
 
-###### last updated: 2024-05-20
-
 # ALESCo
 
 The AlmaLinux Engineering Steering Committee (ALESCo), is a self-governing body made of active contributors to the project that will guide the technical direction of the AlmaLinux distribution. Participation in the meetings, discussions around potential changes, and other needs will be open to the AlmaLinux community, unless prevented for specific reasons (for example: an embargoed security patch). This committee was formed by vote of the [32nd meeting](https://drive.google.com/file/d/1rPU7QhRbLOsSrZBQcW5xQEItwgbP1Vt1/view) of the AlmaLinux OS Foundation board, May 8th of 2024.

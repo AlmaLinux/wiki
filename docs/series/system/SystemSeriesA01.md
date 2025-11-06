@@ -2,13 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-16
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
-<br>
-
 ## 🌟 Introduction
 
 This guide will introduce the fundamental concepts of AppStream modules and demonstrate their usage in an AlmaLinux environment. With the introduction of Application Streams in Red Hat® Enterprise Linux 8, user-space components can be delivered and updated more frequently than the core operating system packages. This feature enables greater customization of your AlmaLinux installation without compromising the platform's underlying stability or specific deployments.
