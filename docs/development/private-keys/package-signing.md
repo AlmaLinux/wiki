@@ -1,7 +1,5 @@
 # Package Signing Key Generation and Handling
 
-Last updated 2024-07-10.
-
 ## Owernship
 
 Certificate and key generation and handling is overseen by ALESCo.

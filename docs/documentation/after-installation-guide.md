@@ -2,14 +2,6 @@
 title: "AlmaLinux After-Installation Guide"
 ---
 
-###### last updated: 2023-01-15
-
-<hr>
-
-| 💡  | Experience Level              | ⭐☆☆☆☆     |
-| --- | ----------------------------- | ---------- |
-| 📆  | <small>Last modified </small> | 2023-01-15 |
-
 # After-installation Guide
 
 This guide describes recommended actions to be performed after the AlmaLinux OS installation is completed successfully and rebooted. It also contains some steps for the system's customization.

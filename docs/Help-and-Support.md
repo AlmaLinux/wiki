@@ -2,8 +2,6 @@
 title: "Help and Support"
 ---
 
-###### last modified: 2024-03-05
-
 # Get Community Help and Support
 
 The AlmaLinux Worldwide Community is made up of users with diverse skill sets and experience levels who can assist and support you across a range of questions, topics, and troubleshooting technical issues.

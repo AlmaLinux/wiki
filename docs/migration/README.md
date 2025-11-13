@@ -2,8 +2,6 @@
 title: "AlmaLinux Migration Projects"
 ---
 
-###### last updated: 2025-06-06
-
 # AlmaLinux Migration Projects
 
 AlmaLinux offers two projects for migrating your machine, each designed for specific migration paths.

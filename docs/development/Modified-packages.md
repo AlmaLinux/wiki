@@ -2,8 +2,6 @@
 title: "Modified packages"
 ---
 
-###### last updated: 2025-02-10
-
 # AlmaLinux OS Modified packages
 
 All AlmaLinux OS packages, including modified ones, can be found on [git.almalinux.org](https://git.almalinux.org/explore/repos). There are several branches in each package repository:

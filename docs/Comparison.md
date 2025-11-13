@@ -4,8 +4,6 @@ title: "Enterprise Linux Comparison"
 
 # Enterprise Linux Comparison
 
-###### Last updated 2024-09-09
-
 When deciding what OS to use, there are many factors that come into play for a variety of reasons. This page attempts to outline some of the specific differences, while focusing on the reasons that many in the AlmaLinux community have cited as the reasons they pick AlmaLinux. The enterprise linux ecosystem is vast and has many differentiators that are nuanced, hard to articulated, and don't fit easily into charts, but we have attempted to capture some of the differentiations below.
 
 ## Build Sources

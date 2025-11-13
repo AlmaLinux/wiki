@@ -2,10 +2,6 @@
 title: "ELevating CentOS 6 to CentOS 7"
 ---
 
-| Experience Level   | ⭐⭐☆☆☆ (Intermediate) |
-| ------------------ | ---------------------- |
-| Last modified date | 2024-04-16             |
-
 # ELevating CentOS 6 to CentOS 7
 
 ::: danger

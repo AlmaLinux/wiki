@@ -2,13 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-16
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
-<br>
-
 ## 🌟 Introduction
 
 This is a dedicated example for the **AlmaLinux 8.x series**, demonstrating how to install Nginx using one of the three variants:

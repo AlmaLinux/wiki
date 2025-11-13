@@ -2,8 +2,6 @@
 title: "ELevate NG Testing Guide"
 ---
 
-###### last updated: 2025-11-03
-
 # ELevate NG Testing Guide
 
 ::: warning

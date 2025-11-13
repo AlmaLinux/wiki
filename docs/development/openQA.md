@@ -2,10 +2,6 @@
 title: "openQA"
 ---
 
-| Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
-| ------------------ | -------------------- |
-| Last modified date | 4/12/2023            |
-
 ## About openQA in the AlmaLinux Project
 
 AlmaLinux places great importance on thorough testing. This guide outlines the implementation and use of the openQA tool for automating the testing of the AlmaLinux OS installation process across all supported architectures.

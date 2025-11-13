@@ -2,8 +2,6 @@
 title: "Live Media"
 ---
 
-###### last modified: 2025-02-17
-
 # Live Media
 
 ## About Live Media

@@ -2,13 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-10
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
-<br>
-
 ## 🌟 Introduction
 
 Firewalld is a dynamic firewall management tool that is enabled by default in AlmaLinux. It provides a flexible and powerful interface for configuring network traffic filtering rules and allows system administrators to easily manage firewall settings without needing to know the specifics of iptables or nftables. Firewalld uses zones, services, ports, source and destination, and masquerading/NAT to define firewall rules and secure network traffic. With firewalld, system administrators can create custom firewall configurations, add or remove services and ports, and manage network zones to secure their systems against unauthorized access and potential security threats.
