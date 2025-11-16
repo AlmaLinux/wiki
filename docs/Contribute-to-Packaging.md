@@ -2,8 +2,6 @@
 title: "Packaging"
 ---
 
-###### last updated: 2024-09-20
-
 # Contribute to Packaging
 
 AlmaLinux OS is, at its base, a collection of packages. For anyone who would like to contribute to the operating system, we have a collection of ways to help!

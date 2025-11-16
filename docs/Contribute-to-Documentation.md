@@ -2,8 +2,6 @@
 title: "Documentation"
 ---
 
-###### last updated: 2024-03-25
-
 # Contribute to AlmaLinux Documentation
 
 If you are interested in contributing to AlmaLinux Wiki Documentation, we recommend you follow these guidelines.

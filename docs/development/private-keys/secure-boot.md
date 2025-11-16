@@ -1,7 +1,5 @@
 # Secure Boot Key Generation and Handling
 
-Last updated 2024-03-13.
-
 ## Owernship
 
 Certificate and key generation and handling is overseen by ALESCo.

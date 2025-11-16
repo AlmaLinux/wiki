@@ -4,10 +4,6 @@ title: "Deploy a LAMP server"
 
 # Deploy a LAMP server
 
-| Experience Level   | ⭑⭑         |
-| ------------------ | ---------- |
-| Last modified date | 2024-05-18 |
-
 The **LAMP** stack, comprising **L**inux, **A**pache, **M**ySQL, and **P**HP owes much of its popularity and versatility to its open-source nature.
 
 - **L**inux, the operating system at its core, embodies collaborative development, providing a stable foundation for web servers.

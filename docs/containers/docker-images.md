@@ -2,8 +2,6 @@
 title: "Docker Images"
 ---
 
-###### last updated: 2025-06-20
-
 # AlmaLinux OS Docker Images
 
 ## About AlmaLinux Docker Images

@@ -2,8 +2,6 @@
 title: "AlmaLinux Build System"
 ---
 
-###### last updated: 2024-10-16
-
 # Contribute to AlmaLinux Build System
 
 The AlmaLinux Build System is managed by the [SIG/Build System](/sigs/Build-System) SIG.

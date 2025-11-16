@@ -2,8 +2,6 @@
 title: "ELevating CentOS 7 to AlmaLinux 10"
 ---
 
-###### last updated: 2025-11-03
-
 # ELevating CentOS 7 to AlmaLinux 10
 
 This guide contains steps on how to upgrade your CentOS 7 machine to AlmaLinux OS 9.

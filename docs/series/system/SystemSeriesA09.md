@@ -2,12 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
-
 Jounalctl Man page: https://man7.org/linux/man-pages/man1/journalctl.1.html
 
 # Check if the journal directory exists:

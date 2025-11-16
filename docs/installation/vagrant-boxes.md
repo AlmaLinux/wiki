@@ -2,8 +2,6 @@
 title: "Vagrant Boxes"
 ---
 
-###### last updated: 2025-06-20
-
 # Vagrant Boxes
 
 AlmaLinux offers official AlmaLinux OS images for Vagrant Boxes. Images are delivered by the AlmaLinux [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html).

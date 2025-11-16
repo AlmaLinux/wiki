@@ -2,12 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐⭐☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-02-02
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
-
 These packages have been needed for multiple software, such has "Thinkbox Deadline" and were either backported, requested, or discovered as alternatives for AlmaLinux 9 for users migrating from enterprise Linux 8.
 
 # Enable CRB:
