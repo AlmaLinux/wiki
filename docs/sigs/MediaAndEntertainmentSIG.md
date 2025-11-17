@@ -10,14 +10,12 @@ The AlmaLinux Media & Entertainment SIG is a Special Interest Group dedicated to
 
 Our mission is to ensure AlmaLinux becomes the trusted, production-ready Linux platform for studios of all sizes by serving as the central hub for collaboration between artists, engineers, and open-source developers. We will work to ensure AlmaLinux is the trusted, production-ready Linux platform for studios large and small, while contributing patches, documentation, and reference architectures back to the AlmaLinux ecosystem.
 
-### How to Join
+## How to Join
 
 Joining is easy! You can:
-Show up to a SIG meeting
-
-Pick up an issue from our tracker by assigning it to yourself
-
-Ask questions and get involved in our chat space
+* Show up to a SIG meeting
+* Pick up an issue from our tracker by assigning it to yourself
+* Ask questions and get involved in our chat
 
 Not every contributor wants to be a member of the SIG, but if you do, participation is straightforward and always welcome.
 
