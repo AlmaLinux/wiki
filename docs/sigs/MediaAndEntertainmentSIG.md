@@ -19,7 +19,7 @@ Joining is easy! You can:
 
 Not every contributor wants to be a member of the SIG, but if you do, participation is straightforward and always welcome.
 
-### Where we chat
+## Where we chat
 
 We use Mattermost (link TBD) for communication. Discussions also occur on the AlmaLinux mailing list: lists.almalinux.org.
 
