@@ -29,7 +29,7 @@ The Media & EntertainmentSIG will hold monthly meetings on the first Wednesday o
 This time was chosen to accommodate members across Europe and Canada — aligning with late afternoon in Europe and mid-morning to midday across Canadian time zones.
 Meetings are open to all and will be held virtually through the AlmaLinux community platform.
 
-### Activities, projects, and deliverables
+## Activities, projects, and deliverables
 
 The Media & EntertainmentSIG will focus on:
 Certification & compatibility: Ensuring Media & Entertainment industry-standard tools (Nuke, Houdini, Maya, Blender, etc.) run smoothly on AlmaLinux.
