@@ -23,7 +23,7 @@ Not every contributor wants to be a member of the SIG, but if you do, participat
 
 We use Mattermost (link TBD) for communication. Discussions also occur on the AlmaLinux mailing list: lists.almalinux.org.
 
-### Where and when we meet
+## Where and when we meet
 
 The Media & EntertainmentSIG will hold monthly meetings on the first Wednesday of each month at 16:00 UTC.
 This time was chosen to accommodate members across Europe and Canada — aligning with late afternoon in Europe and mid-morning to midday across Canadian time zones.
