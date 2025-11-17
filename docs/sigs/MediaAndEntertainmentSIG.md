@@ -82,7 +82,7 @@ Infrastructure: A Mattermost channel, mailing list, and GitHub space under AlmaL
 
 None required at this stage, though future sponsorship may be requested for industry outreach (e.g., SIGGRAPH presence or licensing to test softwares).
 
-### Why now
+## Why now
 
 The Media & Entertainment industry is experiencing significant disruption due to recent licensing and support changes from established platform providers. This has created a clear and urgent demand for a stable, open-source, and enterprise-grade Linux distribution that studios can rely on. AlmaLinux is perfectly positioned to fill this gap.
 This SIG will act as the crucial bridge between the AlmaLinux community and the M&E industry. We will ensure the needs of studios, artists, and engineers are not just heard, but are actively documented, addressed, and integrated into the AlmaLinux ecosystem, guaranteeing it is the trusted, long-term platform for production pipelines.
