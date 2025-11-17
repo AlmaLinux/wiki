@@ -78,7 +78,7 @@ Mid to late - 2026: Publication of reference architectures and compatibility gui
 
 Infrastructure: A Mattermost channel, mailing list, and GitHub space under AlmaLinux.
 
-### Funding
+## Funding
 
 None required at this stage, though future sponsorship may be requested for industry outreach (e.g., SIGGRAPH presence or licensing to test softwares).
 
