@@ -1,7 +1,14 @@
+---
+title: "Media & Entertainment SIG"
+---
+
 # Media & Entertainment SIG
 
-Special Interest Group for Visual Effects, Animation, Post-Production and other Media & Entertainment fields.
-The Media & Entertainment SIG is a Special Interest Group dedicated to supporting and enhancing the use of AlmaLinux within the professional visual effects, animation, and post-production industries. Our mission is to ensure AlmaLinux becomes the trusted, production-ready Linux platform for studios of all sizes by serving as the central hub for collaboration between artists, engineers, and open-source developers. To ensure AlmaLinux is the trusted, production-ready Linux platform for studios large and small, while contributing patches, documentation, and reference architectures back to the AlmaLinux ecosystem.
+## Special Interest Group for Visual Effects, Animation, Post-Production and other Media & Entertainment fields.
+
+The AlmaLinux Media & Entertainment SIG is a Special Interest Group dedicated to supporting and enhancing the use of AlmaLinux within the professional visual effects, animation, and post-production industries. 
+
+Our mission is to ensure AlmaLinux becomes the trusted, production-ready Linux platform for studios of all sizes by serving as the central hub for collaboration between artists, engineers, and open-source developers. We will work to ensure AlmaLinux is the trusted, production-ready Linux platform for studios large and small, while contributing patches, documentation, and reference architectures back to the AlmaLinux ecosystem.
 
 ### How to Join
 
