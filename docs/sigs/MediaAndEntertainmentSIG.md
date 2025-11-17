@@ -74,7 +74,7 @@ Q1 2026 Official kickoff, initial focus on documenting AlmaLinux workstation and
 
 Mid to late - 2026: Publication of reference architectures and compatibility guidelines for Media & Entertainment studios.
 
-### Resources
+## Resources
 
 Infrastructure: A Mattermost channel, mailing list, and GitHub space under AlmaLinux.
 
