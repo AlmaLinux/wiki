@@ -67,7 +67,7 @@ Project/task tracker: [GitHub Issues link TBD]
 - Neal Gompa – Founding Member (Engineer, Velocity Limitless)
 - Samuel Bissonnette - Contributor, Member (Pipeline TD, SHED Inc.)
 
-### Additional information for SIG application approval
+## Additional information for SIG application approval
 
 Timeline
 Q1 2026 Official kickoff, initial focus on documenting AlmaLinux workstation and render farm configurations.
