@@ -2,11 +2,28 @@
 title: "ELevate Changelog"
 ---
 
-###### last updated: 2025-11-03
+###### last updated: 2025-11-18
 
 # ELevate Changelog
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
+
+## 2025-11-18
+
+Released to Stable:
+
+#### Leapp Framework
+
+- Update to the upstream 0.20.0 version [(209a1dbc61b319d64abd0eff23a21d8cdbf08882)](https://github.com/oamg/leapp/commit/209a1dbc61b319d64abd0eff23a21d8cdbf08882).
+
+#### Leapp Repository
+
+- Update to the upstream 0.23.0 version [(c86de9a8c52d6f1279aba4a9b0d5f169cbbcc720)](https://github.com/oamg/leapp-repository/commit/c86de9a8c52d6f1279aba4a9b0d5f169cbbcc720).
+
+#### Leapp Data
+
+- Update all data into stream 4.0.
+- Update all repomap files into new format version 1.3.0.
 
 ## 2025-11-03
 
