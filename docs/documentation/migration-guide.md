@@ -2,7 +2,7 @@
 title: "Migration Guide"
 ---
 
-###### last updated: 2025-04-11
+###### last updated: 2025-11-25
 
 # AlmaLinux Migration Guide
 
@@ -28,6 +28,10 @@ It's recommended to have a backup or snapshot of your system. There'll be a rest
 
 ::: warning
 Make sure you are using reliable console access to your system. It's recommended that the migration tool is run from inside main console or via ssh.
+:::
+
+::: warning
+Ensure that the `/boot` partition has sufficient available space. The new AlmaLinux kernel installs alongside existing versions rather than replacing them. A 512 Mb partition is ok to accommodate three kernel versions.
 :::
 
 ## Migrating using AlmaLinux public repositories (Online Systems)
