@@ -36,9 +36,7 @@ Currently, the following upgrade paths are available:
 
 ![image](/images/ELevate.svg)
 
-\* - upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. Please, see more in the [known issues](/elevate/ELevate-frequent-issues). <br>
-\*\* - upgrading to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.<br>
-\*\*\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
+\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
 
 ::: warning
 ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
@@ -49,8 +47,7 @@ ELevate currently does not support the [Raspberry Pi images](https://github.com/
 Depending on your upgrade path, you'll need one of the following systems installed to use this guide:
 
 - CentOS 7 – if you're upgrading to EL 8
-- Scientific Linux 7 – if you're upgrading to AlmaLinux 8
-- AlmaLinux 8, CentOS Stream 8, or Rocky Linux 8 – if you're upgrading to EL 9
+- AlmaLinux 8 or CentOS Stream 8 – if you're upgrading to EL 9
 - AlmaLinux 9 or CentOS Stream 9 – if you're upgrading to EL10
 
 **NOTE:** Since the CentOS 7 repositories are now offline you will need to swap to the CentOS vault, or you can use our CentOS 7 mirror that we've setup for use with ELevate:
@@ -78,8 +75,6 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
   - leapp-data-almalinux
   - leapp-data-almalinux-kitten <small>\* leapp-data-almalinux-kitten package is designed for upgrades from AlmaLinux OS 9 to AlmaLinux Kitten OS 10.</small>
   - leapp-data-centos <small>\* leapp-data-centos package is designed for upgrades to CentOS Stream.</small>
-  - leapp-data-oraclelinux
-  - leapp-data-rocky
 
   ```bash
   sudo yum install -y leapp-upgrade leapp-data-almalinux

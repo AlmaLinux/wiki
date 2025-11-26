@@ -163,14 +163,6 @@ AlmaLinux Team is working hard to get a solution for these issues. Any contribut
 
 - Some CentOS 7 packages can remain after the upgrade.
 
-### Upgrading from Scientific Linux 7
-
-Upgrading from Scientific Linux 7 to AlmaLinux 8 requires a workaround. You can apply it by running the following command before the preupgrade check:
-
-```
-rm -rf /usr/share/redhat-release /usr/share/doc/redhat-release
-```
-
 ## Get Help
 
 For more help and assistance reach out to us on the [AlmaLinux Community Chat](https://chat.almalinux.org/almalinux/channels/migration).
