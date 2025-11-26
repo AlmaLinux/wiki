@@ -43,7 +43,7 @@ Best practices: Security hardening, performance tuning, and reliability guidelin
 
 Community contributions: Packaging, testing, and bug reporting related to Media & Entertainment software.
 
-### Help wanted
+## Help wanted
 
 We welcome contributions of all shapes and sizes! Areas where help is needed:
 Packaging: Assist in building and packaging ASWF projects into RPMs and Creating automation playbooks for render farms, storage, and pipeline tools for AlmaLinux
