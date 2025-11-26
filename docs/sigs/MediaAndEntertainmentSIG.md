@@ -54,7 +54,7 @@ Upstream Collaboration: Work with the upstream ASWF project teams to contribute 
 
 Project/task tracker: [GitHub Issues link TBD]
 
-### SIG members
+## SIG members
 
 - Tristan Theroux – SIG Lead (IT Infrastructure & Security Director, SHED Inc.)
 - Cristian Slavik – Founding Member (NOX, VFX Supervisor)
