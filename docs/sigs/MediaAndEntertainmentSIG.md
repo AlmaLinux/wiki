@@ -22,7 +22,7 @@ Not every contributor wants to be a member of the SIG, but if you do, participat
 
 ## Where we chat
 
-We use Mattermost (link TBD) for communication. Discussions also occur on the AlmaLinux mailing list: lists.almalinux.org.
+We use Mattermost (the [~sig-media-entertainment](https://chat.almalinux.org/almalinux/channels/sig-media-entertainment) room)for communication. Discussions also occurs on the AlmaLinux mailing list: [media-entertainment-sig@lists.almalinux.org](https://lists.almalinux.org/mailman3/lists/media-entertainment-sig.lists.almalinux.org/).
 
 ## Where and when we meet
 
