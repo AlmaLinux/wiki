@@ -199,12 +199,12 @@ module.exports = {
           "/Comparison",
           "/documentation/nvidia",
           "/FAQ",
-            "/Howto",
-            {
-              title: "Beginner Series",
-              path: "/beginners/",
-              children: ["/beginners/file-and-folder-permissions"],
-            },
+          "/Howto",
+          {
+            title: "Beginner Series",
+            path: "/beginners/",
+            children: ["/beginners/file-and-folder-permissions"],
+          },
           {
             title: "openQA Guide",
             path: "/development/openQA",
