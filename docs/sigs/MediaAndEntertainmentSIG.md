@@ -26,13 +26,13 @@ We use Mattermost (the [~sig-media-entertainment](https://chat.almalinux.org/alm
 
 ## Where and when we meet
 
-The Media & EntertainmentSIG will hold monthly meetings on the first Wednesday of each month at 16:00 UTC.
+The Media & Entertainment SIG will hold monthly meetings on the first Wednesday of each month at 16:00 UTC.
 This time was chosen to accommodate members across Europe and Canada — aligning with late afternoon in Europe and mid-morning to midday across Canadian time zones.
 Meetings are open to all and will be held virtually through the AlmaLinux community platform.
 
 ## Activities, projects, and deliverables
 
-The Media & EntertainmentSIG will focus on:
+The Media & Entertainment SIG will focus on:
 Certification & compatibility: Ensuring Media & Entertainment industry-standard tools (Nuke, Houdini, Maya, Blender, etc.) run smoothly on AlmaLinux.
 
 Reference builds: Providing guides for configuring workstations, render nodes, and storage systems.
@@ -58,7 +58,7 @@ Project/task tracker: [GitHub Issues link TBD]
 
 - Tristan Theroux – SIG Lead (IT Infrastructure & Security Director, SHED Inc.)
 - Cristian Slavik – Founding Member (NOX, VFX Supervisor)
-- Mike Owen –Founding Member (AWS M&E)
+- Mike Owen – Founding Member (AWS M&E)
 - Eric Marundee - Founding Member (Independent)
 - Aubert Vachon - Founding Member ( IT Operations Manager, Cinesite)
 - John Kirkman - Founding Member ( Director of Platform & Infrastructure, Disney Animation Studios)
