@@ -8,17 +8,25 @@ title: "Raspberry Pi"
 
 [The Raspberry Pi](https://www.raspberrypi.org/) is a compact computer primarily used for learning computing and programming. It's also very popular for many DIY projects, including home media centers and home automation. Whether you need a full desktop experience or prefer running it headless depends on your project. While the Raspberry Pi can run different operating systems, it was specifically designed for Linux.
 
+:::tip
+The official AlmaLinux Raspberry Pi images come with the default username and password are both set to `almalinux`. By default, only console login is allowed.
+See the [cloud-init section](#configuration-using-cloud-init) for instructions on how to add you SSH public key for SSH access or perform additional customizations.
+:::
+
 ## Tested models
 
 The AlmaLinux OS releases have been tested on the following models.
 
-* Raspberry Pi 5 (supported since June 2024 images)
-* Raspberry Pi 4 Model B
-* Raspberry Pi 400
-* Raspberry Pi 3 Model B+
-* Raspberry Pi 3 Model A+
+- Raspberry Pi 5 (supported since June 2024 images)
+- Raspberry Pi 500, 500+
+- Raspberry Pi 4 Model B
+- Raspberry Pi 400
+- Raspberry Pi 3 Model B+
+- Raspberry Pi 3 Model A+
 
 32-bit Raspberry Pis (ARMv6/ARMv7) and original Raspberry Pi 3 (without "+" models) are not supported. Other ARMv8 Raspberry Pis such as Compute Modules are not tested but will probably work. Let us know if it doesn't work. See also [How to contribute](#how-to-contribute) section.
+
+Since AlmaLinux 9.5, images with GPT (GUID partition table) have been available in addition to traditional MBR images. GPT supports larger disks over 2TB and allows up to 128 partitions, compared to MBR's limit of 4. However, booting from a GPT disk is not supported on Raspberry Pi 3. Select the appropriate image for your Raspberry Pi model.
 
 ## Installation steps
 
@@ -27,109 +35,50 @@ The AlmaLinux OS releases have been tested on the following models.
 AlmaLinux OS provides standard Raspberry Pi images and images with a GNOME desktop environment.
 Raspberry Pi images can be found on repo.almalinux.org/rpi/ and [mirrors](https://mirrors.almalinux.org/). It is recommended to get images from your nearest mirror. Dig into `/9/raspberrypi/images/` or `/8/raspberrypi/images/` directory of your nearest mirror.
 
-* [AlmaLinux OS 8](https://repo.almalinux.org/almalinux/8/raspberrypi/images/)
-* [AlmaLinux OS 9](https://repo.almalinux.org/almalinux/9/raspberrypi/images/)
+- [AlmaLinux OS 8](https://repo.almalinux.org/almalinux/8/raspberrypi/images/)
+- [AlmaLinux OS 9](https://repo.almalinux.org/almalinux/9/raspberrypi/images/)
+- [AlmaLinux OS 10](https://repo.almalinux.org/almalinux/10/raspberrypi/images/)
+
+Also, AlmaLinux OS Kitten images are available. Please also visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
+
+- [AlmaLinux OS Kitten 10](https://repo.almalinux.org/almalinux-kitten/10-kitten/raspberrypi/images/) for details.
 
 :::details
 At the time of our testing, these commands were used to fetch the images:
 
-* AlmaLinux OS 8
+- AlmaLinux OS 8
   ```shell
   $ curl -LO https://repo.almalinux.org/almalinux/8/raspberrypi/images/AlmaLinux-8-RaspberryPi-latest.aarch64.raw.xz
   ```
-* AlmaLinux OS 9
+- AlmaLinux OS 9
   ```shell
   $ curl -LO https://repo.almalinux.org/almalinux/9/raspberrypi/images/AlmaLinux-9-RaspberryPi-latest.aarch64.raw.xz
   ```
-:::
-
-### Verify AlmaLinux 8 images
-
-   :::tip
-   If you are using an AlmaLinux OS-powered system, you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux` file. So you can skip the download the key and print the key fingerprint steps.
-   Run the following command to import the key instead:
-   ```shell
-   gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
-   ```
-   :::
-
-**In order to verify a downloaded image you need to:**
-
-* Import the AlmaLinux OS PGP public key first:
-   ```shell
-   $ curl -O -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux
-   ```
-
-* Print the key fingerprint:
-  ```shell
-  $ gpg --with-subkey-fingerprints RPM-GPG-KEY-AlmaLinux
-  gpg: WARNING: no command supplied.  Trying to guess what you mean ...
-  pub   rsa4096 2021-01-12 [C] [expires: 2024-01-12]
-        5E9B8F5617B5066CE92057C3488FCF7C3ABB34F8
-  uid           AlmaLinux <packager@almalinux.org>
-  sub   rsa3072 2021-01-12 [S] [expires: 2024-01-12]
-  ```
-  :::warning
-  The fingerprint is `5E9B8F5617B5066CE92057C3488FCF7C3ABB34F8`. If you see a different fingerprint, it means you downloaded a compromised file. Please, [let us know](mailto:security@almalinux.org), remove the file and retry the download.
-  :::
-
-* Next you need to import the key:
-  ```shell
-  $ gpg --import RPM-GPG-KEY-AlmaLinux
-  gpg: key 488FCF7C3ABB34F8: public key "AlmaLinux <packager@almalinux.org>" imported
-  gpg: Total number processed: 1
-  gpg:               imported: 1
-  ```
-
-**To verify the image:**
-
-* Download the checksum file and its signature first:
-  ```shell
-  $ curl -O -s https://repo.almalinux.org/rpi/images/CHECKSUM
-  $ curl -O -s https://repo.almalinux.org/rpi/images/CHECKSUM.asc
-  ```
-
-* Verify the checksum file signature:
-  ```shell
-  $ gpg --verify CHECKSUM.asc CHECKSUM
-  gpg: Signature made Mon 14 Nov 2022 06:40:06 PM CET
-  gpg:                using RSA key 51D6647EC21AD6EA
-  gpg: Good signature from "AlmaLinux <packager@almalinux.org>" [unknown]
-  gpg: WARNING: This key is not certified with a trusted signature!
-  gpg:          There is no indication that the signature belongs to the owner.
-  Primary key fingerprint: 5E9B 8F56 17B5 066C E920  57C3 488F CF7C 3ABB 34F8
-       Subkey fingerprint: E53C F5EF 91CE B0AD 1812  ECB8 51D6 647E C21A D6EA
-  ```
-  :::tip
-  Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"` message in the output.
-  :::
-
-* Verify the checksum of the downloaded image:
-  ```shell
-  $ sha256sum -c CHECKSUM 2>&1 | grep OK
-  AlmaLinux-8-RaspberryPi-latest.aarch64.raw.xz: OK
-  ```
-  :::warning
-  If the output is different, you should download the image again.
   :::
 
 ### Verify AlmaLinux 9 images
 
+The instructions below are typical examples based on AlmaLinux 9. If you use a different version, please adjust accordingly.
+
 **In order to verify a downloaded image:**
 
-* Import the AlmaLinux OS PGP public key first:
+- Import the AlmaLinux OS PGP public key first:
+
   ```shell
   $ curl -O -s https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-9
   ```
+
   :::tip
   If you are using an AlmaLinux OS-powered system, you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9` file. So you can skip the download the key and print the key fingerprint steps.
   Run the following command instead to import the key:
+
   ```shell
   gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
   ```
+
   :::
 
-* Print the key fingerprint:
+- Print the key fingerprint:
   ```shell
   $ gpg --with-subkey-fingerprints RPM-GPG-KEY-AlmaLinux-9
   pub   rsa4096 2022-01-18 [SC]
@@ -140,7 +89,7 @@ At the time of our testing, these commands were used to fetch the images:
   :::warning
   The fingerprint is `BF18AC2876178908D6E71267D36CB86CB86B3716`. If you see a different fingerprint, it means you downloaded a compromised file. Please, [let us know](mailto:security@almalinux.org), remove the file and retry the download.
   :::
-* Next you need to import the key:
+- Next you need to import the key:
   ```shell
   $ gpg --import RPM-GPG-KEY-AlmaLinux-9
   gpg: key D36CB86CB86B3716: public key "AlmaLinux <packager@almalinux.org>" imported
@@ -149,13 +98,16 @@ At the time of our testing, these commands were used to fetch the images:
   ```
 
 **To verify the image:**
-* Download the checksum file and its signature first:
+
+- Download the checksum file and its signature first:
+
   ```shell
   $ curl -O -s https://repo.almalinux.org/rpi/9/images/CHECKSUM
   $ curl -O -s https://repo.almalinux.org/rpi/9/images/CHECKSUM.asc
   ```
 
-* Verify the checksum file signature:
+- Verify the checksum file signature:
+
   ```shell
   $ gpg --verify CHECKSUM.asc CHECKSUM
   gpg: Signature made Fri 18 Nov 2022 12:06:49 AM CET
@@ -165,11 +117,12 @@ At the time of our testing, these commands were used to fetch the images:
   gpg:          There is no indication that the signature belongs to the owner.
   Primary key fingerprint: BF18 AC28 7617 8908 D6E7  1267 D36C B86C B86B 3716
   ```
+
   :::tip
   Make sure that you see the `Good signature from "AlmaLinux <packager@almalinux.org>"` message in the output.
   :::
 
-* Verify the checksum of the downloaded image:
+- Verify the checksum of the downloaded image:
   ```shell
   $ sha256sum -c CHECKSUM 2>&1 | grep OK
   AlmaLinux-9-RaspberryPi-latest.aarch64.raw.xz: OK
@@ -177,44 +130,48 @@ At the time of our testing, these commands were used to fetch the images:
   :::warning
   If the output is different, you should download the image again.
   :::
+
 ### Burn Raspberry Pi image
 
 The next step is to burn the image to an SD card using
+
 - [RPi Imager](https://www.raspberrypi.com/documentation/computers/getting-started.html#using-raspberry-pi-imager)
 - [Fedora Media Writer](https://github.com/FedoraQt/MediaWriter/releases/)
-- [balenaEtcher](https://www.balena.io/etcher/)
 - `dd`
-...  or a tool of your choice.
+  ... or a tool of your choice.
 
 When it's done insert the SD Card into your Raspberry Pi and boot.
 
-  :::tip
-  Do not use OS customization feature built in RPi Imager. AlmaLinux doesn't support the feature and it conflicts with our initialization process such as default user creation. If you want to apply custom configuration, edit `user-data` file as described in [Configuration using cloud-init](#configuration-using-cloud-init) section.
-  :::
+:::tip
+Do not use OS customization feature built in RPi Imager. AlmaLinux doesn't support the feature and it conflicts with our initialization process such as default user creation. If you want to apply custom configuration, edit `user-data` file as described in [Configuration using cloud-init](#configuration-using-cloud-init) section.
+:::
 
 ### Getting started
 
 When you boot your Raspberry Pi use you can login with the `almalinux` user and `almalinux` password. `root` account is locked by default.
 
 ### Connecting to Wi-Fi
-* Check whether wifi is enabled:
+
+- Check whether wifi is enabled:
+
   ```shell
   $ nmcli radio wifi
   ```
-You should see the command responding with *enabled*.
 
-* Next, check the list of local Wi-Fi networks next to you to find one you want to connect:
+  You should see the command responding with _enabled_.
+
+- Next, check the list of local Wi-Fi networks next to you to find one you want to connect:
   ```shell
   $ nmcli dev wifi list
   ```
-* Connect to the Wi-Fi network:
+- Connect to the Wi-Fi network:
   ```shell
   $ nmcli --ask dev wifi connect <network-ssid>
   ```
   :::tip
   The --ask option will ask you to enter the password.
   :::
-* Your wlan0 interface should now be active and pull an IP via DHCP. You can verify this via `nmcli con show` to check the physical layer connection and then `ip a` to see if you've gotten an IP.
+- Your wlan0 interface should now be active and pull an IP via DHCP. You can verify this via `nmcli con show` to check the physical layer connection and then `ip a` to see if you've gotten an IP.
 
 ### Getting GNOME working
 
@@ -226,25 +183,27 @@ If you got an AlmaLinux Raspberry Pi GNOME image, please, ignore this section, a
 
 (if you installed a standard AlmaLinux Raspberry Pi image)
 
-* You can install just a barebones GNOME desktop environment once you installed the Raspberry Pi system.
+- You can install just a barebones GNOME desktop environment once you installed the Raspberry Pi system.
 
-* To do so run the following command:
+- To do so run the following command:
+
   ```shell
   dnf groupinstall gnome-desktop
   ```
+
   :::tip
   Please, note that you might need to install additional packages if needed.
   :::
 
-* If you want to install a more comprehensive GNOME environment:
+- If you want to install a more comprehensive GNOME environment:
   ```
   dnf groupinstall "Server with GUI"
   ```
-* When the GNOME is installed run the following command to change the boot target to graphical:
+- When the GNOME is installed run the following command to change the boot target to graphical:
   ```
   systemctl set-default graphical
   ```
-* Reboot the system using the `sudo reboot` command and enjoy your Raspberry Pi with GNOME.
+- Reboot the system using the `sudo reboot` command and enjoy your Raspberry Pi with GNOME.
 
 The Raspberry Pi demo video can be found in the [GitHub repository](https://github.com/AlmaLinux/raspberry-pi#bonus-round-2-getting-gnome-working).
 
@@ -254,7 +213,6 @@ AlmaLinux Raspberry Pi image now supports [cloud-init](https://cloudinit.readthe
 This section describes some typical examples to setup AlmaLinux Raspberry Pi image. See [the cloud-init official documentation](https://cloudinit.readthedocs.io/en/latest/index.html) for further information.
 
 To configure early initialization, modify `user-data` file in FAT boot volume named `CIDATA` (the same location where `config.txt` exists). Please note that cloud-init usually only works at very first boot so modification on `user-data` file must be done before inserting SD card and power on your Raspberry Pi.
-
 
 ### Add SSH public key to default user
 
@@ -267,7 +225,6 @@ The default user is `almalinux`. Add your SSH public key to enable to login to y
        #- ssh-ed25519 AAAAC3Nz...
 +      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQ...
 ```
-
 
 ### Change default user's password
 
@@ -283,7 +240,8 @@ Specify hashed password like this. Use `mkpasswd -m sha-512` command to generate
        # Put here your ssh public keys
        #- ssh-ed25519 AAAAC3Nz...
 ```
-###  Enable SSH password authentication
+
+### Enable SSH password authentication
 
 Change `ssh_pwauth` to `true` to allow SSH password authentication. This does not enable password login for `root` user.
 
@@ -335,20 +293,71 @@ Add the following two lines at the bottom of `user-data` instead (example is dif
 +  - nmcli dev wifi connect "Wi-Fi_SSID" password "Wi-Fi_PreSharedKey"
 ```
 
-### Frequent Issues
+## Configure Boot Order
+
+In March 2025, the `rpi-eeprom` package was added, enabling the Raspberry Pi bootloader configuration, such as boot order, to be changed using only AlmaLinux. Here are the instructions on how to change the Raspberry Pi boot order.
+
+The `rpi-eeprom` tool is an optional package that is not pre-installed in our Raspberry Pi images. Install it if you wish to configure the Raspberry Pi boot order.
+
+```shell
+dnf install -y rpi-eeprom
+```
+
+Run `rpi-eeprom-config` command with the `-e` (edit) option. The editor will open, letting you edit the bootconfiguration.
+Refer to [the official documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#BOOT_ORDER) for the meaning of `BOOT_ORDER` and detailed examples.
+
+```shell
+rpi-eeprom-config -e
+```
+
+The following example attempts to boot from the SD card first, followed by a USB mass storage device, and then NVMe. To boot from a USB mass storage device first, move `4` to the rightmost position, `0xf614`.
+
+```ini
+[all]
+BOOT_UART=1
+POWER_OFF_ON_HALT=0
+BOOT_ORDER=0xf641
+```
+
+After saving the changes and exiting the editor, the following message will be displayed. Raspberry Pi will boot up with the new order after reboot.
+
+```
+(ommitted)
+
+EEPROM updates pending. Please reboot to apply the update.
+To cancel a pending update run "sudo rpi-eeprom-update -r".
+```
+
+## Upgrading Major Version
+
+In-place upgrades between major versions using [Elevate](/elevate/) are not supported for Raspberry Pi images.
+The recommended approach is to perform a fresh setup from a clean image of the new major version.
+
+If you want to perform an in-place upgrade from AlmaLinux 9 to 10, try running the following command:
+
+:::warning
+Please note that the result of the following command may be unpredictable. We recommend creating a backup before proceeding.
+:::
+
+```bash
+rpm --import https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-10
+dnf update --releasever=10 --allowerasing
+```
+
+## Frequent Issues
 
 If you installed a GUI, and your screen has a black border around it, follow the steps below to fix this:
 
-* Run the command below in the terminal:
+- Run the command below in the terminal:
   ```shell
   sudo nano /boot/config.txt
   ```
-* Add a new line to the file:
+- Add a new line to the file:
   ```shell
   disable_overscan=1
   ```
-* Type Ctrl+x on your keyboard to exit nano, and a little message at the bottom or the terminal will say, “save modified buffer?’. Type y for ‘yes’.
-* Reboot your system:
+- Type Ctrl+x on your keyboard to exit nano, and a little message at the bottom or the terminal will say, “save modified buffer?’. Type y for ‘yes’.
+- Reboot your system:
   ```shell
   sudo reboot
   ```
@@ -356,6 +365,7 @@ If you installed a GUI, and your screen has a black border around it, follow the
 ## Booting AlmaLinux 9.1 on RPi (boot log)
 
 :::details
+
 ```
 [    0.000000] Linux version 6.1.23-v8.1.el9 (mockbuild@2bfe3a8b75a540939bf2bf4aa27f3116) (gcc (GCC) 11.3.1 20220421 (Red Hat 11.3.1-2), GNU ld version 2.35.2-24.el9) #1 SMP PREEMPT Tue Apr 25 17:13:15 UTC 2023
 [    0.000000] Machine model: Raspberry Pi 3 Model B+
@@ -1097,11 +1107,12 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDtC0X1uAbqUFgbFAl3c9Zc56WaUVUdj7+S6rzdz8V2
 [  241.538302] cloud-init[592]: Cloud-init v. 22.1-9.el9.alma finished at Mon, 20 Mar 2023 00:03:48 +0000. Datasource DataSourceNoCloud [seed=/dev/mmcblk0p1][dsmode=net].  Up 241.33 seconds
 
 ```
+
 :::
 
 ## How to contribute
 
-You can send all the bugs you may see on [bugs.almalinux.org](https://bugs.almalinux.org ).
+You can send all the bugs you may see on [bugs.almalinux.org](https://bugs.almalinux.org).
 You might also want to check the AlmaLinux OS [Raspberry Pi repository](https://github.com/AlmaLinux/raspberry-pi) on GitHub.
 
 Join the [Community Chat](https://chat.almalinux.org/) if you want to help and contribute or get any assistance.

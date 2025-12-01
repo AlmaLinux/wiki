@@ -1,15 +1,16 @@
 ---
-title: 'Extra Repositories'
+title: "Extra Repositories"
 ---
+
 # Extra Repositories
 
-## EPEL 
+## EPEL
 
-Extra Packages for Enterprise Linux or [EPEL](https://fedoraproject.org/wiki/EPEL) is a Fedora Special Interest Group that creates, maintains, and manages a high quality set of additional packages for Enterprise Linux. 
+Extra Packages for Enterprise Linux or [EPEL](https://fedoraproject.org/wiki/EPEL) is a Fedora Special Interest Group that creates, maintains, and manages a high quality set of additional packages for Enterprise Linux.
 EPEL packages are usually based on their Fedora counterparts and will never conflict with or replace packages in the base Enterprise Linux distributions. EPEL uses much of the same infrastructure as Fedora, including buildsystem, bugzilla instance, updates manager, mirror manager and more.
 
-| Repository | How to Enable |
-| --- | --- |
+| Repository   | How to Enable              |
+| ------------ | -------------------------- |
 | EPEL and CRB | # dnf install epel-release |
 
 For more detailed information see the [EPEL Quickstart Guide](https://docs.fedoraproject.org/en-US/epel/).
@@ -28,22 +29,25 @@ dnf config-manager --set-enabled powertools
 ```
 
 **AlmaLinux OS 9**
+
 ```
 dnf config-manager --set-enabled crb
 ```
+
 :::
 
 ## The ELRepo Project
 
 [The ELRepo Project](http://elrepo.org) focuses on hardware related packages to enhance your experience with Enterprise Linux. This includes filesystem drivers, graphics drivers, network drivers, sound drivers, webcam and video drivers. Newer kernels, `kernel-ml` and `kernel-lt`, are also available.
 
-| Repository | How to Enable |
-| --- | --- |
-| ELRepo | # dnf install elrepo-release |
+| Repository | How to Enable                |
+| ---------- | ---------------------------- |
+| ELRepo     | # dnf install elrepo-release |
 
 ## RPM Fusion
+
 [RPM Fusion](https://rpmfusion.org/) provides software that RHEL and other Enterprise Linux distributions do not ship (like software codecs).
 
-| Repository | How to Enable |
-| --- | --- |
-| ELRepo | See _[Installing EPEL and RPM Fusion](/documentation/epel-and-rpmfusion)_ |
+| Repository | How to Enable                                                             |
+| ---------- | ------------------------------------------------------------------------- |
+| RPM Fusion | See _[Installing EPEL and RPM Fusion](/documentation/epel-and-rpmfusion)_ |

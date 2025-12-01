@@ -1,13 +1,14 @@
 ---
 title: "name of SIG"
 ---
+
 # name of SIG
 
 [insert the SIG's purpose here]
 
 ## How to Join
 
-Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple. 
+Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple.
 
 **Where we chat**
 
@@ -29,14 +30,14 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 
 ## SIG members
 
-* [name](either email address or mattermost chat link) - Committee lead
-* [name](either email address or mattermost chat link) - member
+- [name](either email address or mattermost chat link) - SIG lead
+- [name](either email address or mattermost chat link) - member
 
 (you can also include additional information about other folks that help your SIG or are involved in some way here)
 
 ## Additional information for SIG application approval
 
-* Timeline for when you would like to get things rolling for this group, and how quickly you expect to see motion on your Activities, projects, and deliverables.
-* Any known resources (monetary or infrastructure) that you anticipate needing, and how they will be used.
+- Timeline for when you would like to get things rolling for this group, and how quickly you expect to see motion on your Activities, projects, and deliverables.
+- Any known resources (monetary or infrastructure) that you anticipate needing, and how they will be used.
 
 [ You can add anything additional you feel is important here as well ]

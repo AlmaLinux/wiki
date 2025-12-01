@@ -1,11 +1,10 @@
 # AlmaLinux Nginx Series
 
-Welcome!
-----
-The articles in the series guide you through the installation, configuration, security, and management of your Nginx server. 
+## Welcome!
 
-**Article List**
-----
+The articles in the series guide you through the installation, configuration, security, and management of your Nginx server.
+
+## **Article List**
 
 - [A01](NginxSeriesA01.md) ❯ Beginner's Guide
 - [A02 R8](NginxSeriesA02R8.md) ❯ AlmaLinux 8.x Installation Examples

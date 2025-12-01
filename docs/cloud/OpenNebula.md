@@ -1,6 +1,7 @@
 ---
-title: 'OpenNebula'
+title: "OpenNebula"
 ---
+
 # AlmaLinux OS OpenNebula image
 
 The OpenNebula image contains the OpenNebula addons repository as delivered via the AlmaLinux [Cloud SIG](https://wiki.almalinux.org/sigs/Cloud.html). The repo provides the latest upstream version of the OpenNebula Linux VM Contextualization to prepare the networking in the running guest virtual machine, configure SSH keys, set passwords, run custom start scripts, `onesysprep`, etc.
@@ -10,18 +11,11 @@ The OpenNebula image contains the OpenNebula addons repository as delivered via 
 The AlmaLinux OS OpenNebula image is available from our
 [mirrors](https://mirrors.almalinux.org/) and from the main AlmaLinux OS repositories:
 
-<table align="center">
-    <tr>
-        <td align="center">AlmaLinux 8</td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/">x86_64</a></td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/8/cloud/aarch64/images">aarch64</a></td>
-    </tr>
-    <tr>
-        <td align="center">AlmaLinux 9</td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/">x86_64</a></td>
-        <td align="center"><a href="https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/">aarch64</a></td>
-    </tr>
-</table>
+|                 |                                                                              |                                                                         |                                                                          |
+| --------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| AlmaLinux OS 8  | [x86_64](https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/)        | [aarch64](https://repo.almalinux.org/almalinux/8/cloud/aarch64/images)  |                                                                          |
+| AlmaLinux OS 9  | [x86_64](https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/)        | [aarch64](https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/) |                                                                          |
+| AlmaLinux OS 10 | [x86_64_v2](https://repo.almalinux.org/almalinux/10/cloud/x86_64_v2/images/) | [x86_64](https://repo.almalinux.org/almalinux/10/cloud/x86_64/)         | [aarch64](https://repo.almalinux.org/almalinux/10/cloud/aarch64/images/) |
 
 ## Verify AlmaLinux 8 images
 
@@ -34,9 +28,11 @@ public key first.
 If you are using an AlmaLinux OS-powered system, you may skip the command
 below because you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux` file.
 Run the following command instead to import the key:
+
 ```shell
 gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
 ```
+
 :::
 
 ```shell
@@ -121,9 +117,11 @@ public key first.
 If you are using an AlmaLinux OS-powered system, you may skip the command
 below because you already have the key stored in the `/etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9` file.
 Run the following command instead to import the key:
+
 ```shell
 gpg --import /etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux-9
 ```
+
 :::
 
 ```shell

@@ -1,22 +1,28 @@
+---
+title: "AlmaLinux OS Foundation"
+---
+
 # AlmaLinux OS Foundation
 
-The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all assets related to AlmaLinux OS. It is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/). 
+The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all assets related to AlmaLinux OS. It is governed by a set of [Bylaws](https://almalinux.org/p/foundation-bylaws/).
 
 ## We strive to be transparent
 
 The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
 
 As of December 17, 2023, the foundation has a 9 board directors.
+
 - [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
-- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director and Community Leader at AlmaLinux
-- [Simon Phipps](https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
+- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director at AlmaLinux and Program Manager at Microsoft Azure AOSI
+- [Simon Phipps](<https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)>) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
 - [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
-- [Moshe Bar](https://en.wikipedia.org/wiki/Moshe_Bar_(investor)) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
+- [Moshe Bar](<https://en.wikipedia.org/wiki/Moshe_Bar_(investor)>) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
 - [Alex Iribarren](https://www.linkedin.com/in/iribarren/) - Alex is a current Director at AlmaLinux, and a penguin herder at CERN
 - [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is a current Director at AlmaLinux, and is the driving force behind MIRACLE LINUX
 
 Non-voting invited experts to the board
+
 - [David Snead](https://www.linkedin.com/in/davidsnead) - David is the current Legal Counsel at WebPros and acts in a general advisory role for the AlmaLinux OS Foundation board
 
 ## First board elections
@@ -27,7 +33,7 @@ Non-voting invited experts to the board
 ## The plans for the board
 
 - The board has completed the membership structure, and has opened membership. [Blog post](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) [Press Release](https://www.businesswire.com/news/home/20211005005953/en/AlmaLinux-OS-Foundation-Membership-Opens-to-the-Public)
-- Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him. 
+- Igor Seletskiy has stepped down from the Board of Directors, and the Board has elected benny Vasquez to replace him.
 - The board will be expanded to up to 13 directors (as new Platinum members arrive) to make sure that no single company controls the AlmaLinux OS Foundation.
 
 ## Assets and build environment
@@ -37,23 +43,37 @@ All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
 Some assets were initially owned by CloudLinux, Inc, but were transferred from CloudLinux to the AlmaLinux OS Foundation.
 
-| asset | What needs to be done | Status |
-|:--- |:--- |:--- |
-| almalinux.org domain | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021 |
-| AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation | DONE, Sublicense ID number 20210506-0001 |
-| social media accounts | Reassign them to AlmaLinux OS Foundation. | [In Progress](/Marketing.html#social-media-accounts) |
-| github almalinux account | Already open-sourced, nothing needs to be done | DONE |
-| Build/Test system | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3 | [DONE](https://github.com/AlmaLinux/build-system) |
-| RPM signing keys | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it | Q3 2023: Need to come up with rules for holding keys |
-| EV certificate for Secure Boot | We've been on an AlmaLinux owned cert since 8.8/9.2 |  DONE |
-| Logo License for the foundation | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed | DONE - all assets in the Google drive | 
+| asset                             | What needs to be done                                                                                                                                  | Status                                               |
+| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
+| almalinux.org domain              | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021                              |
+| AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation                                                             | DONE, Sublicense ID number 20210506-0001             |
+| social media accounts             | Reassign them to AlmaLinux OS Foundation.                                                                                                              | [In Progress](/Marketing.html#social-media-accounts) |
+| github almalinux account          | Already open-sourced, nothing needs to be done                                                                                                         | DONE                                                 |
+| Build/Test system                 | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3                                                               | [DONE](https://github.com/AlmaLinux/build-system)    |
+| RPM signing keys                  | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it                                  | Q3 2023: Need to come up with rules for holding keys |
+| EV certificate for Secure Boot    | We've been on an AlmaLinux owned cert since 8.8/9.2                                                                                                    | DONE                                                 |
+| Logo License for the foundation   | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed                                    | DONE - all assets in the Google drive                |
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
+
 <!-- To add minutes to this list, export the approved minutes from the meeting as a PDF, upload that PDF to the 'Published Minutes' folder, and provide a link to the PDF here -->
 
-The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month. 
+The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Oct 08, 2024 [Board meeting #35 agenda](https://docs.google.com/document/d/1FZQsb3KNn1SD8InYPjWI3WnCm25a0oQ2BLjHlrf7KRo)
+- Nov 11, 2025 [Board meeting #45 agenda](https://docs.google.com/document/d/1nRi5ESYkS4A_QsKe3ekPaPOLbloTpj7M69o3XyGGQjw/edit?usp=sharing)
+- Oct 14, 2025 [Board meeting #44 minutes](https://drive.google.com/file/d/1Mw5j5QvM-D-BC_lx1QyQNBFF9_NYJqe8/view)
+- Sep 09, 2025 [Board meeting #43 minutes](https://drive.google.com/file/d/1iGYlJofSYkpFDhRUpUrv7upo5sQOj-wB/view)
+- Aug 12, 2025 [Board meeting #42 minutes](https://drive.google.com/file/d/1dtiqaWzxIRrRQziG8h13Hc9uFvGpNprl/view)
+- Jul 08, 2025 [Board meeting #41 minutes](https://drive.google.com/file/d/1tS2WI28FrbHRBAH7COODEpbalqGLwFoL/view)
+- Jun 10, 2025 (meeting canceled)
+- May 13, 2025 [Board meeting #40 minutes](https://drive.google.com/file/d/13PZZ7eyKx4clvVU6qRw0mV_EPuvAy_QE/view)
+- Apr 08, 2025 [Board meeting #39 minutes](https://drive.google.com/file/d/1YpzVeq81TOYRE8sd3feRPVL9ujM7ePKO/view)
+- Mar 11, 2025 [Board meeting #38 minutes](https://drive.google.com/file/d/1oNtQKXw2qFGdUiM7dnvxzPf6x_CgSNbp/view)
+- Feb 11, 2025 [Board meeting #37 minutes](https://drive.google.com/file/d/13KHaxb_3B5iNo-q9oWGgW10GT59fQxKK/view)
+- Jan 14, 2025 [Board meeting #36 minutes](https://drive.google.com/file/d/1oNtQKXw2qFGdUiM7dnvxzPf6x_CgSNbp/view)
+- Dec, 2024 (cancelled due to scheduling problems)
+- Nov 12, 2024 [Board meeting #35 minutes](https://drive.google.com/file/d/1sBCL3vWIvsDjtC2PHHC8WslOjLN-k1-A/view)
+- Oct 08, 2024 (meeting cancelled)
 - Sep 10, 2024 [Board meeting #34 minutes](https://drive.google.com/file/d/1vhhTag5m0ptVlB2m7-knUFUdaoP1Aund/view)
 - Aug 13, 2024 [Board meeting #33 minutes](https://drive.google.com/file/d/10k4DAo0K_XISKHdpxiLZDwPwei3zKVFH/view)
 - Jun, July, 2024 (meetings cancelled)
@@ -93,10 +113,11 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 
 ## Membership Committee
 
-In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee. 
+In September of 2021, the Board of Directors [opened up membership applications](https://almalinux.org/blog/what-almalinux-foundation-membership-means-for-you/) for all the members of the AlmaLinux community wishing to participate in the future of AlmaLinux. The Board also ratified the Membership Committee Governance, and appointed a selection of existing Foundation Members to participate in the Membership Committee.
 
-The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows. 
+The Membership Committee meets on the third Tuesday of every month for 30 minutes as long as there are applicants to be reviewed, and reviews as many applications as the time allows.
 
 As of Oct 11, 2021 the Membership Committee consists of:
+
 - Daniel Pearson, COO of KnownHost, and Current Chair of the Membership Committee
 - benny Vasquez, [Current Chair of the Board of Directors](https://almalinux.org/blog/hi-im-benny-how-can-i-help/)

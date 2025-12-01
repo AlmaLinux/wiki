@@ -1,14 +1,9 @@
 # A04 ❯ Secure Nginx Deployment
-<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-16
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
-<br> 
 
+<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 
 ## 🌟 Introduction
+
 As Nginx is a high-performance web server commonly used in public environments it makes it a prime target for malicious attacks. To enhance the security of your Nginx server and protect your web content, it's important to secure your system. This guide presents a few simple steps you can take to secure your Nginx server and help prevent unauthorized access.
 
 ## 🧠 Fundamental Concepts
@@ -31,47 +26,45 @@ Running Nginx as a dedicated user account can help limit the damage caused by an
 
 To reduce the risk of exposing sensitive information, limit access to sensitive information on your server. You can do this by ensuring that only authorized users have access to sensitive files and directories.
 
-####  Monitor Logs
+#### Monitor Logs
 
 Monitoring your Nginx server logs can help you detect and respond to security incidents quickly. Regularly reviewing your logs can help you identify any suspicious activity or unauthorized access attempts. You can also set up alerts or notifications to receive notifications when specific events occur, such as failed login attempts.
 
 ### Security must-haves
-  
-⚠️  Implement a firewall to block all incoming traffic (default on AlmaLinux) except for the ports you want to allow. For a web server like Nginx, you typically want to allow ports for HTTP and HTTPS services.
 
-⚠️  Use secure protocols for accessing your server, such as SSH, and disable password-based authentication in favor of public-key authentication.
+⚠️ Implement a firewall to block all incoming traffic (default on AlmaLinux) except for the ports you want to allow. For a web server like Nginx, you typically want to allow ports for HTTP and HTTPS services.
 
-⚠️  Use secure coding practices when developing your web application or service, such as input validation and sanitization, to prevent common web vulnerabilities like SQL injection and cross-site scripting (XSS).
+⚠️ Use secure protocols for accessing your server, such as SSH, and disable password-based authentication in favor of public-key authentication.
+
+⚠️ Use secure coding practices when developing your web application or service, such as input validation and sanitization, to prevent common web vulnerabilities like SQL injection and cross-site scripting (XSS).
 
 ### Configuration Specific Practices
 
-➡️  Enable SSL/TLS encryption to encrypt your web traffic, preventing attackers from intercepting sensitive information. Obtaining an SSL certificate from a trusted certificate authority like Let's Encrypt is recommended.
+➡️ Enable SSL/TLS encryption to encrypt your web traffic, preventing attackers from intercepting sensitive information. Obtaining an SSL certificate from a trusted certificate authority like Let's Encrypt is recommended.
 
-➡️  Implement user authentication using the `htpasswd` tool to restrict access to your Nginx server and control access to specific areas of your site.
+➡️ Implement user authentication using the `htpasswd` tool to restrict access to your Nginx server and control access to specific areas of your site.
 
-➡️  Implement rate limiting to limit the number of requests from a particular IP address over a given period, preventing denial-of-service (DoS) attacks and other malicious traffic.
+➡️ Implement rate limiting to limit the number of requests from a particular IP address over a given period, preventing denial-of-service (DoS) attacks and other malicious traffic.
 
-➡️  Disable server tokens in Nginx to prevent revealing information about the software and version being used, making it harder for attackers to find potential vulnerabilities in your server.
-
-
-
+➡️ Disable server tokens in Nginx to prevent revealing information about the software and version being used, making it harder for attackers to find potential vulnerabilities in your server.
 
 ## 📝 Key Takeaways
-
 
 ### Step 1: Check The Firewalld Configuration
 
 :::warning
 On AlmaLinux OS, the Firewalld packet filtering service is enabled by default.
 
-
 :::
 
 To allow incoming traffic on ports 80 (HTTP) and 443 (HTTPS), run:
+
 ```
 sudo firewall-cmd --permanent --zone=public --add-service={http,https}
 ```
+
 Then just reload the rules:
+
 ```
 sudo firewall-cmd --reload
 ```
@@ -79,7 +72,7 @@ sudo firewall-cmd --reload
 ### Step 2: Enable SSL/TLS Encryption
 
 Encrypting your web traffic using SSL/TLS is an essential step in securing your Nginx installation. To enable SSL/TLS encryption, you will need to obtain an SSL certificate and configure Nginx to use it.
-One way to obtain an SSL certificate is to use Let's Encrypt, a free, automated, and open certificate authority. 
+One way to obtain an SSL certificate is to use Let's Encrypt, a free, automated, and open certificate authority.
 
 To install Let's Encrypt on AlmaLinux 9.x, run the following command:
 
@@ -89,9 +82,11 @@ sudo dnf install certbot python3-certbot-nginx
 
 ::: tip
 The `python3-certbot-nginx` package is from EPEL repository, so if you get error to the above, just do:
+
 ```
 dnf install epel-release
 ```
+
 :::
 
 Then, obtain an SSL certificate for your domain by running the following command:
@@ -99,9 +94,11 @@ Then, obtain an SSL certificate for your domain by running the following command
 ```
 sudo certbot --nginx -d almalinux.example.com
 ```
+
 Replace example.com with your domain name.
 
 #### Example on success:
+
 ```
 ...
 Deploying certificate
@@ -121,8 +118,8 @@ After successful configuration, '/etc/nginx/nginx.conf' will contain these new l
     ssl_certificate_key /etc/letsencrypt/live/almalinux.example.com/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-    
-    
+
+
      server {
         if ($host = almalinux.example.com) {
             return 301 https://$host$request_uri;
@@ -133,11 +130,12 @@ After successful configuration, '/etc/nginx/nginx.conf' will contain these new l
         return 404; # managed by Certbot
     }
 ```
-:::
 
+:::
 
 :::warning
 If you get this weird error:
+
 ```
 ...
 Deploying certificate
@@ -146,37 +144,42 @@ An unexpected error occurred:
 OpenSSL.crypto.Error: [('Provider routines', '', 'invalid key length')]
 Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
 ```
+
 Please check if you have FIPS mode enabled which prevents 'unauthorized' uses of OpenSSL framework (instruction in Details).
 
 :::details
+
 ```
 fips-mode-setup --check
 ```
+
 Should tell you:
-```FIPS mode is disabled.```
+`FIPS mode is disabled.`
 
 If does not you need to disable the FIPS for the time of generation:
 
-* Disable it:
+- Disable it:
+
 ```
 fips-mode-setup --disable
 ```
-* Reboot the system!
-&nbsp;
-* Regenerate the certificate (or just reinstall - `certbot` will offer that option when runs again) with the command that previously failed (above).
-* Renable FIPS:
+
+- Reboot the system!
+  &nbsp;
+- Regenerate the certificate (or just reinstall - `certbot` will offer that option when runs again) with the command that previously failed (above).
+- Renable FIPS:
+
 ```
 fips-mode-setup --enable
 ```
-* Reboot the system!
-:::
 
+- Reboot the system!
+  :::
 
 #### Check if that works!
 
-Navigate your browser to your site with `https` protocol prefix. 
+Navigate your browser to your site with `https` protocol prefix.
 (Like: https://almalinux.example.com). <u>Now the connection is encrypted</u>(🔒).
-
 
 ### Step 3: Implement User Authentication
 
@@ -197,6 +200,7 @@ Then, create a password file for your user by running the following command:
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd myuser
 ```
+
 Replace `myuser` with your desired username.
 
 Finally, add the following configuration to your Nginx server block to require authentication for all requests (lines starting with `auth_basic`):
@@ -218,7 +222,6 @@ server {
 ```
 
 Accessing the site will prompt user for username and password now.
-
 
 ### Step 4: Implement Rate Limiting
 
@@ -242,12 +245,12 @@ server {
 }
 ```
 
-This configuration will limit requests to one request per second per IP address, with a burst of 5 requests allowed before blocking further requests. The nodelay parameter ensures that requests exceeding the limit are blocked immediately. 
+This configuration will limit requests to one request per second per IP address, with a burst of 5 requests allowed before blocking further requests. The nodelay parameter ensures that requests exceeding the limit are blocked immediately.
 
 Note: both can be added to `http` block.
 
 :::details
- For more info on rate limitting please read **[ a dedicated blog post Nginx.org ]( https://www.nginx.com/blog/rate-limiting-nginx/)**
+For more info on rate limitting please read **[ a dedicated blog post Nginx.org ](https://www.nginx.com/blog/rate-limiting-nginx/)**
 :::
 
 ### Step 5: Disable Server Tokens
@@ -261,6 +264,7 @@ server_tokens off;
 ```
 
 As with all the changes to the configuration file you need to reload the server for this to be effective:
+
 ```
 systemctl reload nginx
 ```
@@ -293,7 +297,7 @@ Context: system_u:object_r:httpd_sys_content_t:s0
 Access: 2023-04-28 09:45:48.393259661 +0200
 Modify: 2023-04-28 09:45:48.393259661 +0200
 Change: 2023-04-28 09:45:48.393259661 +0200
- Birth: - 
+ Birth: -
 ```
 
 I also tried with the user www-data, but the issue persists.
@@ -301,7 +305,7 @@ I also tried with the user www-data, but the issue persists.
 **A:**
 
 1. **Reproduce the problem**
-This issue is likely related to SELinux blocking access to the directory. To confirm if it's an SELinux issue, temporarily disable SELinux by running 
+   This issue is likely related to SELinux blocking access to the directory. To confirm if it's an SELinux issue, temporarily disable SELinux by running
 
 ```
 sudo setenforce 0
@@ -313,11 +317,12 @@ then try loading the directory again.
 
 If this resolves the issue, you will need to adjust the context of the directory to allow Nginx access or use `audit2allow` to identify a SELinux boolean that can be changed.
 
-  :::tip
-  `audit2allow` - generate SELinux policy allow/dontaudit rules from logs of denied operations
-  :::
+:::tip
+`audit2allow` - generate SELinux policy allow/dontaudit rules from logs of denied operations
+:::
 
 3. **Fix the SELinux issue**
+
 ```
 sudo semanage fcontext -a -t httpd_sys_content_t "/usr/share/nginx/srv(/.*)?"
 ```
@@ -326,18 +331,18 @@ sudo semanage fcontext -a -t httpd_sys_content_t "/usr/share/nginx/srv(/.*)?"
 sudo restorecon -R -v /usr/share/nginx/srv
 ```
 
-
 The first command tells SELinux that the `/usr/share/nginx/srv` directory contains read-only content for an HTTP server. The second command relabels all the files in the `/usr/share/nginx/srv` directory with the correct context.
 
 4. **Re-enable SELinux**
+
 ```
 sudo setenforce 1
 ```
 
-
 ## 📚 Further reading and Next Steps
 
 <u>Get Back:</u>
+
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01.md)
 - AlmaLinux Nginx Series ❯ [AlmaLinux OS 8.x Installation](NginxSeriesA01R8.md)
 - AlmaLinux Nginx Series ❯ [AlmaLinux OS 9.1 Installation](NginxSeriesA02R91.md)
@@ -346,6 +351,6 @@ sudo setenforce 1
 <u>In-depth Resources:</u>
 
 <u>Related Resources:</u>
+
 - AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/SystemSeriesA02.md)
 - AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01.md)
-
