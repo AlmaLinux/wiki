@@ -2,13 +2,6 @@
 title: "User and group management via the command line and GUI"
 ---
 
-<hr>
-
-| 💡  | Experience Level | ⭐☆☆☆☆ |
-| --- | ---------------- | ------ |
-
-###### last updated: 2024-09-10
-
 ## Introduction
 
 AlmaLinux has several key components geared toward security and privacy. Although permissions and ownership tend to get the most attention in that regard, user and group management is just another piece of the puzzle.
@@ -60,11 +53,13 @@ If you prefer a GUI, you're in luck, as AlmaLinux has the tools you need to make
 To access this feature, open Settings and click Users in the left sidebar. On this page, you first must Unlock the settings by clicking Unlock (Figure 1) and then typing your sudo password.
 
 ![A screenshot of the Users interface of Gnome](/images/usergroup1.jpg)
+
 _You should see all of your current users listed here._
 
 Once you've done that, click Add User and then, in the resulting pop-up (Figure 2), fill out the user information.
 
 ![A screenshot of the Password interface on Gnome.](/images/usergroup2.jpg)
+
 _If you go this route, you'll want to use the `passwd -e` command to expire the user's password, so they can set a new one when they next log in._
 
 If the new user is to be an administrator, make sure to first click the Administrator tab before adding the information. After completing this, click Add and your user is ready.
