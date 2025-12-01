@@ -1,18 +1,15 @@
 # A04 ❯ Snapd Installation Guide
+
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-06-07
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
-<br> 
 
 ## 🌟 Introduction
 
 The snap packages for AlmaLinux can be found in the Extra Packages for Enterprise Linux (EPEL) repository. :package:
 
 ## Enable EPEL repo :minidisc:
+
 If you haven’t done it yet, enable the EPEL repository for your AlmaLinux system:
+
 ```
 sudo dnf install epel-release
 sudo dnf upgrade
@@ -24,10 +21,11 @@ sudo dnf upgrade
 :information_source:
 Important for cloud images users!
 
-Before proceeding with the installation of snapd, it’s important to install the `kernel-modules` package as these type of images come with limited number of modules.  This package includes SquashFS, a compressed read-only file system for Linux, which is necessary for the snapd functionality.
+Before proceeding with the installation of snapd, it’s important to install the `kernel-modules` package as these type of images come with limited number of modules. This package includes SquashFS, a compressed read-only file system for Linux, which is necessary for the snapd functionality.
 :::tip
 
 Install the `kernel-modules`, using the following command:
+
 ```
 sudo dnf install kernel-modules
 ```
@@ -60,5 +58,4 @@ Congratulations, snapd is now installed and fully operational! :tada:
 
 ### Optional: for Desktop Users :desktop_computer:
 
-If you’re using a desktop environment, consider installing the Snap Store app (https://forum.snapcraft.io/t/installing-the-snap-store-app/10077) 🛍️  
-
+If you’re using a desktop environment, consider installing the Snap Store app (https://forum.snapcraft.io/t/installing-the-snap-store-app/10077) 🛍️
