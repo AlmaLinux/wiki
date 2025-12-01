@@ -2,8 +2,6 @@
 title: "Cloud SIG"
 ---
 
-###### last updated: 2025-01-06
-
 # Cloud SIG
 
 The Cloud team is responsible for AlmaLinux OS container and cloud images.

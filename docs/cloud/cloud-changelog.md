@@ -2,8 +2,6 @@
 title: "Changelog"
 ---
 
-###### last updated: 2025-02-18
-
 ## Amazon Web Services AMIs
 
 ### AlmaLinux OS versions 9.5.20241122:

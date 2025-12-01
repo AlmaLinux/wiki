@@ -2,8 +2,6 @@
 title: "Build System SIG"
 ---
 
-##### last modified: 2025-02-10
-
 # Build System SIG
 
 The Build System Team is responsible for automating processes of building distribution and packages, testing packages, signing packages, and releasing them to public repositories.

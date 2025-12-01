@@ -2,12 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2024-06-11
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
-
 ## Add EPEL:
 
 ```Bash

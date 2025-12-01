@@ -2,8 +2,6 @@
 title: "AlmaLinux Installation Guide"
 ---
 
-###### last updated: 2025-01-22
-
 # AlmaLinux installation guide (ISOs)
 
 This page provides a step-by-step guide to downloading the AlmaLinux ISO image, creating a bootable USB drive, and using it to install AlmaLinux OS.

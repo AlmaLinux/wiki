@@ -2,13 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-10
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>| 
-<br>
-
 ## 🌟 Introduction
 
 In this guide, we offer a detailed walk-through of Nginx installation, exploring three potential installation methods with examples for AlmaLinux OS 8.x and 9.x. You'll gain insights into essential Nginx interactions, and we'll present a tailored-learning path crafted to assist you in mastering Nginx and achieving proficiency in its utilization.

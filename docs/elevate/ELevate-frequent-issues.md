@@ -2,8 +2,6 @@
 title: ELevate Frequent Issues
 ---
 
-###### last updated: 2025-03-05
-
 # ELevate Frequent Issues
 
 These are the ELevate project issues the AlmaLinux team and community are currently working on together. You can find here the most frequent problems and guidance steps on how to solve them.

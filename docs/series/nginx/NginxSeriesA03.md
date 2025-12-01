@@ -2,13 +2,6 @@
 
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 
-<hr>
-| 💡 | Experience Level  | ⭐⭐☆☆☆ |
-|--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-05-15
-| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
-<br>
-
 ## 🌟 Intoduction
 
 By understanding each line in the default configuration, you can modify the settings to better suit your needs. Be sure to carefully review any changes you make to the configuration and test them before deploying in a production environment. This will help ensure that your Nginx server on AlmaLinux is properly configured and running optimally.
