@@ -2,7 +2,6 @@
 title: "File and Folder Permissions"
 ---
 
-
 # Introduction
 
 By design, Linux has several layers of security, from the kernel all the way up to user-facing applications. One of those layers is file and folder permissions. Since the very beginning of Linux, those permissions have been a crucial aspect of security.
