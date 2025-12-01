@@ -143,52 +143,50 @@ module.exports = {
         title: "Contribute",
         path: "/Contribute",
         children: [
-            '/Comparison',
-            '/FAQ',
-            '/Howto',
-            {
-                title: 'Beginner Series',
-                path: '/beginners/',
+          "/Comparison",
+          "/FAQ",
+          "/Howto",
+          {
+            title: "Beginner Series",
+            path: "/beginners/",
+            children: ["/beginners/file-and-folder-permissions"],
+          },
+          {
+            title: "openQA Guide",
+            path: "/development/openQA",
+          },
+          {
+            title: "Howto Series",
+            path: "/series/",
+            children: [
+              "/series/LAMP-server",
+              {
+                title: "Nginx Series",
+                path: "/series/nginx/",
                 children: [
-		              '/beginners/file-and-folder-permissions',
-				]
-			},
-            {
-                title: 'openQA Guide',
-                path: '/development/openQA',
-            },
-            {
-                title: 'Howto Series',
-                path: '/series/',
+                  "/series/nginx/NginxSeriesA01",
+                  "/series/nginx/NginxSeriesA02R8",
+                  "/series/nginx/NginxSeriesA02R91",
+                  "/series/nginx/NginxSeriesA02R92",
+                  "/series/nginx/NginxSeriesA03",
+                  "/series/nginx/NginxSeriesA04P1",
+                ],
+              },
+              {
+                title: "System Series",
+                path: "/series/system/",
                 children: [
-		              '/series/LAMP-server',
-                  {
-                      title: "Nginx Series",
-                      path: '/series/nginx/',
-                      children: [
-                              '/series/nginx/NginxSeriesA01',
-                              '/series/nginx/NginxSeriesA02R8',
-                              '/series/nginx/NginxSeriesA02R91',
-                              '/series/nginx/NginxSeriesA02R92',
-                              '/series/nginx/NginxSeriesA03',
-                              '/series/nginx/NginxSeriesA04P1',
-                      ]
-                  },
-                  {
-                      title: "System Series",
-                      path: '/series/system/',
-                      children: [
-                              '/series/system/SystemSeriesA01',
-                              '/series/system/SystemSeriesA02',
-                              '/series/system/SystemSeriesA03',
-                              '/series/system/SystemSeriesA03R8',
-                              '/series/system/SystemSeriesA03R9',
-                              '/series/system/SystemSeriesA04',
-                              '/series/system/SystemSeriesA05',
-                              ]
-                  },
-              ]
-            },
+                  "/series/system/SystemSeriesA01",
+                  "/series/system/SystemSeriesA02",
+                  "/series/system/SystemSeriesA03",
+                  "/series/system/SystemSeriesA03R8",
+                  "/series/system/SystemSeriesA03R9",
+                  "/series/system/SystemSeriesA04",
+                  "/series/system/SystemSeriesA05",
+                ],
+              },
+            ],
+          },
           "/Contribute",
           "/Contribute-to-AlmaLinux-Build-System",
           "/Contribute-to-Documentation",
