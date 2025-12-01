@@ -199,12 +199,6 @@ module.exports = {
           "/Comparison",
           "/documentation/nvidia",
           "/FAQ",
-          "/Howto",
-          {
-            title: "Beginner Series",
-            path: "/beginners/",
-            children: ["/beginners/file-and-folder-permissions"],
-          },
           {
             title: "openQA Guide",
             path: "/development/openQA",
@@ -213,6 +207,14 @@ module.exports = {
             title: "Howto Series",
             path: "/series/",
             children: [
+              {
+                title: "Beginner Series",
+                path: "/beginners/",
+                children: [
+                  "/beginners/file-and-folder-permissions",
+                  "/beginners/users-and-groups",
+                ],
+              },
               "/series/LAMP-server",
               {
                 title: "Nginx Series",

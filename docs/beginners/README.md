@@ -2,17 +2,24 @@
 title: "Beginner series"
 ---
 
-###### last updated: 2024-09-10
-
 # Beginner Series!
 
-Many new users come to Linux every day, and using AlmaLinux for the first time should be as simple as possible! This serie attempts to explain some of the base level conecepts in simple language so new users won't get immediately overwhelmed.
+Numerous new users come to Linux every day, and using AlmaLinux for the first time should be a straightforward experience. This series takes the time to explain base-level concepts in a simple language, providing a reassuring guide for new users so they won't feel immediately overwhelmed. Here is how to manage common issues using AlmaLinux:
 
-- [File and Folder Permissions on AlmaLinux](file-and-folder-permissions.md)
+- [File and Folder Permissions](/beginners/file-and-folder-permissions/)
+- [User and Group Management](/beginners/users-and-groups/)
+
+## Related articles
+
+Some of our other documentation will come in handy, too!
+
+- [Installation of AlmaLinux](/documentation/installation-guide/)
+- [After installing, what comes next?](/documentation/after-installation-guide/)
+- [Run AlmaLinux on your Windows device!](/documentation/wsl/)
 
 # Up next!
 
-Once you've completed these guides, take a look at any of the other guides that interest you!
+Once you've completed these guides, here are a few other guides to support you!
 
-- [Nginx - from beginning to configured!](/series/nginx/)
-- [AlmaLinux System Series - various ways to interact with your AlmaLinux environment](/series/system/)
+- [Nginx - From Beginning to Configure!](/series/nginx/)
+- [AlmaLinux System Series - Ways to interact with your AlmaLinux environment](/series/system/)
