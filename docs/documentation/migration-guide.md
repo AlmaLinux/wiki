@@ -1,7 +1,6 @@
 ---
 title: "Migration Guide"
 ---
-
 # AlmaLinux Migration Guide
 
 This guide describes how to convert your operating system to AlmaLinux using the [AlmaLinux Migration tool](https://github.com/AlmaLinux/almalinux-deploy).
@@ -26,6 +25,10 @@ It's recommended to have a backup or snapshot of your system. There'll be a rest
 
 ::: warning
 Make sure you are using reliable console access to your system. It's recommended that the migration tool is run from inside main console or via ssh.
+:::
+
+::: warning
+Ensure that the `/boot` partition has sufficient available space. The new AlmaLinux kernel installs alongside existing versions rather than replacing them. A 512 Mb partition is ok to accommodate three kernel versions.
 :::
 
 ## Migrating using AlmaLinux public repositories (Online Systems)

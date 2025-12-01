@@ -18,6 +18,7 @@ See the [cloud-init section](#configuration-using-cloud-init) for instructions o
 The AlmaLinux OS releases have been tested on the following models.
 
 - Raspberry Pi 5 (supported since June 2024 images)
+- Raspberry Pi 500, 500+
 - Raspberry Pi 4 Model B
 - Raspberry Pi 400
 - Raspberry Pi 3 Model B+

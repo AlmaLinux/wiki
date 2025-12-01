@@ -11,11 +11,8 @@ title: "Howtos"
 - [Foreman](https://www.how2shout.com/linux/how-to-install-foreman-on-rocky-or-almalinux-8/)
 - [phpMyAdmin](https://wiki.crowncloud.net/?How_to_Install_phpMyAdmin_on_AlmaLinux_8)
 - [Apache Web Server](https://www.linode.com/docs/guides/install-and-use-apache-on-almalinux/)
-- [DirectAdmin](https://www.techrepublic.com/article/how-to-install-cpanelwhm-alternative-directadmin-on-almalinux/)
 - [Redis](https://dev.to/inneutroncloud/how-to-install-redis-on-almalinux-8-52k)
-- [MongoDB](https://mobilemonitoringsolutions.com/how-to-install-the-nosql-database-server-mongodb-on-linux/)
 - [Caddy](https://orcacore.com/install-configure-caddy-almalinux-8/)
-- [OpenSSL 1.1.1i](https://www.hostnextra.com/kb/how-to-install-openssl-1-1-1i-on-almalinux/)
 - [WordPress with Nginx, PHP 8.1, and MariaDB](https://thishosting.rocks/how-to-install-wordpress-on-almalinux/)
 - [Java](https://linuxstans.com/how-to-install-java-almalinux/)
 
@@ -28,12 +25,10 @@ title: "Howtos"
 
 - [vagrant-libvirt plugin](https://docs.euro-linux.com/HowTo/vagrant-with-libvirt/)
 - [Docker CE](https://docs.docker.com/engine/install/rhel/)
-- [XCP-ng VM Tools](https://techviewleo.com/install-xcp-ng-vm-tools-on-centos-almalinux/)
 
 ## Authentication & Security
 
 - [Configuring SSH Key-based Authentication](https://www.answertopia.com/almalinux/configuring-ssh-key-based-authentication-on-almalinux/)
-- [Enabling SSH 2FA](https://www.techrepublic.com/article/how-to-enable-ssh-2fa-on-almalinux-for-more-secure-logins/)
 
 ## Networking
 
