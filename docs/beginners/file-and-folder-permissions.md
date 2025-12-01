@@ -12,22 +12,22 @@ And because Linux is a multi-user operating system, file and folder permissions 
 
 There are two different methods for changing folder and file permissions on Linux:
 
--   absolute - which requires users to know the numeric number associated with each permission.
--   symbolic - which only requires the use of letters associated with users (user, group, and other)  and permissions (such as read, write, and execute). 
+- absolute - which requires users to know the numeric number associated with each permission.
+- symbolic - which only requires the use of letters associated with users (user, group, and other)  and permissions (such as read, write, and execute). 
 
 ## Key Takeaways
 
 To understand file and folder permission, there are three different types of owners:
 
--   User - the user who is the primary owner of a file or folder.
--   Group - any user who's part of a group with access to a file or folder.
--   Other - anyone with access to the system.
+- User - the user who is the primary owner of a file or folder.
+- Group - any user who's part of a group with access to a file or folder.
+- Other - anyone with access to the system.
 
 There are also three different types of permissions:
 
--   Read - a user can view and/or copy the contents of a file.
--   Write - a user can modify the contents of a file.
--   Execute - a user can run the file (if it's an executable app or script).
+- Read - a user can view and/or copy the contents of a file.
+- Write - a user can modify the contents of a file.
+- Execute - a user can run the file (if it's an executable app or script).
 
 The above permissions hold true for both files and folders.
 
@@ -37,20 +37,20 @@ If you issue the command ls -l within a directory, you'll see all of your files/
 
 Here's the breakdown of that listing:
 
-*  - - the file type
-*  rw-rw-r-- - the permissions
-*  1 - number of hard links
-*  jack - owner
-*  jack - group
-*  0 - file size
-*  July 16 13:04 - modification timestamp
-*  testfile - the filename
+- - - the file type
+- rw-rw-r-- - the permissions
+- 1 - number of hard links
+- jack - owner
+- jack - group
+- 0 - file size
+- July 16 13:04 - modification timestamp
+- testfile - the filename
 
 What we want to focus on is the permissions. In our example that's `rw-rw-r--`. How this breaks down is simple. The permissions section is broken into three sections: owner, group, and other, each of which can have read (r), write (w), and/or execute (x) permissions. So our example breaks down like this:
 
--   owner has read and write permissions.
--   group has read and write permissions.
--   other has read permissions.
+- owner has read and write permissions.
+- group has read and write permissions.
+- other has read permissions.
 
 If you see a `-` character, it means there are no permissions set for that. If the file had full permissions for all users, it would look like this:
 
@@ -60,10 +60,10 @@ So, `rwx` for owner, `rwx` for group, and `rwx` for other.
 
 The question now is, how do we change that? With the chmod command, which has two different modes: absolute and symbolic. The easiest method is symbolic. Why? With absolute mode, you have to remember the following:
 
--   read permission = 4
--   write permission = 2
--   execute permission = 1
--   no permission = 0
+- read permission = 4
+- write permission = 2
+- execute permission = 1
+- no permission = 0
 
 To change the permission in absolute mode, you add the permissions you want for each group. For example, if you want owner to have `rwx` permission, the total is 7. If you wanted group to have read and write permission, the total is 6, if you wanted to give other only read permission, the total is 4. String them together and you get 764. To make that change, the command would be:
 

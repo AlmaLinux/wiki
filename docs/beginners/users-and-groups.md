@@ -1,10 +1,12 @@
 ---
 title: "User and group management via the command line and GUI"
 ---
+
 <hr>
 
-| 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | --------|
+| 💡  | Experience Level | ⭐☆☆☆☆ |
+| --- | ---------------- | ------ |
+
 ###### last updated: 2024-09-10
 
 ## Introduction
@@ -18,8 +20,8 @@ Fortunately, the open-source operating system has everything you need built righ
 
 Users and groups can be managed in two ways:
 
--   The command line interface (CLI)
--   The desktop graphical user interface (GUI)
+- The command line interface (CLI)
+- The desktop graphical user interface (GUI)
 
 Which option you use will depend on the access you have to the machine in question and whether or not you prefer the terminal or a GUI.
 
@@ -47,10 +49,10 @@ The -e option is used to automatically expire a user's password. This way, the f
 
 There are other tasks you can undertake to manage users from the command line, such as:
 
--   Lock a user account - `sudo passwd -l USERNAME`
--   Unlock a user account - `sudo passwd -u USERNAME`
--   Delete a user account - `sudo userdel USERNAME`
--   Delete a user and their home directory - `sudo userdel -r USERNAME`
+- Lock a user account - `sudo passwd -l USERNAME`
+- Unlock a user account - `sudo passwd -u USERNAME`
+- Delete a user account - `sudo userdel USERNAME`
+- Delete a user and their home directory - `sudo userdel -r USERNAME`
 
 ### Managing users from the GUI
 

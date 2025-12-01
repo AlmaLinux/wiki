@@ -1,13 +1,12 @@
 ---
-title: 'Beginner series'
+title: "Beginner series"
 ---
-
 
 # Beginner Series!
 
-Numerous new users come to Linux every day, and using AlmaLinux for the first time should be a straightforward experience. This series takes the time to explain base-level concepts in a simple language, providing a reassuring guide for new users so they won't feel immediately overwhelmed. Here is how to manage common issues using AlmaLinux: 
+Numerous new users come to Linux every day, and using AlmaLinux for the first time should be a straightforward experience. This series takes the time to explain base-level concepts in a simple language, providing a reassuring guide for new users so they won't feel immediately overwhelmed. Here is how to manage common issues using AlmaLinux:
 
-- [File and Folder Permissions](/beginners/file-and-folder-permissions/) 
+- [File and Folder Permissions](/beginners/file-and-folder-permissions/)
 - [User and Group Management](/beginners/users-and-groups/)
 
 ## Related articles
