@@ -156,6 +156,7 @@ module.exports = {
             children: [
               "/sigs/Atomic",
               "/sigs/Build-System",
+              "/sigs/Certification",
               "/sigs/Cloud",
               "/sigs/Core",
               "/sigs/HPCandAI",
@@ -166,8 +167,8 @@ module.exports = {
                 path: "/sigs/Marketing",
                 children: ["/sigs/marketing/indico"],
               },
+              "/sigs/MediaAndEntertainmentSIG",
               "/sigs/Migration",
-              "/sigs/Certification",
               "/sigs/ProcessForCreatingNewSIG",
             ],
           },
