@@ -383,7 +383,7 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
   PWD=$( pwd )
 
   if [ -z "$DISTRO" ]; then
-      echo "$0 almalinux|centos|oraclelinux|rocky"
+      echo "$0 almalinux|centos"
       exit 1
   fi
 
@@ -419,7 +419,7 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
   PWD=$( pwd )
 
   if [ -z "$DISTRO" ]; then
-      echo "$0 almalinux|centos|oraclelinux|rocky"
+      echo "$0 almalinux|centos"
       exit 1
   fi
 
@@ -435,9 +435,7 @@ When creating `in_packageset` and `out_packageset` lists, please, stick to the f
 Once you've prepared the vendor data for migration and tested the upgrade process, create a pull request to [leapp-data repository](https://github.com/AlmaLinux/leapp-data) to make it publicly available.
 
 :::warning
-If your v3rd party repository data is intended only for a specific OS and not all supported OSes, please put it in the `files/<target_OS>/vendors.d/` direction.
-
-When testing on your system, put your vendor files to the `/etc/leapp/files/vendors.d/` direction before starting the upgrade.
+When testing on your system, put your vendor files to the `/etc/leapp/files/vendors.d/` directory before starting the upgrade.
 :::
 
 Next, when the pull request is submitted, the AlmaLinux Team will review it.
