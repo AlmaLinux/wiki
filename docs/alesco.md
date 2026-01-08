@@ -76,15 +76,21 @@ The AlmaLinux Engineering Steering Committee (ALESCo) is dedicated to guiding th
 ### Policies:
 
 1.  Transparency: All meetings, decisions, and discussions will be public, ensuring transparency and community involvement. ALESCo members must publicly disclose their employer and any conflicts of interest, and maintain this disclosure in the wiki, updating it as necessary for accuracy.
+
 2.  Appointments: The first ALESCo members are to be appointed by the Board of Directors.  After the initial appointment, the membership of ALESCo will manage itself - adding members or filling vacancies as deemed necessary by vote of the current members. ALESCo members are expected to have and maintain relevant knowledge and understanding of the technical aspects surrounding AlmaLinux as well as the greater enterprise Linux and open source ecosystems to allow them to make informed decisions in policy creation and voting. New members may be appointed to ALESCo either to fill a vacancy arising from a member's resignation or to expand the committee's membership.
 
-The process for appointing a new member requires that a candidate first be nominated by a current, acting member of ALESCo. The nominated candidate must be an active member of the AlmaLinux community. Following nomination, the candidate must complete a questionnaire provided by ALESCo, which is intended to help the committee make an informed and balanced decision by understanding the candidate's background, qualifications, and motivation. Committee members must receive the completed questionnaire at least 5 business days before the vote.
+    The process for appointing a new member requires that a candidate first be nominated by a current, acting member of ALESCo. The nominated candidate must be an active member of the AlmaLinux community. Following nomination, the candidate must complete a questionnaire provided by ALESCo, which is intended to help the committee make an informed and balanced decision by understanding the candidate's background, qualifications, and motivation. Committee members must receive the completed questionnaire at least 5 business days before the vote.
 
-The appointment of the new member requires approval by a simple majority vote of the current ALESCo members. Following successful approval, the candidate shall be invited to the next ALESCo meeting, where they will formally confirm their acceptance to join the committee.  
+    The appointment of the new member requires approval by a simple majority vote of the current ALESCo members. Following successful approval, the candidate shall be invited to the next ALESCo meeting, where they will formally confirm their acceptance to join the committee.  
+
 3. Term Duration: ALESCo members are appointed with no set term. Every 6 months, at the time of chair election within ALESCo, each member is to be asked if they intend to continue serving or choose to step down.  
+
 4. Meeting Frequency: ALESCo will meet regularly, no less than once per month.  
+
 5. Decision Making: Decisions will be made based on a majority vote. In case of a tie, the chairperson (or a designated member) will have the deciding vote.  
+
 6. Quorum: A quorum is defined as 50% of members +1 with a minimum quorum always being at least four (4) members. A quorum is required for any votes.  
+
 7. Dissolution: At a point where the ALESCo is no longer functioning for the good of the AlmaLinux community, the board reserves the right to dissolve the committee and reform it with new members.
 
 ### Chair:
