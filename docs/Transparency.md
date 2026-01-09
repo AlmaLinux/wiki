@@ -8,7 +8,7 @@ The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all as
 
 ## We strive to be transparent
 
-The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
+The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. You may also write an email to [hello@almalinux.org](mailto:hello@almalinux.org) to reach the board. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
 
 As of December 17, 2023, the foundation has a 9 board directors.
 
