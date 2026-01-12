@@ -20,6 +20,10 @@ Synergy repository can be enabled for AlmaLinux OS and for other distros in EL-e
 
 To enable the Synergy repository on AlmaLinux machines run the following command:
 
+:::tip Not available for AlmaLinux 10
+The following instructions work for AlmaLinux version 8 and 9, but not 10.
+:::
+
 ```
 dnf install -y almalinux-release-synergy
 ```
