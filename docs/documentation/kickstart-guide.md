@@ -23,8 +23,8 @@ Example using KDE Desktop with preinstalled CRB and EPEL repositories preinstall
 graphical
 
 # add base repositories with mirrors
-repo --name="alamalinux9-baseos" --mirrorlist="https://mirrors.almalinux.org/mirrorlist/9/baseos"
-repo --name="alamalinux9-appstream" --mirrorlist="https://mirrors.almalinux.org/mirrorlist/9/appstream"
+repo --name="almalinux9-baseos" --mirrorlist="https://mirrors.almalinux.org/mirrorlist/9/baseos"
+repo --name="almalinux9-appstream" --mirrorlist="https://mirrors.almalinux.org/mirrorlist/9/appstream"
 
 # add epel repo with mirrors
 repo --name="epel9-everything" --mirrorlist="https://mirrors.fedoraproject.org/mirrorlist?repo=epel-9&arch=x86_64"
