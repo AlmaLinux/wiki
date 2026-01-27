@@ -6,6 +6,16 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-01-27
+
+Released to Stable:
+
+#### Leapp Data
+
+- Vendor **PostgreSQL**:
+ - remove _Supplementary ucommon RPMs_ (sysupdates) repositories
+ - switch _PostgreSQL 12 for RHEL / CentOS_ repositories into `yum-archive.postgresql.org`
+
 ## 2025-11-18
 
 Released to Stable:
