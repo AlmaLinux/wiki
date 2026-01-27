@@ -13,8 +13,8 @@ Released to Stable:
 #### Leapp Data
 
 - Vendor **PostgreSQL**:
- - remove _Supplementary ucommon RPMs_ (sysupdates) repositories
- - switch _PostgreSQL 12 for RHEL / CentOS_ repositories into `yum-archive.postgresql.org`
+- remove _Supplementary ucommon RPMs_ (sysupdates) repositories
+- switch _PostgreSQL 12 for RHEL / CentOS_ repositories into `yum-archive.postgresql.org`
 
 ## 2025-11-18
 
