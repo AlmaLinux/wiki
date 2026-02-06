@@ -4,7 +4,7 @@ title: "Marketing SIG"
 
 # Marketing SIG
 
-The Marketing team is responsible for AlmaLinux branding consistency, marketing and outreach efforts, and overall public presense. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise linux distribution to find us.
+The Marketing team is responsible for AlmaLinux branding consistency, marketing and outreach efforts, and overall public presence. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise Linux distribution to find us.
 
 ## How to Join
 
