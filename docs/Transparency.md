@@ -60,8 +60,16 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Feb 10, 2026 [Board meeting #47 agenda](https://docs.google.com/document/d/1YH2P_AKMJIPVtvrU-deWB_h8vxfchVxoMDVEAwpAQus/edit?tab=t.0)
+- Mar 10, 2026 [Board meeting #48 agenda](https://docs.google.com/document/d/1zmYk7Y6xSqviWzuY1lwFhTV5zI1eGzfZLFRC8Xtzokk/edit?tab=t.0)
+- Feb 10, 2026 [Board meeting #47 minutes](https://drive.google.com/file/d/15oeP_LM7Oy0soqAn6eSSCHRd01nOuEP8/view?usp=sharing)
 - Jan 13, 2026 [Board meeting #46 minutes](https://drive.google.com/file/d/1pYHLKXAsPHJQKKoA3zOgQgf5MWmOlHnb/view)
+
+Past years: 
+
+<details>
+  <summary>2025</summary>
+  
+### 2025
 - Dec 09, 2025 [Board meeting #45 minutes](https://drive.google.com/file/d/1o0fOG2UE9OnKDixtT0PMPl2md5c7MIK1/view)
 - Nov 11, 2025 (meeting canceled)
 - Oct 14, 2025 [Board meeting #44 minutes](https://drive.google.com/file/d/1Mw5j5QvM-D-BC_lx1QyQNBFF9_NYJqe8/view)
@@ -74,6 +82,13 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Mar 11, 2025 [Board meeting #38 minutes](https://drive.google.com/file/d/1oNtQKXw2qFGdUiM7dnvxzPf6x_CgSNbp/view)
 - Feb 11, 2025 [Board meeting #37 minutes](https://drive.google.com/file/d/13KHaxb_3B5iNo-q9oWGgW10GT59fQxKK/view)
 - Jan 14, 2025 [Board meeting #36 minutes](https://drive.google.com/file/d/1oNtQKXw2qFGdUiM7dnvxzPf6x_CgSNbp/view)
+
+</details>
+
+<details>
+  <summary>2024</summary>
+  
+### 2024
 - Dec, 2024 (cancelled due to scheduling problems)
 - Nov 12, 2024 [Board meeting #35 minutes](https://drive.google.com/file/d/1sBCL3vWIvsDjtC2PHHC8WslOjLN-k1-A/view)
 - Oct 08, 2024 (meeting cancelled)
@@ -84,6 +99,13 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Apr 10, 2024 [Board meeting #31 minutes](https://drive.google.com/file/d/1A8DaxM9_4Cl927N4JEvUq7Sjs9e0VwMb/view)
 - Mar 13, 2024 [Board meeting #30 minutes](https://drive.google.com/file/d/1IBJC4YrB8wMvUd8Nka4FBoDik4TYAw34/view)
 - Feb 14, 2024 [Board meeting #29 minutes](https://drive.google.com/file/d/1pvtPWbg9CIEJWbIyb-xLd_4m93Z52DU9/view)
+
+</details>
+
+<details>
+  <summary>2023</summary>
+  
+### 2023
 - Dec 13, 2023 [Board meeting #28 minutes](https://drive.google.com/file/d/1s-AyjmpykKkoO8h0khlIVj6Rqw8x2hEy/view)
 - Nov 08, 2023 [Board meeting #27 minutes](https://drive.google.com/file/d/1mrl35cc1ASpqqvmHxzdxFfMJKja5574H/view)
 - Oct 18, 2023 [Board meeting #26 minutes](https://drive.google.com/file/d/1tcAdwSuxb36LkBbY0pF0XDMlp02lLmTS/view)
@@ -96,6 +118,13 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Mar 08, 2023 [Board meeting #20 minutes](https://drive.google.com/file/d/1nOwQd2WoXaywu64ZS60qwvyd0lPda1eB/view)
 - Feb 14, 2023 [Board meeting #19 minutes](https://drive.google.com/file/d/1U7o8E1Y4ozS9smrD4vczLKkGSH76RK1E/view)
 - Jan 10, 2023 [Board meeting #18 minutes](https://drive.google.com/file/d/1F4pJrldgJ8ysY64Y_9yDxd2BuNp-MKfs/view)
+
+</details>
+
+<details>
+  <summary>2022</summary>
+  
+### 2022
 - Dec 13, 2022 [Board meeting #17 minutes](https://drive.google.com/file/d/18qyOYEgX-0kVrCGXzaVhdUqUKTwPzrud/view)
 - Oct 11, 2022 [Board meeting #16 minutes](https://drive.google.com/file/d/1uTh_VK4qIHFSVA1gJjJRhC4JXB1paGgC/view)
 - Sep 13, 2022 [Board meeting #15 minutes](https://drive.google.com/file/d/1KkqLjPie2EqMpL-wcfnAF0NG730vy-ci/view)
@@ -105,6 +134,13 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Apr 19, 2022 [Board meeting #11 minutes](https://drive.google.com/file/d/1hm-pB_E5S9ZxG8zHv6yDOpYTr7IgRt5n/view)
 - Mar 08, 2022 [Board meeting #10 minutes](https://drive.google.com/file/d/1hSis_UUekbtPOh038tEiNpyqIe72vrOl/view)
 - Feb 15, 2022 [Board meeting #9 minutes](https://drive.google.com/file/d/1UQZ2hPXEZgn2Ha8sGMGUr7-PRao7R4fb/view)
+
+</details>
+
+<details>
+  <summary>2021</summary>
+  
+### 2021
 - Dec 06, 2021 [Board meeting #8 minutes](https://drive.google.com/file/d/1p-LQWuENiS-KZNPoB89Fblkey5TiJEeV/view)
 - Nov 08, 2021 [Board meeting #7 minutes](https://drive.google.com/file/d/1X8BNjupxLusluUq2q-phwWMe0C0sGD_K/view)
 - Oct 11, 2021 [Board meeting #6 minutes](https://drive.google.com/file/d/1q_7xDNOt4yieXnP5eF4kAcKWtmaAzQiq/view)
@@ -113,6 +149,8 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Jul 19, 2021 [Board meeting #3 minutes](https://drive.google.com/file/d/1YfpQMs2YRiozcMyGvHjeP1Nr2cp3hD9u/view)
 - Jun 14, 2021 [Board meeting #2 minutes](https://drive.google.com/file/d/1hwcgIacCug0TESfohIB-mEiYs69BCLfv/view)
 - May 12, 2021 [Board meeting #1 minutes](https://drive.google.com/file/d/1O2oNPu9rXxnu0IjYkdeS3dDfKN4YKVsJ/view)
+
+</details>
 
 ## Membership Committee
 
