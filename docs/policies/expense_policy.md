@@ -64,7 +64,7 @@ In general, the foundation will reimburse reasonable choices of publicly availab
 
 - Use the most cost-effective and direct route.
 
-5.1.2 Ground Transportation
+  5.1.2 Ground Transportation
 
 - Public transport, ride-shares, or taxis. To the extent a receipt is not available for public transportation, these expenses should be documented by screenshots or affidavits.
 
@@ -72,7 +72,7 @@ In general, the foundation will reimburse reasonable choices of publicly availab
 
 - Rental cars when more economical than other transport modes. Actual costs must be claimed and not mileage.
 
-5.1.3 Personal Vehicle Use
+  5.1.3 Personal Vehicle Use
 
 - If traveling to a conference or event using a personal car, mileage will be reimbursed at the current IRS mileage rate (or equivalent local government rate for international travelers).
 
@@ -100,7 +100,7 @@ Non-Reimbursable Car Expenses:
 
 - Routine maintenance, insurance premiums, or traffic/parking violations.
 
-5.1.4 Travel by any other method
+  5.1.4 Travel by any other method
 
 Generally, the foundation prefers the most cost-effective and reasonable method of travel. Any non-commercial airline, driving, or train travel is discouraged. However, if alternate transportation is chosen, we will reimburse up to the cost of a commercial flight booked at a reasonable time before the event.
 
