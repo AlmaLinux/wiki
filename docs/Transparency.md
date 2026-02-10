@@ -64,7 +64,7 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Feb 10, 2026 [Board meeting #47 minutes](https://drive.google.com/file/d/15oeP_LM7Oy0soqAn6eSSCHRd01nOuEP8/view?usp=sharing)
 - Jan 13, 2026 [Board meeting #46 minutes](https://drive.google.com/file/d/1pYHLKXAsPHJQKKoA3zOgQgf5MWmOlHnb/view)
 
-Past years: 
+Past years:
 
 <details>
   <summary>2025</summary>
