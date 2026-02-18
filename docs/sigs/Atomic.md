@@ -49,6 +49,9 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 - [Cameron Knauff](mailto:cameron@stillhq.io)
   - Chat: [@cameron](https://chat.almalinux.org/almalinux/messages/@cameron)
   - Github: [PizzaLovingNerd](https://github.com/PizzaLovingNerd)
+- Licia Seiker
+  - Chat: [@LICIA](https://chat.almalinux.org/almalinux/messages/@esrseiker)
+  - Github: [eseiker](https://github.com/eseiker)
 
 ## Additional information for SIG application approval
 
