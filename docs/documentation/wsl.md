@@ -14,6 +14,7 @@ The following AlmaLinux OS versions are available for installation via both meth
 
 - AlmaLinux OS 8
 - AlmaLinux OS 9
+- AlmaLinux OS 10
 
 :::tip
 If you are looking for AlmaLinux OS Kitten image, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
@@ -87,11 +88,11 @@ The WSL format is a modern and recommended way of installation. The WSL version 
   wsl -l -o
   ```
 
-- You will see AlmaLinux OS versions available as `AlmaLinux-8`, `AlmaLinux-9`, and `AlmaLinux-Kitten-10`.
-- Install the needed version. Example command for AlmaLinux OS 9 installation:
+- You will see AlmaLinux OS versions available as `AlmaLinux-8`, `AlmaLinux-9`, `AlmaLinux-Kitten-10` and `AlmaLinux-10`.
+- Install the needed version. Example command for AlmaLinux OS 10 installation:
 
   ```
-  wsl --install AlmaLinux-9
+  wsl --install AlmaLinux-10
   ```
 
 - After the installation is completed, the AlmaLinux OS will be available as an application in a new tab with its icon an color-scheme.
@@ -114,7 +115,7 @@ The WSL format is a modern and recommended way of installation. The WSL version 
   - Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the “+” icon. You’ll see a dropdown with available WSL distros listed. Click AlmaLinux OS. It will open in a new tab, ready to use.
   - Or run the command:
     ```
-    wsl -d AlmaLinux-9
+    wsl -d AlmaLinux-10
     ```
 
 ### Install AlmaLinux OS via the Microsoft App Store
@@ -122,6 +123,7 @@ The WSL format is a modern and recommended way of installation. The WSL version 
 - Install the needed AlmaLinux OS app from the Microsoft Store:
   - [AlmaLinux OS 8](https://apps.microsoft.com/detail/9nmd96xjj19f)
   - [AlmaLinux OS 9](https://apps.microsoft.com/detail/9p5rwlm70sn9)
+  - [AlmaLinux OS 10](https://apps.microsoft.com/detail/9n2vhjms6j50)
 
 - After the installation is completed, the AlmaLinux OS will be available as an application in a new tab with its icon and color scheme.
 
@@ -143,7 +145,7 @@ The WSL format is a modern and recommended way of installation. The WSL version 
   - Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the “+” icon. You’ll see a dropdown with available WSL distros listed. Click AlmaLinux OS. It will open in a new tab, ready to use.
   - Or run the command:
     ```
-    wsl -d AlmaLinux-9
+    wsl -d AlmaLinux-10
     ```
 
 ## Extras
