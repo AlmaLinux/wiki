@@ -155,6 +155,30 @@ To fix this error:
 
 After making these changes, the error should no longer appear when using `vi`.
 
+## Actor `target_userspace_creator` failed: Could not resolve host: mirrors.almalinux.org
+
+`leapp preupgrade` fails with:
+
+```
+2026-02-19 17:01:38.875801 [ERROR] Actor: target_userspace_creator
+Message: Unable to install RHEL 10 userspace packages.
+...
+Error: Failed to download metadata for repo 'almalinux10-baseos': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.almalinux.org/mirrorlist/10.0/baseos [Could not resolve host: mirrors.almalinux.org]
+```
+
+**Reason:** `/etc/resolv.conf` is a symbolic link instead of a regular file, as shown by:
+
+```
+$ ls -la /etc/resolv.conf
+lrwxrwxrwx. 1 root root 32 Feb 19 17:00 /etc/resolv.conf -> /run/systemd/resolve/resolv.conf
+```
+
+**Explanation:** This issue is caused by a _symlink-vs-tmpfs_ ordering conflict between the source overlay and `systemd-nspawn`, which creates a minimal environment (container) from which the real upgrade will run. The symlink cannot be properly resolved within the container environment.
+
+**Workaround:** Convert `/etc/resolv.conf` from a symbolic link to a regular file. You may copy the content from the target file to create a regular file.
+
+After converting, run `leapp preupgrade` again.
+
 ## Known issues
 
 AlmaLinux Team is working hard to get a solution for these issues. Any contribution is valuable and helps us out. If you want to help and contribute, see [how to contribute](/elevate/#how-to-contribute) information.
