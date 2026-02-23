@@ -6,6 +6,20 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-02-23
+
+Released to Stable:
+
+#### Leapp Data
+
+- Vendor **MariaDB**:
+  - change domain into _mirror.mariadb.org_ and set path in baseurl for `mariadb-main` repository
+  - set baseurl to https://mirror.mariadb.org/yum/11.rolling/rhel/$releasever/$basearch (EL7 only)
+
+#### Leapp Repository
+
+- Update ELevate patch: setup repomap handler - combine all `RepositoriesMapping` messages (main + vendor, EL7 only)
+
 ## 2026-01-27
 
 Released to Stable:
@@ -13,8 +27,8 @@ Released to Stable:
 #### Leapp Data
 
 - Vendor **PostgreSQL**:
-- remove _Supplementary ucommon RPMs_ (sysupdates) repositories
-- switch _PostgreSQL 12 for RHEL / CentOS_ repositories into `yum-archive.postgresql.org`
+  - remove _Supplementary ucommon RPMs_ (sysupdates) repositories
+  - switch _PostgreSQL 12 for RHEL / CentOS_ repositories into `yum-archive.postgresql.org`
 
 ## 2025-11-18
 
