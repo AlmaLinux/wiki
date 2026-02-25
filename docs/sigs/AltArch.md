@@ -31,6 +31,8 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 
 ## SIG members
 - [Peter Edwards](peadar@arista.com) - SIG Lead x86_32 building
+- [Eduard Abdullin](eabdullin@almalinux.org) - SIG Lead x86_64-v2 building
+- [Andrew Lukoshko](alukoshko@almalinux.org) - SIG Lead RISC-V building
 - [Koichiro Iwao](koichiro.iwao@miraclelinux.com) - SIG Lead - Raspberry Pi building
 - [Ganesan Rajagopal](rganesan@arista.com) - Member
 - [Navneet Sinha](navneet@arista.com) - Member
