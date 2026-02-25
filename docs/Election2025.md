@@ -28,7 +28,7 @@ Please, check FAQ section for more information.
 <table>
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/daniel-small.jpg" alt="Daniel Pearson" width="128" height="128" />
+      <img src="/images/elections2025/daniel-small.webp" alt="Daniel Pearson" width="128" height="128" />
     </td>
     <td>
       <a href="https://www.linkedin.com/in/daniel-pearson-b2559b60/">Daniel Pearson</a>
@@ -47,7 +47,7 @@ Please, check FAQ section for more information.
 
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/jack-small.jpg" alt="Jack Aboutboul" width="128" height="128" />
+      <img src="/images/elections2025/jack-small.webp" alt="Jack Aboutboul" width="128" height="128" />
     </td>
     <td>
       <a href="https://www.linkedin.com/in/jackaboutboul/">Jack Aboutboul</a>
@@ -66,7 +66,7 @@ Please, check FAQ section for more information.
 
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/simon-small.jpg" alt="Simon Phipps" width="128" height="128" />
+      <img src="/images/elections2025/simon-small.webp" alt="Simon Phipps" width="128" height="128" />
     </td>
     <td>
       <a href="https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)">Simon Phipps</a>
@@ -85,7 +85,7 @@ Please, check FAQ section for more information.
 
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/moshe-bar-board-small.jpg" alt="Moshe Barr" width="128" height="128" />
+      <img src="/images/elections2025/moshe-bar-board-small.webp" alt="Moshe Barr" width="128" height="128" />
     </td>
     <td>
       <a href="https://en.wikipedia.org/wiki/Moshe_Bar_(investor)">Moshe Barr</a>
@@ -104,7 +104,7 @@ Please, check FAQ section for more information.
 
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/davidsnead-small.jpg" alt="David Snead" width="128" height="128" />
+      <img src="/images/elections2025/davidsnead-small.webp" alt="David Snead" width="128" height="128" />
     </td>
     <td>
       <a href="https://www.linkedin.com/in/davidsnead/">David Snead</a>
@@ -123,7 +123,7 @@ Please, check FAQ section for more information.
 
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/benny-small.jpg" alt="benny Vasquez" width="128" height="128" />
+      <img src="/images/elections2025/benny-small.webp" alt="benny Vasquez" width="128" height="128" />
     </td>
     <td>
       <a href="https://www.linkedin.com/in/bennyvasquez/">benny Vasquez</a>
@@ -142,7 +142,7 @@ Please, check FAQ section for more information.
 
   <tr>
     <td style="vertical-align: top; text-align: center; width: 150px; min-width: 150px;" rowspan="3">
-      <img src="/images/elections2025/tristan-small.jpg" alt="Tristan Theroux" width="128" height="128" />
+      <img src="/images/elections2025/tristan-small.webp" alt="Tristan Theroux" width="128" height="128" />
     </td>
     <td>
       <a href="https://www.linkedin.com/in/tristan-th%C3%A9roux-b588065a/">Tristan Theroux</a>
@@ -166,11 +166,11 @@ Last updated: Aug 28, 2025
 
 <table>
   <tr>
-    <td style="vertical-align: top;"><img src="/images/elections2025/igor-small.jpg" alt="Igor Seletskiy" /></td>
+    <td style="vertical-align: top;"><img src="/images/elections2025/igor-small.webp" alt="Igor Seletskiy" /></td>
     <td><a href="https://www.linkedin.com/in/iseletsk/">Igor Seletskiy</a></td>
   </tr>
   <tr>
-    <td style="vertical-align: top;"><img src="/images/elections2025/AlexIribarren-small.jpg" alt="Alex Iribarren" /></td>
+    <td style="vertical-align: top;"><img src="/images/elections2025/AlexIribarren-small.webp" alt="Alex Iribarren" /></td>
     <td><a href="https://www.linkedin.com/in/iribarren/">Alex Iribarren</a></td>
   </tr>
 </table>

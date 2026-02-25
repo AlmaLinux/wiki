@@ -19,19 +19,19 @@ There are a few AlmaLinux Live Media Options:
 - GNOME Mini: contains a core GNOME environment with Firefox browser
 - GNOME: contains a full GNOME environment with popular workstation applications like LibreOffice, Thunderbird and so on.
 
-![image](/images/live-media-9-gnome.png)
+![image](/images/live-media-9-gnome.webp)
 
 - KDE: contains KDE desktop environment with Firefox browser, Konqueror browser, and applications like LibreOffice, Thunderbird, etc.
 
-![image](/images/live-media-9-kde.png)
+![image](/images/live-media-9-kde.webp)
 
 - MATE: contains MATE desktop environment with Firefox browser, LibreOffice and other applications.
 
-![image](/images/live-media-9-mate.png)
+![image](/images/live-media-9-mate.webp)
 
 - XFCE: contains XFCE desktop environment with Firefox browser, Thunderbird, LibreOffice, and more applications.
 
-![image](/images/live-media-9-xfce.png)
+![image](/images/live-media-9-xfce.webp)
 
 ## How to download and write images
 

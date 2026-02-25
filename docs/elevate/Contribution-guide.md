@@ -446,7 +446,7 @@ We are also seeking contributors to test new ELevate features and upgrade direct
 
 The current ELevate process is the following:
 
-![image](/images/elevate-testing-scheme.svg)
+![image](/images/elevate-testing-scheme.webp)
 
 - ELevate NG is designed to collect community contributions such as new support, features and bugfixes, leapp-repository, and leapp-data new versions. We test these enhancements first and welcome the community to test them. If you are interested please refer to the [ELevate NG Testing Guide](https://wiki.almalinux.org/elevate/ELevate-NG-testing-guide.html).
 - ELevate NG goes to the general testing. If you are interested please refer to the [ELevate Testing Guide](https://wiki.almalinux.org/elevate/ELevate-testing-guide.html). Meanwhile, ELevate NG gathers new data, features and improvements.

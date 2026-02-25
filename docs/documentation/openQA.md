@@ -31,7 +31,7 @@ This User Guide describes what information can be found on the [openqa.almalinux
 
 To begin with, navigate your browser to https://openqa.almalinux.org.
 You will find yourself on the main page. You can see the [latest tested jobs](#latest-tests-on-the-main-page) and their test statuses.
-![image](/images/openQA-main_page.png)
+![image](/images/openQA-main_page.webp)
 
 :::tip
 You can see the **_Learn more_** button on the main page. It leads you directly to **[open.qa](https://open.qa/)**.
@@ -49,12 +49,12 @@ You can use the **search** field to find:
 - job modules by filename
 - test modules within the test distributions, either by filename or source code.
 
-![image](/images/openQA-Search.png)
+![image](/images/openQA-Search.webp)
 
 ### Latest tests on the main page
 
 The main page shows the latest tested jobs with the statuses. Clicking on the build (a version of a product) or a test status scale lead you to a _Test result overview_.
-![image](/images/openQA-Test_Result_Overview.png)
+![image](/images/openQA-Test_Result_Overview.webp)
 
 #### Summary of Test Result Overview
 
@@ -72,14 +72,14 @@ The test result overview provides the following details:
 #### Result details
 
 - You can view the tests conducted, their statuses, and screenshots. By clicking on the test icon, you will be directed to the job's **Details** page, which displays the screenshots and the time taken to complete the job.
-  ![image](/images/openQA-Test_Details.png)
+  ![image](/images/openQA-Test_Details.webp)
 
 - Clicking on a screenshot will enlarge it and display a "needle" – a mechanism used to determine the state of the virtual machine by detecting the presence of specific elements on the machine's output (screen).
-  ![image](/images/openQA-needle.png)
+  ![image](/images/openQA-needle.webp)
   :::tip
   There's a small camera icon that will take you to a video recording of the executed test.
   Example:
-  ![image](/images/openQA-video_recording.png)
+  ![image](/images/openQA-video_recording.webp)
   :::
 
 - The **Logs and Assets** section enables you to download result files and the product that was tested (an iso file).
@@ -88,7 +88,7 @@ The test result overview provides the following details:
 ### All Tests
 
 The **All Tests** option leads to a list of jobs that are running (in the process), scheduled and the last 500 finished jobs. The last 500 finished jobs can be filtered by the result status.
-![image](/images/openQA-All_Tests.png)
+![image](/images/openQA-All_Tests.webp)
 
 :::tip
 openQA is employed to evaluate diverse combinations of actions and configurations in the AlmaLinux installer. By establishing a virtual machine, executing a sequence of steps, and generating a result for each unique combination, openQA ensures comprehensive testing. These runs, known as 'jobs,' are assigned a numeric identifier and are governed by various settings that determine their behavior.
@@ -106,7 +106,7 @@ Numerous job parameters are involved in the process:
   Clicking on the test icons for an ongoing job will take you to a live video feed of the test in progress.
 
   Example:
-  ![image](/images/openQA-Live_View.png)
+  ![image](/images/openQA-Live_View.webp)
   :::
 
 - `Progress`: Indicates the percentage of test completion through a progress scale.
@@ -119,7 +119,7 @@ Numerous job parameters are involved in the process:
 ### Job Groups
 
 The **Job Groups** option opens a menu.
-![image](/images/openQA-Job_Groups.png)
+![image](/images/openQA-Job_Groups.webp)
 
 Each job is assigned to a group based on its respective architecture. _Updates_ groups pertain to jobs associated with products that have updates. When selecting a job group, you'll be shown the most recent tested builds for that group, accompanied by a test results scale.
 

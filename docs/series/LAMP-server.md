@@ -58,7 +58,7 @@ It first appeared in 1995 and since 1996 the most popular web server in the worl
 
 You can test that Apache runs properly by accessing http://YOUR-IP (**YOUR-IP** being your ip address), you should get the following page:
 
-![AlmaLinux-Apache-Default-page](/images/HowTo-LAMP-server-1.png)
+![AlmaLinux-Apache-Default-page](/images/HowTo-LAMP-server-1.webp)
 
 ## Second step - install MariaDB
 
@@ -257,4 +257,4 @@ It's widely favored by developers for its flexibility and performance, seamlessl
 - **Results:**
 
   You should get a similar result:
-  ![LAMP-server-results](/images/HowTo-LAMP-server-2.png)
+  ![LAMP-server-results](/images/HowTo-LAMP-server-2.webp)

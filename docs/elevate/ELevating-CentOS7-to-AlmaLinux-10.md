@@ -29,7 +29,7 @@ You can add more 3rd party repositories support. See more on the [Contribute](/e
 
 Currently, the following upgrade paths are available:
 
-![image](/images/ELevateNG.svg)
+![image](/images/ELevateNG.webp)
 
 \* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
 

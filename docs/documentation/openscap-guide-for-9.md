@@ -206,7 +206,7 @@ Result  pass
 
 The HTML report which you can view in a browser looks like as follows:
 
-![image](/images/openscap-9_evaluation_report.png)
+![image](/images/openscap-9_evaluation_report.webp)
 
 ## Generating a Full Security Guide
 
@@ -221,7 +221,7 @@ sudo oscap xccdf generate guide --profile hipaa   --fetch-remote-resources \
 
 The HTML report which you can view in a browser looks like as follows:
 
-![image](/images/openscap-9_full_security_guide.png)
+![image](/images/openscap-9_full_security_guide.webp)
 
 :::tip
 Run the `oscap info ssg-results.xml` command from the _/tmp_ directory to review the results XML file. You can get information like remediation scripts from it.
@@ -349,7 +349,7 @@ sudo oscap oval generate report /tmp/alsa-results-oval.xml \
 
 Here is an example of the HTML report:
 
-![image](/images/openscap-9_oval_scan.png)
+![image](/images/openscap-9_oval_scan.webp)
 
 ## SCAP Workbench
 
@@ -365,13 +365,13 @@ If the `scap-security-guide` package wasn't installed from the package repositor
 
 After SCAP Workbench is installed, it should appear in your desktop environments application menu and you can run it.
 
-![image](/images/openscap-9_workbench.png)
+![image](/images/openscap-9_workbench.webp)
 
 After you start Workbench, a dialog window will offer you to choose which SCAP Security Guide to open.
 
 When one of the guides is chosen, the next SCAP Workbench window appears. There is a menu, which offers you some more options to select before scanning the system.
 
-![image](/images/openscap-9_workbench_profiles.png)
+![image](/images/openscap-9_workbench_profiles.webp)
 
 **_File_**
 This option offers to load or save SCAP-related content. The _Save Customization Only_ item is useful if you selected 'Customization Only' and you want to save it as an XCCDF XML file. The _Save All_ item is useful to save SCAP files to the selected directory or as an RPM package.
@@ -415,8 +415,8 @@ If you check this box, SCAP Workbench will attempt to correct system settings th
 
 After the profile is chosen, press the SCAN button. You will see how the process is going on the status bar.
 
-![image](/images/openscap-9_workbench_scan.png)
+![image](/images/openscap-9_workbench_scan.webp)
 
 When the scan is completed, you can _Save Results_ as an XCCDF Result file, ARF, or HTML Report, in case you need them. If you press the _Show Report_ button, it'll be displayed in a browser:
 
-![image](/images/openscap-9_workbench_report.png)
+![image](/images/openscap-9_workbench_report.webp)

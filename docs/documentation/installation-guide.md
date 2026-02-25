@@ -216,7 +216,7 @@ Look at the Linux example above for detailed command elements description for th
 To determine the `XXX` (on our machine it was `disk2s1`) open the `Disk Utility` app.
 Choose your USB drive in the `External` section and check the disk name in the `Device` field:
 
-![image](/images/installation-guide-macos-usb.png)
+![image](/images/installation-guide-macos-usb.webp)
 :::
 
 Now you have AlmaLinux ready on a USB stick.
@@ -230,7 +230,7 @@ UEFI or Bios is never mentioned again during the installation instructions. Remo
 
 - Insert and boot the USB installation meda and you will be presented with the AlmaLinux welcome menu:
 
-  ![image](/images/installation-guide-welcome-menu.png)
+  ![image](/images/installation-guide-welcome-menu.webp)
   - The recommended option _Test this media & install AlmaLinux 9.1_ is automatically highlighted. Choosing this option will run the installation media check to verify that it's usable and the installation can continue. After the media check completes successfully, the anaconda installer will start automatically.
     :::tip
     Selecting _Install AlmaLinux 9.x_. will skip checking the installation media and boot straight to the anaconda installer.
@@ -238,13 +238,13 @@ UEFI or Bios is never mentioned again during the installation instructions. Remo
 
 - When the installer boots, the first step is to choose the language that will be used during the installation process.
 
-  ![image](/images/installation-guide-installation-language.png)
+  ![image](/images/installation-guide-installation-language.webp)
 
   Choose the language you'd like and press the **Continue** button.
 
 - Next, the _Installation Summary_ window will appear. It contains all of the sections that you can configure for the installation:
 
-  ![image](/images/installation-guide-installation-summary.png)
+  ![image](/images/installation-guide-installation-summary.webp)
 
   :::warning
   Sections that are marked with **red** color are necessary to be configured to complete the installation.
@@ -254,19 +254,19 @@ UEFI or Bios is never mentioned again during the installation instructions. Remo
 
 - _Keyboard_ - you may specify the system's keyboard layouts here.
 
-  ![image](/images/installation-guide-keyboard.gif)
+  ![image](/images/installation-guide-keyboard.webp)
 
   Select **Done** to complete the configuration of this section.
 
 - _Language Support_ - the default supported language is the language selected for the installation process. You can add support for additional languages as required.
 
-  ![image](/images/installation-guide-language-support.png)
+  ![image](/images/installation-guide-language-support.webp)
 
   Select **Done** to complete the configuration of this section.
 
 - _Time & Date_ - this option allows you to select the timezone to be configured. You can select the location from the _Region_/_City_ lists or select from the map. Enable the Network Time option to configure the system to automatically set the time on boot via NTP.
 
-  ![image](/images/installation-guide-time-date.gif)
+  ![image](/images/installation-guide-time-date.webp)
 
   Select **Done** to complete the configuration of this section.
 
@@ -288,7 +288,7 @@ Select **Done** to complete the configuration of this section.
     - Virtualizaton Host
   - _Additional Software for the Selected Environment_ - here you can select additional software to be installed. The list of available additional software changes based on the chosen _Base Environment_.
 
-  ![image](/images/installation-guide-software-selection.gif)
+  ![image](/images/installation-guide-software-selection.webp)
 
   Select **Done** to complete the configuration of this section.
 
@@ -302,25 +302,25 @@ This section allows you to customize the installation to the requirements of you
   To manually create disk partitions, select _Custom_.
   :::
 
-  ![image](/images/installation-guide-installation-destination.png)
+  ![image](/images/installation-guide-installation-destination.webp)
 
   :::tip
   To encrypt your data, select **Encrypt my data** and you will be asked to type a _passphrase_ after clicking on the **Done** button.
 
-  ![image](/images/installation-guide-encryption.gif)
+  ![image](/images/installation-guide-encryption.webp)
   :::
 
   Select **Done** to complete the configuration of this section.
 
 - _KDUMP_ - by default, kdump will be marked as enabled with automatic memory reservation.
 
-  ![image](/images/installation-guide-kdump.png)
+  ![image](/images/installation-guide-kdump.webp)
 
   Select **Done** to complete the configuration of this section.
 
 - _Network & Host Name_ - all detected networks will be listed in the left field. If able they will be automatically connected. You can add a network device and configure the chosen network in this section.
 
-  ![image](/images/installation-guide-network.png)
+  ![image](/images/installation-guide-network.webp)
 
   Select **Done** to complete the configuration of this section.
 
@@ -342,7 +342,7 @@ This section allows you to customize the installation to the requirements of you
   - [DRAFT] DISA STIG for Red Hat Enterprise Linux 9
   - [DRAFT] DISA STIG with GUI for Red Hat Enterprise Linux 9
 
-    ![image](/images/installation-guide-security-profiles.gif)
+    ![image](/images/installation-guide-security-profiles.webp)
 
     :::tip
     For further details about Security Profiles, check the [OpenSCAP Guide for AlmaLinux 8](/documentation/openscap-guide.md) and [OpenSCAP Guide for AlmaLinux 9](/documentation/openscap-guide-for-9.md).
@@ -356,19 +356,19 @@ This section allows you to configure a password for the root user account if req
 
 - _Root Password_ - the root user is the most privileged account, a strong password is highly recommended to protect this account. Type the password in the _Root Password_ text field and type it once more in the _Confirm_ text field to confirm the password.
 
-  ![image](/images/installation-guide-root.gif)
+  ![image](/images/installation-guide-root.webp)
 
   Select **Done** to complete the configuration of this section.
 
 - _User Creation_ - this window allows you to create administrative and non-administrative users. To create a user fill in the _Full Name_ and _User Name_ fields, set and confirm the password, and enable the _Make this user administrator_ field if required. The _Require the password to use this account_ option is enabled by default. You can leave it enabled or click on the checkbox to remove the check to disable this option.
 
-  ![image](/images/installation-guide-user.gif)
+  ![image](/images/installation-guide-user.webp)
 
   Select **Done** to complete the configuration of this section.
 
 - When you are finished with the customization, click on the **Begin Installation** button to start the installation process.
 
-  ![image](/images/installation-guide-begin-installation.gif)
+  ![image](/images/installation-guide-begin-installation.webp)
 
   The installation will begin and the progress shown on the Installation Progress screen.
 
@@ -378,7 +378,7 @@ This section allows you to configure a password for the root user account if req
 
 - Wait for the installation process to complete successfully and click on the **Reboot** button to restart the system.
 
-  ![image](/images/installation-guide-reboot.png)
+  ![image](/images/installation-guide-reboot.webp)
 
 - When the system reboots, log in and enjoy your AlmaLinux system.
 

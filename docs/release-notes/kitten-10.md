@@ -22,7 +22,7 @@ Distributed kernel version: 6.12.0-35.el10
 This release should not be used for production installations.
 :::
 
-<img src=/images/kitten10-screenshot.png width="75%" height="75%">
+<img src=/images/kitten10-screenshot.webp width="75%" height="75%">
 
 ## Providing Feedback and Getting Help
 

@@ -20,7 +20,7 @@ The mock tool has such advantages as:
 
 The mock tool already contains config files for x86_64 and aarch64 architectures. You can find them in the `/etc/mock/` directory.
 
-![image](/images/building-packages-guide_etc-mock.png)
+![image](/images/building-packages-guide_etc-mock.webp)
 
 :::warning
 Mock doesn't have a config file to build i686 packages. So you have to create a config yourselves to make that possible.
@@ -84,7 +84,7 @@ Now is the right time to make some changes, if needed, before building a package
 rpmbuild -bs packagename.spec
 ```
 
-![images](/images/building-packages-guide_rpmbuild.png)
+![images](/images/building-packages-guide_rpmbuild.webp)
 
 Switch to the SRPMS directory to build the package. The next step depends on what architecture you are building packages.
 
@@ -326,7 +326,7 @@ In case you need to build a package without any changes, follow mentioned steps:
 
 Builds are done in the `/var/lib/mock` directory. You can see the built packages in this directory.
 
-![image](/images/building-packages-guide_results.png)
+![image](/images/building-packages-guide_results.webp)
 
 ## Building packages from [git.almalinux.org](https://git.almalinux.org/)
 

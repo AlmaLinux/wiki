@@ -46,10 +46,10 @@ To inspect a desired package for _SBOM_ information, you need the package inform
 - Navigate to [AlmaLinux Build System](https://build.almalinux.org/).
 - Find the package you want to inspect in the **Feed** or by using the **Search**.
 - Click **Details**.
-  ![image](/images/sbom-details.png)
+  ![image](/images/sbom-details.webp)
 - Now you can see the **build-id** and the package's **rpm-package-hash**. The cryptographic hash ensures the integrity of this SBOM, meaning it hasn't been tampered with since being stored in immudb.
   You can see and copy the hash by hovering the mouse on the _key_ sign and by clicking it.  
-   ![image](/images/sbom-details2.png)
+   ![image](/images/sbom-details2.webp)
 
 ## Using the AlmaLinux SBOM tool
 
