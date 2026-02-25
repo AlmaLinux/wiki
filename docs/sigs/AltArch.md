@@ -39,4 +39,3 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 - [Anant Verma](anantv@arista.com) - Member
 - [Mahendar Srinivasan](mahendars@arista.com) - Member
 - [Michel Lind](michel@michel-slm.name) - Member
-- [Andrew Lukoshko](alukoshko@almalinux.org) - Member
