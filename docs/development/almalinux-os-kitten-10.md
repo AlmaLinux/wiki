@@ -12,7 +12,7 @@ Currently, AlmaLinux OS Kitten is based on CentOS Stream 10 code and provides a 
 
 AlmaLinux Kitten also allows anyone who is building from or extending AlmaLinux to engage in our building and release processes and gain a deeper understanding of them.
 
-<img src=/images/kitten10-screenshot.png width="75%" height="75%">
+<img src=/images/kitten10-screenshot.webp width="75%" height="75%">
 
 ## Mirrors, ISOs, and Update Frequency
 

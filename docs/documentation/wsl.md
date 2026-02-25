@@ -97,7 +97,7 @@ The WSL format is a modern and recommended way of installation. The WSL version 
 
 - After the installation is completed, the AlmaLinux OS will be available as an application in a new tab with its icon an color-scheme.
 
-  <img src=/images/wsl.jpeg width="75%" height="75%">
+  <img src=/images/wsl.webp width="75%" height="75%">
 
 - Verify you have it installed. Show all installed distros:
 
@@ -127,7 +127,7 @@ The WSL format is a modern and recommended way of installation. The WSL version 
 
 - After the installation is completed, the AlmaLinux OS will be available as an application in a new tab with its icon and color scheme.
 
-  <img src=/images/wsl.jpeg width="75%" height="75%">
+  <img src=/images/wsl.webp width="75%" height="75%">
 
 - Verify you have it installed. Show all installed distros:
 

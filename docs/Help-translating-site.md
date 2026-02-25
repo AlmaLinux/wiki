@@ -16,21 +16,21 @@ If you would like to help contribute to translations, you can do so by following
 
 First you need to create a [Weblate](https://hosted.weblate.org/accounts/register/) account. You could use accounts from other service providers or fill in the form shown below to create it.
 
-![image](/images/weblate-create-account.png)
+![image](/images/weblate-create-account.webp)
 
 ## Starting to translate
 
 After creating an account we need to head to [AlmaLinux Foundation Weblate](https://hosted.weblate.org/projects/almalinux/):
 
-![image](/images/weblate-almalinux-foundation.png)
+![image](/images/weblate-almalinux-foundation.webp)
 
 Choosing each one of the two should send you to a page similar to the image below.
 
-![image](/images/weblate-translate-website.png)
+![image](/images/weblate-translate-website.webp)
 
 Then choose the language you want to translate to. For this example, I'll choose [Hebrew](https://hosted.weblate.org/translate/almalinux/website-backend/he/?q=state:%3Ctranslated).
 
-![image](/images/weblate-send-translations.png)
+![image](/images/weblate-send-translations.webp)
 
 After translating from English to your chosen language (.e.g Hebrew) press on "Save and continue" and your translation will be sent eventually as a PR to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) and reviewed by a member of the marketing SIG or another team lead, then merged as appropriate.
 
@@ -38,4 +38,4 @@ After translating from English to your chosen language (.e.g Hebrew) press on "S
 
 You can request new languages to be added by creating a ticket in [GitHub issues](https://github.com/AlmaLinux/almalinux.org/issues), like so:
 
-![image](/images/weblate-ask-new-lang.png)
+![image](/images/weblate-ask-new-lang.webp)

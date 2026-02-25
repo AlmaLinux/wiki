@@ -28,11 +28,11 @@ sudo dnf --security update
 
 If your system has a graphical interface, you can an application. On your panel, open **Settings** via _Applications_:
 
-![image](/images/after-install-settings-1.png)
+![image](/images/after-install-settings-1.webp)
 
 or find them under _WiFi/Connection_ sign:
 
-![image](/images/after-install-settings-2.png)
+![image](/images/after-install-settings-2.webp)
 
 Using this application you can edit an existing connection or configure a new one.
 
@@ -48,7 +48,7 @@ nmtui
 
 It will get you to the text user interface tool.
 
-![image](/images/after-install-nmtui.png)
+![image](/images/after-install-nmtui.webp)
 
 Use the arrow keys to navigate and press _Enter_ to select an option of your choice.
 

@@ -48,18 +48,18 @@ Please, check FAQ section for more information.
 
 # Nominees
 
-- ![image](/images/elections2023/AlexIribarren-small.jpg) [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - Alejandro has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates. _nominated by Ben Morris_
-- ![Image](/images/elections2023/JunYoshida-small.jpg) [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is an Executive Officer of CyberTrust Japan and a member of the AlmaLinux community. He has been a strong advocate for AlmaLinux in Japan. _nominated by Koichiro Iwao_
+- ![image](/images/elections2023/AlexIribarren-small.webp) [Alejandro Iribarren](https://www.linkedin.com/in/iribarren/) - Alejandro has strong ties within the AlmaLinux community and can represent the scientific use-case of AlmaLinux, both internally at the CERN site as well as throughout our HEP (high energy physics) associates. _nominated by Ben Morris_
+- ![Image](/images/elections2023/JunYoshida-small.webp) [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is an Executive Officer of CyberTrust Japan and a member of the AlmaLinux community. He has been a strong advocate for AlmaLinux in Japan. _nominated by Koichiro Iwao_
 
 Last updated Dec 1, 2023
 
 # Election Committee
 
-- ![image](/images/elections2023/Abdullah_As-Sadeed-small.png) [Abdullah As-Sadeed](https://github.com/Bitscoper/)
-- ![image](/images/elections2023/JING_LUO.png) Jing Luo
+- ![image](/images/elections2023/Abdullah_As-Sadeed-small.webp) [Abdullah As-Sadeed](https://github.com/Bitscoper/)
+- ![image](/images/elections2023/JING_LUO.webp) Jing Luo
 - [Radhesh Goel](https://www.linkedin.com/in/radhesh-g)
-- ![image](/images/elections2023/Benny-small.jpg) [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/)
-- ![image](/images/elections2023/igor-small.jpg) [Igor Seletskiy](https://www.linkedin.com/in/iseletsk/)
+- ![image](/images/elections2023/Benny-small.webp) [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/)
+- ![image](/images/elections2023/igor-small.webp) [Igor Seletskiy](https://www.linkedin.com/in/iseletsk/)
 
 ## FAQ
 

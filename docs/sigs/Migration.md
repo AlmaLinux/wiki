@@ -12,7 +12,7 @@ The [migration tool](/documentation/migration-guide) is used to convert an EL8 o
 
 The tool supports the following migration paths:
 
-![image](/images/migration.svg)
+![image](/images/migration.webp)
 
 ### AlmaLinux ELevate project.
 
@@ -20,7 +20,7 @@ The ELevate project is an initiative to support migrations between major version
 
 The project supports the following migration paths:
 
-![image](/images/ELevate.svg)
+![image](/images/ELevate.webp)
 
 \* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
 \*\* - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.

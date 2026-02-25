@@ -74,20 +74,20 @@ We suggest you use the [https://paste.almalinux.org/](https://paste.almalinux.or
 - Select `bash` syntax.
 - Create a file name that is easy to understand.
 
-  ![image](/images/help-and-support-paste-1.png)
+  ![image](/images/help-and-support-paste-1.webp)
 
 - Enter your code/output in the window and select its expiration time.
 
-  ![image](/images/help-and-support-paste-2.png)
+  ![image](/images/help-and-support-paste-2.webp)
 
 - Click the **Add another file** to add more code/output pieces.
 - Click the **Paste** button to complete.
 
-  ![image](/images/help-and-support-paste-3.png)
+  ![image](/images/help-and-support-paste-3.webp)
 
 - Copy the link, paste it to the chat and send it with a message describing your problem. Download your output if needed for further usage.
 
-  ![image](/images/help-and-support-paste-4.png)
+  ![image](/images/help-and-support-paste-4.webp)
 
 #### Markdown code block
 
@@ -97,7 +97,7 @@ Another way to send your output is to use Markdown elements to enter your code/o
 
 - Click on the `code` chat element.
 
-  ![image](/images/help-and-support-chat-element-1.png)
+  ![image](/images/help-and-support-chat-element-1.webp)
 
 - It will create an input code element - \``. Extend it to be a code block and add bash syntax. Write your output into this code block.
 
@@ -106,9 +106,9 @@ Another way to send your output is to use Markdown elements to enter your code/o
   \```
 
   That is how it will look in the chat:
-  ![image](/images/help-and-support-chat-element-2.png)
+  ![image](/images/help-and-support-chat-element-2.webp)
 
 - Click the _eye_ sign in the top left corner to preview how your output looks:
-  ![image](/images/help-and-support-chat-element-3.png)
+  ![image](/images/help-and-support-chat-element-3.webp)
 
 - Send the output with a message describing your problem.

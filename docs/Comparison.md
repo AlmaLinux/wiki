@@ -10,7 +10,7 @@ When deciding what OS to use, there are many factors that come into play for a v
 
 In June of 2023 Red Hat announced that they would no longer be shipping their sources for Red Hat Enterprise Linux (RHEL) to git.centos.org, and would be limiting access to RHEL's sources to their customers. As a result of that change, we adjusted where we get our sources to match where RHEL gets its source. AlmaLinux utilizes package sources from both RHEL and CentOS Stream to build its distribution, in addition to other upstream sources, ensuring that our operating system remains stable and safe to use for our users.
 
-![Build pipeline image](/images/2023.updated.almafedoraRedhatoverview.png)
+![Build pipeline image](/images/2023.updated.almafedoraRedhatoverview.webp)
 
 You can hear specifics about how AlmaLinux is built today in [this presentation](https://www.youtube.com/watch?v=aMvI5E9-LYI) from AlmaLinux Day: Germany, in March of 2024.
 

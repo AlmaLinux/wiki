@@ -33,7 +33,7 @@ You can contribute to the project and add more 3rd party repositories support. S
 
 Currently, the following upgrades are available:
 
-![image](/images/ELevate-Testing.svg)
+![image](/images/ELevate-Testing.webp)
 
 \* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
 

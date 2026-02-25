@@ -221,7 +221,7 @@ Result  fail
 
 The HTML report which you can view in a browser looks like as follows:
 
-![image](/images/openscap_evaluation-report.png)
+![image](/images/openscap_evaluation-report.webp)
 
 ### Generating a Full Security Guide
 
@@ -235,8 +235,8 @@ oscap xccdf generate guide --profile hipaa \
 
 You can view the HTML report in a browser. Here is an example:
 
-![image](/images/openscap_security-guide-1.png)
-![image](/images/openscap_security-guide-2.png)
+![image](/images/openscap_security-guide-1.webp)
+![image](/images/openscap_security-guide-2.webp)
 
 ### OVAL Scan
 
@@ -289,7 +289,7 @@ oscap oval generate report /tmp/alsa-results-oval.xml \
 ```
 
 Here is the example of the HTML report:
-![image](/images/openscap-oval-report.png)
+![image](/images/openscap-oval-report.webp)
 
 ## SCAP Workbench
 
@@ -303,13 +303,13 @@ If the `scap-security-guide` package wasn't installed from the package repositor
 
 After SCAP Workbench is installed, it should appear in your desktop environments application menu and you can run it.
 
-![image](/images/openscap_workbench.png)
+![image](/images/openscap_workbench.webp)
 
 After you start Workbench, a dialog window will offer you to choose which SCAP Security Guide to open.
 
 When one of the guides is chosen, the next SCAP Workbench window appears. There is a menu, which offers you some more options to select before scanning the system.
 
-![image](/images/openscap_workbench-menu.png)
+![image](/images/openscap_workbench-menu.webp)
 
 **_File_**
 This option offers to load or save SCAP-related content. The _Save Customization Only_ item is useful if you selected 'Customization Only' and you want to save it as an XCCDF XML file. The _Save All_ item is useful to save SCAP files to the selected directory or as an RPM package.
@@ -353,20 +353,20 @@ If you check this box, SCAP Workbench will attempt to correct system settings th
 
 After the profile is chosen, press the SCAN button. You will see how the process is going on the status bar.
 
-![image](/images/openscap-workbench-scanning.png)
+![image](/images/openscap-workbench-scanning.webp)
 
 After the scanning is finished, you'll have a diagnostics window.
 
-![image](/images/openscap-workbench-message.png)
+![image](/images/openscap-workbench-message.webp)
 
 You can _Save Results_ as XCCDF Result file, ARF, or HTML Report, in case you need them. If you press the _Show Report_ button, it'll be displayed in a browser:
 
-![image](/images/openscap-workbench-report.png)
+![image](/images/openscap-workbench-report.webp)
 
 ### Applying Security Policy during Installation
 
 Note that you can also choose one of the earlier mentioned profiles while running AlmaLinux Installation. To do this, go to the Security Policy option to choose the profile you need.
 
-![image](/images/openscap_security-policy.png)
+![image](/images/openscap_security-policy.webp)
 
 No profile is chosen by default, as applying a security policy is not necessary. The applied security policy will be installed to the system using the compliance policies defined by SCAP.

@@ -8,7 +8,7 @@ title: "Security Errata"
 
 Errata are package updates like some enhancements and features, bug fixes and security patches. These updates can be found at [errata.almalinux.org](https://errata.almalinux.org/) as a list of errata advisories.
 
-![image](/images/errata_feed.png)
+![image](/images/errata_feed.webp)
 
 Advisories are published text to help users get the information that errata provide and their impact.
 There are three types of advisories:
@@ -21,7 +21,7 @@ These advisories are ranked by severity: Critical, Important, Moderate and Low.
 
 Besides type and severity details, each advisory includes some description, references, a list of updated packages and the release date.
 
-![image](/images/errata_example.png)
+![image](/images/errata_example.webp)
 
 ### How to access errata
 

@@ -52,13 +52,13 @@ There are other tasks you can undertake to manage users from the command line, s
 If you prefer a GUI, you're in luck, as AlmaLinux has the tools you need to make managing users simple.\
 To access this feature, open Settings and click Users in the left sidebar. On this page, you first must Unlock the settings by clicking Unlock (Figure 1) and then typing your sudo password.
 
-![A screenshot of the Users interface of Gnome](/images/usergroup1.jpg)
+![A screenshot of the Users interface of Gnome](/images/usergroup1.webp)
 
 _You should see all of your current users listed here._
 
 Once you've done that, click Add User and then, in the resulting pop-up (Figure 2), fill out the user information.
 
-![A screenshot of the Password interface on Gnome.](/images/usergroup2.jpg)
+![A screenshot of the Password interface on Gnome.](/images/usergroup2.webp)
 
 _If you go this route, you'll want to use the `passwd -e` command to expire the user's password, so they can set a new one when they next log in._
 
