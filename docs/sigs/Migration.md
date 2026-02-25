@@ -53,10 +53,6 @@ We do not currently hold regular meetings, but work asynchronously in mattermost
 If you can help, please join us at [Migration SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/migration).
 
 ## SIG members
-
-- [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service developer.
-  - Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-  - GitHub profile: [soksanichenko](https://github.com/soksanichenko)
 - [Yuriy Kohut](mailto:ykohut@almalinux.org) - ELevate Project engineer.
   - Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
   - GitHub profile: [yuravk](https://github.com/yuravk)
