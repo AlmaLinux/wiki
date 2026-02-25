@@ -53,6 +53,7 @@ We do not currently hold regular meetings, but work asynchronously in mattermost
 If you can help, please join us at [Migration SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/migration).
 
 ## SIG members
+
 - [Yuriy Kohut](mailto:ykohut@almalinux.org) - ELevate Project engineer.
   - Chat login: [ykohut](https://chat.almalinux.org/almalinux/messages/@ykohut)
   - GitHub profile: [yuravk](https://github.com/yuravk)
