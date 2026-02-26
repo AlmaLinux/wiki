@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>A02 R8 ❯ AlmaLinux 8.x Installation | AlmaLinux Wiki</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.almalinux.org/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '5']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <link rel="shortcut icon" type="image/png" href="/images/logo.png">
+    <meta name="description" content="AlmaLinux OS Documentation">
+    
+    <link rel="preload" href="/assets/css/0.styles.91964d11.css" as="style"><link rel="preload" href="/assets/js/app.833e7acd.js" as="script"><link rel="preload" href="/assets/js/2.cc1e698a.js" as="script"><link rel="preload" href="/assets/js/1.6f275491.js" as="script"><link rel="preload" href="/assets/js/174.7270bdb0.js" as="script"><link rel="prefetch" href="/assets/js/10.0961ac8d.js"><link rel="prefetch" href="/assets/js/100.821fcc24.js"><link rel="prefetch" href="/assets/js/101.a6dae90e.js"><link rel="prefetch" href="/assets/js/102.4df7d20a.js"><link rel="prefetch" href="/assets/js/103.12acd69c.js"><link rel="prefetch" href="/assets/js/104.c8bfe882.js"><link rel="prefetch" href="/assets/js/105.1e537982.js"><link rel="prefetch" href="/assets/js/106.f73c95ba.js"><link rel="prefetch" href="/assets/js/107.9f50aa33.js"><link rel="prefetch" href="/assets/js/108.5270ef37.js"><link rel="prefetch" href="/assets/js/109.1d484e9b.js"><link rel="prefetch" href="/assets/js/11.d6335c7b.js"><link rel="prefetch" href="/assets/js/110.c9c9c01b.js"><link rel="prefetch" href="/assets/js/111.f7394487.js"><link rel="prefetch" href="/assets/js/112.349d0104.js"><link rel="prefetch" href="/assets/js/113.6c0e9eef.js"><link rel="prefetch" href="/assets/js/114.9e08aeb2.js"><link rel="prefetch" href="/assets/js/115.136ce7d4.js"><link rel="prefetch" href="/assets/js/116.df2e0300.js"><link rel="prefetch" href="/assets/js/117.0731be34.js"><link rel="prefetch" href="/assets/js/118.b7fdc2e8.js"><link rel="prefetch" href="/assets/js/119.efa1e274.js"><link rel="prefetch" href="/assets/js/12.cda2aeae.js"><link rel="prefetch" href="/assets/js/120.c04ed068.js"><link rel="prefetch" href="/assets/js/121.388cdcfe.js"><link rel="prefetch" href="/assets/js/122.92ce5719.js"><link rel="prefetch" href="/assets/js/123.b3bb4b38.js"><link rel="prefetch" href="/assets/js/124.9908dc57.js"><link rel="prefetch" href="/assets/js/125.449f9a0b.js"><link rel="prefetch" href="/assets/js/126.6ba5f8c8.js"><link rel="prefetch" href="/assets/js/127.04900ad9.js"><link rel="prefetch" href="/assets/js/128.9bc24993.js"><link rel="prefetch" href="/assets/js/129.f267273a.js"><link rel="prefetch" href="/assets/js/13.e37456fe.js"><link rel="prefetch" href="/assets/js/130.d6404559.js"><link rel="prefetch" href="/assets/js/131.9e7b56b9.js"><link rel="prefetch" href="/assets/js/132.cc5dbc4b.js"><link rel="prefetch" href="/assets/js/133.73155af2.js"><link rel="prefetch" href="/assets/js/134.cd1ea1dd.js"><link rel="prefetch" href="/assets/js/135.e47e5b35.js"><link rel="prefetch" href="/assets/js/136.4d263268.js"><link rel="prefetch" href="/assets/js/137.c3a011fb.js"><link rel="prefetch" href="/assets/js/138.a7e862b5.js"><link rel="prefetch" href="/assets/js/139.3440e6a6.js"><link rel="prefetch" href="/assets/js/14.1e0f8bb2.js"><link rel="prefetch" href="/assets/js/140.4d017867.js"><link rel="prefetch" href="/assets/js/141.d0deab06.js"><link rel="prefetch" href="/assets/js/142.44cb5f5a.js"><link rel="prefetch" href="/assets/js/143.a4b5fd92.js"><link rel="prefetch" href="/assets/js/144.4a1233b0.js"><link rel="prefetch" href="/assets/js/145.10f387af.js"><link rel="prefetch" href="/assets/js/146.21db35ac.js"><link rel="prefetch" href="/assets/js/147.28f90546.js"><link rel="prefetch" href="/assets/js/148.e558bc22.js"><link rel="prefetch" href="/assets/js/149.37caf227.js"><link rel="prefetch" href="/assets/js/15.f4a73f35.js"><link rel="prefetch" href="/assets/js/150.b8b5db34.js"><link rel="prefetch" href="/assets/js/151.49a4b15e.js"><link rel="prefetch" href="/assets/js/152.96f1f77c.js"><link rel="prefetch" href="/assets/js/153.ec2255cc.js"><link rel="prefetch" href="/assets/js/154.56ff9840.js"><link rel="prefetch" href="/assets/js/155.359cc26c.js"><link rel="prefetch" href="/assets/js/156.5c305c3b.js"><link rel="prefetch" href="/assets/js/157.d7909509.js"><link rel="prefetch" href="/assets/js/158.175a9728.js"><link rel="prefetch" href="/assets/js/159.85b05d9e.js"><link rel="prefetch" href="/assets/js/16.fd3ec704.js"><link rel="prefetch" href="/assets/js/160.7cbc1849.js"><link rel="prefetch" href="/assets/js/161.bd84ac26.js"><link rel="prefetch" href="/assets/js/162.b8cb686b.js"><link rel="prefetch" href="/assets/js/163.b54941d9.js"><link rel="prefetch" href="/assets/js/164.efe30520.js"><link rel="prefetch" href="/assets/js/165.5113a5c5.js"><link rel="prefetch" href="/assets/js/166.978af9d4.js"><link rel="prefetch" href="/assets/js/167.44b5cf5f.js"><link rel="prefetch" href="/assets/js/168.13d48afd.js"><link rel="prefetch" href="/assets/js/169.b38d16fb.js"><link rel="prefetch" href="/assets/js/17.4ae81fed.js"><link rel="prefetch" href="/assets/js/170.4f356620.js"><link rel="prefetch" href="/assets/js/171.df7e494c.js"><link rel="prefetch" href="/assets/js/172.9d895a32.js"><link rel="prefetch" href="/assets/js/173.bf079ded.js"><link rel="prefetch" href="/assets/js/175.24513c48.js"><link rel="prefetch" href="/assets/js/176.97ebfeff.js"><link rel="prefetch" href="/assets/js/177.ffcfb5a3.js"><link rel="prefetch" href="/assets/js/178.11fe1b50.js"><link rel="prefetch" href="/assets/js/179.3ef5b488.js"><link rel="prefetch" href="/assets/js/18.1198418d.js"><link rel="prefetch" href="/assets/js/180.5751c4aa.js"><link rel="prefetch" href="/assets/js/181.9dfd727e.js"><link rel="prefetch" href="/assets/js/182.23f75a0d.js"><link rel="prefetch" href="/assets/js/183.8449411a.js"><link rel="prefetch" href="/assets/js/184.3135b64a.js"><link rel="prefetch" href="/assets/js/185.e4493ac5.js"><link rel="prefetch" href="/assets/js/186.0237fe50.js"><link rel="prefetch" href="/assets/js/187.cd3066a4.js"><link rel="prefetch" href="/assets/js/188.624393c2.js"><link rel="prefetch" href="/assets/js/189.6a08a1a8.js"><link rel="prefetch" href="/assets/js/19.9efc8374.js"><link rel="prefetch" href="/assets/js/190.08a48a04.js"><link rel="prefetch" href="/assets/js/191.6fdd082b.js"><link rel="prefetch" href="/assets/js/192.15d5c4f0.js"><link rel="prefetch" href="/assets/js/193.0e20a430.js"><link rel="prefetch" href="/assets/js/194.be19cf7b.js"><link rel="prefetch" href="/assets/js/195.625fe1ef.js"><link rel="prefetch" href="/assets/js/196.5e640148.js"><link rel="prefetch" href="/assets/js/197.f066039c.js"><link rel="prefetch" href="/assets/js/198.9af820fe.js"><link rel="prefetch" href="/assets/js/199.877b9b4c.js"><link rel="prefetch" href="/assets/js/20.ff5e2658.js"><link rel="prefetch" href="/assets/js/200.718cb96f.js"><link rel="prefetch" href="/assets/js/201.8ccfb2a4.js"><link rel="prefetch" href="/assets/js/202.8833c851.js"><link rel="prefetch" href="/assets/js/203.da3fae51.js"><link rel="prefetch" href="/assets/js/204.c87894f2.js"><link rel="prefetch" href="/assets/js/205.f6410feb.js"><link rel="prefetch" href="/assets/js/206.9ad6f81d.js"><link rel="prefetch" href="/assets/js/207.c67f14ec.js"><link rel="prefetch" href="/assets/js/21.8daff977.js"><link rel="prefetch" href="/assets/js/22.e471b885.js"><link rel="prefetch" href="/assets/js/23.347d8b99.js"><link rel="prefetch" href="/assets/js/24.b3324c3d.js"><link rel="prefetch" href="/assets/js/25.5d924635.js"><link rel="prefetch" href="/assets/js/26.0e961145.js"><link rel="prefetch" href="/assets/js/27.98890176.js"><link rel="prefetch" href="/assets/js/28.16b330ed.js"><link rel="prefetch" href="/assets/js/29.56b86a04.js"><link rel="prefetch" href="/assets/js/3.a5bdcc19.js"><link rel="prefetch" href="/assets/js/30.3b1c84c7.js"><link rel="prefetch" href="/assets/js/31.3f106ff0.js"><link rel="prefetch" href="/assets/js/32.e025f4e7.js"><link rel="prefetch" href="/assets/js/33.0b5ed029.js"><link rel="prefetch" href="/assets/js/34.de6a8434.js"><link rel="prefetch" href="/assets/js/35.96ddd053.js"><link rel="prefetch" href="/assets/js/36.fc2dbe7b.js"><link rel="prefetch" href="/assets/js/37.615aad16.js"><link rel="prefetch" href="/assets/js/38.b575d162.js"><link rel="prefetch" href="/assets/js/39.05c0f700.js"><link rel="prefetch" href="/assets/js/4.a759004d.js"><link rel="prefetch" href="/assets/js/40.138bdb86.js"><link rel="prefetch" href="/assets/js/41.3c4c3c88.js"><link rel="prefetch" href="/assets/js/42.775bb256.js"><link rel="prefetch" href="/assets/js/43.130794e7.js"><link rel="prefetch" href="/assets/js/44.97a92757.js"><link rel="prefetch" href="/assets/js/45.74abd3ef.js"><link rel="prefetch" href="/assets/js/46.377ccb3c.js"><link rel="prefetch" href="/assets/js/47.e2a3eed2.js"><link rel="prefetch" href="/assets/js/48.a44e596f.js"><link rel="prefetch" href="/assets/js/49.8a04728a.js"><link rel="prefetch" href="/assets/js/5.bac44cfa.js"><link rel="prefetch" href="/assets/js/50.fcfac1ac.js"><link rel="prefetch" href="/assets/js/51.e07900e6.js"><link rel="prefetch" href="/assets/js/52.2dbc4a3f.js"><link rel="prefetch" href="/assets/js/53.aa5d0c1b.js"><link rel="prefetch" href="/assets/js/54.3e9c949f.js"><link rel="prefetch" href="/assets/js/55.e4e66921.js"><link rel="prefetch" href="/assets/js/56.b30cbf43.js"><link rel="prefetch" href="/assets/js/57.befff5bb.js"><link rel="prefetch" href="/assets/js/58.22e9db18.js"><link rel="prefetch" href="/assets/js/59.4a0995a3.js"><link rel="prefetch" href="/assets/js/6.ace07c3d.js"><link rel="prefetch" href="/assets/js/60.4e54ddf2.js"><link rel="prefetch" href="/assets/js/61.9affb432.js"><link rel="prefetch" href="/assets/js/62.5741b700.js"><link rel="prefetch" href="/assets/js/63.c0b435c8.js"><link rel="prefetch" href="/assets/js/64.1c3f6f75.js"><link rel="prefetch" href="/assets/js/65.383a030d.js"><link rel="prefetch" href="/assets/js/66.e94439c4.js"><link rel="prefetch" href="/assets/js/67.d306b667.js"><link rel="prefetch" href="/assets/js/68.2c1d34ee.js"><link rel="prefetch" href="/assets/js/69.6f1a3124.js"><link rel="prefetch" href="/assets/js/7.720220fb.js"><link rel="prefetch" href="/assets/js/70.476933a6.js"><link rel="prefetch" href="/assets/js/71.fbd1f5c6.js"><link rel="prefetch" href="/assets/js/72.1e28b4ad.js"><link rel="prefetch" href="/assets/js/73.64ef9802.js"><link rel="prefetch" href="/assets/js/74.e8991be2.js"><link rel="prefetch" href="/assets/js/75.0c8e6e31.js"><link rel="prefetch" href="/assets/js/76.b02380f8.js"><link rel="prefetch" href="/assets/js/77.d6867215.js"><link rel="prefetch" href="/assets/js/78.2a6a1fc9.js"><link rel="prefetch" href="/assets/js/79.ce0002f9.js"><link rel="prefetch" href="/assets/js/80.34ea076f.js"><link rel="prefetch" href="/assets/js/81.fefac646.js"><link rel="prefetch" href="/assets/js/82.dbb46168.js"><link rel="prefetch" href="/assets/js/83.f2559c99.js"><link rel="prefetch" href="/assets/js/84.2c4a81f9.js"><link rel="prefetch" href="/assets/js/85.0b295b75.js"><link rel="prefetch" href="/assets/js/86.1aece4cd.js"><link rel="prefetch" href="/assets/js/87.cded87f1.js"><link rel="prefetch" href="/assets/js/88.33c38f6b.js"><link rel="prefetch" href="/assets/js/89.42117112.js"><link rel="prefetch" href="/assets/js/90.63e85e86.js"><link rel="prefetch" href="/assets/js/91.5c9c0153.js"><link rel="prefetch" href="/assets/js/92.2053ad1e.js"><link rel="prefetch" href="/assets/js/93.b112dc14.js"><link rel="prefetch" href="/assets/js/94.93eed058.js"><link rel="prefetch" href="/assets/js/95.b1822766.js"><link rel="prefetch" href="/assets/js/96.db381611.js"><link rel="prefetch" href="/assets/js/97.0b2c8f37.js"><link rel="prefetch" href="/assets/js/98.2a9c6f08.js"><link rel="prefetch" href="/assets/js/99.34201819.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.94b65286.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.91964d11.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/logo.png" alt="AlmaLinux Wiki" class="logo"> <span class="site-name can-hide">AlmaLinux Wiki</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://chat.almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Chat
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://lists.almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Mailing Lists
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://bugs.almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Bugs
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/AlmaLinux/" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://chat.almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Chat
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://lists.almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Mailing Lists
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://bugs.almalinux.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Bugs
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/AlmaLinux/" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">About</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/release-notes/" class="sidebar-heading clickable"><span>Release Notes</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/alesco" class="sidebar-heading clickable"><span>ALESCo</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/Contribute" class="sidebar-heading clickable"><span>Contribute</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/development/AlmaLinux-Build-System" class="sidebar-heading clickable"><span>Development</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/Comparison" class="sidebar-heading clickable open"><span>Documentation</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/Comparison.html" class="sidebar-link">Enterprise Linux Comparison</a></li><li><a href="/documentation/nvidia.html" class="sidebar-link">NVIDIA Drivers</a></li><li><a href="/FAQ.html" class="sidebar-link">FAQ</a></li><li><a href="/development/openQA.html" class="sidebar-link">openQA Guide</a></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/series/" class="sidebar-heading clickable router-link-active open"><span>Howto Series</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-2"><a href="/beginners/" class="sidebar-heading clickable"><span>Beginner Series</span> <span class="arrow right"></span></a> <!----></section></li><li><a href="/series/LAMP-server.html" class="sidebar-link">Deploy a LAMP server</a></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><a href="/series/nginx/" class="sidebar-heading clickable router-link-active open"><span>Nginx Series</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/series/nginx/NginxSeriesA01.html" class="sidebar-link">A01 ❯ A Beginner's Guide</a></li><li><a href="/series/nginx/NginxSeriesA02R8.html" aria-current="page" class="active sidebar-link">A02 R8 ❯ AlmaLinux 8.x Installation</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/series/nginx/NginxSeriesA02R8.html#🌟-introduction" class="sidebar-link">🌟 Introduction</a></li><li class="sidebar-sub-header"><a href="/series/nginx/NginxSeriesA02R8.html#📝-installation-instructions" class="sidebar-link">📝 Installation instructions</a></li><li class="sidebar-sub-header"><a href="/series/nginx/NginxSeriesA02R8.html#📚-further-reading-and-next-steps" class="sidebar-link">📚 Further reading and Next Steps</a></li></ul></li><li><a href="/series/nginx/NginxSeriesA02R91.html" class="sidebar-link">A02 R91 ❯ AlmaLinux 9.1 Installation</a></li><li><a href="/series/nginx/NginxSeriesA02R92.html" class="sidebar-link">A02 R92 ❯ AlmaLinux 9.2 Installation</a></li><li><a href="/series/nginx/NginxSeriesA03.html" class="sidebar-link">A03 ❯ Default Configuration Guide</a></li><li><a href="/series/nginx/NginxSeriesA04P1.html" class="sidebar-link">A04 ❯ Secure Nginx Deployment</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><a href="/series/system/" class="sidebar-heading clickable"><span>System Series</span> <span class="arrow right"></span></a> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/documentation/guides" class="sidebar-heading clickable"><span>Security Guides</span> <span class="arrow right"></span></a> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/documentation/installation-guide" class="sidebar-heading clickable"><span>Installation</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/migration" class="sidebar-heading clickable"><span>Migration</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/Transparency" class="sidebar-heading clickable"><span>The Foundation</span> <span class="arrow right"></span></a> <!----></section></li><li><a href="/Help-and-Support.html" class="sidebar-link">Help and Support</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="a02-r8-❯-almalinux-8-x-installation"><a href="#a02-r8-❯-almalinux-8-x-installation" class="header-anchor">#</a> A02 R8 ❯ AlmaLinux 8.x Installation</h1> <p><small>ℹ️ This article is part of AlmaLinux <a href="/series/" class="router-link-active">Nginx Series</a>.</small></p> <h2 id="🌟-introduction"><a href="#🌟-introduction" class="header-anchor">#</a> 🌟 Introduction</h2> <p>This is a dedicated example for the <strong>AlmaLinux 8.x series</strong>, demonstrating how to install Nginx using one of the three variants:</p> <ul><li>Variant I: AppStream non-module</li> <li>Variant II: AppStream module</li> <li>Variant III: Nginx mainline repository</li></ul> <h2 id="📝-installation-instructions"><a href="#📝-installation-instructions" class="header-anchor">#</a> 📝 Installation instructions</h2> <h3 id="system-updates-first"><a href="#system-updates-first" class="header-anchor">#</a> System Updates First!</h3> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>Please make sure to run <strong><code>sudo dnf update</code></strong> before proceeding with any other installation or configuration steps to ensure that your system is up-to-date and any known security vulnerabilities or bugs are patched.</p></div> <h3 id="📖-available-nginx-versions-almalinux-os-8-7"><a href="#📖-available-nginx-versions-almalinux-os-8-7" class="header-anchor">#</a> 📖 Available Nginx Versions (AlmaLinux OS 8.7)</h3> <p>Different Nginx server versions are available to install depending on the installation variant.</p> <table><thead><tr><th></th> <th>Installation Variant</th> <th>Nginx Versions available</th> <th>Notes</th></tr></thead> <tbody><tr><td>🟥</td> <td>AppStream non-module</td> <td>1.14</td> <td>Default version is outdated and does not get updates! Inadvisable.</td></tr> <tr><td>🟩</td> <td>AppStream module</td> <td>1.14 -- 1.20</td> <td>Module version are getting the security updates. <strong>The recommended method</strong>.</td></tr> <tr><td>🟨</td> <td>Nginx mainline repo</td> <td>1.15.2 -- 1.23.3¹</td> <td>You always get latest version of Nginx avaiable. Second good (small chance of incompatibilty).</td></tr></tbody></table> <p>¹ current version at the time of testing (1.23.4 already available at Nginx.org)</p> <p><u>Architecture Compatibility</u></p> <table><thead><tr><th>Architecture</th> <th>Supported</th></tr></thead> <tbody><tr><td>Aarch64</td> <td>✅</td></tr> <tr><td>PowerPC</td> <td>❌</td></tr> <tr><td>S390X</td> <td>✅</td></tr> <tr><td>X86_64</td> <td>✅</td></tr></tbody></table> <h3 id="🔖-variant-i-appstream-non-module-install"><a href="#🔖-variant-i-appstream-non-module-install" class="header-anchor">#</a> 🔖 Variant I - AppStream Non-module Install</h3> <p>There is no Nginx AppStream non-module package on AlmaLinux 8.x series, but there is an Appstream module one. For that reason, <code>dnf</code> will offer you to install Nginx as module (version <strong>1:1.14</strong>) and accompanying elements of its Application Stream, by default.</p> <h3 id="➡️-install"><a href="#➡️-install" class="header-anchor">#</a> ➡️ Install</h3> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf install nginx
+</code></pre></div><p>Example output:</p> <div class="language- extra-class"><pre class="language-text"><code>Last metadata expiration check: 8:40:11 ago on Thu 13 Apr 2023 09:34:17 PM EDT.
+Dependencies resolved.
+================================================================================================================================
+ Package                            Architecture  Version                                                Repository        Size
+================================================================================================================================
+Installing:
+ nginx                              x86_64        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream        568 k
+Installing dependencies:
+ gd                                 x86_64        2.2.5-7.el8                                            appstream        143 k
+ jbigkit-libs                       x86_64        2.1-14.el8                                             appstream         54 k
+ libXpm                             x86_64        3.5.12-9.el8_7                                         appstream         57 k
+ libjpeg-turbo                      x86_64        1.5.3-12.el8                                           appstream        156 k
+ libtiff                            x86_64        4.0.9-26.el8_7                                         appstream        188 k
+ libwebp                            x86_64        1.0.0-5.el8                                            appstream        271 k
+ nginx-all-modules                  noarch        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         23 k
+ nginx-filesystem                   noarch        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         23 k
+ nginx-mod-http-image-filter        x86_64        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         34 k
+ nginx-mod-http-perl                x86_64        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         44 k
+ nginx-mod-http-xslt-filter         x86_64        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         32 k
+ nginx-mod-mail                     x86_64        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         63 k
+ nginx-mod-stream                   x86_64        1:1.14.1-9.module_el8.3.0+2165+af250afe.alma           appstream         84 k
+ perl-Carp                          noarch        1.42-396.el8                                           baseos            30 k
+ perl-Data-Dumper                   x86_64        2.167-399.el8                                          baseos            58 k
+ perl-Digest                        noarch        1.17-395.el8                                           appstream         27 k
+ perl-Digest-MD5                    x86_64        2.55-396.el8                                           appstream         37 k
+ perl-Encode                        x86_64        4:2.97-3.el8                                           baseos           1.5 M
+ perl-Errno                         x86_64        1.28-421.el8                                           baseos            75 k
+ perl-Exporter                      noarch        5.72-396.el8                                           baseos            34 k
+ perl-File-Path                     noarch        2.15-2.el8                                             baseos            38 k
+ perl-File-Temp                     noarch        0.230.600-1.el8                                        baseos            62 k
+ perl-Getopt-Long                   noarch        1:2.50-4.el8                                           baseos            63 k
+ perl-HTTP-Tiny                     noarch        0.074-1.el8                                            baseos            58 k
+ perl-IO                            x86_64        1.38-421.el8                                           baseos           141 k
+ perl-MIME-Base64                   x86_64        3.15-396.el8                                           baseos            30 k
+ perl-Net-SSLeay                    x86_64        1.88-2.module_el8.6.0+2811+fe6c84b0                    appstream        378 k
+ perl-PathTools                     x86_64        3.74-1.el8                                             baseos            90 k
+ perl-Pod-Escapes                   noarch        1:1.07-395.el8                                         baseos            20 k
+ perl-Pod-Perldoc                   noarch        3.28-396.el8                                           baseos            86 k
+ perl-Pod-Simple                    noarch        1:3.35-395.el8                                         baseos           213 k
+ perl-Pod-Usage                     noarch        4:1.69-395.el8                                         baseos            34 k
+ perl-Scalar-List-Utils             x86_64        3:1.49-2.el8                                           baseos            68 k
+ perl-Socket                        x86_64        4:2.027-3.el8                                          baseos            59 k
+ perl-Storable                      x86_64        1:3.11-3.el8                                           baseos            98 k
+ perl-Term-ANSIColor                noarch        4.06-396.el8                                           baseos            46 k
+ perl-Term-Cap                      noarch        1.17-395.el8                                           baseos            23 k
+ perl-Text-ParseWords               noarch        3.30-395.el8                                           baseos            18 k
+ perl-Text-Tabs+Wrap                noarch        2013.0523-395.el8                                      baseos            24 k
+ perl-Time-Local                    noarch        1:1.280-1.el8                                          baseos            33 k
+ perl-URI                           noarch        1.73-3.el8                                             appstream        116 k
+ perl-Unicode-Normalize             x86_64        1.25-396.el8                                           baseos            82 k
+ perl-constant                      noarch        1.33-396.el8                                           baseos            25 k
+ perl-interpreter                   x86_64        4:5.26.3-421.el8                                       baseos           6.3 M
+ perl-libnet                        noarch        3.11-3.el8                                             appstream        121 k
+ perl-libs                          x86_64        4:5.26.3-421.el8                                       baseos           1.6 M
+ perl-macros                        x86_64        4:5.26.3-421.el8                                       baseos            71 k
+ perl-parent                        noarch        1:0.237-1.el8                                          baseos            20 k
+ perl-podlators                     noarch        4.11-1.el8                                             baseos           118 k
+ perl-threads                       x86_64        1:2.21-2.el8                                           baseos            61 k
+ perl-threads-shared                x86_64        1.58-2.el8                                             baseos            47 k
+Installing weak dependencies:
+ perl-IO-Socket-IP                  noarch        0.39-5.el8                                             appstream         47 k
+ perl-IO-Socket-SSL                 noarch        2.066-4.module_el8.6.0+2811+fe6c84b0                   appstream        297 k
+ perl-Mozilla-CA                    noarch        20160104-7.module_el8.5.0+2812+ed912d05                appstream         14 k
+Enabling module streams:
+ nginx                                            1.14
+ perl                                             5.26
+ perl-IO-Socket-SSL                               2.066
+ perl-libwww-perl                                 6.34
+
+Transaction Summary
+================================================================================================================================
+Install  55 Packages
+
+Total download size: 14 M
+Installed size: 40 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/55): perl-Carp-1.42-396.el8.noarch.rpm                                                       304 kB/s |  30 kB     00:00
+(2/55): perl-Data-Dumper-2.167-399.el8.x86_64.rpm                                               489 kB/s |  58 kB     00:00
+(3/55): perl-Exporter-5.72-396.el8.noarch.rpm                                                   992 kB/s |  34 kB     00:00
+(4/55): perl-Errno-1.28-421.el8.x86_64.rpm                                                      1.1 MB/s |  75 kB     00:00
+(5/55): perl-File-Path-2.15-2.el8.noarch.rpm                                                    1.2 MB/s |  38 kB     00:00
+(6/55): perl-File-Temp-0.230.600-1.el8.noarch.rpm                                               1.2 MB/s |  62 kB     00:00
+(7/55): perl-Getopt-Long-2.50-4.el8.noarch.rpm                                                  1.5 MB/s |  63 kB     00:00
+(8/55): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm                                                   1.5 MB/s |  58 kB     00:00
+(9/55): perl-IO-1.38-421.el8.x86_64.rpm                                                         3.0 MB/s | 141 kB     00:00
+(10/55): perl-Encode-2.97-3.el8.x86_64.rpm                                                      5.0 MB/s | 1.5 MB     00:00
+(11/55): perl-MIME-Base64-3.15-396.el8.x86_64.rpm                                               714 kB/s |  30 kB     00:00
+(12/55): perl-PathTools-3.74-1.el8.x86_64.rpm                                                   2.1 MB/s |  90 kB     00:00
+(13/55): perl-Pod-Escapes-1.07-395.el8.noarch.rpm                                               791 kB/s |  20 kB     00:00
+(14/55): perl-Pod-Perldoc-3.28-396.el8.noarch.rpm                                               2.3 MB/s |  86 kB     00:00
+(15/55): perl-Pod-Simple-3.35-395.el8.noarch.rpm                                                5.8 MB/s | 213 kB     00:00
+(16/55): perl-Pod-Usage-1.69-395.el8.noarch.rpm                                                 935 kB/s |  34 kB     00:00
+(17/55): perl-Scalar-List-Utils-1.49-2.el8.x86_64.rpm                                           2.2 MB/s |  68 kB     00:00
+(18/55): perl-Socket-2.027-3.el8.x86_64.rpm                                                     1.9 MB/s |  59 kB     00:00
+(19/55): perl-Storable-3.11-3.el8.x86_64.rpm                                                    2.8 MB/s |  98 kB     00:00
+(20/55): perl-Term-ANSIColor-4.06-396.el8.noarch.rpm                                            1.5 MB/s |  46 kB     00:00
+(21/55): perl-Term-Cap-1.17-395.el8.noarch.rpm                                                  740 kB/s |  23 kB     00:00
+(22/55): perl-Text-ParseWords-3.30-395.el8.noarch.rpm                                           665 kB/s |  18 kB     00:00
+(23/55): perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch.rpm                                       882 kB/s |  24 kB     00:00
+(24/55): perl-Time-Local-1.280-1.el8.noarch.rpm                                                 907 kB/s |  33 kB     00:00
+(25/55): perl-Unicode-Normalize-1.25-396.el8.x86_64.rpm                                         2.0 MB/s |  82 kB     00:00
+(26/55): perl-constant-1.33-396.el8.noarch.rpm                                                  642 kB/s |  25 kB     00:00
+(27/55): perl-macros-5.26.3-421.el8.x86_64.rpm                                                  1.2 MB/s |  71 kB     00:00
+(28/55): perl-parent-0.237-1.el8.noarch.rpm                                                     389 kB/s |  20 kB     00:00
+(29/55): perl-podlators-4.11-1.el8.noarch.rpm                                                   2.3 MB/s | 118 kB     00:00
+(30/55): perl-threads-2.21-2.el8.x86_64.rpm                                                     1.5 MB/s |  61 kB     00:00
+(31/55): perl-threads-shared-1.58-2.el8.x86_64.rpm                                              956 kB/s |  47 kB     00:00
+(32/55): perl-libs-5.26.3-421.el8.x86_64.rpm                                                    5.4 MB/s | 1.6 MB     00:00
+(33/55): gd-2.2.5-7.el8.x86_64.rpm                                                              2.3 MB/s | 143 kB     00:00
+(34/55): jbigkit-libs-2.1-14.el8.x86_64.rpm                                                     1.1 MB/s |  54 kB     00:00
+(35/55): libXpm-3.5.12-9.el8_7.x86_64.rpm                                                       1.8 MB/s |  57 kB     00:00
+(36/55): libjpeg-turbo-1.5.3-12.el8.x86_64.rpm                                                  2.1 MB/s | 156 kB     00:00
+(37/55): libtiff-4.0.9-26.el8_7.x86_64.rpm                                                      2.4 MB/s | 188 kB     00:00
+(38/55): libwebp-1.0.0-5.el8.x86_64.rpm                                                         2.4 MB/s | 271 kB     00:00
+(39/55): nginx-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm                            3.9 MB/s | 568 kB     00:00
+(40/55): nginx-all-modules-1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch.rpm                371 kB/s |  23 kB     00:00
+(41/55): nginx-filesystem-1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch.rpm                 456 kB/s |  23 kB     00:00
+(42/55): nginx-mod-http-image-filter-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm      605 kB/s |  34 kB     00:00
+(43/55): nginx-mod-http-perl-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm              766 kB/s |  44 kB     00:00
+(44/55): nginx-mod-http-xslt-filter-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm       616 kB/s |  32 kB     00:00
+(45/55): nginx-mod-mail-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm                   1.1 MB/s |  63 kB     00:00
+(46/55): nginx-mod-stream-1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64.rpm                 1.4 MB/s |  84 kB     00:00
+(47/55): perl-interpreter-5.26.3-421.el8.x86_64.rpm                                             7.8 MB/s | 6.3 MB     00:00
+(48/55): perl-Digest-1.17-395.el8.noarch.rpm                                                    375 kB/s |  27 kB     00:00
+(49/55): perl-Digest-MD5-2.55-396.el8.x86_64.rpm                                                599 kB/s |  37 kB     00:00
+(50/55): perl-IO-Socket-IP-0.39-5.el8.noarch.rpm                                                1.7 MB/s |  47 kB     00:00
+(51/55): perl-Mozilla-CA-20160104-7.module_el8.5.0+2812+ed912d05.noarch.rpm                     399 kB/s |  14 kB     00:00
+(52/55): perl-IO-Socket-SSL-2.066-4.module_el8.6.0+2811+fe6c84b0.noarch.rpm                     5.8 MB/s | 297 kB     00:00
+(53/55): perl-URI-1.73-3.el8.noarch.rpm                                                         2.8 MB/s | 116 kB     00:00
+(54/55): perl-Net-SSLeay-1.88-2.module_el8.6.0+2811+fe6c84b0.x86_64.rpm                         5.2 MB/s | 378 kB     00:00
+(55/55): perl-libnet-3.11-3.el8.noarch.rpm                                                      2.5 MB/s | 121 kB     00:00
+--------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                           4.5 MB/s |  14 MB     00:03
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                        1/1
+  Installing       : perl-Digest-1.17-395.el8.noarch                                                                       1/55
+  Installing       : perl-Digest-MD5-2.55-396.el8.x86_64                                                                   2/55
+  Installing       : perl-Data-Dumper-2.167-399.el8.x86_64                                                                 3/55
+  Installing       : perl-libnet-3.11-3.el8.noarch                                                                         4/55
+  Installing       : perl-Net-SSLeay-1.88-2.module_el8.6.0+2811+fe6c84b0.x86_64                                            5/55
+  Installing       : perl-URI-1.73-3.el8.noarch                                                                            6/55
+  Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch                                                                7/55
+  Installing       : perl-Time-Local-1:1.280-1.el8.noarch                                                                  8/55
+  Installing       : perl-IO-Socket-IP-0.39-5.el8.noarch                                                                   9/55
+  Installing       : perl-Mozilla-CA-20160104-7.module_el8.5.0+2812+ed912d05.noarch                                       10/55
+  Installing       : perl-IO-Socket-SSL-2.066-4.module_el8.6.0+2811+fe6c84b0.noarch                                       11/55
+  Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch                                                              12/55
+  Installing       : perl-Term-Cap-1.17-395.el8.noarch                                                                    13/55
+  Installing       : perl-File-Temp-0.230.600-1.el8.noarch                                                                14/55
+  Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                                                                15/55
+  Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                                                                    16/55
+  Installing       : perl-podlators-4.11-1.el8.noarch                                                                     17/55
+  Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                                                                 18/55
+  Installing       : perl-Text-ParseWords-3.30-395.el8.noarch                                                             19/55
+  Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                                                                 20/55
+  Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                                                                 21/55
+  Installing       : perl-Storable-1:3.11-3.el8.x86_64                                                                    22/55
+  Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                                                                 23/55
+  Installing       : perl-Errno-1.28-421.el8.x86_64                                                                       24/55
+  Installing       : perl-Socket-4:2.027-3.el8.x86_64                                                                     25/55
+  Installing       : perl-Encode-4:2.97-3.el8.x86_64                                                                      26/55
+  Installing       : perl-Exporter-5.72-396.el8.noarch                                                                    27/55
+  Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                                           28/55
+  Installing       : perl-macros-4:5.26.3-421.el8.x86_64                                                                  29/55
+  Installing       : perl-parent-1:0.237-1.el8.noarch                                                                     30/55
+  Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                                         31/55
+  Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64                                                           32/55
+  Installing       : perl-File-Path-2.15-2.el8.noarch                                                                     33/55
+  Installing       : perl-IO-1.38-421.el8.x86_64                                                                          34/55
+  Installing       : perl-PathTools-3.74-1.el8.x86_64                                                                     35/55
+  Installing       : perl-constant-1.33-396.el8.noarch                                                                    36/55
+  Installing       : perl-threads-1:2.21-2.el8.x86_64                                                                     37/55
+  Installing       : perl-threads-shared-1.58-2.el8.x86_64                                                                38/55
+  Installing       : perl-libs-4:5.26.3-421.el8.x86_64                                                                    39/55
+  Installing       : perl-Carp-1.42-396.el8.noarch                                                                        40/55
+  Installing       : perl-interpreter-4:5.26.3-421.el8.x86_64                                                             41/55
+  Installing       : libjpeg-turbo-1.5.3-12.el8.x86_64                                                                    42/55
+  Running scriptlet: nginx-filesystem-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch                                 43/55
+  Installing       : nginx-filesystem-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch                                 43/55
+  Installing       : libwebp-1.0.0-5.el8.x86_64                                                                           44/55
+  Installing       : libXpm-3.5.12-9.el8_7.x86_64                                                                         45/55
+  Installing       : jbigkit-libs-2.1-14.el8.x86_64                                                                       46/55
+  Running scriptlet: jbigkit-libs-2.1-14.el8.x86_64                                                                       46/55
+  Installing       : libtiff-4.0.9-26.el8_7.x86_64                                                                        47/55
+  Installing       : gd-2.2.5-7.el8.x86_64                                                                                48/55
+  Running scriptlet: gd-2.2.5-7.el8.x86_64                                                                                48/55
+  Installing       : nginx-mod-http-image-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                      49/55
+  Running scriptlet: nginx-mod-http-image-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                      49/55
+  Installing       : nginx-mod-http-xslt-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                       50/55
+  Running scriptlet: nginx-mod-http-xslt-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                       50/55
+  Installing       : nginx-mod-mail-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                   51/55
+  Running scriptlet: nginx-mod-mail-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                   51/55
+  Installing       : nginx-mod-stream-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                 52/55
+  Running scriptlet: nginx-mod-stream-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                 52/55
+  Installing       : nginx-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                            53/55
+  Running scriptlet: nginx-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                            53/55
+  Installing       : nginx-mod-http-perl-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                              54/55
+  Running scriptlet: nginx-mod-http-perl-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                              54/55
+  Installing       : nginx-all-modules-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch                                55/55
+  Running scriptlet: nginx-all-modules-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch                                55/55
+  Verifying        : perl-Carp-1.42-396.el8.noarch                                                                         1/55
+  Verifying        : perl-Data-Dumper-2.167-399.el8.x86_64                                                                 2/55
+  Verifying        : perl-Encode-4:2.97-3.el8.x86_64                                                                       3/55
+  Verifying        : perl-Errno-1.28-421.el8.x86_64                                                                        4/55
+  Verifying        : perl-Exporter-5.72-396.el8.noarch                                                                     5/55
+  Verifying        : perl-File-Path-2.15-2.el8.noarch                                                                      6/55
+  Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                                                                 7/55
+  Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                                                                  8/55
+  Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                                                                     9/55
+  Verifying        : perl-IO-1.38-421.el8.x86_64                                                                          10/55
+  Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                                                                 11/55
+  Verifying        : perl-PathTools-3.74-1.el8.x86_64                                                                     12/55
+  Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch                                                               13/55
+  Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                                                                 14/55
+  Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                                                                15/55
+  Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                                                                 16/55
+  Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                                           17/55
+  Verifying        : perl-Socket-4:2.027-3.el8.x86_64                                                                     18/55
+  Verifying        : perl-Storable-1:3.11-3.el8.x86_64                                                                    19/55
+  Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch                                                              20/55
+  Verifying        : perl-Term-Cap-1.17-395.el8.noarch                                                                    21/55
+  Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch                                                             22/55
+  Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                                         23/55
+  Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                                                                 24/55
+  Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64                                                           25/55
+  Verifying        : perl-constant-1.33-396.el8.noarch                                                                    26/55
+  Verifying        : perl-interpreter-4:5.26.3-421.el8.x86_64                                                             27/55
+  Verifying        : perl-libs-4:5.26.3-421.el8.x86_64                                                                    28/55
+  Verifying        : perl-macros-4:5.26.3-421.el8.x86_64                                                                  29/55
+  Verifying        : perl-parent-1:0.237-1.el8.noarch                                                                     30/55
+  Verifying        : perl-podlators-4.11-1.el8.noarch                                                                     31/55
+  Verifying        : perl-threads-1:2.21-2.el8.x86_64                                                                     32/55
+  Verifying        : perl-threads-shared-1.58-2.el8.x86_64                                                                33/55
+  Verifying        : gd-2.2.5-7.el8.x86_64                                                                                34/55
+  Verifying        : jbigkit-libs-2.1-14.el8.x86_64                                                                       35/55
+  Verifying        : libXpm-3.5.12-9.el8_7.x86_64                                                                         36/55
+  Verifying        : libjpeg-turbo-1.5.3-12.el8.x86_64                                                                    37/55
+  Verifying        : libtiff-4.0.9-26.el8_7.x86_64                                                                        38/55
+  Verifying        : libwebp-1.0.0-5.el8.x86_64                                                                           39/55
+  Verifying        : nginx-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                            40/55
+  Verifying        : nginx-all-modules-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch                                41/55
+  Verifying        : nginx-filesystem-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch                                 42/55
+  Verifying        : nginx-mod-http-image-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                      43/55
+  Verifying        : nginx-mod-http-perl-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                              44/55
+  Verifying        : nginx-mod-http-xslt-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                       45/55
+  Verifying        : nginx-mod-mail-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                   46/55
+  Verifying        : nginx-mod-stream-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64                                 47/55
+  Verifying        : perl-Digest-1.17-395.el8.noarch                                                                      48/55
+  Verifying        : perl-Digest-MD5-2.55-396.el8.x86_64                                                                  49/55
+  Verifying        : perl-IO-Socket-IP-0.39-5.el8.noarch                                                                  50/55
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module_el8.6.0+2811+fe6c84b0.noarch                                       51/55
+  Verifying        : perl-Mozilla-CA-20160104-7.module_el8.5.0+2812+ed912d05.noarch                                       52/55
+  Verifying        : perl-Net-SSLeay-1.88-2.module_el8.6.0+2811+fe6c84b0.x86_64                                           53/55
+  Verifying        : perl-URI-1.73-3.el8.noarch                                                                           54/55
+  Verifying        : perl-libnet-3.11-3.el8.noarch                                                                        55/55
+
+Installed:
+  gd-2.2.5-7.el8.x86_64
+  jbigkit-libs-2.1-14.el8.x86_64
+  libXpm-3.5.12-9.el8_7.x86_64
+  libjpeg-turbo-1.5.3-12.el8.x86_64
+  libtiff-4.0.9-26.el8_7.x86_64
+  libwebp-1.0.0-5.el8.x86_64
+  nginx-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64
+  nginx-all-modules-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch
+  nginx-filesystem-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.noarch
+  nginx-mod-http-image-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64
+  nginx-mod-http-perl-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64
+  nginx-mod-http-xslt-filter-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64
+  nginx-mod-mail-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64
+  nginx-mod-stream-1:1.14.1-9.module_el8.3.0+2165+af250afe.alma.x86_64
+  perl-Carp-1.42-396.el8.noarch
+  perl-Data-Dumper-2.167-399.el8.x86_64
+  perl-Digest-1.17-395.el8.noarch
+  perl-Digest-MD5-2.55-396.el8.x86_64
+  perl-Encode-4:2.97-3.el8.x86_64
+  perl-Errno-1.28-421.el8.x86_64
+  perl-Exporter-5.72-396.el8.noarch
+  perl-File-Path-2.15-2.el8.noarch
+  perl-File-Temp-0.230.600-1.el8.noarch
+  perl-Getopt-Long-1:2.50-4.el8.noarch
+  perl-HTTP-Tiny-0.074-1.el8.noarch
+  perl-IO-1.38-421.el8.x86_64
+  perl-IO-Socket-IP-0.39-5.el8.noarch
+  perl-IO-Socket-SSL-2.066-4.module_el8.6.0+2811+fe6c84b0.noarch
+  perl-MIME-Base64-3.15-396.el8.x86_64
+  perl-Mozilla-CA-20160104-7.module_el8.5.0+2812+ed912d05.noarch
+  perl-Net-SSLeay-1.88-2.module_el8.6.0+2811+fe6c84b0.x86_64
+  perl-PathTools-3.74-1.el8.x86_64
+  perl-Pod-Escapes-1:1.07-395.el8.noarch
+  perl-Pod-Perldoc-3.28-396.el8.noarch
+  perl-Pod-Simple-1:3.35-395.el8.noarch
+  perl-Pod-Usage-4:1.69-395.el8.noarch
+  perl-Scalar-List-Utils-3:1.49-2.el8.x86_64
+  perl-Socket-4:2.027-3.el8.x86_64
+  perl-Storable-1:3.11-3.el8.x86_64
+  perl-Term-ANSIColor-4.06-396.el8.noarch
+  perl-Term-Cap-1.17-395.el8.noarch
+  perl-Text-ParseWords-3.30-395.el8.noarch
+  perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch
+  perl-Time-Local-1:1.280-1.el8.noarch
+  perl-URI-1.73-3.el8.noarch
+  perl-Unicode-Normalize-1.25-396.el8.x86_64
+  perl-constant-1.33-396.el8.noarch
+  perl-interpreter-4:5.26.3-421.el8.x86_64
+  perl-libnet-3.11-3.el8.noarch
+  perl-libs-4:5.26.3-421.el8.x86_64
+  perl-macros-4:5.26.3-421.el8.x86_64
+  perl-parent-1:0.237-1.el8.noarch
+  perl-podlators-4.11-1.el8.noarch
+  perl-threads-1:2.21-2.el8.x86_64
+  perl-threads-shared-1.58-2.el8.x86_64
+
+Complete!
+</code></pre></div><h3 id="➡️-test-installation"><a href="#➡️-test-installation" class="header-anchor">#</a> ➡️ Test installation</h3> <div class="language- extra-class"><pre class="language-text"><code>nginx -v
+</code></pre></div><p>Expected output:</p> <div class="language- extra-class"><pre class="language-text"><code>nginx version: nginx/1.14.1
+</code></pre></div><h3 id="🔖-variant-ii-appstream-module-install"><a href="#🔖-variant-ii-appstream-module-install" class="header-anchor">#</a> 🔖 Variant II: AppStream Module Install</h3> <p>To install the latest module version of Nginx on AlmaLinux (8.7 in the example below) you can list available module versions (streams) and then install (&quot;enable&quot; for modules) selected version.</p> <h3 id="➡️-pre-install-list-versions"><a href="#➡️-pre-install-list-versions" class="header-anchor">#</a> ➡️ Pre-Install: list versions</h3> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf module list nginx
+</code></pre></div><p>Example output (pre-install):</p> <div class="language- extra-class"><pre class="language-text"><code>AlmaLinux 8 - AppStream                                                                         5.0 kB/s | 4.1 kB     00:00
+AlmaLinux 8 - AppStream                                                                         6.3 MB/s |  12 MB     00:01
+AlmaLinux 8 - Extras                                                                            4.2 kB/s | 3.8 kB     00:00
+AlmaLinux 8 - Extras                                                                             21 kB/s |  19 kB     00:00
+Extra Packages for Enterprise Linux 8 - x86_64                                                   11 kB/s |  28 kB     00:02
+Extra Packages for Enterprise Linux 8 - x86_64                                                  6.5 MB/s |  14 MB     00:02
+Symas OpenLDAP for Linux RPM repository                                                         4.2 kB/s | 2.9 kB     00:00
+AlmaLinux 8 - AppStream
+Name                       Stream                           Profiles                        Summary
+nginx                      1.14 [d][x]                      common [d]                      nginx webserver
+nginx                      1.16 [x]                         common [d]                      nginx webserver
+nginx                      1.18 [x]                         common [d]                      nginx webserver
+nginx                      1.20 [x]                         common [d]                      nginx webserver
+
+Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
+</code></pre></div><h3 id="➡️-install-enable-the-selected-module-version"><a href="#➡️-install-enable-the-selected-module-version" class="header-anchor">#</a> ➡️ Install: enable the selected module version</h3> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf module enable nginx:1.20
+</code></pre></div><p>Example output (module enable)):</p> <div class="language- extra-class"><pre class="language-text"><code>Last metadata expiration check: 0:00:44 ago on Thu 13 Apr 2023 09:06:58 PM EDT.
+Dependencies resolved.
+================================================================================================================================
+ Package                       Architecture                 Version                         Repository                     Size
+================================================================================================================================
+Enabling module streams:
+ nginx                                                      1.20
+
+Transaction Summary
+================================================================================================================================
+
+Is this ok [y/N]: y
+Complete!
+</code></pre></div><h3 id="➡️-install-actual-package-installation"><a href="#➡️-install-actual-package-installation" class="header-anchor">#</a> ➡️ Install: actual package installation</h3> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf install nginx
+</code></pre></div><p>Expected output (install):</p> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>TODO: EXAMPLE IS MISSING!
+::😒</p> <h3 id="➡️-test-installation-2"><a href="#➡️-test-installation-2" class="header-anchor">#</a> ➡️ Test installation</h3> <div class="language- extra-class"><pre class="language-text"><code>nginx -v
+</code></pre></div><p>Expected output (test)</p> <div class="language- extra-class"><pre class="language-text"><code>nginx version: nginx/1.20.1
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>Note: If you switch between different versions of a module, you may need to <u>reset its state</u> using the command <code>dnf module reset &lt;module-name&gt;</code> to enable installing another version.</p> <p>In Nginx case <code>&lt;module-name&gt;</code> is <code>nginx</code>.</p></div></div> <h3 id="🔖-variant-iii-main-line-repository-install"><a href="#🔖-variant-iii-main-line-repository-install" class="header-anchor">#</a> 🔖 Variant III: Main-line Repository Install</h3> <p>To install the latest RPM package of Nginx on AlmaLinux (8.7 in example below) from the official Nginx repository (https://nginx.org), you can follow these steps:</p> <h3 id="➡️-add-the-repository"><a href="#➡️-add-the-repository" class="header-anchor">#</a> ➡️ Add the repository</h3> <p><strong>Import the Nginx signing key</strong></p> <div class="language- extra-class"><pre class="language-text"><code>sudo rpm --import https://nginx.org/keys/nginx_signing.key
+</code></pre></div><p><strong>Create a new Nginx repository file in the /etc/yum.repos.d/ directory with editor of choice</strong></p> <div class="language- extra-class"><pre class="language-text"><code>sudo tee /etc/yum.repos.d/nginx.repo
+</code></pre></div><p>** Populate the new repo file with below text (copy-paste &amp; press <code>Ctrl+D</code>)**</p> <div class="language- extra-class"><pre class="language-text"><code>[nginx-mainline]
+name=nginx mainline repo
+baseurl=http://nginx.org/packages/mainline/centos/$releasever/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>When editing the file, you can change <code>enabled=0</code> setting it to <code>1</code>. With that change you can skip next two steps (installing <code>dnf-utils</code> and running <code>dnf config-manager</code>).</p></div> <h3 id="➡️-install-dnf-uils"><a href="#➡️-install-dnf-uils" class="header-anchor">#</a> ➡️ Install <code>dnf-uils</code></h3> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf install dnf-utils
+</code></pre></div><p><strong>Enable the newly add external repo from nginx.org:</strong></p> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf config-manager --enable nginx-mainline
+</code></pre></div><p><strong>Finally, install Nginx:</strong></p> <div class="language- extra-class"><pre class="language-text"><code>sudo dnf install nginx
+</code></pre></div><p>Example output:</p> <p>With the official Nginx mainline repo enabled <code>dnf</code> allows to install the latest available: <code>1.23.3</code>.</p> <div class="language- extra-class"><pre class="language-text"><code>nginx stable repo                                                                                24 kB/s | 2.9 kB     00:00
+nginx mainline repo                                                                              39 kB/s | 2.9 kB     00:00
+Dependencies resolved.
+================================================================================================================================
+ Package                 Architecture             Version                                Repository                        Size
+================================================================================================================================
+Installing:
+ nginx                   x86_64                   1:1.23.3-1.el8.ngx                     nginx-mainline                   834 k
+
+Transaction Summary
+================================================================================================================================
+Install  1 Package
+
+Total download size: 834 k
+Installed size: 2.8 M
+Is this ok [y/N]: y
+Downloading Packages:
+nginx-1.23.3-1.el8.ngx.x86_64.rpm                                                               2.9 MB/s | 834 kB     00:00
+--------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                           2.9 MB/s | 834 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                        1/1
+  Running scriptlet: nginx-1:1.23.3-1.el8.ngx.x86_64                                                                        1/1
+  Installing       : nginx-1:1.23.3-1.el8.ngx.x86_64                                                                        1/1
+  Running scriptlet: nginx-1:1.23.3-1.el8.ngx.x86_64                                                                        1/1
+----------------------------------------------------------------------
+
+Thanks for using nginx!
+
+Please find the official documentation for nginx here:
+* https://nginx.org/en/docs/
+
+Please subscribe to nginx-announce mailing list to get
+the most important news about nginx:
+* https://nginx.org/en/support.html
+
+Commercial subscriptions for nginx are available on:
+* https://nginx.com/products/
+
+----------------------------------------------------------------------
+
+  Verifying        : nginx-1:1.23.3-1.el8.ngx.x86_64                                                                        1/1
+
+Installed:
+  nginx-1:1.23.3-1.el8.ngx.x86_64
+
+Complete!
+</code></pre></div><h3 id="➡️-test"><a href="#➡️-test" class="header-anchor">#</a> ➡️ Test</h3> <div class="language- extra-class"><pre class="language-text"><code>nginx -v
+</code></pre></div><p>Expected output (test):</p> <div class="language- extra-class"><pre class="language-text"><code>nginx version: nginx/1.23.3
+</code></pre></div><h2 id="📚-further-reading-and-next-steps"><a href="#📚-further-reading-and-next-steps" class="header-anchor">#</a> 📚 Further reading and Next Steps</h2> <p><u>Get Back:</u></p> <ul><li>AlmaLinux Nginx Series ❯ <a href="/series/nginx/NginxSeriesA01.html">A Beginner's Guide</a></li></ul> <p><u>In-depth Resources:</u></p> <ul><li>AlmaLinux Nginx Series ❯ <a href="/series/nginx/NginxSeriesA02R91.html">AlmaLinux OS 9.1 Installation</a></li> <li>AlmaLinux Nginx Series ❯ <a href="/series/nginx/NginxSeriesA02R92.html">AlmaLinux OS 9.2 Installation</a></li> <li>AlmaLinux Nginx Series ❯ <a href="/series/nginx/NginxSeriesA03.html">Default Configuration Guide</a></li> <li>AlmaLinux Nginx Series ❯ <a href="/series/nginx/NginxSeriesA04P1.html">Secure Nginx Deployment</a></li></ul> <p><u>Related Resources:</u></p> <ul><li>AlmaLinux Firewalld Series ❯ <a href="/series/system/SystemSeriesA02.html">A Beginner's Guide</a></li> <li>AlmaLinux System Series ❯ <a href="/series/system/SystemSeriesA01.html">Application Streams</a></li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2025-12-01</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/series/nginx/NginxSeriesA01.html" class="prev">
+        A01 ❯ A Beginner's Guide
+      </a></span> <span class="next"><a href="/series/nginx/NginxSeriesA02R91.html">
+        A02 R91 ❯ AlmaLinux 9.1 Installation
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.833e7acd.js" defer></script><script src="/assets/js/2.cc1e698a.js" defer></script><script src="/assets/js/1.6f275491.js" defer></script><script src="/assets/js/174.7270bdb0.js" defer></script>
+  </body>
+</html>
