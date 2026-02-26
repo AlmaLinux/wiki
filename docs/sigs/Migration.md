@@ -8,7 +8,7 @@ The Migration team is responsible for two migration projects - the migration too
 
 ### AlmaLinux Migration Tool
 
-The [migration tool](/documentation/migration-guide) is used to convert an EL8 or EL9 machine.
+The [migration tool](/documentation/migration-guide) is used to convert an EL8, EL9 or EL10 machine to the corresponding version.
 
 The tool supports the following migration paths:
 
@@ -22,8 +22,7 @@ The project supports the following migration paths:
 
 ![image](/images/ELevate.webp)
 
-\* - migration to CentOS Stream 9 is currently in process and will be available later. <br>
-\*\* - migration to Oracle Linux 9 is available with the [Oracle Leapp utility](https://blogs.oracle.com/linux/post/upgrade-oracle-linux-8-to-oracle-linux-9-using-leapp) and will not be supported by ELevate project.
+\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
 
 ## How to Join
 
