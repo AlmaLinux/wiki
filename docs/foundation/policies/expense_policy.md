@@ -4,7 +4,7 @@ title: "Expense and Reimbursement Policy"
 
 # AlmaLinux Expense and Reimbursement Policy
 
-This policy was adopted by the Board of Directors via email in [January of 2026 (recorded in the notes of the February meeting)](/Transparency.html#minutes-of-almalinux-os-foundation-board-meetings).
+This policy was adopted by the Board of Directors via email in [January of 2026 (recorded in the notes of the February meeting)](/foundation/Transparency.html#minutes-of-almalinux-os-foundation-board-meetings).
 
 ### 1. Purpose
 
