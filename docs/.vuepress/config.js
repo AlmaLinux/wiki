@@ -329,7 +329,7 @@ module.exports = {
           "/sigs/Infrastructure",
           "/sigs/LiveMedia",
           {
-            title: "The Marketing SIG",
+            title: "Marketing SIG",
             path: "/sigs/Marketing",
             children: ["/sigs/marketing/indico"],
           },
