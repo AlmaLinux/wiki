@@ -320,6 +320,7 @@ module.exports = {
         title: "Special interest groups (SIGs)",
         path: "/sigs/",
         children: [
+          "/sigs/AltArch",
           "/sigs/Atomic",
           "/sigs/Build-System",
           "/sigs/Certification",
