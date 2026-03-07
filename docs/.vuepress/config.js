@@ -340,21 +340,21 @@ module.exports = {
       },
       {
         title: "The Foundation",
-        path: "/Transparency",
+        path: "/foundation/Transparency",
         children: [
           "foundation/memberbenefits",
           {
             title: "Elections",
             path: "/foundation/elections/",
             children: [
-              "/Election2022",
-              "/election2023",
-              "/Election2025",
+              "/foundation/elections/Election2022",
+              "/foundation/elections/election2023",
+              "/foundation/elections/Election2025",
               "/foundation/elections/processesandterms",
             ],
           },
-          "/policies/expense_policy",
-          "/gsoc",
+          "/foundation/policies/expense_policy",
+          "/foundation/gsoc",
         ],
       },
       "/Help-and-Support",
