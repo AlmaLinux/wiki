@@ -1,6 +1,7 @@
 ---
 title: "AltArch SIG"
 ---
+
 # AltArch SIG
 
 The purpose of this SIG is to maintain support for alternate (non-mainstream) architectures like x86_32 and Raspberry Pi.
@@ -30,6 +31,7 @@ Meetings will be held bi-weekly, with timing adjusted to accommodate members acr
 Contributions take all kinds of shapes and sizes, and we welcome everyone! If you have expertise or time and would like to help us out, please join us at [AltArch SIG on Mattermost](https://chat.almalinux.org/almalinux/channels/sigaltarch)
 
 ## SIG members
+
 - [Peter Edwards](peadar@arista.com) - SIG Lead x86_32 building
 - [Eduard Abdullin](eabdullin@almalinux.org) - SIG Lead x86_64-v2 building
 - [Andrew Lukoshko](alukoshko@almalinux.org) - SIG Lead RISC-V building
