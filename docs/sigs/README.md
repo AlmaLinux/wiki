@@ -8,7 +8,8 @@ Special interest groups (SIGs) are teams within the AlmaLinux OS community that 
 
 The following SIGs are already established:
 
-- [Atomic](/sigs/Atomic) - The AlmaLinux Atomic SIG
+- [AltAtch](/sigs/AltAtch) - The AlmaLinux AltAtch SIG.
+- [Atomic](/sigs/Atomic) - The AlmaLinux Atomic SIG.
 - [Build System](/sigs/Build-System) - The AlmaLinux OS build system developers and maintainers.
 - [Certification](/sigs/Certification) - The AlmaLinux Certification SIG.
 - [Core](/sigs/Core) - The AlmaLinux OS distribution developers and maintainers.
@@ -16,8 +17,9 @@ The following SIGs are already established:
 - [HPC and AI](/sigs/HPCandAI) - The AlmaLinux High performance computing and AI SIG.
 - [Infrastructure](/sigs/Infrastructure) - The AlmaLinux OS infrastructure team.
 - [Live Media](/sigs/LiveMedia) - The AlmaLinux OS Live Media maintainers.
-- [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
 - [Marketing](/sigs/Marketing) - The AlmaLinux OS Marketing SIG.
+- [Media and Entertainment](/sigs/MediaAndEntertainment) - The AlmaLinux OS Marketing SIG.
+- [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
 
 # Additional Resources
 
