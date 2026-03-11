@@ -4,7 +4,7 @@ title: "Membership levels and Benefits"
 
 # AlmaLinux OS Foundation Membership levels and Benefits
 
-V1.0 - Adopted April 10th, 2024 [at the 31st board meeting](/Transparency.html#minutes-of-almalinux-os-foundation-board-meetings)
+V1.0 - Adopted April 10th, 2024 [at the 31st board meeting](/foundation/Transparency.html#minutes-of-almalinux-os-foundation-board-meetings)
 
 # General
 

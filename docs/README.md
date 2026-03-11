@@ -48,8 +48,8 @@ There are many ways to contribute to the wiki! To see how, check out the [Contri
 
 ### Transparency Statement
 
-- We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
-- Minutes from the [meetings of the board of directors](Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
+- We are community-owned, which requires transparency. Here is our [progress toward that goal](foundation/Transparency.md).
+- Minutes from the [meetings of the board of directors](foundation/Transparency.md#-minutes-of-almalinux-os-foundation-board-meetings)
 
 ### License
 
