@@ -6,6 +6,7 @@ Each meeting of ALESCo is public, and future meetings can be found on [events.al
 
 # ALESCo Meeting Minutes
 
+- [March 12, 2026](/alesco/meeting-minutes/2026-03-12)
 - [February 12, 2026](/alesco/meeting-minutes/2026-02-12)
 - [January 08, 2026](/alesco/meeting-minutes/2026-01-08)
 - [November 13, 2025](/alesco/meeting-minutes/2025-11-13)
