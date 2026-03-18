@@ -37,14 +37,17 @@ If you are interested in contributing or need any assistance, check the [SIG/Clo
 All the boxes have been migrated to the [HCP Vagrant Registry](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux).
 
 ### AlmaLinux OS version **8.10.20260112**
+
 - Packages updates
 - New packages were added: `bind-export-libs`, `checkpolicy`, `cloud-init`, `dhcp-client`, `dhcp-common`, `dhcp-libs`, `geolite2-city`, `geolite2-country`, `ipcalc`, `libmaxminddb`, `python3-audit`, `python3-babel`, `python3-cffi`, `python3-chardet`, `python3-configobj`, `python3-cryptography`, `python3-idna`, `python3-jinja2`, `python3-jsonpatch`, `python3-jsonpointer`, `python3-jsonschema`, `python3-jwt`, `python3-libsemanage`, `python3-markupsafe`, `python3-netifaces`, `python3-oauthlib`, `python3-ply`, `python3-policycoreutils`, `python3-prettytable`, `python3-pycparser`, `python3-pyserial`, `python3-pysocks`, `python3-pytz`, `python3-requests`, `python3-setools`, `python3-urllib3`
 
 ### AlmaLinux OS version **9.7.20260111**
+
 - Packages updates
 - New packages were added: `checkpolicy`, `cloud-init`, `dhcp-client`, `dhcp-common`, `gdisk`, `ipcalc`, `python3-attrs`, `python3-audit`, `python3-babel`, `python3-chardet`, `python3-configobj`, `python3-distro`, `python3-idna`, `python3-jinja2`, `python3-jsonpatch`, `python3-jsonpointer`, `python3-jsonschema`, `python3-libsemanage`, `python3-markupsafe`, `python3-netifaces`, `python3-oauthlib`, `python3-policycoreutils`, `python3-prettytable`, `python3-pyrsistent`, `python3-pyserial`, `python3-pysocks`, `python3-pytz`, `python3-requests`, `python3-setools`, `python3-urllib3`
 
 ### AlmaLinux OS version **10.1.20260110**
+
 - Packages updates
 - New packages were added: `checkpolicy`, `cloud-init`, `dhcpcd`, `openssl`, `python3-audit`, `python3-charset-normalizer`, `python3-configobj`, `python3-distro`, `python3-idna`, `python3-jinja2`, `python3-jsonpatch`, `python3-jsonpointer`, `python3-libsemanage`, `python3-markupsafe`, `python3-oauthlib`, `python3-policycoreutils`, `python3-pyserial`, `python3-requests`, `python3-setools`, `python3-setuptools`, `python3-urllib3`
 
@@ -57,18 +60,22 @@ All the boxes have been migrated to the [HCP Vagrant Registry](https://portal.cl
   - Built for aarch64 in **VMware Fusion 25H2u1 (25219963)**
 
 ### AlmaLinux OS version **10.1.20251125**
+
 - AlmaLinux release 10.1 (Heliotrope Lion)
 
 ### AlmaLinux OS version **9.7.20251119**
+
 - AlmaLinux release 9.7 (Moss Jungle Cat)
 
 ### AlmaLinux OS version **8.10.20251006**
+
 - Packages updates
 
 #### Provider specific changes:
 
 -hyperv
-  - Built in **Hyper-V 10.0.26100.7019**
+
+- Built in **Hyper-V 10.0.26100.7019**
 
 - virtualbox
   - Built in **VirtualBox 7.1.6**, with the Guest Additions same version included.
