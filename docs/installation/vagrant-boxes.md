@@ -31,77 +31,77 @@ This is implemented with the cloud-init NoCloud/None datasource configuration (v
 
 To increase disk size (for example, to 100GB) for a specific provider:
 
-  - **Libvirt**
+- **Libvirt**
 
-    ```ruby
-    Vagrant.configure("2") do |config|
-      config.vm.box = "almalinux/10"
+  ```ruby
+  Vagrant.configure("2") do |config|
+    config.vm.box = "almalinux/10"
 
-      config.vm.provider "libvirt" do |libvirt|
-        libvirt.machine_virtual_size = 100
-      end
+    config.vm.provider "libvirt" do |libvirt|
+      libvirt.machine_virtual_size = 100
     end
-    ```
+  end
+  ```
 
-  - **VirtualBox**
+- **VirtualBox**
 
-    ```ruby
-    Vagrant.configure("2") do |config|
-      config.vm.box = "almalinux/10"
+  ```ruby
+  Vagrant.configure("2") do |config|
+    config.vm.box = "almalinux/10"
 
-      config.vm.disk :disk, size: "100GB", primary: true
+    config.vm.disk :disk, size: "100GB", primary: true
 
-      config.vm.provider "virtualbox" do |vb|
-        # VirtualBox specific configuration
-      end
+    config.vm.provider "virtualbox" do |vb|
+      # VirtualBox specific configuration
     end
-    ```
+  end
+  ```
 
-  - **VMware**
+- **VMware**
 
-    ```ruby
-    Vagrant.configure("2") do |config|
-      config.vm.box = "almalinux/10"
+  ```ruby
+  Vagrant.configure("2") do |config|
+    config.vm.box = "almalinux/10"
 
-      config.vm.disk :disk, size: "100GB", primary: true
+    config.vm.disk :disk, size: "100GB", primary: true
 
-      config.vm.provider "vmware_desktop" do |v|
-        # Force a full clone (an independent copy of the disk)
-        v.linked_clone = false
-      end
+    config.vm.provider "vmware_desktop" do |v|
+      # Force a full clone (an independent copy of the disk)
+      v.linked_clone = false
     end
-    ```
+  end
+  ```
 
-  - **Hyper-V**
+- **Hyper-V**
 
-    ```ruby
-    Vagrant.configure("2") do |config|
-      config.vm.box = "almalinux/10"
+  ```ruby
+  Vagrant.configure("2") do |config|
+    config.vm.box = "almalinux/10"
 
-      config.vm.disk :disk, size: "100GB", primary: true
+    config.vm.disk :disk, size: "100GB", primary: true
 
-      config.vm.provider "hyperv" do |hyperv|
-        # Force a full clone (an independent copy of the disk)
-        hyperv.linked_clone = false
-      end
+    config.vm.provider "hyperv" do |hyperv|
+      # Force a full clone (an independent copy of the disk)
+      hyperv.linked_clone = false
     end
-    ```
+  end
+  ```
 
-  - **Parallels**
+- **Parallels**
 
-    ```ruby
-    Vagrant.configure("2") do |config|
-      config.vm.box = "almalinux/10"
+  ```ruby
+  Vagrant.configure("2") do |config|
+    config.vm.box = "almalinux/10"
 
-      config.vm.provider "parallels" do |prl|
-        # Force a full clone (an independent copy of the disk)
-        prl.linked_clone = false
-        # Parallels requires disk size in MB (102400 MB = 100 GB)
-        prl.customize "post-import",
-          ["set", :id, "--device-set", "hdd0", "--size", "102400", "--no-fs-resize"]
-      end
+    config.vm.provider "parallels" do |prl|
+      # Force a full clone (an independent copy of the disk)
+      prl.linked_clone = false
+      # Parallels requires disk size in MB (102400 MB = 100 GB)
+      prl.customize "post-import",
+        ["set", :id, "--device-set", "hdd0", "--size", "102400", "--no-fs-resize"]
     end
-    ```
+  end
+  ```
 
 ## Contribute and Get Help
 
