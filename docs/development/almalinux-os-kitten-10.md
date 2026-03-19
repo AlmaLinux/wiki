@@ -47,7 +47,7 @@ Community AMIs are images that are shared directly by the AlmaLinux OS Foundatio
 
 <details>
   <summary>Click to expand AlmaLinux OS Kitten 10 AMIs</summary>
-  
+
   <Content :page-key="$site.pages.find(p => p.path === '/development/AWS_AMIS_kitten_10.html').key"/>
 </details>
 
@@ -118,7 +118,8 @@ AlmaLinux provides official AlmaLinux OS Kitten images for Vagrant:
 | Libvirt     | - [x86_64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten)<br>- [x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten-x86_64_v2) |
 | VirtualBox  | - [x86_64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten)<br>- [x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten-x86_64_v2) |
 | Hyper-V     | - [x86_64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten)<br>- [x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten-x86_64_v2) |
-| VMware      | - [x86_64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten)<br>- [x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten-x86_64_v2) |
+| VMware      | - [x86_64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten)<br>- [x86_64_v2](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten-x86_64_v2)<br>- [aarch64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten) |
+| Parallels   | - [aarch64](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux/10-kitten) |
 
 More about AlmaLinux OS images for Vagrant Boxes - [AlmaLinux Vagrant Boxes Page](/installation/vagrant-boxes).
 
