@@ -24,6 +24,85 @@ The following images are available on HCP Vagrant Registry:
 If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
 :::
 
+## How to increase disk size
+
+Starting from the **20260318** version (**8.10.20260318**, **9.7.20260318**, **10.1.20260318**), automatic partition and filesystem resizing is enabled.
+This is implemented with the cloud-init NoCloud/None datasource configuration (via `99_vagrant.cfg`).
+
+To increase disk size (for example, to 100GB) for a specific provider:
+
+  - **Libvirt**
+
+    ```ruby
+    Vagrant.configure("2") do |config|
+      config.vm.box = "almalinux/10"
+
+      config.vm.provider "libvirt" do |libvirt|
+        libvirt.machine_virtual_size = 100
+      end
+    end
+    ```
+
+  - **VirtualBox**
+
+    ```ruby
+    Vagrant.configure("2") do |config|
+      config.vm.box = "almalinux/10"
+
+      config.vm.disk :disk, size: "100GB", primary: true
+
+      config.vm.provider "virtualbox" do |vb|
+        # VirtualBox specific configuration
+      end
+    end
+    ```
+
+  - **VMware**
+
+    ```ruby
+    Vagrant.configure("2") do |config|
+      config.vm.box = "almalinux/10"
+
+      config.vm.disk :disk, size: "100GB", primary: true
+
+      config.vm.provider "vmware_desktop" do |v|
+        # Force a full clone (an independent copy of the disk)
+        v.linked_clone = false
+      end
+    end
+    ```
+
+  - **Hyper-V**
+
+    ```ruby
+    Vagrant.configure("2") do |config|
+      config.vm.box = "almalinux/10"
+
+      config.vm.disk :disk, size: "100GB", primary: true
+
+      config.vm.provider "hyperv" do |hyperv|
+        # Force a full clone (an independent copy of the disk)
+        hyperv.linked_clone = false
+      end
+    end
+    ```
+
+  - **Parallels**
+
+    ```ruby
+    Vagrant.configure("2") do |config|
+      config.vm.box = "almalinux/10"
+
+      config.vm.provider "parallels" do |prl|
+        # Force a full clone (an independent copy of the disk)
+        prl.linked_clone = false
+        # Parallels requires disk size in MB (102400 MB = 100 GB)
+        prl.customize "post-import",
+          ["set", :id, "--device-set", "hdd0", "--size", "102400", "--no-fs-resize"]
+      end
+    end
+    ```
+
 ## Contribute and Get Help
 
 If you are interested in contributing or need any assistance, check the [SIG/Cloud](/sigs/Cloud) wiki page and join the _~SIG/Cloud_ chat channel in [Mattermost](https://chat.almalinux.org/almalinux/channels/sigcloud) chat channel on [chat.almalinux.org](https://chat.almalinux.org).
@@ -35,6 +114,12 @@ If you are interested in contributing or need any assistance, check the [SIG/Clo
 **2024-12-23**
 
 All the boxes have been migrated to the [HCP Vagrant Registry](https://portal.cloud.hashicorp.com/vagrant/discover/almalinux).
+
+### AlmaLinux OS version **8.10.20260318**, **9.7.20260318**, **10.1.20260318**
+
+- Package updates
+- New packages were added: `cloud-utils-growpart`
+- Enabled automatic partition and filesystem resizing when disk size is increased
 
 ### AlmaLinux OS version **8.10.20260112**
 
