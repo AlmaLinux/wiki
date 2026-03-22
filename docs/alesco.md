@@ -45,7 +45,6 @@ The foundation board appointed the initial committee members, but the rest of th
 
 - [Andrew Lukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
 - [Ben Thomas](https://chat.almalinux.org/almalinux/messages/@b.a.thomas)
-- [Cody Robertson](https://chat.almalinux.org/almalinux/messages/@codyr)
 - [Jonathan Wright](https://chat.almalinux.org/almalinux/messages/@jonathan)
 - [Neal Gompa](https://chat.almalinux.org/almalinux/messages/@ngompa13)
 
