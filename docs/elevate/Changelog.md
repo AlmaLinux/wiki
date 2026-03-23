@@ -13,9 +13,9 @@ Released to Stable:
 #### Leapp Data
 
 - Vendor **PostgreSQL**:
- - add _PostgreSQL 18 for EL_ repositories, 8 to 9 upgrade path
- - include `ppc64le` architecture where it is available
- - switch _PostgreSQL 13 for EL_ repositories into `yum-archive.postgresql.org`
+- add _PostgreSQL 18 for EL_ repositories, 8 to 9 upgrade path
+- include `ppc64le` architecture where it is available
+- switch _PostgreSQL 13 for EL_ repositories into `yum-archive.postgresql.org`
 
 ## 2026-02-23
 
