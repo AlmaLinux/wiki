@@ -6,6 +6,17 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-03-19
+
+Released to Stable:
+
+#### Leapp Data
+
+- Vendor **PostgreSQL**:
+ - add _PostgreSQL 18 for EL_ repositories, 8 to 9 upgrade path
+ - include `ppc64le` architecture where it is available
+ - switch _PostgreSQL 13 for EL_ repositories into `yum-archive.postgresql.org`
+
 ## 2026-02-23
 
 Released to Stable:
