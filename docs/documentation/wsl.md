@@ -16,6 +16,8 @@ The following AlmaLinux OS versions are available for installation via both meth
 - AlmaLinux OS 9
 - AlmaLinux OS 10
 
+Additionally, **AlmaLinux OS 10 x86_64_v2** images are available. These images are not published to the Microsoft Store or [microsoft/WSL](https://github.com/microsoft/WSL) and can only be downloaded from the [Releases](https://github.com/AlmaLinux/wsl-images/releases) section of the AlmaLinux WSL images GitHub repository. They are available for offline installation via `wsl --install --from-file` (see [Install AlmaLinux OS 10 x86_64_v2](#install-almalinux-os-10-x86_64_v2) below).
+
 :::tip
 If you are looking for AlmaLinux OS Kitten image, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
 :::
@@ -142,10 +144,28 @@ The WSL format is a modern and recommended way of installation. The WSL version 
   ```
 
 - Start your AlmaLinux:
-  - Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the “+” icon. You’ll see a dropdown with available WSL distros listed. Click AlmaLinux OS. It will open in a new tab, ready to use.
+  - Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the "+" icon. You'll see a dropdown with available WSL distros listed. Click AlmaLinux OS. It will open in a new tab, ready to use.
   - Or run the command:
     ```
     wsl -d AlmaLinux-10
+    ```
+
+### Install AlmaLinux OS 10 x86_64_v2
+
+AlmaLinux OS 10 x86_64_v2 images are not published to the Microsoft Store or [microsoft/WSL](https://github.com/microsoft/WSL). They can only be downloaded from the [Releases](https://github.com/AlmaLinux/wsl-images/releases) section of the AlmaLinux WSL images GitHub repository and installed offline using the `wsl` tool.
+
+- Download the latest `.wsl` file for x86*64_v2 from [github.com/AlmaLinux/wsl-images/releases](https://github.com/AlmaLinux/wsl-images/releases) (e.g. `AlmaLinux-10.1_x64_v2*<version>.wsl`).
+
+- Install it using the `--from-file` option:
+
+  ```
+  wsl --install --from-file AlmaLinux-10.1_x64_v2_<version>.wsl
+  ```
+
+- Start your AlmaLinux:
+  - Open it from the Windows Terminal dropdown, or run the command:
+    ```
+    wsl -d AlmaLinux-10-x64_v2
     ```
 
 ## Extras

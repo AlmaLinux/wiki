@@ -145,10 +145,28 @@ AlmaLinux OS Kitten 10 images are available for installation via WSL CLI tool.
   wsl --install AlmaLinux-Kitten-10
   ```
 - Launch AlmaLinux OS to start using it:
-  - Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the “+” icon. You’ll see a dropdown with available WSL distros listed. Click AlmaLinux-Kitten-10. It will open in a new tab, ready to use.
+  - Open it from the Windows Terminal. Click the small arrow ▾ next to the tab or the "+" icon. You'll see a dropdown with available WSL distros listed. Click AlmaLinux-Kitten-10. It will open in a new tab, ready to use.
   - Or run the command:
     ```
     wsl -d AlmaLinux-Kitten-10
+    ```
+
+### x86_64_v2 WSL Images
+
+AlmaLinux OS Kitten 10 x86_64_v2 images are not published to the Microsoft Store or [microsoft/WSL](https://github.com/microsoft/WSL) and can only be downloaded from the [Releases](https://github.com/AlmaLinux/wsl-images/releases) section of the AlmaLinux WSL images GitHub repository. They are available for offline installation via `wsl --install --from-file`.
+
+- Download the latest `.wsl` file for Kitten 10 x86*64_v2 from [github.com/AlmaLinux/wsl-images/releases](https://github.com/AlmaLinux/wsl-images/releases) (e.g. `AlmaLinux-Kitten-10_x64_v2*<version>.wsl`).
+
+- Install it using the `--from-file` option:
+
+  ```
+  wsl --install --from-file AlmaLinux-Kitten-10_x64_v2_<version>.wsl
+  ```
+
+- Launch AlmaLinux OS Kitten:
+  - Open it from the Windows Terminal dropdown, or run the command:
+    ```
+    wsl -d AlmaLinux-Kitten-10-x64_v2
     ```
 
 More about AlmaLinux for WSL - [WSL Page](/documentation/WSL).
