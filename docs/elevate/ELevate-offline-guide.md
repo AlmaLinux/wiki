@@ -1,6 +1,7 @@
 ---
 title: "ELevate Offline Guide"
 ---
+###### last updated: 2026-04-09
 
 # ELevate Offline Guide
 
@@ -34,18 +35,14 @@ The `rsync` tool can be used to create a local mirror.
 - Synchronize with the official AlmaLinux mirror via `rsync`:
 
   ```shell
-  /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /example-almalinux-mirror/
+  /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/
   ```
 
 - If needed, create a cron task to sync your local mirror periodically (we recommend updating the mirror every 3 hours):
 
   ```shell
-  0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /example-almalinux-mirror/"
+  0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux/ /almalinux/"
   ```
-
-  :::warning
-  Don't forget to replace /example-almalinux-mirror/ directory with the directory you need.
-  :::
 
 ### Create a local ELevate mirror
 
@@ -54,19 +51,20 @@ The `rsync` tool can be used to create a local mirror.
 - Synchronize with the official AlmaLinux ELevate mirror via `rsync`:
 
   ```shell
-  /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates  rsync://rsync.repo.almalinux.org/almalinux-elevate/ /example-elevate-mirror/
+  /usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates  rsync://rsync.repo.almalinux.org/almalinux-elevate/ /elevate/
   ```
 
 - If needed, create a cron task to sync your local mirror periodically (we recommend updating the mirror every 3 hours):
 
   ```shell
-  0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux-elevate/ /example-elevate-mirror/"
+  0 */3 * * * sleep $(((RANDOM\%3500)+1)) && /usr/bin/flock -n /var/run/almalinux_rsync.lock -c "/usr/bin/rsync -avSH --exclude='.~tmp~' --delete-delay --delay-updates rsync://rsync.repo.almalinux.org/almalinux-elevate/ /elevate/"
   ```
 
-  :::warning
-  Don't forget to replace /example-elevate-mirror/ directory with the directory you need.
+  ::: warning
+  Don't use file:// for your private local repo as it will break the systemd-nspawn to generate the migration environment.
   :::
 
+ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
 ### Add access to the private ELevate mirror
 
 **These steps are to be performed on a host with access to a private ELevate mirror that will be migrated.**
@@ -78,11 +76,25 @@ To be able to install ELevate packages you need to add the local ELevate mirror 
   ```shell
   [ELevate]
   name=ELevate for EL$releasever
-  baseurl=http://mirror.example.com/elevate/el$releasever/$basearch/
+  baseurl=http://localhost:8081/elevate/el$releasever/$basearch/
   enabled=1
   gpgcheck=1
-  gpgkey=http://mirror.example.com/elevate/RPM-GPG-KEY-ELevate
+  gpgkey=http://localhost:8081/elevate/RPM-GPG-KEY-ELevate
   ```
+### Start the local python HTTP server
+
+```shell
+cd /where-my-repos-are-copied
+python -m http.server 8081
+```
+
+This will create a temporary HTTP server using python builtin http server module.
+
+### General information for all migrations
+
+Remove all non-local private repo from the folder `/etc/yum.repos.d/` otherwise dnf will throw errors.
+Feel free to add all the other repo like `AppStream`, `CRS` and so on if needed.
+Only one example is shown below.
 
 ## Migrate CentOS 7 to AlmaLinux 8
 
@@ -102,10 +114,10 @@ To be able to install ELevate packages you need to add the local ELevate mirror 
   ```shell
   [almalinux8-baseos]
   name=AlmaLinux 8 - BaseOS
-  baseurl=http://mirror.example.com/almalinux/el$releasever/$basearch/
+  baseurl=http://localhost:8081/almalinux/el$releasever/$basearch/os
   enabled=1
   gpgcheck=1
-  gpgkey=http://mirror.example.com/almalinux/RPM-GPG-KEY-AlmaLinux-8
+  gpgkey=http://localhost:8081/almalinux/RPM-GPG-KEY-AlmaLinux-8
   ```
 
 ### Perform the migration
@@ -263,10 +275,10 @@ If this migration is the first one, you have to [create your local mirrors](#pre
   ```shell
   [almalinux9-baseos]
   name=AlmaLinux 9 - BaseOS
-  baseurl=http://mirror.example.com/almalinux/el$releasever/$basearch/
+  baseurl=http://localhost:8081/almalinux/el$releasever/$basearch/os
   enabled=1
   gpgcheck=1
-  gpgkey=http://mirror.example.com/almalinux/RPM-GPG-KEY-AlmaLinux-9
+  gpgkey=http://localhost:8081/almalinux/RPM-GPG-KEY-AlmaLinux-9
   ```
 
 ## Perform the migration
@@ -443,10 +455,10 @@ If this migration is the first one, you have to [create your local mirrors](#pre
   ```shell
   [almalinux10-baseos]
   name=AlmaLinux 10 - BaseOS
-  baseurl=http://mirror.example.com/almalinux/el$releasever/$basearch/
+  baseurl=http://localhost:8081/almalinux/el$releasever/$basearch/os
   enabled=1
   gpgcheck=1
-  gpgkey=http://mirror.example.com/almalinux/RPM-GPG-KEY-AlmaLinux-10
+  gpgkey=http://localhost:8081/almalinux/RPM-GPG-KEY-AlmaLinux-10
   ```
 
 ## Perform the migration
