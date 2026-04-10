@@ -1,6 +1,7 @@
 ---
 title: "ELevate Offline Guide"
 ---
+
 ###### last updated: 2026-04-09
 
 # ELevate Offline Guide
@@ -65,6 +66,7 @@ The `rsync` tool can be used to create a local mirror.
   :::
 
 ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
+
 ### Add access to the private ELevate mirror
 
 **These steps are to be performed on a host with access to a private ELevate mirror that will be migrated.**
@@ -81,6 +83,7 @@ To be able to install ELevate packages you need to add the local ELevate mirror 
   gpgcheck=1
   gpgkey=http://localhost:8081/elevate/RPM-GPG-KEY-ELevate
   ```
+
 ### Start the local python HTTP server
 
 ```shell
