@@ -34,7 +34,7 @@ osinfo-query os | grep almalinux
 
 If the installed `osinfo-db` doesn’t support either or any version of AlmaLinux OS, You can manually update the Osinfo database with the `--local` option without overriding the installed `osinfo-db` which is installed by the distribution's package manager. The new database will have precedence when the database is loaded.
 
-Retrieve the latest `$osinfo_db_version` from here (e.g., `20230719`) : [https://releases.pagure.org/libosinfo/?C=M;O=D](https://releases.pagure.org/libosinfo/?C=M;O=D)
+Retrieve the latest `$osinfo_db_version` from here (e.g., `20230719`) : https://releases.pagure.org/libosinfo/?C=M;O=D
 
 ```sh
 osinfo_db_version='20230719' # Replace with the latest version
@@ -43,7 +43,7 @@ curl -O https://releases.pagure.org/libosinfo/osinfo-db-"$osinfo_db_version".tar
 sudo osinfo-db-import --local osinfo-db-"$osinfo_db_version".tar.xz # Install
 ```
 
-Refer to this guide to download and verify the cloud images: [https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification](https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification)
+Refer to this guide to download and verify the cloud images: https://wiki.almalinux.org/cloud/Generic-cloud.html#download-and-verification
 
 ## Create a snapshot from the image
 

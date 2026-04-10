@@ -70,7 +70,7 @@ MariaDB is one of the major relational databases in the market, built by the dev
   cat <<EOF>/etc/yum.repos.d/MariaDB.repo
   [mariadb]
   name = MariaDB
-  baseurl = https://rpm.mariadb.org/11.3/rhel/8/x86_64/
+  baseurl = https://rpm.mariadb.org/11.4/rhel/8/x86_64/
   module_hotfixes = 1
   gpgkey = https://rpm.mariadb.org/RPM-GPG-KEY-MariaDB
   gpgcheck = 1

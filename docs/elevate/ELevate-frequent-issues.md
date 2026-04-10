@@ -45,7 +45,7 @@ dracut -f --regenerate-all
 If the `leapp upgrade` step fails with the "More space needed on the / filesystem" error, there could be two separate problems:
 
 1.  Not enough free space on the /var partition. In that case, it is necessary to expand the `/var` partition:
-    - For this purpose, we kindly ask you to search for a [suitable guide](https://docs.icdc.io/en/compute/faq/extenddisk/).
+    - For this purpose, you can use tools like `lvextend`, `resize2fs`, or `xfs_growfs` depending on your filesystem and volume manager. Please refer to the [RHEL 8 Configuring and managing logical volumes](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html-single/configuring_and_managing_logical_volumes) guide for the appropriate steps.
 2.  For a partition that uses XFS, instruct `leapp` to use a bigger overlay file by setting the environment variable before running `leapp` command (default is 2048 MB) by setting the LEAPP_OVL_SIZE environment variable:
 
 ```

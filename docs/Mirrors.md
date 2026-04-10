@@ -57,7 +57,7 @@ You can create a public AlmaLinux mirror in a few easy steps:
      :::
 
 4. Ensure the accuracy of city, longitude, and latitude data for your mirror IP(s) with IPinfo at
-   [https://ipinfo.io](https://ipinfo.io). Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
+   https://ipinfo.io. Submit a [correction request](https://ipinfo.io/corrections) with accurate city data
    if the information is incorrect. Our mirrorlist URL tries to serve the best mirror to a client based on IPinfo geolocation data
    so having accurate IPinfo data ensures the best possible experience for users.
 
@@ -77,7 +77,7 @@ You can create a public AlmaLinux mirror in a few easy steps:
    as an example. Your mirror does not have to provide all the protocols
    that our main mirror provides, but either HTTP or HTTPS is required. Format of a mirror's config is described below.
    Also, you can validate your config to use some JSON online validator using
-   [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config.json) and converting your config to JSON.
+   [that JSON schema](https://github.com/AlmaLinux/mirrors/blob/yaml_snippets/json_schemas/mirror_config/v1.json) and converting your config to JSON.
 
 ```YAML
 ---

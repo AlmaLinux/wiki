@@ -47,7 +47,7 @@ Version 8 will have active support until 31 May 2024, and security support until
 
 ### AlmaLinux OS Kitten 10
 
-###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
+###### Note: Our kitten is not related to [this one](https://github.com/HobbesOSR/kitten) :D
 
 AlmaLinux OS Kitten 10 active support will match the end of CentOS Stream 10.
 

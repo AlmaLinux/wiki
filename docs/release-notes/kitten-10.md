@@ -4,7 +4,7 @@ title: "Kitten 10"
 
 # AlmaLinux OS Kitten 10 Release Notes
 
-###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
+###### Note: Our kitten is not related to [this one](https://github.com/HobbesOSR/kitten) :D
 
 These are the release notes for AlmaLinux OS Kitten 10 for all supported architectures:
 

@@ -134,7 +134,7 @@ where:
 - `Packages` - folder with corresponding repository, all packages
 - `repodata` - folder with repository metadata
 
-Note, it's mandatory you download the `almalinux-release` package and public GPG key corresponding to your release, like `almalinux-release-latest-8.x86_64.rpm` and `RPM-GPG-KEY-AlmaLinux-8` for AlmaLinux 8 x86_64, from [https://repo.almalinux.org/almalinux/](https://repo.almalinux.org/almalinux/) and place them into the root of `/opt`.
+Note, it's mandatory you download the `almalinux-release` package and public GPG key corresponding to your release, like `almalinux-release-latest-8.x86_64.rpm` and `RPM-GPG-KEY-AlmaLinux-8` for AlmaLinux 8 x86_64, from https://repo.almalinux.org/almalinux/ and place them into the root of `/opt`.
 
 ### Perform the migration
 

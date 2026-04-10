@@ -61,4 +61,4 @@ At the outset, it was important to the founding members of the AlmaLinux OS proj
 [almalinux.fips]: https://almalinux.org/blog/2023-09-19-fips-validation-for-almalinux/
 [oracle.fips]: https://www.oracle.com/corporate/security-practices/assurance/development/external-security-evaluations/fips/certifications.html
 [rocky.fips]: https://rockylinux.org/news/certifications-fips-2022-06-11
-[RHEL.fips]: https://access.redhat.com/articles/compliance_activities_and_gov_standards#fips-140-2-and-fips-140-3-2
+[RHEL.fips]: https://access.redhat.com/compliance/fips

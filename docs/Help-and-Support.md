@@ -68,9 +68,9 @@ Note, that it's preferable and recommended to use `bash` syntax.
 
 #### paste.almalinux.org
 
-We suggest you use the [https://paste.almalinux.org/](https://paste.almalinux.org/) service for sharing your outputs.
+We suggest you use the https://paste.almalinux.org/ service for sharing your outputs.
 
-- Navigate to [https://paste.almalinux.org/](https://paste.almalinux.org/)
+- Navigate to https://paste.almalinux.org/
 - Select `bash` syntax.
 - Create a file name that is easy to understand.
 
