@@ -6,6 +6,15 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-04-09
+
+Released to Stable:
+
+#### Leapp Data
+
+- Vendor **KernelCare**: add `44c25eb080935b88` SIG key
+- Vendor **Nginx**: add `2fd21310b49f6b46` SIG key
+
 ## 2026-03-19
 
 Released to Stable:
