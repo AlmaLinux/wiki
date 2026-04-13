@@ -6,7 +6,7 @@ title: "Modified packages"
 
 All AlmaLinux OS packages, including modified ones, can be found on [git.almalinux.org](https://git.almalinux.org/explore/repos). There are several branches in each package repository:
 
-- c8/c9/c10s branches for original sources
+- c8/c9/с10/c10s branches for original sources
 - a8/a9/a10/a10s branches for modified sources
 
 Autopatch configurations: [git.almalinux.org/autopatch](https://git.almalinux.org/autopatch)
