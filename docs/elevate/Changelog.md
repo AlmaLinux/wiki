@@ -6,6 +6,23 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-04-15
+
+Released to NG:
+
+#### Leapp Repository
+
+- Enable upgrades:
+  - AlmaLinux 9 to Almalinux 10 **x86_64_v2**
+  - AlmaLinux 9 to Almalinux Kitten **x86_64_v2**
+- Update to the upstream 0.24.0 version [(87c192519e8764f59516cca563816f062428a533)](https://github.com/oamg/leapp-repository/commit/87c192519e8764f59516cca563816f062428a533).
+
+#### Leapp Data
+
+- New data packages:
+  - `leapp-data-almalinux-x86_64_v2`, includes PES data for AlmaLinux 10 **x86_64_v2** and **EPEL** vendor
+  - `leapp-data-almalinux-kitten-x86_64_v2`, includes PES data for AlmaLinux Kitten **x86_64_v2** and **EPEL** vendor
+
 ## 2026-04-09
 
 Released to Stable:

@@ -21,6 +21,10 @@ The ELevate NG supports a number of 3rd party repositories:
 - ELevate - for all supported operating systems.
 
 :::tip
+The only **EPEL** vendor is available for upgrades from AlmaLinux 9 to Almalinux 10 or to AlmaLinux Kitten **x86_64_v2**
+:::
+
+:::tip
 You can add more 3rd party repositories support. See more on the [Contribute](/elevate/Contribution-guide) page.
 :::
 
@@ -451,6 +455,100 @@ These steps can also be used to perform the upgrade from CentOS Stream 9 to Cent
   rpm -qa | grep el9
   sudo cat /var/log/leapp/leapp-report.txt
   sudo cat /var/log/leapp/leapp-upgrade.log
+  ```
+
+## Upgrading AlmaLinux 9 to AlmaLinux 10 x86_64_v2
+
+:::tip
+These steps can also be used to perform the upgrade from AlmaLinux 9 to AlmaLinux Kitten x86_64_v2.
+:::
+
+- Install ELevate NG version repo config for AlmaLinux 9:
+
+  ```bash
+  sudo curl -o /etc/yum.repos.d/elevate-ng.repo https://repo.almalinux.org/elevate/testing/elevate-ng-el$(rpm -E %rhel).repo
+  ```
+
+- Import ELevate GPG key:
+
+  ```bash
+  sudo rpm --import https://repo.almalinux.org/elevate/RPM-GPG-KEY-ELevate
+  ```
+
+- Install leapp packages and upgrade data for AlmaLinux which is target OS:
+
+  ```bash
+  sudo yum install -y leapp-upgrade leapp-data-almalinux-x86_64_v2
+  ```
+
+  :::tip
+  For the upgrade to AlmaLinux Kitten x86_64_v2, please, use the `leapp-data-almalinux-kitten-x86_64_v2` package:
+
+  ```bash
+  sudo yum install -y leapp-upgrade leapp-data-almalinux-kitten-x86_64_v2
+  ```
+
+  :::
+
+- Download the rootfs for target userspace bootstraping
+
+  ```bash
+  sudo mkdir -p /etc/leapp/files/rootfs && cd /etc/leapp/files/rootfs
+  sudo curl -LJO https://github.com/AlmaLinux/container-images/raw/refs/heads/10/default/amd64_v2/almalinux-10-default-amd64_v2.tar.xz
+  ```
+
+  :::tip
+  For the upgrade to AlmaLinux Kitten x86_64_v2, please do:
+
+  ```bash
+  sudo mkdir -p /etc/leapp/files/rootfs && cd /etc/leapp/files/rootfs
+  sudo curl -LJO https://github.com/AlmaLinux/container-images/raw/refs/heads/10-kitten/default/amd64_v2/almalinux-10-kitten-default-amd64_v2.tar.xz
+  ```
+
+  :::
+
+- Start a preupgrade check. In the meanwhile, the Leapp utility creates a special _/var/log/leapp/leapp-report.txt_ file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
+
+  :::warning
+  Preupgrade check will fail as the default install doesn't meet all requirements for the upgrade.
+  :::
+
+  You may use **LiveMode** experimental feature as described above, or do the upgrade in normal mode.
+
+  ```bash
+  sudo leapp preupgrade
+  ```
+
+  This summary report will help you get a picture of whether it is possible to continue the upgrade.
+
+  :::tip
+  In certain configurations, Leapp generates _/var/log/leapp/answerfile_ with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
+  :::
+
+- Start an upgrade. You'll be offered to reboot the system after this process is completed.
+
+  ```bash
+  sudo leapp upgrade
+  sudo reboot
+  ```
+
+- A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it.
+  See how the upgrade process goes in the console.
+
+- After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from the previous OS version, consider removing them or upgrade them manually.
+
+  ```bash
+  cat /etc/almalinux-release
+  cat /etc/os-release
+  rpm -qa | grep el9
+  sudo cat /var/log/leapp/leapp-report.txt
+  sudo cat /var/log/leapp/leapp-upgrade.log
+  ```
+
+- Cleanup the rootfs placeholder
+
+  ```bash
+  sudo rm -rf /etc/leapp/files/rootfs
   ```
 
 ## Demo Video
