@@ -4,7 +4,7 @@ title: "AlmaLinux OS Kitten 10"
 
 # About AlmaLinux OS Kitten 10
 
-###### Note: Our kitten is not related to [this one](https://www.sandia.gov/ccr/software/kitten-lightweight-kernel/) :D
+###### Note: Our kitten is not related to [this one](https://github.com/HobbesOSR/kitten) :D
 
 AlmaLinux OS Kitten is the direct upstream for AlmaLinux OS 10, and is the primary point for the AlmaLinux community to engage and influence the future of AlmaLinux OS. Fixes and features land here first and trickle down into AlmaLinux OS as appropriate. It is the integration and collaboration point for AlmaLinux to its upstreams as well, such as CentOS Stream and Fedora.
 

@@ -696,7 +696,7 @@ Please find the official documentation for nginx here:
 
 Please subscribe to nginx-announce mailing list to get
 the most important news about nginx:
-* https://nginx.org/en/support.html
+* https://nginx.org/en/enterprise.html
 
 Commercial subscriptions for nginx are available on:
 * https://nginx.com/products/

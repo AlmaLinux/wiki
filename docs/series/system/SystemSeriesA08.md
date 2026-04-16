@@ -2,7 +2,7 @@
 
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 
-EarlyOOM project can be found here: [https://github.com/rfjakob/earlyoom](https://github.com/rfjakob/earlyoom)
+EarlyOOM project can be found here: https://github.com/rfjakob/earlyoom
 
 ## Install EarlyOOM:
 
@@ -57,7 +57,7 @@ Usage: ./earlyoom [OPTION]...
                             Note: both memory and swap must be below minimum for
 ```
 
-Reference: [https://github.com/rfjakob/earlyoom](https://github.com/rfjakob/earlyoom)
+Reference: https://github.com/rfjakob/earlyoom
 
 ## Set the owner and group of the file to root:
 

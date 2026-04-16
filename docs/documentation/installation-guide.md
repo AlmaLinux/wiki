@@ -60,7 +60,7 @@ There are a several ways to download AlmaLinux ISO:
   :::
 
   ```bash
-  $ curl -O https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9.1-x86_64-dvd.iso
+  $ curl -O https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso
   ```
 
   :::tip
@@ -93,34 +93,34 @@ gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: BF18 AC28 7617 8908 D6E7  1267 D36C B86C B86B 3716
 # calculate the downloaded ISO SHA256 checksum
-$ sha256sum AlmaLinux-9.1-x86_64-dvd.iso
-2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f  AlmaLinux-9.1-x86_64-dvd.iso
+$ sha256sum AlmaLinux-9-latest-x86_64-dvd.iso
+2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f  AlmaLinux-9-latest-x86_64-dvd.iso
 
 # compare it with the expected checksum, it should be the same
-$ cat CHECKSUM | grep -E 'SHA256.*AlmaLinux-9.1-x86_64-dvd.iso'
-SHA256 (AlmaLinux-9.1-x86_64-dvd.iso) = 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
+$ cat CHECKSUM | grep -E 'SHA256.*AlmaLinux-9-latest-x86_64-dvd.iso'
+SHA256 (AlmaLinux-9-latest-x86_64-dvd.iso) = 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
 ```
 
 ### macOS
 
 ```bash
 # calculate the downloaded ISO SHA256 checksum
-$ shasum -a 256 AlmaLinux-9.1-x86_64-dvd.iso
-2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f  AlmaLinux-9.1-x86_64-dvd.iso
+$ shasum -a 256 AlmaLinux-9-latest-x86_64-dvd.iso
+2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f  AlmaLinux-9-latest-x86_64-dvd.iso
 
 # download the CHECKSUM file
 curl -O https://repo.almalinux.org/almalinux/9/isos/x86_64/CHECKSUM
 
 # compare it with the expected checksum, it should be the same
-$ cat CHECKSUM | grep -E 'SHA256.*AlmaLinux-9.1-x86_64-dvd.iso'
-SHA256 (AlmaLinux-9.1-x86_64-dvd.iso) = 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
+$ cat CHECKSUM | grep -E 'SHA256.*AlmaLinux-9-latest-x86_64-dvd.iso'
+SHA256 (AlmaLinux-9-latest-x86_64-dvd.iso) = 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
 ```
 
 ### Windows
 
 ```bash
-C:\> certUtil -hashfile C:\AlmaLinux-9.1-x86_64-dvd.iso SHA256
-SHA256 hash of AlmaLinux-9.1-x86_64-dvd.iso:
+C:\> certUtil -hashfile C:\AlmaLinux-9-latest-x86_64-dvd.iso SHA256
+SHA256 hash of AlmaLinux-9-latest-x86_64-dvd.iso:
 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
 CertUtil: -hashfile command completed successfully.
 
@@ -128,8 +128,8 @@ CertUtil: -hashfile command completed successfully.
 C:\> curl -O https://repo.almalinux.org/almalinux/9/isos/x86_64/CHECKSUM
 
 # compare it with the expected checksum, it should be the same
-C:\> findstr /i /r /c:"SHA256.*AlmaLinux-9.1-x86_64-dvd.iso" CHECKSUM
-SHA256 (AlmaLinux-9.1-x86_64-dvd.iso) = 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
+C:\> findstr /i /r /c:"SHA256.*AlmaLinux-9-latest-x86_64-dvd.iso" CHECKSUM
+SHA256 (AlmaLinux-9-latest-x86_64-dvd.iso) = 2a44e3f8a012c132da19b9aae2bf949e20b116f0a2a7ac3eca111972f4ac952f
 ```
 
 ## Create USB installation media
@@ -153,18 +153,18 @@ You need to look for /dev/sda or /dev/sdb or /dev/sdc, which is your target USB.
 After locating your target USB device, navigate to the location of your source ISO. Run the dd command to write files from ISO to USB:
 
 ```bash
-sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/sdX status=progress conv=fsync bs=4M
+sudo dd if=./AlmaLinux-9-latest-x86_64-dvd.iso of=/dev/sdX status=progress conv=fsync bs=4M
 ```
 
 - `dd`: Start the dd command to write the DVD/CD iso image.
-- `if=AlmaLinux-9.1-x86_64-dvd.iso`: path to the input file.
+- `if=AlmaLinux-9-latest-x86_64-dvd.iso`: path to the input file.
 - `of=/dev/sdX`: path to destination USB disk/stick (you need to replace 'X').
 - `status=progress`: display a progress bar while writing the image to the USB stick.
 - `conv=fsync`: make sure to finish the writing before returning.
 - `bs=4M`: use blocks of 4 megabytes instead of the default 512 bytes.
 
 :::warning
-This example is for AlmaLinux 9.1. Replace the version with the one you need to work with other AlmaLinux images.
+This example is for AlmaLinux 9. Replace the version with the one you need to work with other AlmaLinux images.
 :::
 
 #### **Fedora Media Writer**
@@ -205,7 +205,7 @@ Fedora Media Writer is a GUI based application for creating USB installation med
 You can also use `dd` from the CLI:
 
 ```bash
-sudo dd if=./AlmaLinux-9.1-x86_64-dvd.iso of=/dev/diskXXX status=progress conv=fsync bs=4M
+sudo dd if=./AlmaLinux-9-latest-x86_64-dvd.iso of=/dev/diskXXX status=progress conv=fsync bs=4M
 ```
 
 :::tip

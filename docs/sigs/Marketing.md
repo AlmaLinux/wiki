@@ -80,7 +80,7 @@ These accounts are actively monitored, updated, and managed by the SIG on a regu
 - [Twitter (x)](https://twitter.com/almalinux) - password in Vaultwarden
 - [LinkedIn](https://www.linkedin.com/company/almalinuxos/) - benny and Jack have 'owner' rights
 - [BlueSky](bsky.app/almalinux) - password in Vaultwarden
-- [Youtube](https://www.youtube.com/@almalinux6891) - benny and Jack have 'owner' rights - others (in and outside the marketing SIG) have "content manager" rights
+- [Youtube](https://www.youtube.com/@AlmaLinuxOS) - benny and Jack have 'owner' rights - others (in and outside the marketing SIG) have "content manager" rights
 - [Instagram](https://www.instagram.com/almalinuxos/) - password in Vaultwarden
 
 #### Inactive (placeholder) accounts
