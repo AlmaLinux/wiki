@@ -14,7 +14,7 @@ Elections for Board members are conducted by a Board-appointed and independent E
 
 # **AlmaLinux OS Foundation — Election Processes**
 
-*v2.0 — Adopted by the board of directors April 14, 2026*
+_v2.0 — Adopted by the board of directors April 14, 2026_
 
 ## **What this document covers**
 
@@ -30,10 +30,10 @@ The specific cohort assignments for current and future directors are maintained 
 
 Each annual election follows this general timeline:
 
-* **45 days before the election opens:** Election announced, nominations open  
-* **10 days before the election opens:** Nominations close; final nominee list approved and published  
-* **Election period:** No less than 14 days  
-* **Results:** Announced promptly after the election closes and results are verified
+- **45 days before the election opens:** Election announced, nominations open
+- **10 days before the election opens:** Nominations close; final nominee list approved and published
+- **Election period:** No less than 14 days
+- **Results:** Announced promptly after the election closes and results are verified
 
 Elections are conducted online. All eligible voters will receive an email with instructions, a link to the voting platform, and information about each candidate. We use a preference-based voting method (such as ranked choice voting) as specified in the bylaws.
 
@@ -43,17 +43,17 @@ Each election is run by an Election Committee appointed by the Board. The commit
 
 The Election Committee is responsible for:
 
-* Reviewing, confirming eligibility, and approving nominations  
-* Publishing the candidate list  
-* Certifying the results  
-* Resolving any disputes that arise during the process
+- Reviewing, confirming eligibility, and approving nominations
+- Publishing the candidate list
+- Certifying the results
+- Resolving any disputes that arise during the process
 
 ## **Nominations**
 
 To be nominated, a candidate must:
 
-* Be a Foundation member in good standing (meaning: a member for at least 60 days, current on any dues, in compliance with the conflict of interest policy and code of conduct, and not under any restriction or sanction by the Board)  
-* Be nominated by another Foundation member in good standing — members cannot nominate themselves
+- Be a Foundation member in good standing (meaning: a member for at least 60 days, current on any dues, in compliance with the conflict of interest policy and code of conduct, and not under any restriction or sanction by the Board)
+- Be nominated by another Foundation member in good standing — members cannot nominate themselves
 
 The nomination process will be outlined in the election announcement, but generally should include the nominee's name, contact information, and a brief description of why they'd be a good fit for the board. After submission, the Election Committee will review the nomination and notify the nominee of their status. Nominees must confirm their interest before their name appears on the ballot.
 
