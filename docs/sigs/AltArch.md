@@ -4,7 +4,7 @@ title: "AltArch SIG"
 
 # AltArch SIG
 
-The purpose of this SIG is to maintain support for alternate (non-mainstream) architectures like x86_32 and Raspberry Pi.
+The purpose of this SIG is to maintain support for alternate (non-mainstream) architectures like x86_32, RISC-V, Raspberry Pi and other SBCs.
 This SIG will work in close collaboration with the Core SIG to ensure all builds remain synchronized with the AlmaLinux OS 10 releases and maintains compatibility with RHEL ecosystem standards.
 
 ## How to Join
@@ -24,7 +24,17 @@ Meetings will be held bi-weekly, with timing adjusted to accommodate members acr
 - Maintain synchronization with AlmaLinux 10 minor releases
 - Security patch backporting and testing
 - Community support for platforms like x86_32 and Raspberry Pi
-- Maintain selected packages from the epel 10 repository for alternate archs
+- Maintain selected packages from the EPEL 10 repository for alternate archs
+
+### Arm-based Single board computers
+
+Currently, the following single board computers are supported:
+
+- [Raspberry Pi](/documentation/raspberry-pi.html)
+- Orange Pi 5 (experimental, work in progress)
+
+If there is a board you would like support for, please join the chat and let us know.
+We will consider trying to support it, taking into account the board’s lifecycle and popularity.
 
 ### Help wanted
 
@@ -35,7 +45,7 @@ Contributions take all kinds of shapes and sizes, and we welcome everyone! If yo
 - [Peter Edwards](peadar@arista.com) - SIG Lead x86_32 building
 - [Eduard Abdullin](eabdullin@almalinux.org) - SIG Lead x86_64-v2 building
 - [Andrew Lukoshko](alukoshko@almalinux.org) - SIG Lead RISC-V building
-- [Koichiro Iwao](koichiro.iwao@miraclelinux.com) - SIG Lead - Raspberry Pi building
+- [Koichiro Iwao](meta@almalinux.org) - SIG Lead - Raspberry Pi and other ARM SBCs building
 - [Ganesan Rajagopal](rganesan@arista.com) - Member
 - [Navneet Sinha](navneet@arista.com) - Member
 - [Anant Verma](anantv@arista.com) - Member
