@@ -12,11 +12,11 @@ Google Cloud publishes official details for AlmaLinux as a supported operating s
 
 The following AlmaLinux OS releases are Generally Available on Compute Engine:
 
-| Version | x86_64 image family | ARM64 image family | End of Support |
-| --- | --- | --- | --- |
-| AlmaLinux 10 | `almalinux-10` | `almalinux-10-arm64` | May 2035 |
-| AlmaLinux 9  | `almalinux-9`  | `almalinux-9-arm64`  | May 2032 |
-| AlmaLinux 8  | `almalinux-8`  | `almalinux-8-arm64`  | May 2029 |
+| Version      | x86_64 image family | ARM64 image family   | End of Support |
+| ------------ | ------------------- | -------------------- | -------------- |
+| AlmaLinux 10 | `almalinux-10`      | `almalinux-10-arm64` | May 2035       |
+| AlmaLinux 9  | `almalinux-9`       | `almalinux-9-arm64`  | May 2032       |
+| AlmaLinux 8  | `almalinux-8`       | `almalinux-8-arm64`  | May 2029       |
 
 All image families live in the `almalinux-cloud` project.
 
