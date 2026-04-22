@@ -416,6 +416,7 @@ Optionally, you can install the Cockpit Web UI along with the `cockpit-leapp` ex
   ```bash
   sudo yum install -y leapp-upgrade leapp-data-centos
   ```
+
   :::
 
 - Install Cockpit and Leapp in-place upgrade Cockpit UI packages (optional):
