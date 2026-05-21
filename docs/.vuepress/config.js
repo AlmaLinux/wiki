@@ -329,7 +329,11 @@ module.exports = {
           "/sigs/Cloud",
           "/sigs/Core",
           "/sigs/HPCandAI",
-          "/sigs/Infrastructure",
+          {
+            title: "Infrastructure SIG",
+            path: "/sigs/Infrastructure",
+            children: ["/sigs/infrastructure/almapeople"],
+          },
           "/sigs/LiveMedia",
           {
             title: "Marketing SIG",
