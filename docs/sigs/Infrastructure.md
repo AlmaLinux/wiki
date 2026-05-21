@@ -34,6 +34,7 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 - DNS
 - Servers/basic infrastructure for all other services including but not limited to:
   - [almalinux.org](https://almalinux.org)
+  - [forums](https://forums.almalinux.org)
   - [wiki](https://wiki.almalinux.org)
   - [git](https://git.almalinux.org)
   - [Bug Reports](https://bugs.almalinux.org)
