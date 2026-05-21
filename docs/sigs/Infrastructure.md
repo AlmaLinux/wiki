@@ -25,6 +25,7 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 - Official mirrors:
   - Official rsync mirror: https://rsync.repo.almalinux.org
   - [AWS CloudFront Mirror](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/aws.repo.almalinux.org.yml)
+  - [GCP CDN Mirror](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/gcp.repo.almalinux.org.yml)
   - [repo.almalinux.org](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
 - [AlmaLinux Account Services](https://accounts.almalinux.org)
 - [Mattermost Chat](https://chat.almalinux.org)
