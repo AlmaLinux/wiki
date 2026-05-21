@@ -35,7 +35,6 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
   - [almalinux.org](https://almalinux.org)
   - [wiki](https://wiki.almalinux.org)
   - [git](https://git.almalinux.org)
-  - [Package Evolution Service (PES)](https://pes.almalinux.org)
   - [Bug Reports](https://bugs.almalinux.org)
   - [AlmaPeople](https://almapeople.org)
 
