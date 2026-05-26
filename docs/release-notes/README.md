@@ -12,7 +12,7 @@ Version 10 will have active support until 31 May 2030, and security support unti
 
 | Release                               | Codename        | Beta Date   | Release Date | Kernel         | Supported Architectures                            |
 | ------------------------------------- | --------------- | ----------- | ------------ | -------------- | -------------------------------------------------- |
-| [10.2 Beta](/release-notes/10.2-beta) | Lavender Lion   | 04 May 2026 |              | 6.12.0-211.7.1 | x86_64, x86_64_v2, aarch64, ppc64le, s390x, i686\* |
+| [10.2](/release-notes/10.2)           | Lavender Lion   | 04 May 2026 | 26 May 2026  | 6.12.0-211.7.3 | x86_64, x86_64_v2, aarch64, ppc64le, s390x, i686\* |
 | [10.1](/release-notes/10.1)           | Heliotrope Lion | 21 Oct 2025 | 24 Nov 2025  | 6.12.0-124.8.1 | x86_64, x86_64_v2, aarch64, ppc64le, s390x         |
 | [10.0](/release-notes/10.0)           | Purple Lion     | 10 Dec 2024 | 27 May 2025  | 6.12.0-55.9.1  | x86_64, x86_64_v2, aarch64, ppc64le, s390x         |
 
@@ -22,7 +22,7 @@ Version 9 will have active support until 31 May 2027, and security support until
 
 | Release                             | Codename <br /> <small>[Why cats?](/FAQ.html#why-does-the-almalinux-codename-include-cats)</small> | Beta Date   | Release Date | Kernel          | Supported Architectures                 |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------- | ----------- | ------------ | --------------- | --------------------------------------- |
-| [9.8 Beta](/release-notes/9.8-beta) | Olive Jaguar                                                                                       | 23 Apr 2026 |              | 5.14.0-687.5.1  | x86_64, aarch64, ppc64le, s390x, i686\* |
+| [9.8](/release-notes/9.8)           | Olive Jaguar                                                                                       | 23 Apr 2026 | 26 May 2026  | 5.14.0-687.5.3  | x86_64, aarch64, ppc64le, s390x, i686\* |
 | [9.7](/release-notes/9.7)           | Moss Jungle Cat                                                                                    | 08 Oct 2025 | 17 Nov 2025  | 5.14.0-611.5.1  | x86_64, aarch64, ppc64le, s390x, i686\* |
 | [9.6](/release-notes/9.6)           | Sage Margay                                                                                        | 08 Apr 2025 | 20 May 2025  | 5.14.0-570.12.1 | x86_64, aarch64, ppc64le, s390x, i686\* |
 | [9.5](/release-notes/9.5)           | Teal Serval                                                                                        | 15 Oct 2024 | 18 Nov 2024  | 5.14.0-503.11.1 | x86_64, aarch64, ppc64le, s390x, i686\* |
