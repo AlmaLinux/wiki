@@ -25,6 +25,7 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 - Official mirrors:
   - Official rsync mirror: https://rsync.repo.almalinux.org
   - [AWS CloudFront Mirror](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/aws.repo.almalinux.org.yml)
+  - [GCP CDN Mirror](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/gcp.repo.almalinux.org.yml)
   - [repo.almalinux.org](https://github.com/AlmaLinux/mirrors/blob/master/mirrors.d/repo.almalinux.org.yml)
 - [AlmaLinux Account Services](https://accounts.almalinux.org)
 - [Mattermost Chat](https://chat.almalinux.org)
@@ -33,10 +34,11 @@ We don't currently hold regular meetings, but work asynchronously in mattermost 
 - DNS
 - Servers/basic infrastructure for all other services including but not limited to:
   - [almalinux.org](https://almalinux.org)
+  - [forums](https://forums.almalinux.org)
   - [wiki](https://wiki.almalinux.org)
   - [git](https://git.almalinux.org)
-  - [Package Evolution Service (PES)](https://pes.almalinux.org)
   - [Bug Reports](https://bugs.almalinux.org)
+  - [AlmaPeople](https://almapeople.org)
 
 ### Help wanted
 
@@ -53,12 +55,6 @@ If you would like to help, please join us at [Infrastructure channel](https://ch
 - [Andrew Lukoshko](mailto:alukoshko@almalinux.org) - AlmaLinux OS Lead Architect.
   - Chat login: [alukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
   - GitHub profile: [andrewlukoshko](https://github.com/andrewlukoshko)
-- [Stepan Oksanichenko](mailto:soksanichenko@cloudlinux.com) - Package Evolution Service & Mirror Service Developer.
-  - Chat login: [stepan_oksanichenko](https://chat.almalinux.org/almalinux/messages/@stepan_oksanichenko)
-  - GitHub profile: [soksanichenko](https://github.com/soksanichenko)
-- [Vasiliy Kleschov](mailto:vkleschov@almalinux.org) - Build System Team Lead.
-  - Chat login: [korulag](https://chat.almalinux.org/almalinux/messages/@korulag)
-  - GitHub profile: [Korulag](https://github.com/Korulag)
 - [Cody Robertson](mailto:crobertson@almalinux.org)
   - Chat login: [codyr](https://chat.almalinux.org/almalinux/messages/@codyr)
   - GitHub profile: [codyro](https://github.com/codyro)
