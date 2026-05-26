@@ -6,6 +6,31 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-05-26
+
+Released to Stable:
+
+#### Leapp Repository
+
+- Update to the upstream 0.24.0 version [(34aeae1e023e61345a1bb020b42231a79a0be4a8)](https://github.com/oamg/leapp-repository/commit/34aeae1e023e61345a1bb020b42231a79a0be4a8)
+- Update upgrade path for almalinux: 9.8 -> 10.2
+- Setup repomap handler - combine all RepositoriesMapping messages (main + vendor, EL8 and EL9)
+
+#### Leapp Data
+
+- Leapp data updated to [the latest upstream state (7fa270f33a73abe77af863598914b3e6c0c3219c)](https://github.com/oamg/leapp-repository/commit/7fa270f33a73abe77af863598914b3e6c0c3219c).
+- Data stream version 4.2
+- Vendor **EPEL**:
+  - refresh `epel_pes.json_template` from current EPEL repodata for 8to9 and 9to10
+- Vendor **Microsoft**: re-enable the vendor
+  - Bundle both Microsoft signing keys in `microsoft.gpg`: `BE1229CF` (used for el8/el9 packages) and `F748182B` (used for el10 packages)
+  - Switch `microsoft.repo.el{8,9,10}` `gpgkey` to a local `file://` URL pointing at the bundled key
+
+#### Leapp Framework
+
+- Update to the upstream 0.20.0-2 version
+- Cockpit interface for Leapp new RPM package for EL9
+
 ## 2026-04-15
 
 Released to NG:
