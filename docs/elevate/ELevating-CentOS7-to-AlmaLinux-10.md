@@ -224,6 +224,10 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
   In certain configurations, Leapp generates _/var/log/leapp/answerfile_ with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
   :::
 
+  :::tip
+  You can also inspect the upgrade report in the Cockpit Web UI. See [Inspecting the upgrade report in Cockpit Web UI](/elevate/ELevate-quickstart-guide#inspecting-the-upgrade-report-in-cockpit-web-ui).
+  :::
+
 - The following fixes from _the /var/log/leapp/leapp-report.txt_ file are the most popular fixes for RHEL8-based operating systems:
 
   ```bash
@@ -398,6 +402,10 @@ The only difference is the `leapp-data` package.
 
   :::tip
   In certain configurations, Leapp generates _/var/log/leapp/answerfile_ with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
+  :::
+
+  :::tip
+  You can also inspect the upgrade report in the Cockpit Web UI. See [Inspecting the upgrade report in Cockpit Web UI](/elevate/ELevate-quickstart-guide#inspecting-the-upgrade-report-in-cockpit-web-ui).
   :::
 
 - Currently, the direct upgrade from Almalinux OS 9 to AlmaLinux OS 10.0 goes smoothly. If there is a progressive upgrade from CentOS 7 to AlmaLinux OS 10.0, please check the [known issues](#known-issues) section.
