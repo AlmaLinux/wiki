@@ -135,6 +135,36 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
   cat /var/log/leapp/leapp-upgrade.log
   ```
 
+## Inspecting the upgrade report in Cockpit Web UI
+
+Optionally, you can install the Cockpit Web UI along with the `cockpit-leapp` extension to inspect the Leapp upgrade report in a browser instead of reading _/var/log/leapp/leapp-report.txt_ directly.
+
+:::tip
+Cockpit is available when upgrading from AlmaLinux 8 or AlmaLinux 9.
+:::
+
+- Install Cockpit and the Leapp in-place upgrade Cockpit UI packages:
+
+  ```bash
+  sudo yum install -y cockpit cockpit-leapp
+  ```
+
+- Start the Cockpit Web Service Socket, if not running:
+
+  ```bash
+  sudo systemctl start cockpit.socket
+  ```
+
+- Log into Cockpit Web UI at `http://<your_ip_address>:9090`.
+
+  :::tip
+  Make sure the 9090 port is accessible.
+  :::
+
+- After running `leapp preupgrade`, you can review the preupgrade report directly in the Cockpit Web UI, as shown below:
+
+  ![Cockpit Web UI showing the Leapp preupgrade report](/images/ELevateCockpitUI.webp)
+
 ### Demo Video
 
 Here we have provided a demo of a CentOS 7.x to AlmaLinux 8.x upgrade using the AlmaLinux ELevate Project.

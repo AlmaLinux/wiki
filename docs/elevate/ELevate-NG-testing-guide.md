@@ -267,6 +267,10 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
   In certain configurations, Leapp generates _/var/log/leapp/answerfile_ with true/false questions. Leapp utility requires answers to all these questions in order to proceed with the upgrade.
   :::
 
+  :::tip
+  You can also inspect the upgrade report in the Cockpit Web UI. See [Inspecting the upgrade report in Cockpit Web UI](/elevate/ELevate-quickstart-guide#inspecting-the-upgrade-report-in-cockpit-web-ui).
+  :::
+
 - The following fixes from _the /var/log/leapp/leapp-report.txt_ file are the most popular fixes for RHEL8-based operating systems:
 
   ```bash
@@ -388,10 +392,6 @@ After these preparations are completed, you can upgrade your AlmaLinux 9 machine
 These steps can also be used to perform the upgrade from CentOS Stream 9 to CentOS Stream 10. The only difference is the `leapp-data` package.
 :::
 
-:::tip
-Optionally, you can install the Cockpit Web UI along with the `cockpit-leapp` extension (see the optional steps below) to inspect the upgrade report in a browser.
-:::
-
 - Install ELevate NG version repo config for AlmaLinux 9:
 
   ```bash
@@ -419,24 +419,6 @@ Optionally, you can install the Cockpit Web UI along with the `cockpit-leapp` ex
 
   :::
 
-- Install Cockpit and Leapp in-place upgrade Cockpit UI packages (optional):
-
-  ```bash
-  sudo yum install -y cockpit cockpit-leapp
-  ```
-
-- Start the Cockpit Web Service Socket, if not running (optional):
-
-  ```bash
-  sudo systemctl start cockpit.socket
-  ```
-
-- Log into Cockpit Web UI at `http://<your_ip_address>:9090`.
-
-  :::tip
-  Make sure the 9090 port is accessible.
-  :::
-
 - Start a preupgrade check. In the meanwhile, the Leapp utility creates a special _/var/log/leapp/leapp-report.txt_ file that contains possible problems and recommended solutions. No rpm packages will be installed at this phase.
 
   :::warning
@@ -456,9 +438,7 @@ Optionally, you can install the Cockpit Web UI along with the `cockpit-leapp` ex
   :::
 
   :::tip
-  If you installed the `cockpit-leapp` UI extension, you can review the preupgrade report directly in the Cockpit Web UI, as shown below:
-
-  ![Cockpit Web UI showing the Leapp preupgrade report](/images/ELevateNGCockpitUI.webp)
+  You can also inspect the upgrade report in the Cockpit Web UI. See [Inspecting the upgrade report in Cockpit Web UI](/elevate/ELevate-quickstart-guide#inspecting-the-upgrade-report-in-cockpit-web-ui).
   :::
 
 - Currently, the direct upgrade from Almalinux OS 9 to AlmaLinux OS 10.0 Beta goes smoothly. If there is a progressive upgrade from CentOS 7 to AlmaLinux OS 10.0 Beta, please check the [known issues](#known-issues) section.
