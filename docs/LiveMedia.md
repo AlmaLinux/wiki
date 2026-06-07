@@ -40,10 +40,10 @@ AlmaLinux Live Media options vary by major release:
 
 The first step is to download an AlmaLinux image:
 
-| | | | |
-| --- | --- | --- | --- |
-| AlmaLinux 8 | [x86_64](https://repo.almalinux.org/almalinux/8/live/x86_64/) | | |
-| AlmaLinux 9 | [x86_64](https://repo.almalinux.org/almalinux/9/live/x86_64/) | [aarch64](https://repo.almalinux.org/almalinux/9/live/aarch64/) | |
+|              |                                                                |                                                                      |                                                                  |
+| ------------ | -------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| AlmaLinux 8  | [x86_64](https://repo.almalinux.org/almalinux/8/live/x86_64/)  |                                                                      |                                                                  |
+| AlmaLinux 9  | [x86_64](https://repo.almalinux.org/almalinux/9/live/x86_64/)  | [aarch64](https://repo.almalinux.org/almalinux/9/live/aarch64/)      |                                                                  |
 | AlmaLinux 10 | [x86_64](https://repo.almalinux.org/almalinux/10/live/x86_64/) | [x86_64_v2](https://repo.almalinux.org/almalinux/10/live/x86_64_v2/) | [aarch64](https://repo.almalinux.org/almalinux/10/live/aarch64/) |
 
 Then it all depends on what OS you use.
