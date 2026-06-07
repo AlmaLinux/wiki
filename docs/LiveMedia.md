@@ -14,7 +14,10 @@ Live Media is a way to try AlmaLinux on your computer without installing it to t
 If you are looking for AlmaLinux OS Kitten images, please, visit the [AlmaLinux OS Kitten page](/development/almalinux-os-kitten-10).
 :::
 
-There are a few AlmaLinux Live Media Options:
+AlmaLinux Live Media options vary by major release:
+
+- AlmaLinux 8 and 9: GNOME Mini, GNOME, KDE, MATE, XFCE
+- AlmaLinux 10 and newer: GNOME, KDE
 
 - GNOME Mini: contains a core GNOME environment with Firefox browser
 - GNOME: contains a full GNOME environment with popular workstation applications like LibreOffice, Thunderbird and so on.
@@ -36,6 +39,7 @@ There are a few AlmaLinux Live Media Options:
 ## How to download and write images
 
 The first step is to download an AlmaLinux image:
+
 | | | | |
 | --- | --- | --- | --- |
 | AlmaLinux 8 | [x86_64](https://repo.almalinux.org/almalinux/8/live/x86_64/) | | |
@@ -50,7 +54,7 @@ It is simple to use the dd command for any Linux OS.
 
 Insert your target USB and locate it. There are different ways to do it but here are some of them:
 
-- ` sudo fdisk -l` - this command shows you the connected block storage devices, including the USB devices.
+- `sudo fdisk -l` - this command shows you the connected block storage devices, including the USB devices.
 
 - `lsblk` - this command gives you all the available block storage devices, including the USB block storage devices.
 
