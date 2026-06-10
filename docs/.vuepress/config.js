@@ -181,6 +181,10 @@ module.exports = {
         children: [
           "/Comparison",
           "/documentation/nvidia",
+          {
+            title: "Secure Boot: 2023 Certificates",
+            path: "/documentation/secure-boot-2023-certificates",
+          },
           "/FAQ",
           {
             title: "openQA Guide",
