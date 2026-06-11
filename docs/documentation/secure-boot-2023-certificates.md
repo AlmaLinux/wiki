@@ -9,7 +9,7 @@ This page explains the June 2026 expiration of the Microsoft 2011 UEFI Secure Bo
 ## TL;DR
 
 - **Your existing AlmaLinux systems will not stop booting.** UEFI Secure Boot does not check certificate expiration dates at boot time. Everything that boots today keeps booting after June 2026.
-- **The latest shim in AlmaLinux 9 and 10 for x86_64 is dual-signed** with both the Microsoft 2011 and 2023 certificates, so it boots on systems that have either (or both) certificate enrolled. **No action is required right now.**
+- **The latest shim in AlmaLinux 8, 9 and 10 for x86_64 is dual-signed** with both the Microsoft 2011 and 2023 certificates, so it boots on systems that have either (or both) certificate enrolled. **No action is required right now.**
 - To stay compatible with _future_ Secure Boot components and revocation (dbx) updates, you should enroll the Microsoft 2023 certificates on systems that don't have them yet. The recommended way to do this on AlmaLinux is **fwupd**: `fwupdmgr refresh && fwupdmgr update`.
 
 ## Background: what is expiring and why it matters
@@ -33,15 +33,14 @@ See the upstream guidance for distro maintainers in [rhboot/shim-review#547](htt
 
 ## Current AlmaLinux status
 
-| Release      | Latest shim                | x86_64 signature                | aarch64 signature |
-| ------------ | -------------------------- | ------------------------------- | ----------------- |
-| AlmaLinux 10 | `shim-16.1-4.el10.alma.1`  | 2011 **and** 2023 (dual-signed) | 2023 only         |
-| AlmaLinux 9  | `shim-16.1-7.el9.alma.1`   | 2011 **and** 2023 (dual-signed) | 2023 only         |
-| AlmaLinux 8  | `shim-15.8-4.el8_9.alma.2` | 2011 only                       | 2011 only         |
+| Release      | Latest shim               | x86_64 signature                | aarch64 signature |
+| ------------ | ------------------------- | ------------------------------- | ----------------- |
+| AlmaLinux 10 | `shim-16.1-4.el10.alma.1` | 2011 **and** 2023 (dual-signed) | 2023 only         |
+| AlmaLinux 9  | `shim-16.1-7.el9.alma.1`  | 2011 **and** 2023 (dual-signed) | 2023 only         |
+| AlmaLinux 8  | `shim-16.1-2.el8.alma.1`  | 2011 **and** 2023 (dual-signed) | 2023 only         |
 
-- **AlmaLinux 9 and 10, x86_64:** the current shim carries both signatures, so it boots regardless of whether your firmware trusts the 2011 CA, the 2023 CA, or both. **No immediate action is required.**
-- **AlmaLinux 9 and 10, aarch64:** the current shim is signed with the **Microsoft UEFI CA 2023 only** (the same is true for RHEL). If your aarch64 system boots with Secure Boot enabled today, its firmware already trusts the 2023 CA — **no action is required.** You may still want to verify the KEK (Step 1) to keep receiving future Secure Boot database updates.
-- **AlmaLinux 8:** the current shim is signed with the 2011 CA only. An updated shim is planned following RHEL 8 (expected June 2026). Note that the fwupd version in AlmaLinux 8 (1.7.8) is too old to deliver the certificate updates described below; AlmaLinux 8 users should rely on vendor firmware updates or the manual method.
+- **x86_64 (all releases):** the current shim carries both signatures, so it boots regardless of whether your firmware trusts the 2011 CA, the 2023 CA, or both. **No immediate action is required.**
+- **aarch64 (all releases):** the current shim is signed with the **Microsoft UEFI CA 2023 only** (the same is true for RHEL). If your aarch64 system boots with Secure Boot enabled today, its firmware already trusts the 2023 CA — **no action is required.** You may still want to verify the KEK (Step 1) to keep receiving future Secure Boot database updates.
 
 You can check which certificates your shim is signed with:
 
@@ -83,7 +82,7 @@ Many recent machines already received the 2023 certificates through a firmware (
 
 Like RHEL, AlmaLinux recommends **fwupd** for Secure Boot variable updates. fwupd delivers Microsoft's signed db/KEK update payloads through the [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/), and contains quirk handling for firmware implementations that need special treatment.
 
-Support for UEFI db and KEK updates was added in fwupd **2.0.8**. AlmaLinux 9 and 10 ship fwupd **2.0.19** in BaseOS, so the stock package is sufficient:
+Support for UEFI db and KEK updates was added in fwupd **2.0.8**. AlmaLinux 9 and 10 ship fwupd **2.0.19** in BaseOS, so the stock package is sufficient. AlmaLinux 8 ships fwupd 1.7.8, which cannot deliver these updates — on AlmaLinux 8, use a vendor firmware update or the manual method below instead.
 
 ```bash
 sudo dnf install -y fwupd
