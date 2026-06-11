@@ -78,7 +78,7 @@ If both commands print a match, your system is already up to date and you are do
 
 Many recent machines already received the 2023 certificates through a firmware (BIOS/UEFI) update from the hardware vendor, so check for vendor firmware updates first — that is the cleanest path.
 
-## Step 2 (recommended): Enroll the 2023 certificates with fwupd
+## Step 2 (recommended): Enroll the 2023 certificates with fwupd in AlmaLinux 9 and later
 
 Like RHEL, AlmaLinux recommends **fwupd** for Secure Boot variable updates. fwupd delivers Microsoft's signed db/KEK update payloads through the [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/), and contains quirk handling for firmware implementations that need special treatment.
 
@@ -86,8 +86,10 @@ Support for UEFI db and KEK updates was added in fwupd **2.0.8**. AlmaLinux 9 an
 
 ```bash
 sudo dnf install -y fwupd
-fwupd --version
+fwupdmgr --version | grep fwupd
 ```
+
+The reported fwupd version must be **2.0.8** or later — on AlmaLinux 9 and 10 the stock package currently reports **2.0.19**.
 
 Refresh metadata and apply available updates:
 
@@ -99,7 +101,7 @@ sudo reboot
 
 If updates are available for your system, `fwupdmgr update` will list devices such as _UEFI db_ and _KEK_ with pending _Secure Boot_ certificate updates and prompt for confirmation. The new certificates only become visible after a reboot.
 
-> **Note:** older fwupd versions (before 2.0.8) do not attempt db/KEK updates at all and may appear to "succeed" while doing nothing. Always verify the result (Step 3) instead of trusting the tool output alone.
+> **Note:** older fwupd versions (before 2.0.8) do not attempt db/KEK updates at all and may appear to "succeed" while doing nothing. Always verify the result (Step 3) instead of trusting the tool output alone. At the time of this writing, AlmaLinux 8 ships with an older release of fwupd, please see the alternative enrollment below.
 
 ## Step 3: Verify after reboot
 
@@ -112,7 +114,7 @@ Both should now print the corresponding `Subject:` lines shown in Step 1. If the
 
 ## Alternative: manual enrollment without fwupd
 
-For air-gapped systems, or if fwupd does not offer the update on your platform, Microsoft publishes the signed authenticated-variable update payloads in the [microsoft/secureboot_objects](https://github.com/microsoft/secureboot_objects) repository. The db update can be appended with `efivar` (available in the standard AlmaLinux repositories):
+For air-gapped systems, older releases of AlmaLinux/fwupd, or if fwupd does not offer the update on your platform, Microsoft publishes the signed authenticated-variable update payloads in the [microsoft/secureboot_objects](https://github.com/microsoft/secureboot_objects) repository. The db update can be appended with `efivar` (available in the standard AlmaLinux repositories):
 
 ```bash
 sudo dnf install -y efivar
