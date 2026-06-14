@@ -46,6 +46,7 @@ The foundation board appointed the initial committee members, but the rest of th
 - [Andrew Lukoshko](https://chat.almalinux.org/almalinux/messages/@alukoshko)
 - [Ben Thomas](https://chat.almalinux.org/almalinux/messages/@b.a.thomas)
 - [Jonathan Wright](https://chat.almalinux.org/almalinux/messages/@jonathan)
+- [Lance Albertson](https://chat.almalinux.org/almalinux/messages/@ramereth)
 - [Neal Gompa](https://chat.almalinux.org/almalinux/messages/@ngompa13)
 
 # Accepted Proposal
