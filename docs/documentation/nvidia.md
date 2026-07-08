@@ -87,3 +87,6 @@ At this time NVIDIA GPUDirect components are not available.
 
 - `modprobe: ERROR: could not insert 'nvidia_drm': No such device`
   - This most likely stems from your running kernel being different than the latest installed kernel. Rebooting should fix it if that is the case.
+
+- If your are having issues with an external or additional monitor being driven. Regenerating the initram can help resolve this by removing the nouveau driver from the boot cycle.
+  - `sudo dracut --regenerate-all --force`
