@@ -32,8 +32,6 @@ Currently, the following upgrade paths are available:
 
 ![image](/images/ELevateNG.webp)
 
-\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
-
 ::: warning
 ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
 :::
