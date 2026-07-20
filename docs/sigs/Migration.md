@@ -22,7 +22,7 @@ The project supports the following migration paths:
 
 ![image](/images/ELevate.webp)
 
-\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 don't support x86_64_v2 architecture.
+\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 on the x86_64_v2 architecture are supported only by the ELevate NG version. If you need to perform such an upgrade for testing purposes, see the [ELevate NG Testing Guide](/elevate/ELevate-NG-testing-guide).
 
 ## How to Join
 
