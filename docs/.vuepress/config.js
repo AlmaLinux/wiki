@@ -1,3 +1,12 @@
+// Redirects for pages that have moved, so old external links keep working.
+// Key = old URL (as it used to be served, case-sensitive), value = new URL.
+// Add an entry here whenever you relocate or rename a page.
+const redirects = {
+  "/Election2022.html": "/foundation/elections/2022.html",
+  "/election2023.html": "/foundation/elections/2023.html",
+  "/Election2025.html": "/foundation/elections/2025.html",
+};
+
 module.exports = {
   title: "AlmaLinux Wiki",
   description: "AlmaLinux OS Documentation",
@@ -36,6 +45,22 @@ module.exports = {
         },
       },
     ],
+    // Generate a lightweight redirect page for each entry in `redirects`.
+    // Each stub does an instant meta-refresh to the new location (GitHub
+    // Pages can't do server-side redirects) and is marked noindex.
+    (options, ctx) => ({
+      name: "redirect-moved-pages",
+      additionalPages: Object.entries(redirects).map(([from, to]) => ({
+        path: from,
+        content:
+          "---\n" +
+          "meta:\n" +
+          `  - http-equiv: refresh\n    content: "0; url=${to}"\n` +
+          "  - name: robots\n    content: noindex\n" +
+          "---\n\n" +
+          `This page has moved to [${to}](${to}).\n`,
+      })),
+    }),
   ],
   themeConfig: {
     lastUpdated: true,
@@ -360,10 +385,10 @@ module.exports = {
             title: "Elections",
             path: "/foundation/elections/",
             children: [
-              "/Election2022",
-              "/election2023",
-              "/Election2025",
               "/foundation/elections/processesandterms",
+              "/foundation/elections/2022",
+              "/foundation/elections/2023",
+              "/foundation/elections/2025",
             ],
           },
           "/policies/expense_policy",
