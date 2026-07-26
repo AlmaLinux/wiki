@@ -389,6 +389,7 @@ module.exports = {
               "/foundation/elections/2022",
               "/foundation/elections/2023",
               "/foundation/elections/2025",
+              "/foundation/elections/2026",
             ],
           },
           "/policies/expense_policy",
