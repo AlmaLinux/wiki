@@ -46,6 +46,10 @@
 
 There are many ways to contribute to the wiki! To see how, check out the [Contributing to Documentation](https://wiki.almalinux.org/Contribute-to-Documentation.html) guide. Before submitting pull requests, always make sure that your updates will build and display correctly, by testing in your local environment using `yarn docs:dev`.
 
+### Redirections
+
+Because the wiki is served from GitHub Pages, there is no server-side rewrite available, so moved or renamed pages are handled by a small VuePress plugin that generates a redirect stub for every old URL. The mapping lives in the `redirects` object at the top of [`docs/.vuepress/config.js`](https://github.com/AlmaLinux/wiki/blob/master/docs/.vuepress/config.js), where each key is the old URL exactly as it used to be served (case-sensitive, including the `.html` suffix) and each value is the new URL — for example `"/Election2022.html": "/foundation/elections/2022.html"`. At build time the plugin emits one page per entry containing a `0; url=…` meta refresh plus a `robots: noindex` tag, so visitors following an old external link land on the new page instantly and search engines are not left indexing the stub. To use it, whenever you relocate or rename a page, add one line to that object mapping the old path to the new one, update any in-wiki links to point at the new location directly, and check both the old and the new URL with `yarn docs:dev` before opening your pull request.
+
 ### Transparency Statement
 
 - We are community-owned, which requires transparency. Here is our [progress toward that goal](Transparency.md).
