@@ -87,3 +87,71 @@ At this time NVIDIA GPUDirect components are not available.
 
 - `modprobe: ERROR: could not insert 'nvidia_drm': No such device`
   - This most likely stems from your running kernel being different than the latest installed kernel. Rebooting should fix it if that is the case.
+- `nvidia_drm fails to load / can't be loaded`
+  - On some machines' configurations, the nvidia_drm can't be found or loaded even if `lsmod |grep -i nvidia` correctly reports the modules as installed.
+  In such cases, you may need to perform a few extra actions.
+    - check what's the driver version you want to install by looking for the nvidia driver's version number folder within `/lib/firmware/nvidia/`
+    _\* in the following line's example it will be 590.48.01_
+    - create this file (or update if it already exists) `/etc/dracut.conf.d/nvidia-gsp.conf` and add (or update) this:
+    `install_items+=" /lib/firmware/nvidia/590.48.01/gsp_ga10x.bin`
+    - rebuild initramfs `sudo dracut -fv` (v stands for verbose, and if anything is mistyped, dracut will throw an [ERROR], making it easier to fix the issue)
+    - reboot now
+  - If your setup includes multiple monitors, plugged directly into the card's plugs, after reboot you may get only one monitor working. To fix this, you need to
+  activate the persistence service
+  ```
+  sudo systemctl start nvidia-persistenced.service
+  sudo systemctl enable nvidia-persistenced.service
+  ```
+  - On some machines with integrated GPUs, `nvidia-smi` may report no processes. This happens because the machine automatically switches between the available devices.
+  If you'd prefer to always use the discrete NVidia GPU (and are running a KDE desktop):
+    - find the devices names by running `sudo lshw -short`
+    ```
+        H/W path           Device          Class          Description
+    =============================================================
+    [OMISSIS]
+    /0/100/1/0.1       card1           multimedia     NVIDIA Corporation
+    [OMISSIS]
+    /0/100/1f.3        card0           multimedia     Cannon Lake PCH cAVS
+
+    ```
+    - add the following environment variable to the file `/etc/environment`
+    `KWIN_DRM_DEVICES=/dev/dri/{other_device_name}:/dev/dri/{nvidia_device_name}`
+    alternatively, if the devices do not have a name, use the H/W path
+    `KWIN_DRM_DEVICES=/0/100/1f.3:/0/100/1/0.1`
+    Notice that the NVidia device needs to be last.
+    At this point, `nvidia-smi` should now report processes
+    ```
+    -----------------------------------------------------------------------------------------+
+    | NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
+    +-----------------------------------------+------------------------+----------------------+
+    | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+    | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+    |                                         |                        |               MIG M. |
+    |=========================================+========================+======================|
+    |   0  NVIDIA GeForce GTX 1650        On  |   00000000:01:00.0 Off |                  N/A |
+    | N/A   35C    P8              4W /   30W |     699MiB /   4096MiB |      1%      Default |
+    |                                         |                        |                  N/A |
+    +-----------------------------------------+------------------------+----------------------+
+
+    +-----------------------------------------------------------------------------------------+
+    | Processes:                                                                              |
+    |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+    |        ID   ID                                                               Usage      |
+    |=========================================================================================|
+    |    0   N/A  N/A            2210      G   /usr/bin/ksecretd                         1MiB |
+    |    0   N/A  N/A            2269      G   /usr/bin/kwin_wayland                   335MiB |
+    |    0   N/A  N/A            2395      G   /usr/bin/Xwayland                         2MiB |
+    |    0   N/A  N/A            2427      G   /usr/bin/ksmserver                        1MiB |
+    |    0   N/A  N/A            2430      G   /usr/bin/kded6                            1MiB |
+    |    0   N/A  N/A            2453      G   /usr/bin/plasmashell                     85MiB |
+    |    0   N/A  N/A            2527      G   /usr/bin/kaccess                          1MiB |
+    |    0   N/A  N/A            2533      G   ...it-kde-authentication-agent-1          1MiB |
+    |    0   N/A  N/A            2535      G   ...ibexec/xdg-desktop-portal-kde          1MiB |
+    |    0   N/A  N/A            2766      G   /usr/bin/kdeconnectd                      1MiB |
+    |    0   N/A  N/A            2772      G   /usr/bin/xwaylandvideobridge              1MiB |
+    |    0   N/A  N/A            2988      G   /usr/bin/kwalletd6                        1MiB |
+    |    0   N/A  N/A           30685      G   /usr/libexec/kf6/kiod6                    1MiB |
+    |    0   N/A  N/A           31358      G   /usr/bin/konsole                          1MiB |
+    +-----------------------------------------------------------------------------------------+
+
+    ```
