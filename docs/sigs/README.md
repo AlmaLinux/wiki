@@ -18,7 +18,7 @@ The following SIGs are already established:
 - [Infrastructure](/sigs/Infrastructure) - The AlmaLinux OS infrastructure team.
 - [Live Media](/sigs/LiveMedia) - The AlmaLinux OS Live Media maintainers.
 - [Marketing](/sigs/Marketing) - The AlmaLinux OS Marketing SIG.
-- [Media and Entertainment](/sigs/MediaAndEntertainmentSIG) - The AlmaLinux OS Marketing SIG.
+- [Media and Entertainment](/sigs/MediaAndEntertainment) - The AlmaLinux OS Media and Entertainment SIG.
 - [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
 
 # Additional Resources
