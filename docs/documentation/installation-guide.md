@@ -46,9 +46,11 @@ There are a several ways to download AlmaLinux ISO:
 - Download AlmaLinux ISO via Bittorrent, this may be faster than downloading from a mirror based on your geographic location. A .torrent file can be found on all mirrors in the ISO directory.:
   - [AlmaLinux 8](https://repo.almalinux.org/almalinux/8/isos/x86_64/)
   - [AlmaLinux 9](https://repo.almalinux.org/almalinux/9/isos/x86_64/)
+  - [AlmaLinux 10](https://repo.almalinux.org/almalinux/10/isos/x86_64/)
 - Download from the [Public Package Repository](https://repo.almalinux.org/):
   - [AlmaLinux 8](https://repo.almalinux.org/almalinux/8/isos/)
   - [AlmaLinux 9](https://repo.almalinux.org/almalinux/9/isos/)
+  - [AlmaLinux 10](https://repo.almalinux.org/almalinux/10/isos/)
   - Past point releases and beta versions can be found in the [Vault](https://repo.almalinux.org/vault/)
 - Run the `curl` command in the command line:
   :::warning
