@@ -6,6 +6,17 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-08-27
+
+Released to Stable:
+
+#### Leapp Data
+
+- Update device driver deprecation data:
+  - walk AlmaLinux 9.8 and 10.2 release notes (in addition to 8.10) so devices re-enabled by AlmaLinux are marked available in EL10 (previously only 8.10 and 9.6 were walked and no device was ever marked available in 10)
+  - fixes false "unsupported device" inhibitor on 9 -> 10 upgrades, e.g. Broadcom / LSI SAS2008 Fusion-MPT SAS-2 (`0x1000:0x0072`, `mpt3sas`)
+- Vendor **MariaDB**: drop legacy 2010 key, keep current signing key only
+
 ## 2026-05-26
 
 Released to Stable:
