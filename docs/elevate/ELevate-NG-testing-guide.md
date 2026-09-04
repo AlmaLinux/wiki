@@ -136,6 +136,74 @@ upgrade
 
 With `/sysroot/.noreboot`, you will need to issue system reboot manually. That will do the upgrade final tasks and SElinux relabeling.
 
+## Upgrading air-gapped systems using the target OS installation ISO
+
+ELevate NG supports performing the upgrade from a local target OS installation DVD ISO image instead of network repositories. Pass the image to leapp with the `--iso` option — the whole upgrade transaction, including the phase that runs during the reboot, is then fed from the ISO.
+
+The feature is available for the AlmaLinux 8 to AlmaLinux 9 and AlmaLinux 9 to AlmaLinux 10 (including AlmaLinux Kitten 10) upgrade paths.
+
+:::tip
+The regular offline upgrade path — serving local AlmaLinux and ELevate mirrors over HTTP as described in the [ELevate Offline Guide](/elevate/ELevate-offline-guide) — remains available as well. The ISO-based approach described here is simpler when a full local mirror is not required.
+:::
+
+:::tip
+The ISO replaces only the target OS packages source (BaseOS and AppStream repositories from the DVD). The ELevate packages themselves (`leapp-upgrade`, `leapp-data-almalinux`) still need to be installed first — on a fully air-gapped system, deliver them via a local ELevate mirror as described in the [ELevate Offline Guide](/elevate/ELevate-offline-guide), or copy and install the RPM files manually.
+:::
+
+- Download the installation ISO image of the **target** OS to a local disk of the system to upgrade:
+  - AlmaLinux 9 x86_64 (for the AlmaLinux 8 to 9 upgrade path):
+
+    ```bash
+    curl -LO https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso
+    ```
+
+  - AlmaLinux 10 x86_64 (for the AlmaLinux 9 to 10 upgrade path):
+
+    ```bash
+    curl -LO https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10-latest-x86_64-dvd.iso
+    ```
+
+  - AlmaLinux Kitten 10 x86_64 (for the AlmaLinux 9 to AlmaLinux Kitten 10 upgrade path):
+
+    ```bash
+    curl -LO https://kitten.repo.almalinux.org/10-kitten/isos/x86_64/AlmaLinux-Kitten-10-latest-x86_64-dvd.iso
+    ```
+
+  :::tip
+  The **x86_64_v2** upgrade paths are supported as well — use the installation ISO of the matching architecture variant. For example, for the AlmaLinux 9 to AlmaLinux 10 x86_64_v2 upgrade path:
+
+  ```bash
+  curl -LO https://repo.almalinux.org/almalinux/10/isos/x86_64_v2/AlmaLinux-10-latest-x86_64_v2-dvd.iso
+  ```
+
+  and for the AlmaLinux 9 to AlmaLinux Kitten 10 x86_64_v2 upgrade path:
+
+  ```bash
+  curl -LO https://kitten.repo.almalinux.org/10-kitten/isos/x86_64_v2/AlmaLinux-Kitten-10-latest-x86_64_v2-dvd.iso
+  ```
+
+  :::
+
+  :::warning
+  The ISO file must be located on a local filesystem that stays available during the whole upgrade (e.g. `/root` or `/var`) — do not place it on a removable or network-mounted filesystem. Keep the file in place until the upgrade is fully finished.
+  :::
+
+- Install the ELevate packages and prepare the system as described in the corresponding upgrade path section of this guide ([AlmaLinux 8 to 9](#upgrading-almalinux-8-to-almalinux-9), [AlmaLinux 9 to 10](#upgrading-almalinux-9-to-almalinux-10), [AlmaLinux 9 to 10 x86_64_v2](#upgrading-almalinux-9-to-almalinux-10-x86-64-v2)).
+
+- Run the preupgrade check and the upgrade with the `--iso` option pointing to the downloaded image:
+
+  ```bash
+  sudo leapp preupgrade --iso /root/AlmaLinux-10-latest-x86_64-dvd.iso
+  sudo leapp upgrade --iso /root/AlmaLinux-10-latest-x86_64-dvd.iso
+  sudo reboot
+  ```
+
+  The rest of the process is the same as with the network-based upgrade: the system boots into the `ELevate-Upgrade-Initramfs` GRUB entry, performs the upgrade from the mounted ISO, and reboots into the upgraded system.
+
+:::tip
+The PowerTools/CRB and third party (vendor) repositories are not available on the installation media. Packages originating from these repositories will be kept back or reported — handle them after the upgrade, once the system is connected or the corresponding local mirrors are available.
+:::
+
 ## Upgrade CentOS 7 to AlmaLinux 8
 
 EL7 to EL8 upgrades aren't supported by [leapp-repository upstream](https://github.com/oamg/leapp-repository/commit/518722058ca53e94c8efa8958ca8fd7cac40dca7) versions grater then 0.22.0.
@@ -254,6 +322,10 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
   :::
 
   You may use **LiveMode** experimental feature as described above, or do the preupgrade in normal mode.
+
+  :::tip
+  On air-gapped systems, add the `--iso` option pointing to the AlmaLinux 9 installation ISO to both `leapp preupgrade` and `leapp upgrade` commands. See [Upgrading air-gapped systems using the target OS installation ISO](#upgrading-air-gapped-systems-using-the-target-os-installation-iso).
+  :::
 
   ```bash
   sudo leapp preupgrade
@@ -425,6 +497,10 @@ These steps can also be used to perform the upgrade from CentOS Stream 9 to Cent
 
   You may use **LiveMode** experimental feature as described above, or do the upgrade in normal mode.
 
+  :::tip
+  On air-gapped systems, add the `--iso` option pointing to the AlmaLinux 10 installation ISO to both `leapp preupgrade` and `leapp upgrade` commands. See [Upgrading air-gapped systems using the target OS installation ISO](#upgrading-air-gapped-systems-using-the-target-os-installation-iso).
+  :::
+
   ```bash
   sudo leapp preupgrade
   ```
@@ -522,6 +598,10 @@ These steps can also be used to perform the upgrade from AlmaLinux 9 to AlmaLinu
   :::
 
   You may use **LiveMode** experimental feature as described above, or do the upgrade in normal mode.
+
+  :::tip
+  On air-gapped systems, add the `--iso` option pointing to the AlmaLinux 10 x86_64_v2 (or AlmaLinux Kitten 10 x86_64_v2) installation ISO to both `leapp preupgrade` and `leapp upgrade` commands. See [Upgrading air-gapped systems using the target OS installation ISO](#upgrading-air-gapped-systems-using-the-target-os-installation-iso).
+  :::
 
   ```bash
   sudo leapp preupgrade
