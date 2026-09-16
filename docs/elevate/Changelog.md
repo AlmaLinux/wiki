@@ -6,6 +6,14 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-09-16
+
+Released to Stable:
+
+#### Leapp Repository
+
+- Fix CVE-2026-75092: the `scanmysql` actor executes the MySQL query under the `mysql` user [(97741cd9078f87c9263b95f4e76f75742667daa3)](https://github.com/oamg/leapp-repository/commit/97741cd9078f87c9263b95f4e76f75742667daa3)
+
 ## 2026-08-27
 
 Released to Stable:
