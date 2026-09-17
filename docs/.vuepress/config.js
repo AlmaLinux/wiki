@@ -81,6 +81,7 @@ module.exports = {
         path: "/release-notes/",
         children: [
           "/release-notes/10.3-beta",
+          "/release-notes/9.9-beta",
           "/release-notes/10.2",
           "/release-notes/9.8",
           "/release-notes/8.10",
