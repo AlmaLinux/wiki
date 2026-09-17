@@ -612,7 +612,7 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
 
-### ➡️ Install `dnf-uils`
+### ➡️ Install `dnf-utils`
 
 ::: tip
 In AlmaLinux 9.2 `dnf-utils` can installed by default (depending on install type).
