@@ -501,7 +501,7 @@ module_hotfixes=true
 When editing the file, you can change `enabled=0` setting it to `1`. With that change you can skip next two steps (installing `dnf-utils` and running `dnf config-manager`).
 :::
 
-### ➡️ Install `dnf-uils`
+### ➡️ Install `dnf-utils`
 
 ```
 sudo dnf install dnf-utils
