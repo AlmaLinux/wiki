@@ -134,7 +134,7 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
 
-### ➡️ Install `dnf-uils`
+### ➡️ Install `dnf-utils`
 
 :::warning
 ℹ️ `dnf-utils` are repo managment tools (classic YUM utilities implemented as CLI shims on top of DNF)
