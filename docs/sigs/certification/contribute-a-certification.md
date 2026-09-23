@@ -48,7 +48,7 @@ Most machines finish in under ten minutes, and you are not doing anything for mo
 
 ### 3. Authorize the machine
 
-The first time you run `validate`, `benchmark`, or `run`, the suite prints a QR code, URL and a short code.  You can scan the QR code on a phone, tablet, etc. and log in on that device to approve the run if this is more convenient than pasting the code into a browser URL.
+The first time you run `validate`, `benchmark`, or `run`, the suite prints a QR code, URL and a short code. You can scan the QR code on a phone, tablet, etc. and log in on that device to approve the run if this is more convenient than pasting the code into a browser URL.
 
 ```
 To authorize this machine (sut-42.lab), open:
