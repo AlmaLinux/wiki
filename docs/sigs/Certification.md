@@ -49,7 +49,7 @@ Running the suite and publishing your results takes about ten minutes. [Contribu
 
 More ways to contribute:
 
-- Certify hardware we do not have yet. Laptops, desktops, workstations, and anything on aarch64 are all thin in the catalog right now.
+- Certify any hardware you have access to, whether or not it is already in the catalog. Validations stack, so adding a community validation to a machine a vendor or the Foundation has already certified strengthens that listing rather than duplicating it. Popular hardware is especially worth certifying, because a listing helps the most people when a lot of them are running the same machine.
 - Confirm that software you rely on works on the AlmaLinux release you run. This is a web task and takes a minute.
 - Contributions towards expanding [alma-certify](https://github.com/AlmaLinux/alma-certify) to cover a meaningful range of hardware and Linux driver tests that an end user would expect a certification to cover.
 - Confirm or update listings that are already in the catalog, especially on newer major versions.
