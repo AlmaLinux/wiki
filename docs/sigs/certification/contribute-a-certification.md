@@ -38,6 +38,12 @@ If you would rather go straight to it, the certification tests are:
 sudo alma-certify validate
 ```
 
+Alternatively, if you'd like to also include benchmarks in the run:
+
+```bash
+sudo alma-certify run
+```
+
 Most machines finish in under ten minutes, and you are not doing anything for most of that.
 
 ### 3. Authorize the machine
