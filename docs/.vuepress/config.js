@@ -358,7 +358,11 @@ module.exports = {
           "/sigs/AltArch",
           "/sigs/Atomic",
           "/sigs/Build-System",
-          "/sigs/Certification",
+          {
+            title: "Certification SIG",
+            path: "/sigs/Certification",
+            children: ["/sigs/certification/contribute-a-certification"],
+          },
           "/sigs/Cloud",
           "/sigs/Core",
           "/sigs/HPCandAI",

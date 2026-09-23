@@ -22,14 +22,16 @@ Meetings are approximately every fortnight. If there's nothing confidential in t
 
 The SIG is responsible for, and maintains the following:
 
-- [Hardware Certification Program](https://almalinux.org/certification/hardware-certification/hardware-certification-program/)
-  - This program allows for the Certification SIG to engage with IHVs to certify hardware for AlmaLinux OS.
-- [AlmaLinux/Certifications](https://github.com/AlmaLinux/certifications)
-  - This repo is the primary point of contact for the SIG, stores the certification results, and is the location for certification requests that are not initiated by the foundation or and IHV. It is also the source for the Hardware Certification Program documentation.
-- [AlmaLinux/Hardware-Certification-Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite)
-  - This repo houses the certification suite itself, and documentation, issues tracking, and related code snippets.
+- [AlmaLinux Certification Program](https://almalinux.org/certification/program/)
+  - The program document covers what certification asserts, the validation levels, how results are reviewed, and the path for hardware and software vendors.
+- [Contribute a Certification](certification/contribute-a-certification.md)
+  - A hands-on guide for community members who want to certify a machine or confirm a piece of software.
+- [AlmaLinux Catalog](https://catalog.almalinux.org)
+  - The catalog holds every certified system, component, and software listing, along with benchmarks and validation history. Results are published here rather than through a repository.
+- [AlmaLinux/alma-certify](https://github.com/AlmaLinux/alma-certify)
+  - The certification suite itself, along with its documentation and issue tracking. It replaced the Ansible-based Hardware Certification Suite in 2026.
 - [Certification SIG Board](https://github.com/orgs/AlmaLinux/projects/6)
-  - This board provides an asynchronous method of communication, allowing for more flexible timelines, especially for international participants. Additionally, the GitHub platform serves as a mechanism for organizations to collaborate with the SIG on making certification requests from Independent Software Vendors (ISVs) and Independent Hardware Vendors (IHVs).
+  - This board provides an asynchronous method of communication, allowing for more flexible timelines, especially for international participants.
 - [Mattermost chat - SIGs/Certifcation](https://chat.almalinux.org/almalinux/channels/sigcertification)
   - This acts as the primary way for the community to engage with each other (including the SIG members) for work on certifications or the certification suite. The most collaborative place for the SIG is this chat room. This room is also bridged to matrix on [#sig-certification:almalinux.im](https://app.almalinux.im/#/room/#sig-certification:almalinux.im)
 - Private certification mailing list
@@ -41,15 +43,16 @@ The SIG is responsible for, and maintains the following:
 
 In addition to the certification processes with IHVs managed by the AlmaLinux OS Foundation (ALOSF), we encourage community involvement in hardware testing. Individuals with access to hardware that we have yet to certify are encouraged and invited to participate. This not only amplifies the scope of our hardware compatibility and validates the strength of the certification suite, but also shows IHVs the types and scope of the AlmaLinux user base.
 
-Hardware that has been certified without input from the IHV will be described on the AlmaLinux website with a "Community Certified" status. This serves as a first confirmation of compatibility until a relationship with the IHV can be confirmed, and provides users with confidence in hardware compatibility.
+Hardware certified without input from the IHV is published with a "Community validated" level, which records who ran the suite. It is backed by the same certification suite data that vendors and the Foundation produce, and it gives users a real confirmation of compatibility until a relationship with the IHV can be confirmed.
 
-Once the certification suite has been run, results should be shared through a pull request to the [Certifications](https://github.com/AlmaLinux/certification-test-results) repo.
+Running the suite and publishing your results takes about ten minutes. [Contribute a Certification](certification/contribute-a-certification.md) walks through it.
 
 More ways to contribute:
 
-- Contributions towards expanding the [AlmaLinux Hardware Certification Suite](https://github.com/AlmaLinux/Hardware-Certification-Suite) to represent a meaningful range of hardware and Linux hardware driver tests that an end user would expect a certification to cover.
-- Help spin up the software certification program.
-- Confirm or provide updates to results submitted and listed on the website already.
+- Certify any hardware you have access to, whether or not it is already in the catalog. Validations stack, so adding a community validation to a machine a vendor or the Foundation has already certified strengthens that listing rather than duplicating it. Popular hardware is especially worth certifying, because a listing helps the most people when a lot of them are running the same machine.
+- Confirm that software you rely on works on the AlmaLinux release you run. This is a web task and takes a minute.
+- Contributions towards expanding [alma-certify](https://github.com/AlmaLinux/alma-certify) to cover a meaningful range of hardware and Linux driver tests that an end user would expect a certification to cover.
+- Confirm or update listings that are already in the catalog, especially on newer major versions.
 
 ## SIG members
 
