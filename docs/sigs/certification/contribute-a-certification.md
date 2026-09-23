@@ -78,7 +78,7 @@ This is the fastest way to help. If you rely on something every day and it works
 
 ## Going further
 
-**Benchmarks** do not run by default and are completely optional. They take considerably longer than a certification run, because several of them do real work, and their results feed the public leaderboards in the catalog.
+**Benchmarks** do not run by default and are completely optional. They take considerably longer than a certification run, generally being closer to the 30-minute mark, and their results feed the public leaderboards in the catalog.
 
 ```bash
 sudo alma-certify benchmark
