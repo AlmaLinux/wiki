@@ -6,7 +6,7 @@ title: "Elections"
 
 The AlmaLinux OS Foundation is lead by a board of elected directors.
 
-The process for these elections is defined in a few different documents. Primarily, the [AlmaLinux OS Foundation Bylaws](https://almalinux.org/p/foundation-bylaws/). It's further clarified in [Election processes and board terms](foundation/elections/processesandterms).
+The process for these elections is defined in a few different documents. Primarily, the [AlmaLinux OS Foundation Bylaws](https://almalinux.org/p/foundation-bylaws/). It's further clarified in [Election processes and board terms](/foundation/elections/processesandterms.html).
 
 # How an election works
 
