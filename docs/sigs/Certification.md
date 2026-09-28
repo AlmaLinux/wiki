@@ -6,6 +6,12 @@ title: "Certification SIG"
 
 The Certification SIG is focused on creating and maintaining standards and procedures related to hardware and software certification for AlmaLinux OS.
 
+**Watch the Q&A video**
+
+In this video, we discuss what the Certification SIG does, recent changes made to the certification process, how the work that the SIG does impacts the AlmaLinux community, and how you can get involved.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oyEOzjOow44" title="AlmaLinux Certification SIG - Q&A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How to Join
 
 Email a SIG member or show up on the chat. Occasionally there are non-disclosure agreements with hardware vendors, so some chats/meeting might be private, but SIG members will do their best to welcome everyone as fully as possible.

@@ -6,6 +6,12 @@ title: "Infrastructure SIG"
 
 The infrastructure team is responsible for maintaining the servers and services that keep AlmaLinux online and accessible to end users.
 
+**Watch the Q&A video**
+
+In this video, we discuss what the Infrastructure SIG does, how the work that the SIG does impacts the AlmaLinux community, and how you can get involved.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jn4-sVL2vkU" title="AlmaLinux Infrastructure SIG - Q&A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How to Join
 
 Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple.
