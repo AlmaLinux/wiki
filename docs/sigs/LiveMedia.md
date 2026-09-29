@@ -6,6 +6,12 @@ title: "Live Media SIG"
 
 The Live Media Team is responsible for AlmaLinux OS Live Media.
 
+**Watch the Q&A video**
+
+In this video, we discuss what a Live Media image is, which Live Media options and AlmaLinux versions are available, how the images are built, and how you can get involved.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0VCIfcuTVxk" title="AlmaLinux Live Media SIG - Q&A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How to Join
 
 Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple.
