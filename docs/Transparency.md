@@ -10,20 +10,16 @@ The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all as
 
 The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. You may also write an email to [bod@almalinux.org](mailto:bod@almalinux.org) to reach the board. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
 
-As of December 17, 2023, the foundation has a 9 board directors.
+As of October 2026, the foundation has 8 board directors.
 
 - [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
 - [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director at AlmaLinux and Program Manager at Microsoft Azure AOSI
 - [Simon Phipps](<https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)>) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
-- [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
 - [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
 - [Moshe Bar](<https://en.wikipedia.org/wiki/Moshe_Bar_(investor)>) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
 - [Alex Iribarren](https://www.linkedin.com/in/iribarren/) - Alex is a current Director at AlmaLinux, and a penguin herder at CERN
-- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is a current Director at AlmaLinux, and is the driving force behind MIRACLE LINUX
-
-Non-voting invited experts to the board
-
-- [David Snead](https://www.linkedin.com/in/davidsnead) - David is the current Legal Counsel at WebPros and acts in a general advisory role for the AlmaLinux OS Foundation board
+- [Muuhh Ikeda](https://www.linkedin.com/in/munehiro-ikeda-a932a24/) - Muuhh is a current Director at AlmaLinux, and is an OSS Evangelist at Cybertrust Japan Co., Ltd., an AlmaLinux Platinum Sponsor
+- [Tristan Théroux](https://www.linkedin.com/in/tristan-th%C3%A9roux-b588065a/) - Tristan is a current Director at AlmaLinux, a Senior Systems and Network Administrator at Biron Health Group, and leads the AlmaLinux Media and Entertainment SIG
 
 ## First board elections
 
