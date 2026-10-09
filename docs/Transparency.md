@@ -19,7 +19,7 @@ As of October 2026, the foundation has 8 board directors.
 | [Simon Phipps](<https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)>)     | Director   | Former president of the Open Source Initiative                                                        | 2022    | 2027      |
 | [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/)        | Director   | CEO of KnownHost, LLC (Gold Sponsor); serves on the membership committee                              | 2022    | 2028      |
 | [Moshe Bar](<https://en.wikipedia.org/wiki/Moshe_Bar_(investor)>)             | Director   | CEO of CodeNotary, Inc. (Gold Sponsor)                                                                | 2022    | 2028      |
-| [Alex Iribarren](https://www.linkedin.com/in/iribarren/)                      | Director   | Penguin Herder and Cloud Spotter at CERN (Silver Sponsor)                    | 2023    | 2029      |
+| [Alex Iribarren](https://www.linkedin.com/in/iribarren/)                      | Director   | Penguin Herder and Cloud Spotter at CERN (Silver Sponsor)                                             | 2023    | 2029      |
 | [Muuhh Ikeda](https://www.linkedin.com/in/munehiro-ikeda-a932a24/)            | Director   | OSS Evangelist at Cybertrust Japan Co., Ltd. (Platinum Sponsor)                                       | 2026    | 2030      |
 | [Tristan Théroux](https://www.linkedin.com/in/tristan-th%C3%A9roux-b588065a/) | Director   | Senior Systems and Network Administrator at Biron Health Group; leads the Media and Entertainment SIG | 2026    | 2030      |
 
