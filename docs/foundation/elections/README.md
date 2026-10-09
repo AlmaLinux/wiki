@@ -25,6 +25,7 @@ Information about the nominations and the election status are tracked on the ele
 | 2022          | [Election 2022](/foundation/elections/2022.html) | Complete           | [First AlmaLinux Board Election Announces 7 New Seats](https://almalinux.org/blog/first-almalinux-board-election-announces-7-new-seats/) |
 | 2023          | [Election 2023](/foundation/elections/2023.html) | Complete           | [Meet our two new board members!](https://almalinux.org/blog/2023-12-19-jun-and-alex-join-board/)                                        |
 | 2025          | [Election 2025](/foundation/elections/2025.html) | Rescheduled - 2026 | [Election rescheduled for March 2026](https://almalinux.org/blog/2025-09-30-election-update/) (blog)                                     |
+| 2026          | [Election 2026](/foundation/elections/2026.html) | Complete           | [Meet the New 2026 Board Members](https://almalinux.org/blog/2026-10-09-2026-election-winners/)                                          |
 
 ## FAQ
 

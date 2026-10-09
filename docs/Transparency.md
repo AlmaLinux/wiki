@@ -10,25 +10,29 @@ The AlmaLinux OS Foundation is 501(c)(6) non-profit organization. It owns all as
 
 The goals of a Community-owned operating system needs to include transparency in all things. If you ever have a question, request, or need that isn't being satisfied through the available channels, you may always reach out to any member of the board for assistance. You may also write an email to [bod@almalinux.org](mailto:bod@almalinux.org) to reach the board. As of January 10th, 2023 the board has adopted a [Code of Ethics](https://drive.google.com/file/d/1ABs_XdwXLgpfAOXfNBw-_KoQuQofAORI/view?usp=share_link).
 
-As of December 17, 2023, the foundation has a 9 board directors.
+As of October 2026, the foundation has 8 board directors.
 
-- [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/) - benny is the current Chair of the board of AlmaLinux OS Foundation
-- [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/) - Jack is a current Director at AlmaLinux and Program Manager at Microsoft Azure AOSI
-- [Simon Phipps](<https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)>) - Simon is a current Director at AlmaLinux and former president of the Open Source Initiative
-- [Jesse Asklund](https://www.linkedin.com/in/jessejester/) - Jesse is a current Director at AlmaLinux and the CXO at WebPros
-- [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/) - Daniel is a current Director at AlmaLinux and is the CEO of KnownHost, LLC (promoted from COO during the election window), a current AlmaLinux Gold Sponsor, serves on the AlmaLinux OS Foundation membership committee.
-- [Moshe Bar](<https://en.wikipedia.org/wiki/Moshe_Bar_(investor)>) - Moshe is a current Director at AlmaLinux and is the CEO of CodeNotary, Inc., an AlmaLinux Gold Sponsor
-- [Alex Iribarren](https://www.linkedin.com/in/iribarren/) - Alex is a current Director at AlmaLinux, and a penguin herder at CERN
-- [Jun Yoshida](https://www.linkedin.com/in/jun-yoshida-6b4b5a16/) - Jun is a current Director at AlmaLinux, and is the driving force behind MIRACLE LINUX
+| Director                                                                      | Board role | Affiliation                                                                                           | Elected | Term ends |
+| ----------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------- | ------- | --------- |
+| [benny Vasquez](https://www.linkedin.com/in/bennyvasquez/)                    | Chair      | AlmaLinux OS Foundation                                                                               | 2022    | 2029      |
+| [Jack Aboutboul](https://www.linkedin.com/in/jackaboutboul/)                  | Director   | Program Manager at Microsoft Azure AOSI                                                               | 2022    | 2027      |
+| [Simon Phipps](<https://en.wikipedia.org/wiki/Simon_Phipps_(programmer)>)     | Director   | Former president of the Open Source Initiative                                                        | 2022    | 2027      |
+| [Daniel Pearson](https://www.linkedin.com/in/daniel-pearson-b2559b60/)        | Director   | CEO of KnownHost, LLC (Gold Sponsor); serves on the membership committee                              | 2022    | 2028      |
+| [Moshe Bar](<https://en.wikipedia.org/wiki/Moshe_Bar_(investor)>)             | Director   | CEO of CodeNotary, Inc. (Gold Sponsor)                                                                | 2022    | 2028      |
+| [Alex Iribarren](https://www.linkedin.com/in/iribarren/)                      | Director   | Penguin Herder and Cloud Spotter at CERN (Silver Sponsor); leads the Atomic SIG                       | 2023    | 2029      |
+| [Muuhh Ikeda](https://www.linkedin.com/in/munehiro-ikeda-a932a24/)            | Director   | OSS Evangelist at Cybertrust Japan Co., Ltd. (Platinum Sponsor)                                       | 2026    | 2030      |
+| [Tristan Théroux](https://www.linkedin.com/in/tristan-th%C3%A9roux-b588065a/) | Director   | Senior Systems and Network Administrator at Biron Health Group; leads the Media and Entertainment SIG | 2026    | 2030      |
 
-Non-voting invited experts to the board
+## Board elections
 
-- [David Snead](https://www.linkedin.com/in/davidsnead) - David is the current Legal Counsel at WebPros and acts in a general advisory role for the AlmaLinux OS Foundation board
+Each election has its own page with the nominees, process, and results. The [Elections](/foundation/elections/) page explains how elections work.
 
-## First board elections
-
-- Sept 20, 2022 - [First AlmaLinux Board Election Announces 7 New Seats](https://almalinux.org/blog/first-almalinux-board-election-announces-7-new-seats/)
-- Aug 9, 2022 - [First AlmaLinux Community Election Coming Soon!](https://almalinux.org/blog/first-almalinux-os-foundation-election/)
+| Year            | Election page                                    | Results announcement                                                                                                                     |
+| --------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026 (Cohort A) | [Election 2026](/foundation/elections/2026.html) | [Meet the New 2026 Board Members](https://almalinux.org/blog/2026-10-09-2026-election-winners/)                                          |
+| 2025            | [Election 2025](/foundation/elections/2025.html) | No results: [AlmaLinux OS Foundation Election rescheduled for March 2026](https://almalinux.org/blog/2025-09-30-election-update/)        |
+| 2023            | [Election 2023](/foundation/elections/2023.html) | [Meet our two new board members!](https://almalinux.org/blog/2023-12-19-jun-and-alex-join-board/)                                        |
+| 2022            | [Election 2022](/foundation/elections/2022.html) | [First AlmaLinux Board Election Announces 7 New Seats](https://almalinux.org/blog/first-almalinux-board-election-announces-7-new-seats/) |
 
 ## The plans for the board
 
