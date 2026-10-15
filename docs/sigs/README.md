@@ -17,9 +17,9 @@ The following SIGs are already established:
 - [HPC and AI](/sigs/HPCandAI) - The AlmaLinux High performance computing and AI SIG.
 - [Infrastructure](/sigs/Infrastructure) - The AlmaLinux OS infrastructure team.
 - [Live Media](/sigs/LiveMedia) - The AlmaLinux OS Live Media maintainers.
-- [Marketing](/sigs/Marketing) - The AlmaLinux OS Marketing SIG.
 - [Media and Entertainment](/sigs/MediaAndEntertainmentSIG) - The AlmaLinux OS Media and Entertainment SIG.
 - [Migration](/sigs/Migration) - The AlmaLinux OS Migration maintainers.
+- [Promo](/sigs/Promo) - The AlmaLinux OS Promo SIG (formerly the Marketing SIG).
 
 # Additional Resources
 

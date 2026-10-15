@@ -4,13 +4,13 @@ title: "Managing events.almalinux.org"
 
 # Managing events.almalinux.org
 
-Our events are managed using [Indico](https://getindico.io/), the open source software created and developed at CERN. Our install, at [events.almalinux.org](https://events.almalinux.org) (documentation at [learn.getindico.io](https://learn.getindico.io/)), is kept up to date by the AlmaLinux Infra SIG, but events on it are managed by the marketing SIG. This document helps us consistently create new events to the community.
+Our events are managed using [Indico](https://getindico.io/), the open source software created and developed at CERN. Our install, at [events.almalinux.org](https://events.almalinux.org) (documentation at [learn.getindico.io](https://learn.getindico.io/)), is kept up to date by the AlmaLinux Infra SIG, but events on it are managed by the Promo SIG. This document helps us consistently create new events to the community.
 
 # Creating different events
 
 When creating different types of events, it's important that you follow the directions below so that our community can count on events being presented in a consistent way.
 
-All events should start as unlisted events to be published after they're reviewed by the marketing SIG chair.
+All events should start as unlisted events to be published after they're reviewed by the Promo SIG chair.
 
 ## Webinars
 
@@ -31,7 +31,7 @@ After it's created, there are some more adjustments to make:
 ## SIG meetings
 
 1. Navigate to to the [SIGs category](https://events.almalinux.org/category/1/manage/), and choose the appropriate category there for the specific SIG.
-1. Create a **meeting** event, naming it appropriately for the SIG using [$freqency - $signame meeting] as the pattern (for example, Bi-weekly Marketing SIG meeting).
+1. Create a **meeting** event, naming it appropriately for the SIG using [$freqency - $signame meeting] as the pattern (for example, Bi-weekly Promo SIG meeting).
 1. Once created, on the default settings page update the **Contact title** and **Email** to match the SIG in question's contact details.
 1. Under \*_Timetable_ click _Add new_ and _Contribution_
 1. use the same title as for the full event, in the description add details about the event (general agenda, where they meet, and where to get the meeting link at least).
