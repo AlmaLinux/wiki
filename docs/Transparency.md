@@ -64,11 +64,12 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
-- Oct 13, 2026 [Board meeting #54 agenda](https://docs.google.com/document/d/1qMNpIf4VTCz7J5x7W_vC1yZaj-0nUzWbLwlAfkpZmyM/edit?usp=sharing)
+- Nov 10, 2026 [Board meeting #55 agenda](https://docs.google.com/document/d/1TF3no_rlqU9siOqs2I3F2xXxZPD5shkZObw_cRs7vZk/edit?tab=t.0#heading=h.lwwoqp9li693)
+- Oct 13, 2026 [Board meeting #54 minutes](https://drive.google.com/file/d/17KGyAeIYIGJYw7LQDGBhk3z9JDL91_hf/view?usp=drive_link)
 - Sep 08, 2026 (meeting canceled)
 - Aug 11, 2026 [Board meeting #53 minutes](https://drive.google.com/file/d/1ixwjTITyFdZsjnLwwGDFq-GhYPUUW1x3/view?usp=sharing)
 - Jul 14, 2026 [Board meeting #52 minutes](https://drive.google.com/file/d/1MbSGBku2gnelt6Bl2eTQGjgLtQb7QyFh/view?usp=sharing)
-- Jun 09, 2026 [Board meeting #51 agenda](https://docs.google.com/document/d/1PsnI4Al_GEYZo4CxUSO3eqB0fbwfMOTBSRwVf9ow2rw/edit?tab=t.0)
+- Jun 09, 2026 [Board meeting #51 minutes](https://drive.google.com/file/d/1uFXOgO7FY3EGW0eP1Zh4pRacE5aaZ9Zj/view?usp=drive_link)
 - May 12, 2026 [Board meeting #50 minutes](https://drive.google.com/file/d/1GZeK1QrBsvLm-C9TlNAkMuYNHZXKS7pa/view?usp=drive_link)
 - Apr 14, 2026 [Board meeting #49 minutes](https://drive.google.com/file/d/1qOKC6AwPoRiNU89_9_IZgJSwn8oZ-nOb/view?usp=drive_link)
 - Mar 10, 2026 [Board meeting #48 minutes](https://drive.google.com/file/d/1YcnD4ULYvxuiXY4Az10CJub2w1stnpdv/view?usp=drive_link)
