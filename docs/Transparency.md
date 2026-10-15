@@ -47,16 +47,16 @@ All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
 Some assets were initially owned by CloudLinux, Inc, but were transferred from CloudLinux to the AlmaLinux OS Foundation.
 
-| asset                             | What needs to be done                                                                                                                                  | Status                                               |
-| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
-| almalinux.org domain              | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021                              |
-| AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation                                                             | DONE, Sublicense ID number 20210506-0001             |
+| asset                             | What needs to be done                                                                                                                                  | Status                                                |
+| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| almalinux.org domain              | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021                               |
+| AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation                                                             | DONE, Sublicense ID number 20210506-0001              |
 | social media accounts             | Reassign them to AlmaLinux OS Foundation.                                                                                                              | [In Progress](/sigs/Promo.html#social-media-accounts) |
-| github almalinux account          | Already open-sourced, nothing needs to be done                                                                                                         | DONE                                                 |
-| Build/Test system                 | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3                                                               | [DONE](https://github.com/AlmaLinux/build-system)    |
-| RPM signing keys                  | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it                                  | Q3 2023: Need to come up with rules for holding keys |
-| EV certificate for Secure Boot    | We've been on an AlmaLinux owned cert since 8.8/9.2                                                                                                    | DONE                                                 |
-| Logo License for the foundation   | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed                                    | DONE - all assets in the Google drive                |
+| github almalinux account          | Already open-sourced, nothing needs to be done                                                                                                         | DONE                                                  |
+| Build/Test system                 | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3                                                               | [DONE](https://github.com/AlmaLinux/build-system)     |
+| RPM signing keys                  | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it                                  | Q3 2023: Need to come up with rules for holding keys  |
+| EV certificate for Secure Boot    | We've been on an AlmaLinux owned cert since 8.8/9.2                                                                                                    | DONE                                                  |
+| Logo License for the foundation   | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed                                    | DONE - all assets in the Google drive                 |
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
 
