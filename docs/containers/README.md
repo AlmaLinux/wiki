@@ -10,4 +10,8 @@ In the evolving world of development and deployment, containers have become esse
 If you are looking for AlmaLinux OS Kitten 10 images, please, visit the [AlmaLinux OS Kitten 10](/development/almalinux-os-kitten-10) page.
 :::
 
+:::warning
+The x86_64_v2 (`linux/amd64/v2`) images for AlmaLinux OS 10 and Kitten 10 are available from the AlmaLinux repositories on Docker Hub, Quay.io and GitHub Packages only, not from the Docker Official Library. See [Supported platforms/architectures](/containers/docker-images#supported-platformsarchitectures).
+:::
+
 Dive into the future of application deployment with AlmaLinux's tailored container solutions.
