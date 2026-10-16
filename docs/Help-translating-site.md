@@ -8,7 +8,7 @@ The content of [almalinux.org](https://almalinux.org/) is localized and translat
 
 # Help translating the site
 
-The translations that get submitted through Weblate are automatically submitted to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request from Weblate. Pull requests from Weblate are reviewed by a member of the marketing SIG or another team lead, and merged as appropriate.
+The translations that get submitted through Weblate are automatically submitted to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) as a pull request from Weblate. Pull requests from Weblate are reviewed by a member of the Promo SIG or another team lead, and merged as appropriate.
 
 If you would like to help contribute to translations, you can do so by following the directions below!
 
@@ -32,7 +32,7 @@ Then choose the language you want to translate to. For this example, I'll choose
 
 ![image](/images/weblate-send-translations.webp)
 
-After translating from English to your chosen language (.e.g Hebrew) press on "Save and continue" and your translation will be sent eventually as a PR to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) and reviewed by a member of the marketing SIG or another team lead, then merged as appropriate.
+After translating from English to your chosen language (.e.g Hebrew) press on "Save and continue" and your translation will be sent eventually as a PR to the [almalinux.org repo](https://github.com/AlmaLinux/almalinux.org) and reviewed by a member of the Promo SIG or another team lead, then merged as appropriate.
 
 ## Request new languages
 
