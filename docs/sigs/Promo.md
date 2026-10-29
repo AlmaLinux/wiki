@@ -6,6 +6,12 @@ title: "Promo SIG"
 
 The Promo SIG (formerly the Marketing SIG) is responsible for AlmaLinux branding consistency, promotion and outreach efforts, and overall public presence. We try to make it easy for the users who need a free enterprise Linux distribution to find us. You can read more about the name change in [The Marketing SIG is now the Promo SIG](https://almalinux.org/blog/2026-10-15-the-marketing-sig-is-now-the-promo-sig/).
 
+**Watch the Q&A video**
+
+In this video, we discuss what the Promo SIG does, how the work that the SIG does impacts the AlmaLinux community, and how you can get involved.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J7JzHVkRSe0" title="AlmaLinux Promo SIG - Q&A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How to Join
 
 Joining is easy! You can show up to a meeting, pick up an issue from the list by assigning it to yourself, or ask questions in chat! Not every contributor wants to be a part of the SIG, but if you do, joining is simple.
