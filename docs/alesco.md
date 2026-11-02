@@ -49,6 +49,8 @@ The foundation board appointed the initial committee members, but the rest of th
 - [Lance Albertson](https://chat.almalinux.org/almalinux/messages/@ramereth)
 - [Neal Gompa](https://chat.almalinux.org/almalinux/messages/@ngompa13)
 
+New members are appointed following the [ALESCo New Member Procedure](/alesco/new-member-procedure).
+
 # Accepted Proposal
 
 This proposal was a collaboration between the foundation board and many community members, and now acts as the governing document for this committee. Adjustments to this governing document require board approval.

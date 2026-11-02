@@ -170,6 +170,10 @@ module.exports = {
             title: "Meeting Minutes",
             path: "/alesco/meeting-minutes",
           },
+          {
+            title: "New Member Procedure",
+            path: "/alesco/new-member-procedure",
+          },
         ],
       },
       {
