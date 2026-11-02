@@ -297,6 +297,12 @@ When successfully upgraded to AlmaLinux 8 OS, consider performing these steps to
 
 ## Upgrading AlmaLinux 8 to AlmaLinux 9
 
+- If the ELevate **Stable** version was ever used on this system, remove the `elevate-release` package. It provides the Stable `elevate` repository with a higher priority (`priority=90`) than the ELevate NG repository, so dnf would install the older Stable leapp packages together with the NG data package and the upgrade would fail:
+
+  ```bash
+  sudo dnf remove elevate-release
+  ```
+
 - Install ELevate NG version repo config for AlmaLinux8:
 
   ```bash
@@ -462,6 +468,12 @@ After these preparations are completed, you can upgrade your AlmaLinux 9 machine
 These steps can also be used to perform the upgrade from CentOS Stream 9 to CentOS Stream 10. The only difference is the `leapp-data` package.
 :::
 
+- If the ELevate **Stable** version was ever used on this system, remove the `elevate-release` package. It provides the Stable `elevate` repository with a higher priority (`priority=90`) than the ELevate NG repository, so dnf would install the older Stable leapp packages together with the NG data package and the upgrade would fail:
+
+  ```bash
+  sudo dnf remove elevate-release
+  ```
+
 - Install ELevate NG version repo config for AlmaLinux 9:
 
   ```bash
@@ -546,6 +558,12 @@ These steps can also be used to perform the upgrade from CentOS Stream 9 to Cent
 :::tip
 These steps can also be used to perform the upgrade from AlmaLinux 9 to AlmaLinux Kitten x86_64_v2.
 :::
+
+- If the ELevate **Stable** version was ever used on this system, remove the `elevate-release` package. It provides the Stable `elevate` repository with a higher priority (`priority=90`) than the ELevate NG repository, so dnf would install the older Stable leapp packages together with the NG data package and the upgrade would fail:
+
+  ```bash
+  sudo dnf remove elevate-release
+  ```
 
 - Install ELevate NG version repo config for AlmaLinux 9:
 
