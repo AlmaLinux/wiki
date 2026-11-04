@@ -6,6 +6,37 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-11-04
+
+Released to Testing (the ELevate NG 0.25.0 line is promoted):
+
+#### Leapp Repository
+
+- Update to the upstream 0.25.0-2 version, with the ELevate vendors patch rebased on [v0.25.0](https://github.com/oamg/leapp-repository/releases/tag/v0.25.0) and upstream commits synced up to [9c3f807ea918e18ba63a4b8210021399783edea2](https://github.com/oamg/leapp-repository/commit/9c3f807ea918e18ba63a4b8210021399783edea2)
+- Upgrade from the target OS installation ISO (`leapp upgrade --iso`) is supported for AlmaLinux, see the [ELevate NG Testing Guide](/elevate/ELevate-NG-testing-guide#upgrading-air-gapped-systems-using-the-target-os-installation-iso)
+- Drop the inherited `rd.lvm.lv` kernel arguments from the upgrade boot entry: fixes the emergency shell on systems with LVM on top of MD RAID, where only the root and swap logical volumes were activated in the upgrade initramfs ([oamg/leapp-repository#1590](https://github.com/oamg/leapp-repository/issues/1590))
+- Accept custom target repositories in the basic target OS repositories check: fixes the "Cannot find required basic target OS repositories" inhibitor on systems managed by Foreman/Katello or private mirrors
+- Count the upgrade kernel, initramfs and HMAC files left in `/boot` by a failed upgrade attempt as available space in the `/boot` check ([oamg/leapp-repository#1311](https://github.com/oamg/leapp-repository/issues/1311))
+- Fix CVE-2026-75092 (`scanmysql` executes the MySQL query under the `mysql` user)
+- Remove the AlmaLinux 9.7 source upgrade path
+- Repository mapping data format 2.0.0
+
+#### Leapp Data
+
+- Leapp data updated to the upstream state of leapp-repository 0.25.0 [(d3e247addef3cab1dd54c034ad45251f2a731964)](https://github.com/oamg/leapp-repository/commit/d3e247addef3cab1dd54c034ad45251f2a731964)
+- Data stream version 5.0, repository mapping version format 2.0.0 (including the vendors data)
+- New data packages for the AlmaLinux 9 to AlmaLinux 10 **x86_64_v2** and AlmaLinux Kitten 10 **x86_64_v2** upgrades: `leapp-data-almalinux-x86_64_v2` and `leapp-data-almalinux-kitten-x86_64_v2`
+- Vendor **EPEL**:
+  - enabled for the AlmaLinux 9 to AlmaLinux 10 / AlmaLinux Kitten 10 **x86_64_v2** upgrades (`epel-release` is upgraded to `epel-release-almalinux-altarch`)
+  - `epel_pes.json_template` refreshed from the current EPEL repodata for the 7to8, 8to9 and 9to10 paths (x86_64, aarch64, ppc64le, s390x)
+  - use the bundled `epel.gpg` key for the AlmaLinux 10 and AlmaLinux Kitten 10 x86_64_v2 repositories
+- Drop the 9.9 `samba-common-libs` split PES event for AlmaLinux: fixes the dnf transaction check failure on 9.8 -> 10.x upgrades with `libsmbclient` installed ([AlmaLinux/leapp-data#198](https://github.com/AlmaLinux/leapp-data/pull/198))
+- Remove the `rhel-hpc` package events (all distributions)
+
+#### Leapp Framework
+
+- Update to the upstream 0.21.0 version (leapp framework 6.6)
+
 ## 2026-09-16
 
 Released to Stable:
