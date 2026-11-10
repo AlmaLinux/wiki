@@ -16,6 +16,29 @@ Please, when accessing AlmaLinux Container images at [Quay.io](https://quay.io/r
 If you are looking for AlmaLinux OS Kitten 10 images, please, visit the [AlmaLinux OS Kitten 10](/development/almalinux-os-kitten-10) page.
 :::
 
+## Supported platforms/architectures
+
+Container images are published for the following platforms:
+
+| Docker platform  | Architecture | AlmaLinux releases  |
+| ---------------- | ------------ | ------------------- |
+| `linux/amd64`    | x86_64       | 8, 9, 10, Kitten 10 |
+| `linux/amd64/v2` | x86_64_v2    | 10, Kitten 10       |
+| `linux/arm64`    | aarch64      | 8, 9, 10, Kitten 10 |
+| `linux/ppc64le`  | ppc64le      | 8, 9, 10, Kitten 10 |
+| `linux/s390x`    | s390x        | 8, 9, 10, Kitten 10 |
+| `linux/386`      | i686         | 8, 9, 10, Kitten 10 |
+| `linux/riscv64`  | riscv64      | Kitten 10           |
+
+:::warning Not in the Docker Official Library
+The `linux/amd64/v2` (`x86_64_v2`) images are available from the AlmaLinux organization repositories only: [Docker Hub `almalinux/<type>`](https://hub.docker.com/u/almalinux), [Quay.io `almalinuxorg/<type>`](https://quay.io/organization/almalinuxorg) and [GitHub Packages `almalinux/<type>`](https://github.com/orgs/AlmaLinux/packages). They are **not** published to the [Docker Official Library](https://hub.docker.com/_/almalinux) (`almalinux:<tag>`, i.e. `docker.io/library/almalinux`), as the Docker Official Images program has no `amd64/v2` architecture. Select the image with `--platform`:
+
+```sh
+docker pull --platform=linux/amd64/v2 almalinux/10-minimal:latest
+```
+
+:::
+
 ## AlmaLinux Docker Images Variants
 
 AlmaLinux OS project now provides two official images: Default (Platform) and Minimal (Platform), and four fully compatible alternatives for the Red Hat Universal Base Images (UBI): Base, Init, Micro and Minimal.

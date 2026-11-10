@@ -97,6 +97,8 @@ AlmaLinux OS provides official OCI, Docker and four fully compatible alternative
 | Init | almalinux/10-kitten-init | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-init)<br>- [quay.io](https://quay.io/repository/almalinuxorg/10-kitten-init)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-init) |
 | Micro | almalinux/10-kitten-micro | - [DockerHub](https://hub.docker.com/r/almalinux/10-kitten-micro)<br>- [quay.io](https://quay.io/repository/almalinuxorg/10-kitten-micro)<br>- [GitHub Packages](https://github.com/orgs/AlmaLinux/packages/container/package/10-kitten-micro) |
 
+The x86_64_v2 (`linux/amd64/v2`) images are available from the `almalinux/<type>` repositories on Docker Hub, Quay.io and GitHub Packages only, not from the Docker Official Library (`almalinux:10-kitten`). Select them with `--platform=linux/amd64/v2`, see [Supported platforms/architectures](/containers/docker-images#supported-platformsarchitectures).
+
 More about AlmaLinux OS Container Images - [AlmaLinux Containers](/containers/).
 
 ## Live Media

@@ -45,7 +45,7 @@ Though we hope to have provided all of the feedback ahead of time, if the board 
 
 ### 4. Approval and Announcement
 
-Once the proposal has been reviewed and deemed acceptable, the board will formally approve the creation of the new SIG, and the pull request will be merged into the wiki. The approval will be announced by the marketing SIG through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
+Once the proposal has been reviewed and deemed acceptable, the board will formally approve the creation of the new SIG, and the pull request will be merged into the wiki. The approval will be announced by the Promo SIG through appropriate communication channels, such as mailing lists, forums, and social media. The announcement will include:
 
 <ol type="a">
   <li>The title and objectives of the new SIG.</li>

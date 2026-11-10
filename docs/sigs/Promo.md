@@ -1,10 +1,16 @@
 ---
-title: "Marketing SIG"
+title: "Promo SIG"
 ---
 
-# Marketing SIG
+# Promo SIG
 
-The Marketing team is responsible for AlmaLinux branding consistency, marketing and outreach efforts, and overall public presence. Marketing is often an overlooked or eschewed term in open source, but without marketing efforts it's a whole lot harder for your audience to find you. We try to make it easy for the users who need a free enterprise Linux distribution to find us.
+The Promo SIG (formerly the Marketing SIG) is responsible for AlmaLinux branding consistency, promotion and outreach efforts, and overall public presence. We try to make it easy for the users who need a free enterprise Linux distribution to find us. You can read more about the name change in [The Marketing SIG is now the Promo SIG](https://almalinux.org/blog/2026-10-15-the-marketing-sig-is-now-the-promo-sig/).
+
+**Watch the Q&A video**
+
+In this video, we discuss what the Promo SIG does, how the work that the SIG does impacts the AlmaLinux community, and how you can get involved.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J7JzHVkRSe0" title="AlmaLinux Promo SIG - Q&A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## How to Join
 
@@ -12,11 +18,11 @@ Joining is easy! You can show up to a meeting, pick up an issue from the list by
 
 **Where we chat**
 
-We use the [~Marketing](https://chat.almalinux.org/almalinux/channels/marketing) channel for communication on the AlmaLinux mattermost server.
+We use the [Promo SIG](https://chat.almalinux.org/almalinux/channels/marketing) channel for communication on the AlmaLinux Mattermost server. You can also reach us by email at [promo-sig@almalinux.org](mailto:promo-sig@almalinux.org).
 
 **Where/how we meet**
 
-Meetings are every other Thursday on Google Meet at 9pm UTC. Join the Marketing channel on [chat.almalinux.org](https://chat.almalinux.org/almalinux/channels/marketing) and ask benny for the meeting invite! Our meeting notes are kept in [Google drive](https://docs.google.com/document/d/1OK8mQSU-EucCT-VdFVOd87BECmVSXIKXkG7uhLubs9o/edit#heading=h.9ynhotw081jk).
+Meetings are every other Thursday on Google Meet at 9pm UTC. Join the Promo SIG channel on [chat.almalinux.org](https://chat.almalinux.org/almalinux/channels/marketing) and ask benny for the meeting invite! Our meeting notes are kept in [Google drive](https://docs.google.com/document/d/1OK8mQSU-EucCT-VdFVOd87BECmVSXIKXkG7uhLubs9o/edit#heading=h.9ynhotw081jk).
 
 ## Activities, projects, and deliverables
 
@@ -58,13 +64,13 @@ These members share responsibilities between and among each other.
 
 We also have a variety of folks who help us with PR, social media, and website maintenance through submissions to chat or just PRs to the [website repo](https://github.com/AlmaLinux/almalinux.org).
 
-We also contract with a Publice Relations team who joins the Marketing SIG meetings
+We also contract with a Public Relations team who joins the Promo SIG meetings.
 
-# Marketing accounts
+# Promo SIG accounts
 
-Here is where we track the different accounts that marketing uses, and who has admin rights for them.
+Here is where we track the different accounts that the Promo SIG uses, and who has admin rights for them.
 
-### Various marketing-adjacent accounts
+### Other accounts
 
 - [Canva](https://canva.com) - we have a non-profit Pro teams account - benny has admin/owner rights
 
@@ -80,7 +86,7 @@ These accounts are actively monitored, updated, and managed by the SIG on a regu
 - [Twitter (x)](https://twitter.com/almalinux) - password in Vaultwarden
 - [LinkedIn](https://www.linkedin.com/company/almalinuxos/) - benny and Jack have 'owner' rights
 - [BlueSky](bsky.app/almalinux) - password in Vaultwarden
-- [Youtube](https://www.youtube.com/@AlmaLinuxOS) - benny and Jack have 'owner' rights - others (in and outside the marketing SIG) have "content manager" rights
+- [Youtube](https://www.youtube.com/@AlmaLinuxOS) - benny and Jack have 'owner' rights - others (in and outside the Promo SIG) have "content manager" rights
 - [Instagram](https://www.instagram.com/almalinuxos/) - password in Vaultwarden
 
 #### Inactive (placeholder) accounts

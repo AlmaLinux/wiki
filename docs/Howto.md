@@ -13,7 +13,6 @@ title: "Howtos"
 - [Apache Web Server](https://www.linode.com/docs/guides/install-and-use-apache-on-almalinux/)
 - [Redis](https://dev.to/inneutroncloud/how-to-install-redis-on-almalinux-8-52k)
 - [Caddy](https://orcacore.com/install-configure-caddy-almalinux-8/)
-- [WordPress with Nginx, PHP 8.1, and MariaDB](https://thishosting.rocks/how-to-install-wordpress-on-almalinux/)
 - [Java](https://linuxstans.com/how-to-install-java-almalinux/)
 
 ## Remote Desktop

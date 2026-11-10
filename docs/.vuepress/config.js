@@ -5,6 +5,8 @@ const redirects = {
   "/Election2022.html": "/foundation/elections/2022.html",
   "/election2023.html": "/foundation/elections/2023.html",
   "/Election2025.html": "/foundation/elections/2025.html",
+  "/sigs/Marketing.html": "/sigs/Promo.html",
+  "/sigs/marketing/indico.html": "/sigs/promo/indico.html",
 };
 
 module.exports = {
@@ -372,14 +374,14 @@ module.exports = {
             children: ["/sigs/infrastructure/almapeople"],
           },
           "/sigs/LiveMedia",
-          {
-            title: "Marketing SIG",
-            path: "/sigs/Marketing",
-            children: ["/sigs/marketing/indico"],
-          },
           "/sigs/MediaAndEntertainmentSIG",
           "/sigs/Migration",
           "/sigs/ProcessForCreatingNewSIG",
+          {
+            title: "Promo SIG",
+            path: "/sigs/Promo",
+            children: ["/sigs/promo/indico"],
+          },
         ],
       },
       {

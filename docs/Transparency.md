@@ -47,16 +47,16 @@ All the trademarks and assets are owned by AlmaLinux OS Foundation.
 
 Some assets were initially owned by CloudLinux, Inc, but were transferred from CloudLinux to the AlmaLinux OS Foundation.
 
-| asset                             | What needs to be done                                                                                                                                  | Status                                               |
-| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
-| almalinux.org domain              | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021                              |
-| AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation                                                             | DONE, Sublicense ID number 20210506-0001             |
-| social media accounts             | Reassign them to AlmaLinux OS Foundation.                                                                                                              | [In Progress](/Marketing.html#social-media-accounts) |
-| github almalinux account          | Already open-sourced, nothing needs to be done                                                                                                         | DONE                                                 |
-| Build/Test system                 | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3                                                               | [DONE](https://github.com/AlmaLinux/build-system)    |
-| RPM signing keys                  | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it                                  | Q3 2023: Need to come up with rules for holding keys |
-| EV certificate for Secure Boot    | We've been on an AlmaLinux owned cert since 8.8/9.2                                                                                                    | DONE                                                 |
-| Logo License for the foundation   | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed                                    | DONE - all assets in the Google drive                |
+| asset                             | What needs to be done                                                                                                                                  | Status                                                |
+| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| almalinux.org domain              | Assign the rights to AlmaLinux, in theory, we can leave the control over it to the CloudLinux IT folks, same as over the rest AlmaLinux infrastructure | DONE as of May 24, 2021                               |
+| AlmaLinux OS trademark sublicense | Request CloudLinux Foundation to re-assign AlmaLinux OS from CL to AlmaLinux OS Foundation                                                             | DONE, Sublicense ID number 20210506-0001              |
+| social media accounts             | Reassign them to AlmaLinux OS Foundation.                                                                                                              | [In Progress](/sigs/Promo.html#social-media-accounts) |
+| github almalinux account          | Already open-sourced, nothing needs to be done                                                                                                         | DONE                                                  |
+| Build/Test system                 | Work has started to open source it, but it will require some time. ETA - end of Q2 or Q3                                                               | [DONE](https://github.com/AlmaLinux/build-system)     |
+| RPM signing keys                  | Need to be "assigned" as belonging to AlmaLinux OS Foundation, need to come up with signing ceremony, who controls it                                  | Q3 2023: Need to come up with rules for holding keys  |
+| EV certificate for Secure Boot    | We've been on an AlmaLinux owned cert since 8.8/9.2                                                                                                    | DONE                                                  |
+| Logo License for the foundation   | Transfer documents, and initial acquisition document uploaded into a Logo Transfer folder, transfer document signed                                    | DONE - all assets in the Google drive                 |
 
 ## Minutes of AlmaLinux OS Foundation Board Meetings
 
@@ -70,7 +70,7 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 - Sep 08, 2026 (meeting canceled)
 - Aug 11, 2026 [Board meeting #53 minutes](https://drive.google.com/file/d/1ixwjTITyFdZsjnLwwGDFq-GhYPUUW1x3/view?usp=sharing)
 - Jul 14, 2026 [Board meeting #52 minutes](https://drive.google.com/file/d/1MbSGBku2gnelt6Bl2eTQGjgLtQb7QyFh/view?usp=sharing)
-- Jun 09, 2026 [Board meeting #51 agenda](https://docs.google.com/document/d/1PsnI4Al_GEYZo4CxUSO3eqB0fbwfMOTBSRwVf9ow2rw/edit?tab=t.0)
+- Jun 09, 2026 [Board meeting #51 minutes](https://drive.google.com/file/d/1uFXOgO7FY3EGW0eP1Zh4pRacE5aaZ9Zj/view?usp=drive_link)
 - May 12, 2026 [Board meeting #50 minutes](https://drive.google.com/file/d/1GZeK1QrBsvLm-C9TlNAkMuYNHZXKS7pa/view?usp=drive_link)
 - Apr 14, 2026 [Board meeting #49 minutes](https://drive.google.com/file/d/1qOKC6AwPoRiNU89_9_IZgJSwn8oZ-nOb/view?usp=drive_link)
 - Mar 10, 2026 [Board meeting #48 minutes](https://drive.google.com/file/d/1YcnD4ULYvxuiXY4Az10CJub2w1stnpdv/view?usp=drive_link)

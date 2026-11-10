@@ -508,7 +508,7 @@ If the system has been progressively upgraded from CentOS 7, the following issue
   GRUB_CMDLINE_LINUX="console=ttyS0,115200 console=tty0"
   ```
 
-### Upgrade from CentOS Strem 9 to CentOS Stream 10
+### Upgrade from CentOS Stream 9 to CentOS Stream 10
 
 During CentOS Stream 9 to CentOS Stream 10 upgrade the following error can appear during preupgrade/upgrade step and can also be found in the generated _/var/log/leapp/leapp-report.txt_ file:
 

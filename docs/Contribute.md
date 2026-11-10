@@ -34,7 +34,7 @@ If any of those sound interesting to you, then take a look at the list of [SIGs]
 - [Infrastructure](https://chat.almalinux.org/almalinux/channels/infrastructure)
 - [Security](https://chat.almalinux.org/almalinux/channels/security)
 - [Documentation](https://chat.almalinux.org/almalinux/channels/sigdocumentation)
-- [Marketing](https://chat.almalinux.org/almalinux/channels/marketing)
+- [Promo SIG](https://chat.almalinux.org/almalinux/channels/marketing)
 - [Web presence](https://chat.almalinux.org/almalinux/channels/www)
 
 ## Help with reporting bugs and making fixes
@@ -72,7 +72,7 @@ We want AlmaLinux to reach its users as fast as possible through a robust mirror
 
 ### 4. Promotion, blog posts, translations, and more!
 
-If you are looking to flex skills not directly involved in development, we are always looking for guest blog posts, help with translations of our website, folks to staff events, and much more! Reach out in the [Marketing](https://chat.almalinux.org/almalinux/channels/marketing) channel for more info!
+If you are looking to flex skills not directly involved in development, we are always looking for guest blog posts, help with translations of our website, folks to staff events, and much more! Reach out in the [Promo SIG](https://chat.almalinux.org/almalinux/channels/marketing) channel for more info!
 
 ### 5. More ways to help for DevOps & Programmers
 
