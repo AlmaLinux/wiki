@@ -64,6 +64,8 @@ Some assets were initially owned by CloudLinux, Inc, but were transferred from C
 
 The Board of Directors meets monthly on the second Tuesday of the month. At each meeting, the board works to keep minutes so that they can be approved as part of that meeting and shared immediately after the meeting completes. In the event that there is little to discuss, the Chair of the board may opt to cancel a meeting, allowing the board to meet every other month.
 
+- Dec 08, 2026 [Board meeting #56 agenda](https://docs.google.com/document/d/1kbMI9wGaq81guYUG2hkP8CK7A926ukxAUEUylLwHU2k/edit?tab=t.0)
+- Nov 10, 2026 [Board meeting #55 minutes](https://drive.google.com/file/d/1RHc7iH-B2Jr9k3R1tmYceJGXdacqia0l/view?usp=drive_link)
 - Oct 13, 2026 [Board meeting #54 agenda](https://docs.google.com/document/d/1qMNpIf4VTCz7J5x7W_vC1yZaj-0nUzWbLwlAfkpZmyM/edit?usp=sharing)
 - Sep 08, 2026 (meeting canceled)
 - Aug 11, 2026 [Board meeting #53 minutes](https://drive.google.com/file/d/1ixwjTITyFdZsjnLwwGDFq-GhYPUUW1x3/view?usp=sharing)
