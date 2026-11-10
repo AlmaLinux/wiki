@@ -66,7 +66,7 @@ The Board of Directors meets monthly on the second Tuesday of the month. At each
 
 - Dec 08, 2026 [Board meeting #56 agenda](https://docs.google.com/document/d/1kbMI9wGaq81guYUG2hkP8CK7A926ukxAUEUylLwHU2k/edit?tab=t.0)
 - Nov 10, 2026 [Board meeting #55 minutes](https://drive.google.com/file/d/1RHc7iH-B2Jr9k3R1tmYceJGXdacqia0l/view?usp=drive_link)
-- Oct 13, 2026 [Board meeting #54 agenda](https://docs.google.com/document/d/1qMNpIf4VTCz7J5x7W_vC1yZaj-0nUzWbLwlAfkpZmyM/edit?usp=sharing)
+- Oct 13, 2026 [Board meeting #54 minutes](https://drive.google.com/file/d/1yFcYhykZ1Zpq10vL6gXNRhwvRPbo8lKr/view?usp=drive_link)
 - Sep 08, 2026 (meeting canceled)
 - Aug 11, 2026 [Board meeting #53 minutes](https://drive.google.com/file/d/1ixwjTITyFdZsjnLwwGDFq-GhYPUUW1x3/view?usp=sharing)
 - Jul 14, 2026 [Board meeting #52 minutes](https://drive.google.com/file/d/1MbSGBku2gnelt6Bl2eTQGjgLtQb7QyFh/view?usp=sharing)
