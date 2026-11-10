@@ -1,1 +1,4 @@
 node_modules
+docs/.vuepress/dist/
+docs/cloud/AWS_AMIS.md
+docs/.vuepress/public/ci-data/aws_amis.csv
