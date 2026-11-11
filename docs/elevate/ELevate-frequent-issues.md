@@ -179,6 +179,40 @@ lrwxrwxrwx. 1 root root 32 Feb 19 17:00 /etc/resolv.conf -> /run/systemd/resolve
 
 After converting, run `leapp preupgrade` again.
 
+## The system boots the old kernel instead of the `ELevate-Upgrade-Initramfs` entry
+
+**Issue:** After `leapp upgrade` and a reboot, the system starts the regular kernel of the current OS again and the upgrade does not begin, although `leapp upgrade` has finished successfully and the `ELevate-Upgrade-Initramfs` entry is present in the GRUB menu. This affects upgrades from EL8 and EL9 based systems.
+
+**Reason:** `GRUB_DEFAULT` in `/etc/default/grub` is set to something other than `saved`, for example `GRUB_DEFAULT=0`. This is common for cloud images and hosting provider templates. Check the current setting:
+
+```bash
+grep GRUB_DEFAULT /etc/default/grub
+sudo grep -s 'set default=' /etc/grub2.cfg /etc/grub2-efi.cfg
+```
+
+**Explanation:** Leapp marks the upgrade entry as the default one by saving it into the GRUB environment (`saved_entry`). GRUB only uses the saved entry when its configuration is generated with `GRUB_DEFAULT=saved`. With any other value, for example `0`, GRUB always boots the entry the value points to, which is usually the newest installed kernel, and the upgrade entry is never selected.
+
+**Workaround:** Before running `leapp upgrade`, switch GRUB to use the saved entry and regenerate its configuration:
+
+```bash
+sudo sed -i 's/^GRUB_DEFAULT=.*/GRUB_DEFAULT=saved/' /etc/default/grub
+# UEFI systems:
+sudo grub2-mkconfig -o "$(readlink -e /etc/grub2-efi.cfg)"
+# BIOS systems:
+sudo grub2-mkconfig -o "$(readlink -e /etc/grub2.cfg)"
+```
+
+The generated configuration should now contain `set default="${saved_entry}"`.
+
+If `leapp upgrade` has already been run and the system has been rebooted into the old kernel, there is no need to run `leapp upgrade` again. Either apply the workaround above and reboot, or boot the upgrade entry once without changing the GRUB configuration:
+
+```bash
+sudo grub2-reboot "$(sudo grub2-editenv - list | sed -n 's/^saved_entry=//p')"
+sudo reboot
+```
+
+You can also select the `ELevate-Upgrade-Initramfs` entry manually in the GRUB menu on the console.
+
 ## Known issues
 
 AlmaLinux Team is working hard to get a solution for these issues. Any contribution is valuable and helps us out. If you want to help and contribute, see [how to contribute](/elevate/#how-to-contribute) information.
