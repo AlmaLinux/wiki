@@ -6,6 +6,14 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-11-12
+
+Released to Testing (CentOS 7 upgrade path):
+
+#### Leapp Repository
+
+- `leapp-upgrade-el7toel8` 0.21.0-5.elevate.6: inhibit the upgrade to an OS of a different vendor (e.g. CentOS 7 to AlmaLinux 8) when Secure Boot is enabled. The upgrade kernel is signed by the target OS vendor and is refused by the bootloader of the installed OS with the `invalid signature` error after the reboot, see [ELevate Frequent Issues](/elevate/ELevate-frequent-issues#the-upgrade-entry-fails-to-boot-with-invalid-signature-when-secure-boot-is-enabled) ([AlmaLinux/leapp-repository#159](https://github.com/AlmaLinux/leapp-repository/issues/159))
+
 ## 2026-11-04
 
 Released to Testing (the ELevate NG 0.25.0 line is promoted):
