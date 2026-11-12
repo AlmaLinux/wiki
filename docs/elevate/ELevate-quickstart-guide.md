@@ -123,6 +123,10 @@ sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/ce
 
 - A new entry in GRUB called `ELevate-Upgrade-Initramfs` will appear. The system will be automatically booted into it. See how the update process goes in the console.
 
+  :::tip
+  If the system boots the old kernel again instead of the `ELevate-Upgrade-Initramfs` entry, check the `GRUB_DEFAULT` setting. See [The system boots the old kernel instead of the ELevate-Upgrade-Initramfs entry](/elevate/ELevate-frequent-issues#the-system-boots-the-old-kernel-instead-of-the-elevate-upgrade-initramfs-entry).
+  :::
+
 - After reboot, login to the system and check how the upgrade went. Verify that the current OS is the one you need. Check logs and packages left from previous OS version, consider removing them or update manually.
 
   ```bash
