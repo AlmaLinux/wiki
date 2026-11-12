@@ -54,6 +54,10 @@ Depending on your upgrade path, you'll need one of the following systems install
 sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://el7.repo.almalinux.org/centos/CentOS-Base.repo
 ```
 
+::: warning
+If the system boots in UEFI mode with Secure Boot enabled and you are upgrading to an OS of a different vendor (for example, CentOS 7 to AlmaLinux 8), disable Secure Boot before the upgrade. Otherwise the system will not be able to boot into the upgrade environment. See [The upgrade entry fails to boot with "invalid signature" when Secure Boot is enabled](/elevate/ELevate-frequent-issues#the-upgrade-entry-fails-to-boot-with-invalid-signature-when-secure-boot-is-enabled) for details.
+:::
+
 ## Upgrade steps
 
 - A fully updated system is required to accomplish the upgrade. Install the latest updates and reboot your machine:
