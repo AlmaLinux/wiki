@@ -213,6 +213,31 @@ sudo reboot
 
 You can also select the `ELevate-Upgrade-Initramfs` entry manually in the GRUB menu on the console.
 
+## The upgrade entry fails to boot with "invalid signature" when Secure Boot is enabled
+
+**Issue:** After `leapp upgrade` and a reboot, GRUB fails to boot the `ELevate-Upgrade-Initramfs` entry on a UEFI system with Secure Boot enabled:
+
+```
+error: /vmlinuz-upgrade.x86_64 has invalid signature
+error: you need to load the kernel first
+```
+
+This affects upgrades where the target OS comes from a different vendor than the installed one, for example CentOS 7 to AlmaLinux 8.
+
+**Reason:** Secure Boot is enabled. Check the current state (install the `mokutil` package if the command is missing):
+
+```bash
+mokutil --sb-state
+```
+
+**Explanation:** The upgrade is performed by the kernel of the target OS, which is signed with the Secure Boot key of the target OS vendor. During the upgrade reboot the system is still started by the bootloader (shim) of the currently installed OS, which only trusts kernels signed by its own vendor. For example, the CentOS 7 shim does not accept a kernel signed by AlmaLinux, so the upgrade entry is rejected.
+
+Upgrades from EL8 and EL9 based systems to another distribution are stopped by `leapp preupgrade` with the "Detected enabled Secure Boot when trying to convert the system" inhibitor. The CentOS 7 upgrade path has no such check, so the problem only shows up at the reboot.
+
+**Workaround:** Disable Secure Boot in the UEFI firmware settings (or in the hypervisor settings for a virtual machine) before the upgrade. After the upgrade is finished the system uses the bootloader of the new OS, and Secure Boot can be enabled again.
+
+If the system has already been rebooted and the upgrade entry failed to boot, the installed OS is not changed: select its regular kernel in the GRUB menu to boot it, or disable Secure Boot and reboot to let the upgrade continue.
+
 ## Known issues
 
 AlmaLinux Team is working hard to get a solution for these issues. Any contribution is valuable and helps us out. If you want to help and contribute, see [how to contribute](/elevate/#how-to-contribute) information.
