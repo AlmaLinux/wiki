@@ -29,7 +29,7 @@ When you do need to change a dependency, this order keeps both files right:
 
 ## About the bot commits on your pull request
 
-Prettier formats the whole repo on every push and pull request through our [Prettier workflow](.github/workflows/prettier.yml). When it finds something to fix, the autofix.ci bot adds an "Apply Prettier format" commit to your branch. You didn't do anything wrong! Pull your branch before you push again, or you'll get a conflict.
+Prettier formats the whole repo on pull requests through our [Prettier workflow](.github/workflows/prettier.yml). When it finds something to fix, the autofix.ci bot adds an "Apply Prettier format" commit to your branch. You didn't do anything wrong! Pull your branch before you push again, or you'll get a conflict.
 
 (If you'd rather format things before the bot does, run `npx prettier --write .` from the repo root before you push.)
 
