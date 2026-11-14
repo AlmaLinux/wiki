@@ -31,6 +31,8 @@ The general process to contribute to the wiki includes these steps:
 - Commit your changes.
 - Create a pull-request to the master branch as described in the GitHub [documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
+When you open a pull request, a Prettier check formats your changes automatically. If anything needs formatting, a bot adds an "Apply Prettier format" commit to your branch, so pull your branch before you push again. The [repository README](https://github.com/AlmaLinux/wiki#readme) explains the check and how merged changes get published to the wiki.
+
 There are two ways to run the wiki locally to check your changes:
 
 **Please, note, most steps are suitable for all three Linux, Windows and macOS systems, but some commands may need some adjustments.**
@@ -106,13 +108,8 @@ Please, refer to the template in the _details_ and to this [page](/elevate/ELeva
 
   # Title of the Guide
 
-  ###### last updated: YYYY-MM-DD
-
-  or
-
-  | Experience Level   | ⭑⭑⭒⭒⭒ (Intermediate) |
-  | ------------------ | -------------------- |
-  | Last modified date | YYYY-MM-DD           |
+  | Experience Level | ⭑⭑⭒⭒⭒ (Intermediate) |
+  | ---------------- | -------------------- |
 
   ## About
 
@@ -201,32 +198,27 @@ When editing an existing page or writing a new one, we recommend you follow this
   title: " "
   ---
   ```
-- If applicable (for example, when creating a new guide), fill out the form below and place it as a table at the top of the page right after the title.
+- If applicable (for example, when creating a new guide), put the experience level table at the top of the page right after the title.
+
   | Experience Level | ⭑⭑⭒⭒⭒ (Intermediate) |
-  | ------------------ | -------------------- |
-  | Last modified date | YYYY-MM-DD |
-  - If possible, evaluate the level of skills and experience needed based on the target audience. Experience level options: Beginner, Intermediate, Advanced, Fluent and Proficient
-  - Put the last modified or updated date below the experience level. The date format should go as **YYYY-MM-DD**.
-- If using this form is not applicable here, it's preferable to write right after the page title the date when the page was last modified. Please, stick, to the following format:
+  | ---------------- | -------------------- |
+  - If possible, evaluate the level of skills and experience needed based on the target audience. Experience level options: Beginner, Intermediate, Advanced, Fluent and Proficient.
 
-  ```
-  ###### last updated: YYYY-MM-DD
-  ```
-
+- You don't need to add a "last updated" date. The wiki shows each page's last updated date automatically, based on the page's most recent commit.
 - Write the content of the page using [Markdown syntax](https://www.markdownguide.org/basic-syntax/). Some HTML elements are also allowed.
-  _ It's recommended to use clear and simple language.
-  _ It's preferable to divide the content into sections, including these basic ones:
-  _ Introduction: stating what the page is about.
-  _ Body: describing all the instructions.
-  _ Version specific directions: Remember that AlmaLinux currently more than one supported major version. If the directions differ for each release, consider dividing your instructions for each supported version into separate sections.
-  _ Known caveats: If there are any known or popular issues, write them as a separate section.
-  We encourage images in guides, but please follow the below guidelines
-  _ If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
-  _ The image name should be clear to understand and match the topic subject it's related to.
-  _ The image should not violate any trademarks or copyrights and should be relevant to the content.
-  _ The image should not contain any personal information for security reasons.
-  _ The image should be a proper size that is clear to read.
-  _ The image will serve from `/images/`, so do not change the beginning of this path.
+  - It's recommended to use clear and simple language.
+  - It's preferable to divide the content into sections, including these basic ones:
+    - Introduction: stating what the page is about.
+    - Body: describing all the instructions.
+    - Version specific directions: Remember that AlmaLinux currently has more than one supported major version. If the directions differ for each release, consider dividing your instructions for each supported version into separate sections.
+    - Known caveats: If there are any known or popular issues, write them as a separate section.
+- We encourage images in guides, but please follow these guidelines:
+  - If the page includes images, put them in the `/wiki/docs/.vuepress/public/images` directory where all images are stored.
+  - The image name should be clear to understand and match the topic subject it's related to.
+  - The image should not violate any trademarks or copyrights and should be relevant to the content.
+  - The image should not contain any personal information for security reasons.
+  - The image should be a proper size that is clear to read.
+  - The image will serve from `/images/`, so do not change the beginning of this path.
 - All the commands (even separate ones) and code blocks should be formatted as code blocks, not as inline code:
 
   ```
