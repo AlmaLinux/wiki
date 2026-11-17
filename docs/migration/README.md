@@ -48,6 +48,6 @@ Currently, the following upgrade paths are available:
 
 ![image](/images/ELevate.webp)
 
-\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 on the x86_64_v2 architecture are supported only by the ELevate NG version. If you need to perform such an upgrade for testing purposes, see the [ELevate NG Testing Guide](/elevate/ELevate-NG-testing-guide).
+\* - Upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 are also available for the **x86_64_v2** architecture variant, see [Upgrading AlmaLinux 9 to AlmaLinux 10 x86_64_v2](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-almalinux-9-to-almalinux-10-x86-64-v2).
 
 See the [ELevate](/elevate/) section for the update steps.
