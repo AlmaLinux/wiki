@@ -20,6 +20,7 @@ Released to Stable (the ELevate 0.25.0 line, released to Testing on 2026-11-04):
 - Fix CVE-2026-75092 (`scanmysql` executes the MySQL query under the `mysql` user)
 - Remove the AlmaLinux 9.7 source upgrade path
 - Repository mapping data format 2.0.0
+- CentOS 7 upgrade path (`leapp-upgrade-el7toel8` 0.21.0-5.elevate.6): inhibit the upgrade to an OS of a different vendor (e.g. CentOS 7 to AlmaLinux 8) when Secure Boot is enabled. The upgrade kernel is signed by the target OS vendor and is refused by the bootloader of the installed OS with the `invalid signature` error after the reboot, see [ELevate Frequent Issues](/elevate/ELevate-frequent-issues#the-upgrade-entry-fails-to-boot-with-invalid-signature-when-secure-boot-is-enabled) ([AlmaLinux/leapp-repository#159](https://github.com/AlmaLinux/leapp-repository/issues/159))
 
 #### Leapp Data
 
