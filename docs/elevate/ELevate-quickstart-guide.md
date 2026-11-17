@@ -34,7 +34,7 @@ Currently, the following upgrade paths are available:
 
 ![image](/images/ELevate.webp)
 
-\* - Currently, upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 on the x86_64_v2 architecture are supported only by the ELevate NG version. If you need to perform such an upgrade for testing purposes, see the [ELevate NG Testing Guide](/elevate/ELevate-NG-testing-guide).
+\* - Upgrades to AlmaLinux 10 and AlmaLinux Kitten 10 are also available for the **x86_64_v2** architecture variant, see [Upgrading AlmaLinux 9 to AlmaLinux 10 x86_64_v2](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-almalinux-9-to-almalinux-10-x86-64-v2).
 
 ::: warning
 ELevate currently does not support the [Raspberry Pi images](https://github.com/AlmaLinux/raspberry-pi/).
@@ -77,6 +77,7 @@ If the system boots in UEFI mode with Secure Boot enabled and you are upgrading 
   - leapp-data-almalinux
   - leapp-data-almalinux-kitten <small>\* leapp-data-almalinux-kitten package is designed for upgrades from AlmaLinux OS 9 to AlmaLinux Kitten OS 10.</small>
   - leapp-data-centos <small>\* leapp-data-centos package is designed for upgrades to CentOS Stream.</small>
+  - leapp-data-almalinux-x86_64_v2 and leapp-data-almalinux-kitten-x86_64_v2 <small>\* these packages are designed for upgrades from AlmaLinux OS 9 to the x86_64_v2 architecture variant of AlmaLinux OS 10 and AlmaLinux Kitten OS 10. This upgrade path requires an additional step, see [Upgrading AlmaLinux 9 to AlmaLinux 10 x86_64_v2](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-almalinux-9-to-almalinux-10-x86-64-v2).</small>
 
   ```bash
   sudo yum install -y leapp-upgrade leapp-data-almalinux
@@ -86,6 +87,10 @@ If the system boots in UEFI mode with Secure Boot enabled and you are upgrading 
 
   :::warning
   Preupgrade check will fail as the default install doesn't meet all requirements for upgrade.
+  :::
+
+  :::tip
+  On air-gapped systems, the upgrade to AlmaLinux 9, AlmaLinux 10 or AlmaLinux Kitten 10 can be performed from the target OS installation ISO: add the `--iso` option to both `leapp preupgrade` and `leapp upgrade` commands. See [Upgrading air-gapped systems using the target OS installation ISO](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-air-gapped-systems-using-the-target-os-installation-iso).
   :::
 
   ```bash
@@ -114,7 +119,7 @@ If the system boots in UEFI mode with Secure Boot enabled and you are upgrading 
     sudo leapp answer --section check_vdo.confirm=True
     ```
 
-  - There have been no widely popular fixes for RHEL9-based operating systems. The inhibitor can be unsupported x86_64_v2 hardware.
+  - There have been no widely popular fixes for RHEL9-based operating systems. The inhibitor can be unsupported x86_64_v2 hardware. In this case, upgrade to the x86_64_v2 architecture variant of AlmaLinux 10 or AlmaLinux Kitten 10 instead, see [Upgrading AlmaLinux 9 to AlmaLinux 10 x86_64_v2](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-almalinux-9-to-almalinux-10-x86-64-v2).
 
   Check the [ELevate Frequent Issues](/elevate/ELevate-frequent-issues) page for known and frequent issues and guidance steps to solve them.
 

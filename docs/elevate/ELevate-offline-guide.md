@@ -2,7 +2,7 @@
 title: "ELevate Offline Guide"
 ---
 
-###### last updated: 2026-04-09
+###### last updated: 2026-11-17
 
 # ELevate Offline Guide
 
@@ -13,6 +13,10 @@ This guide describes steps to be performed to migrate an air-gapped machine that
 
 :::tip
 If there's neither access to a private mirror nor the Internet, you'll have to use a data storage device to get local AlmaLinux and ELevate mirrors.
+:::
+
+:::tip
+When a full local AlmaLinux mirror is not required, the upgrade to AlmaLinux 9, AlmaLinux 10 or AlmaLinux Kitten 10 can be performed from the target OS installation DVD ISO image instead. See [Upgrading air-gapped systems using the target OS installation ISO](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-air-gapped-systems-using-the-target-os-installation-iso).
 :::
 
 ::: warning
