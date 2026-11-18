@@ -4,6 +4,8 @@ title: "Kitten 10"
 
 # AlmaLinux OS Kitten 10 Release Notes
 
+Read the announcement on the AlmaLinux blog: [Introducing AlmaLinux OS Kitten](https://almalinux.org/blog/2024-10-22-introducing-almalinux-os-kitten/).
+
 ###### Note: Our kitten is not related to [this one](https://github.com/HobbesOSR/kitten) :D
 
 These are the release notes for AlmaLinux OS Kitten 10 for all supported architectures:
