@@ -37,12 +37,16 @@ There are two ways to run the wiki locally to check your changes:
 
 **Please, note, most steps are suitable for all three Linux, Windows and macOS systems, but some commands may need some adjustments.**
 
-#### Install yarn
+#### Use Node.js and yarn
 
-:::tip
-For Windows and macOS, you may need to install [nodejs](https://nodejs.org/en) first.
-:::
+The wiki builds with Node.js 22 and yarn 1, which are the same versions the deploy uses. Use them on Linux, Windows and macOS alike.
 
+- Install [Node.js 22](https://nodejs.org/en/download) from nodejs.org or from your operating system's package manager.
+- Turn on yarn with corepack, which comes with Node.js 22. If the command fails with a permissions error, run it with `sudo`.
+  ```sh
+  $ corepack enable
+  ```
+  Running `yarn --version` afterward should print a 1.22 version.
 - Install necessary dependencies:
   ```sh
   $ yarn install

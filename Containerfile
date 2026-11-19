@@ -1,11 +1,11 @@
-FROM docker.io/library/node:lts-alpine AS builder
+FROM docker.io/library/node:22-alpine AS builder
 LABEL stage=auto-clean-stage1
 RUN mkdir -p /work
 COPY . /work
 WORKDIR /work
 RUN yarn 
 
-FROM docker.io/library/node:lts-alpine
+FROM docker.io/library/node:22-alpine
 # alternate node_modules directory brought from builder 
 ARG alt_node_modules=/node_modules
 ENV alt_node_modules ${alt_node_modules}
