@@ -12,7 +12,7 @@ Released to Stable (the ELevate 0.25.0 line, released to Testing on 2026-11-04):
 
 #### Leapp Repository
 
-- Update to the upstream 0.25.0-2 version, with the ELevate vendors patch rebased on [v0.25.0](https://github.com/oamg/leapp-repository/releases/tag/v0.25.0) and upstream commits synced up to [9c3f807ea918e18ba63a4b8210021399783edea2](https://github.com/oamg/leapp-repository/commit/9c3f807ea918e18ba63a4b8210021399783edea2)
+- Update to the upstream 0.25.0-2 version, with the ELevate vendors patch rebased on [v0.25.0](https://github.com/oamg/leapp-repository/releases/tag/v0.25.0) and upstream commits synced up to [9c3f807ea918d662c7f291c089f23e63f9948f4e](https://github.com/oamg/leapp-repository/commit/9c3f807ea918d662c7f291c089f23e63f9948f4e)
 - Upgrade from the target OS installation ISO (`leapp upgrade --iso`) is supported for AlmaLinux, see [Upgrading air-gapped systems using the target OS installation ISO](/elevate/ELevating-CentOS7-to-AlmaLinux-10#upgrading-air-gapped-systems-using-the-target-os-installation-iso)
 - Drop the inherited `rd.lvm.lv` kernel arguments from the upgrade boot entry: fixes the emergency shell on systems with LVM on top of MD RAID, where only the root and swap logical volumes were activated in the upgrade initramfs ([oamg/leapp-repository#1590](https://github.com/oamg/leapp-repository/issues/1590))
 - Accept custom target repositories in the basic target OS repositories check: fixes the "Cannot find required basic target OS repositories" inhibitor on systems managed by Foreman/Katello or private mirrors
@@ -52,7 +52,7 @@ Released to Testing (the ELevate NG 0.25.0 line is promoted):
 
 #### Leapp Repository
 
-- Update to the upstream 0.25.0-2 version, with the ELevate vendors patch rebased on [v0.25.0](https://github.com/oamg/leapp-repository/releases/tag/v0.25.0) and upstream commits synced up to [9c3f807ea918e18ba63a4b8210021399783edea2](https://github.com/oamg/leapp-repository/commit/9c3f807ea918e18ba63a4b8210021399783edea2)
+- Update to the upstream 0.25.0-2 version, with the ELevate vendors patch rebased on [v0.25.0](https://github.com/oamg/leapp-repository/releases/tag/v0.25.0) and upstream commits synced up to [9c3f807ea918d662c7f291c089f23e63f9948f4e](https://github.com/oamg/leapp-repository/commit/9c3f807ea918d662c7f291c089f23e63f9948f4e)
 - Upgrade from the target OS installation ISO (`leapp upgrade --iso`) is supported for AlmaLinux, see the [ELevate NG Testing Guide](/elevate/ELevate-NG-testing-guide#upgrading-air-gapped-systems-using-the-target-os-installation-iso)
 - Drop the inherited `rd.lvm.lv` kernel arguments from the upgrade boot entry: fixes the emergency shell on systems with LVM on top of MD RAID, where only the root and swap logical volumes were activated in the upgrade initramfs ([oamg/leapp-repository#1590](https://github.com/oamg/leapp-repository/issues/1590))
 - Accept custom target repositories in the basic target OS repositories check: fixes the "Cannot find required basic target OS repositories" inhibitor on systems managed by Foreman/Katello or private mirrors
