@@ -33,6 +33,21 @@ Prettier formats the whole repo on pull requests through our [Prettier workflow]
 
 (If you'd rather format things before the bot does, run `npx prettier --write .` from the repo root before you push.)
 
+## Release notes pages
+
+Each GA release notes page in `docs/release-notes/` opens with a Release highlights box, followed by a one-sentence summary of the release. The box comes from the `ReleaseHighlights` component in `docs/.vuepress/components/ReleaseHighlights.vue`. It floats beside the summary on wide screens and sits above it on phones:
+
+```md
+<ReleaseHighlights codename="Mauve Lion" released="November 16, 2026" kernel="6.12.0-264.16.1.el10_3" rhel="10.3" arches="x86_64, x86_64_v2, aarch64, ppc64le, s390x, i686 userspace" announcement="https://almalinux.org/blog/2026-11-16-almalinux_103_and_99_stable/#10-3" announcement-title="AlmaLinux OS 10.3 and 9.9 are now available">
+
+- ModSecurity returns (2.9.14 with OWASP CRS 4.22.0)
+- Podman 6.1.1
+
+</ReleaseHighlights>
+```
+
+The list inside is "What's new": 3 to 5 headline changes. Keep the blank lines around it, or it won't render as a list. Leave out any attribute you don't have, and its row is left out of the box. The release announcement on the almalinux.org blog has a matching box, so copy the codename, date, kernel, architectures, and "What's new" from it word for word. Readers and search engines then see the same facts in both places. Beta, RC, and Kitten pages don't get a box: they open with a one-line link to their blog announcement.
+
 ## Files you don't need to edit
 
 | File                                                                          | Where it comes from                                                                                                                                    |
