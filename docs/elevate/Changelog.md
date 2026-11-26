@@ -6,6 +6,19 @@ title: "ELevate Changelog"
 
 **Note**, this changelog only includes updates made from 2024-09-24 onwards, and does not include any changes made prior to this date.
 
+## 2026-11-26
+
+Released to Testing:
+
+#### Leapp Data
+
+- `leapp-data` 0.14-4.20261013 (upgrades from EL8 and EL9):
+  - Leapp data updated to the upstream state [(f58a265b498317742927826c5d5ee75e09a26e8e)](https://github.com/oamg/leapp-repository/commit/f58a265b498317742927826c5d5ee75e09a26e8e): PES events (including the 9.10 and 10.4 ones) and device driver deprecation data
+  - Vendor **MariaDB**: the `el9-mariadb-main` and `el10-mariadb-main` target repositories are switched to `dlm.mariadb.com`
+- `leapp-data` 0.6-16.20241127 (upgrades from CentOS 7):
+  - Vendor **MariaDB**: the `el8-mariadb-main` target repository is switched to `dlm.mariadb.com`
+- The Vendor **MariaDB** change fixes the upgrade failure `Failed to download metadata for repo 'el8-mariadb-main'` (`el9-mariadb-main`, `el10-mariadb-main`) on systems with the MariaDB repository enabled: the `11.rolling` and `12.rolling` series are not provided by `mirror.mariadb.org` anymore
+
 ## 2026-11-17
 
 Released to Stable (the ELevate 0.25.0 line, released to Testing on 2026-11-04):
